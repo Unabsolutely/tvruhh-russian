@@ -1,0 +1,465 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Надеюсь, мы тибе не очень сильно навридили.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тибя и твои обнимашки!|norm||L||!|Мы поможем тибе любить завтра ищё больше!",
+		}
+	],
+	
+	"came_back_intro" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы вирнулись!|L||!|И ты не разбила сердце!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "У тибя должны быть очень хорошие дары!|L||!|Мы убидимся, что они будут у тибя завтра!",
+		}
+	],
+	
+	"capacity" 		: "Ёмкость",
+	"list_title1"	: "Связь Синапса Смятки",
+	"list_title2"	: "Дары у [NAME]",
+
+	"op_storage"	: "Хранилище даров",
+	"op_upgrade"	: "Расширить хранилище",
+	"op_hold"		: "Вернись позже",
+	"op_leave"		: "Уйти",
+	
+	"storage_text"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Мы сохраним твои дары на потом в нашей |C3|увязке синапса!|C0|",
+	},
+	"upgrade_text"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Мы можем расширить |C3|увязку синапса|C0|, приминив парочку этих |C3|ярких триугольничков!|C0|",
+	},
+	"hold_text"			: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Мы можем вирнуться после твоей битвы с |C3|финальным монстром!",
+	},
+	"hold_ready"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+		"dialog"	: "Мы вирнёмся позже!|L|Пообищай нам, что не разобьёшь сердце!",
+	},
+	"leave_text"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Мы обнимим и скажем пока!|L|И потом ещё обнимим.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+		"dialog"	: "Тибе уже пора идти?",
+	},
+	
+	"storage_delete"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+		"dialog"	: "Мы можем убрать этот дар и освободить место для других, но он исчезнит.",
+	},
+	"delete_confirm"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+		"dialog"	: "Уверина, что хочишь удалить этот дар?",
+	},
+	"storage_add"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Дай нам дар, и мы положим его в |C3|увязку синапса.|C0|",
+	},
+	"storage_full"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_despair"],
+		"dialog"	: "Наша |C3|увязка синапса|C0| заполнина!|L|Нужно что-то удалить и освободить место!",
+	},
+	
+	"comment_starter"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+		"dialog"	: "Этот дар для тибя сейчас слишком сильно важен.",
+	},
+	"comment_link"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+		"dialog"	: "Ты достала этот дар с утра!|L|Если его вирнуть, будет парадокс...|L|От которого всиленная взорвётся!",
+	},
+	"comment_one"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Какой хороший дар!",
+	},
+	"comment_two"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Какой |wave|приятный|norm| дар!",
+	},
+	"comment_three"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "|wave|Оох!|norm||L|Это же чудесный дар!",
+	},
+	"comment_TAG_scrambla_fav"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+		"dialog"	: "|shake|Обещаем, что ни съидим его!",
+	},
+	"comment_TAG_boiler_fav"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Это любимая еда систрицы Варки.",
+	},
+	"comment_TAG_scrambla_part"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "|wave|Это кусочик нас!",
+	},
+	"comment_TAG_boiler_part"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+		"dialog"	: "Надеимся, что у систрицы Варки всё хорошо.",
+	},
+	"comment_I_link_synapse"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Ни волнуйся, |wave|это просто нибольшой парадокс!",
+	},
+	"comment_duplicate"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Оо! Ты нашла эту копию сигодня?|L|Их можно хранить бизопасно.",
+	},
+	"comment_over"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+		"dialog"	: "Это дар слишком сильный, чтобы его можно было вмистить.",
+	},
+	"comment_type"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+		"dialog"	: "У этого дара ниправильная форма!|L|Мы ни можем его взять.",
+	},
+	"store_confirm"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Хочешь, чтобы мы сохранили этот дар?",
+	},
+	
+	"gift_stored" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы сохранили этот дар!|L|Он будит ждать тибя завтра!",
+		}
+	],
+	"unradiated_stored" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы сохранили этот дар!|L||!|Он будит ждать тибя завтра!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Ох!      Он ни был освищён.|L||!|Ты помнишь, что это было?",
+		}
+	],
+	
+	"upgrade_to_2" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем расширить нашу |C3|увязку синапса|C0|, чтобы содиржать до |C3|2 звёзд силы!|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "Нам нужно где-то |C3|6 ярких триугольничков|C0| любых цветов.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Можешь дать нам любые цвита, но эти |C3|зилёные особенно вкусные!|C0|",
+		}
+	],
+	"upgrade_to_3" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем расширить нашу |C3|увязку синапса|C0|, чтобы содиржать до |C3|3 звёзд силы!|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "Нам нужно где-то |C3|12 ярких триугольничков|C0| любых цветов.",
+		}
+	],
+	"upgrade_to_4" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем расширить нашу |C3|увязку синапса|C0|, чтобы содиржать до |C3|4 звёзд силы!|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "Нам нужно где-то |C3|24 ярких триугольничка|C0| любых цветов.",
+		}
+	],
+	"upgrade_to_5" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем расширить нашу |C3|увязку синапса|C0|, чтобы содиржать до |C3|5 звёзд силы!|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "Нам нужно где-то |C3|40 ярких триугольничков|C0| любых цветов.",
+		}
+	],
+	"upgrade_to_6" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем расширить нашу |C3|увязку синапса|C0|, чтобы содиржать до |C3|6 звёзд силы!|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Но мы почти достигли придела.|L||!|После этого ми ни сможем расширять |C3|увязку синапса|C0| дальше.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "А ищё нам нужно |C3|7 редких радужных триугольничков!|C0|",
+		}
+	],
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Эти зилёные самые вкусные!|L||C3|Они дают нам больше силы!",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Красные тёплые и очинь жгучие.|L|Систрёнка никогда не скажит, но |wave|она любит их!",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+		"dialog"	: "Жёлтые хорошо пахнут, но у них ниту никакого вкуса.",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+		"dialog"	: "Синие издают тихое гудение.|L|Можишь его услышать?",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Оранживые такие мягкие.|L|Нам нравится класть на них своё лицо.",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+		"dialog"	: "Ааа! Эти такие холодные!",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+		"dialog"	: "Ооо!|L|Вот эти такие красивые!",
+	},
+	"upgrade_confirm"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Мы используем эти |C3|яркие триугольнички|C0| на улучшение?",
+	},
+	
+	"first_upgrade" 	: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+			"dialog"			: "Ах да,      мы чуть ни забыли...|L||!|Кои-что очень важное.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить это улучшение.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Да, нам нужны обнимашки, чтобы это сделать.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Ура!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Наша |C3|увязка синапса|C0| теперь вмищает ещё одну звизду силы!",
+		}
+	],
+	"middle_upgrade" 	: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить это улучшение.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Ура!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Наша |C3|увязка синапса|C0| теперь вмищает ещё одну звизду силы!",
+		}
+	],
+	"final_upgrade" 	: [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "green_scene_music",
+			"bg_image"			: "spr_scene_scrambla_bg",
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить это улучшение.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Ура!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Наша |C3|увязка синапса|C0| теперь вмищает шесть звёзд силы!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "Мы ни сможем расширять нашу |C3|увязку синапса|C0| дальше.",
+		},
+		{
+			"play_music"		: "scene_music_b",
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "Нам нужно кои-что сказать...|L||!|Мы знаим, что сделали плохо раньше.|L||!|До этого мы ранили тибя много раз.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "Мы сделаны из стыда и должны это признать...",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "Нам ни были нужны никакие обнимашки для заряда улучшений.|L||!|Нам просто нравятся обнимашки.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_despair"],
+			"dialog"			: "Мы украли твои обнимашки!|L||!|Нам нит прощения!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"play_music"		: "silence",
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "..!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Ты всё равно простишь нас?",
+		},
+		{
+			"play_music"		: "green_scene_music",
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Зарадена такая приятная!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тибя!",
+		}
+	],
+	
+	"come_back" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы можем вирнуться позже,   но нам нужна энергия, чтобы |C3|увязка синапса|C0| осталась открытой дольше.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "Нам нужно где-то |C3|6 ярких триугольничков|C0|, чтобы оставить её открытой.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+			"dialog"			: "Но ты должна пообищать, что ни разобьёшь сердце до нашего возвращения.",
+		}
+	],
+	
+	"come_back_confirm"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "Дашь нам эти |C3|яркие триугольнички?|C0|",
+	},
+	
+	"come_back_ready" 		: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Окее! Это удержит нашу |C3|увязку синапса|C0| открытой до конца этого дня.",
+		}
+	],
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Обнимешь меня на дорогу?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|shake|Дя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тибя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		}
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
+			"dialog"			: "|shake|Ты правда обнимишь нас?!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Обязательно, Смятка.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Ну,   если ты настаиваешь.|L||!|В конце концов, мои объятия совершенны.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "|shake|О, групповые обнимашки!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
+			"dialog"			: "Это было здорово...",
+		}
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Любим тебя, Смятка!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "Иди-ка сюда, сейчас же.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Двойные обнимашки!|L||!||wave|Мы любим вас!",
+		}
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "До скорого, Смятка.|L||!|Держи свои клыки востро, ладно?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тибя!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+			"dialog"			: "Обнимашки поцарапали тибя!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Незачем волноваться.|L||!|Крови даже совсем не видно.",
+		}
+	],
+	
+	"leave_default" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|shake|Обнимашки! Уря!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Окее, пока.",
+		},
+	],
+
+}

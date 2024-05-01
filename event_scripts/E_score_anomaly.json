@@ -1,0 +1,347 @@
+{
+
+	"anomaly_intro" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_scene_raining_cave",
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я наблюдала за тобой.|!||L|Изучала твои действия.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Ну,     я не способна тебя увидеть.|!||L|Если у тебя вообще есть видимое обличье.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Ах, значит у тебя тоже нет крыльев.|!||L|Или    есть?",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Понятие бескрылых для тебя неизвестно.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Пусть и оно к тебе вполне приемлемо.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я знаю, что наше взаимодействие сильно ограничено.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Ты смотришь на эту вселенную издалека, и под необычным углом.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Нить была создана Зараденой и кем-то из твоего рода.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Ах, теперь я вижу много нитей.|!||L|Тебя тут так много.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Простая известность может создать эти нити.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Тебе, должно быть, интересно, кто я?",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Полагаю, что приблизительный ответ - то, что вы обычно называете \"Бог\".",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Мне интересны эти Зарадены и монстры, так же как и тебе.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "И так же как ты, я очень ограничена в своём взаимодействии с этим миром.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Можно сказать, я гарантирую, что Карма оказывает влияние на мир вне снов.",
+		},
+		{
+			"play_music"		: "scene_music_b",
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Они так много любят.|!||L|И они получат любовь взамен.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Им так повезло иметь тебя.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Надеюсь, ты это понимаешь.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Той, кто держит Сердце, представилась редкая возможность.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Она нашла время, чтобы поспать самой.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я могу даровать ей приятный сон прямо сейчас, если ты пожелаешь.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Пусть это сослужит перерывом от нескончаемых кошмаров, через которые она проходит.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Но я позволю тебе решить, есть ли этому сегодня время.",
+		},
+	],
+
+	"intro" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Сейчас она отдыхает, ведь ей это очень нужно.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Ей очень повезло найти подходящий момент.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я могу даровать ей приятный сон, если ты пожелаешь.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Пусть это сослужит перерывом от нескончаемых кошмаров, через которые она проходит.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Но я позволю тебе решить, есть ли этому сегодня время.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Аномалии",
+	
+	"op_start"		: "Даруй ей сон",
+	"op_leave"		: "Не сегодня",
+	
+	"comment_start"		: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Мечтать?",
+	},
+	"comment_leave"		: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Или не мечтать?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Не мечтать?",
+	},
+	
+	"start_battle" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Прекрасно.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Доверюсь тебе в этом вопросе.",
+		},
+	],
+	
+	"no_battle" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Понятно.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Должно быть, ты хочешь, чтобы этот день закончился скорее.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "В таком случае могу лишь пожелать удачи.",
+		},
+	],
+	
+	"return_intro" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Тебе и правда удалось создать с ней особую связь.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "С твоей помощью она смогла извлечь из меня |C3|[VAL1] частиц|C0|.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Ты - экстраординарный партнёр для неё.",
+			"dialog_rand2"		: "Ты - феноменальный партнёр для неё.",
+			"dialog_rand3"		: "Ты - исключительный партнёр для неё.",
+			"dialog_rand4"		: "Ты - восхитительный партнёр для неё.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я оставлю рядом с ней дары, которые ты выберешь.",
+		},
+	],
+	
+	
+	"comment_take_first"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Выбирай на свой вкус.",
+	},
+	"comment_take_another"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Выбери ещё один дар.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "Таким будет твой выбор?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "У тебя такая сильная связь.",
+			"dialog_rand2"		: "Знаю, она для тебя многое значит.",
+			"dialog_rand3"		: "У тебя такая привязанность к ней.",
+			"dialog_rand4"		: "Межпространственные связи, как у тебя - большая редкость.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Можешь взять ещё один дар.",
+			"dialog_rand2"		: "Я предлагаю ещё один дар.",
+			"dialog_rand3"		: "Я дам тебе ещё один дар.",
+		}
+	],
+	
+	
+	"leave_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
+			"dialog"			: "Какой же прекрасный был сон.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "О! Откуда это тут взялось?|!||L|Это для меня?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Тут кто-нибудь есть?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Эмм... Я    люблю тебя.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "Просто на случай,     если есть    кому услышать.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_serious2"],
+			"dialog"			: "Я не заслуживаю этого.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Просыпайся, дорогая.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Похоже, мои бесценные фанаты оставили нам подношение.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Это для нас?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "Синяя, ты такая популярная!",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "Прошу, не уходи.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_serious2"],
+			"dialog"			: "Солнышко, я никуда не ухожу.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "Ты что-то говорила?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "О чём?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Кто оставил дар на мне?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "Не знаю. Я спала.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Но всё идёт по плану.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "У меня так хорошо получается ломать.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Это был забавный сон.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "О! Кто оставил это здесь?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Очевидно, это ещё одно подношения для меня,    Дьявола.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Я желаю тебе удачи.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+	],
+
+}

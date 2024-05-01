@@ -1,0 +1,146 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
+			"dialog"			: "О да-",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "Ты же искала больше монстров, верно?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"random"			: 4,
+			"dialog_rand1"		: "Тогда у меня для тебя есть то что надо!",
+			"dialog_rand2"		: "Тогда пусть это осветит твой день!",
+			"dialog_rand3"		: "Тогда позволь мне пролить свет на тебя в этот пасмурный день!",
+			"dialog_rand4"		: "Я сделала тебе кое-что полезное для такого случая!",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Гелиолы",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+		"dialog"	: "Никто не способен устоять перед моим манящим светом!",
+	},
+	"comment_take_bonus"	: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_normal"],
+		"dialog"	: "Ох, возьмёшь вместо него вот это?",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+		"dialog"	: "Ты правда это хочешь?",
+	},
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "Но будь осторожна, звёздочка.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "Иногда он привлекает очень большую толпу.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Не беспокойся.|L||wave|Именно это мне и нужно!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
+			"dialog"			: "Я хочу быть такой же, как ты.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Вряд ли со мной от этого что-то сильно изменится.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"dialog"			: "Как ты так хорошо справляешься со своей популярностью, звёздочка?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Нельзя \"справиться\" с существованием притяжения.|!||L|Нужно просто принять его неотвратимость.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
+			"dialog"			: "Понятно.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Я просто прячусь за ней.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Ты сделала это     для меня?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "Да, я сделала это для тебя, |wave|Солнышко!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "Не терпится дождаться нашей следующей встречи!|L||!||wave|Пока, Солнышко!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|Ох, ээ-      |L||norm|Пока.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious"],
+			"dialog"			: "Похоже, это слишком легко.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Знаю, может быть страшно находиться в центре внимания-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Но я скажу тебе, что ты была прямо создана для этого!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
+			"dialog"			: "Ты правда так думаешь, звёздочка?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "А тебе начинает нравиться внимание, не правда?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "Немножко.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "Хорошо, согласна, |wave|мне это нравится.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_normal"],
+			"dialog"			: "Надеюсь, что это сделает твой день чуточку ярче.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "|wave|Не терпится встретиться с тобой снова!",
+		},
+	],
+
+}

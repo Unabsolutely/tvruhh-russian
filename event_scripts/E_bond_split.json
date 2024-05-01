@@ -1,0 +1,736 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Не хочешь поиграть с нами?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|Shake|Е-е-ей!|norm| Мы хотим играть!",
+		},
+	],
+	
+	"monster_mood"		: "Настроение Веералей",
+	"monster_stuff"		: "[VAL1] Веералей",
+	
+	"op_game"		: "Пойти играть",
+	"op_next_game"	: "Сыграть ещё раз",
+	"op_devil"		: "Сделка с Дьяволом",
+	"op_hug"		: "Обнять Веералей",
+	"op_pet"		: "Погладить Веералей",
+	"op_sleep"		: "Вздремнуть",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Ты ведь поиграешь с нами, да?",
+	},
+	"comment_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Сыграй с нами ещё раз.",
+	},
+	"comment_streak"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Да ты в ударе!",
+	},
+	"comment_sad"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Мы слишком усложнили последнюю игру?",
+	},
+	
+	"to_minigame_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Мы знали, что ты согласишься!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Тогда готовимся!",
+		},
+	],
+	"to_minigame_first_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Синяя, иди к нам!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Похоже, в этот раз я буду на противоположной стороне, моя Дефект.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Всё в порядке. Присоединяйся к ним.",
+		},
+	],
+	"to_minigame" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Мы подготовим игру.",
+			"dialog_rand2"		: "Пошли готовиться.",
+			"dialog_rand3"		: "Ну же, пошли!",
+			"dialog_rand4"		: "Будет так весело!",
+		},
+	],
+	
+	"start_swap" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра называется |C3|Вееральная Подмена!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Следи за Веералью с |C3|белым глазом|C0| и укажи на неё, когда мы все перемешаемся.",
+		},
+	],
+	"start_blink" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра называется |C3|Вееральные Жмурки!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Наблюдая за тем, как мы моргаем, сосчитай, сколько из нас будут с [VAL1].",
+		},
+	],
+	"start_blink2" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра будет непростой.|L|Мы называем её |C3|Вееральные Жмурки!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Постарайся запомнить все увиденные цвета.|L|Мы можем спросить насчёт любого из них.",
+		},
+	],
+	"start_peek" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра называется |C3|Вееральные Гляделки!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Наблюдая за тем, как мы выходим из укрытия, сосчитай, сколько из нас будут с [VAL1].",
+		},
+	],
+	"start_peek2" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра будет непростой.|L|Мы называем её |C3|Вееральные Гляделки!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Постарайся запомнить все увиденные цвета.|L|Мы можем спросить насчёт любого из них.",
+		},
+	],
+	"start_rain" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Игра называется |C3|Дождь Веералей!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Не перепутай с хм... Дождём Веералей.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Сосчитай всех пролетевших мимо Веералей с [VAL1].",
+		},
+	],
+	
+	"comment_swap_choose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "У какой Веерали |C3|белый глаз?|C0|",
+	},
+	"comment_type_count"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Скольких Веералей с [VAL1] ты увидела?",
+	},
+	"comment_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Е-е-ей!",
+	},
+	"comment_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+		"dialog"	: "|shake|О нет!",
+	},
+	
+	"you_win" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ты угадала!",
+		},
+	],
+	"you_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Прости, неправильный ответ.",
+		},
+	],
+	"blue_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Я знаю, что прошу о невозможном, когда говорю выбрать не меня.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Но увы, я просто неправильный ответ в этой ситуации.",
+		},
+	],
+	
+	"after_another_game" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Сыграем ещё раз?",
+		},
+	],
+	"after_streak_3" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Три победы подряд!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Ты в этом так хороша.",
+		},
+	],
+	"after_streak_4" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Не могу поверить в то, что ты выиграла во всех наших играх.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Скорее всего нам следует усложнить их к следующему разу.",
+		},
+	],
+	"after_first_loss" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Мы постоянно создаём тебе трудности.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Мы поймём, если ты больше не хочешь играть с нами.",
+		},
+	],
+	"after_no_comfort_loss" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Эмм, ты не должна играть с нами, если не хочешь.",
+		},
+	],
+	
+	
+	
+	"comfort_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Но почему?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Эй, мне всё равно весело.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Правда?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Не нужно всегда побеждать, чтобы получать удовольствие.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "И я не думаю, что забыла хотя бы об одном из вас.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Е-е-е-ей!",
+		},
+	],
+	"comfort_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "Хотя проиграла я, грустно именно вам?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Может, ты больше не захочешь с нами играть.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "Я постоянно проигрываю, глупышки.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Вы ведь не ненавидите меня каждый раз, когда я побеждаю, не так ли?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ой, ты права!",
+		},
+	],
+	"comfort_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "Я не зла лишь потому, что проиграла в игре.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Правда?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Кроме того, моя сестра даже не обращает внимания.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "Смотри сколько Веералей я ещё должна погладить!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Это очень важное дело.",
+		},
+	],
+	"comfort_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "Вы только что победили Дьявола...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Прости нас.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "Прости?!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Да вы достигли невозможного!|L||!|Вам следует гордиться этим!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ну если посмотреть с такой стороны-",
+		},
+	],
+	"comfort_default" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	
+	
+	"hug_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Понадобится немало времени, чтобы подойти к каждой из нас.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_aggressive"],
+			"dialog"			: "Это жертва, которую я готова принести.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Меня следующей!",
+		},
+	],
+	"hug_defect" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Почему ты обняла меня?|L|Ты можешь сделать это в любое время.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Просто я очень люблю тебя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Оу.",
+		},
+	],
+	"hug_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive2"],
+			"dialog"			: "Веерали, навалитесь на Солнышко!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Е-е-е-ей!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Постойте!",
+		},
+	],
+	"hug_devil" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ты так тепла.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Все, присоединяйтесь к Вееральному валу!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Тепло!",
+		},
+	],
+	"hug_default" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	
+	
+	"pet_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Можно тебя погладить?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Если холод не оттолкнёт тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Приятно...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Такая мягкая и вязкая.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Мы сделаны из идеального материала!",
+		},
+	],
+	"pet_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Я хочу кое-что проверить.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Приятно...",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Все вы холоднее, чем Синяя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Это потому, что я делюсь частью своего холода с тобой, милая.",
+		},
+	],
+	"pet_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "Солнышко, начни с той стороны!|L|А я с этой.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Приятно...",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_happy"],
+			"dialog"			: "Не волнуйтесь, мы погладим каждого из вас.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Е-е-ей!",
+		},
+	],
+	"pet_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "На ощупь как вязкий кубик льда.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Я ведь не куб.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Не, как круглый куб.|L||!|Как их там называют?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Снежок!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Не-не, как-то по-другому.",
+		},
+	],
+	"pet_default" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	
+	"to_devil_deal" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Как насчёт небольшой Сделки с Дьяволом?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Звучит весело!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Если я выиграю в этой игре, то вы отдадите мне свои души.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Но если я проиграю,     ух... чего вы хотите?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ты должна будешь поцеловать каждого из нас!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "Но    мои губы станут потрескавшимися!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "Уфф, ладно. Тогда сделка заключена!",
+		},
+	],
+	"devil_deal_win" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Ха! Теперь все вы должны присоединиться к моей группе!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ееей!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Но,     о чём ты?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Однажды, Дьявол призовёт вас-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "И вместе мы |shake|потрясём мир!|norm|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ееей, что бы там ни было!",
+		},
+	],
+	"devil_deal_lose" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "|C3|Мффф",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Так вот что такое поцелуй!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Моим губам очень холодно.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
+			"dialog"			: "Чтож, кто следующий?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Моя очередь!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "|C3|Мффф",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Да уж, это займёт вечность.",
+		},
+	],
+	
+	
+	
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Мы знаем, что тебе пора идти.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Ты не можешь играть с нами целый день.",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ой, перед уходом мы должны тебе кое-что отдать!",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Бери, что хочешь.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Почему я не помню, что это такое?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Хочешь забрать его?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Ты совсем ничего не хочешь?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Хороший выбор.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Мы хотим, чтобы ты взяла ещё.",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Мы знали, что ты выберешь его.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Пожалуйста, возьми ещё!",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Надеемся, тебе он понравился!",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_common_text",
+	"to_sleep_defect"	: "bonding_common_text",
+	"to_sleep_twins"	: "bonding_common_text",
+	"to_sleep_devil"	: "bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Можешь поспать прямо здесь, хорошо?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Ееей, мы скоро тебя разбудим.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Было очень весело.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я тебя люблю!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Спасибо, что поиграла с нами!",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Нам было весело с тобой!|!||L||wave|Пока-пока, Синяя!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Вернусь к моей идеальной половинке.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "С возвращением.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "Время специальной награды для вас!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Веерали, навалимся на Солнышко!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Постойте!",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Спасибо, что поиграла с нами.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Еее, было весело!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Всегда готова, маленькие леди.",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Спасибо, что поиграла с нами!",
+		},
+	],
+
+}

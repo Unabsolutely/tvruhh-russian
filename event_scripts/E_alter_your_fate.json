@@ -1,0 +1,603 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Изменишь ли ты сегодня свою судьбу?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я могу увеличить твои возможные частицы и помочь получить больше очков.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|У тебя так много подношений.",
+			"dialog_rand2"		: "|wave|Но постарайся не жадничать.",
+			"dialog_rand3"		: "|wave|Я могу сделать всё более сложным.",
+		},
+	],
+	
+	"event_level"	: "Иной Уровень [VAL1]",
+	"total_roses"	: "Всего Розовых медалей",
+	
+	"mood_title"	: "Сила Бездны",
+	"monster_gifts"	: "Дары Бездны",
+	"player_gifts"	: "Дары у [NAME]",
+
+	"op_alter"			: "Изменить судьбу",
+	"op_sacrifice"		: "Пожертвовать",
+	"op_upgrade"		: "Улучшения",
+	"op_leave"			: "Уйти",
+	"op_dont_leave"		: "Ещё нет",
+	
+	"op_gifts"			: "Взять дары",
+	"op_battles_1"		: "Ещё 1 битва",
+	"op_battles_2"		: "Ещё 2 битвы",
+	"op_battles_3"		: "Ещё 3 битвы",
+	"op_added"			: "Битва добавлена",
+	
+	"op_give_panic"		: "Отдать паники",
+	"op_give_health"	: "Отдать здоровье",
+	"op_give_gifts"		: "Отдать дары",
+	
+	"op_power"			: "Максимум силы",
+	"op_quicks"			: "Быстрые дары",
+	"op_bonuses"		: "Бонусные дары",
+	"op_tetrids"		: "Дары тетридов",
+	
+	
+	"comment_alter"			: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Сделай пару подношений, и я смогу изменить твою судьбу.",
+	},
+	"comment_sacrifice"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Твои подношения дадут мне силу.",
+	},
+	"comment_upgrade"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я могу использовать силу |C3|тетридов|C0|, чтобы изменить твою судьбу ещё больше.",
+	},
+	"comment_max_level"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Моя сила достигла своего предела.",
+	},
+	"comment_leave_none"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я не заставляю тебя менять судьбу.",
+	},
+	"comment_leave_extra"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Наслаждайся своей новой судьбой.",
+	},
+	"comment_leave_warning"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Ты и правда уходишь?",
+	},
+	
+	
+	
+	"comment_low_panic"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "У тебя недостаточно паник для достойного подношения.",
+	},
+	"comment_give_panic"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Я возьму все твои |C3|панические атаки|C0| в качестве подношения.",
+	},
+	"comment_give_panic_high"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "У тебя сегодня много |C3|панических атак|C0|.|L|Я возьму их все.",
+	},
+	"comment_panic_given"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Разве не приятно наконец отпустить всю свою панику?",
+	},
+	"comment_low_health"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "У тебя недостаточно здоровья для достойного подношения.",
+	},
+	"comment_half_hp_error"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Лучше дай мне свои |C3|дары укрепления защиты|C0| вместо этого.",
+	},
+	"comment_give_health"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Я приму |C3|половину твоей полосы здоровья|C0| в качестве подношения.",
+	},
+	"comment_give_health_high"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "У тебя сегодня такая длинная полоска здоровья.|L|Думаю, я возьму себе её |C3|половину|C0|.",
+	},
+	"comment_health_given"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Так много тебе всё равно не нужно.",
+	},
+	"comment_cant_gifts"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Как насчёт сначала дать что-нибудь другое?",
+	},
+	"comment_give_gifts"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Ты можешь пожертвовать мне свои дары.",
+	},
+	
+	
+	
+	"comment_gifts"			: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "У меня есть дары, способные поменять твою судьбу.",
+	},
+	"comment_no_gifts"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "У меня для тебя ничего не осталось.",
+	},
+	"comment_extra_battles_1"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я могу изменить твою судьбу, добавив |C3|ещё одну битву|C0| в сегодняшний день.",
+	},
+	"comment_extra_battles"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я могу изменить твою судьбу, добавив |C3|ещё [VAL1] битвы|C0| в сегодняшний день.",
+	},
+	"comment_added_battles_1"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Когда ты уйдёшь отсюда, в твою судьбу будет добавлена |C3|ещё одна битва|C0|.",
+	},
+	"comment_added_battles"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Когда ты уйдёшь отсюда, в твою судьбу будут добавлены |C3|ещё [VAL1] битвы|C0|.",
+	},
+	"comment_cant_add_battle"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Для этого мне нужно больше силы.",
+	},
+	
+	"battle_confirm"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Изменишь ли ты свою судьбу?",
+	},
+	"panic_confirm"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Отдашь мне все свои паники?",
+	},
+	"health_confirm"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Отдашь мне половину максимального здоровья?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Уходишь?",
+	},
+	
+	"panics_given" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Разве не приятно наконец отпустить всю свою панику?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "|wave|Она тебе всё равно не была нужна.",
+		},
+	],
+	"a_lot_of_panics_given" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Разве не приятно наконец отпустить всю свою панику?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+			"dialog"			: "Что?     Ты ожидала, что получишь за это больше силы?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "А не слишком ли мы жадные?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Спорю, что у тебя сейчас есть много |C3|даров панических атак|C0|, которые теперь можно пожертвовать.",
+		},
+	],
+	"health_given" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Какое достойное подношение.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Ничего плохого не случится, если не получать урон.",
+		},
+	],
+	"battle_added" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Твоё будущее было сдвинуто в сторону большего числа битв и большей любви.",
+			"dialog_rand2"		: "Теперь тебе предначертано ещё больше встреч с монстрами.",
+			"dialog_rand3"		: "В твоём будущем станет больше любви.|L||!|Если ты переживёшь дополнительные битвы.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"random"			: 3,
+			"dialog_rand1"		: "Ты, должно быть, любишь испытания.",
+			"dialog_rand2"		: "Уже приняв это испытание, ты доказала свою силу.",
+			"dialog_rand3"		: "Больше монстров значат, что можно извлечь больше частиц.",
+		},
+	],
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Можешь взять этот дар.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Бери это на свой страх и риск.",
+	},
+	"comment_take_karma"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Сегодня ты получила много тетридов из даров.|L|Я не смогла найти для тебя больше.",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Для этого нужно пожертвовать ещё.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "У тебя это не поместится.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Уверена насчёт этого?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Ты получила это за свою жертву.",
+			"dialog_rand2"		: "Твоя судьба была изменена.",
+			"dialog_rand3"		: "Пусть течение судьбы повернёт в твою сторону.",
+			"dialog_rand4"		: "Твоя судьба в твоих руках.",
+		}
+	],
+	"tetrid_taken" 		: [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Какой красивый счёт.",
+			"dialog_rand2"		: "|wave|Только посмотри на свою гору частиц.",
+			"dialog_rand3"		: "Каждая частичка на счету.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Я приму это подношение.",
+	},
+	"comment_give_traded"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Ты уже обменялась с кем-то за этот дар, и всё равно хочешь его пожертвовать?",
+	},
+	"comment_give_panic_error"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "Прежде чем это станет достойным подношением, тебе нужно отдать все свои |C3|панические атаки|C0|.",
+	},
+	"comment_give_rank_error"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "У тебя сегодня так много |C3|Чудесных даров|C0|.|L|Давай начнём с одного из них.",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_angry"],
+		"dialog"	: "Из этого не выйдет достойной жертвы.",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Тебе предначертано сохранить это.|L|Я не могу это взять.",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Отдашь этот дар?",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"random"			: 7,
+			"dialog_rand1"		: "Возможно, ты для себя всё усложняешь.",
+			"dialog_rand2"		: "Я приму это подношение.",
+			"dialog_rand3"		: "Тебе наверняка это не было нужно.",
+			"dialog_rand4"		: "Остаток дня может стать сложнее.",
+			"dialog_rand5"		: "Не пожалей о своём решении.",
+			"dialog_rand6"		: "Твоя судьба такая гибкая.",
+			"dialog_rand7"		: "Посмотрим, насколько хорошо ты теперь приспосабливаешься.",
+		},
+	],
+
+
+
+
+	
+	"comment_upgrade_power"			: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я могу изменить твою судьбу с |C3|[VAL1] единицами силы,|C0| но с помощью тетридов это можно увеличить.",
+	},
+	"comment_upgrade_power_maxed"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "Я могу изменить твою судьбу с |C3|[VAL1] единицами силы.|C0||L|Это мой абсолютный предел.",
+	},
+	
+	"comment_upgrade_quicks"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "У меня может быть до |C3|[VAL1] Быстрых даров|C0| для тебя, но за парочку тетридов я всегда могу принести ещё один.",
+	},
+	"comment_upgrade_quicks_maxed"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "У меня всегда будет |C3|[VAL1] Быстрых даров|C0| для тебя на выбор.",
+	},
+	
+	"comment_upgrade_bonuses_0"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "С помощью силы тетридов я смогу приносить для тебя |C3|Бонусный дар|C0|.",
+	},
+	"comment_upgrade_bonuses_1"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "У меня есть |C3|1 Бонусный дар|C0| для тебя, но за парочку тетридов я всегда могу принести ещё один.",
+	},
+	"comment_upgrade_bonuses"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "У меня может быть до |C3|[VAL1] Бонусных даров|C0| для тебя, но за парочку тетридов я всегда могу принести ещё один.",
+	},
+	"comment_upgrade_bonuses_maxed"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "У меня всегда будет |C3|[VAL1] Бонусных даров|C0| для тебя на выбор.",
+	},
+	
+	"comment_upgrade_tetrids_0"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Я могу увеличить твой счёт, принеся тебе |C3|Бонусный дар тетридов,|C0| но для этого мне будет нужно много силы тетридов.",
+	},
+	"comment_upgrade_tetrids_1"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "У меня есть |C3|1 Бонусный дар тетридов|C0| для тебя, но я всегда могу принести ещё один.",
+	},
+	"comment_upgrade_tetrids"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "У меня может быть до |C3|[VAL1] Бонусных даров тетридов|C0| для тебя, но я всегда могу принести ещё один.",
+	},
+	"comment_upgrade_tetrids_maxed"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+		"dialog"	: "У меня есть |C3|[VAL1] Бонусных дара тетридов|C0| для тебя.|L|Это предел моей силы.",
+	},
+	
+	
+	"comment_upgrade_fail"			: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Тебе нужно получить больше |C3|Розовых медалей|C0| от монстров, чтобы я могла изменять твою судьбу ещё.",
+	},
+	
+	"upgrade_power" 			: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я смогу использовать больше силы, чтобы изменить твой день.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Подумай, насколько высоким может стать твой счёт.",
+		},
+	],
+	"upgrade_quicks" 			: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я буду приносить ещё один |C3|Быстрый дар|C0| каждый день.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Один из многих способов, которыми я могу поменять твою судьбу.",
+		},
+	],
+	"upgrade_bonuses_first" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "В следующий раз я принесу тебе |C3|Бонусный дар|C0|.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "И каждый следующий день тоже.",
+		},
+	],
+	"upgrade_bonuses" 			: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я буду приносить ещё один |C3|Бонусный дар|C0| каждый день.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "У тебя будет так много способов поменять судьбу.",
+		},
+	],
+	"upgrade_tetrids_first" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "В следующий раз я принесу тебе |C3|Бонусный дар тетридов|C0|.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Ты станешь горой частиц в мгновение ока.",
+		},
+	],
+	"upgrade_tetrids" 			: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я буду приносить ещё один |C3|Бонусный дар тетридов|C0| каждый день.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Ты станешь звездой частиц в мгновение ока.",
+		},
+	],
+	
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Они такие отвратительные, или это только я так думаю?",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_angry"],
+		"dialog"	: "|shake|Я в порядке!|norm||L|Просто дай их мне.",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я даже не хочу об этом думать.",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Я правда могу тебе ими помочь?|L|А что, если я сделаю твою судьбу хуже?",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+		"dialog"	: "Они совсем как я, такие же хрупкие.",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Вакуум из самой Пустоты.|L||C3|Они дают мне больше всего силы.",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+		"dialog"	: "|shake|Так много силы!|norm||L|И ты обращаешься с ней, как будто это сущий пустяк.",
+	},
+	"upgrade_confirm"	: {
+		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+		"dialog"	: "Позволишь мне их забрать?",
+	},
+
+
+
+	"leave_warning" : [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Ты дала мне эту силу, и не собираешься использовать её всю?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Ты ведь знаешь, что не сможешь взять её с собой, верно?",
+		},
+	],
+
+	"leave_blank" : [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Мне нужно будет полюбить |wave|ещё больше|norm| монстров?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "|wave|Да, всё так.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_angry"],
+			"dialog"			: "Постарайся, чтобы тебя не |shake|убили!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "О, не волнуйся насчёт этого.|!||L||wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Эта леди бесстрашная.",
+		},
+	],
+	
+	"leave_defect" : [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Мы встретим ещё больше монстров?|L||!|Надеюсь, я с ними справлюсь.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Это просто значит, что больше монстров увидят моё великолепие.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Эта малышка так ярко светится.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Ты ослепишь их даже до того, как они нападут.",
+		},
+	],
+	
+	"leave_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Ты знаешь, какого монстра Солнышко поцелует?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "|wave|Да, Я знаю.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Что?!|norm||!||L|Это не-",
+		},
+		{
+			"character"			: ["VOICE_none", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "Куда она подевалась?",
+		},
+	],
+	
+	"leave_devil" : [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Это как раз то испытание, которое я искала.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "|wave|Уверена, что справишься с этим?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "А ты уверена, что справишься |shake|ВОТ С ЭТИМ?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Парочка дополнительных монстров для тебя не помеха.",
+		},
+	],
+
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Твоя судьба всегда в твоих руках.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Просто посмотри, что ты уже для нас сегодня сделала.",
+		},
+	],
+
+}
