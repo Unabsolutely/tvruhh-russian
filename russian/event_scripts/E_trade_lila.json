@@ -1,0 +1,280 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+			"dialog"			: "Зарадены... ээ, привет.",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+			"dialog"			: "Аз голодная.",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|Аз даст дары за кормёжку!",
+		}
+	],
+	
+	"mood_title"	: "Настроение Лилы",
+	"monster_gifts"	: "Дары Лилы",
+	"player_gifts"	: "Активные дары у [NAME]",
+	"player_quicks"	: "Быстрые дары у [NAME]",
+
+	"op_trade"			: "Дары Лилы",
+	"op_give_active"	: "Скормить активный дар",
+	"op_give_quick"		: "Скормить Быстрый дар",
+	"op_tetrids"		: "Скормить тетриды",
+	"op_leave"			: "Уйти",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз даст тебе эти дары в обмен на еду.",
+	},
+	"comment_active"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "У тебя есть покушать?|L|Аз хочет только одну, пожалуйста!",
+	},
+	"comment_quick"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "У тебя есть что-то лёгкое?|L|Пожалуйста, аз хочет что-нибудь!",
+	},
+	"comment_tetrid"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз можно острый фрукт?",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз просто рада тебя видеть.",
+	},
+	
+	"comment_none"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
+		"dialog"	: "У тебя тут нет еды.",
+	},
+	"comment_carry"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+		"dialog"	: "Аз может взять только одно.",
+	},
+	"comment_full"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз уже наелась до отвала.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Тебе пора идти?",
+	},
+	
+	
+	
+	
+	"comment_take"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "|wave|Можешь брать!",
+	},
+	"comment_unknown"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз это не помнит, но бери!",
+	},
+	"comment_over"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
+		"dialog"	: "Эээ... Аз оставит это себе.|L|Пвости.",
+	},
+	"comment_limit"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Ты не унесёшь столько, глупышка.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз даст тебе вот это?",
+	},
+	
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Аз рада поделиться.",
+			"dialog_rand2"		: "|wave|С тобой я счастлива.",
+			"dialog_rand3"		: "Аз хочет, чтобы ты взяла.",
+			"dialog_rand4"		: "Ты заслуживаешь счастье.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_feed_normal"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+		"dialog"	: "Аз такая голодная...|L|Аз может взять?",
+	},
+	"comment_feed_favorite"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Аз...  Пожалуйста-пожалуйста!|L||shake|Ну пожалуйста!",
+	},
+	"comment_give_TAG_lila_juice"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Пахнет прямо как |shake|сок сладких фруктов!",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз может взять?",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Аз весёзлая, но голодная.",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+		"dialog"	: "|shake|Страшно.",
+	},
+	"comment_not_food"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
+		"dialog"	: "Аз это не съест.",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Хочешь дать?",
+	},
+	
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "|shake|Ням-ням-ням-ням-ням",
+			"dialog_rand2"		: "|shake|Уряяяя! Ням-ням-ням",
+		}
+	],
+	"quick_given" 		: [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "Аз оставит на потом.",
+		}
+	],
+	
+	
+	
+	
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Вкус земли, острый фрукт.",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Вкус тёплого супа, острый фрукт.",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+		"dialog"	: "Нету вкуса...",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Аз хрустящий, острый фрукт.",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "|shake|Они совсем как сладкие фрукты!|norm||L||C3|Аз любимые!",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Вкус снега, острые фрукты.",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "|shake|Все вкусы радуги!",
+	},
+	"tetrid_confirm"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Аз можно это взять?",
+	},
+	
+	"tetrids_given" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "Острый фрукт!|L||shake|Ням-ням-ням",
+		}
+	],
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "Аз так рада тебя видеть.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|Аз люблю тя!",
+		},
+		
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Глаз тебя видит!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|Аз виждь тя!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Что тут происходит?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "А, да ничего особенного.|L|Просто общаемся с глазу на глаз.",
+		}
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Пора уже её отпускать.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "Нет!|!||L|Мы оставляем её себе.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "Окее!",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Эй, если какая-нибудь злая Зарадена заявится в твою Зону Стража-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Скажи им, что |shake|Дьявол|norm| явится по их души.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "Окее!|L||!|Аз любит тя!",
+		},
+	],
+	
+	"leave_default" 	: [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+			"dialog"			: "Спасибо за еду!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|Аз любит тя!",
+		},
+	],
+
+}

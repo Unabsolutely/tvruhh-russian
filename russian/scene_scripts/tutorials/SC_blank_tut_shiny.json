@@ -1,0 +1,101 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль должна прервать Ваш текущий сон, сообщив важную информацию.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Сейчас Этот Модуль объяснит Вам уникальные правила |C3|сияющей битвы.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Сияющие битвы|C0| всегда ведутся против монстра, которая уже любит Вас.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Из-за этого Ваши атаки не уменьшат |C3|страх|C0| этого монстра.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вместо этого, одно Ваше присутствие со временем будет истощать |C3|страх|C0| монстра.",
+		},
+		{
+			"show_tutorial"	: "love_bar_partial",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Ваши атаки будут заполнять |C3|шкалу любви|C0| монстра во время сияющей битвы.",
+		},
+		{
+			"show_tutorial"	: "love_bar_full",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Когда |C3|шкала любви|C0| заполнится, монстр нападёт на Вас.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль почувствовала, что Вы задаётесь вопросом, почему Вы должны хотеть, чтобы монстры нападали на Вас?",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Всё потому, что во время сияющей битвы монстры будут атаковать Вас |C3|драгоценными пулями.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Драгоценные пули|C0| не причиняют Вам вреда, а также содержат |C3|частицы|C0| внутри себя.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Извлекайте эти частицы, сталкивая Ваше сердце с как можно большим количеством |C3|драгоценных пуль.|C0|",
+		},
+		{
+			"show_tutorial"	: "love_bar_full",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Страх|C0| монстра также перестанет истощаться на время атаки.",
+		},
+		{
+			"show_tutorial"	: "love_bar_full",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это продлит время битвы и даст Вам больше времени на сбор частиц.",
+		},
+		{
+			"show_tutorial"	: "love_bar_empty",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Как только атака монстра закончится, |C3|шкала любви|C0| опустеет, а её |C3|страх|C0| продолжит истощаться.",
+		},
+		{
+			"show_tutorial"	: "love_bar_partial",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Шкала любви|C0| потребует больше любви, чтобы заполнить её после каждой последующей атаки.",
+		},
+		{
+			"show_tutorial"	: "combo_bar6",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "И последнее, что следует отметить, - это то, что |C3|сияющие монстры|C0| будут удерживать Ваше комбо так же, как и любой |C3|робкий монстр.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "То есть, Ваше комбо пропадёт только в том случае, если |C3|миньон с частицами внутри|C0| сбежит с арены.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это вся информация о |C3|сияющих битвах,|C0| которой располагает для Вас Этот Модуль.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль желает Вам удачи в этой |C3|сияющей битве.|C0|",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "У Этого Модуля наблюдается резкое повышение температуры.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "Неужели нигде нельзя укрыться от безграничной любви этой Зарадены?",
+		}
+	]
+}

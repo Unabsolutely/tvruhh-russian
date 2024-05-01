@@ -1,0 +1,85 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_tutorial_common",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль только что обнаружила новый редкий вид даров.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "У них теперь есть редкие для меня?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль сейчас объяснит, что такое |C3|Дар Награды.",
+		},
+		{
+			"show_tutorial"		: "small_bounty_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Теперь монстры будут изредка давать Вам |C3|Дар Награды|C0|.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Большое количество |C3|кармы|C0| увеличит шанс получить их.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "В отличие от всех остальных видов даров, |C3|Дар Награды|C0| можно получить до начала битвы.",
+		},
+		{
+			"show_tutorial"		: "example_bounty_card",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Эффекты |C3|Дара Награды|C0| будут действовать только в этой битве.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Дары Награды|C0| всегда будут увеличивать количество добываемых частиц.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "С этим я смогу получить более высокий результат!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Верно.",
+		},
+		{
+			"show_tutorial"		: "small_red_bounty_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Также существует второй тип |C3|Дара Награды.|C0|",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Дары Ноши и Награды|C0| также повысят Ваш результат.",
+		},
+		{
+			"show_tutorial"		: "example_red_bounty_card",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако они также обеспечат Вам отрицательный эффект ноши.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот эффект от ноши будет действовать только в одной битве.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Будьте особенно внимательны, выбирая монстра с |C3|Даром Ноши и Награды.|C0|",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Я уже беру на себя их ношу.|L|Что плохого в том, чтобы взять ещё одну?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"			: "Этот Модуль взяла на себя ношу неисправностей, связанных с экстремальными температурами.",
+		}
+	]
+}

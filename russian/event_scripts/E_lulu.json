@@ -1,0 +1,149 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль собирала данные касательно страха монстров.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Примите данные, которые Этот Модуль собрала, в виде дара |C3|Чутьй Страха|C0|.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Модуля Лулу",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "Этот Модуль желает предоставть настолько много данных, насколько возможно.",
+	},
+	"comment_take_bonus"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "Этот Модуль также может предложить бонусный дар в качестве альтернативы.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "Примете ли вы это?",
+	},
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Похоже, сейчас твой страх равен нулю.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Это правильно.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Но он должен быть меньше, чем сейчас.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...Активирую вентиляторы охлаждения.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"random"			: 4,
+			"dialog_rand1"		: "Этот Модуль исчерпала резерв системы охлаждения.",
+			"dialog_rand2"		: "Этот Модуль сейчас сгорит в пламени.",
+			"dialog_rand3"		: "Этот Модуль превратится в огненного элементаля.",
+			"dialog_rand4"		: "Этот Модуль достигла нового рекорда температуры.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Эй Синяя, а ты сейчас ничего не боишься?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Ни в коей степени, моя дорогая.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "Тогда почему это число такое большое, когда я смотрю на тебя?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Вы держите его вверх ногами.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "А, понятно.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "А у тебя есть устройство, которое показывает, насколько кто-то к тебе привязан?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Создание подобного устройства лежит за гранью понимания Этого Модуля.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|О, ничего страшного!|norm||L|Тебе не нужно себя этим утруждать.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Ты права, Солнышко.|!||L|А то было бы нечестно.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Ну наконец-то, теперь я смогу видеть, насколько сильно бьют мои кулаки!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Вы ведь имеете это в метафорическом смысле?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Нет. Я, Дьявол, всегда говорю в буквальном смысле!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль настаивает, чтобы Вы воздержались от жестокости в отношении монстров.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Нет, я имела в виду |wave|метафорически|norm| буквально.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль израсходовала слишком много памяти от Вашего нонсенса.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль надеется, что сможет Вам этим помочь.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"random"			: 4,
+			"dialog_rand1"		: "Этот Модуль исчерпала резерв системы охлаждения.",
+			"dialog_rand2"		: "Этот Модуль сейчас сгорит в пламени.",
+			"dialog_rand3"		: "Этот Модуль превратится в огненного элементаля.",
+			"dialog_rand4"		: "Этот Модуль достигла нового рекорда температуры.",
+		},
+	],
+
+}

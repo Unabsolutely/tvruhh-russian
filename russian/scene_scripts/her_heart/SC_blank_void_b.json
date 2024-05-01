@@ -1,0 +1,84 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "creepy_scene_music",
+			"bg_image"			: "spr_scene_darkness",
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Ты пришла сюда, чтобы отдать мне своё сердце?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Ты помнишь меня?",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "Так теперь ты вернула себе воспоминания?|L||!|Теперь ты знаешь, что меня нельзя полюбить.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Почему все забывают обо всём каждый день?",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Так много Зараден отдали мне свои сердца с тех пор, как начался дождь.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Неудивительно, что, сколько бы я их ни получала, они никогда не насыщают меня.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "В конце концов, я - Пустота.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "Я не знаю, почему это случилось, но я рада, что теперь к тебе вернулись воспоминания.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry"],
+			"dialog"			: "Теперь ты видишь, как бессмысленно пытаться!",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry"],
+			"dialog"			: "Зачем продолжать чувствовать что-то, если всё, что ты можешь ощущать, - это боль и одиночество?!",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry"],
+			"dialog"			: "Не пытайся меня полюбить!|L||!|Я не могу быть любимой!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "Не говори так!|L||!|Я могу помочь тебе почувствовать себя любимой.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "Каждый заслуживает того, чтобы чувствовать себя любимым!",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_cry"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile_cry"],
+			"dialog"			: "Зараденская девчонка, ты пришла, чтобы снова найти меня, хотя не хочешь отдавать мне своё сердце?",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry_cry"],
+			"dialog"			: "Это ложь!",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry_cry"],
+			"dialog"			: "Ты знаешь, что я могу избавить тебя от боли!|L||!|Именно поэтому ты здесь!|L||!|Ты лжёшь сама себе!",
+		},
+		{
+			"play_music"		: "silence",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
+			"dialog"			: "Мы обе лжецы.",
+		}
+	]
+}

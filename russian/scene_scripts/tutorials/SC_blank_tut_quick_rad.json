@@ -1,0 +1,58 @@
+{
+	"script"	: [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "У Этого Модуля есть дополнительная информация об освещении Быстрых Даров.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
+			"dialog"		: "Я слушаю.|L||!|Просто даю глазам отдохнуть.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль сейчас расскажет об |C3|освещении Быстрых Даров.",
+		},
+		{
+			"show_tutorial"	: "known_quick",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Как и другие типы даров, информация об |C3|Освещённых Быстрых Дарах|C0| больше не будет отображаться как |C3|???|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Однако у |C3|Освещённых Быстрых Даров|C0| есть ещё одно особенное свойство.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Освещённые Быстрые Дары|C0| будут оставаться с Вами в течение нескольких дней, пока Вы не решите их активировать.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Они останутся с Вами даже после разбитого сердца.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вы можете хранить их столько, сколько захотите.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
+			"dialog"		: "...",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль пока позволит Зарадене поспать.|L||!|Эту информацию можно будет передать ей позже.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
+			"dialog"		: "...обнимашки.",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "Этот Модуль не сможет вырваться из этих объятий.",
+		},
+	]
+}

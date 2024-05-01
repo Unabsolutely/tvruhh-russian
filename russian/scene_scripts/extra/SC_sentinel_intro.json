@@ -1,0 +1,39 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|n0||n0||n0||n1||n0||n1| |n0||n1||n0||n1||n0||n1| |n0||n0||n0||n1||n0||n1|",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|n1||n1| |n3||n1| |n1||n1||L||n1||n1| |n3||n1| |n1||n1||L||n1||n1| |n3||n1| |n1||n1|",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|[Password Accepted]",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|//Enjoy the following pleasurable sequence",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|n0| |n1| |n1| |n2| |n3| |n5| |n1||n0| |n1||n5| |n2||n5| |n4||n2|",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|[Sending Request]",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|//This Unit requests one or more hugs",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|//Please look for This Unit in the near future",
+		},
+	]
+}

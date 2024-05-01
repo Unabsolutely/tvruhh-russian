@@ -1,0 +1,96 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_scene_darkness",
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Почему ты сопротивляешься?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Всё в порядке.|L||!|Ты больше не одинока.|L||!|Я здесь ради тебя.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Подойди,      и стань ничем вместе со мной.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "...Я, э-э-",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Ты преодолела весь этот путь.|L||!|Желаешь ли ты стать ничем?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|Нет!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "Нет,      я не хочу этого.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Тогда    зачем ты здесь?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Я    не знаю.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Ты ощущаешь боль.    Я знаю это.|L||!|Лишь по этой причине кто-либо станет меня искать.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry1"],
+			"dialog"			: "Может, немного,    но я не из-за этого...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "|shake|Ты одинока.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry2"],
+			"dialog"			: "...",
+		},
+		{
+			"play_music"		: "nightmare_music_c",
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2||shake|Тебя никто не любит!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry3"],
+			"dialog"			: "Это неправда!    |shake|Хватит!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2||shake|Это правда!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2||shake|Ты чудовище!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2||shake|Тебя оставили здесь УМИРАТЬ!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry3"],
+			"dialog"			: "|shake|Хватит! Хватит! Хватит!",
+		},
+		{
+			"character"			: ["VOICE_red", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2||shake|ХаХахАХаХахАххАхААхАХАхАХахаХа",
+		}
+	]
+}

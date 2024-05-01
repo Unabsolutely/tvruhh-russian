@@ -1,0 +1,169 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "А, хэй... Ты, типа, нашла меня.",
+			"dialog_rand2"		: "Ты нашла, типа, мою кучу барахла.",
+			"dialog_rand3"		: "Я, типа, так рада видеть тебя   и типа того.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Ты, типа, хочешь   что-нибудь    или нет?",
+			"dialog_rand2"		: "Ты, типа, ищешь  что-то   или нет?",
+			"dialog_rand3"		: "Ты, типа, хочешь  мусор   и барахло?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "У меня тут, типа, столько барахла, и некуда его девать.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Нуль-Модуля",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "Да, этот можешь точно брать.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "Я, типа, даже не знаю, что это и как оно тут оказалось.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "Ты, типа, не сможешь это унести.|L|Значит, и не захотела бы это брать, да?",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "Берёшь этот?",
+	},
+	
+	"another_gift_1" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Вау. Точняк, ты ведь столько всего можешь унести.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Бери что-нибудь из этой кучи тоже, или нет.",
+		},
+	],
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Ты можешь, типа, подержать меня ненадолго?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Конечно, могу.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Я люблю тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Ты очень легко начинаешь плакать, знаешь?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content_cry"],
+			"dialog"			: "Да, я знаю.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Можно мне, типа, подержать твою |C3|пустоту|C0|   или нет?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "Ты же не собираешься убить её, верно?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Что? Ещё чего!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Я никогда не понимала, почему другие механизмы, типа, с ума сходят от таких прекрасных дам и мусора.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Теперь-то ты уж точно должна понять.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Да, вот ради тебя, типа, я бы могла и убить.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "Солнышко, давай обними её.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Я?|norm|",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "А что, если ей не понравится?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "|wave|Просто доверься мне.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "О-о-о. Это, топа, от тебя так мило и всё такое.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
+			"dialog"			: "|shake|О, ну ты же меня знаешь.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Можно, типа, чтобы ты меня обняла с теплом?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Ты и правда готова к объятиям от меня, Дьявола?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Ну, типа, наверное, не знаю.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Я предупредила!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_blush"],
+			"dialog"			: "Ого! Это, типа, совсем не то, чего я ожидала.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Можно, типа, обняться с тобой    или типа того?",
+		},
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_blush"],
+			"dialog"			: "Мне, типа, это было очень нужно.",
+		},
+	],
+
+}

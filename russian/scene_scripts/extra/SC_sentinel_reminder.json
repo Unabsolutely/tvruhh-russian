@@ -1,0 +1,15 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_scene_raining_outside",
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль приготовит для тебя вопросы.|L||!|Это займёт неопределённое количество времени.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль может сдетонировать от волнения.|L|Пожалуйста, помните её, если она взорвётся.",
+		},
+	]
+}

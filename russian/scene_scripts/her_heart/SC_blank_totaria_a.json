@@ -1,0 +1,132 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "creepy_scene_music",
+			"bg_image"			: "spr_scene_darkness",
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Зараденская девочка, ты вернулась, чтобы снова увидеть меня?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Да, именно!",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "Похоже, твои попытки проявить ко мне любовь всё-таки оказали на меня влияние.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Это замечательно.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Я всегда брала только те сердца, которые были мне отданы.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Никто не захотел бы отдать мне своё сердце, если бы не испытывал постоянную, невыносимую боль.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Это означает, что каждое моё сердце либо пусто, либо разбито.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Видишь ли, мне не суждено было испытать любовь.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Я была создана для того, чтобы забирать боль у других.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious"],
+			"dialog"			: "Потому что ты их любишь?",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "Полагаю, можно сказать и так.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Я чувствую, что тебе постоянно больно, и всё же    ты излучаешь больше любви, чем я когда-либо чувствовала прежде.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Как такое может быть?|L||!|Ты полностью изменила моё понимание эмоций Зараден.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile"],
+			"dialog"			: "Я пришла к пониманию того, что в каждом сердце есть боль.",
+		},
+		{
+			"play_music"		: "nightmare_music_c",
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2||shake|Так что мне придётся забрать их все самой!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "Мне это не нравится!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2|Что не так?|L||!|Разве ты не хочешь поделиться своей любовью со всеми сердцами, которые поглотила Пустота?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "Но не так ведь!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2|Тогда как насчёт того, чтобы поделиться ей с теми, которые я забрала?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised_cry"],
+			"dialog"			: "Что?",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_normal"],
+			"dialog"			: "|C2|В прошлом Зарадены совершали такие ужасные поступки по отношению друг к другу.",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_normal"],
+			"dialog"			: "|C2|И они продолжают делать это даже сейчас.",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2|Они живут высоко в своих башнях, в то время как такие бескрылые, как ты, борются за выживание здесь, внизу!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2|Посмотри, что они с тобой сделали!|L||!||shake|Они оставили тебя здесь умирать!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2|Ты злишься из-за этого.|L|Я это чувствую!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2|Ты хочешь причинить им такую же боль, что и они тебе!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_despair_cry"],
+			"dialog"			: "Кто ты?! Куда делась Пустота?",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2|Мои сердца не просто разбиты, они в ярости!|L||!|Они жаждут мести!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
+			"dialog"			: "|C2||shake|Я меньше, чем ничто!|L||!|Я чувствую    ненависть!|L||!|Я - ТОТАРИЯ!",
+		},
+		{
+			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_smile"],
+			"dialog"			: "|C2||shake|ХахАахаХаАхахАхаХАхаАхахХахаХАхАхаА",
+		}
+	]
+}

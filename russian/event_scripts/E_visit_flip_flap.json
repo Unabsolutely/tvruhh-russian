@@ -1,0 +1,208 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|Послушайте нашу замечательную музыку.",
+			"dialog_rand2"		: "|wave|Услышьте нашу приятную песенку.",
+			"dialog_rand3"		: "|wave|Эти Модули должны исполнить свою песню.",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.          ",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.          ",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Ваша |C3|[Чистая Любовь]|C0| Этих Модулей затронула.",
+			"dialog_rand2"		: "Любовь Ваша покорила |C3|[Чистый Страх]|C0| у Этих Модулей.",
+			"dialog_rand3"		: "|C3|[Чистая Любовь]|C0| связала Эти Модули воедино.",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.          ",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.          ",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+			"dialog"			: "|wave|У Этих Модулей-          ",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "|wave|Есть дар-          ",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Для Вас.",
+		},
+	],
+	
+	"title_flip"	: "Дары Флип",
+	"title_flap"	: "Дары Флап",
+	
+	"comment_take_flip"	: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+		"dialog"	: "Этот Модуль убедится, что |C3|[Чистый Позитив]|C0| придёт к Вам.",
+	},
+	"take_confirm_flip"		: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+		"dialog"	: "Положителен ли Ваш ответ?",
+	},
+	"comment_take_flap"	: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+		"dialog"	: "Этот Модуль удержит весь |C3|[Чистый Негатив]|C0| подальше от Вас.",
+	},
+	"take_confirm_flap"		: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+		"dialog"	: "Положителен ли Ваш ответ?",
+	},
+	
+	"next_to_flap" 	: [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль отдала Вам свой дар,|!||L|но это ещё не всё.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Примите дар и от другого Модуля тоже.",
+		},
+	],
+	"next_to_flip" 	: [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "Вы приняли дар от Этого Модуля,|!||L|но это ещё не всё.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Этот Модуль считает, что и её дар Вы оцените положительно.",
+		},
+	],
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Спасибо!|L||!|И ваша песня тоже была очень приятной.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_blush"],
+			"dialog"			: "Обнаружена |C3|[Чистая Теплота]|C0|.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_blush"],
+			"dialog"			: "Открывем нараспашку все порты охлаждения.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Эти Модули будут петь дифирамбы-",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Существу из |C3|[Чистой Пустоты]|C0| и совершенства.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_blush"],
+			"dialog"			: "Простите, что пытались Вас до этого |shake|убить|norm|.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "О, она воспринимает это как комплимент.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Но правда, кто не пытался убить меня хотя бы раз?",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Прыг-скок,|L|Прыг-скок.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_despair"],
+			"dialog"			: "О нет!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Теперь она будет петь это весь день.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Прыг-скок,|L|Прыг-скок.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Мне бы не помешало ваше пение для одной из моих песен!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "Отлично подошло бы для песни под названием-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"random"			: 3,
+			"dialog_rand1"		: "\"Защитный Механизм\"",
+			"dialog_rand2"		: "\"Возвышающееся Волнение\"",
+			"dialog_rand3"		: "\"Помечены К Удалению\"",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Это как вот та песня, которую мы слышали у нас во сне, помните?",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Эти Модули с радостью хотят-",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Исполнить песню для тебя.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|Прыг-скок.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "Эти Модули надеются, что их дары Вам помогут.",
+		},
+	],
+
+}

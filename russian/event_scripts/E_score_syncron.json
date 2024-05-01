@@ -1,0 +1,356 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль запрашивает немедленное содействие!",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_angry"],
+			"dialog"			: "Нижеперечисленные модули были приостановлены в петле панического режима:",
+		},
+		
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "|C3|Синкрон-01    |L|Синкрон-02    |L|Синкрон-03",
+			"dialog_rand2"		: "|C3|Синкрон-01    |L|Синкрон-02    |L|Синкрон-04",
+			"dialog_rand3"		: "|C3|Синкрон-01    |L|Синкрон-03    |L|Синкрон-04",
+			"dialog_rand4"		: "|C3|Синкрон-02    |L|Синкрон-03    |L|Синкрон-04",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
+		{
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
+		{
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"random"			: 2,
+			"dialog_rand1"		: "Если ничего не предпринять, этот Модуль скоро к ним присоединится.",
+			"dialog_rand2"		: "Присоединение к ним - лишь вопрос времени для этого Модуля.",
+		},
+	],
+	
+	"intro_defect" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль запрашивает немедленное содействие!",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"dialog"			: "Эти Модули добыли дары, чтобы выразить наше сожаление.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"dialog"			: "Они должны были стаь извинением для |C3|пустотной, известной как Синяя.|C0|",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_very_happy"],
+			"dialog"			: "Вы не были первыми, кто пытался убить её.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"dialog"			: "Однако, три других Модуля внезапно были приостановлены в петле панического режима.",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
+		{
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
+		{
+			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Это я во всём виновата.|!||L|Нам нужно им как-нибудь помочь.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Должно быть, их свела с ума моя красота.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Синкрон",
+	
+	"op_start"		: "Помочь выключить режим паники",
+	"op_leave"		: "Режим паники закончится сам",
+	
+	"comment_start"		: {
+		"character"	: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+		"dialog"	: "Вы можете помочь этим Модулям вновь синхронизироваться.",
+	},
+	"comment_leave"		: {
+		"character"	: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_panic"],
+		"dialog"	: "|C2||shake|Запускаю процедуру остановки",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+		"dialog"	: "Разрешат ли эти Модули паническую петлю?",
+	},
+	
+	"start_battle" 	: [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "С помощью Ваших снов можно спасти этих Модулей ещё раз.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"dialog"			: "Не позвольте |C3|Синим модулям|C0| покинуть ваше поле обзора.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_panic"],
+			"dialog"			: "Если они окажутся слишком далеко позади вас,|L||shake|то могут взорваться.",
+		},
+	],
+	
+	"start_battle_devil" 	: [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "Вы уже доказали свою способность разрешить панический режим.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Я точно знаю, что нужно делать.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "С помощью Ваших снов можно спасти этих Модулей ещё раз.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "А, точно!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "А я уж собиралась перезапустить тебя.",
+		},
+	],
+	
+	"no_battle" 	: [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль тоже была готова запустить режим паники.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Эти Модули вновь синхронизированы.",
+		},
+	],
+	
+	"return_intro" : [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "|C3|Паническая петля разрешена",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль тоже была готова запустить режим паники.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_sad"],
+			"dialog"			: "У этого Модуля были засорены 25% выхлопных портов.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "Извлечение в общей сложности |C3|[VAL1] частиц|C0| исправило засорённые порты у остальных Модулей.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_angry"],
+			"dialog"			: "Этот Модуль вычислила источник засоров.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "Этим источником должны быть дополнительные дары, которые нашли эти Модули.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"dialog"			: "Эти Модули принесли данные дары для Вас в качестве сюрприза.",
+		},
+	],
+	
+	
+	"comment_take_first"	: {
+		"character"	: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+		"dialog"	: "Этот Модуль предоставляет Вам дар.",
+	},
+	"comment_take_another"	: {
+		"character"	: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+		"dialog"	: "Этот Модуль предоставляет Вам ещё один дар.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+		"dialog"	: "Примете ли Вы этот дар?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"random"			: 5,
+			"dialog_rand1"		: "Вы уже несколько раз спасли эти Модули из режима паники.",
+			"dialog_rand2"		: "Синкрон-02 нашла это для вас.",
+			"dialog_rand3"		: "Этот дар был найден Синкрон-03.",
+			"dialog_rand4"		: "Вы в очередной раз помогои этим Модулям синхронизироваться.",
+			"dialog_rand5"		: "Этот Модуль правильно предугадала, что Вы выберете данный дар.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_surprised"],
+			"random"			: 3,
+			"dialog_rand1"		: "У этих Модулей есть ещё дары для Вас.",
+			"dialog_rand2"		: "Эти Модули приготовили Вам ещё больше даров.",
+			"dialog_rand3"		: "Эти Модули приняли решение передать Вам ещё один дар.",
+		}
+	],
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|shake|Она вот-вот это скажет.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		},
+		{
+			"fast_text"			: 1,
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"fast_text"			: 0,
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Она это сказала.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_sad"],
+			"dialog"			: "Простит ли нас Синяя Пустотная?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Ну, вас тут четверо, и лишь одно идеальное существо.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Сражение за меня было неизбежно.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Нельзя держать обиду на простую математику.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "В этой логике нет никаких изъянов.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "Так вот, моя сестра тут спрашивала, не нужна ли вам одна общая девушка?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Я не спрашивала!",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Эти Модули в данный момент принимают вакансии в двоичной форме.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Понятно.|L|Может потом.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Вы, роботы, всегда такие синхронизированные.|L||!|И у вас такие крутые лазеры.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Спорю, что вы бы могли устроить  |shake|убийственное|norm|  лазерное шоу у меня на концерте.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
+			"dialog"			: "Эти Модули более не желают использовать свои лазеры в качестве оружия.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Не, я не это имею в виду.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Я просто говорю, что вы могли бы помочь мне |shake|вынести им мозги прямо у них из черепушек!",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_panic"],
+			"dialog"			: "|shake|О нет.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "Эти Модули благодарят вас за помощь вразрешении панической петли.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
+			"dialog"			: "Эти Модули вновь синхронизированы",
+		},
+	],
+
+}

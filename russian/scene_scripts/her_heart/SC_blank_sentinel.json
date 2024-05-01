@@ -1,0 +1,141 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_scene_raining_outside",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Дозорная?",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Начата перезагрузка    .    .    .",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "А это хорошо?",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|.    .    .",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Дозорная?",
+		},
+		{
+			"play_music"		: "tutorbot_scene_music",
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
+			"dialog"			: "Этот Модуль не должна была нападать на Вас.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "Не пугай меня так.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
+			"dialog"			: "Этот Модуль выражает крайнюю степень раскаяния.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
+			"dialog"			: "Сейчас Этот Модуль поместит себя в папку Корзина, где ей и место.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_angry"],
+			"dialog"			: "|shake|Эй!|norm||!||L|Не смей так говорить!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious2"],
+			"dialog"			: "Не заставляй меня возвращаться и переподключать провода.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
+			"dialog"			: "Этот Модуль ничего не понимает.|!||L|Она лишь оскорбила себя, и всё же это каким-то образом задело Вас.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "А как ещё я должна себя чувствовать?|!||L|Ты только что оскорбила моего друга!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
+			"dialog"			: "Мне больно слышать, что ты так говоришь о себе.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Обработка    .    .    .",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль не рассматривала возможность того, что Зарадене будут небезразличны чувства модуля Зарамехи.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
+			"dialog"			: "Этот Модуль не хочет Вас расстраивать.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Я не расстроена.|L||!|Просто постарайся быть доброй к себе, хорошо?",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Этот запрос будет выполнен немедленно.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "У Этого Модуля также есть просьба к Вам.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "О, что такое?",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль хотела бы, чтобы Вы сыграли с ней в игру.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "Это простая игра.|L||!|Этот Модуль будет задавать вопросы, а Вы будете на них отвечать.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Этот Модуль получает огромное удовлетворение от проверки знаний других.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Конечно, Дозорная!",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Необузданный восторг, который испытывает Этот Модуль, мог бы обеспечить энергией ближайшую башню на сотню лет.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "|wave|Вот что я люблю слышать.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Сейчас Этот Модуль подготовит для Вас вопросы.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "Невозможно предсказать, сколько времени это займёт.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль вернётся, чтобы найти Вас позже.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Подожди, прежде чем уйти!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Невозможно рассчитать ценность этого обожания в разумные сроки.",
+		}
+	]
+}

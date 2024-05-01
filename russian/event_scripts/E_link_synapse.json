@@ -1,0 +1,181 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она наталкивается на открытую связь синапса.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она замечает, что внутри есть дары.|L|Она может до них дотянуться.",
+		}
+	],
+	
+	"list_title"	: "Связь Синапса",
+
+	"op_take1"		: "Взять дар",
+	"op_take2"		: "Взять ещё один дар",
+	"op_take3"		: "Взять третий дар",
+	"op_take4"		: "Взять четвёртый дар",
+	"op_leave"		: "Уйти",
+	
+	"take_text1"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Эти дары сюда отправила парочка знакомых сестёр-Осколков.",
+	},
+	"take_text2"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Она ещё может достать другой дар из связи.",
+	},
+	"take_text3"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Она сможет взять ещё только один дар, после чего связь закроется до завтра.",
+	},
+	"leave_text"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Любые дары, оставленные в Связи Синапса, останутся там и на следующий день.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Уходит ли она сейчас?",
+	},
+	
+	"comment_scrambla"	: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|На этом даре есть круглый след от укуса.|L|Она узнаёт в нём почерк Смятки.",
+	},
+	"comment_boiler"	: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|На этом даре несколько обожжённых следов.|L|Она узнаёт в них почерк Варки.",
+	},
+	"comment_inactive"	: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Этот дар воздействует на тип выстрелов, который сейчас не активен, но она может всё равно его взять, если желает.",
+	},
+	"comment_no_multi"	: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Несколько копий этого дара не дадут никаких эффектов, но она может всё равно его взять, если желает.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Возьмёт ли она этот дар?",
+	},
+	
+	"gift_taken_first" 		: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она достаёт этот дар из синапса.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"random"			: 8,
+			"dialog_rand1"		: "|C3|Он немного испачкан слюной.",
+			"dialog_rand2"		: "|C3|В нём застрял зуб.",
+			"dialog_rand3"		: "|C3|Он ещё тёплый.",
+			"dialog_rand4"		: "|C3|От него пахнет свежей мятой.",
+			"dialog_rand5"		: "|C3|Это едва заметно, но его углы слегка согнуты.",
+			"dialog_rand6"		: "|C3|Сзади него прилип недоеденный цветок.",
+			"dialog_rand7"		: "|C3|На обратной стороне записка, в которй написано \"Мы тебя любим!\"",
+			"dialog_rand8"		: "|C3|Её переполняет чувство теплоты. Как если бы её только что обняли."
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Синапс начинает закрываться, но она всё ещё может дотянуться внутрь.",
+		}
+	],
+	"gift_taken_mid" 		: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она достаёт этот дар из синапса.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"random"			: 8,
+			"dialog_rand1"		: "|C3|Он немного испачкан слюной.",
+			"dialog_rand2"		: "|C3|В нём застрял зуб.",
+			"dialog_rand3"		: "|C3|Он ещё тёплый.",
+			"dialog_rand4"		: "|C3|От него пахнет свежей мятой.",
+			"dialog_rand5"		: "|C3|Это едва заметно, но его углы слегка согнуты.",
+			"dialog_rand6"		: "|C3|Сзади него прилип недоеденный цветок.",
+			"dialog_rand7"		: "|C3|На обратной стороне записка, в которй написано \"Мы тебя любим!\"",
+			"dialog_rand8"		: "|C3|Её переполняет чувство теплоты. Как если бы её только что обняли."
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Синапс закрывается ещё больше, но она всё ещё может дотянуться внутрь.",
+		}
+	],
+	"gift_taken_final" 		: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она достаёт этот дар из синапса.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"random"			: 8,
+			"dialog_rand1"		: "|C3|Он немного испачкан слюной.",
+			"dialog_rand2"		: "|C3|В нём застрял зуб.",
+			"dialog_rand3"		: "|C3|Он ещё тёплый.",
+			"dialog_rand4"		: "|C3|От него пахнет свежей мятой.",
+			"dialog_rand5"		: "|C3|Это едва заметно, но его углы слегка согнуты.",
+			"dialog_rand6"		: "|C3|Сзади него прилип недоеденный цветок.",
+			"dialog_rand7"		: "|C3|На обратной стороне записка, в которй написано \"Мы тебя любим!\"",
+			"dialog_rand8"		: "|C3|Её переполняет чувство теплоты. Как если бы её только что обняли."
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Синапс закрывается полностью.|L||!|Он откроется вновь лишь завтра.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она уходит в поисках монстров, чтобы полюбить.",
+		}
+	],
+	"gift_taken_single" 	: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она достаёт этот дар, и синапс тут же полностью закрывается.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Похоже, что их него можно было достать только один дар перед закрытием.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Быть может, в будущем найдётся способ держать его открытым дольше.",
+		}
+	],
+	"synapse_empty" 		: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она достаёт последний оставшийся в синапсе дар.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"random"			: 8,
+			"dialog_rand1"		: "|C3|Внутри остались лишь горстка зубов Смятки и записка с надписью \"Не Трогать!\"",
+			"dialog_rand2"		: "|C3|Внутри остались лишь обожжённый клочок бумаги и записка с надписью \"Не играй с огнём!\"",
+			"dialog_rand3"		: "|C3|Внутри остался лишь букет цвветов, покрытых слюной, и половина из них надкушены.",
+			"dialog_rand4"		: "|C3|Внутри остался лишь полностью сгоревший хлебный тост. Вся его поверхность чёрная.",
+			"dialog_rand5"		: "|C3|Внутри остался лишь наполовину съеденный блок полистироловой обшивки.",
+			"dialog_rand6"		: "|C3|Внутри остался лишь наполовину съеденный зонтик. Он уже не исполнит своего назначения.",
+			"dialog_rand7"		: "|C3|Внутри остался лишь букет цвветов. А ещё он горит.",
+			"dialog_rand8"		: "|C3|Внутри остался лишь наполовину съеденный кусок зелёного мыла.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она решает это не трогать.",
+		},
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она уходит в поисках монстров, чтобы полюбить.",
+		}
+	],
+	
+	"leaving" 	: [
+		{
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Она уходит в поисках монстров, чтобы полюбить.",
+		}
+	],
+
+}

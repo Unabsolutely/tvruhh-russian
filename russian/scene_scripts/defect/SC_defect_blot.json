@@ -1,0 +1,111 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "green_scene_music",
+			"bg_image"			: "spr_scene_raining_outside",
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+			"dialog"			: "Нам очень жаль.|L||!|Мы не испачкали тебя краской, милашка?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Нет, не думаю.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "Я всё равно не была бы против.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_shocked"],
+			"dialog"			: "О-о!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Не стоит искушать нас облить тебя краской, милашка.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Ох... Я-",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Это была просто шутка, милашка.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Только взгляни на эту милую маленькую веераль!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "О да, должно быть, ваши глаза сами по себе притянулись ко мне.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Я ничего не могу с этим поделать.|L||!|Нам просто остаётся мириться с последствиями.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "Нам придётся раскрасить вас обеих, милашки!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "Э-э-э...",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Мы имеем в виду нарисовать вас.|L||!|А не облить краской.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "А!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Моя привлекательность будет увековечена в картине?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Сделают ли они для этого достаточно синюю краску?",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Ага!|L||!|Для тебя они сделают любой цвет достаточно синим!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Что ж, уже давно пора было и другим цветам присоединиться.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Мы пойдём смотреть вашу выставку?|L||!|Я думаю, вы пригласили меня в моём сне.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Конечно да, милашка!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "Отсюда не так далеко.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "Тогда пойдём!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Вам стоит предупредить остальных гостей о моём прибытии.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Нам бы очень не хотелось, чтобы они приняли меня за один из экспонатов.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Мы сейчас же приступим к этому, милашка!",
+		},
+	]
+}

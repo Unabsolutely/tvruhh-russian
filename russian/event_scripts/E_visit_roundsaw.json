@@ -1,0 +1,157 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Твои объятия сильнее всего на свете!",
+			"dialog_rand2"		: "Твои объятия несут любвепокалипсис!",
+			"dialog_rand3"		: "Ты - оружие массовой любви!",
+			"dialog_rand4"		: "Ты показала любовь Циркуляре!",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Ты жаждешь получить больше силы!",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Циркуляра поделится силой.",
+			"dialog_rand2"		: "Циркуляра сделает тебя сильнее.",
+		},
+	],
+	
+	"intro_devil" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "Ты сильная, прямо как Страж!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Да, мне это часто говорят.",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Циркуляра хочет увидеть, как ты станешь ещё сильнее!",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "Циркуляра сделает тебя сильнее.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Хочешь второй раунд, да?",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_shocked"],
+			"dialog"			: "Постой! У Циркуляры кое-что есть.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Циркуляры",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+		"dialog"	: "С этим ты будешь сильной.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_normal"],
+		"dialog"	: "Возьмёшь это?",
+	},
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Ты убрала свою пилу?",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_sad"],
+			"dialog"			: "Сейчас у Циркуляры нет пилы.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
+			"dialog"			: "Это мой шанс.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "|shake|Пр-р-р-р-р-р-р-р.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_sad"],
+			"dialog"			: "Циркуляре можно обнимашки?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Конечно, Циркуляра.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "|shake|Ого!",
+		},
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "Такие мягенькие шипы!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "А, мои перья?|!||L|Они выглядят острыми, но ма самом деле мягкие.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "Теперь ты моя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "|shake|Пр-р-р-р-р-р-р-р.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "Нет, Зелёная.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|Но   я хочу чешуйчатую макаронинку!",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Мне бы не помешало попрактиковаться.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Доставай свою пилу!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "Ага-ага-ага!",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_sad"],
+			"dialog"			: "Циркуляра хочет обнимашки.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_roundsaw", "CHAR_roundsaw_right", "MOOD_happy"],
+			"dialog"			: "|shake|Пр-р-р-р-р-р-р-р.",
+		},
+	],
+
+}

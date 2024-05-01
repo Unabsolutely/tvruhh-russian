@@ -1,0 +1,71 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "Я твоя давняя подруга, Аидасо!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "Добро пожаловать в |C3||shake||nu||ze||nah||norm| Башни!|C0|",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "Ну, они ещё нуждаются в паре доработок, но уже почти закончены.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_angry"],
+			"dialog"			: "А чего ты ожидала? Ты же уже, |shake||nu||ze||nah||norm|, видела титры.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "|shake|В них всего одно имя!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "...Ладно, я тут, чтобы объяснить тебе, как работают Башни.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "В них ты найдёшь два новых вида даров.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "|C3|Благословения|C0| принесут тебе пользу, но длятся всего несколько битв.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "|C3|Ноши|C0| тоже не бесконечные, но они творят всякую |shake||nu||ze||nah||norm|, которая тебе будет мешать!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "Монстры всегда будут давать тебе |C3|и Благословения, и Ноши|C0| сразу, так что выбирай с умом.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "А теперь самая важная часть Башен, так что слушай внимательно.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "У монстров здесь уровень повышается только тогда, когда у тебя много очков.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "Получай полные комбо, и мы с тобой встретимся на 20-м уровне в два счёта!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
+			"dialog"			: "Ну а если монстры тебе не по зубам, то тогда почаще прерывай комбо, или типа того.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_angry"],
+			"dialog"			: "Или нет! Я же, |shake||nu||ze||nah||norm|, не твоя мать и не страж.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "|wave|Ладно, удачи там.",
+		},
+	]
+}

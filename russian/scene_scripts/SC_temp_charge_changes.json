@@ -1,0 +1,63 @@
+{
+	"script" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "This is an important message from the creator of this game.",
+		},
+		{
+			"dialog"			: "First, I just want to thank you all for being here.",
+		},
+		{
+			"dialog"			: "You have all helped me sculpt this game into the best version that it can possibly be.",
+		},
+		{
+			"dialog"			: "The one aspect that always concerned me the most was the |C3|charged attack|C0| system.",
+		},
+		{
+			"dialog"			: "I was finally convinced to change it.",
+		},
+		{
+			"dialog"			: "So, I'm here to explain what has changed.|L||!|Pay careful attention as you will only see this scene one time!",
+		},
+		{
+			"dialog"			: "All charged attacks are now more powerful and have new properties!",
+		},
+		{
+			"dialog"			: "But there is also a new |C3|energy bar|C0| to manage.",
+		},
+		{
+			"dialog"			: "Your |C3|energy|C0| will drain when you fire a charged attack, but it will also regenerate when you stop charging.",
+		},
+		{
+			"dialog"			: "You can still fire charged attacks |C3|without any energy,|C0| but they will be much less powerful.",
+		},
+		{
+			"dialog"			: "And the most important thing!|!||L|Breaking any breakable object will instantly |C3|refill some energy!|C0|",
+		},
+		{
+			"dialog"			: "Charged attacks are now more aligned to the playstyle that I always envisioned for them.",
+		},
+		{
+			"dialog"			: "They feel more special and you must decide when to use them more carefully.",
+		},
+		{
+			"dialog"			: "I know these changes might disappoint some of you who are really good at the old system.",
+		},
+		{
+			"dialog"			: "I hope you can understand why I had to do this.",
+		},
+		{
+			"dialog"			: "I also added |C3|6 control types|C0| for charged attacks that you can mix between in the |C3|Options Menu.|C0|",
+		},
+		{
+			"dialog"			: "I want them to be fun for everyone and I don't want anyone to hurt their hands while playing my game.",
+		},
+		{
+			"dialog"			: "Thank you for showing love to all these monsters.|L||!|I hope you will continue to do so.",
+		},
+	]
+}

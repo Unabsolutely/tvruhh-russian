@@ -1,0 +1,39 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Значит, тебе удалсь так далеко забраться?",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Эта новость радует Солару!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Должно быть, тебе довелось увидеть незавершённые вещи.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+			"dialog"			: "Истории, которых ещё нет.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+			"dialog"			: "Ты даже ещё не знаешь Солару.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "Но истории скоро будут!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Они уже вот-вот будут завершены!|L||!|Ты наконец познакомишься с Соларой!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Тем не менее,|norm| Солара желает тебе удачно провести время в Бесконечном Кошмаре!",
+		},
+	]
+}

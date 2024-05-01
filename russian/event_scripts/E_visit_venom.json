@@ -1,0 +1,184 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "А, это снова ты.",
+			"dialog_rand2"		: "Я не ожидала, что так скоро встречусь с тобой снова.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Поскольку ты здесь, я скажу тебе-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Я на тебя очень злюсь!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"random"			: 2,
+			"dialog_rand1"		: "|shake|Ты меня так сильно полюбила, что все мои вещи теперь на вкус как мусор!",
+			"dialog_rand2"		: "|shake|Теперь все мои вещи на вкус как мусор, потому что я почувствовала себя такой любимой!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"random"			: 2,
+			"dialog_rand1"		: "Я собиралась всё это выбросить.",
+			"dialog_rand2"		: "Я собиралась от них избавиться.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Но...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Я заставлю тебя забрать всё себе!",
+			"dialog_rand2"		: "Теперь ТЫ их себе заберёшь!",
+			"dialog_rand3"		: "Я сейчас же отдам их тебе!",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Ядовитой Веерали",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Пожалуйста, забери это у меня и распорядись с умом.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Я даже не могу вспомнить, что это такое!",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Даже я не стану взваливать на тебя такую излишнюю ношу.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Ты это берёшь?",
+	},
+	
+	"another_gift_1" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Ну уж нет,   мы ещё не закончили!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"random"			: 4,
+			"dialog_rand1"		: "Эти вещи теперь меня тоже пугают.",
+			"dialog_rand2"		: "У этих штку теперь тоже плохой вкус.",
+			"dialog_rand3"		: "Они меня тоже раздражают.",
+			"dialog_rand4"		: "Эти вещи мне тоже больше не нравятся.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ты возьмёшь себе одну из них!",
+		},
+	],
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Похоже, настало время детокса.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Чудесно! Теперь я знаю, насколько это хорошо.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "И как мне теперь быть    Ядовитой    Веералью?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|...",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Забрать все эти вещи - это меньшее, что ты могла сделать после того, как полюбила меня.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "Теперь ты знаешь, что чувствую я!|!||L|С того момента, как я обрела эту силу, меня теперь никогда не оставят в покое.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "А у Синей всё ещё хуже!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Я была проклята неспособностью иметь ни одного несовершенства.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Вау, да у вас обеих дела хуже, чем у меня.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "Солнышко! Поверить не могу, что ты заставила её такое чувствовать.|!| И как ты собираешься это исправлять?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Небольшого поцелуйчика хватит?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Полагаю, что с этого можно начать извиняться.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "У тебя такой прекрасный запах.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Ладно, этого уже достаточно.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Ты можешь доверить свои ноши мне, Дьяволу.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Я использую их, чтобы хорошенько проучить всех этих монстров.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Неужели мой мусор настолько полезен?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Ещё бы!     Если он от чистого сердца, то любой мусор сгодится, чтобы ты чувствовала себя любимой.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Забрать все эти вещи - это меньшее, что ты могла сделать после того, как полюбила меня.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Думаю, теперь я могу простить тебя.",
+		},
+	],
+
+}

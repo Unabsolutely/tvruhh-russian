@@ -1,0 +1,179 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Привет, Зарадена!",
+			"dialog_rand2"		: "Я так рада тебя видеть!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Угадай, какое сейчас время?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Время зажигать!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Но ты это уже и так знаешь.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "У меня для тебя есть дары!",
+			"dialog_rand2"		: "Я принесла тебе парочку даров.",
+			"dialog_rand3"		: "Я нашла для тебя пару даров.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"random"			: 2,
+			"dialog_rand1"		: "Они,    скорее всего,    немного пригорели.",
+			"dialog_rand2"		: "Просто не обращай внимания на обожжённые части.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Пылающей Веерали",
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Выбери любой, какой нравится.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Хочешь вот этот?",
+	},
+	
+	"another_gift_1" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Надеюсь, он не слишком пригорел.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Но, похоже, тебе нравятся хрустящие.",
+			"dialog_rand2"		: "Но я знаю, что тебе нравится жгучее и острое.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Угадай, какое время теперь?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Время бонусного дара.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"random"			: 4,
+			"dialog_rand1"		: "А     ещё время тлеть.",
+			"dialog_rand2"		: "А     ещё время пылать.",
+			"dialog_rand3"		: "Ну и    время гореть.",
+			"dialog_rand4"		: "Ну и    время искрить.",
+		},
+	],
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Похоже, настало время добавить ещё огня.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Незачем так увлекаться!|L||!||shake|Сдерживайся хоть чуть-чуть!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"dialog"			: "...Я люблю тебя тоже.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Как ты светишься так ярко без огня?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "О, это просто моё лучезарное совершенство.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "А как это делает твоя подруга?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "А, я?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "В целом принцип такой же.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "Моя сестрёнка как раз говорила мне, насколько ей нравится быть окружённой пламенем.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Чего?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Самое время попробовать мою новую технику объятий!|L||!|Я называю её \"Пылающее Инферно\".",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "О нет!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "На самом деле это очень приятно.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Два дара по цене ни одного?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "За это мне придётся обнять тебя вдвое крепче!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Осторожно!|L||!|Слишком много горения тоже может быть вредно.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Немного излишнего тепла никому не помешают.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Получай удовольствие от моих сожжённых даров.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Я люблю твой огонь.",
+		},
+	],
+
+}

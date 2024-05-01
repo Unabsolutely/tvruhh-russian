@@ -1,0 +1,131 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_tutorial_common",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль обнаруживает монстров с ещё большим количеством даров, чем раньше.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Они хотят подарить мне ещё больше подарков?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "Для меня это, наверное, слишком много.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Теперь у монстров может быть |C3|до 3 подарков|C0| которые они могут Вам подарить.",
+		},
+		{
+			"show_tutorial"		: "small_challenge_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако они могут не так легко расстаться с этими дополнительными дарами.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Возможно, Вам придётся пройти |C3|испытание|C0|, чтобы убедить их отдать Вам эти дары.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Думаю, мне просто придётся полюбить их |wave|ещё больше.",
+		},
+		{
+			"show_tutorial"		: "example_challenge_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Монстры покажут Вам свои |C3|испытания|C0| перед началом битвы.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Если Вы не справитесь с заданием в |C3|испытании,|C0| тогда монстр не даст Вам этот дар.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Не проваливайте задание ни в одном из |C3|испытаний.|C0|",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Что бы им ни понадобилось, чтобы почувствовать себя любимыми, |L||wave|я могу это сделать!",
+		},
+		{
+			"show_tutorial"		: "karma_ring",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Наличие большего количества |C3|кармы|C0| увеличит шанс найти монстров с дополнительными дарами.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Наличие большего количества |C3|кармы|C0| также уменьшит шанс того, что для дополнительных подарков потребуется |C3|испытание.|C0|",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Спасибо, Маленький Робот!|!||L|Ты помогла мне так много понять об этих монстрах.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Ну, я пойду.|!||L|Мне нужно полюбить монстров.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "|wave|Прощай.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль прощается с Вами.",
+		},
+		{
+			"play_music"		: "silence",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Юная Зарадена снова ушла,     но Этот Модуль испытывает рекордно низкую температуру.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"play_music"		: "scene_music_b",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Шучу!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Обнимите Этот Модуль.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "Конечно.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"			: "У Этого Модуля внезапно повысилась температура.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"			: "Все вентиляторы охлаждения не работают.|L||!|Этот Модуль ни о чём не жалеет.",
+		},
+	]
+}
