@@ -1,0 +1,213 @@
+{
+	"script" : [
+		{
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 320,
+			"text_y"			: 180,
+			"text_w"			: 480,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"voice"				: "VOICE_static",
+			"dialog"			: "Пожалуйста, не сдавайся!",
+		},
+		{
+			"dialog"			: "Будет намного сложнее, но я знаю, что ты справишься!",
+		},
+		{
+			"dialog"			: "Пожалуйста,     только не сдавайся.",
+		},
+		{
+			"center_text_x"		: 1,
+			"center_text_y"		: 0,
+			"text_x"			: 156,
+			"text_y"			: 80,
+			"text_w"			: 276,
+			"play_music"		: "scene_music_a",
+			"bg_image"			: "spr_blank_intro_wake_up1",
+			"voice"				: "VOICE_blank",
+			"dialog"			: "Не сдамся!",
+		},
+		{
+			"transition_type"	: 1,
+			"bg_image"			: "spr_blank_intro_wake_up2",
+			"dialog"			: ". . .",
+		},
+		{
+			"dialog"			: "Снаружи ещё темно.",
+		},
+		{
+			"transition_type"	: 0,
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 144,
+			"text_y"			: 224,
+			"text_w"			: 256,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_blank_intro_raining",
+			"dialog"			: "Снова идёт дождь.",
+		},
+		{
+			"dialog"			: "Маленький Робот ошиблась.",
+		},
+		{
+			"dialog"			: ". . .",
+		},
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_scene_raining_cave",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry2"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль обнаружила юную Зарадену.|L|Она не была на обычном месте.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль была в секундах от активации режима паники.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry2"],
+			"dialog"			: "Сегодня всё ещё идет дождь.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry"],
+			"dialog"			: "Ты сказала, что он прекратится.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Обновлено:|C0| Этот Модуль рассчитала правильную вероятность дождя. Однако она также обнаружила аномалию.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Примерно через 4 часа после начала дневного цикла Этот Модуль рассчитала внезапный скачок вероятности дождя с 0,01% до 100%.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Текущие атмосферные показатели указывают на 0,01% вероятность дождя завтра.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Гипотеза:|C0| Дождём манипулирует неизвестная сила.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry2"],
+			"dialog"			: "Значит, дождь должен был прекратиться,   но потом что-то заставило его продолжиться?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry"],
+			"dialog"			: "И так происходит каждый день?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Такова рабочая гипотеза Этого Модуля.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_despair_cry"],
+			"dialog"			: "Значит, всё безнадежно?|L||!|Дождь никогда не закончится?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry"],
+			"dialog"			: "Зачем вообще выходить наружу?|L|Завтра они обо мне просто забудут.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот дождь может быть связан с потерей памяти у монстров.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised_cry"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry"],
+			"dialog"			: "Неважно.|L||!|Мы ничего не можем с этим поделать.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль встречалась с юной Зараденой более 140 раз в разные дни. За все эти дни она сдалась ровно 0 раз.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_cry"],
+			"dialog"			: "Но я не могу вспомнить-",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Юная Зарадена преодолела потерю памяти. Не исключено, что и монстры смогут преодолеть её.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Возможно, юная Зарадена всё ещё может помочь монстрам.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Теперь у юной Зарадены есть преимущество - она сохранила знания, полученные во время предыдущих попыток.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль считает, что мы можем найти источник этого дождя.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised_cry"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content_cry"],
+			"dialog"			: "Мы сможем это сделать.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised_cry"],
+			"dialog"			: "Я удивляюсь, как мне вдруг удалось сохранить память.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Данных по этому явлению у Этого Модуля нет.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако Этот Модуль заметила, что сердце юной Зарадены излучает больше света, чем в любой другой день.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Это сияние сохраняется на протяжении всех последних дней.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "На самом деле становится теплее.|L|Даже больше, чем до дождя.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Маленький Робот-",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Ты учила меня использовать свою силу любви каждый день, хотя знала, что я забуду?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Верно.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Ты лучшая!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "И я не могу отвернуться от монстров!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль с облегчением отмечает, что Зарадене стало лучше.",
+		}
+	]
+}

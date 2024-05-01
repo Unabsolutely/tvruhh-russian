@@ -1,0 +1,177 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_scene_raining_cave",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "Смятка!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious"],
+			"dialog"			: "Вы|!| ведь|!| такие...",
+		},
+		{
+			"play_music"		: "green_scene_music",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|shake|Милые!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "..!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Ето наша обнимательная форма.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Ты думаешь, ето мило?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Вообще-то, да.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Мы хотели больше походить на ету Зарадену.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Думаем, ета Зарадена очень милая!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Оу, вы хотели быть похожими на меня?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Дя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Это так мило.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Но,     есть     много вариантов получше, чем я.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_upset"],
+			"dialog"			: "Не не!|L||!|Ета Зарадена замечательная, и ты не должна говорить о ней так плохо!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Ладно.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Мы хотим помочь тебе с нашими Осколками силы!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "О!    Кажется, мне приснился сон, в котором вы рассказывали мне об этом?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Дя! Ты получила наше послание.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Я полагаю, у вас тоже есть какие-то силы снов?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Дя! Ты помнишь ето?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Значит, я могу дать тебе свои дары, а ты отправишь их в будущее, где я смогу забрать их завтра утром?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Дя!|L||!|Но ты также можешь приберечь ихь на другой день.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "И я могу давать тебе разные дары каждый день, пока не соберу |C3|суперкомбо из даров?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|shake|Дя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Ладно, давай сделаем это!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Э, на самом деле нам нужно некоторое время, чтобы зарядить ету |C3|связку синапса.|C0|",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Иди, покажи свою любовь етому другому монстру.|L||!|Мы найдем тебя после етого,   оки?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Ладно, Смятка!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "О, и еще кое-что.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "Сестричка Варка, наверное, напугана.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
+			"dialog"			: "Пожалуйста, люби и её тоже,   оки?|L||!|У нас нет сердца, чтобы сделать ето.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "У нас обеих один и тот же тип синапса.|L||!|Она тоже поможет тебе!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Смятка, я знаю, что ваша сестра такая же красавица, как и вы.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Но не забываете ли вы ещё кое-что?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Обнимашки!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|shake|Дя!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тебя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Ну здравствуй.|L||!|Добро пожаловать в режим |C3|Иной Истории|C0|.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Тебе, должно быть, интересно, кто я?",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Я - просто дружелюбная Бездна.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
+			"dialog"			: "Ты не узнаешь многого обо мне до конца раннего доступа.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Ну, а пока что я здесь, чтобы объяснить тебе |C3|Иную Историю|C0|.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Она практически не отличается от обычной, но может стать гораздо длиннее прежнего.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "|shake|И я могу сделать её для тебя гораздо сложнее.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
+			"dialog"			: "Если ты, конечно, хочешь получить очень большой счёт.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "У каждого монстра есть |C3|Розовая медаль-сердце|C0|, чтобы подарить каждой из Зараден.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
+			"dialog"			: "Пожалуйста, отправляйся и собери их для меня.",
+		},
+		{
+			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
+			"dialog"			: "Пусть кости судьбы лягут в твою пользу.",
+		},
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"script" : [
+		{
+			"center_text_x"		: 1,
+			"center_text_y"		: 0,
+			"text_x"			: 154,
+			"text_y"			: 96,
+			"text_w"			: 272,
+			"play_music"		: "game_over_music",
+			"bg_image"			: "spr_blank_heartbreak",
+			"voice"				: "VOICE_blue",
+			"dialog"			: "|C1|Но она вновь починит его.",
+		},
+		{
+			"dialog"			: "|C1|Она всегда это делала.",
+		}
+	]
+}

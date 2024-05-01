@@ -1,0 +1,76 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_tutorial_common",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль обнаружила новый тип |C3|дара.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Новый тип |C3|дара?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Сейчас Этот Модуль расскажет о |C3|Бонусных Дарах.",
+		},
+		{
+			"show_tutorial"		: "small_bonus_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "У некоторых монстров есть дополнительные |C3|Бонусные Дары,|C0| которые они могут дать Вам в дополнение к своим |C3|Дарам Силы.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Чем больше |C3|кармы,|C0| тем больше шанс получить |C3|Бонусные Дары|C0| от монстров.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Как и Дары Силы, |C3|Бонусные Дары|C0| автоматически начинают действовать, когда Вы их получаете.",
+		},
+		{
+			"show_tutorial"		: "example_bonus_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако |C3|Бонусные Дары|C0| имеют гораздо более простые или разовые эффекты по сравнению с Дарами Силы.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Бонусные Дары|C0| также могут быть получены несколько раз.",
+		},
+		{
+			"show_tutorial"		: "gift_preview_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Вам будет доступен |C3|предпросмотр даров|C0| каждого из монстров при выборе того, кого полюбить.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Внимательно изучайте |C3|дары,|C0| которые подарит Вам каждый монстр, когда будете выбирать, кого из них полюбить.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Выбирать их из-за даров?",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "По Вашему выражению Этот Модуль определила, что эта формулировка была бесчувственной.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Это было принято к сведению для дальнейшего использования.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Все в порядке, Маленький Робот.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"			: "С такими темпами Этому Модулю придётся установить новый вентилятор охлаждения.",
+		}
+	]
+}

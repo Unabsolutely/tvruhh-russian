@@ -1,0 +1,109 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "tutorbot_scene_music",
+			"bg_image"			: "spr_tutorial_common",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Маленький Робот!    Монстры |wave|очень любят меня!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Я чувствую себя такой любимой.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль испытывает огромную радость за юную Зарадену.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль также получила для Вас новую информацию.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Хорошо!    Я слушаю.",
+		},
+		{
+			"show_tutorial"		: "karma_ring",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль сейчас объяснит, что такое |C3|карма.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Монстры будут давать Вам |C3|карму,|C0| когда их любят.",
+		},
+		{
+			"show_tutorial"		: "karma_power_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Наличие |C3|кармы|C0| увеличивает шанс получить от монстров |C3|дары более высокого ранга.|C0|",
+		},
+		{
+			"show_tutorial"		: "four_monster_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Наличие |C3|кармы|C0| также увеличивает шансы на выбор до четырёх монстров.",
+		},
+		{
+			"show_tutorial"		: "monster_preview_karma",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Любовь к |C3|монстрам более высокого уровня|C0| часто приносит больше |C3|кармы.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Всегда выбирайте монстра самого высокого уровня, чтобы получить |C3|максимальную карму.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Это    может быть слишком сложно.",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Обновление:|C0| Этот Модуль думает, что Вы, возможно, ещё не до конца развили свой навык.",
+		},
+		{
+			"show_tutorial"		: "karma_power_cards",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Правда, если любить более сильных монстров, то можно получить больше |C3|кармы|C0| и, соответственно, |C3|лучшие дары.",
+		},
+		{
+			"show_tutorial"		: "higher_level_monsters",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако любовь к более сильным монстрам также приведёт к появлению |C3|монстров более высокого уровня|C0| на последующих этапах.",
+		},
+		{
+			"show_tutorial"		: "lower_level_monsters",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Аналогично, любовь к более слабым монстрам приведёт к появлению |C3|монстров более низкого уровня|C0| на следующих этапах.",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Игнорируйте предыдущее предложение.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Пересмотренное Предложение:|C0| Всегда тщательно выбирайте битвы.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Значит, я могу контролировать, насколько сложными будут битвы?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Именно так.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "На это я могу сказать только одно.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"			: "Этот Модуль начинает обнаруживать закономерность.",
+		}
+	]
+}

@@ -1,0 +1,232 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "orange_scene_music",
+			"bg_image"			: "spr_scene_raining_outside",
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "Ты в порядке, Витражия?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Твои глаза!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Что с ними такое?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Узкие, вертикальные зрачки.|L||!|Видимая красная склера.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "Это характерные черты глаз Веералей!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "И ты - Зарадена?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "Да, я так думаю?|L||!|Должна быть, верно?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "Почему ты так выглядишь?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "Выгляжу как что?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised_blush"],
+			"dialog"			: "О нет!|L||!|Это было так грубо.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_sad"],
+			"dialog"			: "Прости меня. Прости меня. Прости меня.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_awkward"],
+			"dialog"			: "Иногда я сначала говорю, а потом начинаю думать.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Ничего страшного.|L||!|Я не знаю, почему у меня такие глаза.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
+			"dialog"			: "Я хотела сказать... |shake|Твои глаза такие красивые.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Увидев, насколько её глаза похожи на мои, вполне естественно, что они будут в числе самых прекрасных вещей на Айрис.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "На втором месте перед моими, разумеется.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "Это-",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Это маленькая веераль.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Они просто не могут меня выпустить из рук.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
+			"dialog"			: "Ты такая холодная!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Идеальная температура, не так ли?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_normal"],
+			"dialog"			: "Тебя так сложно разглядеть.|L||!|Ты выглядишь, как слепое пятно в моих глазах.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
+			"dialog"			: "Хотя, ты почему-то синяя?|L||!|Непохоже на других веералей, которых я видела.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Ты знаешь, что такое чёрная дыра?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Нет, я так не думаю.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Когда звёзды взрываются, от некоторых из них остаётся плотный шар материи.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Они настолько плотные, что у них очень сильная гравитация.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Ещё они весьма крошечные для той массы, которй обладают.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Как если бы массу всей нашей планеты сжали до размеров этой веерали.|L||!|Даже ещё меньше!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Эти малютки содержат так много в таком небольшом размере.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "Представь, как эта веераль притягивает тебя к себе с силой целой планеты!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_very_happy"],
+			"dialog"			: "Я думаю, она уже так делает.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Итак, эти чёрные дыры настолько большие, что затягивают в себя даже свет.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "А если что-то не излучает никакого света, то это совсем не увидеть!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Поэтому мы и называем их чёрными дырами.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Похоже, веерали тоже умеют поглощать свет, но не обладают такой большой массой.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Лишь небольшое количество света избегает на границе у вас.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_serious_glare"],
+			"dialog"			: "Как ты работаешь, маленькая веераль?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_normal"],
+			"dialog"			: "На самом деле это довольно просто.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Зачем чему-то, включая свет, покидать присутствие такого совершенства?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
+			"dialog"			: "С этой логикой не поспоришь.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush_glare"],
+			"dialog"			: "И, э-э-э...|L||!|Прости за всю эту болтовню.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_confused"],
+			"dialog"			: "Меня опять понесло.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_sad"],
+			"dialog"			: "Можешь меня просто останавливать, если я говорю слишком много.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_confused"],
+			"dialog"			: "Я это понимаю.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Ох, зачем?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Это было действительно интересно.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_confused"],
+			"dialog"			: "Правда?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
+			"dialog"			: "Хочшь посмотреть на мою обсерваторию?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "Да, конечно!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "А     что такое обсерватория?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
+			"dialog"			: "|shake|Я смогу объяснить тебе про обсерваторию!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Я расскажу всё по пути.",
+		},
+	]
+}

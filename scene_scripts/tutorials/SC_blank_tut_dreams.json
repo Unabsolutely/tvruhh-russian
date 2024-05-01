@@ -1,0 +1,158 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"		: "|wave|Маленький Робот.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "Я встретила столько новых монстров!",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"		: "Они давали мне дары, которых я никогда раньше не видела.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Похоже, что эта Зарадена |C3|исполняет свои мечты.|C0|",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "Да! Думаю, да.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"		: "У меня никогда раньше не было таких друзей, как вы все.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"		: "Разве что...",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"		: "А-а, неважно.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этому Модулю теперь требуется несколько резервных устройств для хранения всей той любви, которую проявила к ней Зарадена.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|Пожалуйста.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Как уже говорила Этот Модуль, мечты этой Зарадены очень могущественны.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Продолжайте влиять на мир с помощью |C3|исполнения своих мечтаний.|C0|",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"		: "Довольно     странное выражение.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это было не метафорическое высказывание.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"		: "Что?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Вопрос:|C0| Заметила ли эта Зарадена всех новых монстров и дары, которые появились?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Многие из них являются новыми для Этого Модуля.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "Значит, мы их никогда не видели?|!||L|Даже когда я ничего не помнила?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Верно.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Осознанно или нет, но в сердце этой Зарадены есть |C3|список мечтаний|C0|, которые она хочет исполнить.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Исполнение мечтаний|C0| привлекает новых монстров и меняет поведение других.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "Как это вообще возможно?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "У Этого Модуля нет никакого объяснения этому явлению.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Возможно, что |C3|исполнение мечтаний|C0| может привести к решению проблемы бесконечного дождя.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"		: "Значит, я просто буду делать всё, что пожелает моё сердце?",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "По-моему, отличный план!",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "У всех монстров тоже есть свои |C3|мечты, которые они должны исполнить.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Чудовища, которых эта Зарадена любила раньше, будут делиться с Вами своими мечтами.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"		: "|wave|Я могу помочь им в осуществлении их мечты.",
+		},
+		{
+			"show_tutorial"	: "monster_dreams",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Эти значки появятся рядом с монстрами, у которых есть |C3|несбывшиеся мечты.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Используйте опцию |C3|\"Проверить Сердце\"|C0|, чтобы просмотреть |C3|Список Мечтаний.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вы можете проверить мечты каждого монстра, прежде чем сразиться с ним.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Простая осведомлённость об их мечте - важный шаг к её осуществлению.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"		: "Можешь ли ты догадаться, о чём я сейчас мечтаю?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Судя по прошлым данным, почти наверняка - прервать Этот Модуль с-",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|Я люблю тебя.",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "Этот Модуль мечтает о бесконечном устройстве для хранения данных.",
+		}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	"script" : [
+		{
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 320,
+			"text_y"			: 280,
+			"text_w"			: 580,
+			"play_music"		: "silence",
+			"bg_image"			: "spr_defect_end1_1",
+			"voice"				: "VOICE_defect",
+			"dialog"			: "Я обрела силу любить.",
+		},
+		{
+			"dialog"			: "Это было прекрасное чувство.",
+		},
+		{
+			"dialog"			: "На мгновение я обрадовалась.",
+		},
+		{
+			"dialog"			: "Но я не заслужила этой силы.",
+		},
+		{
+			"dialog"			: "Я не заслужила этой любви.",
+		},
+		{
+			"dialog"			: "Я  не заслужила    никакой    любви.",
+		},
+		{
+			"dialog"			: "Я    не...",
+		},
+		{
+			"dialog"			: "...",
+		},
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "silence",
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Могу ли я спросить,       зачем ты забираешь этих Зараден?",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Я беру только то, что мне предлагают.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Они все решили найти меня.    Они все выбрали стать ничем.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Они все хотят здесь быть.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Хм-м.     Что ж, я, как ваша самая прекрасная слуга, с сожалением сообщаю, что я не позволю вам забрать эту девочку.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
+			"dialog"			: "Делай как знаешь.    Я не стану останавливать тебя.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_cry"],
+			"dialog"			: "Не имеет значения, что ты сделаешь.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_smile_cry"],
+			"dialog"			: "Завтра она вернётся.|L||!|И послезавтра.|L||!|И после-послезавтра.",
+		},
+		{
+			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_angry_cry"],
+			"dialog"			: "Ты не остановишь её.",
+		},
+		{
+			"bg_image"			: "spr_defect_end1_2",
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_angry"],
+			"dialog"			: "Насчёт этого мы ещё посмотрим.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_angry"],
+			"dialog"			: "Я помогу ей всё исправить.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_angry"],
+			"dialog"			: "Столько раз, сколько потребуется!",
+		}
+	]
+}

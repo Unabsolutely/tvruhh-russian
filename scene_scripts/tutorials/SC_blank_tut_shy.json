@@ -1,0 +1,80 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль должна прервать Ваш текущий сон, сообщив важную информацию.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Сейчас Этот Модуль объяснит Вам уникальные правила |C3|робкой битвы.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Во время |C3|робкой битвы|C0| монстр будет посылать множество маленьких миньонов, чтобы атаковать Вас.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Если |C3|робкий монстр|C0| отсутствует в начале битвы, Вы должны выманить её, сначала проявив любовь к её миньонам.",
+		},
+		{
+			"show_tutorial"	: "combo_bar6",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Робкие монстры всегда будут удерживать |C3|любовное комбо,|C0| сделав его зелёным.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Для того, чтобы удерживать комбо, пока оно зелёное, необязательно оказывать непрерывную любовь.",
+		},
+		{
+			"show_tutorial"	: "combo_bar7",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вместо этого, зелёное комбо исчезнет только в том случае, если |C3|миньон сбежит, не добившись любви.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Миньоны робких монстров часто пытаются |C3|сбежать с арены|C0| во время атаки.",
+		},
+		{
+			"show_tutorial"	: "combo_bar8",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Чтобы достичь |C3|полного комбо,|C0| Вы не должны позволить ни одному миньону сбежать.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Никогда не позволяйте ни одному миньону сбежать.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Напоминаю, что |C3|заряженные атаки|C0| очень эффективны для быстрого нанесения большого количества любви.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Разрушение частей и любовь к миньонам также |C3|восполнят запас энергии заряда.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Используйте множество заряженных атак во время робких битв, чтобы никто не ускользнул от Вашей любви.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это вся информация о |C3|робких битвах,|C0| которой располагает для Вас Этот Модуль.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль желает Вам удачи в этой |C3|робкой битве.|C0|",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "У Этого Модуля наблюдается резкое повышение температуры.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "У Этого Модуля был 0% шанс на побег.",
+		}
+	]
+}

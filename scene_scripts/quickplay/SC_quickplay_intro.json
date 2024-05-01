@@ -1,0 +1,82 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Юная Зарадена,     похоже, некоторые монстры приготовили для Вас игру.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "Игру?    Что это за игра?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Она называется |C3|Быстрая игра.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|Звучит забавно!|norm| Как же мне играть?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Сейчас Этот Модуль расскажет о |C3|Быстрой игре.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "В |C3|Быстрой игре|C0| Вы можете полюбить любого монстра, когда захотите.|!| При условии, что Вы |C3|осветили|C0| их карту.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вы также можете использовать любые |C3|освещённые Дары Силы,|C0| которые помогут Вам полюбить их.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Получайте высокие баллы от монстров, чтобы заработать |C3|медали|C0| и |C3|повышение уровня.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "По мере того, как Вы |C3|повышаете свой уровень,|C0| Вы сможете |C3|получать больше Даров Силы|C0| для каждой битвы.",
+		},
+		{
+			"play_music"	: "silence",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy_cry1"],
+			"dialog"		: ".  .  .",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Этот Модуль обнаруживает ошибку в Вашем выражении лица.",
+		},
+		{
+			"play_music"	: "scene_music_b",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy_cry1"],
+			"dialog"		: "Они хотят, чтобы я снова полюбила их всех?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Ошибка решена.    |L|Обнаружены слёзы радости.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy_cry2"],
+			"dialog"		: "Эй, маленький робот-",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy_cry3"],
+			"dialog"		: "|wave|Я люблю тебя.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Обнимите Этот Модуль.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy_cry3"],
+			"dialog"		: "Конечно.",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "Объятия завершены.",
+		},
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"script" : [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "dreaming_scene_music",
+			"bg_image"			: "spr_scene_dreaming",
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "О,   ээ,   Привет.|L||!|Ето сон Зарадены, дя?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "Мы Варка.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
+			"dialog"			: "Сейчас мы выглядим иначе, дя?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
+			"dialog"			: "Прости за вот ету штуку с огнём.|L||!|...И за то, что попытались тебя ей сжечь.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
+			"dialog"			: "Мы просто были напуганы.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "Но теперь мы хотим помочь.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_surprised"],
+			"dialog"			: "Мы можем поделиться с тобой нашей сильной |C3|связью синапса.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
+			"dialog"			: "Тебе просто надо будет...   полюбить нас?    Снова?       дя?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "Наша |C3|связь синапса|C0| - ето портал в другое время.|L||!|Мы всегда выставляем его на завтрашнее утро.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "Ты можешь дать нам свои дары, а мы положим их в |C3|связь синапса.|C0|",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "И ты сможешь взять ети дары оттуда в любой другой день.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+			"dialog"			: "Ты можешь получить острые силы ещё до етой первой битвы!",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "А ещё ты можешь оставить ети дары в |C3|связи синапса.|C0|",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+			"dialog"			: "Пусть они лежат там, пока у тебя не соберётся |C3|особо острое комбо из даров!",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+			"dialog"			: "Но,  ээ...   серьёзно, будь осторожнее с огнём, дя?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+			"dialog"			: "Мы хотим, чтобы ты была в безопасности, окее?",
+		}
+	]
+}
