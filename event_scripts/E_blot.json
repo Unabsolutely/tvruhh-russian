@@ -1,0 +1,508 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Добро пожаловать на нашу картинную выставку!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "Осматривайся сколько хочешь.",
+		}
+	],
+	
+	"gallery_level"	: "Уровень Выставки [VAL1]",
+	"total_tokens"	: "Всего Жетонов Клякс Получено",
+	"list_title1"	: "Дары Кляксы",
+	"list_title2"	: "Дары у [NAME]",
+
+	"op_gallery"	: "Картинная выставка",
+	"op_donate"		: "Пожертвовать дары",
+	"op_upgrade"	: "Улучшения",
+	"op_leave"		: "Уйти",
+	
+	"op_gift_amount"	: "Размер Выставки",
+	"op_gift_limit"		: "Лимит Обмена",
+	"op_donate_limit"	: "Размер Хранилища",
+	
+	"gallery_text"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Взгляни на нашу выставку!|L|Что-то мы нарисовали сами, но большую часть мы просто находим смятыми на полу.",
+	},
+	"donate_text"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Можешь пожертвовать свои дары на нашу выставку!|L|Мы дадим тебе |C3|Жетоны Клякс|C0| и |C3|Карму.|C0|",
+	},
+	"upgrade_text"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Мы можем использовать силу |C3|тетридов|C0|, чтобы улучшить выставку!",
+	},
+	"leave_text"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Скажи нам, когда будешь уходить, милашка.|L|Можешь сохранить свои жетоны на потом!",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Тебе уже пора идти?",
+	},
+	
+	"comment_small_gallery"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Ээм... тут не так много разных вещей, но мы стараемся изо всех сил.",
+	},
+	"comment_cant_donate"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Наша жизнь - сплошной бардак, и нам пока что некуда девать твои пожертвования.",
+	},
+	"comment_donate_limit"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+		"dialog"	: "В нашем измерении хранилища закончилось место доя твоих даров.",
+	},
+	"comment_token_limit"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "У тебя довольно много |C3|Жетонов Клякс.|C0||L|Может, потратишь парочку, милашка?",
+	},
+	"comment_max_level"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Our art gallery is now perfect thanks to you, cutie!",
+	},
+	
+	
+	
+	"cost_line"		: "Можешь взять это за |C3|[VAL1] Жетона Клякс.|C0|",
+	"cost_line_1"	: "Можешь взять это за |C3|1 Жетон Клякс.|C0|",
+	"cost_line_0"	: "Можешь взять это прото так, милашка.",
+	"comment_free"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|Можешь это просто взять, если хочешь, милашка.",
+	},
+	"comment_unknown"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Ээ... Мы не запомнили вот это.|L|[VAL1]",
+	},
+	"comment_blop"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "Возьми кусочек нас с собой, милашка!|L|[VAL1]",
+	},
+	"comment_painting1"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Постой, разве не ты это нарисовала?|L||wave|Это твоя девушка?|norm||L|[VAL1]",
+	},
+	"comment_painting2"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "Это нарисовала милашка с бесцветной кожей!|L||wave|Мы думаем, что это её девушка.|norm||L|[VAL1]",
+	},
+	"comment_one"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Есть какая-то красота в такой простоте.|L|[VAL1]",
+	},
+	"comment_two"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Такое приятное творение.|L|[VAL1]",
+	},
+	"comment_three"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|Вот это почти такое же милое, как ты!|norm||L|[VAL1]",
+	},
+	"comment_bonus"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Кое-что приятное в довесок.|L|[VAL1]",
+	},
+	"comment_quick"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Наслаждайсся этим, пока можешь.|L|[VAL1]",
+	},
+	"comment_limit"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Мы не думаем, что у тебя это поместится, милашка.",
+	},
+	"comment_over"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужно |C3|[VAL2] Жетона Клякс.|C0|",
+	},
+	"comment_over_1"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужен |C3|1 Жетон Клякс.|C0|",
+	},
+	"comment_closed"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Прости, милашка!|L|Сегодня мы больше ничего не отдаём, но всё равно можешь взглянуть.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Хочешь взять вот это?",
+	},
+	
+	"gift_bought" 		: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Вот это точно для тебя, милашка.",
+			"dialog_rand2"		: "|wave|Мы знали, что это тебе понравится, милашка.",
+			"dialog_rand3"		: "Нам нравятся цвета у этого!",
+			"dialog_rand4"		: "|wave|Оно практически такое же милое, как и ты.",
+		}
+	],
+	
+	
+	
+	"donate_line"	: "Мы дадим тебе за него |C3|[VAL1] Жетона Клякс|C0| и |C3|[VAL2] Кармы|C0|.",
+	"donate_line_1"	: "Мы дадим тебе за него |C3|1 Жетон Клякс|C0| и |C3|[VAL2] Кармы|C0|.",
+	"comment_donate_normal"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Мы примем это как пожертвование.|L|[VAL1]",
+	},
+	"comment_donate_art"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "О, вот это настоящее искусство!|L|[VAL1]",
+	},
+	"comment_donate_special"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "О, мы именно это и искали!|L|[VAL1]",
+	},
+	"comment_donate_I_painting"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|Мы любим эту картину!|norm||L|[VAL1]",
+	},
+	"comment_donate_quick"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Похоже, это прилипло к тебе!|L|[VAL1]",
+	},
+	"comment_donate_blessing"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Конечно, пожертвуй нам чудесное настроение!|L|[VAL1]",
+	},
+	"comment_donate_art_blessing"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "У тебя есть художественные идеи, милашка?|L|[VAL1]",
+	},
+	"comment_donate_burden"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Мы бы могли сделать из этого какую-нибудь страдальную картину, но понимаем, почему ты нам не стала бы это отдавать.",
+	},
+	"comment_donate_taken": {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Ты это только что взяла с нашей выставки.",
+	},
+	"comment_donate_starter": {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Мы не можем принять это от тебя, милашка.",
+	},
+	"donate_confirm"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Хочешь пожертвовать это нам?",
+	},
+	
+	"gift_donated" 		: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Спасибо за пожертвование, милашка.",
+			"dialog_rand2"		: "|wave|Оно нам так нравится!",
+			"dialog_rand3"		: "Даже не верится, что ты это просто так нам отдаёшь!",
+			"dialog_rand4"		: "Мы будем ценить этот дар.",
+		}
+	],
+	"quick_donated" 		: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Они так быстро исчезают.|L||!||shake|Мы просто должны были это взять!",
+		}
+	],
+	"TAG_blot_part_donated" 		: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Ты буквально завершила нас, милашка!",
+		}
+	],
+	
+	
+	
+	"comment_upgrade_size_small"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Сейчас выставка вмещает только |C3|[VAL1] дара|C0|, но с помощью парочки тетридов её можно расширить.",
+	},
+	"comment_upgrade_size"			: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Сейчас выставка вмещает |C3|[VAL1] даров|C0|, но с помощью парочки тетридов можно добавить ещё один!",
+	},
+	"comment_upgrade_size_maxed"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Сейчас выставка вмещает |C3|[VAL1] даров|C0|!|L||wave|Это лучшее, чего можно достичь, милашка.",
+	},
+	
+	"comment_upgrade_limit_first"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Мы можем дать тебе только |C3|1 дар|C0| за визит, но если ты дашь нам немного тетридов, мы будем готовы отдать ещё один.",
+	},
+	"comment_upgrade_limit"			: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Мы можем дать тебе |C3|[VAL1] дара|C0| за визит, но если ты дашь нам ещё немного тетридов, мы отдадим ещё один!",
+	},
+	"comment_upgrade_limit_maxed"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Мы можем дать тебе до |C3|[VAL1] даров|C0| с каждым твоим визитом!|L||wave|Это лучшее, чего можно достичь, милашка.",
+	},
+	
+	"comment_upgrade_donate_none"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Прежде чем мы сможем принять |C3|пожертвования даров,|C0| нам нужно немного тетридов, чтобы создать для них хранилище.",
+	},
+	"comment_upgrade_donate_one"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "Мы можем принять только |C3|одно пожертвование|C0| за визит, но с помощью парочки тетридов мы создадим место ещё для одного.",
+	},
+	"comment_upgrade_donate"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Мы можем принять |C3|[VAL1] пожертвования|C0| за визит, но с помощью парочки тетридов мы создадим место ещё для одного!",
+	},
+	"comment_upgrade_donate_maxed"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Мы можем принять |C3|[VAL1] пожертвования|C0| за визит!|L||wave|Это лучшее, чего можно достичь, милашка.",
+	},
+	
+	"comment_upgrade_fail"			: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+		"dialog"	: "Мы ничего не сможем с этим сделать, пока не получим ещё несколько пожертвований.|L|Нам очень жаль, милашка!",
+	},
+	
+	"upgrade_size" 			: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "С их помощью мы расширим нашу выставку.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "К твоему следующему приходу у нас будет ещё больше картин!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "|wave|Всё благодаря тебе, милашка!",
+		}
+	],
+	"upgrade_size_final" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "С их помощью мы расширим нашу выставку.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Мы не сможем вместить больше картин, чем теперь!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Мы бы никогда не сделали это без тебя, милашка!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "|wave|Мы любим тебя!",
+		}
+	],
+	"upgrade_donation_first" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "С этой силой мы можем открыть разрыв в измерение для хранилища.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Теперь нам есть куда складывать твои пожертвования!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "И теперь мы можем по-настоящему начать обмен искусством!",
+		}
+	],
+	"upgrade_donation" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "С этой силой мы сможем помещать больше даров в наше хранилище.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Теперь ты можешь отдавать больше даров с каждым визитом!",
+		}
+	],
+	"upgrade_limit_to_2" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Эти радужные тетриды такие вкусные!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Теперь ты сможешь брать |C3|2 картины|C0| с каждым визитом!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Так будет честно, милашка.|L||!|Ты уже столько пожертвовала для нашей выставки.",
+		}
+	],
+	"upgrade_limit_to_3" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "О, у нас что, слюни текут?",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Прости, милашка.|L|Мы просто не можем сдержаться рядом с этими радужными тетридами.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Теперь ты можешь брать у нас до |C3|3 картин|C0| с каждым твоим визитом!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Ты уже столько нам отдала.|L||!|Мы надеемся, что это усилит и тебя тоже.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Мы любим тебя, милашка!",
+		}
+	],
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_aggressive"],
+		"dialog"	: "Не говори остальным, что это наши любимые тетриды.|L||C3|Они дают нам больше всего силы!",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+		"dialog"	: "Эти пахнут как костёр.",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Эти не очень вкусные.|L|Нам, наверное, стоит перестать их есть.",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_shocked"],
+		"dialog"	: "|shake|От этих нашей коже больно!|norm||L|Какой стыд.|L|Синий - такой прекрасный цвет.",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Из вот этих раздаётся странная песня.|L|А ты её слышишь?",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "Эти кажутся такими грустными.|L|Мы их обнимем.",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|shake|Мы жаждем их!",
+	},
+	"upgrade_confirm"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+		"dialog"	: "You want to give these to us, cutie?",
+	},
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Мне было приятно провести тут время.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Мы очень рады это слышать!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "О, ты такая чувственная, милашка.|L||!||wave|Мы любим тебя!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		}
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Надеемся, вам было тут приятно.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Несомненно.|L||!|Мне очень жаль, что друге гости восприняли моё совершенство как ещё одну работу на выставке.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Но ведь мы здесь одни.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|И тем не менее, ты не сводила с меня глаз.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Мы рады, что вам тут понравилось, милашки.",
+		}
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Прежде чем мы пойдём, моя сестра хотела, чтобы вы её нарисовали.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Правда, милашка?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Ну... наверное.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Ты будешь выглядеть так мило!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Ещё бы!",
+		}
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"random"			: 4,
+			"dialog_rand1"		: "Мне понравились все те чёрные с глазами.",
+			"dialog_rand2"		: "Некоторые из них прямо  как настоящий |shake|металл!",
+			"dialog_rand3"		: "Видела вот это вот с неописуемым ужасом?",
+			"dialog_rand4"		: "Мне нравятся те, что выглядят как мои кошмары.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_aggressive"],
+			"random"			: 4,
+			"dialog_rand1"		: "Ага, и все те с милыми сердечками!",
+			"dialog_rand2"		: "А как насчёт вон того с милой дамой?",
+			"dialog_rand3"		: "Правда? А ещё вон те с разноцветными цветками!",
+			"dialog_rand4"		: "А ты видела вон то с милой девочкой?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Конечно!   Ты и правда понимаешь меня.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "|wave|Мы любим тебя, милашка!",
+		}
+	],
+	
+	"leave_default" 	: [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Надеемся, вы ещё к нам зайдёте.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Мы любим тебя, милашка!",
+		},
+	],
+
+}

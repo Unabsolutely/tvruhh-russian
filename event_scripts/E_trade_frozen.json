@@ -1,0 +1,297 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|Мне... Так холодно.",
+			"dialog_rand2"		: "|shake|Я   з-з-застываю.",
+			"dialog_rand3"		: "|shake|Тебе тоже х-х-холодно?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|Я уже долгое время не чувствовала теплоты.",
+			"dialog_rand2"		: "|shake|Ня не привыкла чувствовать теплоту.",
+			"dialog_rand3"		: "|shake|Чувство тепла для меня совсем новое.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "У тебя есть что-нибудь, чтобы |C3|разогреть|C0| меня?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Даже если это не излучает тепло, от тебя это всё равно будет ощущаться тёплым.",
+		},
+	],
+	
+	"intro_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "|shake|Мне так холодно.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "О-о, а ты такая горячая...",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "Ничего себе!|L||!||shake|Да ты заледенела!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "|shake|Ой... Прости.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Ничего страшного!|L||!|Я возьму у тебя холод.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "У тебя есть ещё что-нибудь, чтобы |C3|разогреть|C0| меня?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "От тебя что угодно принесёт тепло.",
+		},
+	],
+	
+	"mood_title"	: "Настроение Веерали",
+	"monster_gifts"	: "Дары Мёрзлой Веерали",
+	"player_gifts"	: "Активные дары у [NAME]",
+	"player_quicks"	: "Быстрые дары у [NAME]",
+
+	"op_trade"			: "Дары Мёрзлой Веерали",
+	"op_give_active"	: "Дать активные дары",
+	"op_give_quick"		: "Дать Дары силы",
+	"op_leave"			: "Уйти",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "У меня есть несколько даров для тебя, пусть они и немного холодные!",
+	},
+	"comment_active"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Пожалуйста, согрей меня.",
+	},
+	"comment_quick"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "У тебя есть какой-нибудь тёплый сок?",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Даже встреча с тобой приносит тепло.",
+	},
+	
+	"comment_closed"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "У меня совсем закончились дары.",
+	},
+	"comment_give_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Теперь мне достаточно тепло, спасибо!",
+	},
+	"comment_give_empty"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "У тебя нет таких даров.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Пора уходить?",
+	},
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Можешь взять это!",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_angry"],
+		"dialog"	: "Можешь взять эту... штуку.|L|Должно быть, холод влияет на мою память.",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Этот прицепился к моему мёрзлому телу.|L|Немного больше теплоты, и ты сможешь его взять.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "У тебя это даже в руках не поместится.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Хочешь это?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|С тобой мне уже становится теплее.",
+			"dialog_rand2"		: "Просто смахни с него снежинки.",
+			"dialog_rand3"		: "Он же не слишком холодный?",
+			"dialog_rand4"		: "Надеюсь, что тебя это согреет так же, как и ты меня.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Даже это кажется тёплым, потому что это из твоих рук.",
+	},
+	"comment_give_special"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Это меня хорошо согреет.",
+	},
+	"comment_give_favorite"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Я буду ценить эту теплоту!",
+	},
+	"comment_give_TAG_boiler_part"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Вот это по-настоящему |shake|жгучая|norm| теплота!",
+	},
+	"comment_give_dislike"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Сейчас это для меня будет слишком холодно.",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Не самое тёплое, но я приму это.",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Это чувство вполне меня согреет.",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "|shake|Почему мне внезапно т-т-так х-х-холодно?",
+	},
+	"comment_give_taken"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+		"dialog"	: "По-моему, такое у меня уже есть.",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_angry"],
+		"dialog"	: "Это слишком важно для тебя!",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Я могу это взять?",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Мне так тепло.",
+			"dialog_rand2"		: "Я всё ещё чувствую в нём твою теплоту.",
+			"dialog_rand3"		: "Это так приятно.",
+			"dialog_rand4"		: "Ты так добра ко мне.",
+		}
+	],
+	"favorite_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Неужели я и правда заслуживаю этих доброты и тепла?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Это вполне убедительный аргумент.",
+		}
+	],
+
+
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
+			"dialog"			: "У меня есть ещё один трюк, которому обучила меня маленькая робот.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Это     так     тепло!",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Как тебе удаётся сохранять теплоту?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "А, я? Ещё бы, это всё заслуга моей дорогуши, Дефект.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "|shake|Что?|!||L|Пошли-ка, Синяя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Видишь? Она становится такой тёплой, когда ей делают комплименты.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "Разве ты не собираешься её обнять?|!||L|Ей же так холодно.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Прости!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "А поцелуйчик?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Тише, Зелёная!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Так тепло.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Мне пора уходить.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "...Ну ещё недолго.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Уж лучше бы мне здесь не задерживаться ещё на час.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Встреча с тобой меня так согрела.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Может, я больше и не почувствую холода.",
+		},
+	],
+
+}

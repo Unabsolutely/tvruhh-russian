@@ -1,0 +1,287 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "|wave|Восторг на максимуме!",
+			"dialog_rand2"		: "|wave|Экспоненциальное возбуждение!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "Мы надеялись, что встретимся с тобой снова.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"random"			: 2,
+			"dialog_rand1"		: "Нам нужна твоя помощь с экспериментом.",
+			"dialog_rand2"		: "Не могла бы ты нам кое с чем помочь?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Мы пытаемся передать энергию Джоулиям в других измерениях с помощью частиц у нас в волосах.",
+			"dialog_rand2"		: "Частицы в наших волосах могут быть способны передавать энергию в другие измерения.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "И судя по всему, частицы активируются благодаря твоему |wave|абсолютно асимптотичному настрою.",
+		},
+	],
+	
+	"monster_gifts"	: "Дары Джоулии",
+	
+	"op_start"		: "Начать эксперимент",
+	"op_leave"		: "Не сегодня",
+	
+	"comment_start"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+		"dialog"	: "Используй свою силу, чтобы вытащить из наших волос как можно больше частиц за минимальное время.",
+	},
+	"comment_leave"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+		"dialog"	: "У тебя сегодня нет времени?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+		"dialog"	: "Ты уверена?",
+	},
+	
+	"start_battle" 	: [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Это от тебя так экспоненциально.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "Твоя задача очень проста.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "Возьми нас в свой мир снов и выжми из нас все частицы до единой!|L||!|Не позволь ни одной частичке пропасть попусту.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "|wave|Приступим.",
+		},
+	],
+	
+	"start_battle_devil" 	: [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "Твоя задача очень проста.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "Возьми нас в свой мир снов и выжми из нас все частицы до единой!|L||!|Не позволь ни одной частичке пропасть попусту.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Похоже, кое-кто желает устроить матч-реванш!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Можно и так сказать.",
+		},
+	],
+	
+	"no_battle" 	: [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "Эй, мы понимаем.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "Другая Джоулия уже отправляет нам энергию, и всё благодаря ещё одной тебе.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Лишь одно из преимуществ бытия Осколка.",
+		},
+	],
+	
+	"return_intro" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|Максимальное перевозбуждение!",
+			"dialog_rand2"		: "|wave|Экспоненциальный восторг!",
+			"dialog_rand3"		: "|wave|Асимптотичный восторг!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "Другие Джоулии подтвердили получение энергии от нас.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "Мы достигли успеха!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+			"random"			: 2,
+			"dialog_rand1"		: "Ты и правда нашла |C3|[VAL1] частиц|C0| у нас в волосах?",
+			"dialog_rand2"		: "У нас в волосах и правда застряло |C3|[VAL1] частиц|C0|?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "И ты нашла не только их.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Ещё там было несколько даров и тетриды.",
+		},
+	],
+	
+	
+	"comment_take_first"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+		"dialog"	: "Бери всё, что пожелаешь!",
+	},
+	"comment_take_another"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+		"dialog"	: "Прошу, возьми ещё!",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+		"dialog"	: "Хочешь вот это?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Не обращай внимания на статический заряд.",
+			"dialog_rand2"		: "Дай сначала мы вычистим отсюда наши волосы.",
+			"dialog_rand3"		: "|wave|Радость стремится к бесконечности с обеих сторон.",
+			"dialog_rand4"		: "Шокирующее количество энергии для тебя.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"random"			: 3,
+			"dialog_rand1"		: "Можешь взять ещё что-нибудь.",
+			"dialog_rand2"		: "Твоя работа заслуживает ещё одной награды.",
+			"dialog_rand3"		: "Прошу, возьми ещё один дар.",
+		}
+	],
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ай!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+			"dialog"			: "О нет! Мы ударили тебя током?|!||L|Нам очень жаль.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Оно того стоило.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю вас!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "И мы тебя тоже любим.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ай!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+			"dialog"			: "Мы ударили тебя током?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Дефект, похоже, я к тебе прицепилась.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Должно быть, для тебя это большая честь.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Ох...",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "Через какое-то время это должно прекратиться.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "Спроси её, Солнышко.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Эээ... Можно поторогать твои волосы?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_angry"],
+			"dialog"			: "|shake|Что?!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+			"dialog"			: "После всего этого ты думаешь, что нас нужно спрашивать?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "Готовься замкнуть цепочку!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
+			"dialog"			: "Они все колются.",
+		},
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ты ударила меня током!",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+			"dialog"			: "Нам жаль.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Нарываешься ещё на один бой!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Пожалуйста, твоя энергия очень неконвергентная.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Да, мне это часто говорят.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+			"dialog"			: "О нет! Мы ударили тебя током?|!||L|Нам очень жаль.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "|wave|Твой настрой просто факториальный.",
+		},
+	],
+
+}

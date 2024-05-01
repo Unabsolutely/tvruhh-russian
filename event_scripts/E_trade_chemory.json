@@ -1,0 +1,400 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Хм-м-м...",
+			"dialog_rand2"		: "Что же сделать сегодня?",
+			"dialog_rand3"		: "Сегодня, я думаю-",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
+			"random"			: 6,
+			"dialog_rand1"		: "Спектральные цветы!",
+			"dialog_rand2"		: "Дневные цветы!",
+			"dialog_rand3"		: "Ночные цветы!",
+			"dialog_rand4"		: "Сладкие фрукты!",
+			"dialog_rand5"		: "Полосатый сахар!",
+			"dialog_rand6"		: "Петрикор!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я хочу создать парфюм с таким запахом.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+			"dialog"			: "Э-э-э-",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+			"dialog"			: "Моё поведение ранее было     токсичным,     но мне бы хотелось это исправить.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_confused_blush"],
+			"dialog"			: "Я знаю один способ, как сделать этот мир лучше.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+			"dialog"			: "Если у тебя есть что-нибудь |C3|токсичное|C0| по натуре, то я хочу превратить это в ароматный парфюм.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "|wave|Что угодно можно изменить к лучшему.",
+		},
+	],
+	
+	"intro_blank" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_chemory_right", "MOOD_surprised"],
+			"dialog"			: "|C3|Нюх нюх",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "Что ты делаешь?",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "|C3|Нюх нюх",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я хочу сделать парфюм из этого запаха.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
+			"dialog"			: "Мои волосы?",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Сегодня я знаю, как сделать мир чуточку лучше.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_blush"],
+			"dialog"			: "Сладкий запах твоих волос вдохновил меня!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+			"dialog"			: "Если у тебя есть |C3|токсичные|C0| по натуре дары, то я хочу превратить их в ароматный парфюм.",
+		},
+	],
+	
+	"mood_title"	: "Настроение Химори",
+	"monster_gifts"	: "Дары Химори",
+	"player_gifts"	: "Активные дары у [NAME]",
+	"player_quicks"	: "Быстрые дары у [NAME]",
+
+	"op_trade"			: "Дары Химори",
+	"op_give_active"	: "Дать активные дары",
+	"op_give_quick"		: "Дать Быстрые дары",
+	"op_leave"			: "Уйти",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "Я предложу некоторые из своих даров в обмен на твои.",
+	},
+	"comment_active"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+		"dialog"	: "Мне нужно то, из чего можно создать парфюм.",
+	},
+	"comment_quick"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+		"dialog"	: "Многие из них могут стать прекрасными ингредиентами.",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+		"dialog"	: "Когда уйдёшь, я займусь работой!",
+	},
+	
+	"comment_closed"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+		"dialog"	: "Мне больше нечего предложить.",
+	},
+	"comment_give_limit"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+		"dialog"	: "Думаю, на сегодня у меня уже достаточно.",
+	},
+	"comment_give_empty"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_suprised"],
+		"dialog"	: "У тебя нет никаких ингредиентов.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_confused"],
+		"dialog"	: "Уже уходишь?",
+	},
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "Это тебе!",
+	},
+	"comment_take_stone"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+		"dialog"	: "Я, эээ... Я сделала это для тебя.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_shocked"],
+		"dialog"	: "Я не помню, что это такое.",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_blush"],
+		"dialog"	: "У тебя есть что-нибудь ещё для меня?",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+		"dialog"	: "К сожалению, я не смогу сделать это для тебя меньше.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+		"dialog"	: "Хочешь его?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Пусть это создаст с тобой хорошее соединение.",
+			"dialog_rand2"		: "Надеюсь, это преобразует твою способность любить.",
+			"dialog_rand3"		: "Пожалуйста, используй это, чтобы мир стал лучше.",
+			"dialog_rand4"		: "Я знаю, что ты свершишь с ним великие дела.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+		"dialog"	: "Я возьму это, если тебе не нужно.",
+	},
+	"comment_give_special"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "Я трансмутирую это в нечто благоухающее!",
+	},
+	"comment_give_favorite"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "|wave|Какой же это прекрасный беспорядок!|L||norm|Я смогу создать из него кое-что приятное.",
+	},
+	"comment_give_TAG_scent"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+		"dialog"	: "Какой у него прелестный аромат!",
+	},
+	"comment_give_TAG_chemory_part"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+		"dialog"	: "|shake|Это какая-то часть меня?|norm||L|Можешь вернуть её мне, пожалуйста?",
+	},
+	"comment_give_I_natural_glyph"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+		"dialog"	: "Это и правда мило!|L||shake|Постой, это должна быть я?",
+	},
+	"comment_give_dislike"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
+		"dialog"	: "Я не могу это взять.|L|Сильный электрический ток нарушит процесс трансмутации.",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
+		"dialog"	: "Мне нужно будет переработать это быстро!",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "Я могу использовать этот настрой как вдохновение.",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_aggressive"],
+		"dialog"	: "Вот тот вызов, которого я искала!",
+	},
+	"comment_give_taken"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_confused"],
+		"dialog"	: "У меня этого уже и так достаточно.",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+		"dialog"	: "Тебе стоит оставить это себе.",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "Отдашь это мне?",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "Это может быть очень полезно для меня.",
+			"dialog_rand2"		: "Спасибо. Мне очень нравится!",
+			"dialog_rand3"		: "Ты слишком добра ко мне.",
+			"dialog_rand4"		: "Это поможет мне с работой!",
+		}
+	],
+	"special_given" 		: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Я соединю эти молекулы в кое-что приятное.",
+			"dialog_rand2"		: "Время для парочки химических соединений!",
+			"dialog_rand3"		: "Соединяю элементы.",
+			"dialog_rand4"		: "Я соединю эти молекулы с чем-нибудь сладким.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"random"			: 3,
+			"dialog_rand1"		: "У этого есть шанс стать чем-то большим.",
+			"dialog_rand2"		: "|wave|Разве это не романтично?",
+			"dialog_rand3"		: "|wave|Небольшой роман между химикатами.",
+		}
+	],
+	"TAG_scent_given" 		: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"random"			: 3,
+			"dialog_rand1"		: "Этот запах вдохновил меня созидать!",
+			"dialog_rand2"		: "Я сделаю из этого парфюм.",
+			"dialog_rand3"		: "Я так сильно люблю этот запах!",
+		}
+	],
+	"TAG_chemory_part_given" 	: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "Этот так смущает.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_confused_blush"],
+			"dialog"			: "Они очень опасные!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "Не могу поверить, что я была с ними так неосторожна!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Я ценю, что ты решила вернуть их мне.",
+		},
+	],
+	"I_natural_glyph_given" 	: [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+			"dialog"			: "Думаешь, я смогу измениться к лучшему?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Я тебя не разочарую.",
+		}
+	],
+
+
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "|C3|Нюх-нюх|L||!||shake|Ням",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "|shake|DТы только что укусила меня за волосы?",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad_blush"],
+			"dialog"			: "Они так сладко пахнут, что я подумала, что они из полосатого сахара.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Химори, я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "Мне жаль.",
+		},
+	],
+	
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "Синяя, ты пахнешь как посиделки у пруда под закатом.",
+			"dialog_rand2"		: "Синяя, ты пахнешь как ручей, протекающий через цветочное поле.",
+			"dialog_rand3"		: "Синяя, ты пахнешь как дерево перед дождём, покрытое грибами.",
+			"dialog_rand4"		: "Синяя, ты пахнешь как тень под деревом в солнечный день и под лёгкий ветер.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "А у тебя запах - как у луны, поднимающейся над лесом.",
+			"dialog_rand2"		: "А ты издаёшь аромат корзинки свежих фруктов и конфетных сердец.",
+			"dialog_rand3"		: "А у тебя запах - как у солнца, поднимающегося над травяной поляной.",
+			"dialog_rand4"		: "А ты издаёшь запах росы, собирающейся поутру на дневных цветах.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Как ты это сделала?|L||!|Это так специфично!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "|wave|Всегда пожалуйста.",
+		},
+	],
+	
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Моей сестрёнке очень нравится запах деревьев с кислыми фруктами.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "Правда?|!||L|Я могу поменять свой запах на этот прямо сейчас.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_happy"],
+			"dialog"			: "Ого, и правда пахнет точно так же!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "Тебе не нужно стоять так далеко.|!||L|Можешь подойти ближе, если хочешь.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "А, хорошо.",
+		},
+		
+	],
+	
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "|C3|Нюх-нюх",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+			"dialog"			: "Какой у тебя приятный запах!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "О, тебе нравится?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_vey_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Я называю его    Костёр и Жжёные Волосы.",
+			"dialog_rand2"		: "Я называю его    Перекаты По Траве В Течение Получаса.",
+			"dialog_rand3"		: "Я называю его    Молния Ударила В Дерево, Под Которым Я Спала.",
+			"dialog_rand4"		: "Я называю его    Мокрая Древесная Кора.",
+		},
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_chemory_right", "MOOD_surprised"],
+			"dialog"			: "|C3|Нюх-нюх",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"dialog"			: "Какой у тебя приятный запах!",
+		},
+	],
+
+}
