@@ -72,6 +72,7 @@
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
 			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+		},
 		{
 			"fast_text"			: 0,
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
