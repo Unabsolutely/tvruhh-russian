@@ -55,7 +55,7 @@
 	
 	"comment_trade"		: {
 		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
-		"dialog"	: "ДАнные дары - это последствие твоих деяний.",
+		"dialog"	: "Данные дары - это последствие твоих деяний.",
 	},
 	"comment_active"	: {
 		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
