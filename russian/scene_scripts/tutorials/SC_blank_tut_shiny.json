@@ -68,7 +68,7 @@
 		{
 			"show_tutorial"	: "love_bar_partial",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Шкала любви|C0| потребует больше любви, чтобы заполнить её после каждой последующей атаки.",
+			"dialog"		: "После каждой атаки |C3|Шкала любви|C0| будет требовать больше любви, чтобы заполнить её.",
 		},
 		{
 			"show_tutorial"	: "combo_bar6",

@@ -80,7 +80,7 @@
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
-			"dialog"			: "Мы драуем вам проход в наши королевские грёзы ещё один раз.",
+			"dialog"			: "Мы даруем вам проход в наши королевские грёзы ещё один раз.",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
@@ -193,7 +193,7 @@
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
-			"dialog"			: "Как и она защищает себе с её самым благородным из даров.",
+			"dialog"			: "Как и она защищает себя самым благородным из своих даров.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],

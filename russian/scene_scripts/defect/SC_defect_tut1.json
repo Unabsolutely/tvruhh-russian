@@ -129,7 +129,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Этот Модуль обнаружила нечто интересное в Вашем вердце.",
+			"dialog"			: "Этот Модуль обнаружила нечто интересное в Вашем сердце.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

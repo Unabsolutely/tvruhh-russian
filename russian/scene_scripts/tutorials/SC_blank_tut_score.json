@@ -13,7 +13,7 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Иначе это называется |C3|получением высокого балла.|C0|",
+			"dialog"		: "Иначе это называется |C3|получением высокого счёта.|C0|",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
@@ -21,7 +21,7 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Есть три важных фактора, которые следует учитывать, чтобы получить высокий балл.",
+			"dialog"		: "Есть три важных фактора, которые следует учитывать, чтобы получить высокий счёт.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -69,7 +69,7 @@
 		{
 			"show_tutorial"	: "combo_bar3",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Если любовь не проявляется слишком долго  или   если Ваше сердце получает урон, то монстр почувствует себя отвергнутым и |C3|завершит комбо.",
+			"dialog"		: "Если слишком долго не проявлять любовь,    или   получить урон, то монстр почувствует себя отвергнутым и |C3|завершит комбо.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

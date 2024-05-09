@@ -91,12 +91,12 @@
 		{
 			"show_tutorial"	: "none",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Сейчас Этот Модуль объяснит, как |C3|освятить Дары и монстров.",
+			"dialog"		: "Сейчас Этот Модуль объяснит, как |C3|осветить Дары и монстров.",
 		},
 		{
 			"show_tutorial"	: "unknown_cards",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Когда вы полюбите нового монстра или получите новый подарок, они будут добавлены в |C3|Коллекцию.",
+			"dialog"		: "Когда вы полюбите нового монстра или получите новый дар, они будут добавлены в |C3|Коллекцию.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -130,7 +130,7 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Вспышка от освещения также должна полностью разбудить молодого Зарадена.",
+			"dialog"		: "Вспышка от освещения также должна полностью разбудить молодую Зарадеу.",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
