@@ -52,11 +52,11 @@
 	
 	"comment_reward"	: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "Выбери один из подарков, который хочешь взять.|L|Здесь нет неправильных ответов.",
+		"dialog"	: "Выбери один из даров, который хочешь взять.|L|Здесь нет неправильных ответов.",
 	},
 	"reward_confirm"	: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "Хочешь взять этот подарок?",
+		"dialog"	: "Хочешь взять этот дар?",
 	},
 	
 	"correct_answer" : [

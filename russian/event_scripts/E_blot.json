@@ -394,7 +394,7 @@
 	},
 	"upgrade_confirm"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-		"dialog"	: "You want to give these to us, cutie?",
+		"dialog"	: "Отдаёшь их нам, милашка?",
 	},
 	
 	

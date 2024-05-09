@@ -61,7 +61,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_angry"],
-			"dialog"			: "Или нет! Я же, |shake||nu||ze||nah||norm|, не твоя мать и не страж.",
+			"dialog"			: "Или нет! Я же, |shake||nu||ze||nah||norm|, не твоя мать и не опекун.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],

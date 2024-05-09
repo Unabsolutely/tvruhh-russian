@@ -183,7 +183,7 @@
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_content_blush"],
-			"dialog"			: "А затем она будет говорить о этом часами.",
+			"dialog"			: "А затем она будет говорить об этом часами.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_happy_blush"],
