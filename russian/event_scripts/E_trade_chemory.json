@@ -292,7 +292,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
-			"dialog"			: "|shake|DТы только что укусила меня за волосы?",
+			"dialog"			: "|shake|Ты только что укусила меня за волосы?",
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad_blush"],
