@@ -113,6 +113,7 @@
 		"op_display" 	: "Дисплей",
 		"op_game"  		: "Игра",
 		"op_controls"  	: "Управление",
+                "op_language"  	: "Язык",
 	},
 	
 	"MENU_options_audio" : {
