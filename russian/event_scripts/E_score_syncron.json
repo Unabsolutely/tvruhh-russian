@@ -8,7 +8,6 @@
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_angry"],
 			"dialog"			: "Нижеперечисленные модули были приостановлены в петле панического режима:",
 		},
-		
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
 			"random"			: 4,

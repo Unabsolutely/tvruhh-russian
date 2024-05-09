@@ -359,6 +359,7 @@
 			"dialog"			: "Окей, начнём игру!",
 		},
 		{
+			"play_music"		: "kiwi_music",
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_sad"],
 			"dialog"			: "История начинается, когда |C3|[VAL1]|C0| и |C3|[VAL2]|C0| находят жуткое подземелье.",
 		},
@@ -405,9 +406,13 @@
 	],
 	
 	"battle_mix"		: "На вас нападают плохие девчонки!",
+        "battle_mix2"		: "Плохие девочки выпрыгивают и нападаают!",
 	"battle_mites"		: "Клещи атакуют!",
 	"battle_aviocs"		: "Возникает рой авиоков!",
 	"battle_stones"		: "Вы наталкиваетесь на кучку злых камней-сердец!",
+        "battle_dancers"	: "На вас напали опасные танцоры!",
+	"battle_nuggets"	: "Нападает рой зомби-кусочков!",
+	"battle_slimes"		: "Вас окружает слизь!",
 	"start_battle" 	: [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_aggressive"],
@@ -422,6 +427,26 @@
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
 			"dialog"			: "Осторожно! |C3|Зомби-кусочки|C0| слабые, но после них следующий враг ходит сразу!",
+		},
+	],
+        "start_battle_ooze" 	: [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "\"Все милашки, что встанут перед |C3|Мадам Слизью|C0|, никогда от нас не уйдут!\"",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "Осторожно! |C3|Красочная слизь|C0| слабая, но после неё следующий враг ходит сразу!",
+		},
+	],
+	"start_battle_dancer" 	: [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "Вас отвлекает |C3|Космическая Таноцовщица|C0| и её |wave|блестящие танцевальные движения.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_aggressive"],
+			"dialog"			: "Её |C3|Смертельные Бутоны|C0| желают танцевальной битвы насмерть!",
 		},
 	],
 	"start_battle_shepherd" 	: [
