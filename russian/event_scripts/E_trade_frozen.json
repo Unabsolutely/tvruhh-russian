@@ -63,7 +63,7 @@
 
 	"op_trade"			: "Дары Мёрзлой Веерали",
 	"op_give_active"	: "Дать активные дары",
-	"op_give_quick"		: "Дать Дары силы",
+	"op_give_quick"		: "Дать Быстрые дары",
 	"op_leave"			: "Уйти",
 	
 	"comment_trade"		: {
