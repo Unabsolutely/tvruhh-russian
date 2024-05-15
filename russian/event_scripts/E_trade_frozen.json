@@ -11,7 +11,7 @@
 			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
 			"random"			: 3,
 			"dialog_rand1"		: "|shake|Я уже долгое время не чувствовала теплоты.",
-			"dialog_rand2"		: "|shake|Ня не привыкла чувствовать теплоту.",
+			"dialog_rand2"		: "|shake|Но я не привыкла чувствовать теплоту.",
 			"dialog_rand3"		: "|shake|Чувство тепла для меня совсем новое.",
 		},
 		{

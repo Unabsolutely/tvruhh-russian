@@ -148,7 +148,7 @@
 			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
 			"random"			: 4,
 			"dialog_rand1"		: "Рэндиевый успех!",
-			"dialog_rand2"		: "Очередная успешкая Рэндилазка!",
+			"dialog_rand2"		: "Очередная успешная Рэндилазка!",
 			"dialog_rand3"		: "Добыча Рэнди!",
 			"dialog_rand4"		: "Заначка Рэнди!",
 		},

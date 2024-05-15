@@ -30,7 +30,7 @@
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_sad"],
 			"random"			: 3,
 			"dialog_rand1"		: "Я, ээ... |shake|Сложно что-либо разглядеть!",
-			"dialog_rand2"		: "|shake|Не чтобы я боялась, но-",
+			"dialog_rand2"		: "|shake|Не то чтобы я боялась, но-",
 			"dialog_rand3"		: "|shake|Я ничего не смогу увидеть!",
 		},
 		{

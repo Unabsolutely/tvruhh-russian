@@ -41,7 +41,7 @@
 	],
 	
 	"monster_stuff"		: "[VAL1] Токовой Веерали",
-	"monster_mood"		: "Настроение Веерали",
+	"monster_mood"		: "Настроение Токовой",
 	"scrapyard_gifts"	: "Дары со свалки",
 	"veyerals_gifts"	: "Награда от Веералей",
 	
@@ -333,7 +333,7 @@
 	"to_mg_rain_first" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Они готовят для нас игру в |C3|Дождь Веералей|C0|!",
+			"dialog"			: "Они собираются играть в |C3|Дождь Веералей|C0|!",
 		},
 	],
 	"to_mg_rain_long" 	: [
@@ -407,7 +407,7 @@
 	"rain_win_streak" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Ты выиграла все три игры |C3|Дождя Веералей|C0| подряд!",
+			"dialog"			: "Ты выиграла все три раунда |C3|Дождя Веералей|C0| подряд!",
 		},
 	],
 	"rain_lose" 	: [
@@ -498,13 +498,13 @@
 	"rain_reward_gift_taken" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Мы, веерали, тебя очень уважаем.",
+			"dialog"			: "|wave|Мы, веерали, тебя очень ценим.",
 		},
 	],
 	"rain_reward_gift_taken_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Можешь поверить, что они просто хотели оставить это в поле?",
+			"dialog"			: "Поверишь, что они просто хотели оставить это в поле?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
@@ -522,7 +522,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Да, мы, веерали, тебя очень уважаем.",
+			"dialog"			: "Да, мы, веерали, тебя очень ценим.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
@@ -539,7 +539,7 @@
 	"to_mg_scrub_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Если хочешь,    ты можешь    меня немного |C3|расчесать|C0|, чтобы уменьшить мой заряд.",
+			"dialog"			: "Если хочешь,    ты можешь    меня немного |C3|почесать|C0|, чтобы уменьшить мой заряд.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
@@ -553,7 +553,7 @@
 	"to_mg_scrub_first_blank" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Если хочешь,    ты можешь    меня немного |C3|расчесать|C0|, чтобы уменьшить мой заряд.",
+			"dialog"			: "Если хочешь,    ты можешь    меня немного |C3|почесать|C0|, чтобы уменьшить мой заряд.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
@@ -571,7 +571,7 @@
 	"to_mg_scrub_first_twins" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Ты можешь меня немного |C3|расчесать|C0|, чтобы снизить мой заряд,   если хочешь.",
+			"dialog"			: "Ты можешь меня немного |C3|почесать|C0|, чтобы снизить мой заряд,   если хочешь.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
@@ -658,7 +658,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Я, наверное, надкусила металл здесь.",
+			"dialog"			: "Я тут немного понадкусывала всяких железяк...",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
@@ -674,7 +674,7 @@
 	
 	"comment_scavenge_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Ты нашла это. Оставь себе!",
+		"dialog"	: "Ты нашла его. Оставь себе!",
 	},
 	"comment_scavenge_unknown"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
@@ -682,7 +682,7 @@
 	},
 	"scavenge_confirm"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Возьмёшь это себе?",
+		"dialog"	: "Возьмёшь его себе?",
 	},
 	"scavenge_gift_taken" 	: [
 		{
@@ -700,7 +700,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Давай сыграем с ними в игру.",
+			"dialog"			: "|wave|Давай сыграем с ними.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
@@ -783,7 +783,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "ДУмаешь, я смогу когда-нибудь быть достаточно яркой?",
+			"dialog"			: "Думаешь, я смогу когда-нибудь быть достаточно яркой?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
@@ -890,7 +890,7 @@
 	"rain_power_devil_reply" : [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "Может быть, снаружи гремят гром и молния, или типа того!",
+			"dialog"			: "Может быть, снаружи гремит гром и сверкает молния, или типа того!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
