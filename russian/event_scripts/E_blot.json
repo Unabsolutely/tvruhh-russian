@@ -63,7 +63,7 @@
 	},
 	"comment_max_level"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-		"dialog"	: "Our art gallery is now perfect thanks to you, cutie!",
+		"dialog"	: "Наша выставка теперь совершенна, и всё благодаря тебе, милашка!",
 	},
 	
 	
