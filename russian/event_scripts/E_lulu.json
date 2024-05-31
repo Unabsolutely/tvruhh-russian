@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "|C3|Предложение:|C0| Примите данные, которые Этот Модуль собрала, в виде дара |C3|Чутьй Страха|C0|.",
+			"dialog"			: "|C3|Предложение:|C0| Примите данные, которые Этот Модуль собрала, в виде дара |C3|Чутьё Страха|C0|.",
 		},
 	],
 	
@@ -14,7 +14,7 @@
 	
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-		"dialog"	: "Этот Модуль желает предоставть настолько много данных, насколько возможно.",
+		"dialog"	: "Этот Модуль желает предоставить настолько много данных, насколько возможно.",
 	},
 	"comment_take_bonus"	: {
 		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
