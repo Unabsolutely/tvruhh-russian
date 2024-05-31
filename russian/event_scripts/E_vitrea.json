@@ -34,7 +34,7 @@
 	
 	"comment_scopes"		: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy"],
-		"dialog"	: "Взгляни в телескопы и преврати свои находки в дары.",
+		"dialog"	: "Взгляни в телескопы и преврати свои открытия в дары.",
 	},
 	"comment_donate"	: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
@@ -188,7 +188,7 @@
 	},
 	"comment_donate_burden"	: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_sad"],
-		"dialog"	: "Ты правда не отдашь мен это?|L|Ах, ты достаточно хорошо знаешь, что это принесло бы мне вред.",
+		"dialog"	: "Ты правда не отдашь мне это?|L|Ах, ты достаточно хорошо знаешь, что это принесло бы мне вред.",
 	},
 	"comment_donate_taken": {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
@@ -377,7 +377,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush_glare"],
-			"dialog"			: "Я так вонуюсь, даже просто думая об этом.",
+			"dialog"			: "Я так волнуюсь, даже просто думая об этом.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
@@ -431,7 +431,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
-			"dialog"			: "Похоже, что это работает как-то так-",
+			"dialog"			: "Это работает, как мне кажется...",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush_glare"],
@@ -560,7 +560,7 @@
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
-			"dialog"			: "Мы знаем всё, что ты туда кладёшь, и мы слышим, когда оно открыто, глупышка.",
+			"dialog"			: "Мы знаем всё, что ты туда кладёшь, и мы слышим тебя, когда оно открыто, глупышка.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_angry"],
@@ -568,7 +568,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_awkward"],
-			"dialog"			: "А, это верно.|L||!|Я знала, что забывала что-то.",
+			"dialog"			: "А, это верно.|L||!|Мне всё казалось, что я что-то забыла.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_sad"],
@@ -596,7 +596,7 @@
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "Тебе стоит сказать ей свои чувства.",
+			"dialog"			: "Тебе стоит рассказать о своих чувствах.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_blush"],
@@ -655,7 +655,7 @@
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_very_happy"],
-			"dialog"			: "Нету.|L||!||wave|Пока-пока.",
+			"dialog"			: "Неа.|L||!||wave|Пока-пока.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy"],
@@ -749,7 +749,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Какая радикальная симметрия.",
+			"dialog"			: "Какая вращательная симметрия.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],

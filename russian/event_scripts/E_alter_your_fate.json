@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
-			"dialog"			: "Я могу увеличить твои возможные частицы и помочь получить больше очков.",
+			"dialog"			: "Я могу помочь тебе добыть больше частиц и увеличить твой счёт.",
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
@@ -36,9 +36,9 @@
 	"op_battles_3"		: "Ещё 3 битвы",
 	"op_added"			: "Битва добавлена",
 	
-	"op_give_panic"		: "Отдать паники",
-	"op_give_health"	: "Отдать здоровье",
-	"op_give_gifts"		: "Отдать дары",
+	"op_give_panic"		: "Пожертвовать паники",
+	"op_give_health"	: "Пожертвовать здоровье",
+	"op_give_gifts"		: "Пожертвовать дары",
 	
 	"op_power"			: "Максимум силы",
 	"op_quicks"			: "Быстрые дары",
@@ -260,7 +260,7 @@
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "Ты получила это за свою жертву.",
+			"dialog_rand1"		: "Ты получила это за своё подношение.",
 			"dialog_rand2"		: "Твоя судьба была изменена.",
 			"dialog_rand3"		: "Пусть течение судьбы повернёт в твою сторону.",
 			"dialog_rand4"		: "Твоя судьба в твоих руках.",
@@ -298,11 +298,11 @@
 	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_angry"],
-		"dialog"	: "Из этого не выйдет достойной жертвы.",
+		"dialog"	: "Из этого не выйдет достойного подношения.",
 	},
 	"comment_give_starter"	: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
-		"dialog"	: "Тебе предначертано сохранить это.|L|Я не могу это взять.",
+		"dialog"	: "Тебе предначертано сохранить это.|L|Я не могу его взять.",
 	},
 	"give_confirm"			: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
@@ -318,7 +318,7 @@
 			"dialog_rand4"		: "Остаток дня может стать сложнее.",
 			"dialog_rand5"		: "Не пожалей о своём решении.",
 			"dialog_rand6"		: "Твоя судьба такая гибкая.",
-			"dialog_rand7"		: "Посмотрим, насколько хорошо ты теперь приспосабливаешься.",
+			"dialog_rand7"		: "Посмотрим, насколько хорошо ты научилась приспосабливаться.",
 		},
 	],
 
@@ -328,11 +328,11 @@
 	
 	"comment_upgrade_power"			: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
-		"dialog"	: "Я могу изменить твою судьбу с |C3|[VAL1] единицами силы,|C0| но с помощью тетридов это можно увеличить.",
+		"dialog"	: "Я могу изменить твою судьбу |C3|[VAL1] единицами силы,|C0| но с помощью тетридов это можно увеличить.",
 	},
 	"comment_upgrade_power_maxed"	: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
-		"dialog"	: "Я могу изменить твою судьбу с |C3|[VAL1] единицами силы.|C0||L|Это мой абсолютный предел.",
+		"dialog"	: "Я могу изменить твою судьбу |C3|[VAL1] единицами силы.|C0||L|Это мой абсолютный предел.",
 	},
 	
 	"comment_upgrade_quicks"		: {
@@ -436,7 +436,7 @@
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
-			"dialog"			: "Ты станешь горой частиц в мгновение ока.",
+			"dialog"			: "Ты станешь горой из частиц в мгновение ока.",
 		},
 	],
 	"upgrade_tetrids" 			: [
@@ -447,7 +447,7 @@
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
-			"dialog"			: "Ты станешь звездой частиц в мгновение ока.",
+			"dialog"			: "Ты станешь звездой из частиц в мгновение ока.",
 		},
 	],
 	
@@ -470,7 +470,7 @@
 	},
 	"orange_comment"	: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_sad"],
-		"dialog"	: "Они совсем как я, такие же хрупкие.",
+		"dialog"	: "Они совсем как я, словно битое стекло.",
 	},
 	"purple_comment"	: {
 		"character"	: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
@@ -490,7 +490,7 @@
 	"leave_warning" : [
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_normal"],
-			"dialog"			: "Ты дала мне эту силу, и не собираешься использовать её всю?",
+			"dialog"			: "Ты дала мне эту силу и не заставишь меня использовать её всю?",
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
@@ -518,7 +518,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
-			"dialog"			: "Эта леди бесстрашная.",
+			"dialog"			: "Эта леди бесстрашна.",
 		},
 	],
 	
@@ -548,7 +548,7 @@
 		},
 		{
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_laugh"],
-			"dialog"			: "|wave|Да, Я знаю.",
+			"dialog"			: "Я |wave|знаю.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
@@ -596,7 +596,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_abyss", "CHAR_abyss_right", "MOOD_happy"],
-			"dialog"			: "Просто посмотри, что ты уже для нас сегодня сделала.",
+			"dialog"			: "Просто посмотри, что ты уже для нас сделала.",
 		},
 	],
 

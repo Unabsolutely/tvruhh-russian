@@ -100,7 +100,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious"],
-			"dialog"			: "Похоже, это слишком легко.",
+			"dialog"			: "Возможно, это будет слишком просто.",
 		},
 	],
 	
@@ -127,7 +127,7 @@
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "Хорошо, согласна, |wave|мне это нравится.",
+			"dialog"			: "Хорошо, согласна, |wave|это мне нравится.",
 		},
 	],
 	

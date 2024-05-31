@@ -27,7 +27,7 @@
 
 	"op_storage"	: "Хранилище даров",
 	"op_upgrade"	: "Расширить хранилище",
-	"op_hold"		: "Вернись позже",
+	"op_hold"		: "Вернуться позже",
 	"op_leave"		: "Уйти",
 	
 	"storage_text"		: {
@@ -114,7 +114,7 @@
 	},
 	"comment_duplicate"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Оо! Ты нашла эту копию сигодня?|L|Их можно хранить бизопасно.",
+		"dialog"	: "Оо! Ты нашла эту копию сигодня?|L|Её можно хранить бизопасно.",
 	},
 	"comment_over"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
@@ -211,7 +211,7 @@
 	},
 	"red_comment"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Красные тёплые и очинь жгучие.|L|Систрёнка никогда не скажит, но |wave|она любит их!",
+		"dialog"	: "Красные тёплые и очинь жгучие.|L|Систрёнка никогда не скажит, но |wave|она их любит!",
 	},
 	"yellow_comment"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],

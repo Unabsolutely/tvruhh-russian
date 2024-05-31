@@ -11,7 +11,7 @@
 	],
 	
 	"gallery_level"	: "Уровень Выставки [VAL1]",
-	"total_tokens"	: "Всего Жетонов Клякс Получено",
+	"total_tokens"	: "Всего Жетонов Кляксы Получено",
 	"list_title1"	: "Дары Кляксы",
 	"list_title2"	: "Дары у [NAME]",
 
@@ -30,7 +30,7 @@
 	},
 	"donate_text"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-		"dialog"	: "Можешь пожертвовать свои дары на нашу выставку!|L|Мы дадим тебе |C3|Жетоны Клякс|C0| и |C3|Карму.|C0|",
+		"dialog"	: "Можешь пожертвовать свои дары на нашу выставку!|L|Мы дадим тебе |C3|Жетоны Кляксы|C0| и |C3|Карму.|C0|",
 	},
 	"upgrade_text"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
@@ -59,7 +59,7 @@
 	},
 	"comment_token_limit"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-		"dialog"	: "У тебя довольно много |C3|Жетонов Клякс.|C0||L|Может, потратишь парочку, милашка?",
+		"dialog"	: "У тебя довольно много |C3|Жетонов Кляксы.|C0||L|Может, потратишь парочку, милашка?",
 	},
 	"comment_max_level"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
@@ -68,8 +68,8 @@
 	
 	
 	
-	"cost_line"		: "Можешь взять это за |C3|[VAL1] Жетона Клякс.|C0|",
-	"cost_line_1"	: "Можешь взять это за |C3|1 Жетон Клякс.|C0|",
+	"cost_line"		: "Можешь взять это за |C3|[VAL1] Жетона Кляксы.|C0|",
+	"cost_line_1"	: "Можешь взять это за |C3|1 Жетон Кляксы.|C0|",
 	"cost_line_0"	: "Можешь взять это прото так, милашка.",
 	"comment_free"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
@@ -77,7 +77,7 @@
 	},
 	"comment_unknown"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-		"dialog"	: "Ээ... Мы не запомнили вот это.|L|[VAL1]",
+		"dialog"	: "Ээ... Мы не запомнили его.|L|[VAL1]",
 	},
 	"comment_blop"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
@@ -109,7 +109,7 @@
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-		"dialog"	: "Наслаждайсся этим, пока можешь.|L|[VAL1]",
+		"dialog"	: "Наслаждайся этим, пока можешь.|L|[VAL1]",
 	},
 	"comment_limit"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
@@ -117,11 +117,11 @@
 	},
 	"comment_over"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
-		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужно |C3|[VAL2] Жетона Клякс.|C0|",
+		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужно |C3|[VAL2] Жетона Кляксы.|C0|",
 	},
 	"comment_over_1"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
-		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужен |C3|1 Жетон Клякс.|C0|",
+		"dialog"	: "Прости, милашка, сейчас мы не можем позволить себе отдать это.|L|Тебе нужен |C3|1 Жетон Кляксы.|C0|",
 	},
 	"comment_closed"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
@@ -145,8 +145,8 @@
 	
 	
 	
-	"donate_line"	: "Мы дадим тебе за него |C3|[VAL1] Жетона Клякс|C0| и |C3|[VAL2] Кармы|C0|.",
-	"donate_line_1"	: "Мы дадим тебе за него |C3|1 Жетон Клякс|C0| и |C3|[VAL2] Кармы|C0|.",
+	"donate_line"	: "Мы дадим тебе за него |C3|[VAL1] Жетона Кляксы|C0| и |C3|[VAL2] Кармы|C0|.",
+	"donate_line_1"	: "Мы дадим тебе за него |C3|1 Жетон Кляксы|C0| и |C3|[VAL2] Кармы|C0|.",
 	"comment_donate_normal"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
 		"dialog"	: "Мы примем это как пожертвование.|L|[VAL1]",
@@ -177,7 +177,7 @@
 	},
 	"comment_donate_burden"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-		"dialog"	: "Мы бы могли сделать из этого какую-нибудь страдальную картину, но понимаем, почему ты нам не стала бы это отдавать.",
+		"dialog"	: "Мы бы могли сделать из этого какую-нибудь печальную картину, но понимаем, почему ты нам не стала бы это отдавать.",
 	},
 	"comment_donate_taken": {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
@@ -410,7 +410,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-			"dialog"			: "О, ты такая чувственная, милашка.|L||!||wave|Мы любим тебя!",
+			"dialog"			: "О, ты такая ласковая, милашка.|L||!||wave|Мы любим тебя!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
@@ -425,7 +425,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Несомненно.|L||!|Мне очень жаль, что друге гости восприняли моё совершенство как ещё одну работу на выставке.",
+			"dialog"			: "Несомненно.|L||!|Мне только жаль, что другие гости восприняли моё совершенство как ещё одну работу на выставке.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],

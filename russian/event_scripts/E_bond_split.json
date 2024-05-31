@@ -200,7 +200,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Скорее всего нам следует усложнить их к следующему разу.",
+			"dialog"			: "Скорее всего, нам следует усложнить их к следующему разу.",
 		},
 	],
 	"after_first_loss" 	: [
@@ -289,7 +289,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
-			"dialog"			: "Смотри сколько Веералей я ещё должна погладить!",
+			"dialog"			: "Смотри, сколько Веералей я ещё должна погладить!",
 		},
 		{
 			"love_hearts"		: 1,
@@ -521,7 +521,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
-			"dialog"			: "Но    мои губы станут потрескавшимися!",
+			"dialog"			: "Но    мои губы потрескаются!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],

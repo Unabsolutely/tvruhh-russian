@@ -87,7 +87,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Создание подобного устройства лежит за гранью понимания Этого Модуля.",
+			"dialog"			: "Создание подобного устройства лежит в пределах возможностей Этого Модуля.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
@@ -122,7 +122,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Этот Модуль израсходовала слишком много памяти от Вашего нонсенса.",
+			"dialog"			: "Этот Модуль израсходовала слишком много памяти на Ваш абсурд.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],

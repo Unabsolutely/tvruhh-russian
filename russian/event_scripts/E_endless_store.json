@@ -130,7 +130,7 @@
 	},
 	"comment_gift_up"			: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "Сейчас Солара может собрать |C3|[VAL1]|C0|, но с помощью силы тетридос Солара сможет найти ещё!",
+		"dialog"	: "Сейчас Солара может собрать |C3|[VAL1]|C0|, но с помощью силы тетридов Солара сможет найти ещё!",
 	},
 	"comment_gift_max"			: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
@@ -195,7 +195,7 @@
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
-			"dialog"			: "|shake|Солара убедится, чтобы у тебя всегда столько даров, что можно будет выживать бесконечно!",
+			"dialog"			: "|shake|Солара убедится, чтобы у тебя всегда было столько даров, что можно будет выживать бесконечно!",
 		},
 	],
 	
