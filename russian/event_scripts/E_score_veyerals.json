@@ -152,7 +152,7 @@
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
 			"random"			: 3,
 			"dialog_rand1"		: "Я знаю, что говорю за всех нас, предлагая вам ещё один дар.",
-			"dialog_rand2"		: "Мыхотим, чтобы вы взяли ещё дар.",
+			"dialog_rand2"		: "Мы хотим, чтобы вы взяли ещё дар.",
 			"dialog_rand3"		: "Пожалуйста, возьмите ещё один дар.",
 		}
 	],

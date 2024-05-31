@@ -93,7 +93,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
-			"dialog"			: "...Я люблю тебя тоже.",
+			"dialog"			: "...Я люблю тоже тебя.",
 		},
 	],
 	

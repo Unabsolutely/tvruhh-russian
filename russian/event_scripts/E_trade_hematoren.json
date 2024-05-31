@@ -66,7 +66,7 @@
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_upset"],
-			"dialog"			: "Это из-за меня?|L||!|Я не очень хороший лучший друг.",
+			"dialog"			: "Это из-за меня?|L||!|Я не очень хорошая новая  лучшая подруга.",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_surpised"],
@@ -108,7 +108,7 @@
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_confused"],
-			"dialog"			: "Это меньшее, что я могу сделать как твой новый лучший друг.",
+			"dialog"			: "Это меньшее, что я могу сделать как твоя новая лучшая подруга.",
 		},
 	],
 	
@@ -177,7 +177,7 @@
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
 			"random"			: 4,
 			"dialog_rand1"		: "|wave|Всё для моей самой лучшей подруги.",
-			"dialog_rand2"		: "Запомни, что лучшая подруга дала тебе это.",
+			"dialog_rand2"		: "Запомни, что это дала тебе твоя лучшая подруга.",
 			"dialog_rand3"		: "Не бойся, я на него ничего не пролила.",
 			"dialog_rand4"		: "Надеюсь, это поможет тебе восстановить свою любовь.",
 		}
@@ -196,11 +196,11 @@
 	},
 	"comment_donate_extra2"	: {
 		"character"	: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
-		"dialog"	: "Ты навсегда буешь моей лучшей подругой.",
+		"dialog"	: "Ты навсегда будешь моей лучшей подругой.",
 	},
 	"donate_confirm"		: {
 		"character"	: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
-		"dialog"	: "Хочешь столько сдать?",
+		"dialog"	: "Хочешь сдать столько?",
 	},
 	"comment_take_food"	: {
 		"character"	: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
@@ -472,11 +472,11 @@
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Ты прада можешь сделать цветы из моей крови?",
+			"dialog"			: "Ты правда можешь сделать цветы из моей крови?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Вот это- самый настоящий метал, какой я только слышала!",
+			"dialog"			: "Вот это - самый настоящий метал, какой я только слышала!",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_confused"],

@@ -32,7 +32,7 @@
 	},
 	"comment_quick_limit"	: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-		"dialog"	: "Ты, типа, не сможешь это унести.|L|Значит, и не захотела бы это брать, да?",
+		"dialog"	: "Ты, типа, не сможешь это унести.|L|Ты тоже не пользуешься своим барахлом, да?",
 	},
 	"take_confirm"		: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
@@ -77,7 +77,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Можно мне, типа, подержать твою |C3|пустоту|C0|   или нет?",
+			"dialog"			: "Можно мне, типа, подержать твоё |C3|Порождение Пустоты|C0|   или нет?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
@@ -89,7 +89,7 @@
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Я никогда не понимала, почему другие механизмы, типа, с ума сходят от таких прекрасных дам и мусора.",
+			"dialog"			: "Я никогда не понимала, почему другие механизмы, типа, с ума сходят от этих маленьких дам и всё такое.",
 		},
 		{
 			"love_hearts"		: 1,

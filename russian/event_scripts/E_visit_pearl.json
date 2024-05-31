@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(Цветок в волнении виляет, по мере того, как из-под земли поднимается лоза.)",
+			"dialog"			: "|C3|(Цветок в волнении виляет по мере того, как из-под земли поднимается лоза.)",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
@@ -130,7 +130,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(Хвост Жемчужины смотрит на веераль.)",
+			"dialog"			: "|C3|(Хвост Жемчужины смотрит на Веераль.)",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],

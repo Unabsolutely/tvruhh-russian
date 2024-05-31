@@ -165,7 +165,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
-			"dialog"			: "Нас не было всего одну минуту.",
+			"dialog"			: "Нас не было всего минуту.",
 		},
 		{
 			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
@@ -290,7 +290,7 @@
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "Ну что, как вы двое встретились?",
+			"dialog"			: "А как вы двое встретились?",
 		},
 		{
 			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],

@@ -26,7 +26,7 @@
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Пусть и оно к тебе вполне приемлемо.",
+			"dialog"			: "Пусть и оно к тебе вполне применимо.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
@@ -46,11 +46,11 @@
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Ах, теперь я вижу много нитей.|!||L|Тебя тут так много.",
+			"dialog"			: "Ах, теперь я вижу много нитей.|!||L|Вас тут так много.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Простая известность может создать эти нити.",
+			"dialog"			: "Эти нити могут быть созданы простым осознанием.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
@@ -91,7 +91,7 @@
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Она нашла время, чтобы поспать самой.",
+			"dialog"			: "Она нашла время, чтобы поспать ради себя.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
@@ -137,15 +137,15 @@
 	
 	"comment_start"		: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-		"dialog"	: "Мечтать?",
+		"dialog"	: "Грезить?",
 	},
 	"comment_leave"		: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-		"dialog"	: "Или не мечтать?",
+		"dialog"	: "Или не грезить?",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-		"dialog"	: "Не мечтать?",
+		"dialog"	: "Не грезить?",
 	},
 	
 	"start_battle" 	: [

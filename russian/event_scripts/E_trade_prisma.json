@@ -9,7 +9,7 @@
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "Этот Модуль сконструировала устройство |C3|Дубликатор Даров|C0|!",
+			"dialog"			: "Этот Модуль сконструировала |C3|Дубликатор Даров|C0|!",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
@@ -95,7 +95,7 @@
 	},
 	"comment_burden"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_blush2"],
-		"dialog"	: "Этому Модулю не удалось выяснить, зачем Вы хотите создать копию этого.",
+		"dialog"	: "Вычисления Этого Модуля не позволили понять, зачем Вы хотите создать копию этого.",
 	},
 	"comment_take_over"		: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],

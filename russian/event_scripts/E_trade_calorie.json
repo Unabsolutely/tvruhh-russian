@@ -152,7 +152,7 @@
 	},
 	"comment_quick_limit"	: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_sad"],
-		"dialog"	: "У тебя не хватит для эттого места.",
+		"dialog"	: "У тебя не хватит для этого места.",
 	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],

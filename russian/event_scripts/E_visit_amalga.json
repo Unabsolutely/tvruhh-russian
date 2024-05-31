@@ -122,7 +122,7 @@
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "И вот ещё одна.|L||!|Просто на всякий случай.",
+			"dialog"			: "И вот ещё один.|L||!|Просто на всякий случай.",
 		},
 	],
 	

@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_angry"],
-			"dialog"			: "Нижеперечисленные модули были приостановлены в петле панического режима:",
+			"dialog"			: "Нижеперечисленные модули зависли в петле панического режима:",
 		},
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
@@ -226,7 +226,7 @@
 			"dialog_rand1"		: "Вы уже несколько раз спасли эти Модули из режима паники.",
 			"dialog_rand2"		: "Синкрон-02 нашла это для вас.",
 			"dialog_rand3"		: "Этот дар был найден Синкрон-03.",
-			"dialog_rand4"		: "Вы в очередной раз помогои этим Модулям синхронизироваться.",
+			"dialog_rand4"		: "Вы в очередной раз помогли этим Модулям синхронизироваться.",
 			"dialog_rand5"		: "Этот Модуль правильно предугадала, что Вы выберете данный дар.",
 		},
 		{
@@ -275,7 +275,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_sad"],
-			"dialog"			: "Простит ли нас Синяя Пустотная?",
+			"dialog"			: "Простит ли нас Синее Порождение Пустоты?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
@@ -310,7 +310,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Понятно.|L|Может потом.",
+			"dialog"			: "Понятно.|L|Может, потом.",
 		},
 	],
 	

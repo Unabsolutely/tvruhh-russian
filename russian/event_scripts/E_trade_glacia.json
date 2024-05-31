@@ -120,7 +120,7 @@
 	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
-		"dialog"	: "У сожалению, это исчезнет до того, как я смогу передать это ей.",
+		"dialog"	: "К сожалению, это исчезнет до того, как я смогу передать это ей.",
 	},
 	"comment_give_blessing"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_content_blush"],
@@ -136,7 +136,7 @@
 	},
 	"comment_give_petal"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
-		"dialog"	: "Не представляю, как она могла бы это хотеть.",
+		"dialog"	: "Не представляю, чтобы она могла бы это хотеть.",
 	},
 	"comment_give_starter"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
@@ -289,7 +289,7 @@
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
-			"dialog"			: "Значит Витражия, да?",
+			"dialog"			: "Значит, Витражия, да?",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],

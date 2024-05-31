@@ -27,7 +27,7 @@
 		{
 			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
 			"random"			: 2,
-			"dialog_rand1"		: "А потом вспомнила, что у меня для тебя кое-что есть.",
+			"dialog_rand1"		: "А потом вспомнила, что у меня для тебя ещё кое-что есть.",
 			"dialog_rand2"		: "А затем я нашла на полу вот это и вспомнила про тебя.",
 		},
 		{
@@ -214,7 +214,7 @@
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Так, в чём проблема с этими сердечными камнями?",
+			"dialog"			: "Так в чём дело с этими сердечными камнями?",
 		},
 		{
 			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry"],

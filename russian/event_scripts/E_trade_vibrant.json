@@ -68,7 +68,7 @@
 	},
 	"comment_give_empty"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-		"dialog"	: "У тебя тут нет никакихх даров.",
+		"dialog"	: "У тебя тут нет никаких даров.",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],

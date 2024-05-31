@@ -10,16 +10,16 @@
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
 			"random"			: 6,
-			"dialog_rand1"		: "Спектральные цветы!",
-			"dialog_rand2"		: "Дневные цветы!",
-			"dialog_rand3"		: "Ночные цветы!",
-			"dialog_rand4"		: "Сладкие фрукты!",
-			"dialog_rand5"		: "Полосатый сахар!",
+			"dialog_rand1"		: "Спектральные Цветы!",
+			"dialog_rand2"		: "Дневные Цветы!",
+			"dialog_rand3"		: "Ночные Цветы!",
+			"dialog_rand4"		: "Сладкие Фрукты!",
+			"dialog_rand5"		: "Полосатый Сахар!",
 			"dialog_rand6"		: "Петрикор!",
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Я хочу создать парфюм с таким запахом.",
+			"dialog"			: "|wave|Я хочу создать духи с таким запахом.",
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
@@ -35,7 +35,7 @@
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
-			"dialog"			: "Если у тебя есть что-нибудь |C3|токсичное|C0| по натуре, то я хочу превратить это в ароматный парфюм.",
+			"dialog"			: "Если у тебя есть что-нибудь |C3|токсичное|C0| по натуре, то я хочу превратить это в ароматные духи.",
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
@@ -58,7 +58,7 @@
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Я хочу сделать парфюм из этого запаха.",
+			"dialog"			: "|wave|Я хочу сделать духи из этого запаха.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
@@ -74,7 +74,7 @@
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
-			"dialog"			: "Если у тебя есть |C3|токсичные|C0| по натуре дары, то я хочу превратить их в ароматный парфюм.",
+			"dialog"			: "Если у тебя есть |C3|токсичные|C0| по натуре дары, то я хочу превратить их в ароматные духи.",
 		},
 	],
 	
@@ -94,7 +94,7 @@
 	},
 	"comment_active"	: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
-		"dialog"	: "Мне нужно то, из чего можно создать парфюм.",
+		"dialog"	: "Мне нужно то, из чего можно создать духи.",
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
@@ -194,7 +194,7 @@
 	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
-		"dialog"	: "Мне нужно будет переработать это быстро!",
+		"dialog"	: "Мне нужно будет быстро это переработать!",
 	},
 	"comment_give_blessing"	: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
@@ -248,7 +248,7 @@
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
 			"random"			: 3,
 			"dialog_rand1"		: "Этот запах вдохновил меня созидать!",
-			"dialog_rand2"		: "Я сделаю из этого парфюм.",
+			"dialog_rand2"		: "Я сделаю из этого духи.",
 			"dialog_rand3"		: "Я так сильно люблю этот запах!",
 		}
 	],
@@ -305,7 +305,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
-			"dialog"			: "Мне жаль.",
+			"dialog"			: "Извини.",
 		},
 	],
 	

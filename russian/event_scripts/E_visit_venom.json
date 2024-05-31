@@ -67,8 +67,8 @@
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
 			"random"			: 4,
 			"dialog_rand1"		: "Эти вещи теперь меня тоже пугают.",
-			"dialog_rand2"		: "У этих штку теперь тоже плохой вкус.",
-			"dialog_rand3"		: "Они меня тоже раздражают.",
+			"dialog_rand2"		: "У этих штук теперь тоже плохой вкус.",
+			"dialog_rand3"		: "Вот эти меня тоже раздражают.",
 			"dialog_rand4"		: "Эти вещи мне тоже больше не нравятся.",
 		},
 		{

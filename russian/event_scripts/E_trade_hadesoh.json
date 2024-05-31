@@ -84,7 +84,7 @@
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-		"dialog"	: "Ты |shake||nu||ze||nah||norm| как готова убираться отсюда?",
+		"dialog"	: "Ты готова, |shake||nu||ze||nah||norm|, выдвигаться?",
 	},
 	
 	
@@ -96,7 +96,7 @@
 	},
 	"comment_take_stone"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
-		"dialog"	: "Да, я, |shake||nu||ze||nah||norm| сделала это для тебя!",
+		"dialog"	: "Да, я, |shake||nu||ze||nah||norm|, сделала это для тебя!",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
@@ -132,7 +132,7 @@
 	"to_first_burden" 	: [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
-			"dialog"			: "Дай-ка я кое-что проясню.|L||!|Когдя я их тебе покажу-",
+			"dialog"			: "Дай-ка я кое-что проясню.|L||!|Когда я их тебе покажу-",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
@@ -152,7 +152,7 @@
 	
 	"comment_burden_normal"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
-		"dialog"	: "Бери отраву на свой вкус.",
+		"dialog"	: "Выбирай свой яд.",
 	},
 	"comment_burden_unknown"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
@@ -178,7 +178,7 @@
 			"random"			: 3,
 			"dialog_rand1"		: "Мои сёстры-глифы тебе за это будут благодарны.",
 			"dialog_rand2"		: "Глифы знают чистое сердце, когда встречают.",
-			"dialog_rand3"		: "Камни да палки ни в чём не повинны.",
+			"dialog_rand3"		: "Палки да камни - ничто перед этим.",
 		}
 	],
 	"hadesoh_taken" 	: [
@@ -188,7 +188,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
-			"dialog"			: "Моя не совсем уж |shake||nu||ze||nah||norm| плохая, да?",
+			"dialog"			: "Моя не совсем уж |shake||nu||ze||nah||norm| такая плохая, да?",
 		},
 	],
 
@@ -209,11 +209,11 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-			"dialog"			: "|shake|Я |nu||ze||nah| люблю тебя!",
+			"dialog"			: "|shake|Я |nu||ze||nah| как люблю тебя!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|Я |nu||ze||nah| люблю тебя тоже!",
+			"dialog"			: "|wave|Я |nu||ze||nah| как люблю тебя тоже!",
 		},
 		{
 			"love_hearts"		: 1,

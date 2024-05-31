@@ -57,7 +57,7 @@
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
-			"dialog"			: "Возьми нас в свой мир снов и выжми из нас все частицы до единой!|L||!|Не позволь ни одной частичке пропасть попусту.",
+			"dialog"			: "Возьми нас в свой мир снов и выжми из нас все частицы до единой! |!|Не позволь ни одной частичке пропасть попусту.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
@@ -200,7 +200,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Дефект, похоже, я к тебе прицепилась.",
+			"dialog"			: "Дефект, похоже, я к тебе прилипла.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
@@ -223,7 +223,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Эээ... Можно поторогать твои волосы?",
+			"dialog"			: "Эээ... Можно потрогать твои волосы?",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_angry"],

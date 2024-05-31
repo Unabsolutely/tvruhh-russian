@@ -319,7 +319,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "Я ещё к тебе за этим зегляну!",
+			"dialog"			: "Я ещё к тебе за этим загляну!",
 		},
 		{
 			"love_hearts"		: 1,

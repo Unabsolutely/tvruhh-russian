@@ -126,7 +126,7 @@
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "Она убежала вновь.|L||!|Прошу, подождите её.",
+			"dialog"			: "Она убежала вновь.|L||!|Прошу, потерпите её.",
 		},
 	],
 	
@@ -155,7 +155,7 @@
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|C3|[VAL1] маленьких частиц|C0| вышли посмотреть на вас.|L||!|И ещё несколько монстров смотрели между деревьев.",
+			"dialog"			: "|C3|[VAL1] маленьких частиц|C0| вышли посмотреть на вас.|!|И ещё несколько монстров смотрели между деревьев.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
@@ -180,7 +180,7 @@
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "Ты и правда возглавила шоу.",
+			"dialog_rand1"		: "Ты и правда затмила всех.",
 			"dialog_rand2"		: "Я хочу видеть, как ты расцветаешь.",
 			"dialog_rand3"		: "Твоя цветочная сила не вызывает сомнений.",
 			"dialog_rand4"		: "С этим ты расцветёшь.",

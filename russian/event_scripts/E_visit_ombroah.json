@@ -58,7 +58,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
-			"dialog"			: "Эта милая госпожа глиф пригласила тебя к себе в дом.",
+			"dialog"			: "Эта милая госпожа-Глиф пригласила тебя к себе в дом.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
@@ -133,7 +133,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Дорогуша Дефект, разве не идеален звук дождя тут, под зонтиком?",
+			"dialog"			: "Дорогуша Дефект, разве звук дождя тут, под зонтиком, не идеален?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_serious2"],
@@ -195,7 +195,7 @@
 		},
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_sad"],
-			"dialog"			: "Особенно после того,    как я напала    на тебя раньше.",
+			"dialog"			: "Особенно после того, как я    напала    на тебя раньше.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],

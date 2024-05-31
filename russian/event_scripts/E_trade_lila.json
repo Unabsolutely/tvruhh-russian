@@ -35,7 +35,7 @@
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
-		"dialog"	: "У тебя есть что-то лёгкое?|L|Пожалуйста, аз хочет что-нибудь!",
+		"dialog"	: "У тебя есть перекусить?|L|Пожалуйста, аз хочет что-нибудь!",
 	},
 	"comment_tetrid"	: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
@@ -120,7 +120,7 @@
 	},
 	"comment_give_blessing"	: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
-		"dialog"	: "Аз весёзлая, но голодная.",
+		"dialog"	: "Аз весёлая, но голодная.",
 	},
 	"comment_give_burden"	: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],

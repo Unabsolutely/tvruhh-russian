@@ -69,7 +69,7 @@
 	"another_gift_1" 	: [
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
-			"dialog"			: "О, а у тебя хватит места для Быстрого дара?",
+			"dialog"			: "О, а у тебя хватит места для Быстрого Дара?",
 		},
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
@@ -142,7 +142,7 @@
 		},
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_awkward"],
-			"dialog"			: "Мне не понадобится это использовать.",
+			"dialog"			: "Конечно, у меня нет никакого повода  использовать это знание.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
