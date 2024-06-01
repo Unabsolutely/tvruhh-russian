@@ -2,7 +2,7 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
-			"dialog"			: "Зарадены... ээ, привет.",
+			"dialog"			: "Зарадена... ээ, привет.",
 		},
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],

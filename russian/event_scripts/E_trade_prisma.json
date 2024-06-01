@@ -54,7 +54,7 @@
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-		"dialog"	: "Если у Вас имеется |C3|Тоник Искр|C0|, то из него можно получить много энергии.",
+		"dialog"	: "Незадействованные Быстрые дары дадут меньше энергии, но Вы бы всё равно забыли их использовать.",
 	},
 	"comment_leave"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],

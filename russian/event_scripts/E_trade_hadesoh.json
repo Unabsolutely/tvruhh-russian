@@ -158,6 +158,14 @@
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
 		"dialog"	: "Удачи, что бы это ни было.",
 	},
+        "comment_burden_BDN_hadesoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+		"dialog"	: "Мою? Правда?",
+	},
+	"comment_burden_BDN_chionotoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
+		"dialog"	: "Ох-|L|И что мне с ней делать?",
+	},
 	"take_burden_confirm"		: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
 		"dialog"	: "Таков твой выбор?",
@@ -169,7 +177,7 @@
 			"dialog_rand1"		: "Наконец, эта ноша упокоится.",
 			"dialog_rand2"		: "Мы ищем только признание, и ценим только любовь.",
 			"dialog_rand3"		: "Растворится настолько быстро, насколько сможет.",
-			"dialog_rand4"		: "МОжно ли эти грехи простить?|L|Ещё бы!",
+			"dialog_rand4"		: "Можно ли эти грехи простить?|L|Ещё бы!",
 		}
 	],
 	"glyph_taken" 		: [
@@ -181,7 +189,7 @@
 			"dialog_rand3"		: "Палки да камни - ничто перед этим.",
 		}
 	],
-	"hadesoh_taken" 	: [
+	"BDN_hadesoh_taken" 	: [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
 			"dialog"			: "Ты и правда сделаешь это для меня?",
@@ -189,6 +197,40 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
 			"dialog"			: "Моя не совсем уж |shake||nu||ze||nah||norm| такая плохая, да?",
+		},
+	],
+	"BDN_chionotoh_taken" 	: [
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_upset"],
+			"dialog"			: "|shake|Вот!|norm|    Забирай её.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
+			"dialog"			: "Я слишком близка к ней.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_hadesoh_right", "MOOD_upset"],
+			"dialog"			: "|C3||shake|Фу-у-у-у-у-х",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+			"dialog"			: "Ах да, ты же не знаешь.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "|shake|Это моя |nu||ze||nah| девушка!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_content"],
+			"dialog"			: "Она очень крутая, да?",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
+			"dialog"			: "Правда, я её уже даввно не видела.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
+			"dialog"			: "...Надеюсь, у неё всё хорошо.",
 		},
 	],
 
