@@ -561,7 +561,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Кто? Я? Нету.",
+			"dialog"			: "Кто? Я? Не-а.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
