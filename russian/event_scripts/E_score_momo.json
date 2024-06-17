@@ -155,7 +155,7 @@
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|C3|[VAL1] маленьких частиц|C0| вышли посмотреть на вас.|!|И ещё несколько монстров смотрели между деревьев.",
+			"dialog"			: "|C3|[VAL1] маленьких частиц|C0| вышли посмотреть на вас.|!| И ещё несколько монстров смотрели между деревьев.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
