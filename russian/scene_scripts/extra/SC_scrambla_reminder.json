@@ -5,7 +5,7 @@
 			"play_music"		: "green_scene_music",
 			"bg_image"			: "spr_scene_raining_cave",
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Мы пойдём зарядим нашу |C3|увязку синапса.|C0|\\n|!|Окее!     |wave|Ищё увидимся!",
+			"dialog"			: "Мы пойдём зарядим нашу |C3|увязку синапса.|C0||L||!|Окее!     |wave|Ищё увидимся!",
 		}
 	]
 }
