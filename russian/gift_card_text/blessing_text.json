@@ -45,12 +45,12 @@
 	
 	
 "BLS_twinkle" : {
-		"name"	  : "Миг",
+		"name"	  : "Мерцание",
 		"memory"  : "(Coming Soon v9.10)",
 		"card"    : "Частота крита +[VAL1]%|L|Крит. урон +[VAL2]%",
 	},
 	"BLS_tattoo" : {
-		"name"	  : "Такт",
+		"name"	  : "Татуировка",
 		"memory"  : "(Coming Soon v9.10)",
 		"card"    : "Част. крита +[VAL1]%|L|Крит. урон +[VAL2]%|L|Большие криты",
 	},
