@@ -5,7 +5,7 @@
 			"play_music"		: "tutorbot_scene_music",
 			"bg_image"			: "spr_scene_raining_cave",
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "\\E(2)Здравствуй, Маленький Робот.",
+			"dialog"			: "Здравствуй, Маленький Робот.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -21,7 +21,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "\\E(2)Это просто прекрасно!\\E(0)     Я как раз хотела узнать, как это делать.",
+			"dialog"			: "Это просто прекрасно!     Я как раз хотела узнать, как это делать.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -93,7 +93,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "\\E(2)Легко!      Что дальше?",
+			"dialog"			: "Легко!      Что дальше?",
 		},
 		{
 			"play_music"		: "silence",
