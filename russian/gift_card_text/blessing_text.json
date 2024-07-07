@@ -104,6 +104,21 @@
 		"memory"  : "(Coming Soon v9.10)",
 		"card"    : "Волновые звёзды|L|Макс. част. +[VAL2]|L|Пад. шкалы -[VAL3]%",
 	},
+	"BLS_power_glyph" : {
+		"name"	  : "Глиф Мощи",
+		"memory"  : "(Coming Soon v9.10)",
+		"card"    : "Макс. энергия +[VAL1]|L|Зарядка +[VAL2]%|L|Урон заряж. +[VAL3]%",
+	},
+	"BLS_explosive" : {
+		"name"	  : "Взрывная",
+		"memory"  : "(Coming Soon v9.10)",
+		"card"    : "Огненный заряд|L|Урон заряж. +[VAL2]%|L|Быстрая зарядка",
+	},
+	"BLS_wonderful" : {
+		"name"	  : "Восхитительная",
+		"memory"  : "(Coming Soon v9.10)",
+		"card"    : "Двойной заряд!|L|Быстрая зарядка|L|+ Длит. комбо",
+	},
 	
 	
 	
