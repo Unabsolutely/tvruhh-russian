@@ -657,7 +657,7 @@
 	},
 	
 	"B_frozen_veyeral" : {
-		"name"    : "Мерзлая Веераль",
+		"name"    : "Мёрзлая Веераль",
 		"eyeric"  : "|vai||ral||-||toh||nah| (Veyeral Tohna)",
 		"before"  : "Не осталось воли",
 		"after"   : "Я снова хочу двигаться",
