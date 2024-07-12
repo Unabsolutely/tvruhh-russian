@@ -328,7 +328,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "Как ты это сделала?|L||!|Это так специфично!",
+			"dialog"			: "Как ты это сделала?|L||!|Это так точно!",
 		},
 		{
 			"love_hearts"		: 1,

@@ -28,7 +28,7 @@
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_confused"],
-			"dialog"			: "Мы попробуем всё, пожалуйста!",
+			"dialog"			: "Мы попробуем что угодно, пожалуйста!",
 		},
 	],
 	
@@ -148,7 +148,7 @@
 	},
 	"comment_take_over"		: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_sad"],
-		"dialog"	: "Стой! Это странно, но это иногда помогает нам заснуть.",
+		"dialog"	: "Стой! Звучит странно, но это иногда помогает нам заснуть.",
 	},
 	"comment_quick_limit"	: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_sad"],
@@ -340,7 +340,7 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "Ты всегда помогаешь нам заснуть.",
+			"dialog"			: "Ты всегда помогаешь нам остыть.",
 		},
 		{
 			"love_hearts"		: 1,

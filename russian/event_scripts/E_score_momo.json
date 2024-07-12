@@ -301,11 +301,11 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "Вс эти шипастые лианы и циркулярные пилы-",
+			"dialog"			: "Все эти шипастые лианы и циркулярные пилы-",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Этого слишком много?",
+			"dialog"			: "Думаешь, слишком много?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
@@ -318,14 +318,14 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_content"],
-			"dialog"			: "Я бы от этого расцвела.",
+			"dialog"			: "Я бы от такого расцвела.",
 		},
 	],
 	
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "Нам поскорее бы хотелось станцевать с тобой ещё.",
+			"dialog"			: "Нам бы хотелось опять станцевать с тобой поскорее.",
 		},
 		{
 			"love_hearts"		: 1,
