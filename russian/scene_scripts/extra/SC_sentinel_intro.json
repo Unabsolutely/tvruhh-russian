@@ -13,11 +13,11 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|[Password Accepted]",
+			"dialog"			: "|C3|[Пароль принят]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|//Enjoy the following pleasurable sequence",
+			"dialog"			: "|C3|//Наслаждайтесь последующей приятной последовательностью",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -25,15 +25,15 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|[Sending Request]",
+			"dialog"			: "|C3|[Отправка запроса]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|//This Unit requests one or more hugs",
+			"dialog"			: "|C3|//Этот Модуль запрашивает одно объятие или более",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|//Please look for This Unit in the near future",
+			"dialog"			: "|C3|//Пожалуйста, найдите Этот Модуль в ближайшем будущем",
 		},
 	]
 }
