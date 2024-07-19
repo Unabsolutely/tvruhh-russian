@@ -152,7 +152,7 @@
 	
 	"comment_burden_normal"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
-		"dialog"	: "Выбирай свой яд.",
+		"dialog"	: "Выбери свой яд.",
 	},
 	"comment_burden_unknown"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
@@ -255,7 +255,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|Я |nu||ze||nah| как люблю тебя тоже!",
+			"dialog"			: "|wave|Я тоже |nu||ze||nah| как люблю тебя!",
 		},
 		{
 			"love_hearts"		: 1,
