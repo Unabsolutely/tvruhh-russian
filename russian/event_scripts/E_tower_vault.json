@@ -1,0 +1,158 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Приветствую, Зарадена.|L|Это автоматическая система.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Пожалуйста, замрите, пока проводится сканирование.",
+		},
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Профиль этой Зарадены найден в папке |C3|Доверенные пользователи|C0|.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Желает ли эта Зарадена просмотреть содержимое |C3|Тетридного хранилища?",
+		},
+	],
+	
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Приветствую, Зарадены.|L|Это автоматическая система.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Пожалуйста, замрите, пока проводится сканирование вас обеих.",
+		},
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Профили обеих Зараден найдены в папке |C3|Доверенные пользователи|C0|.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Желаете ли Вы просмотреть содержимое |C3|Тетридного хранилища?",
+		},
+	],
+	
+	"gift_list_title"	: "Тетридное хранилище",
+
+	"op_start"		: "Открыть Тетридное хранилище",
+	"op_ask1"		: "Маленький Робот?",
+	"op_ask2"		: "Лулу?",
+	"op_leave"		: "Уйти",
+	
+	"comment_main"		: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Ожидание ответа...",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Вы уходите?",
+	},
+	
+	"auto_response" 	: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Это автоматическая система.|L||!|В данный момент принимаются только ответы Да или Нет.",
+		},
+	],
+	
+	"leaving_now" 	: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Ваш тихий уход с замешательством на лице интерпретирован как ответ НЕТ.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Надеемся, что Ваш день пройдёт приятно.",
+		},
+	],
+	
+	"to_password" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Для данной операции требуется пароль.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Поскольку Вы новый пользователь, Вам будут предоставлены несколько случайно сгенерированных паролей.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Пожалуйста, введите их как можно быстрее.",
+		},
+	],
+	
+	"password_title"	: "Пароль [VAL1]",
+	"score_title"		: "Счёт [VAL1]",
+	
+	"comment_password_correct"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Пожалуйста, введите этот пароль.",
+	},
+	"comment_password_miss"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_angry"],
+		"dialog"	: "Неправильный пароль.|L|Пожалуйста, попробуйте снова.",
+	},
+	
+	"password_done" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Ваш парольный счёт составляет |C3|[VAL1] очков.|C0|",
+		},
+	],
+	"to_gift" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Теперь вы можете открыть Хранилище[VAL2].",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Вам выдано разрешение взять дар из Хранилища.",
+		},
+	],
+	"to_close" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "К сожалению, это значит, что у Вас нет разрешения брать дары из Хранилища.",
+		},
+	],
+	
+	"comment_take"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Вы можете выбрать любой из предложенных даров.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Желаете выбрать его?",
+	},
+	"gift_take_another" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Вам разрешается взять дополнительный дар.",
+		}
+	],
+	"gift_take_final" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Вам разрешается взять ещё один дар.",
+		}
+	],
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Теперь Хранилище будет закрыто.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Надеемся, что Ваш день пройдёт приятно.",
+		},
+	],
+
+}
