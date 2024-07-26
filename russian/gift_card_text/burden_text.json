@@ -46,27 +46,27 @@
 	
 	"BDN_glowing_scar" : {
 		"name"	  : "Светящийся Шрам",
-		"memory"  : "(Coming Soon v9.10)",
+		"memory"  : "(Coming Soon v8.11)",
 		"card"    : "Защ. Света -[VAL1]|L|[VAL2] облучённых ОЗ",
 	},
 	"BDN_frostbite_scar" : {
 		"name"	  : "Ледяной Шрам",
-		"memory"  : "(Coming Soon v9.10)",
+		"memory"  : "(Coming Soon v8.11)",
 		"card"    : "Защ. Пустоты -[VAL1]|L|[VAL2] кровоточащих ОЗ",
 	},
 	"BDN_singed_scar" : {
 		"name"	  : "Опалённый Шрам",
-		"memory"  : "(Coming Soon v9.10)",
+		"memory"  : "(Coming Soon v8.11)",
 		"card"    : "Защ. Огня -[VAL1]|L|[VAL2] горящих ОЗ",
 	},
 	"BDN_overload_scar" : {
 		"name"	  : "Искрящийся Шрам",
-		"memory"  : "(Coming Soon v9.10)",
+		"memory"  : "(Coming Soon v8.11)",
 		"card"    : "Защ. Молнии -[VAL1]|L|Перегружает [VAL2] ОЗ",
 	},
 	"BDN_poison_scar" : {
 		"name"	  : "Отравленный Шрам",
-		"memory"  : "(Coming Soon v9.10)",
+		"memory"  : "(Coming Soon v8.11)",
 		"card"    : "Защ. Яда -[VAL1]|L|[VAL2] отравленных ОЗ",
 	},
 	
