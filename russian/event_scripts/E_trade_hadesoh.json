@@ -226,7 +226,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
-			"dialog"			: "Правда, я её уже даввно не видела.",
+			"dialog"			: "Правда, я её уже давно не видела.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
