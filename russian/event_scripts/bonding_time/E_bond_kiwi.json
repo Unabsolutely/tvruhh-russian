@@ -668,10 +668,10 @@
 	
 	
 	
-	"to_sleep_blank"	: "bonding_common_text",
-	"to_sleep_defect"	: "bonding_common_text",
-	"to_sleep_twins"	: "bonding_common_text",
-	"to_sleep_devil"	: "bonding_common_text",
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
