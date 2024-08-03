@@ -1,0 +1,229 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+			"dialog"			: "|C2|Обнаружено проникновение.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+			"dialog"			: "|C2|Тревога. Посторонние.|L|Тревога. Посторонние.|L|Тревога. Посторонние.",
+		},
+	],
+	"respond_blank" : [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Что происходит?",
+		},
+	],
+	"respond_defect" : [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "|shake|Что я сделала?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_angry"],
+			"dialog"			: "Она не посторонняя.|L|Она со мной!",
+		},
+	],
+	"respond_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "О нет. Не надо привлекать всех милашек-роботов к моей сестрёнке.|L||!||wave|Что угодно, кроме этого!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
+			"dialog"			: "|shake|Это серьёзно!",
+		},
+	],
+	"respond_devil" : [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Я ни в чём не виновата!  |norm|В этот раз!",
+		},
+	],
+	
+	"gift_list_title"	: "Хранилище Тетридов",
+
+	"op_start"		: "Стучать по кнопкам!",
+	"op_leave"		: "Бежать прочь!",
+	
+	"comment_main"		: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+		"dialog"	: "|C2|Скоро прозвучит сирена.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_default", "CHAR_holo_unit_right", "MOOD_alarm"],
+		"dialog"	: "|C3|(Убежать?)",
+	},
+	
+	"leaving_now" 	: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+			"dialog"			: "|C2|Пожалуйста, не пытайтесь бежать.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+			"dialog"			: "|C2|Мы настоятельно просим вас постоять и послушать нашу прекрасную сирену.",
+		},
+	],
+	
+	"hacking_blank" : [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Я не знаю, что делаю!",
+		},
+	],
+	"hacking_defect" : [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "Я просто понажимаю разные кнопки.",
+		},
+	],
+	"hacking_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive"],
+			"dialog"			: "Жми     её     кнопки, Солнышко!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "Зачем ты это так сказала?",
+		},
+	],
+	"hacking_devil" : [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Если у меня что и получается хорошо, так это намеренно ломать электронику, случайно!",
+		},
+	],
+	"to_hacking" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+			"dialog"			: "|C2|Не рекомендуется нажимать кнопки.|L||!|Мы искренне надеемся, что вам понравится наша неминуемая сирена.",
+		},
+	],
+	
+	"password_title"	: "Пароль [VAL1]",
+	"score_title"		: "Счёт [VAL1]",
+	
+	"comment_hacking_correct"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+		"dialog"	: "|C2|Не нажимайте на кнопки.",
+	},
+	"comment_hacking_miss"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_alarm"],
+		"dialog"	: "|C2|Мы вам говорили.",
+	},
+	
+	"hacking_done" 		: [
+		{
+			"play_music"		: "tutorbot_scene_music",
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "С сожелением сообщаем вам, что |C3|Режим розыгрыша|C0| был отключён.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Мы оцениваем вашу попытку взлома в |C3|[VAL1] очков.|C0|",
+		},
+	],
+	"to_gift" 			: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Это означает, что вы не получите сирену в качестве награды.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Однако, вы можете получить доступ к Хранилищу[VAL2].",
+		},
+	],
+	"low_score" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "К сожалению, это значит, что вы не получите доступ к охранной сирене или к тетридному хранилищу.",
+		},
+	],
+	
+	"comment_take"	: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Вы можете выбрать любой дар.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+		"dialog"	: "Желаете взять его?",
+	},
+	"gift_take_another" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Вам разрешается взять другой дар.",
+		}
+	],
+	"gift_take_final" 		: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Вам разрешается взять ещё один дар.",
+		}
+	],
+	
+	"leave_blank" : [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_angry"],
+			"dialog"			: "Это было так грубо!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Мы ценим ваше мнение.|L|Оно будет передано |C3|Лютекне|C0| при первой возможности.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "И лучше уж передайте ей, что я люблю её!",
+		},
+	],
+	"leave_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Дефект, дорогуша, ты выпустила когти.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Ой, правда?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "Наверное, я подумала, что мы оказались в настоящей опасности.",
+		},
+	],
+	"leave_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|wave||C3|УИИИИ УУУУУ!|L|УИИИИ УУУУУ!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "Что ты делаешь?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Ты ведь заслуживаешь оба приза, Солнышко!",
+		},
+	],
+	"leave_devil" : [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "В следующий раз мы посмотрим, кто кого разыграет!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Мы ценим ваше мнение.|L|Оно будет передано |C3|Лютекне|C0| при первой возможности.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Передай ей, что я, Дьявол, ещё у неё за это спрошу!",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Мы надеемся, что наш |C3|Режим розыгрыша|C0| доставил достаточное удовлетворение.",
+		},
+	],
+
+}

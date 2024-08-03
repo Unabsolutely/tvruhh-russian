@@ -1,3 +1,3 @@
 {
-	"event_alt_script"		: ["E_score_anomaly", "anomaly_intro"],
+	"event_alt_script"		: ["treasure/E_score_anomaly", "anomaly_intro"],
 }

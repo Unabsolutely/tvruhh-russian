@@ -116,7 +116,7 @@
 			"dialog"			: "Вам выдано разрешение взять дар из Хранилища.",
 		},
 	],
-	"to_close" 		: [
+	"low_score" 		: [
 		{
 			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
 			"dialog"			: "К сожалению, это значит, что у Вас нет разрешения брать дары из Хранилища.",
@@ -144,6 +144,67 @@
 		}
 	],
 	
+	"leave_blank" : [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Не удалось обработать команду.|L|Это автоматическая система.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "А.",
+		},
+	],
+	"leave_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Можешь ли ты рассчитать, насколько я красива?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Не удалось обработать команду.|L|Это автоматическая система.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Ух ты! Никогда не слышала, чтобы это так говорили.",
+		},
+	],
+	"leave_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "В каком Хранилище вы держите всех роботов, которые запрограммированы флиртовать с моей сестрой?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Она не распознает твои странные вопросы.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "|C3|Поиск...|C0||L||!|Возможно, вы имеете в виду Хранилище-96-04",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "О нет.",
+		},
+	],
+	"leave_devil" : [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Стой! Дай попробовать ещё.|L||!|Я смогу лучше!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
+			"dialog"			: "Теперь Хранилище будет закрыто.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Даже если мне от этого станет грустно?",
+		},
+	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
