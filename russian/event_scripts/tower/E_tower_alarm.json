@@ -118,7 +118,7 @@
 		{
 			"play_music"		: "tutorbot_scene_music",
 			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
-			"dialog"			: "С сожелением сообщаем вам, что |C3|Режим розыгрыша|C0| был отключён.",
+			"dialog"			: "С сожалением сообщаем вам, что |C3|Режим розыгрыша|C0| был отключён.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],
