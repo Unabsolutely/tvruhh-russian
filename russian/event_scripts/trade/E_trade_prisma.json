@@ -83,7 +83,7 @@
 	
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-		"dialog"	: "Этот Модуль може дублировать данный дар для Вас!",
+		"dialog"	: "Этот Модуль может дублировать данный дар для Вас!",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
