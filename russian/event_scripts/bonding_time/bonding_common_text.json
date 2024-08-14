@@ -220,7 +220,7 @@
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
 			"random"			: 3,
 			"dialog_rand1"		: "Я, ээ-",
-			"dialog_rand2"		: "Зелёная-",
+			"dialog_rand2"		: "Зелёнка-",
 			"dialog_rand3"		: "Она просто-",
 		},
 	],

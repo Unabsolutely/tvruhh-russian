@@ -118,7 +118,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
-			"dialog"			: "Нет, Зелёная.",
+			"dialog"			: "Нет, Зелёнка.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],

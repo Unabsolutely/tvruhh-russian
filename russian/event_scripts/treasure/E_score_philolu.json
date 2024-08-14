@@ -63,7 +63,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "Зелёная?|!||L|Ты где?",
+			"dialog"			: "Зелёнка?|!||L|Ты где?",
 		},
 		{
 			"character"			: ["VOICE_none", "CHAR_center", "MOOD_normal"],

@@ -313,7 +313,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
-			"dialog"			: "Пойдём, Зелёная.",
+			"dialog"			: "Пойдём, Зелёнка.",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_content"],

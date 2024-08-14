@@ -224,7 +224,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "Зелёная, я не могу не заметить, что проснулась под кучей веералей.",
+			"dialog"			: "Зелёнка, я не могу не заметить, что проснулась под кучей веералей.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],

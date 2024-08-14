@@ -270,7 +270,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
-			"dialog"			: "Зелёная! Не надо выдумывать.",
+			"dialog"			: "Зелёнка! Не надо выдумывать.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused_blush"],
