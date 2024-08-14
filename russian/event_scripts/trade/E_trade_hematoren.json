@@ -453,7 +453,7 @@
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "Попробуй в следующий раз сделать цветы из крови Зелёной.",
+			"dialog"			: "Попробуй в следующий раз сделать цветы из крови Зелёнки.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
