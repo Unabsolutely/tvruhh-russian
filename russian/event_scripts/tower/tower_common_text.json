@@ -1,0 +1,232 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Не бойся Меня.",
+			"dialog_rand2"		: "Не бойся Этой Сферы.",
+			"dialog_rand3"		: "Не страшись Этой Сферы перед собой.",
+			"dialog_rand4"		: "Этой Сферы не нужно бояться.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Она может создать дары и благословения для тебя.",
+			"dialog_rand2"		: "Эта Сфера может сотворить для тебя благословения.",
+			"dialog_rand3"		: "Сфера перед тобой может создать для тебя дары.",
+			"dialog_rand4"		: "Эта Сфера может создать дары для тебя.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Однако для этого будут необходимы материалы эмоциональной конструкции.",
+			"dialog_rand2"		: "Правда, для процесса создания потребуются некоторые материалы.",
+			"dialog_rand3"		: "Тем не менее, стоит знать, что Этой Сфере нужны определённые материалы для их создания.",
+			"dialog_rand4"		: "Обязательно знать, что для создания таких даров нужны эмоциональные материалы.",
+		},
+	],
+	
+	"op_trade"			: "Создать дары",
+	"op_give_active"	: "Дать Активный дар",
+	"op_give_panic"		: "Дать паники",
+	"op_give_maxhp"		: "Дать кровь",
+	"op_give_hp"		: "Дать здоровье",
+	"op_give_charge"	: "Дать энергию",
+	"op_leave"			: "Уйти",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Сегодня Она может создать для вас следующие дары.",
+	},
+	"comment_give_gift"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Используй один из своих |C3|даров|C0| в качестве материала.",
+	},
+	"comment_give_panic"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Используй свою |C3|панику|C0| как материал.",
+	},
+	"comment_give_maxhp"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Преобразуй своё |C3|максимальное здоровье|C0| в материал.",
+	},
+	"comment_give_hp"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Преобразуй своё |C3|текущее здоровье|C0| в материал.",
+	},
+	"comment_give_charge"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Преобразуй свою |C3|максимальную энергию заряда|C0| в материал.",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Скажи Ей, когда будешь готова уходить.",
+	},
+	
+	"comment_empty_trade"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Ничего не осталось.",
+	},
+	"comment_no_gift"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Больше даров нельзя использовать.",
+	},
+	"comment_no_panic"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Больше паники нельзя использовать.",
+	},
+	"comment_no_hp"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Больше здоровья нельзя использовать.",
+	},
+	"comment_no_charge"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Больше заряда нельзя использовать",
+	},
+	"comment_max_power"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Она больше не может принять материал.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Ты уходишь?",
+	},
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Этот дар можно создать.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Доверишь ли ты Ей создать дар, который не помнишь?",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Этой Сфере требуется больше материала.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Если бы это было создано, тебе бы не хватило места.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Желаешь ли ты этого?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 5,
+			"dialog_rand1"		: "Эта Сфера надеется, что конструкция приемлема.",
+			"dialog_rand2"		: "Построено точно по указаниям чертежа.",
+			"dialog_rand3"		: "Акт сотворения предвосхищает прекрасное чувство.",
+			"dialog_rand4"		: "Она желает созидать ради других.",
+			"dialog_rand5"		: "Она создала точную копию.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Она может принять этот материал.",
+	},
+	"comment_give_special"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сильной сонастроенностью с этим материалом.",
+	},
+	"comment_give_favorite"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Она обладает максимальной сонастроенностью с этим материалом.",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Если таково желание, ещё есть время использовать этот материал.",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Позитивное чувство внутри можно использовать как материал.",
+	},
+	"comment_give_TAG_nova_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сильной сонастроенностью с другими частями себя.",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Она не рекомендует использовать негативные чувства как материал.",
+	},
+	"comment_give_taken"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Это уже было создано для тебя.",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера не может принять это у тебя.",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Использовать это как материал?",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Материалы для конструкции дара получены.",
+			"dialog_rand2"		: "Данный материал был принят.",
+			"dialog_rand3"		: "Форму этого дара можно изменить на другую.",
+			"dialog_rand4"		: "Материал этого дара изменится во что-то другое.",
+		}
+	],
+
+
+	
+	"comment_giving_panic"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Сколько |C3|панпических атак|C0| ты отдашь?",
+	},
+	"comment_giving_maxhp"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Какую часть своего |C3|максимального здоровья|C0| ты отдашь?",
+	},
+	"comment_giving_hp"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Какую часть своего |C3|здоровья|C0| ты отдашь?",
+	},
+	"comment_giving_charge"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Какую часть своей |C3|максимальной энергии|C0| ты отдашь?",
+	},
+	"comment_low_charge"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Твои последние единицы |C3|энергии заряда|C0| принесут вдвое больше материала.",
+	},
+	"stats_given" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Эта Сфера извлекла материалы для тебя.",
+			"dialog_rand2"		: "Она сможет создать отличные дары из этого эмоционального материала.",
+			"dialog_rand3"		: "Твои эмоциональные материалы позволят создать сильный дар.",
+		}
+	],
+	
+	
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Она надеется, что её помощь была приемлемой.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Это порождает чудесное чевство внутри Этой Сферы.",
+		},
+	],
+
+}

@@ -1,0 +1,52 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	"intro_defect" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Эта Сфера чувствует сильный резонанс с данной Зараденой и данной веералью.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Ей будет проще создать для вас дары.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Вот так, вновь, мой длинный и вечно растущий список поклонников пополняется ещё немного.",
+		},
+	],
+	
+	"mood_title"	: "Сила Аметист",
+	"monster_gifts"	: "Дары Аметист",
+	"player_gifts"	: "Активные дары у [NAME]",
+	
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_veyeral"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Веерали|C0|.",
+	},
+	"comment_give_TAG_VOID"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, относящимися к |C3|холоду и пустоте.|C0|",
+	},
+	"comment_give_TAG_space"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|космическими|C0| материалами.",
+	},
+	"comment_give_TAG_broken"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|раздробленными и сломанными|C0| материалами.",
+	},
+	"comment_give_FAV_amethyst_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+	
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}

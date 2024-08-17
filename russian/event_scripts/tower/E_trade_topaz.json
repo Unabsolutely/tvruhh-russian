@@ -1,0 +1,65 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Она испытывает сильный резонанс с одной из этих родственных Зараден.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Этой Сфере неизвестен источник, но ей будет проще создать для вас дары.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "|wave|По-моему, ты ей нравишься, Солнышко.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Да ты про всех так говоришь!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "И это всегда правда!",
+		},
+		
+	],
+	
+	"mood_title"	: "Сила Топаз",
+	"monster_gifts"	: "Дары Топаз",
+	"player_gifts"	: "Активные дары у [NAME]",
+	
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_glyph"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Стражи|C0|.",
+	},
+	"comment_give_TAG_glyph"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, связанными с|C3|глифами|C0|.",
+	},
+	"comment_give_TAG_stone"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с |C3|камнями-сердцами|C0|, созданными Айрическими Глифами.",
+	},
+	"comment_give_TAG_photo"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с |C3|фотографиями|C0|, созданными Айрическими Глифами.",
+	},
+	"comment_give_TAG_element"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, способными изменить |C3|стихию любви.|C0|",
+	},
+	"comment_give_FAV_topaz_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+	
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}

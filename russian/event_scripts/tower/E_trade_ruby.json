@@ -1,0 +1,64 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	"intro_devil" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Эта Сфера чувствует сильный резонанс с данной Зараденой.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Да, мне говорили, что у Дьявола хороший резонанс.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Говорили ли другие так же?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Они будут, когда я скажу им, что сфера говорила мне напрямую в мозги!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "\"|wave|О-о-о,|norm| у Дьявола такой клёвый резонанс, мы бы никогда не постигли её крутизны.\"",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Может, тебе стоит показать им дар, который Она создаст для тебя.",
+		},
+	],
+	
+	"mood_title"	: "Сила Рубин",
+	"monster_gifts"	: "Дары Рубин",
+	"player_gifts"	: "Активные дары у [NAME]",
+
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_guardian"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Стражи|C0|.",
+	},
+	"comment_give_TAG_BURN"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|горящими|C0| материалами.",
+	},
+	"comment_give_TAG_mite"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, относящимися к |C3|клещам|C0| этого мира.",
+	},
+	"comment_give_TAG_danger"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|острыми и опасными|C0| материалами.",
+	},
+	"comment_give_FAV_ruby_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+	
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}

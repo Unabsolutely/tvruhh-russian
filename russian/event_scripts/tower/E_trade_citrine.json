@@ -1,0 +1,60 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	"intro_blank" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Эта Сфера ощущает сильный резонанс с данной Зараденой.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Ох, э-э... Это хорошо?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Это значит, что Ей будет проще создать для тебя дары.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|О, здорово!",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Нужно знать, что Она сможет создать ещё больше даров, если получит достаточно материалов.",
+		},
+	],
+	
+	"mood_title"	: "Сила Цитрин",
+	"monster_gifts"	: "Дары Цитрин",
+	"player_gifts"	: "Активные дары у [NAME]",
+
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_glass"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Стеклянная Флора|C0|",
+	},
+	"comment_give_TAG_space"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|космическими|C0| материалами.",
+	},
+	"comment_give_TAG_scent"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, обладающими |C3|приятным запахом.|C0|",
+	},
+	"comment_give_TAG_water"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, относящимися к |C3|воде и дождю.|C0|",
+	},
+	"comment_give_FAV_citrine_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+	
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}

@@ -1,0 +1,60 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Она испытывает сильный резонанс с одной из этих родственных Зараден.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Этой Сфере неизвестен источник, но ей будет проще создать для вас дары.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "Ты ведь можешь флиртовать получше этого, да?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Она не понимает этого.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "Не слушай её!|L|Её речь не имеет смысла!",
+		},
+	],
+	
+	"mood_title"	: "Сила Изумруд",
+	"monster_gifts"	: "Дары Изумруд",
+	"player_gifts"	: "Активные дары у [NAME]",
+	
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_shamble"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Осколки|C0|.",
+	},
+	"comment_give_TAG_food"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, связанными с |C3|едой|C0|.",
+	},
+	"comment_give_TAG_scent"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с материалами, обладающими |C3|приятным запахом.|C0|",
+	},
+	"comment_give_TAG_broken"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|раздробленными и сломанными|C0| материалами.",
+	},
+	"comment_give_FAV_emerald_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+	
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}

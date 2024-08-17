@@ -868,6 +868,10 @@
 		
 		"encounters"		: "Встречено",
 		"gifts_given"		: "Даров отдано",
+		"panics_given"		: "Паник отдано",
+		"hp_given"			: "Здоровья отдано",
+		"maxhp_given"		: "Макс. здоровья отдано",
+		"charge_given"		: "Энергии отдано",
 		"tetrids_given"		: "Тетридов отдано",
 		"gifts_taken"		: "Даров взято",
 		"gifts_received"	: "Даров получено",

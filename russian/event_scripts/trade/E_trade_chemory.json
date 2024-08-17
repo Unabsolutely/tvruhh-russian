@@ -143,7 +143,7 @@
 	},
 	"comment_quick_limit"	: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
-		"dialog"	: "К сожалению, я не смогу сделать это для тебя меньше.",
+		"dialog"	: "К сожалению, я не смогу уменьшить это для тебя.",
 	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],

@@ -1,0 +1,38 @@
+{
+
+	"intro"	: "tower/tower_common_text",
+	
+	"mood_title"	: "Сила Сапфир",
+	"monster_gifts"	: "Дары Сапфир",
+	"player_gifts"	: "Активные дары у [NAME]",
+	
+	"gift_taken"	: "tower/tower_common_text",
+	"gift_given"	: "tower/tower_common_text",
+	"stats_given"	: "tower/tower_common_text",
+	
+	"comment_give_TAG_m_zaramech"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера сонастроена с материалами, относящимися к семейству монстров |C3|Зарамехи|C0|.",
+	},
+	"comment_give_TAG_ZAP"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|электрическими|C0| материалами.",
+	},
+	"comment_give_TAG_mech"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|механическими|C0| материалами.",
+	},
+	"comment_give_TAG_danger"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает сонастроенностью с |C3|острыми и опасными|C0| материалами.",
+	},
+	"comment_give_FAV_sapphire_part"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Эта Сфера обладает крайней сонастроенностью с этой частью себя.",
+	},
+	
+
+	
+	"leave_default"	: "tower/tower_common_text",
+
+}
