@@ -55,7 +55,7 @@
 	},
 	"comment_donate_limit"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
-		"dialog"	: "В нашем измерении хранилища закончилось место доя твоих даров.",
+		"dialog"	: "В нашем измерении хранилища закончилось место для твоих даров.",
 	},
 	"comment_token_limit"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
@@ -70,7 +70,7 @@
 	
 	"cost_line"		: "Можешь взять это за |C3|[VAL1] Жетона Кляксы.|C0|",
 	"cost_line_1"	: "Можешь взять это за |C3|1 Жетон Кляксы.|C0|",
-	"cost_line_0"	: "Можешь взять это прото так, милашка.",
+	"cost_line_0"	: "Можешь взять это просто так, милашка.",
 	"comment_free"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
 		"dialog"	: "|wave|Можешь это просто взять, если хочешь, милашка.",
