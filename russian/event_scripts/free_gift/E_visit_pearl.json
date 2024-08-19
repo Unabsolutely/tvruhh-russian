@@ -84,7 +84,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Т-ты хочешь, чтобя взяла один из них?",
+			"dialog"			: "Т-ты хочешь, чтобы я взяла один из них?",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],

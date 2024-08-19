@@ -49,7 +49,7 @@
 		},
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_sad"],
-			"dialog"			: "Они должны были стаь извинением для |C3|пустотной, известной как Синяя.|C0|",
+			"dialog"			: "Они должны были стать извинением для |C3|пустотной, известной как Синяя.|C0|",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_very_happy"],
@@ -344,7 +344,7 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
-			"dialog"			: "Эти Модули благодарят вас за помощь вразрешении панической петли.",
+			"dialog"			: "Эти Модули благодарят вас за помощь в разрешении панической петли.",
 		},
 		{
 			"love_hearts"		: 1,

@@ -5,7 +5,7 @@
 			"play_music"		: "dreaming_scene_music",
 			"bg_image"			: "spr_scene_dreaming",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
-			"dialog"			: "Значит, тебе удалсь так далеко забраться?",
+			"dialog"			: "Значит, тебе удалось так далеко забраться?",
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],

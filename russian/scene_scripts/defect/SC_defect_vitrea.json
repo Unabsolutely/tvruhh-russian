@@ -122,7 +122,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Ещё они весьма крошечные для той массы, которй обладают.",
+			"dialog"			: "Ещё они весьма крошечные для той массы, которой обладают.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
@@ -210,7 +210,7 @@
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
-			"dialog"			: "Хочшь посмотреть на мою обсерваторию?",
+			"dialog"			: "Хочешь посмотреть на мою обсерваторию?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
