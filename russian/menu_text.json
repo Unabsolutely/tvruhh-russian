@@ -413,7 +413,7 @@
 		"sublime_f_level"	: "Ур. 20 в Семье",
 	},
 	
-	"MENU_story_stages" : {
+	"MENU_stage_titles" : {
 		"normal_gift"	: "Полюби за этот дар",
 		"challenge_gift": "Поработай за этот дар",
 		"xstat_adjust"	: "Сила этого монстра изменена",

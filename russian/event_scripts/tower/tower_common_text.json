@@ -186,7 +186,7 @@
 	
 	"comment_giving_panic"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Сколько |C3|панпических атак|C0| ты отдашь?",
+		"dialog"	: "Сколько |C3|панических атак|C0| ты отдашь?",
 	},
 	"comment_giving_maxhp"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
@@ -225,7 +225,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "Это порождает чудесное чевство внутри Этой Сферы.",
+			"dialog"			: "Это порождает чудесное чувство внутри Этой Сферы.",
 		},
 	],
 
