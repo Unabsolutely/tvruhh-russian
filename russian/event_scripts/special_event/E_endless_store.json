@@ -173,7 +173,7 @@
 	"gift_removed" 			: [
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
-			"dialog"			: "|shake|Один мгновение и Солара вырвет этот дар из твоего сердца!",
+			"dialog"			: "|shake|Одно мгновение и Солара вырвет этот дар из твоего сердца!",
 		}
 	],
 	
@@ -241,7 +241,7 @@
 	},
 	"comment_remove_max"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "Солара може |C3|удалить один из твоих даров|C0| при каждой встрече!",
+		"dialog"	: "Солара может |C3|удалить один из твоих даров|C0| при каждой встрече!",
 	},
 	"comment_upgrade_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
