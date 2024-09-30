@@ -48,7 +48,7 @@
 		{
 			"show_tutorial"		: "example_quick_card2",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Многие из них продлятся всего одну битву.",
+			"dialog"			: "Некоторые из них продлятся всего одну битву.",
 		},
 		{
 			"show_tutorial"		: "small_quick_cards",
@@ -57,7 +57,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Монстры не будут давать Вам |C3|Быстрые Дары|C0|, если у Вас их уже слишком много.",
+			"dialog"			: "Монстры не будут показывать Вам их |C3|Быстрые Дары|C0|, если у Вас их уже слишком много.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
