@@ -71,37 +71,38 @@
 	},
 	
 	
+	"cost_line"		: "Соларе будет нужно |C3|[VAL1] кармы|C0|, чтобы его достать.",
 	"comment_one"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "|wave|Простой дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Простой дар.|norm||L|[VAL1]",
 	},
 	"comment_two"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Приятный дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Приятный дар.|norm||L||[VAL1]",
 	},
 	"comment_three"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|Очень сильный дар!|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Очень сильный дар!|norm||L|[VAL1]",
 	},
 	"comment_duplicate"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Копия дара!|norm||L|Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Копия дара!|norm||L|[VAL1]",
 	},	
 	"comment_bonus"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
-		"dialog"	: "|wave|Бонусный дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Бонусный дар.|norm||L|[VAL1]",
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Быстрый дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Быстрый дар.|norm||L|[VAL1]",
 	},
 	"comment_blessing"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|Благословение.|norm||L|Солары будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Благословение.|norm||L|[VAL1]",
 	},
 	"comment_unknown"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
-		"dialog"	: "Солара не может сказать, что это.|L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "Солара не может сказать, что это.|L|[VAL1]",
 	},
 	"comment_burden"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
