@@ -23,18 +23,18 @@
 	"player_gifts"	: "Дары [NAME]",
 	
 	"op_store"		: "Купить дары",
-	"op_remove"		: "Удалить дар",
+	"op_remove"		: "Убрать дар",
 	"op_upgrade"	: "Улучшения",
 	"op_leave"		: "Уйти",
 	
 	"up_power_gifts"	: "Дары силы",
-	"up_dup_stock"		: "Копирования даров",
+	"up_dup_stock"		: "Копий даров",
 	"up_dup_limit"		: "Предел копирования",
 	"up_bonus_gifts"	: "Бонусные дары",
 	"up_quick_gifts"	: "Быстрые дары",
 	"up_blessings"		: "Благословения",
 	"up_burdens"		: "Ноши",
-	"up_remove"			: "Удалить дары",
+	"up_remove"			: "Убрать дары",
 	
 	"store_text"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
@@ -106,11 +106,11 @@
 	},
 	"comment_burden"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Ты получишь |C3|[VAL1] кармы|C0|, если примешь эту ношу.",
+		"dialog"	: "Ты получишь |C3|[VAL2] кармы|C0|, если примешь эту ношу.",
 	},
 	"comment_cant_afford"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "У тебя не хватает |C3|кармы|C0| на этот дар!|L|Соларе нужно |C3|[VAL1] кармы|C0|, чтобы достать его.",
+		"dialog"	: "У тебя не хватает |C3|кармы|C0| на этот дар!|L|[VAL1]",
 	},
 	"comment_quick_limit"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
@@ -126,7 +126,7 @@
 	},	
 	"buy_confirm"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "Ты дашь Соларе |C3|[VAL1] кармы?|C0|",
+		"dialog"	: "Ты дашь Соларе |C3|[VAL2] кармы?|C0|",
 	},
 	"burden_confirm"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
@@ -153,28 +153,28 @@
 	
 	"comment_remove_gift"			: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Соларе будет нужно |C3|[VAL1] кармы|C0|, чтобы удалить этот дар.",
+		"dialog"	: "Соларе будет нужно |C3|[VAL1] кармы|C0|, чтобы убрать этот дар.",
 	},
 	"comment_remove_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
-		"dialog"	: "Соларе было нужно |C3|[VAL1] кармы|C0|, чтобы удалить этот дар.",
+		"dialog"	: "Соларе было нужно |C3|[VAL1] кармы|C0|, чтобы убрать этот дар.",
 	},
 	"comment_remove_soon"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
-		"dialog"	: "Пока что Солара не может удалить этот дар, возможно это изменится при следующей встрече.",
+		"dialog"	: "Пока что у Солары не получается убрать этот дар, но, может, в следующий раз.",
 	},
 	"comment_remove_starter"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
-		"dialog"	: "Солара не может удалить этот дар из твоего сердца.",
+		"dialog"	: "Солара не может убрать этот дар из твоего сердца.",
 	},
 	"remove_confirm"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "Хочешь, Солара удалит этот дар?",
+		"dialog"	: "Хочешь, Солара уберёт этот дар?",
 	},
 	"gift_removed" 			: [
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
-			"dialog"			: "|shake|Одно мгновение и Солара вырвет этот дар из твоего сердца!",
+			"dialog"			: "|shake|Одно мгновение, и Солара вырвет этот дар из твоего сердца!",
 		}
 	],
 	
@@ -214,7 +214,7 @@
 	},
 	"comment_dup_stock_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "С помощью силы тетридов, Солара сможет находить |C3|случайные копии Даров силы|C0| при встречи!",
+		"dialog"	: "С помощью силы тетридов, Солара сможет находить |C3|случайные копии Даров силы|C0| при встрече!",
 	},
 	"comment_dup_stock_lv1"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
@@ -222,7 +222,7 @@
 	},
 	"comment_dup_stock_max"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "Солара сможет найти |C3|[VAL2] случайные копии Даров силы|C0| при каждой встрече, пока ты не можешь взять больше!",
+		"dialog"	: "Солара сможет найти |C3|[VAL2] случайные копии Даров силы|C0| при каждой встрече до тех пор, пока ты не сможешь взять больше!",
 	},
 	"comment_dup_limit_lv1"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
@@ -238,11 +238,11 @@
 	},
 	"comment_remove_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Солара может |C3|удалять дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
+		"dialog"	: "Солара может |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
 	},
 	"comment_remove_max"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "Солара может |C3|удалить один из твоих даров|C0| при каждой встрече!",
+		"dialog"	: "Солара может |C3|убирать один из твоих даров|C0| при каждой встрече!",
 	},
 	"comment_upgrade_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
