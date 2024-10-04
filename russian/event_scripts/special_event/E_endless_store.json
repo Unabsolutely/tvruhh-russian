@@ -78,7 +78,7 @@
 	},
 	"comment_two"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Приятный дар.|norm||L||[VAL1]",
+		"dialog"	: "|wave|Приятный дар.|norm||L|[VAL1]",
 	},
 	"comment_three"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
