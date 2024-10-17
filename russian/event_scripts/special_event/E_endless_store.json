@@ -20,21 +20,29 @@
 	"shop_level"	: "Уровень Магазина [VAL1]",
 	"dream_petals"	: "Лепестков Грёз освещено",
 	"list_title"	: "Дары Солары",
-
+	"player_gifts"	: "Дары [NAME]",
+	
 	"op_store"		: "Купить дары",
+	"op_remove"		: "Убрать дар",
 	"op_upgrade"	: "Улучшения",
 	"op_leave"		: "Уйти",
 	
-	"op_power_gifts"	: "Дары силы",
-	"op_power_cost"		: "Цена Даров силы",
-	"op_bonus_gifts"	: "Бонусные дары",
-	"op_bonus_cost"		: "Цена Бонусных даров",
-	"op_quick_gifts"	: "Быстрые дары",
-	"op_quick_cost"		: "Цена Быстрых даров",
+	"up_power_gifts"	: "Дары силы",
+	"up_dup_stock"		: "Копий даров",
+	"up_dup_limit"		: "Предел копирования",
+	"up_bonus_gifts"	: "Бонусные дары",
+	"up_quick_gifts"	: "Быстрые дары",
+	"up_blessings"		: "Благословения",
+	"up_burdens"		: "Ноши",
+	"up_remove"			: "Убрать дары",
 	
 	"store_text"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
 		"dialog"	: "Солара может достать для тебя дары, но Соларе для этого будет нужно немного |C3|кармы.|C0|",
+	},
+	"remove_text"		: {
+	"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+	"dialog"	: "Солара может забрать один из твоих даров.",
 	},
 	"upgrade_text"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
@@ -49,53 +57,81 @@
 		"dialog"	: "Солара уйдёт в поисках новых даров.",
 	},
 	
-	"comment_no_gifts"	: {
+	"comment_no_gifts"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 		"dialog"	: "Сейчас Солара не может найти больше даров!",
 	},
-	"comment_max_level"	: {
+	"comment_remove_done"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+		"dialog"	: "Солара может отнять лишь один дар при каждой встрече.",
+	},
+	"comment_max_level"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
 		"dialog"	: "Солара - самая могущественная |C3|Королева Грёз|C0|, что когда-либо была!",
 	},
 	
 	
+	"cost_line"		: "Соларе будет нужно |C3|[VAL1] кармы|C0|, чтобы его достать.",
 	"comment_one"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "|wave|Простой дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Простой дар.|norm||L|[VAL1]",
 	},
 	"comment_two"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Приятный дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Приятный дар.|norm||L|[VAL1]",
 	},
 	"comment_three"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|Очень сильный дар!|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Очень сильный дар!|norm||L|[VAL1]",
 	},
+	"comment_duplicate"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"dialog"	: "|wave|Копия дара!|norm||L|[VAL1]",
+	},	
 	"comment_bonus"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
-		"dialog"	: "|wave|Бонусный дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Бонусный дар.|norm||L|[VAL1]",
 	},
 	"comment_quick"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "|wave|Быстрый дар.|norm||L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "|wave|Быстрый дар.|norm||L|[VAL1]",
+	},
+	"comment_blessing"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|Благословение.|norm||L|[VAL1]",
 	},
 	"comment_unknown"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
-		"dialog"	: "Солара не может сказать, что это.|L|Чтобы это достать, Соларе будет нужно |C3|[VAL1] кармы|C0|.",
+		"dialog"	: "Солара не может сказать, что это.|L|[VAL1]",
 	},
-	"comment_limit"		: {
+	"comment_burden"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "Ты получишь |C3|[VAL2] кармы|C0|, если примешь эту ношу.",
+	},
+	"comment_cant_afford"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
+		"dialog"	: "У тебя не хватает |C3|кармы|C0| на этот дар!|L|[VAL1]",
+	},
+	"comment_quick_limit"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 		"dialog"	: "У тебя с собой слишком много быстрых даров, этот не поместится.",
 	},
-	"comment_over"		: {
-		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "У тебя не хватает |C3|кармы|C0| на этот дар!|L|Соларе нужно |C3|[VAL1] кармы|C0|, чтобы достать его.",
+	"comment_burden_limit"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+		"dialog"	: "Сейчас Солара не позволит тебе принять ещё одну ношу.",
 	},
+	"comment_duplicate_limit"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+		"dialog"	: "Солара не может достать для тебя больше копий даров силы.",
+	},	
 	"buy_confirm"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-		"dialog"	: "Ты дашь Соларе |C3|[VAL1] кармы?|C0|",
+		"dialog"	: "Ты дашь Соларе |C3|[VAL2] кармы?|C0|",
 	},
-	
+	"burden_confirm"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+		"dialog"	: "Примешь ли ты эту ношу?",
+	},
 	"gift_bought" 		: [
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
@@ -115,16 +151,44 @@
 	
 	
 	
-	"power_plural" 	: "Дары силы",
+	"comment_remove_gift"			: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "Соларе будет нужно |C3|[VAL1] кармы|C0|, чтобы убрать этот дар.",
+	},
+	"comment_remove_fail"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+		"dialog"	: "Соларе было нужно |C3|[VAL1] кармы|C0|, чтобы убрать этот дар.",
+	},
+	"comment_remove_soon"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+		"dialog"	: "Пока что у Солары не получается убрать этот дар, но, может, в следующий раз.",
+	},
+	"comment_remove_starter"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+		"dialog"	: "Солара не может убрать этот дар из твоего сердца.",
+	},
+	"remove_confirm"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"dialog"	: "Хочешь, Солара уберёт этот дар?",
+	},
+	"gift_removed" 			: [
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "|shake|Одно мгновение, и Солара вырвет этот дар из твоего сердца!",
+		}
+	],
+	
+	
+	
 	"power_1" 		: "1 Дар силы",
 	"power_n" 		: "до [VAL1] Даров силы",
-	"bonus_plural" 	: "Бонусные дары",
 	"bonus_1" 		: "1 Бонусный дар",
 	"bonus_n" 		: "до [VAL1] Бонусных даров",
-	"quick_plural" 	: "Быстрые дары",
 	"quick_1" 		: "1 Быстрый дар",
 	"quick_n" 		: "до [VAL1] Быстрых даров",
-	"comment_gift_zero"			: {
+	"bless_1" 		: "1 Благословение",
+	"bless_n" 		: "[VAL1] Благословения",
+	"comment_gift_lv0"			: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
 		"dialog"	: "С помощью силы тетридов, Солара сможет находить |C3|[VAL1]|C0|!",
 	},
@@ -133,20 +197,56 @@
 		"dialog"	: "Сейчас Солара может собрать |C3|[VAL1]|C0|, но с помощью силы тетридов Солара сможет найти ещё!",
 	},
 	"comment_gift_max"			: {
-		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 		"dialog"	: "Солара может собрать |C3|[VAL1]|C0| с каждым твоим визитом!",
 	},
-	"comment_cost_down"			: {
+	"comment_burden_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "С помощью силы тетридов, Соларе будет нужно |C3|на 1 карму меньше|C0|, чтобы добывать любые будущие |C3|[VAL1]|C0|!",
+		"dialog"	: "С помощью силы тетридов, Солара сможет находить |C3|Ноши|C0|, дающие тебе больше кармы!",
 	},
-	"comment_cost_max"			: {
+	"comment_burden_up"			: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"dialog"	: "С помощью силы тетридов, Солара даст тебе больше возможностей выбора |C3|Нош|C0|!",
+	},
+	"comment_burden_max"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+		"dialog"	: "Солара может находить |C3|[VAL2] Ноши|C0| на выбор при каждой встрече!",
+	},
+	"comment_dup_stock_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Солара может достать |C3|[VAL1]|C0|, используя минимальное количество кармы!",
+		"dialog"	: "С помощью силы тетридов, Солара сможет находить |C3|случайные копии Даров силы|C0| при встрече!",
+	},
+	"comment_dup_stock_lv1"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"dialog"	: "Солара может найти |C3|1 случайную копию Дара силы|C0| при каждой встрече, но Солара способна найти и больше!",
+	},
+	"comment_dup_stock_max"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+		"dialog"	: "Солара сможет найти |C3|[VAL2] случайные копии Даров силы|C0| при каждой встрече до тех пор, пока ты не сможешь взять больше!",
+	},
+	"comment_dup_limit_lv1"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "Солара может дать тебе |C3|1 копию|C0| Дара силы за бесконечный кошмар, но Солара способна и на большее!",
+	},
+	"comment_dup_limit_up"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+		"dialog"	: "Солара может дать тебе |C3|[VAL2] копий|C0| Даров силы за бесконечный кошмар, но Солара способна и на большее!",
+	},
+	"comment_dup_limit_max"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+		"dialog"	: "Солара может дать тебе до |C3|[VAL2] копий|C0| Даров силы за бесконечный кошмар! Копируй только самые лучшие дары!",
+	},
+	"comment_remove_lv0"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "Солара может |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
+	},
+	"comment_remove_max"		: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+		"dialog"	: "Солара может |C3|убирать один из твоих даров|C0| при каждой встрече!",
 	},
 	"comment_upgrade_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL1] Лепестков Грёз|C0|, прежде чем улучшать эту силу.",
+		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL3] Лепестков Грёз|C0|, прежде чем улучшать эту силу.",
 	},
 	"comment_upgrade_fail_1"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
