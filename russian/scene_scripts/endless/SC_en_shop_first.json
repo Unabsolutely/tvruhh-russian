@@ -1,0 +1,4 @@
+{
+	"use_special_bg"		: 1,
+	"event_alt_script"		: ["special_event/E_endless_store", "intro_first"],
+}

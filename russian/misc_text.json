@@ -53,6 +53,8 @@
 	"tutorial_focus"	: " - Фокус",
 	"tutorial_panic"	: " - Паника",
 	
+	"love_power"		: "Сила Любви",
+	
 	"challenge_cards" : {
 		"challenge"		: "Испытание",
 		"pass"			: "Успех",
