@@ -15,7 +15,7 @@
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"random"			: 3,
 			"dialog_rand1"		: "Солара нашла ещё дары в глубинах твоего кошмара!",
-			"dialog_rand2"		: "|wave|Добро пожаловать в твоё счастливое место!",
+			"dialog_rand2"		: "|wave|Добро пожаловать в твою тихую гавань!",
 			"dialog_rand3"		: "Солара найдёт больше даров для тебя!",
 		}
 	],
@@ -278,7 +278,7 @@
 	},
 	"comment_remove_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Солара может |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
+		"dialog"	: "Солара сможет |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
 	},
 	"comment_remove_max"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
@@ -286,11 +286,11 @@
 	},
 	"comment_upgrade_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL3] Лепестков Грёз|C0|, прежде чем улучшать эту силу.",
+		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL3] Лепестков Грёз|C0|, прежде чем улучшить эту силу.",
 	},
 	"comment_upgrade_fail_1"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "Соларе нужно, чтобы ты осветила хотя бы |C3|один Лепесток Грёз|C0|, прежде чем улучшать эту силу.",
+		"dialog"	: "Соларе нужно, чтобы ты осветила хотя бы |C3|один Лепесток Грёз|C0|, прежде чем улучшить эту силу.",
 	},
 	
 	"first_upgrade" 		: [
@@ -393,7 +393,7 @@
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Добро пожаловать в твоё счастливое место!",
+			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
 		},
 		{
 			"unskippable"		: 0,
@@ -431,7 +431,7 @@
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Добро пожаловать в твоё счастливое место!",
+			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
 		},
 		{
 			"unskippable"		: 0,
@@ -598,7 +598,7 @@
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Твоё счастливое место теперь благословлено благословениями!",
+			"dialog"			: "|wave|Твоя тихая гавань теперь благословлена благословениями!",
 		},
 		{
 			"unskippable"		: 0,
@@ -632,7 +632,7 @@
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Твоё счастливое место теперь уношено ношами!",
+			"dialog"			: "|wave|Твоя тихая гавань теперь уношена ношами!",
 		},
 		{
 			"unskippable"		: 0,
