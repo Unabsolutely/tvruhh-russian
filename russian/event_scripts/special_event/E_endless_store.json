@@ -193,7 +193,7 @@
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-			"dialog"			: "Может ты захочешь удалить |C3|дар-копию|C0|, чтобы взять на его место другую.",
+			"dialog"			: "Может, ты захочешь удалить |C3|дар-копию|C0|, чтобы взять на его место другую.",
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
@@ -619,7 +619,7 @@
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
-			"dialog"			: "Это означает, |C3|Сила любви|C0| от Благословений может временно увеличить цены других даров",
+			"dialog"			: "Это означает, |C3|Сила Любви|C0| от Благословений может временно увеличить цены других даров",
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
