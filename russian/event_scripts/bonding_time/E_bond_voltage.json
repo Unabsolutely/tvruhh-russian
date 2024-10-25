@@ -462,7 +462,7 @@
 	"to_rain_reward" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Здесь это оставили веерали, с которыми мы до этого играли в Дождь Веералей.",
+			"dialog"			: "Это здесь оставили веерали, с которыми мы до этого играли в Дождь Веералей.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
@@ -472,7 +472,7 @@
 	"to_rain_reward_devil" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Здесь это оставили веерали, с которыми мы до этого играли в Дождь Веералей.",
+			"dialog"			: "Это здесь оставили веерали, с которыми мы до этого играли в Дождь Веералей.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
