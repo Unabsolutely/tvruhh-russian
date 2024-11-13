@@ -127,6 +127,10 @@
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 		"dialog"	: "Солара не может достать для тебя больше копий даров силы.",
 	},	
+	"blank_comment_box"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 		"dialog"	: "Ты дашь Соларе |C3|[VAL2] кармы?|C0|",
