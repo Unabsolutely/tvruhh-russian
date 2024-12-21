@@ -1109,5 +1109,5 @@
 			"dialog"			: "Спасибо, что составила мне компанию!",
 		},
 	],
-
+	"error_catch"	: "bonding_time/bonding_common_text",
 }

@@ -733,5 +733,5 @@
 			"dialog"			: "I'll be a master in no time if I have you to teach me.",
 		},
 	],
-
+	"error_catch"	: "bonding_time/bonding_common_text",
 }

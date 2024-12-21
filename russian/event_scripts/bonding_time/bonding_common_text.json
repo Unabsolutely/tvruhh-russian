@@ -438,4 +438,14 @@
 	"rpg_atk_dance3"			: "Смертельный Танец",
 	"rpg_atk_dance4"			: "Головокружительный Танец",
 	
+	"error_catch" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Если вы видите это сообщение, произошла ошибка.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Пожалуйста, сообщите об этом разработчику!",
+		},
+	],
 }

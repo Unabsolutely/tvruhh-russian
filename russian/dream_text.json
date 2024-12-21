@@ -37,10 +37,10 @@
 		"sub_story_goals"	: "Цели в Истории",
 		"sub_story_feats"	: "Подвиги в Истории",
 		"sub_story_events"	: "События в Истории",
-		"sub_monster_events": "Monster Events",
-		"sub_monster_gifts" : "Monster Gifts",
-		"sub_monster_trades": "Monster Trades",
-		"sub_monster_bonds" : "Monster Bonding",
+		"sub_monster_events": "События от Монстров",
+		"sub_monster_gifts" : "Дары Монстров",
+		"sub_monster_trades": "Обмен с Монстрами",
+		"sub_monster_bonds" : "Вместе с Монстрами",
 		
 		"main_victories"	: "Победы в Истории",
 		"sub_void_wins"		: "Победы над Пустотой",
@@ -1330,8 +1330,8 @@
 		"desc"    : "Примите суммарно 90 даров от любых событий Времени Вместе",
 	},
 	"DR_bonding_dot" : {
-		"name"    : "Я знаю, обломки подходят друг другу",
-		"desc"    : "Получите 90% оценку или выше на 4 объятиях Точки за одно посещение",
+		"name"    : "Я Знаю, Осколки Подходят Друг Другу",
+		"desc"    : "Заработайте оценку 90% или выше за 4 объятия Точки за одно посещение",
 	},
 	"DR_bonding_kiwi" : {
 		"name"    : "Критический Бросок!",

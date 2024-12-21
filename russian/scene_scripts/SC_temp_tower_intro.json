@@ -17,7 +17,7 @@
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "В любом случае, Я расскажу тебе о |C3|Башнях.",
+			"dialog"			: "В любом случае, я расскажу тебе о |C3|Башнях.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
@@ -45,7 +45,7 @@
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Монстры увеличивают свои уровни только если ты набираешь высокий счёт в боях.",
+			"dialog"			: "Монстры увеличивают свои уровни, только если ты набираешь высокий счёт в боях.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
