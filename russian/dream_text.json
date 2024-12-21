@@ -37,8 +37,10 @@
 		"sub_story_goals"	: "Цели в Истории",
 		"sub_story_feats"	: "Подвиги в Истории",
 		"sub_story_events"	: "События в Истории",
-		"sub_monster_events": "События от Монстров",
-		"sub_monster_trades": "Обмен с Монстрами",
+		"sub_monster_events": "Monster Events",
+		"sub_monster_gifts" : "Monster Gifts",
+		"sub_monster_trades": "Monster Trades",
+		"sub_monster_bonds" : "Monster Bonding",
 		
 		"main_victories"	: "Победы в Истории",
 		"sub_void_wins"		: "Победы над Пустотой",
