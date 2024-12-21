@@ -5,63 +5,63 @@
 			"play_music"		: "dreaming_scene_music",
 			"bg_image"			: "spr_scene_dreaming",
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Oh, hello. I'm Chionotoh.",
+			"dialog"			: "О, привет. Меня зовут Хионотох.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "If you've never met me before, you should |C3|trade|C0| something with Frozen Veyeral.",
+			"dialog"			: "Если ты ещё ни разу не видела меня, попробуй |C3|по торговать|C0| с Морозной Веералью.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "You've met her at least, right?",
+			"dialog"			: "Её то ты ведь уже встречала?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "Anyways, I'm here to tell you about |C3|The Towers.",
+			"dialog"			: "В любом случае, Я расскажу тебе о |C3|Башнях.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "You'll find 2 new types of gifts here.",
+			"dialog"			: "Здесь ты найдёшь 2 новых вида даров.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "|C3|Blessings|C0| will help you just like power gifts do, but they wear off after a number of battles.",
+			"dialog"			: "|C3|Благословения|C0| помогут тебе прямо как дары силы, но их эффект пропадает через несколько битв.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Then there are |C3|Burdens.",
+			"dialog"			: "Ещё есть |C3|Ноши.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
-			"dialog"			: "|C3|Burdens|C0| always have harmful effects, but they also only last a few battles.",
+			"dialog"			: "|C3|Ноши|C0| всегда вредят тебе, но они тоже длятся только несколько битв.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Most monsters will give you both |C3|Blessings and Burdens|C0| at the same time, so be careful.",
+			"dialog"			: "Большинство монстров дадут тебе сразу и |C3|Благословения и Ноши|C0|, так что будь осторожна.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "There is also another important rule for The Towers.",
+			"dialog"			: "И ещё одно важное правило Башен.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Monsters will only gain levels if you earn high scores in battles.",
+			"dialog"			: "Монстры увеличивают свои уровни только если ты набираешь высокий счёт в боях.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Performing well against higher level monsters will quickly increase the level.",
+			"dialog"			: "Хорошо проведённые бои против монстров высокого уровня быстро увеличат их уровень.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Other than that, you should know that some towers are still missing their final battles right now.",
+			"dialog"			: "Кроме того, не забывай, что некоторые башни пока ещё не имеют финальных битв.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "But they will be added soon enough.",
+			"dialog"			: "Но скоро они будут добавлены.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "|wave|Enjoy the climb!",
+			"dialog"			: "|wave|Наслаждайся подъёмом!",
 		},
 	]
 }
