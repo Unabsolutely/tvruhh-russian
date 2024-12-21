@@ -1,0 +1,737 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Oh! I was looking for you.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "I was wondering-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Can I hug you again?|!||L|I know I can do it better this time.",
+		},
+	],
+	"intro_defect" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "I was wondering-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Can I please practice hugging you?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I'm afraid my perfect embrace would prove far too overwhelming for you at the moment.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Why don't you ask my darling Defect?",
+		},
+	],
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh! I found you again.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Can I please practice hugging one of you?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "I would, but-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "My sister was just telling me about how she wanted more practice too.",
+		},
+	],
+	
+	"monster_mood"		: "Dot's Mood",
+	"monster_stuff"		: "Dot's [VAL1]",
+	"healing_gifts"		: "Healing Gifts",
+	"rating_title"		: "Hug Rating [VAL1]%",
+	
+	"op_power"		: "Practice Grip",
+	"op_pendulum"	: "Practice Balance",
+	"op_circle"		: "Practice Elegance",
+	"op_dodge"		: "Practice Finesse",
+	"op_big_hug"	: "The Big Hug",
+	"op_burden"		: "Take on a burden",
+	"op_sleep"		: "Take a nap",
+	
+	"op_hold"		: "Hold her longer",
+	"op_stop"		: "Practice another hug",
+	
+	"op_heal"		: "Cure bleeding",
+	"op_ignore"		: "Ignore it",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "I will achieve a perfect hug.",
+	},
+	"comment_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "What should I practice next?",
+	},
+	"comment_hold"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+		"dialog"	: "Please don't let go yet.",
+	},
+	"comment_bleed"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "Please let me heal you.",
+	},
+	
+	"to_hug_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Dot,   you've been following me for like an hour.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "I was waiting for you to ask!",
+		},
+	],
+	"to_hug_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Come here Dot.",
+		},
+	],
+	"to_hug_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Uh, Sure.   You can practice on me.",
+		},
+	],
+	"to_hug_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "First, you have to agree to give me your soul.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Yeah, sure!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Right on!",
+		},
+	],
+	"to_hug_first_reply" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "You're actually letting me do this!",
+		},
+	],
+	"to_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Get Ready!",
+			"dialog_rand2"		: "Here I come!",
+			"dialog_rand3"		: "It will be perfect this time!",
+			"dialog_rand4"		: "I'll get it right this time!",
+		},
+	],
+	"to_big_hug_first" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "Yay!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "I will use two techniques in a row for this one.",
+		},
+	],
+	"to_big_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Big Hug!|L|Big Hug!|L|Big Hug!",
+			"dialog_rand2"		: "Here comes another big one!",
+			"dialog_rand3"		: "|wave|La la la la laaaa",
+			"dialog_rand4"		: "|wave|Doo do doooooo|L|Big hug time!",
+		},
+	],
+	
+	"start_power" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "I want to work on my |C3|grip|C0| now.",
+			"dialog_rand2"		: "My |C3|grip|C0| could use some work.",
+		},
+	],
+	"start_pendulum" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "My |C3|balance|C0| needs more work.",
+			"dialog_rand2"		: "I'm going to practice my |C3|balance|C0| this time.",
+		},
+	],
+	"start_circle" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "My |C3|elegance|C0| can still be improved.",
+			"dialog_rand2"		: "I need to practice more |C3|elegance.|C0|",
+		},
+	],
+	"start_dodge" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "The |C3|finesse|C0| of my hugs can use some work.",
+			"dialog_rand2"		: "I'm going to practice my |C3|finesse.|C0|",
+		},
+	],
+	
+	"comment_hug_crit"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+		"dialog"	: "|wave|Perfect!",
+	},
+	"comment_hug_good"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+		"dialog"	: "|wave|Hmmmmmmmmmmmm|L||wave|Hmmmmmmmmmm",
+	},
+	"comment_hug_bad"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+		"dialog"	: "Did that hurt?",
+	},
+	"comment_perfect_rating"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+		"dialog"	: "Oh...",
+	},
+	"comment_win"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "That was nice.",
+	},
+	"comment_lose"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "I did it wrong again...",
+	},
+	
+	"you_win_perfect" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "This was perfect.",
+		},
+	],
+	"you_win_clear" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "I'm so happy with that one!",
+			"dialog_rand2"		: "That went better than I expected!",
+			"dialog_rand3"		: "I think I'm getting better at this!",
+			"dialog_rand4"		: "I've improved so much!",
+		},
+	],
+	"you_win_between" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "Now for the next technique!",
+			"dialog_rand2"		: "Let's keep going!",
+			"dialog_rand3"		: "|wave|Now for more embraaaaaaace",
+			"dialog_rand4"		: "Keep it going!",
+		},
+	],
+	"you_win" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "That was pretty good, but I think I can do better.",
+			"dialog_rand2"		: "I can still improve this technique.",
+			"dialog_rand3"		: "I know I can still do better.",
+		},
+	],
+	"you_lose" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_angry"],
+			"random"			: 2,
+			"dialog_rand1"		: "How am I so bad at this?",
+			"dialog_rand2"		: "Why can't I get this right?",
+		},
+	],
+	
+	
+	"after_unlocking_big_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "I think I'm ready for-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "|shake||C3|The Big Hug!|C0|",
+		},
+	],
+	"after_perfect_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"random"			: 3,
+			"dialog_rand1"		: "Wait. Don't let go yet.",
+			"dialog_rand2"		: "I'm not ready to let go.",
+			"dialog_rand3"		: "Let me hold on a little longer.",
+		},
+	],
+	"after_bleeding_first" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|You're bleeding!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "I hurt you.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "I can fix this.",
+		},
+	],
+	"after_bleeding_ignored" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|I cut you again!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Please, let me heal you this time.",
+		},
+	],
+	"after_bleeding" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|You're bleeding again!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "I didn't mean to,    I promise.",
+		},
+	],
+	
+	"hold_continue" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|La la la laaaa",
+			"dialog_rand2"		: "|wave|Hmmmm hmmmm hmmmmmmmmm",
+			"dialog_rand3"		: "|wave|Doo do doooooo",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"random"			: 2,
+			"dialog_rand1"		: "|wave|Feeeeeling so balanced right nooooooow",
+			"dialog_rand2"		: "|wave|Sooooo perfectly symetricaaaaaal",
+		},
+	],
+	"hold_continue_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content_cry"],
+			"dialog"			: "I won't let go until you are ready.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "Thank you so much.",
+		},
+	],
+	"hold_continue_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "She may be ready for my embrace after all.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "I knew I could get it right.",
+		},
+	],
+	"hold_continue_end" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Alright, that's probably long enough.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "There's more I need to practice.",
+		},
+	],
+	"hold_stop" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "You're right-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "I have to practice as much as I can |shake|before you try to escape.",
+		},
+	],
+	
+	
+	
+	"bleed_heal" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Just hold still for a moment, okay?",
+		},
+	],
+	"bleed_heal_defect" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "I'll fix that up for you.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Oh, your claws got so long.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "|shake|No they didn't!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Please don't look at them.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "|wave|I didn't see anything.",
+		},
+	],
+	"bleed_heal_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "How are you going to heal this?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "The nectar from my flower can stop the bleeding.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_thought", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "|C3|(Greeny has that look again.)",
+		},
+	],
+	"bleed_ignore" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Are you sure?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Okay, I trust that you know what you can handle.",
+		},
+	],
+	"bleed_ignore_devil" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "You're worried about that little scratch?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "It's barely even bleeding.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Okay, I trust you.",
+		},
+	],
+	"bleed_ignore_again" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Okay... If you're sure.",
+		},
+	],
+	"to_heal_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "That should do it.",
+			"dialog_rand2"		: "Alright, the bleeding has stopped.",
+			"dialog_rand3"		: "I've stopped the bleeding.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"random"			: 3,
+			"dialog_rand1"		: "Oh, I have something else that will help.",
+			"dialog_rand2"		: "Wait, take one of these too.",
+			"dialog_rand3"		: "This will help with the pain.",
+		},
+	],
+	"comment_heal_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "Please, take one.",
+	},
+	"comment_heal_unknown"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "Uh, wait. What is this?",
+	},
+	"heal_confirm"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+		"dialog"	: "Will this help?",
+	},
+	"heal_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "...I'm sorry.",
+		},
+	],
+	
+	
+	
+	"to_devil_pass_out" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "I told you, it's barely-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Oh,    that's a lot...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "I'll be right back...",
+		},
+	],
+	"after_devil_pass_out" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "What just happened?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"dialog"			: "|shake|I'm sorry.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "I stopped the bleeding, but you fell asleep for a little while.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
+			"dialog"			: "I wasted all of our bonding time?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Just as the legends foretold...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "I have to be going now.",
+		},
+	],
+	
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "What are we even doing right now?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "You don't actually have to do this, if you don't want to.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "I'm just being selfish.",
+		},
+	],
+	"comment_burden_choice"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"burden_confirm"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "..?",
+	},
+	"burden_taken_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Why are you like this?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "I'm probably enjoying this more than you are.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "We can both be selfish, okay?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Okay, deal!",
+		},
+	],
+	"burden_taken" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "How do you always take those bad feeling away?",
+		},
+	],
+
+	
+	
+	
+	"times_up_blank"	: "bonding_time/bonding_common_text",
+	"times_up_defect"	: "bonding_time/bonding_common_text",
+	"times_up_twins"	: "bonding_time/bonding_common_text",
+	"times_up_devil"	: "bonding_time/bonding_common_text",
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Wait, I have something for you.",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "You can have any of these!",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "Does this look blurry to you?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+		"dialog"	: "You want this one?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "You don't want one?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "I'm glad you like it, because you are taking another one.",
+		},
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "I knew you would take that one.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "And you get one more!",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "I hope it brings you perfect balance.",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh! You almost fell over.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "I guess I can practice being a pillow instead.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "You forgot about the surprise technique.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh, I did!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|Gotcha!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "You have proven yourself worthy of my perfect embrace.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Here you go, Dot.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"dialog"			: "|shake|So cold!|L||!|You were right.|L||!|I wasn't ready for this.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Now it's time for both of you to practice kissing!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|I uh... I mean...|L||norm|Am I   ready    for that?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Greeny, you're the one who said it's time to go.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "Awww I didn't mean it.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "So, what does it mean if you have my soul?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Well, I noticed you like to sing a lot while we were hugging right now.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "So one day, The Devil shall call upon you.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "And you will     |shake|sing in her band!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "That sounds like fun!",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "I'll be a master in no time if I have you to teach me.",
+		},
+	],
+
+}
