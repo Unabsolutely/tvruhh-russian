@@ -9,7 +9,7 @@
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Если ты ещё ни разу не видела меня, попробуй |C3|по торговать|C0| с Морозной Веералью.",
+			"dialog"			: "Если ты ещё ни разу не видела меня, попробуй |C3|поторговать|C0| с Морозной Веералью.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
