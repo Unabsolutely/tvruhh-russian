@@ -1,7 +1,7 @@
 # tvruhh-russian
 A repository for TVRUHH Russian translation files	
 
-Ставить на версию tvruhh : 8.18a
+Ставить на версию tvruhh : 8.18b
 
 Установка: необходимо засунуть папку "russian" по пути 
 
