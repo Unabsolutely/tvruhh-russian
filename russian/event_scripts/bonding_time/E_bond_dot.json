@@ -180,7 +180,7 @@
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
 			"random"			: 2,
 			"dialog_rand1"		: "Моя |C3|элегантность|C0| всё ещё может стать лучше.",
-			"dialog_rand2"		: "Мне нужно попракиковать |C3|элегантность.|C0|",
+			"dialog_rand2"		: "Мне нужно попрактиковать |C3|элегантность.|C0|",
 		},
 	],
 	"start_dodge" 	: [
@@ -284,7 +284,7 @@
 	"after_bleeding_first" 	: [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
-			"dialog"			: "|shake|Из тебя идёт кровь!",
+			"dialog"			: "|shake|У тебя кровь!",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
@@ -378,7 +378,7 @@
 	"bleed_heal" 	: [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
-			"dialog"			: "Просто не двигайся на мгновеник, хорошо?",
+			"dialog"			: "Просто не двигайся на мгновение, хорошо?",
 		},
 	],
 	"bleed_heal_defect" 	: [
@@ -517,11 +517,11 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
-			"dialog"			: "И потратила впустую всё наще время вместе?",
+			"dialog"			: "И потратила впустую всё наше время вместе?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
-			"dialog"			: "Как и предсказывали легенды...",
+			"dialog"			: "Как и было предначертано...",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
@@ -539,7 +539,7 @@
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
-			"dialog"			: "Ты не обязана делать этого, если не хочешь.",
+			"dialog"			: "Ты не обязана делать это, если не хочешь.",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
@@ -566,7 +566,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "Мы можем обе быть эгоистками, хорошо?",
+			"dialog"			: "Мы обе можем быть эгоистками, хорошо?",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
@@ -577,7 +577,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
-			"dialog"			: "Как ты всегда избавляешь меня от этих плохих чувств?",
+			"dialog"			: "Как тебе удаётся каждый раз избавлять меня от этих плохих чувств?",
 		},
 	],
 
@@ -647,7 +647,7 @@
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
-			"dialog"			: "Видимо, вместо этого я могу попрактиковаться в работе подущкой.",
+			"dialog"			: "Видимо, вместо этого я могу попрактиковаться в работе подушкой.",
 		},
 	],
 	
@@ -675,7 +675,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Ты доказала, что ты достойна моих идеальных объятий.",
+			"dialog"			: "Ты доказала, что достойна моих идеальных объятий.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
@@ -690,7 +690,7 @@
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "Теперь время вам обоим попрактиковаться в поцелуях!",
+			"dialog"			: "Теперь время вам обеим попрактиковаться в поцелуях!",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
