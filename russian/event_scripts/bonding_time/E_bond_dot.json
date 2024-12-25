@@ -277,7 +277,7 @@
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
 			"random"			: 3,
 			"dialog_rand1"		: "Погоди. Не отпускай меня.",
-			"dialog_rand2"		: "Я ещё не готова отпустить.",
+			"dialog_rand2"		: "Я ещё не готова отпускать.",
 			"dialog_rand3"		: "Давай подержимся ещё немного.",
 		},
 	],
