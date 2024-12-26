@@ -242,7 +242,7 @@
 	],
 	"to_sleep_defect" 	: [
 		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_serious2"],
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sleepy"],
 			"dialog"			: "Я... Хорошо, да.",
 		},
 		{
