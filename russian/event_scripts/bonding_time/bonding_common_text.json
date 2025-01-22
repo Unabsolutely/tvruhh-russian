@@ -5,6 +5,10 @@
 	
 	"times_up"	: "Время вышло!",
 	"victory"	: "Победа!",
+	"ouch"		: "Ай!",
+	
+	"course_walk"	: "Пройди 1 клетку",
+	"course_jump"	: "Прыгни на 2 клетки",
 
 	"eye_color1"	: "|C3|красными глазами|C0|",
 	"eye_color2"	: "|C3|фиолетовыми глазами|C0|",
@@ -152,6 +156,35 @@
 	"scrap_treasure5"	:	"Что-то Ценное?",
 	"scrap_treasure6"	:	"Ценный Объект?",
 	"scrap_treasure7"	:	"То, Чего Не Должно Тут Быть?",
+	
+	"scrap_ingredient1"	:	"Простой Ингредиент",
+	"scrap_ingredient2"	:	"Приятный Ингредиент",
+	"scrap_ingredient3"	:	"Чудесный	 Ингредиент",
+	
+	"craft_hp"				:	"Лечит [VAL1]% здоровья",
+	"craft_max_hp"			:	"Максимум ОЗ +[VAL1]",
+	"craft_max_en"			:	"Макс. энергия +[VAL1]",
+	"craft_panic"			:	"+[VAL1] Панические атаки",
+	"craft_manic_panic"		:	"+[VAL1] Манические паники",
+	"craft_panic_polyp"		:	"+[VAL1] Панический полип",
+	"craft_karma"			:	"+[VAL1] кармы",
+	"craft_damage"			:	"Весь урон +[VAL1]%",
+	"craft_crit_rate"		:	"Частота крита +[VAL1]%",
+	"craft_radiant_res"		:	"Защита Света +[VAL1]",
+	"craft_void_res"		:	"Защита Пустоты +[VAL1]",
+	"craft_burn_res"		:	"Защита Огня +[VAL1]",
+	"craft_zap_res"			:	"Защита Молнии +[VAL1]",
+	"craft_toxic_res"		:	"Защита Яда +[VAL1]",
+	"craft_glass_heart"		:	"+[VAL1] Стеклянное сердца",
+	"craft_chrome_heart"	:	"+[VAL1] Хромасердца",
+	"craft_revive"			:	"+[VAL1] Доп. жизни",
+	"craft_denial"			:	"+[VAL1] Щита отрицания",
+	"craft_reserve_hp"		:	"+[VAL1] резервных ОЗ",
+	"craft_extra_mite"		:	"+[VAL1] помощника-клеща",
+	"craft_extra_magnet"	:	"+[VAL1] магнитных камня",
+	
+	"craft_burn_hp"			:	"+[VAL1] Горящих ОЗ",
+	"craft_toxic_hp"		:	"+[VAL1] Отравленных ОЗ",
 	
 	"form_change_blank" 	: [
 		{

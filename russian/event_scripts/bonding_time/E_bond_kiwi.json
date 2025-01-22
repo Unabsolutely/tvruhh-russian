@@ -550,6 +550,24 @@
 			"dialog"			: "Узнаете в следующий раз     в     |shake||C3|Подземелье Погибели и Плача Киви!",
 		},
 	],
+	"you_win_and_max_mood" 	: [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "Вот так далеко нашим героям удалось забраться в подземелье.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_pain"],
+			"dialog"			: "|shake|И ты прошла всё, что я заготовила, слишком быстро!",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "Так что мне надо идт-ти готовить следующий эпизод-",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "|shake||C3|Подземелья Погибели и Плача Киви!",
+		},
+	],
 	"you_lose" 	: [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],

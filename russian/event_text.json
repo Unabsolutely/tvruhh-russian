@@ -385,6 +385,14 @@
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
 	},
+	"E_bond_molten" : {
+		"name"		: "Готовим С Магмой",
+		"hint"		: "[hint_chance]",
+		"details"	: "Coming Soon v8.19a",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	
 	
 	
