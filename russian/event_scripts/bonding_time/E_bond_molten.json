@@ -1,0 +1,816 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Come join us.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|We are making soup!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|Soup!  Soup!  Soup!  Soup!",
+			"dialog_rand2"		: "We love soup!   |L|We love soup!",
+			"dialog_rand3"		: "We have a mighty need   |shake|for soup!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But, we could probably use some better ingredients.",
+		},
+	],
+	
+	"item_title"		: "Ingredients",
+	"monster_stuff"		: "Molten's [VAL1]",
+	
+	"op_outside"	: "Search outside",
+	"op_ask_where"	: "Where can we find some?",
+	"op_storage"	: "Check storage",
+	"op_ask_game"	: "Play a game?",
+	"op_game_blink"	: "Play Veyeral Blink",
+	"op_game_peek"	: "Play Veyeral Peek",
+	"op_game_swap"	: "Play Veyeral Swap",
+	"op_warm_up"	: "Warm up",
+	"op_cool_off"	: "Cool off",
+	"op_sleep"		: "Take a nap",
+	
+	"op_picking"	: "Check in trees",
+	"op_jumping"	: "Check under rocks",
+	"op_return"		: "Go back",
+	
+	"item_t0"		: "|I3||C16|Simple Ingredient|C0|",
+	"item_t1"		: "|I4||C17|Lovely Ingredient|C0|",
+	"item_t2"		: "|I5||C18|Wonderful Ingredient|C0|",
+	
+	"main_comment_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "We need more ingredients.",
+	},
+	"main_comment_returned"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "We can never have too many ingredients.",
+	},
+	"main_comment_outside"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Where should we look?",
+	},
+	"main_comment_late"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "We should probably go back soon.",
+	},
+	
+	"ask_where_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "What do you have back there?",
+		},
+	],
+	"ask_where_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Is there anything good in that room?",
+		},
+	],
+	"ask_where_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "I hope you don't have anything in that scary looking room.",
+		},
+	],
+	"ask_where_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "What you got in that righteous looking dungeon?",
+		},
+	],
+	"ask_where_luck0" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I don't think there's anything good in the storage dungeon.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We should probably just go looking outside.",
+		},
+	],
+	"ask_where_luck1" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "There might be something in the storage dungeon, if I could remember where I put anything.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "But it's probably better to go looking outside instead.",
+		},
+	],
+	"ask_where_luck2" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I do remember putting some good stuff in the storage dungeon.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But I'm very bad at organizing.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You can take a look if you want.",
+		},
+	],
+	"ask_where_luck3" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Oh! I do remember putting something really good in the storage dungeon!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'm sure we can find it if we dig around in there.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Just ignore the mess.",
+		},
+	],
+	"ask_game" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We have hidden some ingredients.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|But we need those for soup!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|We'll give them to you if you win our games.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I'm sorry.    They're just like this.",
+		},
+	],
+	
+	
+	
+	"to_vg_first" 				: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We will give you an ingredient if you win.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|We will give you more, if you play all our games.",
+		},
+	],
+	"to_vg_first_defect" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Come join us, Blue.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I'm afraid that this is the only way, My Defect.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Go have fun.",
+		},
+	],
+	"to_vg_normal" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|shake|For soup!",
+			"dialog_rand2"		: "|shake|Soup!  Soup!  Soup!",
+			"dialog_rand3"		: "Our games will make the soup taste better.",
+			"dialog_rand4"		: "Time for another round.",
+		},
+	],
+	
+	"start_swap" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Track the Veyeral with the |C3|white eye|C0| and choose the correct one after we move around.",
+		},
+	],
+	"start_blink" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Watch us open our eyes and count how many [VAL1] you see.",
+		},
+	],
+	"start_blink2" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This is a special round of |C3|Veyeral Blink!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Try to remember all the colors you see.|L|We can ask about any of them.",
+		},
+	],
+	"start_peek" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Watch us come out of hiding and count how many [VAL1] you see.",
+		},
+	],
+	"start_peek2" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This is a special round of |C3|Veyeral Peek!|C0|",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Try to remember all the colors you see.|L|We can ask about any of them.",
+		},
+	],
+	
+	"comment_vg_swap_choose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Which Veyeral has a |C3|white eye?|C0|",
+	},
+	"comment_vg_type_count"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "How many Veyerals with [VAL1] did you see?",
+	},
+	"comment_vg_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Yay!",
+	},
+	"comment_vg_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+		"dialog"	: "|shake|Oh no!",
+	},
+	
+	"vg_win" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You got it right!",
+		},
+	],
+	"vg_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Sorry, that was wrong.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|No ingredient for you.",
+		},
+	],
+	"vg_blue_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I know it's asking for the impossible to resist choosing me.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But alas, I am simply not the correct answer in this situation.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|No ingredient for you.",
+		},
+	],
+	"vg_get_ingredient" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We have this [VAL1] for you!",
+		},
+	],
+	"vg_all_done" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Yay! You played all of our games!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We'll tell you where we stashed a bunch of ingredients.",
+		},
+	],
+	"vg_all_done_lose_final" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "That was wrong,    but you did play all of our games.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "So, we'll tell you where we put a bunch of ingredients.",
+		},
+	],
+	"vg_all_win" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You won all of our games!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We'll show you where we hid a big stash of ingredients!",
+		},
+	],
+	
+	"comment_stash_correct"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "We put them here!",
+	},
+	"comment_stash_miss"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|shake|Be careful!",
+	},
+	"comment_stash_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "That's all of them!",
+	},
+	
+	"stash_win" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We still have more ingredients hidden.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Play our games again if you want more.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Why are you like this?",
+		},
+	],
+	"stash_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "We probably hid those too well.",
+		},
+	],
+	
+	
+	
+	"to_mg_scavenge" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This is the storage dungeon.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Just move all that junk out of the way.",
+		},
+	],
+	
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "There might be something here.",
+	},
+	"comment_scavenge_find"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|You found one!",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+		"dialog"	: "|shake|Sorry about the mess!",
+	},
+	
+	"scavenge_good_find" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I knew there was some good stuff hidden in here!",
+		},
+	],
+	"scavenge_bad_find" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I really need to clean this place out.",
+		},
+	],
+	
+
+	
+	"to_mg_course" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Let's look outside!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I think I saw a place with a bunch of ingredients over there.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Get anything you see on the way.",
+		},
+	],
+	
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "They're around here somewhere.",
+	},
+	"comment_course_find"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|You found one!",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+		"dialog"	: "|shake|Did that hurt?",
+	},
+	"comment_course_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|We're here!",
+	},
+	
+	"course_win" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Yes! This is the place.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "There are plenty of ingredients around here.",
+		},
+	],
+	"course_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I don't think this was the place, but it looks good enough.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "There should be plenty of ingredients around here.",
+		},
+	],
+	"explain_outside_high" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But the rain is going to be lowering my temperature.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "The soup will be bad if I don't have enough heat to cook it!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We must make sure to return before my heat gets too low.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I can warm up when we get back to the cave.",
+		},
+	],
+	"explain_outside_low" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Oh, no! I didn't realize how low my temperature was.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "And the rain is going to lower it even more.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "The soup will be bad if I cook it like that!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Let's just make sure to go back with enough time for me to heat up at home.",
+		},
+	],
+	
+	
+	
+	"to_mg_picking_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "These trees can drop good ingredients.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "But watch out for all the |C3|Spine Fruit|C0| that also fall out of them!",
+		},
+	],
+	"to_mg_picking" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "We can look in the trees again.",
+			"dialog_rand2"		: "I bet there will be more this time.",
+		},
+	],
+	"comment_picking_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|For the soup!",
+	},
+	"comment_picking_hit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|shake|Did that hurt?",
+	},
+	"picking_win" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|You got a lot of them.",
+		},
+	],
+	"picking_miss" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "You missed a bunch, but you still got some of them.",
+		},
+	],
+	"picking_none" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "You missed all of them...",
+		},
+	],
+	"picking_lose" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Maybe soup isn't worth getting hurt.",
+		},
+	],
+	
+	
+	
+	"return_to_cave" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Let's go back to my cave.",
+		},
+	],
+	"return_get_ingredient" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "How did we miss this [VAL1] on the way over here?",
+		},
+	],
+	"forced_return_to_cave" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "It's time to go back!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "There is much soup to be made, and so little time!",
+		},
+	],
+	"return_complete" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|We're back home!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "The time for soup draws ever closer.",
+		},
+	],
+	"return_last_minute" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|We're back home!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Is it time for soup yet?",
+		},
+	],
+	
+	
+	
+	"warm_up" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I can only do this once a day.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Super Spicy Double Molten Power!",
+		},
+	],
+	"warm_up_done" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It's not much, but it helps.",
+		},
+	],
+	"cool_off_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "The perfect soup needs me to be the perfect temperature.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "There's not much time to go exploring for ingredients outside.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But we can quickly look around the cave.",
+		},
+	],
+	"cool_off" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "This is a sacrifice I am willing to make for the soup.",
+			"dialog_rand2"		: "I love being hotter than magma, but I'll do it for the soup!",
+			"dialog_rand3"		: "It can be nice to cool off after a long day of being molten.",
+		},
+	],
+	"cool_off_get_ingredient" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "And I just found a [VAL1] right here!",
+		},
+	],
+
+
+
+	"form_change_blank"		: "bonding_time/bonding_common_text",
+	"form_change_defect"	: "bonding_time/bonding_common_text",
+	"form_change_twins"		: "bonding_time/bonding_common_text",
+	"form_change_devil"		: "bonding_time/bonding_common_text",
+	"reach_min_heat" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Oh, this is bad..",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"dialog"			: "This heat will not be good enough for cooking soup.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Let me try to heat up.",
+		},
+	],
+	"back_to_normal_form" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "This is the highest temperature I can hold while I'm out here.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We should probably go back to the cave soon, so I can heat up some more.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Wait! Look at that.",
+		},
+	],
+	"min_heat_get_ingredient" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This [VAL1] was just sitting there!",
+		},
+	],
+	"reach_max_heat" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Hey!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I've reach my maximum temperature!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "The only problem is, I   will   |shake|burn all the soup|norm| like this.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We can cool off in the rain to get me closer to the perfect temperature.",
+		},
+	],
+	
+	
+	
+	"soup_time" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It's time to make the soup!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|It's time for soup!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "First, we'll put all the ingredients in my cauldrons.",
+		},
+	],
+	"comment_soup_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Preparing the soup.",
+	},
+	"comment_soup_done"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "And, that's all the soup we can make.",
+	},
+	"comment_soup_none"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+		"dialog"	: "We really didn't find anything?",
+	},
+	
+	"to_mg_cooking" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Now it's time to cook!",
+		},
+	],
+	"to_mg_cooking_low_temp" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But I will warn you that my temperature is on the low side.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "The soup   |shake|might be kinda bad.",
+		},
+	],
+	"to_mg_cooking_good_temp" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|And my temperature is perfect!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "This shall be my best soup ever.",
+		},
+	],
+	"to_mg_cooking_high_temp" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "My temperature is super high!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "There is a possibility for burned soup.",
+		},
+	],
+	
+	"soup_is_ready"	: "Soup Is Ready!",
+	"comment_soup_cooking"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Cooking the soup.|L|Cooking the soup.|L|I love cooking the soup.",
+	},
+	
+	"cooking_done" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|The soup is ready!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Which one are you trying first?",
+		},
+	],
+	
+	"empty_soup"	: "Empty Cauldron",
+	"leave_now"		: "Leave Now",
+	"comment_soup_choosing_first"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Which one will you try first?",
+	},
+	"comment_soup_choosing_next"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Which one will you try next?",
+	},
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Okay, you sleep right there.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|And I'll go make the soup!",
+		},
+	],
+	
+	
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This is normally the part where I say farewell to the zaraden.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "And then probably something funny happens.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But the developer of this game was sick for a few days, so you'll have to wait a little bit.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Also, it was just his birthday!",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}
