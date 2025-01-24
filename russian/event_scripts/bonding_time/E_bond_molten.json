@@ -2,152 +2,152 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Come join us.",
+			"dialog"			: "Присоединяйся.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|We are making soup!",
+			"dialog"			: "|wave|Мы варим суп!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
 			"random"			: 3,
-			"dialog_rand1"		: "|shake|Soup!  Soup!  Soup!  Soup!",
-			"dialog_rand2"		: "We love soup!   |L|We love soup!",
-			"dialog_rand3"		: "We have a mighty need   |shake|for soup!",
+			"dialog_rand1"		: "|shake|Суп!  Суп!  Суп!  Суп!",
+			"dialog_rand2"		: "Мы любим суп!   |L|Мы любим суп!",
+			"dialog_rand3"		: "Нам крайне нужен  |shake|суп!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But, we could probably use some better ingredients.",
+			"dialog"			: "Но для этого нам нужны ингредиенты получше.",
 		},
 	],
 	
-	"item_title"		: "Ingredients",
-	"monster_stuff"		: "Molten's [VAL1]",
+	"item_title"		: "Ингредиент",
+	"monster_stuff"		: "[VAL1] Плавленой",
 	
-	"op_outside"	: "Search outside",
-	"op_ask_where"	: "Where can we find some?",
-	"op_storage"	: "Check storage",
-	"op_ask_game"	: "Play a game?",
-	"op_game_blink"	: "Play Veyeral Blink",
-	"op_game_peek"	: "Play Veyeral Peek",
-	"op_game_swap"	: "Play Veyeral Swap",
-	"op_warm_up"	: "Warm up",
-	"op_cool_off"	: "Cool off",
-	"op_sleep"		: "Take a nap",
+	"op_outside"	: "Поискать снаружи",
+	"op_ask_where"	: "А где можно найти их?",
+	"op_storage"	: "Проверить хранилище",
+	"op_ask_game"	: "Сыграть в игру?",
+	"op_game_blink"	: "Сыграть в Вееральные Жмурки",
+	"op_game_peek"	: "Сыграть в Вееральные Гляделки",
+	"op_game_swap"	: "Сыграть в Вееральную Подмена",
+	"op_warm_up"	: "Согреться",
+	"op_cool_off"	: "Охладиться",
+	"op_sleep"		: "Вздремнуть",
 	
-	"op_picking"	: "Check in trees",
-	"op_jumping"	: "Check under rocks",
-	"op_return"		: "Go back",
+	"op_picking"	: "Посмотреть в деревьях",
+	"op_jumping"	: "Посмотреть под камнями",
+	"op_return"		: "Вернуться",
 	
-	"item_t0"		: "|I3||C16|Simple Ingredient|C0|",
-	"item_t1"		: "|I4||C17|Lovely Ingredient|C0|",
-	"item_t2"		: "|I5||C18|Wonderful Ingredient|C0|",
+	"item_t0"		: "|I3||C16|Простой Ингредиент|C0|",
+	"item_t1"		: "|I4||C17|Приятный Ингредиент|C0|",
+	"item_t2"		: "|I5||C18|Чудесный Ингредиент|C0|",
 	
 	"main_comment_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "We need more ingredients.",
+		"dialog"	: "Нам надо больше ингредиентов.",
 	},
 	"main_comment_returned"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "We can never have too many ingredients.",
+		"dialog"	: "Ингредиентов никогда не бывает слишком много.",
 	},
 	"main_comment_outside"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Where should we look?",
+		"dialog"	: "Где мы будем искать?",
 	},
 	"main_comment_late"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "We should probably go back soon.",
+		"dialog"	: "Наверное, скоро уже надо возвращаться.",
 	},
 	
 	"ask_where_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "What do you have back there?",
+			"dialog"			: "А что у вас там?",
 		},
 	],
 	"ask_where_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "Is there anything good in that room?",
+			"dialog"			: "В этой комнате есть что-нибудь полезное?",
 		},
 	],
 	"ask_where_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "I hope you don't have anything in that scary looking room.",
+			"dialog"			: "Надеюсь, в это страшной комнате у вас ничего нет.",
 		},
 	],
 	"ask_where_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "What you got in that righteous looking dungeon?",
+			"dialog"			: "Что там в этом таком праведном подземелье?",
 		},
 	],
 	"ask_where_luck0" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I don't think there's anything good in the storage dungeon.",
+			"dialog"			: "Мне кажется, в этом подземелье-хранилище нет ничего хорошего.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We should probably just go looking outside.",
+			"dialog"			: "Наверное, нам лучше поискать снаружи.",
 		},
 	],
 	"ask_where_luck1" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "There might be something in the storage dungeon, if I could remember where I put anything.",
+			"dialog"			: "В подземелье-хранилище что-то можно найти, если бы я вспомнила, где что лежало.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "But it's probably better to go looking outside instead.",
+			"dialog"			: "Но поискать снаружи всё ещё, скорее всего, лучше.",
 		},
 	],
 	"ask_where_luck2" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I do remember putting some good stuff in the storage dungeon.",
+			"dialog"			: "Я оставляла в подземелье-хранилище что-то весьма полезное.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But I'm very bad at organizing.",
+			"dialog"			: "Но я вечно устраиваю там какой-то бардак.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "You can take a look if you want.",
+			"dialog"			: "Если хочешь, можешь взглянуть.",
 		},
 	],
 	"ask_where_luck3" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Oh! I do remember putting something really good in the storage dungeon!",
+			"dialog"			: "А! И точно, я оставляла в подземелье-хранилище что-то ценное!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I'm sure we can find it if we dig around in there.",
+			"dialog"			: "Я уверена, что мы сможем это найти, если немного покопаемся.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Just ignore the mess.",
+			"dialog"			: "Просто не смотри на беспорядок.",
 		},
 	],
 	"ask_game" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We have hidden some ingredients.",
+			"dialog"			: "Мы спрятали немного ингредиентов.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "|shake|But we need those for soup!",
+			"dialog"			: "|shake|Но нам они нужны для варки супа!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|We'll give them to you if you win our games.",
+			"dialog"			: "|wave|Мы отдадим их, если вы победите в наших играх.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I'm sorry.    They're just like this.",
+			"dialog"			: "Извини.    Они всегда такие.",
 		},
 	],
 	
@@ -156,74 +156,74 @@
 	"to_vg_first" 				: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We will give you an ingredient if you win.",
+			"dialog"			: "Мы отдадим ингредиент, если ты победишь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|We will give you more, if you play all our games.",
+			"dialog"			: "|wave|Мы отдадим все, если сыграешь во все наши игры.",
 		},
 	],
 	"to_vg_first_defect" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Come join us, Blue.",
+			"dialog"			: "Иди к нам, Синяя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I'm afraid that this is the only way, My Defect.",
+			"dialog"			: "Я боюсь, у меня нет выбора, моя Дефект.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "Go have fun.",
+			"dialog"			: "Иди, развлекайся.",
 		},
 	],
 	"to_vg_normal" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "|shake|For soup!",
-			"dialog_rand2"		: "|shake|Soup!  Soup!  Soup!",
-			"dialog_rand3"		: "Our games will make the soup taste better.",
-			"dialog_rand4"		: "Time for another round.",
+			"dialog_rand1"		: "|shake|Ради супа!",
+			"dialog_rand2"		: "|shake|Суп!  Суп!  Суп!",
+			"dialog_rand3"		: "От наших игр суп будет только вкуснее.",
+			"dialog_rand4"		: "Время следующего раунда.",
 		},
 	],
 	
 	"start_swap" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Track the Veyeral with the |C3|white eye|C0| and choose the correct one after we move around.",
+			"dialog"			: "Следи за Веералью с |C3|белым глазом|C0| и укажи на неё, когда мы все перемешаемся.",
 		},
 	],
 	"start_blink" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Watch us open our eyes and count how many [VAL1] you see.",
+			"dialog"			: "Наблюдая за тем, как мы моргаем, сосчитай, сколько из нас будут с [VAL1].",
 		},
 	],
 	"start_blink2" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "This is a special round of |C3|Veyeral Blink!|C0|",
+			"dialog"			: "Это особый раунд |C3|Вееральных Жмурок!|C0|",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Try to remember all the colors you see.|L|We can ask about any of them.",
+			"dialog"			: "Постарайся запомнить все увиденные цвета.|L|Мы можем спросить насчёт любого из них.",
 		},
 	],
 	"start_peek" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Watch us come out of hiding and count how many [VAL1] you see.",
+			"dialog"			: "Наблюдая за тем, как мы выходим из укрытия, сосчитай, сколько из нас будут с [VAL1]",
 		},
 	],
 	"start_peek2" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "This is a special round of |C3|Veyeral Peek!|C0|",
+			"dialog"			: "Это особый раунд |C3|Вееральных Гляделок!|C0|",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Try to remember all the colors you see.|L|We can ask about any of them.",
+			"dialog"			: "Постарайся запомнить все увиденные цвета.|L|Мы можем спросить насчёт любого из них.",
 		},
 	],
 	
