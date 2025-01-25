@@ -30,7 +30,7 @@
 	"op_ask_game"	: "Сыграть в игру?",
 	"op_game_blink"	: "Сыграть в Вееральные Жмурки",
 	"op_game_peek"	: "Сыграть в Вееральные Гляделки",
-	"op_game_swap"	: "Сыграть в Вееральную Подмена",
+	"op_game_swap"	: "Сыграть в Вееральную Подмену",
 	"op_warm_up"	: "Согреться",
 	"op_cool_off"	: "Охладиться",
 	"op_sleep"		: "Вздремнуть",
@@ -75,13 +75,13 @@
 	"ask_where_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "Надеюсь, в это страшной комнате у вас ничего нет.",
+			"dialog"			: "Надеюсь, в этой страшной комнате у вас ничего нет.",
 		},
 	],
 	"ask_where_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "Что там в этом таком праведном подземелье?",
+			"dialog"			: "Что там в таком праведном подземелье?",
 		},
 	],
 	"ask_where_luck0" 	: [
