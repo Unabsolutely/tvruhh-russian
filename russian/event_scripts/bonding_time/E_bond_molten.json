@@ -229,119 +229,119 @@
 	
 	"comment_vg_swap_choose"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Which Veyeral has a |C3|white eye?|C0|",
+		"dialog"	: "У какой Веерали |C3|белый глаз?|C0|",
 	},
 	"comment_vg_type_count"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-		"dialog"	: "How many Veyerals with [VAL1] did you see?",
+		"dialog"	: "Скольких Веералей с [VAL1] ты увидела?",
 	},
 	"comment_vg_win"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Yay!",
+		"dialog"	: "|wave|Е-е-ей!",
 	},
 	"comment_vg_lose"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
-		"dialog"	: "|shake|Oh no!",
+		"dialog"	: "|shake|О нет!",
 	},
 	
 	"vg_win" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "You got it right!",
+			"dialog"			: "Ты угадала!",
 		},
 	],
 	"vg_lose" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Sorry, that was wrong.",
+			"dialog"			: "Прости, неправильный ответ.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|No ingredient for you.",
+			"dialog"			: "|wave|Ты осталась без ингредиента.",
 		},
 	],
 	"vg_blue_lose" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I know it's asking for the impossible to resist choosing me.",
+			"dialog"			: "Я знаю, что прошу о невозможном, когда говорю выбрать не меня.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_normal"],
-			"dialog"			: "But alas, I am simply not the correct answer in this situation.",
+			"dialog"			: "Но увы, я просто неправильный ответ в этой ситуации.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|No ingredient for you.",
+			"dialog"			: "|wave|Ты осталась без ингредиента.",
 		},
 	],
 	"vg_get_ingredient" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We have this [VAL1] for you!",
+			"dialog"			: "У нас для тебя есть [VAL1]!",
 		},
 	],
 	"vg_all_done" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Yay! You played all of our games!",
+			"dialog"			: "Е-е-ей! Ты сыграла во все наши игры!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We'll tell you where we stashed a bunch of ingredients.",
+			"dialog"			: "Мы покажем тебе, где спрятали запас ингредиентов.",
 		},
 	],
 	"vg_all_done_lose_final" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "That was wrong,    but you did play all of our games.",
+			"dialog"			: "Неправильный ответ,    но ты всё же сыграла во все наши игры.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "So, we'll tell you where we put a bunch of ingredients.",
+			"dialog"			: "Так что мы покажем тебе, где спрятали запас ингредиентов.",
 		},
 	],
 	"vg_all_win" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "You won all of our games!",
+			"dialog"			: "Ты выиграла во все наши игры!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We'll show you where we hid a big stash of ingredients!",
+			"dialog"			: "Мы покажем тебе, где спрятали большой запас ингредиентов!",
 		},
 	],
 	
 	"comment_stash_correct"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-		"dialog"	: "We put them here!",
+		"dialog"	: "Мы положили их сюда!",
 	},
 	"comment_stash_miss"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "|shake|Be careful!",
+		"dialog"	: "|shake|Осторожнее!",
 	},
 	"comment_stash_win"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-		"dialog"	: "That's all of them!",
+		"dialog"	: "Это все!",
 	},
 	
 	"stash_win" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We still have more ingredients hidden.",
+			"dialog"			: "У нас ещё остались спрятанные ингредиенты.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Play our games again if you want more.",
+			"dialog"			: "|wave|Поиграй с нами, если хочешь ещё.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Why are you like this?",
+			"dialog"			: "Ну почему вы такие?",
 		},
 	],
 	"stash_lose" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
-			"dialog"			: "We probably hid those too well.",
+			"dialog"			: "Наверное, мы слишком надёжно их спрятали.",
 		},
 	],
 	
@@ -350,37 +350,37 @@
 	"to_mg_scavenge" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "This is the storage dungeon.",
+			"dialog"			: "Вот и подземелье-хранилище.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Just move all that junk out of the way.",
+			"dialog"			: "Просто убери весь этот мусор с нашего пути.",
 		},
 	],
 	
 	"comment_scavenge_correct"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "There might be something here.",
+		"dialog"	: "Здесь может быть что-нибудь.",
 	},
 	"comment_scavenge_find"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|You found one!",
+		"dialog"	: "|wave|Ты нашла!",
 	},
 	"comment_scavenge_miss"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-		"dialog"	: "|shake|Sorry about the mess!",
+		"dialog"	: "|shake|Извини за бардак!",
 	},
 	
 	"scavenge_good_find" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I knew there was some good stuff hidden in here!",
+			"dialog"			: "Я знала, что здесь есть что-то хорошее!",
 		},
 	],
 	"scavenge_bad_find" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I really need to clean this place out.",
+			"dialog"			: "Стоит здесь всё-таки прибраться.",
 		},
 	],
 	
@@ -389,89 +389,89 @@
 	"to_mg_course" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Let's look outside!",
+			"dialog"			: "Давай посмотрим снаружи!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I think I saw a place with a bunch of ingredients over there.",
+			"dialog"			: "Мне кажется, я видела местечко с кучей ингредиентов вооон там.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Get anything you see on the way.",
+			"dialog"			: "Заодно собери всё, что найдёшь по дороге.",
 		},
 	],
 	
 	"comment_course_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "They're around here somewhere.",
+		"dialog"	: "Они где-то тут.",
 	},
 	"comment_course_find"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|You found one!",
+		"dialog"	: "|wave|Ты нашла!",
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-		"dialog"	: "|shake|Did that hurt?",
+		"dialog"	: "|shake|Не больно?",
 	},
 	"comment_course_win"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|We're here!",
+		"dialog"	: "|wave|Мы на месте!",
 	},
 	
 	"course_win" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Yes! This is the place.",
+			"dialog"			: "Да! Вот здесь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "There are plenty of ingredients around here.",
+			"dialog"			: "Вокруг полно ингредиентов.",
 		},
 	],
 	"course_lose" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I don't think this was the place, but it looks good enough.",
+			"dialog"			: "Не думаю, что мы на месте, но всё ещё неплохо.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "There should be plenty of ingredients around here.",
+			"dialog"			: "Вокруг должно быть полно ингредиентов.",
 		},
 	],
 	"explain_outside_high" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But the rain is going to be lowering my temperature.",
+			"dialog"			: "Но дождь будет уменьшать мою температуру.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "The soup will be bad if I don't have enough heat to cook it!",
+			"dialog"			: "Если мне не хватит жара на готовку, получится плохой суп!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We must make sure to return before my heat gets too low.",
+			"dialog"			: "Нам точно необходимо вернуться до того, как моя температура упадёт слишком низко.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I can warm up when we get back to the cave.",
+			"dialog"			: "Я смогу согреться, когда вернусь обратно в пещеру.",
 		},
 	],
 	"explain_outside_low" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh, no! I didn't realize how low my temperature was.",
+			"dialog"			: "О нет! Я и не заметила, насколько низко упала моя температура.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "And the rain is going to lower it even more.",
+			"dialog"			: "И в дожде она упадёт ещё сильнее.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "The soup will be bad if I cook it like that!",
+			"dialog"			: "Хорошего супа в таком состоянии я точно не приготовлю!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Let's just make sure to go back with enough time for me to heat up at home.",
+			"dialog"			: "Давайте просто вернёмся, пока у меня ещё есть время согреться дома.",
 		},
 	],
 	
@@ -480,51 +480,51 @@
 	"to_mg_picking_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "These trees can drop good ingredients.",
+			"dialog"			: "С этих деревьев падают хорошие ингредиенты.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "But watch out for all the |C3|Spine Fruit|C0| that also fall out of them!",
+			"dialog"			: "Но осторожнее с |C3|Шипастыми Фруктами|C0|, которые также падают с них!",
 		},
 	],
 	"to_mg_picking" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "We can look in the trees again.",
-			"dialog_rand2"		: "I bet there will be more this time.",
+			"dialog_rand1"		: "Мы можем ещё раз поискать в деревьях.",
+			"dialog_rand2"		: "Мне кажется, в этот раз будет больше.",
 		},
 	],
 	"comment_picking_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|For the soup!",
+		"dialog"	: "|wave|Ради супа!",
 	},
 	"comment_picking_hit"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "|shake|Did that hurt?",
+		"dialog"	: "|shake|Не больно?",
 	},
 	"picking_win" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|You got a lot of them.",
+			"dialog"			: "|wave|Ты нашла целую кучу.",
 		},
 	],
 	"picking_miss" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "You missed a bunch, but you still got some of them.",
+			"dialog"			: "Часть ты пропустила, но несколько ты подобрала.",
 		},
 	],
 	"picking_none" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "You missed all of them...",
+			"dialog"			: "Ты пропустила их все...",
 		},
 	],
 	"picking_lose" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Maybe soup isn't worth getting hurt.",
+			"dialog"			: "Наверное, суп не стоит того, чтобы раниться.",
 		},
 	],
 	
@@ -533,43 +533,43 @@
 	"return_to_cave" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Let's go back to my cave.",
+			"dialog"			: "Вернёмся обратно в пещеру.",
 		},
 	],
 	"return_get_ingredient" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "How did we miss this [VAL1] on the way over here?",
+			"dialog"			: "Как мы пропустили этот [VAL1] на нашем пути?",
 		},
 	],
 	"forced_return_to_cave" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "It's time to go back!",
+			"dialog"			: "Время возвращаться!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "There is much soup to be made, and so little time!",
+			"dialog"			: "Слишком много супа, слишком мало времени!",
 		},
 	],
 	"return_complete" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|We're back home!",
+			"dialog"			: "|shake|Вот мы и дома!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "The time for soup draws ever closer.",
+			"dialog"			: "Время супа всё ближе.",
 		},
 	],
 	"return_last_minute" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|We're back home!",
+			"dialog"			: "|shake|Вот мы и дома!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Is it time for soup yet?",
+			"dialog"			: "Ещё не время для супа?",
 		},
 	],
 	
@@ -578,47 +578,47 @@
 	"warm_up" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I can only do this once a day.",
+			"dialog"			: "Я могу делать так только раз в день.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "|shake|Super Spicy Double Molten Power!",
+			"dialog"			: "|shake|Супер Острая Двойная Плавленая Сила!",
 		},
 	],
 	"warm_up_done" 	: [
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It's not much, but it helps.",
+			"dialog"			: "Это немного, но это поможет.",
 		},
 	],
 	"cool_off_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "The perfect soup needs me to be the perfect temperature.",
+			"dialog"			: "Идеальный суп должен быть идеальной температуры.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "There's not much time to go exploring for ingredients outside.",
+			"dialog"			: "У нас нет времени, чтобы искать ингредиенты снаружи.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "But we can quickly look around the cave.",
+			"dialog"			: "Но можно быстро поискать в пещере.",
 		},
 	],
 	"cool_off" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "This is a sacrifice I am willing to make for the soup.",
-			"dialog_rand2"		: "I love being hotter than magma, but I'll do it for the soup!",
-			"dialog_rand3"		: "It can be nice to cool off after a long day of being molten.",
+			"dialog_rand1"		: "Эту жертву я приношу во имя супа.",
+			"dialog_rand2"		: "Люблю быть горячее магмы, но я сделаю это ради супа!",
+			"dialog_rand3"		: "Иногда полезно прохладиться после длинного плавленого дня.",
 		},
 	],
 	"cool_off_get_ingredient" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "And I just found a [VAL1] right here!",
+			"dialog"			: "И я ещё здесь нашла [VAL1]!",
 		},
 	],
 
@@ -631,53 +631,53 @@
 	"reach_min_heat" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Oh, this is bad..",
+			"dialog"			: "Ой, это плохо..",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
-			"dialog"			: "This heat will not be good enough for cooking soup.",
+			"dialog"			: "Этого жара не хватит на варку супа.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Let me try to heat up.",
+			"dialog"			: "Дай мне сначала нагреться.",
 		},
 	],
 	"back_to_normal_form" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "This is the highest temperature I can hold while I'm out here.",
+			"dialog"			: "Это максимальная температура, которую я могу поддерживать снаружи.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We should probably go back to the cave soon, so I can heat up some more.",
+			"dialog"			: "Нам надо скоро вернуться в пещеру, чтобы я могла согреться ещё сильнее.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Wait! Look at that.",
+			"dialog"			: "Погоди! Посмотри-ка на это.",
 		},
 	],
 	"min_heat_get_ingredient" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "This [VAL1] was just sitting there!",
+			"dialog"			: "Этот [VAL1] просто лежал здесь!",
 		},
 	],
 	"reach_max_heat" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Hey!",
+			"dialog"			: "Эй!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I've reach my maximum temperature!",
+			"dialog"			: "Я достигла своей максимальной температуры!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "The only problem is, I   will   |shake|burn all the soup|norm| like this.",
+			"dialog"			: "Единственная проблема в том, что я |shake|сожгу весь суп|norm|.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We can cool off in the rain to get me closer to the perfect temperature.",
+			"dialog"			: "Мы можем охладиться под дождём, чтобы приблизить меня к идеальной температуре.",
 		},
 	],
 	
@@ -686,93 +686,93 @@
 	"soup_time" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It's time to make the soup!",
+			"dialog"			: "Время варить суп!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|shake|It's time for soup!",
+			"dialog"			: "|shake|Время супа!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "First, we'll put all the ingredients in my cauldrons.",
+			"dialog"			: "Сначала мы положим все ингредиенты в мои котлы.",
 		},
 	],
 	"comment_soup_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Preparing the soup.",
+		"dialog"	: "|wave|Подготоваливем суп.",
 	},
 	"comment_soup_done"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "And, that's all the soup we can make.",
+		"dialog"	: "Это весь суп, который мы можем сготовить.",
 	},
 	"comment_soup_none"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-		"dialog"	: "We really didn't find anything?",
+		"dialog"	: "Мы действительно ничего не нашли?",
 	},
 	
 	"to_mg_cooking" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Now it's time to cook!",
+			"dialog"			: "Время готовить!",
 		},
 	],
 	"to_mg_cooking_low_temp" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But I will warn you that my temperature is on the low side.",
+			"dialog"			: "Но я должна предупредить, что моя температура слишком низка.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "The soup   |shake|might be kinda bad.",
+			"dialog"			: "Суп   |shake|может быть плохим.",
 		},
 	],
 	"to_mg_cooking_good_temp" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|And my temperature is perfect!",
+			"dialog"			: "|wave|И моя температура идеальна!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "This shall be my best soup ever.",
+			"dialog"			: "Это будет мой лучший суп, который я когда-либо варила.",
 		},
 	],
 	"to_mg_cooking_high_temp" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "My temperature is super high!",
+			"dialog"			: "Моя температура чересчур высока!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "There is a possibility for burned soup.",
+			"dialog"			: "Возможно, я сожгу суп.",
 		},
 	],
 	
-	"soup_is_ready"	: "Soup Is Ready!",
+	"soup_is_ready"	: "Суп Готов!",
 	"comment_soup_cooking"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Cooking the soup.|L|Cooking the soup.|L|I love cooking the soup.",
+		"dialog"	: "|wave|Варю суп.|L|Варю суп.|L|Я люблю варить суп.",
 	},
 	
 	"cooking_done" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|The soup is ready!",
+			"dialog"			: "|wave|Суп готов!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Which one are you trying first?",
+			"dialog"			: "Какой попробуешь сначала?",
 		},
 	],
 	
-	"empty_soup"	: "Empty Cauldron",
-	"leave_now"		: "Leave Now",
+	"empty_soup"	: "Пустой Котёл",
+	"leave_now"		: "Уйти Прямо Сейчас",
 	"comment_soup_choosing_first"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Which one will you try first?",
+		"dialog"	: "|wave|Какой попробуешь первым?",
 	},
 	"comment_soup_choosing_next"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Which one will you try next?",
+		"dialog"	: "|wave|Какой попробуешь теперь?",
 	},
 	
 	
@@ -783,11 +783,11 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Okay, you sleep right there.",
+			"dialog"			: "Окей, тогда можешь поспать здесь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|And I'll go make the soup!",
+			"dialog"			: "|wave|А я пойду варить суп!",
 		},
 	],
 	
@@ -796,19 +796,19 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "This is normally the part where I say farewell to the zaraden.",
+			"dialog"			: "Обычно в этой части я прощаюсь с Зараденой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "And then probably something funny happens.",
+			"dialog"			: "А потом происходит что-то смешное.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But the developer of this game was sick for a few days, so you'll have to wait a little bit.",
+			"dialog"			: "Но разработчик этой игры приболел, поэтому вам придётся подождать.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Also, it was just his birthday!",
+			"dialog"			: "И вообще, у него был день рожденья!",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
