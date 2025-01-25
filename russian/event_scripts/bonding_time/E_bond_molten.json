@@ -463,11 +463,11 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "И в дожде она упадёт ещё сильнее.",
+			"dialog"			: "И под дождём она упадёт ещё сильнее.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Хорошего супа в таком состоянии я точно не приготовлю!",
+			"dialog"			: "Если я буду такой холодной, хорошего супа точно не приготовлю!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
