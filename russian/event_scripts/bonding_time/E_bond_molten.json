@@ -31,12 +31,13 @@
 	"op_game_blink"	: "Сыграть в Вееральные Жмурки",
 	"op_game_peek"	: "Сыграть в Вееральные Гляделки",
 	"op_game_swap"	: "Сыграть в Вееральную Подмену",
+	"op_devil"		: "Сделка с Дьяволом",
 	"op_warm_up"	: "Согреться",
 	"op_cool_off"	: "Охладиться",
 	"op_sleep"		: "Вздремнуть",
 	
 	"op_picking"	: "Посмотреть в деревьях",
-	"op_jumping"	: "Посмотреть под камнями",
+	"op_jumping"	: "Посмотреть внутрь камней",
 	"op_return"		: "Вернуться",
 	
 	"item_t0"		: "|I3||C16|Простой Ингредиент|C0|",
@@ -150,9 +151,6 @@
 			"dialog"			: "Извини.    Они всегда такие.",
 		},
 	],
-	
-	
-	
 	"to_vg_first" 				: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
@@ -300,6 +298,7 @@
 			"dialog"			: "Так что мы покажем тебе, где спрятали запас ингредиентов.",
 		},
 	],
+	
 	"vg_all_win" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
@@ -308,6 +307,70 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
 			"dialog"			: "Мы покажем тебе, где спрятали большой запас ингредиентов!",
+		},
+	],
+		"to_devil_deal" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "How about a little Devil Deal?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "If I win all your games, then you give me a bunch of ingredients and all your souls.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "And if you lose one?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Uh... What do you want?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You have to play hide and seek with us!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_angry"],
+			"dialog"			: "And we won't go easy on you.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "It's a deal!",
+		},
+	],
+	"to_next_devil_game" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "To the next game!",
+		},
+	],
+	"devil_deal_lose" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "The Devil, vanquished? How can this be?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Now you have to play hide and seek with us.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We'll each give you an ingredient if you find us.",
+		},
+	],
+	"devil_deal_win" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "I have conquered all your games!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "I shall have my prizes now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "This is where we stashed a bunch of ingredients.",
 		},
 	],
 	
@@ -342,6 +405,36 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Наверное, мы слишком надёжно их спрятали.",
+		},
+	],
+	"stash_devil_deal" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "How do we give you our souls?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Uhhhh-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Oh, I'll need roadies.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "You shall carry all the equipment for the band!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I'm not sure that's a good idea.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|We'll hide your equipment so good!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious"],
+			"dialog"			: "Hmmm.|!||L|It'll be fine.",
 		},
 	],
 	
@@ -384,7 +477,30 @@
 		},
 	],
 	
-
+	"comment_hideseek_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|wave|We can be anywhere.",
+	},
+	"comment_hideseek_find"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+		"dialog"	: "You found me!",
+	},
+	
+	"hideseek_win" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|You found all of us.",
+		},
+	],
+	"hideseek_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|We are too good at hiding.",
+		},
+	],
+	
+	
+	
 	
 	"to_mg_course" 	: [
 		{
@@ -398,6 +514,24 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
 			"dialog"			: "Заодно собери всё, что найдёшь по дороге.",
+		},
+	],
+	"to_mg_course_twins" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Let's look outside!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "You check the ground and I'll look in the sky.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Why would anything be in the sky?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "You never know.",
 		},
 	],
 	
@@ -438,18 +572,19 @@
 			"dialog"			: "Вокруг должно быть полно ингредиентов.",
 		},
 	],
+	"course_complete_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "My sister is flying around and being no help again.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It's okay, there will be plenty of ingredients around here.",
+	},
 	"explain_outside_high" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Но дождь будет уменьшать мою температуру.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Если мне не хватит жара на готовку, получится плохой суп!",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Нам точно необходимо вернуться до того, как моя температура упадёт слишком низко.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -460,14 +595,6 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "О нет! Я и не заметила, насколько низко упала моя температура.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "И под дождём она упадёт ещё сильнее.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Если я буду такой холодной, хорошего супа точно не приготовлю!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
@@ -485,6 +612,20 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
 			"dialog"			: "Но осторожнее с |C3|Шипастыми Фруктами|C0|, которые также падают с них!",
+		},
+	],
+	"to_mg_picking_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Oh, I know this kind of tree!|L||!|We can shake down a lot of tasty stuff.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "But they also like to drop |C3|Spine Fruits|C0| on me!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Be careful!",
 		},
 	],
 	"to_mg_picking" 	: [
@@ -530,6 +671,73 @@
 	
 	
 	
+	"to_mg_jumping_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "These rocks always have good stuff inside them.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You can jump on them to smash them!",
+		},
+	],
+	"to_mg_jumping_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|I love breaking these rocks!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "These ones have tasty ingredients in them for some reason.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Time to show off!",
+		},
+	],
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Smash more rocks!",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Jump whenever you are ready.",
+	},
+	"comment_jumping_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+		"dialog"	: "Smash those rocks!",
+	},
+	"comment_jumping_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "You found something!",
+	},
+	"comment_jumping_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Nothing?",
+	},
+	"jumping_win_high" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|You found a good one in there!",
+		},
+	],
+	"jumping_win" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I was right about those rocks.",
+		},
+	],
+	"jumping_lose" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "They were really all empty?",
+		},
+	],
+	
+	
+	
 	"return_to_cave" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
@@ -539,7 +747,7 @@
 	"return_get_ingredient" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Как мы пропустили этот [VAL1] на нашем пути?",
+			"dialog"			: "О, а мы пропустили этот [VAL1] на нашем пути сюда.",
 		},
 	],
 	"forced_return_to_cave" 	: [
@@ -568,8 +776,12 @@
 			"dialog"			: "|shake|Вот мы и дома!",
 		},
 		{
-			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Ещё не время для супа?",
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|Суп!  Суп!  Суп!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Давайте положим все ингредиенты в мои котлы.",
 		},
 	],
 	
@@ -592,6 +804,31 @@
 			"dialog"			: "Это немного, но это поможет.",
 		},
 	],
+	"warm_up_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "What are you doing?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Super Spicy Double Molten Power!",
+		},
+	],
+	"warm_up_done_devil" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I feel a little warmer.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "|shake|You must teach me the ways!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But I can only do that once per day.",
+		},
+	],
 	"cool_off_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -603,7 +840,25 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Но можно быстро поискать в пещере.",
+			"dialog"			: "Но можно поискать в пещере, пока я охлаждаюсь.",
+		},
+	],
+	"cool_off_first_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "What a shame that perfect soup temperature is not the same as perfect ME temperature.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "One day, you will be both at the same time.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "You're right! All temperature is perfect as long as it is the temperature that I am.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "As for me, I'll have to sacrifice some heat for the soup.",
 		},
 	],
 	"cool_off" 	: [
@@ -615,6 +870,7 @@
 			"dialog_rand3"		: "Иногда полезно прохладиться после длинного плавленого дня.",
 		},
 	],
+	
 	"cool_off_get_ingredient" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -644,12 +900,13 @@
 	],
 	"back_to_normal_form" : [
 		{
+			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Это максимальная температура, которую я могу поддерживать снаружи.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Нам надо скоро вернуться в пещеру, чтобы я могла согреться ещё сильнее.",
+			"dialog"			: "Скоро нам надо будет вернуться в пещеру.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
@@ -674,10 +931,6 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Единственная проблема в том, что я |shake|сожгу весь суп|norm|.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Мы можем охладиться под дождём, чтобы приблизить меня к идеальной температуре.",
 		},
 	],
 	
@@ -764,6 +1017,8 @@
 		},
 	],
 	
+	
+	
 	"empty_soup"	: "Пустой Котёл",
 	"leave_now"		: "Уйти Прямо Сейчас",
 	"comment_soup_choosing_first"	: {
@@ -774,6 +1029,62 @@
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
 		"dialog"	: "|wave|Какой попробуешь теперь?",
 	},
+	
+		"bad_soup_blank" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Are you okay?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|Yeah. I'm fine. It's delicious.",
+		},
+	],
+	"bad_soup_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ack.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It's good, right?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "Sure.",
+		},
+	],
+	"bad_soup_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|Oh, that's not right.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "|wave|She likes it.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_aggressive"],
+			"dialog"			: "Yeah, it's great! Try some.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|I'm not hungry right now!",
+		},
+	],
+	"bad_soup_devil" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Is it good?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|It can only make me stronger!",
+		},
+	],
+	
+	
+	
 	
 	
 	"to_sleep_blank"	: "bonding_time/bonding_common_text",
@@ -793,22 +1104,88 @@
 	
 	
 	
-	"leave_default" : [
+	"leave_blank" 	: [
 		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Обычно в этой части я прощаюсь с Зараденой.",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "I haven't been this full in a long time.|!||L|I can't possibly eat any more.",
 		},
 		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Don't worry, we'll take it from here.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love all of you!",
+		},
+		{
+			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "А потом происходит что-то смешное.",
+			"dialog"			: "How did you know the secret ingredient?",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|What a perfect flavor.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Such high praise for the soup?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Pardon me.   I didn't try the soup yet.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|I was talking about me.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|Okay, it's time for dessert!|L||!|She's right here.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "Don't point at me!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Dessert!|L|Dessert!|L|Dessert!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|We have to go now!",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Alright, ladies.|L|That's all the soup I can manage myself.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Can I count on you to finish the job?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|For the soup!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "|shake|For the soup!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Но разработчик этой игры приболел, поэтому вам придётся подождать.",
+			"dialog"			: "I'll be the one that has to clean this.",
 		},
+	],
+
+	"leave_default" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "И вообще, у него был день рожденья!",
+			"dialog"			: "Я надеюсь, тебе понравился мой суп!.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
