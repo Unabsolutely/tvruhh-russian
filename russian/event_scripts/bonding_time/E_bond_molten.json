@@ -1030,7 +1030,7 @@
 		"dialog"	: "|wave|Какой попробуешь теперь?",
 	},
 	
-		"bad_soup_blank" 	: [
+	"bad_soup_blank" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Are you okay?",
