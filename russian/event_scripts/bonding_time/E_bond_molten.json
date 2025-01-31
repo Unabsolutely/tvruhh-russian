@@ -309,7 +309,7 @@
 			"dialog"			: "Мы покажем тебе, где спрятали большой запас ингредиентов!",
 		},
 	],
-		"to_devil_deal" 	: [
+	"to_devil_deal" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
 			"dialog"			: "How about a little Devil Deal?",
