@@ -183,8 +183,15 @@
 	"craft_extra_mite"		:	"+[VAL1] помощника-клеща",
 	"craft_extra_magnet"	:	"+[VAL1] магнитных камня",
 	
+	"craft_radiant_hp"		:	"+[VAL1] Облучённых ОЗ",
+	"craft_void_hp"			:	"+[VAL1] Кровоточащих ОЗ",
 	"craft_burn_hp"			:	"+[VAL1] Горящих ОЗ",
+	"craft_zap_hp"			:	"+[VAL1] Перегруженных ОЗ",
 	"craft_toxic_hp"		:	"+[VAL1] Отравленных ОЗ",
+	"craft_bleed_heart"		:	"+[VAL1] Сердец кровотечения",
+	"craft_stress_heart"	:	"+[VAL1] Сердец стресса",
+	"craft_trauma_heart"	:	"+[VAL1] Сердец травмы",
+	
 	
 	"form_change_blank" 	: [
 		{
