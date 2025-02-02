@@ -422,7 +422,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Вы будете носить всё оборудование для нашей группы!",
+			"dialog"			: "Вы будете носить всё оборудование для группы!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
@@ -1162,7 +1162,7 @@
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
-			"dialog"			: "Ладно, леди.|L|Это весь суп, с которым я моугу справиться.",
+			"dialog"			: "Ладно, леди.|L|Это весь суп, с которым я могу справиться.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
