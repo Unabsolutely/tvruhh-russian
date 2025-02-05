@@ -9,6 +9,24 @@
 			"dialog"			: "|C3|Предложение:|C0| Примите данные, которые Этот Модуль собрала, в виде дара |C3|Чутьё Страха|C0|.",
 		},
 	],
+	"intro_late" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль хотела предоставить вам дополнительный дар ранее.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако, Этот Модуль заметила, что дар |C3|Чутьё Страха|C0| уже имелся у вас.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Сканирование показывает, что недавние события привели к потере этого дара вами.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот модуль соберёт данные для вас в ещё один дар |C3|Чутьё Страха|C0|.",
+		},
+	],
 	
 	"monster_gifts"	: "Дары Модуля Лулу",
 	

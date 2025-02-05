@@ -38,6 +38,7 @@
 	
 	"op_picking"	: "Посмотреть в деревьях",
 	"op_jumping"	: "Посмотреть внутрь камней",
+	"op_dodge"		: "Посмотреть на верхушках деревьев",
 	"op_return"		: "Вернуться",
 	
 	"item_t0"		: "|I3||C16|Простой Ингредиент|C0|",
@@ -575,7 +576,7 @@
 	"course_complete_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "Моя сестра летает вокруг и опять никак не помогает.",
+			"dialog"			: "Моя сестра просто летает вокруг и опять никак не помогает.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -733,6 +734,67 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Там действительно всё пусто?",
+		},
+	],
+	
+	
+	
+	"to_dodge_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
+			"dialog"			: "|shake|Эй!|norm| Ты можешь хотя бы поискать на верхушках деревьев, пока ты там летаешь?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_serious2"],
+			"dialog"			: "Аргх.   Ладно!",
+		},
+	],
+	"comment_dodge_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Осторожно с |C3|Шипастыми Фруктами!|C0|",
+	},
+	"comment_dodge_clear"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Ты выжила!",
+	},
+	"comment_dodge_hit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|shake|С тобой всё в порядке?",
+	},
+	"dodge_win" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Вот! Я полезная.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Можешь тогда найти ещё?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_despair"],
+			"dialog"			: "|shake|Но я и так уже много поработала.",
+		},
+	],
+	"dodge_lose" 		: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|С тобой всё в порядке?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|Нет, я умираю!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|О нет!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "Не верь ей. Она в порядке.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Но помогать она, скорее всего, больше не будет.",
 		},
 	],
 	
@@ -1018,8 +1080,44 @@
 	],
 	
 	
+	"empty_soup"			: "Пустой Котёл",
+	"basic_soup"			: "Кипяток",
+	"soup_name_structure"	: "[VAL1] [VAL2] [SOUP] c [NOUN]",
 	
-	"empty_soup"	: "Пустой Котёл",
+	"bdn_radiant_hp"	: "Облучённый",
+	"bdn_burn_hp"		: "Подгоревший",
+	"bdn_toxic_hp"		: "Ядовитый",
+	"bdn_bleed_heart"	: "Шипастый",
+	"bdn_trauma_heart"	: "Ужасный",
+	
+	"adj_radiant_res"	: "Сладкий",
+	"adj_void_res"		: "Сухой",
+	"adj_burn_res"		: "Острый",
+	"adj_zap_res"		: "Кислый",
+	"adj_toxic_res"		: "Сливочный",
+	"adj_hp"			: "Лечащий",
+	"adj_max_hp"		: "Сердечный",
+	"adj_max_en"		: "Энергичный",
+	"adj_karma"			: "Душевный",
+	"adj_reserve_hp"	: "Сытный",
+	"adj_glass_heart"	: "Хрустящий",
+	"adj_chrome_heart"	: "Сияющий",
+	
+	"noun_default"		: "Овощами",
+	"noun_damage"		: "Грибами",
+	"noun_crit_rate"	: "Фруктами",
+	"noun_panic"		: "Ужасом",
+	"noun_manic_panic"	: "Конфетой",
+	"noun_panic_polyp"	: "Полипом",
+	"noun_revive"		: "Спасением",
+	"noun_denial"		: "Бронёй",
+	
+	"soup_1"			: "Бульон",
+	"soup_2"			: "Суп",
+	"soup_3"			: "Эликсир",
+	"spec_mite"			: "Корм Клещей",
+	"spec_magnet"		: "Магнитный Сплав",
+	
 	"leave_now"		: "Уйти Прямо Сейчас",
 	"comment_soup_choosing_first"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -1178,7 +1276,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
-			"dialog"			: "А мне всё это придётся мыть.",
+			"dialog"			: "А мне всё это придётся убирать.",
 		},
 	],
 
