@@ -1082,7 +1082,7 @@
 	
 	"empty_soup"			: "Пустой Котёл",
 	"basic_soup"			: "Кипяток",
-	"soup_name_structure"	: "[VAL1] [VAL2] [SOUP] c [NOUN]",
+	"soup_name_structure"	: "[VAL1] [VAL2] [SOUP] [NOUN]",
 	
 	"bdn_radiant_hp"	: "Облучённый",
 	"bdn_burn_hp"		: "Подгоревший",
@@ -1103,19 +1103,19 @@
 	"adj_glass_heart"	: "Хрустящий",
 	"adj_chrome_heart"	: "Сияющий",
 	
-	"noun_default"		: "Овощами",
-	"noun_damage"		: "Грибами",
-	"noun_crit_rate"	: "Фруктами",
-	"noun_panic"		: "Ужасом",
-	"noun_manic_panic"	: "Конфетой",
-	"noun_panic_polyp"	: "Полипом",
-	"noun_revive"		: "Спасением",
-	"noun_denial"		: "Бронёй",
+	"noun_default"		: "c Овощами",
+	"noun_damage"		: "c Грибами",
+	"noun_crit_rate"	: "c Фруктами",
+	"noun_panic"		: "c Ужасом",
+	"noun_manic_panic"	: "c Конфетой",
+	"noun_panic_polyp"	: "c Полипом",
+	"noun_revive"		: "cо Спасением",
+	"noun_denial"		: "c Бронёй",
 	
 	"soup_1"			: "Бульон",
 	"soup_2"			: "Суп",
 	"soup_3"			: "Эликсир",
-	"spec_mite"			: "Корм Клещей",
+	"spec_mite"			: "Прикорм Клещей",
 	"spec_magnet"		: "Магнитный Сплав",
 	
 	"leave_now"		: "Уйти Прямо Сейчас",
