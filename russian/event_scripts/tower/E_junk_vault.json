@@ -120,7 +120,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
-			"dialog"			: "Навеное, она этого не поняла.",
+			"dialog"			: "Наверное, она этого не поняла.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
@@ -210,7 +210,7 @@
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
-			"dialog"			: "Ну, мы, типа, продумали несколько возможных сценарев, лады?",
+			"dialog"			: "Ну, мы, типа, продумали несколько возможных сценариев, лады?",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
