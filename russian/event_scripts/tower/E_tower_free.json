@@ -1,0 +1,67 @@
+{
+	"color_green"	: "зелёных",
+	"color_red"		: "красных",
+	"color_yellow"	: "жёлтых",
+	"color_blue"	: "синих",
+	"color_orange"	: "оранжевых",
+	"color_purple"	: "фиолетовых",
+	
+	"intro" : [
+		{
+			"center_text_x"		: 1,
+			"center_text_y"		: 0,
+			"text_x"			: 160,
+			"text_y"			: 48,
+			"text_w"			: 284,
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|One of her [VAL1] tetrids jumps out of her heart and rolls away.",
+		},
+		{
+			"dialog"			: "|C3|She chases after it as it rolls itself forward.",
+		},
+		{
+			"dialog"			: "|C3|It stops at the base of a strange machine.",
+		},
+	],
+	
+	"ask_q1"		: "What does she do with the tetrid?",
+	"ask1_a"		: "Feed the machine (-1 Tetrid)",
+	"ask1_b"		: "Take it back",
+
+	"ask_q2"		: "Will she take this gift?",
+	"ask2_a"		: "Take the gift",
+	"ask2_b"		: "Leave the gift (+[VAL1] Karma)",
+	
+	"feed_tetrid" : [
+		{
+			"dialog"			: "|C3|The machine emits many lights and sounds for several seconds.",
+		},
+	],
+	"keep_tetrid" : [
+		{
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|She puts the tetrid back inside her heart.",
+		},
+	],
+	
+	"after_card" : [
+		{
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|Then a small door opens on the side of the machine with a gift inside.",
+		},
+	],
+	
+	"take_gift" : [
+		{
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|She chooses to take the gift.",
+		},
+	],
+	"leave_gift" : [
+		{
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|She chooses to leave the gift alone.",
+		},
+	],
+	
+}

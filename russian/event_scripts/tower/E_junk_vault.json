@@ -1,0 +1,433 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Congratulations, you found the Junk Vaults, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "This is where we put all the garbage.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Where I belong...",
+		},
+	],
+	
+	"gift_list_title"	: "Junk Vault Gifts",
+	"vault_level"		: "Vault Level [VAL1]",
+	"vault_keys"		: "Vault Keys Radiated",
+	
+	"op_vaults"		: "Junk Vaults",
+	"op_upgrade"	: "Upgrades",
+	"op_ask1"		: "Who are you?",
+	"op_ask2"		: "Talk More",
+	"op_leave"		: "Leave",
+	
+	"op_vault1"		: "Vault A",
+	"op_vault2"		: "Vault B",
+	"op_vault3"		: "Vault C",
+	
+	"comment_vault_open"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You can take exactly one thing from this vault, or whatever.",
+	},
+	"comment_vault_closed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "This vault is like, totally closed now.",
+	},
+	
+	"comment_vaults"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You've been cleared to take some stuff and junk.",
+	},
+	"comment_all_closed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "All the vaults are like closed for today, or whatever.",
+	},
+	"comment_upgrades"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You really want better Junk Vaults? Like, why?",
+	},
+	"comment_max_level"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "I can't believe you totally optimized the Junk Vaults, or whatever.",
+	},
+	"comment_misc"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "What do you want?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Are we like, done here?",
+	},
+	
+	
+	
+	"ask1_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Another hologram?|L|What's your name?",
+		},
+	],
+	"ask1_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Uh, who are you?",
+		},
+	],
+	"ask1_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Do we know you?",
+		},
+	],
+	"ask1_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "You look familiar. Have you met The Devil before?",
+		},
+	],
+	"ask1_response" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Listen, all these messages were like pre-recorded. Probably a bunch of years ago.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I can only respond to like, a few commands, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I know you totally just asked who I am, but like, who cares?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Just take the stuff and go, alright?",
+		},
+	],
+	
+	
+	
+	"ask2_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "I care about you.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
+			"dialog"			: "She probably didn't understand that.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Oh, I totally did.|L|I just don't wanna talk about it.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "Oh, that's okay then.",
+		},
+	],
+	"ask2_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Allow me to try asking a question.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Do you know who the most beautiful of all Veyerals is?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "|C3|Error: Unknown material detected.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
+			"dialog"			: "What does that mean?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "It means I don't know what that thing is, alright?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "She simply can't compute how perfect I am.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "There are many such cases.",
+		},
+	],
+	"ask2_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "Hey! Don't be rude to my sister!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "|shake|All she wants is sunshine and love for everyone!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "And yet, here you are, with the rest of the trash.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "|shake|I'll kill you!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I'm like, totally not even here anymore.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I'm probably already a pile of scrap in like, my own junk vault by now.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad2"],
+			"dialog"			: "Greeny, just leave her alone.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "This isn't really her.",
+		},
+	],
+	"ask2_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "What's your problem?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Whatever. I don't wanna talk to The Devil about it.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "If these messages are pre-recorded, then how do you know about me?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "We like totally thought of a bunch of possible scenarios, alright?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "The legends foretold it, or whatever.|!||L|Is that what you want to hear?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "|shake|But how?",
+		},
+	],
+	"ask2_response" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Whatever...",
+		},
+	],
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You can totally take that junk, if you want it.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "This garbage is like, beyond recognition.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You can't even hold that much.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You really want that thing?",
+	},
+	
+	"gift_taken" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Alright. If you say so.",
+			"dialog_rand2"		: "Good job picking that out, or whatever.",
+			"dialog_rand3"		: "Not the one I'd choose, but whatever.",
+			"dialog_rand4"		: "You're like, so good at picking out garbage.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "This vault is closed now.",
+			"dialog_rand2"		: "I'm closing this vault now.",
+			"dialog_rand3"		: "That's all you get from this vault.",
+		},
+	],
+	
+	
+	
+	"comment_upgrade_vault_0"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "I can like, open this vault, if you make me do it.",
+	},
+	"comment_upgrade_vault_1"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "This vault can hold |C3|1 piece of garbage|C0| in it, but I guess it COULD hold one more, or whatever.",
+	},
+	"comment_upgrade_vault"			: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "This vault has room for |C3|[VAL1] pieces of garbage|C0| in it, but I guess I COULD make room for another one, or whatever.",
+	},
+	"comment_upgrade_vault_maxed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1] pieces of garbage|C0| is like, the most this vault can ever hold.",
+	},
+	"comment_upgrade_fail"			: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You totally need to find more |C3|Vault Keys|C0| for that. Don't ask me where they are.",
+	},
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ugh...",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Whatever...",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "I guess...",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "I don't like these.",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Fine...",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "|C3|Error: Missing Reaction.|C0|",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "These are like, way too good for this garbage.",
+	},
+	"upgrade_confirm"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "You really want to waste these?",
+	},
+	
+	"upgrade_vault_first" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I hope you're happy, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Because I just opened up another vault of trash for you.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "It's like, practically empty too.",
+		}
+	],
+	"upgrade_vault" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Great. There's like, more room for garbage in this vault now.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I'll totally make sure it's full next time you show up.",
+		},
+	],
+	
+	
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ugh. I like, totally can't wait for your next visit to the Junk Vaults, or whatever.",
+		},
+	],
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "I love you.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "It would have felt totally awesome to hear that way back when this was recorded, but whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "You're probably just testing the system and junk. Not like I care.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "...But thanks, I like, love you too, or whatever.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "None of this stuff really looked like garbage to me.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Please leave the appraisal of garbage to like, the professionals and junk.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "I think I'm pretty good at it.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "You should stop being so rude.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Whatever. Like, maybe I already did by the time you hear this.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Maybe I'll be like, totally embarrassed by how this hologram is behaving, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "You're not my mother.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "Oh wait, you got any songs by Glass Harvest recorded in there?",
+			"dialog_rand2"		: "Oh wait, you got any songs by Endless Explosions recorded in there?",
+			"dialog_rand3"		: "Oh wait, you got any songs by Nuclear Umbrella recorded in there?",
+			"dialog_rand4"		: "Oh wait, you got any songs by Ultra Witch recorded in there?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "I totally did, but I just like, deleted all of them.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "You... But... Wha?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "Are these messages really pre-recorded?",
+		},
+	],
+
+}
