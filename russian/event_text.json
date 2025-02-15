@@ -511,6 +511,18 @@
 		"rule1"		: "Это событие происходит в фиксированный момент в каждом забеге в Иной Истории.",
 		"rule2"		: "|C4|Это событие НЕ МОЖЕТ появиться, если вы достали любые дары из Связи синапса в начале забега.",
 	},
+	
+	
+	
+	
+	"E_tower_free" : {
+		"name"		: "Динамо Даров",
+		"hint"		: "[hint_tower]",
+		"details"	: "One of my tetrids pulled me over to a strange machine inside the tower. I put the tetrid into a small triangle slot on the side of the machine. It started making a bunch of noise. Lights were flashing all over it. I started to get worried, but then it all stopped suddenly.|L||L|A cute little door opened up on the side. There was a |C3|Power Gift|C0| inside!",
+		"rule1"		: "[rule_tower_chapter]",
+		"rule2"		: "[rule_karma]",
+		"rule3"		: "Вероятность встретить это событие снижено за каждый |C3|Дар Силы|C0| в наличии.",
+	},
 	"E_tower_vault" : {
 		"name"		: "Хранилище Башни",
 		"hint"		: "[hint_tower]",
@@ -536,6 +548,15 @@
 		"rule2"		: "[rule_tower_vault1]",
 		"rule3"		: "[rule_tower_vault2]",
 		"rule4"		: "[rule_tower_vault3]",
+	},
+	"E_junk_vault" : {
+		"name"		: "Хранилище Мусора",
+		"hint"		: "[hint_tower]",
+		"details"	: "I found a hologram of a different robot today. She looked almost the same as my Lulu, but she had a very... different personality. This robot seemed to be really upset when she recorded all those messages.|L||L|She operates a few vaults that have |C3|Quick Gifts|C0| in them. She called them Junk Vaults, but I didn't see any labels that suggested they were actually designed to hold trash.",
+		"rule1"		: "[rule_tower_any_stage]",
+		"rule2"		: "The chance of encountering this event is increases with every |C3|empty Quick Gift slot|C0| you have in both active and inventory slots.",
+		"rule3"		: "[rule_karma]",
+		"rule4"		: "This event will not appear until at least 6 monsters have been loved in the run.",
 	},
 	"E_trade_emerald" : {
 		"name"		: "Создана из Изумруда",
