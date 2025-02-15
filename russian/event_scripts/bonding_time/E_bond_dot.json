@@ -581,7 +581,48 @@
 		},
 	],
 
-	
+	"max_mood_end" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Ты знаешь? Мне всё это очень понравилось.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "Пожалуй, на сегодня достаточно практики.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "Давай остановимся на сегодня.",
+		},
+	],
+	"max_mood_end_twins" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Ты знаешь, мне всё это очень понравилось, и на сегодня практики достаточно.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Ты достигла её предела.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|Время твоего следующего свидания!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Не слушай её!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Нет, она права.|L||!|Я точно на своём пределе!",
+		},
+	],
+	"max_mood_to_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "Но пока ты ещё не ушла, у меня для тебя есть дары!",
+		},
+	],
 	
 	
 	"times_up_blank"	: "bonding_time/bonding_common_text",
