@@ -14,53 +14,53 @@
 			"text_y"			: 48,
 			"text_w"			: 284,
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|One of her [VAL1] tetrids jumps out of her heart and rolls away.",
+			"dialog"			: "|C3|Один из [VAL1] тетридов выпрыгнул из её сердца и отлетел от неё.",
 		},
 		{
-			"dialog"			: "|C3|She chases after it as it rolls itself forward.",
+			"dialog"			: "|C3|Она погналась за тетридом, пока тот нёсся вперёд.",
 		},
 		{
-			"dialog"			: "|C3|It stops at the base of a strange machine.",
+			"dialog"			: "|C3|Он остановился у основания странного устройства.",
 		},
 	],
 	
-	"ask_q1"		: "What does she do with the tetrid?",
-	"ask1_a"		: "Feed the machine (-1 Tetrid)",
-	"ask1_b"		: "Take it back",
+	"ask_q1"		: "Что она сделает с тетридом?",
+	"ask1_a"		: "Скормить его машине (-1 Тетрид)",
+	"ask1_b"		: "Забрать его",
 
-	"ask_q2"		: "Will she take this gift?",
-	"ask2_a"		: "Take the gift",
-	"ask2_b"		: "Leave the gift (+[VAL1] Karma)",
+	"ask_q2"		: "Возьмёт ли она дар?",
+	"ask2_a"		: "Забрать дар",
+	"ask2_b"		: "Оставить дар (+[VAL1] Кармы)",
 	
 	"feed_tetrid" : [
 		{
-			"dialog"			: "|C3|The machine emits many lights and sounds for several seconds.",
+			"dialog"			: "|C3|Несколько секунд устройство источает хор из огней из звуков.",
 		},
 	],
 	"keep_tetrid" : [
 		{
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|She puts the tetrid back inside her heart.",
+			"dialog"			: "|C3|Она возвращает тетрид обратно в своё сердце.",
 		},
 	],
 	
 	"after_card" : [
 		{
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|Then a small door opens on the side of the machine with a gift inside.",
+			"dialog"			: "|C3|Маленькая дверь открывается сбоку от машины с даром внутри.",
 		},
 	],
 	
 	"take_gift" : [
 		{
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|She chooses to take the gift.",
+			"dialog"			: "|C3|Она решает забрать дар с собой.",
 		},
 	],
 	"leave_gift" : [
 		{
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|She chooses to leave the gift alone.",
+			"dialog"			: "|C3|Она решает оставить дар, не тронув его.",
 		},
 	],
 	
