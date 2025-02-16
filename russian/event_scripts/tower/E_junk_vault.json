@@ -281,7 +281,7 @@
 	},
 	"comment_upgrade_vault_maxed"	: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL1] куска мусора|C0| - это, типа, предел того, сколько сюда влезет.",
+		"dialog"	: "|C3|[VAL1] кусков мусора|C0| - это, типа, предел того, сколько сюда влезет.",
 	},
 	"comment_upgrade_fail"			: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
