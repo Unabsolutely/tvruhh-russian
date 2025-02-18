@@ -1082,7 +1082,7 @@
 	
 	"empty_soup"			: "Пустой Котёл",
 	"basic_soup"			: "Кипяток",
-	"soup_name_structure"	: "[VAL1] [VAL2] [SOUP] [NOUN]",
+	"soup_name_structure"	: "[ADJ1] [ADJ2] [SOUP] [NOUN]",
 	
 	"bdn_radiant_hp"	: "Облучённый",
 	"bdn_burn_hp"		: "Подгоревший",
@@ -1102,6 +1102,13 @@
 	"adj_reserve_hp"	: "Сытный",
 	"adj_glass_heart"	: "Хрустящий",
 	"adj_chrome_heart"	: "Сияющий",
+	"adj_damage"		: "Могучий",
+	"adj_crit_rate"		: "Критический",
+	"adj_panic"			: "Страшный",
+	"adj_manic_panic"	: "Жуткий",
+	"adj_panic_polyp"	: "Пушистый",
+	"adj_revive"		: "Свежий",
+	"adj_denial"		: "Твёрдый",
 	
 	"noun_default"		: "c Овощами",
 	"noun_damage"		: "c Грибами",

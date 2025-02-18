@@ -17,8 +17,9 @@
 	"pupil_shape2"	: "|C3|круглыми зрачками|C0|",
 	"pupil_shape3"	: "|C3|квадратными зрачками|C0|",
 	
-	"pet_name_structure"	: "[VAL1] [VAL2] [VAL3] [VAL4]",
-	"scrap_name_structure"	: "[VAL1] [VAL2] [VAL3]",
+	
+	
+	"pet_name_structure"	: "[PREFIX] [MOD] [PET] [SUFFIX]",
 	
 	"t1_pet1"	: "Поглаживания",
 	"t1_pet2"	: "Хлопки",
@@ -81,6 +82,10 @@
 	"t3_suffix1"	: "Экстра",
 	"t3_suffix2"	: "Делюкс",
 	"t3_suffix3"	: "Эксклюзив",
+	
+	
+	
+	"scrap_name_structure"	: "[PREFIX] [ADJ] [SCRAP]",
 	
 	"t1_scrap1"	: 	"Безделушка",
 	"t1_scrap2"	:	"Запчасть",

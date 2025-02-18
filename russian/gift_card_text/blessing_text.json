@@ -180,7 +180,7 @@
 		"card"    : "Макс. ОЗ +2 после потери ОЗ|L|(Один раз за бой)",
 		},
 	"BLS_moss" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "Our shame always grew with every passing day, but we can wait a little longer. You give us hope that we will really leave the bounds of this place. We are not ashamed anymore.",
 		"card"    : "Без границ|L|Стреляет звёздами позади",
 	},
 	"BLS_shamra" : {
@@ -248,7 +248,7 @@
 		"card"    : "+ Урон после получения удара",
 	},
 	"BLS_scarlet" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I know she didn't leave just to hurt me. My feelings were selfish, and I know she was also suffering. I wish my feelings could reach her like yours have reached out to me. I want to forgive her. I'm not angry anymore.",
 		"card"    : "Огненные перья с бесконечной дальностью",
 	},
 	"BLS_guardian_soul" : {
@@ -312,8 +312,8 @@
 		"card"    : "Блокирует первый удар в каждом бою",
 	},
 	"BLS_dandy" : {
-		"memory"  : "(Coming Soon v8.20a)",
-		"card"    : "Част. перьев +[VAL2]|L|Разброс перьев|L|+[VAL3] ман. паники",
+		"memory"  : "It really was me all along. I just didn't want to believe it, but I think I can handle this now, as long as you are here with me. I'm not afraid anymore.",
+		"card"    : "Част. перьев +[VAL1]|L|Разброс перьев|L|+[VAL3] ман. паники",
 	},
 	"BLS_oudenai" : {
 		"memory"  : "Я любима? Я любима. Тогда, должно быть, я кто-то. Я могу быть только собой, но я могу быть кем угодно. Могу ли я также быть той, кто любит? Я буду той, кто любит.",
@@ -376,7 +376,7 @@
 		"card"    : "Весь Урон +[SPEC1]% на низком ОЗ",
 	},
 	"BLS_indigo" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I think I will continue to fight. You've returned that spark that I lost long ago. These machines wouldn't let me follow her. They kept me here against my will. I'd anxiously build containers for her, hoping she would come back to me. She still has to wait for me a little longer, but I'm not anxious anymore.",
 		"card"    : "Делящиеся сердца с якорем|L|Ур. сердец +[VAL3]",
 	},
 	"BLS_default" : {
@@ -440,7 +440,7 @@
 		"card"    : "Урон +[SPEC1]% после повреждения|L|(1 раз за бой)",
 		},
 	"BLS_amber" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "These cracks have been there for a very long time. You have overcome every obstacle in your way just to find me. With your help, I know I can find a way out of here. Together, we can fly anywhere. I'm not insecure anymore.",
 		"card"    : "Частота звёзд растёт только при движении",
 	},
 	"BLS_echo" : {
@@ -504,7 +504,7 @@
 		"card"    : "Аура Пустоты после повреждения",
 	},
 	"BLS_violet" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I miss her so much. I didn't mean to leave her, but now that you are here with me, I'm not lonely anymore.",
 		"card"    : "(Только фокус)|L|Сердца пустоты|L|Крит. част. +[VAL2]%",
 	},
 	"BLS_forma" : {
@@ -572,7 +572,7 @@
 		"card"    : "Защищает комбо раз за бой",
 	},
 	"BLS_limbo" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I was made to feel so broken.|L|I did whatever they told me.|L|It was the only thing I knew how to do.|L|And still, they told me that I wasn't good enough.|L|But no matter what I do,|L|You always say that I'm good enough,|L|So I'll keep doing the best that I can.|L|I'll do it for me.|L|And I'll do it for you!",
 		"card"    : "+ время комбо|L|[VAL2]% частиц - Лучезарные",
 	},
 	

@@ -130,7 +130,7 @@
 		"card"    : "[VAL1] Сердец травмы|L|(Удары понижают макс. ОЗ на 1)",
 	},
 	"BDN_moss" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "It's the same thing every day.|L|Days come and days go.|L|Years and years passing by.|L|Years and years, cannot fly.|L|Break us out of our prison.|L|let us fall into the night.",
 		"card"    : "Экран отзеркален по горизонтали",
 	},
 	"BDN_shamra" : {
@@ -198,7 +198,7 @@
 		"card"    : "[VAL1] кровоточащего ОЗ при потере комбо",
 	},
 	"BDN_scarlet" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "You left me alone!|L|Why did you do this to me!|L|I don't wanna live anymore.|L|I just can't live anymore.|L|I want to be by your side,|L|But you left me here all alone.|L|I hate you!|L||shake|I HATE YOU!",
 		"card"    : "Находитесь вне защитных пузырей!",
 	},
 	"BDN_guardian_soul" : {
@@ -262,7 +262,7 @@
 		"card"    : "Неуязвимость после ударов уменьшена на [VAL1]%",
 	},
 	"BDN_dandy" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "Separated from my body,|L|I see it all happen to me,|L|But it doesn't feel real.|L|I see it all happen to her,|L|But it just can't be real.|L|It's all a work of fiction.|L|Separated from me.|L|That isn't me anymore.",
 		"card"    : "Все паники становятся маническими",
 	},
 	"BDN_oudenai" : {
@@ -326,7 +326,7 @@
 		"card"    : "[VAL1] Сердца стресса|L|(Потеряй всё ОЗ и восстанавл. его)",
 	},
 	"BDN_indigo" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I'm falling apart.|L|A weakness of heart.|L|I've been fighting for so long,|L|They want to hold it together.|L|I've lost my reason to fight,|L|And I can't hold it forever.",
 		"card"    : "Вся цепочка помощников становится ношей",
 	},
 	"BDN_default" : {
@@ -390,7 +390,7 @@
 		"card"    : "[VAL1] Кров. сердец|L|(Удары вызовут кровот. 4 ОЗ)",
 	},
 	"BDN_amber" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "In my dreams, I fly away.|L|Far above the trees I've climbed.|L|Far beyond the sky, so high.|L|I look back down at the world,|L|Trying so desperately to forget,|L|I'm still trapped on the ground.|L|Far below the trees I've climbed.|L|Far beneath from the sky, so high.",
 		"card"    : "Груз на сердце|L|[VAL2] Сердца травмы",
 	},
 	"BDN_echo" : {
@@ -454,7 +454,7 @@
 		"card"    : "Позд. автопаники с кровотечением|L|+[VAL1] Манич. паник",
 	},
 	"BDN_violet" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I had to go, I had to leave you.|L|I'm sorry it had to be this way.|L|Please don't be angry,|L|Please don't follow me.|L|There was too much darkness.|L|It was far too cold.|L|I wish I could see what it was that you saw, every time you looked at me.",
 		"card"    : "Получи [VAL1] помощн. заполнителей, они ничего не делают",
 	},
 	"BDN_forma" : {
@@ -522,7 +522,7 @@
 		"card"    : "Максимум ОЗ -[VAL1]",
 		},
 	"BDN_limbo" : {
-		"memory"  : "(Coming Soon v8.20a)",
+		"memory"  : "I can do this. I'll be good. Please, let me do this. I can be useful to you. Just tell me what I have to do for you. I need you to tell me what to do. How can I be perfect for you?",
 		"card"    : "ОЧЕНЬ плохая точность",
 	},
 	
