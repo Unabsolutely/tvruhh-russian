@@ -130,7 +130,7 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Вспышка от освещения также должна полностью разбудить молодую Зарадеу.",
+			"dialog"		: "Вспышка от освещения также должна полностью разбудить молодую Зарадену.",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_shocked"],
