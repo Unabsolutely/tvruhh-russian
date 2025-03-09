@@ -1,0 +1,433 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Поздравляю, ты нашла Хранилища Мусора, ну или типа того.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Сюда мы сбрасываем весь мусор.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Тут мне и место...",
+		},
+	],
+	
+	"gift_list_title"	: "Дары Хранилища Мусора",
+	"vault_level"		: "Уровень Хранилища [VAL1]",
+	"vault_keys"		: "Ключей Хранилища освещено",
+	
+	"op_vaults"		: "Хранилища Мусора",
+	"op_upgrade"	: "Улучшения",
+	"op_ask1"		: "Кто ты?",
+	"op_ask2"		: "Говорить ещё",
+	"op_leave"		: "Уйти",
+	
+	"op_vault1"		: "Хранилище А",
+	"op_vault2"		: "Хранилище Б",
+	"op_vault3"		: "Хранилище В",
+	
+	"comment_vault_open"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ты можешь взять ровно один предмет из этого хранилища, или типа того.",
+	},
+	"comment_vault_closed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Это хранилище, типа, уже совсем закрыто.",
+	},
+	
+	"comment_vaults"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Тебе разрешается забрать отсюда всякие штуки и хлам.",
+	},
+	"comment_all_closed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ну, типа, все хранилища на сегодня уже закрыты.",
+	},
+	"comment_upgrades"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ты правда хочешь Хранилища Мусора получше? Типа, зачем?",
+	},
+	"comment_max_level"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Не верится, что ты так оптимизировала все эти Хранилища Мусора, или типа того.",
+	},
+	"comment_misc"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Чего хочешь?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ну, мы, типа, тут закончили?",
+	},
+	
+	
+	
+	"ask1_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Ещё одна голограмма?|L|Как тебя зовут?",
+		},
+	],
+	"ask1_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Э-э, а ты кто?",
+		},
+	],
+	"ask1_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "А мы тебя знаем?",
+		},
+	],
+	"ask1_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "Знакомо выглядишь. Ты раньше встречалась с Дьяволом?",
+		},
+	],
+	"ask1_response" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Слушай, все эти сообщения, типа, записаны заранее. Наверное, где-то пару лет назад.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Я могу отвечать, типа, только на несколько команд, ну или типа того.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Я знаю, что ты прям только что спросила, кто я, но, типа, кому есть дело?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Просто забирай вещи и уходи, лады?",
+		},
+	],
+	
+	
+	
+	"ask2_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Мне до тебя есть дело.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_serious2"],
+			"dialog"			: "Наверное, она этого не поняла.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Нет, я всё поняла.|L|Просто неохота говорить об этом.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "А, тогда ничего страшного.",
+		},
+	],
+	"ask2_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Позволь мне попробовать задать вопрос.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Знаешь ли ты, кто самая прекрасная из всех Веералей?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "|C3|Ошибка: Обнаружен неизвестный материал.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
+			"dialog"			: "И что это значит?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Это значит, что я не знаю, что это за штука, лады?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Она просто не способна вычислить, насколько я идеальна.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Подобные случаи далеко не единичны.",
+		},
+	],
+	"ask2_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "Эй! Не надо грубить моей сестрёнке!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "|shake|Всё, что она хочет - нести любовь и солнышко остальным!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "И всё равно вы здесь, вместе со всем остальным хламом.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_angry"],
+			"dialog"			: "|shake|Да я убью тебя!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Я, типа, уже совсем не здесь.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Наверное, я давно валяюсь в куче хлама, в своём собственном хранилище мусора.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad2"],
+			"dialog"			: "Просто оставь её в покое, Зелёнка.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "Она ненастоящая.",
+		},
+	],
+	"ask2_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "Что тебе не нравится?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Мне пофиг. Не хочу говорить об этом с Дьяволом.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "Если эти сообщения записаны, откуда ты обо мне знаешь?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ну, мы, типа, продумали несколько возможных сценариев, лады?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "В легендах предсказано, или типа того.|!||L|Ты это хотела услышать?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "|shake|Но как?",
+		},
+	],
+	"ask2_response" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ладно...",
+		},
+	],
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Можешь прям забрать этот мусор, если хочешь.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Этот мусор, типа, уже совсем не узнать.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Да ты даже не унесёшь столько.",
+	},
+	"take_confirm"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ты правда это хочешь?",
+	},
+	
+	"gift_taken" 	: [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Окей, как скажешь.",
+			"dialog_rand2"		: "Молодец, что выбрала его, типа того.",
+			"dialog_rand3"		: "Я бы другой выбрала, ну да пофиг.",
+			"dialog_rand4"		: "Ты, типа, хорошо копаешься в мусоре.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Это хранилище теперь закрыто.",
+			"dialog_rand2"		: "Теперь я закрою это хранилище.",
+			"dialog_rand3"		: "Это всё, что ты возьмёшь из этого хранилища.",
+		},
+	],
+	
+	
+	
+	"comment_upgrade_vault_0"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Я, типа, могу открыть это хранилище, если ты меня заставишь.",
+	},
+	"comment_upgrade_vault_1"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "В это хранилище вмещается |C3|1 кусок мусора|C0|, но я думаю, в него МОЖЕТ влезть ещё один, или типа того.",
+	},
+	"comment_upgrade_vault"			: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "В это хранилище вмещается |C3|[VAL1] куска мусора|C0|, но я думаю, в него МОЖЕТ влезть ещё один, или типа того.",
+	},
+	"comment_upgrade_vault_maxed"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1] кусков мусора|C0| - это, типа, предел того, сколько сюда влезет.",
+	},
+	"comment_upgrade_fail"			: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Тебе нужно найти прям больше |C3|Ключей Хранилища|C0| на это. Не спрашивай меня, где они.",
+	},
+	
+	"green_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "У-у...",
+	},
+	"red_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Пофиг...",
+	},
+	"yellow_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Лады...",
+	},
+	"blue_comment"		: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Они мне не нравятся.",
+	},
+	"orange_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ладно...",
+	},
+	"purple_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "|C3|Ошибка: Реакция отсутствует.|C0|",
+	},
+	"radiant_comment"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Они, типа, слишком хороши для этого мусора.",
+	},
+	"upgrade_confirm"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+		"dialog"	: "Ты правда хочешь их вот так выбросить?",
+	},
+	
+	"upgrade_vault_first" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Надеюсь, ты счастлива, или типа того.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Потому что я только что открыла тебе ещё одно хранилище мусора.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Оно, типа, тоже почти пустое.",
+		}
+	],
+	"upgrade_vault" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Класс. Теперь, типа, в этом хранилище больше места под хлам.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Я прям сделаю всё, чтобы к твоему следующему приходу оно было полным.",
+		},
+	],
+	
+	
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "У-у. Я, типа, прям жду не должусь твоего следующего визита в Хранилище Мусора, или вроде того.",
+		},
+	],
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "Я люблю тебя.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Это было бы прям здорово услышать, когда всё это ещё записывалось, а сейчас пофиг.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ты, наверное, просто проверяешь мусор и системы. Как будто мне есть дело.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "...Но спасибо, я, типа, тебя тоже люблю и все дела.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
+			"dialog"			: "А для меня ничего из этого не выглядело как мусор.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Пожалуйста, оставь оценку мусора, типа, профессорам и кто там с ними.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "Думаю, у меня неплохо получается.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "Тебе стоит перестать быть такой грубой.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Да пофиг. Ну, типа, может я уже перестала, когда ты это там услышишь.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Может, я типа буду прям смущена тем, как эта голограмма ведёт себя, или вроде того.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ты не моя мать.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "Постой, а у тебя тут записаны какие песни от Стеклянного Урожая?",
+			"dialog_rand2"		: "Постой, а у тебя тут записаны какие песни от Бесконечных Взрывов?",
+			"dialog_rand3"		: "Постой, а у тебя тут записаны какие песни от Ядрёного Зонтика?",
+			"dialog_rand4"		: "Постой, а у тебя тут записаны какие песни от Ультра Ведьмы?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
+			"dialog"			: "Ну типа да, вот только я, типа, их все удалила.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "Ты... Но... А?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "А эти сообщения точно записанные?",
+		},
+	],
+
+}

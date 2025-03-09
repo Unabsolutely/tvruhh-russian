@@ -202,6 +202,16 @@
 		"card"    : "Улучшает Лучезарный Сад",
 		"effect"  : "Освещённые Радужные Лепестки позволят улучшить Лучезарный Сад.",
 	},
+	"U_vault_key" : {
+		"name"    : "Ключ Хранилища",
+		"memory1" : "(Coming Soon v9)",
+		"memory2" : "(Coming Soon v9)",
+		"memory3" : "(Coming Soon v9)",
+		"memory4" : "(Coming Soon v9)",
+		"memory5" : "(Coming Soon v9)",
+		"card"    : "Улучшает Хранилище Мусора",
+		"effect"  : "Освещённые Ключи Хранилища позволяют улучшать Хранилище Мусора.",
+	},
 	"U_dream_petal" : {
 		"name"    : "Лепесток Грёз",
 		"memory1" : "(Coming Soon v9)",

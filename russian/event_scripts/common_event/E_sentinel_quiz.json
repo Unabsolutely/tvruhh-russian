@@ -473,7 +473,7 @@
 		"senti_x"	: "[forgot_zaramech]",
 	},
 	"seriesF_04"		: {
-		"question"	: "Частицы какого цвета |C3|[VAL1] может производить?",
+		"question"	: "Частицы какого цвета |C3|[VAL1]|C0| может производить?",
 		"incorrect"	: "|C3|[VAL3]|C0| производит частицы цвета |C3|[VAL1].",
 		"senti_o"	: "[blue_mote_o]",
 		"senti_x"	: "[blue_mote_x]",

@@ -732,5 +732,5 @@
 			"dialog"			: "Спасибо, что поиграла с нами!",
 		},
 	],
-
+	"error_catch"	: "bonding_time/bonding_common_text",
 }

@@ -17,6 +17,24 @@
 			"dialog_rand4"		: "Я сделала тебе кое-что полезное для такого случая!",
 		},
 	],
+	"intro_late" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "До этого я собиралась дать тебе |C3|Камень Солнца|C0|, но-",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "Я заметила, что у тебя уже был один, и я подумала, что будет странным давать тебе ещё один.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
+			"dialog"			: "Но я, кажется, ошиблась, или может быть, ты его потеряла?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "В любом случае, я сделала ещё один для тебя!",
+		},
+	],
 	
 	"monster_gifts"	: "Дары Гелиолы",
 	

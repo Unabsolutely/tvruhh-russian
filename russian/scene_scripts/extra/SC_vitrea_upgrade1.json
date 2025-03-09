@@ -1,3 +1,4 @@
 {
+	"use_special_bg"		: 1,
 	"event_alt_script"		: ["common_event/E_vitrea", "upgrade_donation_first"],
 }

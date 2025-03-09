@@ -2,7 +2,7 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-			"dialog"			: "Солара нашла несколько даров в глубинах этого кошмара.",
+			"dialog"			: "Солара нашла несколько даров в глубинах твоего кошмара.",
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
@@ -13,7 +13,10 @@
 	"came_back_intro" : [
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
-			"dialog"			: "Солара нашла ещё дары в глубинах этого кошмара!",
+			"random"			: 3,
+			"dialog_rand1"		: "Солара нашла ещё дары в глубинах твоего кошмара!",
+			"dialog_rand2"		: "|wave|Добро пожаловать в твою тихую гавань!",
+			"dialog_rand3"		: "Солара найдёт больше даров для тебя!",
 		}
 	],
 	
@@ -124,6 +127,10 @@
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 		"dialog"	: "Солара не может достать для тебя больше копий даров силы.",
 	},	
+	"blank_comment_box"	: {
+		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 		"dialog"	: "Ты дашь Соларе |C3|[VAL2] кармы?|C0|",
@@ -177,8 +184,45 @@
 			"dialog"			: "|shake|Одно мгновение, и Солара вырвет этот дар из твоего сердца!",
 		}
 	],
+	"first_remove" 			: [
+		{
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Солара может удалить любые дары, которые тебе больше не нужны.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "Удаление дара уменьшит стоимость остальных даров, будто бы ты и никогда не брала его.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Может, ты захочешь удалить |C3|дар-копию|C0|, чтобы взять на его место другую.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Или, может быть, у тебя есть дар, который уже привнёс всю |C3|постоянную пользу|C0|, что мог.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Или, быть может, ты хочешь удалить |C3|трёхзвёздочный Чудесный Дар|C0|, чтобы иметь большую вероятность найти иной Чудесный дар.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "О,    ты же могла и не знать об этом?",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "Каждый найденный |C3|Чудесный Дар|C0| усложняет нахождение остальных!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "|shake|И наяву это работает точно так же!",
+		},
+	],
 	
 	
+
 	
 	"power_1" 		: "1 Дар силы",
 	"power_n" 		: "до [VAL1] Даров силы",
@@ -238,7 +282,7 @@
 	},
 	"comment_remove_lv0"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
-		"dialog"	: "Солара может |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
+		"dialog"	: "Солара сможет |C3|убирать дары|C0|, которые тебе больше не нужны, если ты поделишься с Соларой силой тетридов.",
 	},
 	"comment_remove_max"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
@@ -246,11 +290,11 @@
 	},
 	"comment_upgrade_fail"		: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL3] Лепестков Грёз|C0|, прежде чем улучшать эту силу.",
+		"dialog"	: "Соларе нужно, чтобы ты осветила |C3|[VAL3] Лепестков Грёз|C0|, прежде чем улучшить эту силу.",
 	},
 	"comment_upgrade_fail_1"	: {
 		"character"	: ["VOICE_solara", "CHAR_solara_right", "MOOD_despair"],
-		"dialog"	: "Соларе нужно, чтобы ты осветила хотя бы |C3|один Лепесток Грёз|C0|, прежде чем улучшать эту силу.",
+		"dialog"	: "Соларе нужно, чтобы ты осветила хотя бы |C3|один Лепесток Грёз|C0|, прежде чем улучшить эту силу.",
 	},
 	
 	"first_upgrade" 		: [
@@ -342,6 +386,292 @@
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "|wave|Наслаждайся остатком этого бесконечного кошмара!",
+		},
+	],
+	
+	
+	
+	"intro_first" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Все |C3|когда-либо обнаруженные тобой дары|C0| могут найтись здесь.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Если только     ты знаешь, как их искать.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
+			"dialog"			: "К твоему счастью, |wave|Солара знает, как их найти.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "Солара должна использовать силу твоей |C3|кармы|C0|, чтобы |shake|вытащить их из твоей головы!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+			"dialog"			: "Однако... сейчас Солара многое не найдёт.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Сначала ты должна помочь Соларе собрать больше силы, отдав ей свои тетриды.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "Скажем, с |shake|10 миллионами|norm| тетридов, Солара отыщет любой дар, какой ты захочешь!",
+		},
+	],
+	"intro_price1" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Солара нашла ещё дары для тебя.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Но, появилась проблемка.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Каждый раз, когда Солара находит для тебя дар-",
+			
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "Соларе потребуется |C3|больше кармы|C0| для следующего!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Но для тебя это же не будет проблемой?",
+		},
+	],
+	"intro_price2" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Солара нашла новый вид даров!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Теперь, когда Солара знает, где искать |C3|Бонусные дары|C0|, новые правила кармы открылись для Солары.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Первое правило заключается в том, что |C3|Цены на Бонусные Дары|C0| будут увеличивать отдельно от цен на Дары силы.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Следующее правило немного сложнее.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Ты знаешь, что если Солара находит дар для тебя, на следующий потребуется уже больше кармы.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Но Солара заметила, что цена |C3|растёт даже быстрей|C0| для других даров одного типа.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "Если примешь дар, усиливающий |C3|Выстрелы Сердцами|C0|, то это значительнее повлияет на цену |C3|других даров на Выстрелы Сердцами|C0|!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Этот принцип работает со всеми категориями Даров Силы!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Есть над чем подумать, пока ты закупаешься.",
+		},
+	],
+	"intro_love_power" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Солара приготовила тебе сюрприз!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Солара изобрела |C3|Измеритель Силы Любви|C0| для тебя!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
+			"dialog"			: "Солара славится |wave|самыми разными изобретениями.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Солара покажет тебе, как оно работает.",
+		},
+		{
+			"show_tutorial"		: "endless_love_power",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Это твоя текущая |C3|Сила Любви|C0| против бесконечного кошмара.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Измеритель использует алгоритм Солары, чтобы рассчитать силу твоего сердца в сравнении с бесконечным кошмаром.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "Самый важный параметр - это количество |C3|Любви в секунду|C0|, что ты способна выпускать по этим монстрам!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_angry"],
+			"dialog"			: "Но кошмар становится всё сильнее с каждым монстром, которого ты одолела!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_sad"],
+			"dialog"			: "Поэтому твоя рассчитанная |C3|Сила Любви|C0| будет всегда уменьшаться после каждой битвы.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_aggressive"],
+			"dialog"			: "Вот почему тебе всегда будут нужны дары, чтобы не отставать!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Но сейчас будет самая важная часть.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Каждый дар, который увеличивает твою |C3|Силу Любви выше 100%|C0|, будет стоить больше кармы!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "Чем дальше твоя |C3|Сила Любви|C0| заходит за 100%, тем дороже будут становиться все дары!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "К счастью, этот модификатор цены откатится обратно, стоит подождать падения |C3|Силы Любви|C0| ниже 100%.",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Солара очень гордится своим |C3|Измерителем Силы Любви!",
+		},
+	],
+	"intro_quick" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
+			"dialog"			: "|wave|Теперь Солара может дать тебе |C3|Быстрые Дары|C0|!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Цены на Быстрые Дары растут отдельно от цен на остальные виды даров.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Быстрые дары не повляют на твою |C3|Силу Любви|C3| сразу при покупке, они ведь ещё не будут активированы.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "Так что покупка Быстрых Даров никогда не изменит цену других видов даров!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "|C3|Измеритель Силы Любви|C0| всё ещё будет показывать, насколько усилится твоё сердце при активации Быстрого Дара.",
+		},
+	],
+	"intro_blessings" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Твоя тихая гавань теперь благословлена благословениями!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Благословения растут в цене с каждым купленным Даром Силы, хоть и гораздо медленнее.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Но обратное неверно!|L||!|Покупка благословений не увеличивает цену любых других даров навсегда.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Однако нужно быть осторожной с кое-чем.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Благословения серьёзно увеличивают твою |C3|Силу Любви|C0| на несколько битв.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
+			"dialog"			: "Это означает, |C3|Сила Любви|C0| от Благословений может временно увеличить цены других даров",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Просто будь осмотрительнее с порядком покупки даров.",
+		},
+	],
+	"intro_burdens" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Твоя тихая гавань теперь несёт ноши!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
+			"dialog"			: "Но зачем тебе могут понадобиться ноши?",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "Потому что, когда я вытаскиваю их из твоей головы, это |C3|даёт тебе карму|C0| вместо того, чтобы отнимать её!",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Количество полученной кармы растёт с каждым купленным Даром Силы.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_surprised"],
+			"dialog"			: "Только не забудь посмотреть, как они влияют на твою |C3|Силу Любви|C0| прежде, чем брать их.",
+		},
+	],
+	"intro_dupes" : [
+		{
+			"unskippable"		: 1,
+			"use_textbox"		: 1,
+			"play_music"		: "yellow_scene_music",
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
+			"dialog"			: "Теперь Солара может находить |C3|копии|C0| твоих даров силы!",
+		},
+		{
+			"unskippable"		: 0,
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
+			"dialog"			: "Тебе достаточно владеть |C3|хотя бы 5 дарами|C0|, которые можно копировать.",
+		},
+		{
+			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
+			"dialog"			: "Дар, который будет копировать Солара, меняется при каждой встрече.",
 		},
 	],
 

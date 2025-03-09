@@ -47,7 +47,7 @@
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_sleepy"],
-			"dialog"		: "...обнимашки.",
+			"dialog"		: "...Обнимашки.",
 		},
 		{
 			"love_hearts"	: 1,

@@ -5,6 +5,10 @@
 	
 	"times_up"	: "Время вышло!",
 	"victory"	: "Победа!",
+	"ouch"		: "Ай!",
+	
+	"course_walk"	: "Пройди 1 клетку",
+	"course_jump"	: "Прыгни на 2 клетки",
 
 	"eye_color1"	: "|C3|красными глазами|C0|",
 	"eye_color2"	: "|C3|фиолетовыми глазами|C0|",
@@ -13,8 +17,9 @@
 	"pupil_shape2"	: "|C3|круглыми зрачками|C0|",
 	"pupil_shape3"	: "|C3|квадратными зрачками|C0|",
 	
-	"pet_name_structure"	: "[VAL1] [VAL2] [VAL3] [VAL4]",
-	"scrap_name_structure"	: "[VAL1] [VAL2] [VAL3]",
+	
+	
+	"pet_name_structure"	: "[PREFIX] [MOD] [PET] [SUFFIX]",
 	
 	"t1_pet1"	: "Поглаживания",
 	"t1_pet2"	: "Хлопки",
@@ -77,6 +82,10 @@
 	"t3_suffix1"	: "Экстра",
 	"t3_suffix2"	: "Делюкс",
 	"t3_suffix3"	: "Эксклюзив",
+	
+	
+	
+	"scrap_name_structure"	: "[PREFIX] [ADJ] [SCRAP]",
 	
 	"t1_scrap1"	: 	"Безделушка",
 	"t1_scrap2"	:	"Запчасть",
@@ -152,6 +161,42 @@
 	"scrap_treasure5"	:	"Что-то Ценное?",
 	"scrap_treasure6"	:	"Ценный Объект?",
 	"scrap_treasure7"	:	"То, Чего Не Должно Тут Быть?",
+	
+	"scrap_ingredient1"	:	"Простой Ингредиент",
+	"scrap_ingredient2"	:	"Приятный Ингредиент",
+	"scrap_ingredient3"	:	"Чудесный	 Ингредиент",
+	
+	"craft_hp"				:	"Лечит [VAL1]% здоровья",
+	"craft_max_hp"			:	"Максимум ОЗ +[VAL1]",
+	"craft_max_en"			:	"Макс. энергия +[VAL1]",
+	"craft_panic"			:	"+[VAL1] Панические атаки",
+	"craft_manic_panic"		:	"+[VAL1] Манические паники",
+	"craft_panic_polyp"		:	"+[VAL1] Панический полип",
+	"craft_karma"			:	"+[VAL1] кармы",
+	"craft_damage"			:	"Весь урон +[VAL1]%",
+	"craft_crit_rate"		:	"Частота крита +[VAL1]%",
+	"craft_radiant_res"		:	"Защита Света +[VAL1]",
+	"craft_void_res"		:	"Защита Пустоты +[VAL1]",
+	"craft_burn_res"		:	"Защита Огня +[VAL1]",
+	"craft_zap_res"			:	"Защита Молнии +[VAL1]",
+	"craft_toxic_res"		:	"Защита Яда +[VAL1]",
+	"craft_glass_heart"		:	"+[VAL1] Стеклянное сердца",
+	"craft_chrome_heart"	:	"+[VAL1] Хромасердца",
+	"craft_revive"			:	"+[VAL1] Доп. жизни",
+	"craft_denial"			:	"+[VAL1] Щита отрицания",
+	"craft_reserve_hp"		:	"+[VAL1] резервных ОЗ",
+	"craft_extra_mite"		:	"+[VAL1] помощника-клеща",
+	"craft_extra_magnet"	:	"+[VAL1] магнитных камня",
+	
+	"craft_radiant_hp"		:	"+[VAL1] Облучённых ОЗ",
+	"craft_void_hp"			:	"+[VAL1] Кровоточащих ОЗ",
+	"craft_burn_hp"			:	"+[VAL1] Горящих ОЗ",
+	"craft_zap_hp"			:	"+[VAL1] Перегруженных ОЗ",
+	"craft_toxic_hp"		:	"+[VAL1] Отравленных ОЗ",
+	"craft_bleed_heart"		:	"+[VAL1] Сердец кровотечения",
+	"craft_stress_heart"	:	"+[VAL1] Сердец стресса",
+	"craft_trauma_heart"	:	"+[VAL1] Сердец травмы",
+	
 	
 	"form_change_blank" 	: [
 		{
@@ -242,7 +287,7 @@
 	],
 	"to_sleep_defect" 	: [
 		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_serious2"],
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sleepy"],
 			"dialog"			: "Я... Хорошо, да.",
 		},
 		{
@@ -438,4 +483,14 @@
 	"rpg_atk_dance3"			: "Смертельный Танец",
 	"rpg_atk_dance4"			: "Головокружительный Танец",
 	
+	"error_catch" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Если вы видите это сообщение, произошла ошибка.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Пожалуйста, сообщите об этом разработчику!",
+		},
+	],
 }

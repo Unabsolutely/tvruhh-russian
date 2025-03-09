@@ -1,0 +1,778 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "О! А я тебя искала.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Я хотела спросить-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Можно ещё раз тебя обнять?|!||L|В этот раз у меня точно получится лучше.",
+		},
+	],
+	"intro_defect" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Я хотела спросить-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Можно попрактиковать обнимашки?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "К сожалению, но мои идеальные объятья сейчас будут слишком ошеломляющими для тебя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Почему бы не попросить об этом мою дорогушу Дефект?",
+		},
+	],
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "О! Я вас снова нашла.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Можно попрактиковать объятья с одной из вас?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "Я бы попробовала, но-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Моя сестра только что говорила мне, как ей тоже хочется немного практики.",
+		},
+	],
+	
+	"monster_mood"		: "Настроение Точки",
+	"monster_stuff"		: "[VAL1] Точки",
+	"healing_gifts"		: "Лечащие Дары",
+	"rating_title"		: "Оценка Объятий [VAL1]%",
+	
+	"op_power"		: "Практиковать хват",
+	"op_pendulum"	: "Практиковать равновесие",
+	"op_circle"		: "Практиковать элегантность",
+	"op_dodge"		: "Практиковать изящество",
+	"op_big_hug"	: "Большие Обнимашки",
+	"op_burden"		: "Принять ношу",
+	"op_sleep"		: "Вздремнуть",
+	
+	"op_hold"		: "Подержать её подольше",
+	"op_stop"		: "Практиковать другое объятье",
+	
+	"op_heal"		: "Остановить кровотечение",
+	"op_ignore"		: "Игнорировать его",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "Идеальные объятья будут моими.",
+	},
+	"comment_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "Что практикуем дальше?",
+	},
+	"comment_hold"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+		"dialog"	: "Пожалуйста, не отпускай.",
+	},
+	"comment_bleed"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "Позволь мне вылечить тебя.",
+	},
+	
+	"to_hug_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Точка, ты ходила за мной, наверно, целый час.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Я всё ждала, когда ты попросишь!",
+		},
+	],
+	"to_hug_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Иди сюда, Точка!",
+		},
+	],
+	"to_hug_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Ох, хорошо. Можешь на мне попрактиковаться.",
+		},
+	],
+	"to_hug_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Сначала ты должна согласиться отдать свою душу.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Да, конечно!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "Тогда поехали!",
+		},
+	],
+	"to_hug_first_reply" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Ты действительно даёшь мне это сделать!",
+		},
+	],
+	"to_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Готовься!",
+			"dialog_rand2"		: "А вот и я!",
+			"dialog_rand3"		: "В этот раз всё будет идеально!",
+			"dialog_rand4"		: "Сейчас всё получится!",
+		},
+	],
+	"to_big_hug_first" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "Е-е-ей!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "На этот раз я использую два приёма подряд.",
+		},
+	],
+	"to_big_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "|wave|Большие обнимашки!|L|Большие обнимашки!|L|Большие обнимашки!",
+			"dialog_rand2"		: "Ещё одни большие обнимашки!",
+			"dialog_rand3"		: "|wave|Ла ла ла ла лаааа",
+			"dialog_rand4"		: "|wave|Ду ду дуууууууу|L|Время для больших обнимашек!",
+		},
+	],
+	
+	"start_power" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Я хочу поработать над своим |C3|хватом|C0|.",
+			"dialog_rand2"		: "Мой |C3|хват|C0| нуждается в доработке.",
+		},
+	],
+	"start_pendulum" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Моё |C3|равновесие|C0| требует доработки.",
+			"dialog_rand2"		: "Сейчас я потренирую |C3|равновесие|C0|.",
+		},
+	],
+	"start_circle" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Моя |C3|элегантность|C0| всё ещё может стать лучше.",
+			"dialog_rand2"		: "Мне нужно попрактиковать |C3|элегантность.|C0|",
+		},
+	],
+	"start_dodge" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "|C3|Изящество|C0| моих объятий требует доработки.",
+			"dialog_rand2"		: "Я хочу попрактиковать моё |C3|изящество.|C0|",
+		},
+	],
+	
+	"comment_hug_crit"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+		"dialog"	: "|wave|Идеально!",
+	},
+	"comment_hug_good"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+		"dialog"	: "|wave|Хмммммммм|L||wave|Хммммммммм",
+	},
+	"comment_hug_bad"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+		"dialog"	: "Тебе было больно?",
+	},
+	"comment_perfect_rating"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+		"dialog"	: "Ох...",
+	},
+	"comment_win"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "Это было приятно.",
+	},
+	"comment_lose"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "Я опять сделала всё не так...",
+	},
+	
+	"you_win_perfect" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "Это было идеально.",
+		},
+	],
+	"you_win_clear" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Мне так понравились эти объятья!",
+			"dialog_rand2"		: "Это было лучше, чем я ожидала!",
+			"dialog_rand3"		: "Мне кажется, у меня получается всё лучше!",
+			"dialog_rand4"		: "Прогресс налицо!",
+		},
+	],
+	"you_win_between" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"random"			: 4,
+			"dialog_rand1"		: "А теперь следующий приём!",
+			"dialog_rand2"		: "Продолжаем!",
+			"dialog_rand3"		: "|wave|Ещё больше обнимааааааашек",
+			"dialog_rand4"		: "Ещё!",
+		},
+	],
+	"you_win" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Это было весьма неплохо, но мне кажется, я могу лучше.",
+			"dialog_rand2"		: "Этот приём всё ещё можно улучшить.",
+			"dialog_rand3"		: "Я знаю, что могу ещё лучше.",
+		},
+	],
+	"you_lose" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_angry"],
+			"random"			: 2,
+			"dialog_rand1"		: "Почему я настолько плоха в этом?",
+			"dialog_rand2"		: "Почему у меня не выходит?",
+		},
+	],
+	
+	
+	"after_unlocking_big_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "Мне кажется, я готова к-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "|shake||C3|Большим Обнимашкам!|C0|",
+		},
+	],
+	"after_perfect_hug" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"random"			: 3,
+			"dialog_rand1"		: "Погоди. Не отпускай меня.",
+			"dialog_rand2"		: "Я ещё не готова отпускать.",
+			"dialog_rand3"		: "Давай подержимся ещё немного.",
+		},
+	],
+	"after_bleeding_first" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|У тебя кровь!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "Я поранила тебя.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Я могу это исправить.",
+		},
+	],
+	"after_bleeding_ignored" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|Я опять тебя порезала!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Пожалуйста, в этот раз дай себя вылечить.",
+		},
+	],
+	"after_bleeding" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "|shake|Ты опять кровоточишь!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Я не хотела,    честное слово.",
+		},
+	],
+	
+	"hold_continue" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|Ля ля ля ляяяя",
+			"dialog_rand2"		: "|wave|Хммм хмммм хмммммммммм",
+			"dialog_rand3"		: "|wave|Дуу ду дуууууу",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"random"			: 2,
+			"dialog_rand1"		: "|wave|В такооооом идеальном равновеееееесии",
+			"dialog_rand2"		: "|wave|Такааааая идеально симметричнааааааая",
+		},
+	],
+	"hold_continue_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content_cry"],
+			"dialog"			: "Я не отпущу тебя, пока ты не будешь готова.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain"],
+			"dialog"			: "Спасибо тебе большое.",
+		},
+	],
+	"hold_continue_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Возможно, она уже готова к моим объятьям.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Я знала, что у меня получится.",
+		},
+	],
+	"hold_continue_end" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Ладно, этого, наверное, достаточно.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "Мне нужно попрактиковать ещё кое-что.",
+		},
+	],
+	"hold_stop" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Ты права-",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "Мне надо практиковаться всё время, пока я могу, |shake|до тех пор, пока ты не попытаешься сбежать.",
+		},
+	],
+	
+	
+	
+	"bleed_heal" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Просто не двигайся на мгновение, хорошо?",
+		},
+	],
+	"bleed_heal_defect" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Я поправлю это ради тебя.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Ой, твои когти так удлиннились.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "|shake|Нет, ничего не было!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Пожалуйста, не смотри на них.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "|wave|Я ничего не видела.",
+		},
+	],
+	"bleed_heal_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Как ты собираешься это вылечить?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "Нектар из моего цветка может остановить кровотечение.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_thought", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "|C3|(Опять этот взгляд Зелёнки.)",
+		},
+	],
+	"bleed_ignore" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Ты уверена?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Хорошо, я верю, что ты знаешь, с чем ты можешь справиться.",
+		},
+	],
+	"bleed_ignore_devil" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Ты беспокоишься об этом маленьком порезе?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Он едва кровоточит.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Хорошо, я тебе верю.",
+		},
+	],
+	"bleed_ignore_again" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Ладно... Если ты уверена.",
+		},
+	],
+	"to_heal_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "Это поможет.",
+			"dialog_rand2"		: "Так, кровотечение остановилось.",
+			"dialog_rand3"		: "Я остановила кровотечение.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"random"			: 3,
+			"dialog_rand1"		: "О, у меня есть ещё кое-что, что поможет.",
+			"dialog_rand2"		: "Погоди, возьми ещё один из них.",
+			"dialog_rand3"		: "Это поможет против боли.",
+		},
+	],
+	"comment_heal_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "Пожалуйста, возьми какой-нибудь.",
+	},
+	"comment_heal_unknown"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "Ох, погоди. Что это?",
+	},
+	"heal_confirm"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+		"dialog"	: "Это поможет?",
+	},
+	"heal_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "...Извини.",
+		},
+	],
+	
+	
+	
+	"to_devil_pass_out" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Я же говорила, он едва-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Ох,    это много...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Я сейчас вернусь...",
+		},
+	],
+	"after_devil_pass_out" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Что произошло?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"dialog"			: "|shake|Извини меня.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Я остановила кровотечение, но ты ненадолго заснула.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
+			"dialog"			: "И потратила впустую всё наше время вместе?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Как и было предначертано...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Мне надо идти.",
+		},
+	],
+	
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Что мы вообще делаем?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Ты не обязана делать это, если не хочешь.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+			"dialog"			: "Это просто мой эгоизм.",
+		},
+	],
+	"comment_burden_choice"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"burden_confirm"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "..?",
+	},
+	"burden_taken_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Ну почему ты такая?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Я получаю, наверное, больше удовольствия от этого, чем ты.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Мы обе можем быть эгоистками, хорошо?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Хорошо, договорились!",
+		},
+	],
+	"burden_taken" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "Как тебе удаётся каждый раз избавлять меня от этих плохих чувств?",
+		},
+	],
+
+	"max_mood_end" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Ты знаешь? Мне всё это очень понравилось.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "Пожалуй, на сегодня достаточно практики.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+			"dialog"			: "Давай остановимся на сегодня.",
+		},
+	],
+	"max_mood_end_twins" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Ты знаешь, мне всё это очень понравилось, и на сегодня практики достаточно.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Ты достигла её предела.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|Время твоего следующего свидания!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Не слушай её!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Нет, она права.|L||!|Я точно на своём пределе!",
+		},
+	],
+	"max_mood_to_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "Но пока ты ещё не ушла, у меня для тебя есть дары!",
+		},
+	],
+	
+	
+	"times_up_blank"	: "bonding_time/bonding_common_text",
+	"times_up_defect"	: "bonding_time/bonding_common_text",
+	"times_up_twins"	: "bonding_time/bonding_common_text",
+	"times_up_devil"	: "bonding_time/bonding_common_text",
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "Погоди, у меня для тебе кое-что есть.",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+		"dialog"	: "Забирай любой из них!",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+		"dialog"	: "А для тебя он выглядит размыто?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
+		"dialog"	: "Хочешь забрать его?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+		"dialog"	: "Не хочешь ни один?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_aggressive"],
+			"dialog"			: "Я рада, что он тебе нравится, поскольку ты возьмёшь ещё один.",
+		},
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Я знала, что ты заберёшь его.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "И я дам тебе ещё один!",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "Я надеюсь, он даст тебе идеальное равновесие.",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "Ой! Ты чуть не упала.",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
+			"dialog"			: "Видимо, вместо этого я могу попрактиковаться в работе подушкой.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "Ты забыла о секретном приёме.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "O, точно!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|Поймала!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Ты доказала, что достойна моих идеальных объятий.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Давай, Точка.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
+			"dialog"			: "|shake|Так холодно!|L||!|Ты была права.|L||!|Я не была к этому готова.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "Теперь время вам обеим попрактиковаться в поцелуях!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|Я, ох... Ну то есть...|L||norm|Готова ли я    для этого?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Зелёнка, ты же и говорила, что время уходить.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "Уууу, ну я же несерьёзно.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_confused"],
+			"dialog"			: "Ну и что это значит, что у тебя моя душа?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Ну, я заметила, что тебе очень нравится петь, пока мы обнимались с тобой.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Так что однажды Дьявол призовёт тебя.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "И ты будешь     |shake|петь в её группе!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
+			"dialog"			: "Звучит здорово!",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Если ты будешь учить меня, то я совсем скоро стану мастером объятий.",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+}
