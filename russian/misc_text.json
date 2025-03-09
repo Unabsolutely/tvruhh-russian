@@ -29,8 +29,6 @@
 	"special_card"		: "Особая Глава",
 	"extra_card"		: "Дополнительная Глава",
 	"final_card"		: "Последняя Глава",
-	"event_card"		: "Событие",
-	"choose_card"		: "Выбери",
 	"cycle_card"		: "Цикл [VAL1]",
 	"stage_card"		: "Этап [VAL1]",
 	"bounty_card"		: "Это Дар награды для тебя",
@@ -40,6 +38,9 @@
 	"very_long_time"	: "[VAL1] мин",
 	"abbrev_num_k"		: "[VAL1]К",
 	"abbrev_num_m"		: "[VAL1]М",
+
+	"wrath_tag"			: "Яростная",
+	"repel_tag"			: "Отторгающая",
 	
 	"green_tet"			: "Зелёный",
 	"red_tet"			: "Красный",
