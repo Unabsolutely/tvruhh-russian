@@ -581,7 +581,8 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
 			"dialog"			: "Ничего, вокруг полно ингредиентов.",
-	},
+		},
+	],
 	"explain_outside_high" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
