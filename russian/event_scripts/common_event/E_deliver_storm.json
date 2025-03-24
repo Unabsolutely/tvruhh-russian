@@ -1,0 +1,409 @@
+{
+	"big_text_intro" : [
+		{
+			"play_music"		: "silence",
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 320,
+			"text_y"			: 180,
+			"text_w"			: 400,
+			"voice"				: "VOICE_default",
+			"dialog"			: "|C3|A little while later,|L|in a place nearby.",
+		},
+		{
+			"dialog"			: "|C3|[VAL2] has a chance encounter with...",
+		},
+	],
+	
+	"my_name1"	: "Storm Veyaral",
+	"my_name2"	: "Stormy",
+	
+	"step1_ask_generic" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "Umm, hi [VAL1].|!||L|Are you busy?",
+			"dialog_rand2"		: "Excuse me, [VAL1]. I uhh, maybe need some help.",
+			"dialog_rand3"		: "Umm, [VAL1]? Can you help me with something?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "So, there's this Zaraden, and I need to apologize to her-",
+			"dialog_rand2"		: "I was kinda mean to this Zaraden, and I want to apologize to her.",
+			"dialog_rand3"		: "I need to make up for what I did to this Zaraden-",
+		},
+	],
+	"step1_ask_generic_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "Can you help me, [VAL1]?",
+			"dialog_rand2"		: "Excuse me, [VAL1]. I uhh, maybe need some help.",
+			"dialog_rand3"		: "Umm, [VAL1]? Can you help me with something?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "So, there was these two Zaraden-",
+			"dialog_rand2"		: "There's these Zaraden twins-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I need to apologize to them.|L||!|Well, mostly the green one with the sunshine colored hair.",
+		},
+	],
+	"step1_leave_generic" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Thank you!|L||!|I'll take this to her right now.",
+			"dialog_rand2"		: "I'll make sure she gets this!",
+			"dialog_rand3"		: "I'm taking this to her right away!",
+		},
+	],
+	"step1_leave_generic_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "I'll make sure they gets this!",
+			"dialog_rand2"		: "I'm taking this to them right away!",
+		},
+	],
+	
+	
+	"step1_ask_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "What was that power she had?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|It felt so good.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "And now I feel different.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_angry"],
+			"dialog"			: "What was I thinking, attacking her?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I should apologize to her.",
+		},
+	],
+	"step1_leave_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I hope she can find it in her heart to forgive me.",
+		},
+	],
+	"step1_leave_B_storm_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Her sister looked like she was ready to attack me too.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I hope they can forgive me.",
+		},
+	],
+	
+	"step1_ask_B_scrambla_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Hey [VAL1], do you know that Zaraden with the red eyes?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
+			"dialog"			: "We... know dis Zaraden.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I kind of attacked her earlier, and-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "[VAL1], are you alright?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
+			"dialog"			: "Umm...",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_despair"],
+			"dialog"			: "|shake|We don't know!|norm||!||L|Dis Zaraden makes us feel strange!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
+			"dialog"			: "She make us feel sad, and like we want... something?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Do you want    to give her something?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
+			"dialog"			: "Ya!    But we're afraid to do dis.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "How about I do it for you?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "How does that sound?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Okee!",
+		},
+	],
+	"step1_leave_B_scrambla_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I'm going to tell her it's from you, okay?",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
+			"dialog"			: "Umm... Ya, okee.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I bet she's gunna love it.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
+			"dialog"			: "We will go hide in dis corner forever, okee?",
+		},
+	],
+	
+	
+	
+	
+	"step2_intro_generic" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|Umm,   miss Zaraden?",
+			"dialog_rand2"		: "|shake|H-Hello,    I was looking for you.",
+			"dialog_rand3"		: "|shake|You remember me,   right?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|I'm sorry!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I should not have attacked you before.",
+		},
+	],
+	"step2_intro_single" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "Umm, [VAL1] told me I should give you this.",
+			"dialog_rand2"		: "I brought you a gift.|L|Well it's really from [VAL1].",
+			"dialog_rand3"		: "[VAL1] thought giving you this might-   |L|I don't know.",
+		},
+	],
+	"step2_intro_multi" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "[VAL1] wanted me to give these to you.",
+			"dialog_rand2"		: "I brought you some gifts.|L|Well [VAL1] told me to give them to you.",
+			"dialog_rand3"		: "[VAL1] said giving these to you would-    |L|I don't know.",
+		},
+	],
+	"step2_intro_B_storm_veyeral" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "|shake|Umm,   miss Zaraden?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I uhh,    brought you a gift.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I just wanted to say-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|I'm sorry for attacking you!",
+		},
+	],
+	"comment_delivery_single"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Please, take it.",
+	},
+	"comment_delivery_multi"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+		"dialog"	: "These are all for you!",
+	},
+	"step2_another_gift" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "The other one is for you too.",
+		},
+	],
+	
+	"step2_leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "You still have to do something else for me.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "You have to tell [VAL1], \"I love you!\"|L||!|And also-",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I'll see what I can do.",
+		},
+	],
+	"step2_leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Tell [VAL1] I said \"thank you!\"",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "So you forgive me?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "You are forgiven, my stormy sibling.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "You could not have known that your opponent would be |wave|perfect.",
+		},
+	],
+	"step2_leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "More gifts from your girlfriends, Sunshine?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "It's not like that.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "We're not friends?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|No wait!|norm|    It IS like that.   I mean-",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|Greeny!",
+		},
+	],
+	"step2_leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "There is nothing to apologize for, my stormy friend.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "The legends foretold of our great battle!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Really?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "It was truly righteous, and there was nothing we could have done to prevent it.",
+		},
+	],
+	"step2_leave_default" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Do you forgive me?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I'll take that as a yes.",
+		},
+	],
+	
+	
+	
+	"step2_intro_B_scrambla_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Miss Zaraden? Do you know a Shamble by the name of [VAL1]?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "I do know her. Why?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "She |wave|really|norm|    wanted to give these to you.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "For me, really?",
+		},
+	],
+	"step2_leave_B_scrambla_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "I'll have to thank [VAL1] later.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "But why didn't she bring these to me herself?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Well,|norm|   I think-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "It's worse than I feared.|!||L|She was truly smitten by my perfect form.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I'll have to let her down gently.",
+		},
+	],
+	
+	"step2_intro_B_boiler" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Umm,   [VAL1] wanted me to give this to you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She worries about you, you know?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Also, I just wanted to say-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|I'm sorry for attacking you earlier!",
+		},
+	],
+}

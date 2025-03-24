@@ -1,0 +1,167 @@
+{
+	"nobody"			: "Nobody",
+	"monster_gifts"		: "[VAL1]'s Gifts",
+	"delivery_gifts"	: "Gift Delivery",
+	
+	"comment_pickup_B_storm_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I wonder if she'd like one of these.",
+	},
+	"confirm_pickup_B_storm_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Could this really work?",
+	},
+	
+	"step1_response_B_scrambla" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
+			"dialog"			: "We know dis Zaraden!",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "You can give her da gifts.",
+		},
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "We know she will like one of dis ones!",
+		},
+	],
+	"comment_pickup_B_scrambla"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+		"dialog"	: "She likes one of dis ones.",
+	},
+	"comment_pickup_B_scrambla_I_heart_cookie"	: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
+		"dialog"	: "We just took a little bite.",
+	},
+	"confirm_pickup_B_scrambla"		: {
+		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
+		"dialog"	: "Dis one?",
+	},
+	"pickup_next_B_scrambla" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
+			"dialog"			: "Oh,    and umm... give her dis one too.",
+		},
+	],
+	"step1_bye_B_scrambla" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Okee, give her a hug for us!",
+		},
+	],
+	"step1_bye_B_scrambla_twins" : [
+		{
+			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
+			"dialog"			: "Okee, give dem both a hug for us!",
+		},
+	],
+	
+	
+	"step1_response_B_boiler" : [
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+			"dialog"			: "Oh, dis Zaraden is nice.",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_upset"],
+			"dialog"			: "But she plays with fire too much, yis?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
+			"dialog"			: "It makes us worry.",
+		},
+	],
+	"comment_pickup_B_boiler"	: {
+		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+		"dialog"	: "Give her one of dis ones.",
+	},
+	"comment_pickup_B_boiler_I_boiler_maw"	: {
+		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_surprised"],
+		"dialog"	: "She will be safe if we're watching over her.",
+	},
+	"confirm_pickup_B_boiler"		: {
+		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
+		"dialog"	: "Dis one, yis?",
+	},
+	"step1_bye_B_boiler" : [
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_angry"],
+			"dialog"			: "Tell her to be more careful with fire, yis?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
+			"dialog"			: "Is dangerous.",
+		},
+	],
+	
+	
+	"step1_response_B_calorie" : [
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
+			"dialog"			: "Oh, we know what to do!",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_content"],
+			"dialog"			: "You should give her some food!",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
+			"dialog"			: "That would work on us.",
+		},
+	],
+	"step1_response_B_calorie_twins" : [
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
+			"dialog"			: "Oh, her?",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
+			"dialog"			: "She's really cute!",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_sad"],
+			"dialog"			: "We also attacked her, though.",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
+			"dialog"			: "We think giving them food might help.",
+		},
+	],
+	"comment_pickup_B_calorie"	: {
+		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
+		"dialog"	: "Just give her one of these.",
+	},
+	"confirm_pickup_B_calorie"		: {
+		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
+		"dialog"	: "Does this one look good?",
+	},
+	"pickup_next_B_calorie" : [
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_content"],
+			"dialog"			: "We think she's |wave|really cute,|norm| so let's give her another one.",
+		},
+	],
+	"step1_bye_B_calorie" : [
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
+			"dialog"			: "Don't worry, she's won't be mad at you.",
+		},
+	],
+	"step1_bye_B_calorie_twins" : [
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_shocked"],
+			"dialog"			: "We almost forgot about her sister!",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_confused"],
+			"dialog"			: "We just can't stop thinking about her.",
+		},
+		{
+			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
+			"dialog"			: "Pretend we said that there's one for each of them, okay.",
+		},
+	],
+	
+
+}

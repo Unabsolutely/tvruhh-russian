@@ -30,6 +30,7 @@
 	"UI_leave"          : "Уйти",
 	"UI_exit"         	: "Выйти",
 	"UI_check_heart"  	: "Проверить Сердце",
+	"UI_no_heart"  		: "Нет Сердца",
 	"UI_use_quick"  	: "Быстрые дары",
 	"UI_check_monster"	: "Проверить монстра",
 	"UI_check_gift"	  	: "Проверить дары",
@@ -931,6 +932,8 @@
 		"soups_made"		: "Супов сварено",
 		"soups_eaten"		: "Супов съедено",
 		"soups_burden"		: "Супов с ношами съедено",
+		"delivery_pickups"	: "Даров принято",
+		"gifts_delivered"	: "Даров доставлено",
 		
 		"total_tetrids"		: "Всего тетридов собрано",
 		"total_green"		: "Зелёных тетридов",
