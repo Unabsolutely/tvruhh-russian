@@ -1,59 +1,59 @@
 {
-	"nobody"			: "Nobody",
-	"monster_gifts"		: "[VAL1]'s Gifts",
-	"delivery_gifts"	: "Gift Delivery",
+	"nobody"			: "Никто",
+	"monster_gifts"		: "Дары [VAL1]",
+	"delivery_gifts"	: "Доставка Даров",
 	
 	"comment_pickup_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-		"dialog"	: "I wonder if she'd like one of these.",
+		"dialog"	: "Интересно, понравится ли ей один из них.",
 	},
 	"confirm_pickup_B_storm_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-		"dialog"	: "Could this really work?",
+		"dialog"	: "Это и правда сработает?",
 	},
 	
 	"step1_response_B_scrambla" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
-			"dialog"			: "We know dis Zaraden!",
+			"dialog"			: "Мы знаим эту Зарадену!",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "You can give her da gifts.",
+			"dialog"			: "Ты можишь дать ей эти дары.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "We know she will like one of dis ones!",
+			"dialog"			: "Мы знаим, ей понравится один из этих!",
 		},
 	],
 	"comment_pickup_B_scrambla"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "She likes one of dis ones.",
+		"dialog"	: "Ей нравится один из этих.",
 	},
 	"comment_pickup_B_scrambla_I_heart_cookie"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-		"dialog"	: "We just took a little bite.",
+		"dialog"	: "Мы откусили всиго ничиго.",
 	},
 	"confirm_pickup_B_scrambla"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
-		"dialog"	: "Dis one?",
+		"dialog"	: "Этот?",
 	},
 	"pickup_next_B_scrambla" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "Oh,    and umm... give her dis one too.",
+			"dialog"			: "О,    и, эмм... дай ей ищё этот.",
 		},
 	],
 	"step1_bye_B_scrambla" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Okee, give her a hug for us!",
+			"dialog"			: "Оки, обними её за нас!",
 		},
 	],
 	"step1_bye_B_scrambla_twins" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Okee, give dem both a hug for us!",
+			"dialog"			: "Оки, обними их обоих за нас!",
 		},
 	],
 	
@@ -61,37 +61,37 @@
 	"step1_response_B_boiler" : [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Oh, dis Zaraden is nice.",
+			"dialog"			: "О, ета Зарадена хорошая.",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_upset"],
-			"dialog"			: "But she plays with fire too much, yis?",
+			"dialog"			: "Но она слишком много играет с огнём, дя?",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
-			"dialog"			: "It makes us worry.",
+			"dialog"			: "Ето нас беспокоит.",
 		},
 	],
 	"comment_pickup_B_boiler"	: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-		"dialog"	: "Give her one of dis ones.",
+		"dialog"	: "Дай ей один из етих.",
 	},
 	"comment_pickup_B_boiler_I_boiler_maw"	: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_surprised"],
-		"dialog"	: "She will be safe if we're watching over her.",
+		"dialog"	: "Она будет в безопасности, если мы будем присматривать за ней.",
 	},
 	"confirm_pickup_B_boiler"		: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-		"dialog"	: "Dis one, yis?",
+		"dialog"	: "Етот, дя?",
 	},
 	"step1_bye_B_boiler" : [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_angry"],
-			"dialog"			: "Tell her to be more careful with fire, yis?",
+			"dialog"			: "Передай ей быть осторожнее с огнём, дя?",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
-			"dialog"			: "Is dangerous.",
+			"dialog"			: "Ето опасно.",
 		},
 	],
 	
@@ -99,67 +99,67 @@
 	"step1_response_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "Oh, we know what to do!",
+			"dialog"			: "О, мы знаем, что делать!",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_content"],
-			"dialog"			: "You should give her some food!",
+			"dialog"			: "Дай ей немного еды!",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
-			"dialog"			: "That would work on us.",
+			"dialog"			: "На нас бы это сработало.",
 		},
 	],
 	"step1_response_B_calorie_twins" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
-			"dialog"			: "Oh, her?",
+			"dialog"			: "О, она?",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "She's really cute!",
+			"dialog"			: "Она прямо милашка!",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_sad"],
-			"dialog"			: "We also attacked her, though.",
+			"dialog"			: "Тем не менее, мы тоже на неё напали.",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "We think giving them food might help.",
+			"dialog"			: "Нам кажется, если дадишь им еды, это поможет.",
 		},
 	],
 	"comment_pickup_B_calorie"	: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-		"dialog"	: "Just give her one of these.",
+		"dialog"	: "Просто дай ей один из них.",
 	},
 	"confirm_pickup_B_calorie"		: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
-		"dialog"	: "Does this one look good?",
+		"dialog"	: "Этот хорошо выглядит?",
 	},
 	"pickup_next_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_content"],
-			"dialog"			: "We think she's |wave|really cute,|norm| so let's give her another one.",
+			"dialog"			: "Нам кажется, она |wave|очень милая,|norm| так что давай дадим ей ещё один.",
 		},
 	],
 	"step1_bye_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "Don't worry, she's won't be mad at you.",
+			"dialog"			: "Не беспокойся, она не будет на тебя злиться.",
 		},
 	],
 	"step1_bye_B_calorie_twins" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_shocked"],
-			"dialog"			: "We almost forgot about her sister!",
+			"dialog"			: "Мы чуть не забыли о её сестре!",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_confused"],
-			"dialog"			: "We just can't stop thinking about her.",
+			"dialog"			: "Мы просто не можем перестать думать о ней.",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
-			"dialog"			: "Pretend we said that there's one for each of them, okay.",
+			"dialog"			: "Просто притворись, будто мы сказали, что каждой предназначается по одному, хорошо?",
 		},
 	],
 	
