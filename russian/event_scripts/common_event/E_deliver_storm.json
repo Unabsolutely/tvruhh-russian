@@ -8,66 +8,66 @@
 			"text_y"			: 180,
 			"text_w"			: 400,
 			"voice"				: "VOICE_default",
-			"dialog"			: "|C3|A little while later,|L|in a place nearby.",
+			"dialog"			: "|C3|Чуть позже,|L| в месте неподалёку.",
 		},
 		{
 			"dialog"			: "|C3|[VAL2] случайно повстречалась с монстром. Это была...",
 		},
 	],
 	
-	"my_name1"	: "Storm Veyaral",
-	"my_name2"	: "Stormy",
+	"my_name1"	: "Буревая Веераль",
+	"my_name2"	: "Бурька",
 	
 	"step1_ask_generic" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "Umm, hi [VAL1].|!||L|Are you busy?",
-			"dialog_rand2"		: "Excuse me, [VAL1]. I uhh, maybe need some help.",
-			"dialog_rand3"		: "Umm, [VAL1]? Can you help me with something?",
+			"dialog_rand1"		: "Эмм, привет, [VAL1].|!||L|Ты занята?",
+			"dialog_rand2"		: "Извини, [VAL1]. Мне, эээ, наверное, понадобится помощь.",
+			"dialog_rand3"		: "Эмм, [VAL1]? Можешь помочь мне кое с чем?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
 			"random"			: 3,
-			"dialog_rand1"		: "So, there's this Zaraden, and I need to apologize to her-",
-			"dialog_rand2"		: "I was kinda mean to this Zaraden, and I want to apologize to her.",
-			"dialog_rand3"		: "I need to make up for what I did to this Zaraden-",
+			"dialog_rand1"		: "Значит, есть одна Зарадена, и мне надо извиниться перед ней-",
+			"dialog_rand2"		: "Я поступила плохо с этой Зараденой, и мне хотелось бы извиниться перед ней.",
+			"dialog_rand3"		: "Мне нужно искупить то, что я сделала с этой Зараденой-",
 		},
 	],
 	"step1_ask_generic_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "Can you help me, [VAL1]?",
-			"dialog_rand2"		: "Excuse me, [VAL1]. I uhh, maybe need some help.",
-			"dialog_rand3"		: "Umm, [VAL1]? Can you help me with something?",
+			"dialog_rand1"		: "Можешь мне помочь, [VAL1]?",
+			"dialog_rand2"		: "Извини, [VAL1]. Мне, эээ, наверное, понадобится помощь.",
+			"dialog_rand3"		: "Эмм, [VAL1]? Можешь помочь мне кое с чем?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
 			"random"			: 2,
-			"dialog_rand1"		: "So, there was these two Zaraden-",
-			"dialog_rand2"		: "There's these Zaraden twins-",
+			"dialog_rand1"		: "Значит, тут были те две Зарадены-",
+			"dialog_rand2"		: "Эти Зарадены-близнецы-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I need to apologize to them.|L||!|Well, mostly the green one with the sunshine colored hair.",
+			"dialog"			: "Мне нужно извиниться перед ними.|L||!|Ну, в основном перед зелёной с волосами цвета солнышка.",
 		},
 	],
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "Thank you!|L||!|I'll take this to her right now.",
-			"dialog_rand2"		: "I'll make sure she gets this!",
-			"dialog_rand3"		: "I'm taking this to her right away!",
+			"dialog_rand1"		: "Спасибо тебе!|L||!|Я отнесу это ей прямо сейчас.",
+			"dialog_rand2"		: "Я удостоверюсь, что она получит это!",
+			"dialog_rand3"		: "Я доставлю ей это прямо сейчас!",
 		},
 	],
 	"step1_leave_generic_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "I'll make sure they gets this!",
-			"dialog_rand2"		: "I'm taking this to them right away!",
+			"dialog_rand1"		: "Я удостоверюсь, что они получат это!",
+			"dialog_rand2"		: "Я доставлю им это прямо сейчас!",
 		},
 	],
 	
@@ -75,19 +75,19 @@
 	"step1_ask_B_storm_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "What was that power she had?",
+			"dialog"			: "Что за сила у неё была?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|It felt so good.",
+			"dialog"			: "|wave|Это было так хорошо.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "And now I feel different.",
+			"dialog"			: "И теперь я чувствую себя по-другому.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_angry"],
-			"dialog"			: "What was I thinking, attacking her?",
+			"dialog"			: "И чем я вообще думала, нападая на неё?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -95,93 +95,93 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I should apologize to her.",
+			"dialog"			: "Мне надо извиниться.",
 		},
 	],
 	"step1_leave_B_storm_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I hope she can find it in her heart to forgive me.",
+			"dialog"			: "Надеюсь, она найдёт в своём сердце силы простить меня.",
 		},
 	],
 	"step1_leave_B_storm_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Her sister looked like she was ready to attack me too.",
+			"dialog"			: "Её сестра выглядела так, будто тоже готова напасть на меня.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I hope they can forgive me.",
+			"dialog"			: "Надеюсь, они смогут меня простить.",
 		},
 	],
 	
 	"step1_ask_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Hey [VAL1], do you know that Zaraden with the red eyes?",
+			"dialog"			: "А, [VAL1], ты знаишь эту Зарадену с красными глазами?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "We... know dis Zaraden.",
+			"dialog"			: "Мы... знаем эту Зарадену.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I kind of attacked her earlier, and-",
+			"dialog"			: "Я типа напала на неё ранее, и-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "[VAL1], are you alright?",
+			"dialog"			: "[VAL1], ты в порядке?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "Umm...",
+			"dialog"			: "Эмм...",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_despair"],
-			"dialog"			: "|shake|We don't know!|norm||!||L|Dis Zaraden makes us feel strange!",
+			"dialog"			: "|shake|Мы не знаем!|norm||!||L|От этой Зарадены мы чувствуим себя странно!",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-			"dialog"			: "She make us feel sad, and like we want... something?",
+			"dialog"			: "От неё нам грустно, и как будто мы хотим... чего-то?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Do you want    to give her something?",
+			"dialog"			: "Ты хочешь    дать ей что-то?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "Ya!    But we're afraid to do dis.",
+			"dialog"			: "Да!    Но нам страшно это сделать.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "How about I do it for you?",
+			"dialog"			: "А если я передам это за тебя?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "How does that sound?",
+			"dialog"			: "Как насчёт этого?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Okee!",
+			"dialog"			: "Оки!",
 		},
 	],
 	"step1_leave_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I'm going to tell her it's from you, okay?",
+			"dialog"			: "Я скажу ей, что это от тебя, окей?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "Umm... Ya, okee.",
+			"dialog"			: "Эмм... Да, оки.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I bet she's gunna love it.",
+			"dialog"			: "Спорим, ей понравится.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "We will go hide in dis corner forever, okee?",
+			"dialog"			: "Мы спрячимся в этом уголке навечно, оки?",
 		},
 	],
 	
@@ -192,156 +192,156 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "|shake|Umm,   miss Zaraden?",
-			"dialog_rand2"		: "|shake|H-Hello,    I was looking for you.",
-			"dialog_rand3"		: "|shake|You remember me,   right?",
+			"dialog_rand1"		: "|shake|Эмм,   мисс Зарадена?",
+			"dialog_rand2"		: "|shake|П-привет,    я тебя искала.",
+			"dialog_rand3"		: "|shake|Ты помнишь меня,   да?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|I'm sorry!",
+			"dialog"			: "|shake|Извини меня!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I should not have attacked you before.",
+			"dialog"			: "Я не должна была нападать на тебя ранее.",
 		},
 	],
 	"step2_intro_single" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "Umm, [VAL1] told me I should give you this.",
-			"dialog_rand2"		: "I brought you a gift.|L|Well it's really from [VAL1].",
-			"dialog_rand3"		: "[VAL1] thought giving you this might-   |L|I don't know.",
+			"dialog_rand1"		: "Эмм, [VAL1] сказала мне, что я должна отдать тебе это.",
+			"dialog_rand2"		: "Я принесла тебе дар.|L|Ну, на самом деле, его передаёт тебе [VAL1].",
+			"dialog_rand3"		: "[VAL1] подумала, что если дать тебе это, то-   |L|Я не знаю.",
 		},
 	],
 	"step2_intro_multi" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "[VAL1] wanted me to give these to you.",
-			"dialog_rand2"		: "I brought you some gifts.|L|Well [VAL1] told me to give them to you.",
-			"dialog_rand3"		: "[VAL1] said giving these to you would-    |L|I don't know.",
+			"dialog_rand1"		: "[VAL1] хотела, чтобы я отдала их тебе.",
+			"dialog_rand2"		: "Я принесла тебе дары.|L|Ну, на самом деле, [VAL1] сказала вам их отдать.",
+			"dialog_rand3"		: "[VAL1] подумала, что если дать вам эти дары, то-   |L|Я не знаю.",
 		},
 	],
 	"step2_intro_B_storm_veyeral" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "|shake|Umm,   miss Zaraden?",
+			"dialog"			: "|shake|Эмм,   мисс Зарадена?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I uhh,    brought you a gift.",
+			"dialog"			: "Я, ахх,    принесла тебе дар.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I just wanted to say-",
+			"dialog"			: "Я просто хотела сказать-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|I'm sorry for attacking you!",
+			"dialog"			: "|shake|Извини меня за то, что напала на тебя!",
 		},
 	],
 	"comment_delivery_single"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Please, take it.",
+		"dialog"	: "Пожалуйста, возьми его.",
 	},
 	"comment_delivery_multi"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-		"dialog"	: "These are all for you!",
+		"dialog"	: "Все они для теб!",
 	},
 	"step2_another_gift" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "The other one is for you too.",
+			"dialog"			: "Другой тоже для тебя.",
 		},
 	],
 	
 	"step2_leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "You still have to do something else for me.",
+			"dialog"			: "Ты всё ещё должна сделать ещё кое-что для меня.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "You have to tell [VAL1], \"I love you!\"|L||!|And also-",
+			"dialog"			: "[VAL1] должна услышать от тебя \"Я люблю тебя!\"|L||!|И ещё-",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я люблю тебя!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I'll see what I can do.",
+			"dialog"			: "Я посмотрю, что я смогу сделать.",
 		},
 	],
 	"step2_leave_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "Tell [VAL1] I said \"thank you!\"",
+			"dialog"			: "[VAL1]? Передай ей \"Спасибо!\"",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "So you forgive me?",
+			"dialog"			: "Так ты меня прощаешь?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "You are forgiven, my stormy sibling.",
+			"dialog"			: "Ты прощена, моя буревая сестра.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "You could not have known that your opponent would be |wave|perfect.",
+			"dialog"			: "Ты и не могла знать, что твой оппонент будет |wave|идеален.",
 		},
 	],
 	"step2_leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "More gifts from your girlfriends, Sunshine?",
+			"dialog"			: "Больше даров от твоих девушек, Солнышко?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
-			"dialog"			: "It's not like that.",
+			"dialog"			: "Это не так.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "We're not friends?",
+			"dialog"			: "Мы не друзья?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "|shake|No wait!|norm|    It IS like that.   I mean-",
+			"dialog"			: "|shake|Нет, погоди!|norm|    Это ТАК.   В смысле-",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|Greeny!",
+			"dialog"			: "|shake|Зелёнка!",
 		},
 	],
 	"step2_leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "There is nothing to apologize for, my stormy friend.",
+			"dialog"			: "Не за что извиняться, моя буревая подруга.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "The legends foretold of our great battle!",
+			"dialog"			: "Наша великая битва была предсказана в легендах!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Really?",
+			"dialog"			: "Правда?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
-			"dialog"			: "It was truly righteous, and there was nothing we could have done to prevent it.",
+			"dialog"			: "Она была воистину праведной, и ничего с этим нельзя было поделать.",
 		},
 	],
 	"step2_leave_default" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Do you forgive me?",
+			"dialog"			: "Ты простишь меня?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I'll take that as a yes.",
+			"dialog"			: "Я приму это за \"да\"",
 		},
 	],
 	
@@ -350,60 +350,60 @@
 	"step2_intro_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Miss Zaraden? Do you know a Shamble by the name of [VAL1]?",
+			"dialog"			: "Мисс Зарадена? Ты знаешь Осколок по имени [VAL1]?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "I do know her. Why?",
+			"dialog"			: "Я знаю её. А что?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She |wave|really|norm|    wanted to give these to you.",
+			"dialog"			: "Она |wave|очень|norm|    хотела отдать тебе их.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "For me, really?",
+			"dialog"			: "Для меня, и правда?",
 		},
 	],
 	"step2_leave_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "I'll have to thank [VAL1] later.",
+			"dialog"			: "[VAL1] выслушает от меня комплименты позже.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "But why didn't she bring these to me herself?",
+			"dialog"			: "Но почему она не принесла мне их сама?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Well,|norm|   I think-",
+			"dialog"			: "|wave|Ну,|norm|   я думаю-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "It's worse than I feared.|!||L|She was truly smitten by my perfect form.",
+			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I'll have to let her down gently.",
+			"dialog"			: "Придётся мягко ей отказать.",
 		},
 	],
 	
 	"step2_intro_B_boiler" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Umm,   [VAL1] wanted me to give this to you.",
+			"dialog"			: "Эмм,   [VAL1] хотела, чтобы я передал тебе это.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She worries about you, you know?",
+			"dialog"			: "Она о тебе беспокоится, ты знаешь?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Also, I just wanted to say-",
+			"dialog"			: "А ещё, я просто хотела сказать-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|I'm sorry for attacking you earlier!",
+			"dialog"			: "|shake|Извини меня за моё нападение ранее!",
 		},
 	],
 }
