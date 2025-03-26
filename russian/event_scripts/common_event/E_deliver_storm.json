@@ -118,7 +118,7 @@
 	"step1_ask_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "А, [VAL1], ты знаишь эту Зарадену с красными глазами?",
+			"dialog"			: "А, [VAL1], ты знаешь эту Зарадену с красными глазами?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
@@ -247,7 +247,7 @@
 	},
 	"comment_delivery_multi"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Все они для теб!",
+		"dialog"	: "Все они для тебя!",
 	},
 	"step2_another_gift" 	: [
 		{
@@ -330,7 +330,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
-			"dialog"			: "Она была воистину праведной, и ничего с этим нельзя было поделать.",
+			"dialog"			: "Битва была воистину праведной, её никак нельзя было предотвратить.",
 		},
 	],
 	"step2_leave_default" : [
@@ -362,7 +362,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "Для меня, и правда?",
+			"dialog"			: "Отдать мне, взаправду?",
 		},
 	],
 	"step2_leave_B_scrambla_defect" 	: [
@@ -391,7 +391,7 @@
 	"step2_intro_B_boiler" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Эмм,   [VAL1] хотела, чтобы я передал тебе это.",
+			"dialog"			: "Эмм,   [VAL1] хотела, чтобы я передала тебе это.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
@@ -403,7 +403,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|Извини меня за моё нападение ранее!",
+			"dialog"			: "|shake|Извини, что раннее напала на тебя!",
 		},
 	],
 }
