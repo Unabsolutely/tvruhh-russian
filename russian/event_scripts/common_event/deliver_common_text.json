@@ -53,7 +53,7 @@
 	"step1_bye_B_scrambla_twins" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Оки, обними их обоих за нас!",
+			"dialog"			: "Оки, обними их обеих за нас!",
 		},
 	],
 	
