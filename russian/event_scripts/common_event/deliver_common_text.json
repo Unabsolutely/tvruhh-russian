@@ -3,6 +3,15 @@
 	"monster_gifts"		: "Дары [VAL1]",
 	"delivery_gifts"	: "Доставка Даров",
 	
+	"comment_pickup_B_sandrome"	: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+		"dialog"	: "Зарадены любят дары.",
+	},
+	"confirm_pickup_B_sandrome"		: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+		"dialog"	: "Ей понравится этот?",
+	},
+	
 	"comment_pickup_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 		"dialog"	: "Интересно, понравится ли ей один из них.",
@@ -11,6 +20,7 @@
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 		"dialog"	: "Это и правда сработает?",
 	},
+	
 	
 	"step1_response_B_scrambla" : [
 		{
@@ -71,6 +81,10 @@
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
 			"dialog"			: "Ето нас беспокоит.",
 		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
+			"dialog"			: "Но ты должна дать ей ети дары.",
+		},
 	],
 	"comment_pickup_B_boiler"	: {
 		"character"	: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
@@ -94,7 +108,16 @@
 			"dialog"			: "Ето опасно.",
 		},
 	],
-	
+	"step1_bye_B_boiler_twins" : [
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_angry"],
+			"dialog"			: "Передай им быть осторожнее с огнём, дя?",
+		},
+		{
+			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_sad"],
+			"dialog"			: "Та, что с маленькими крылышками, беспокоит нас больше всего.",
+		},
+	],
 	
 	"step1_response_B_calorie" : [
 		{
@@ -113,7 +136,7 @@
 	"step1_response_B_calorie_twins" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
-			"dialog"			: "О, она?",
+			"dialog"			: "О, она? Мы видели её недавно.",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
@@ -125,7 +148,7 @@
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
-			"dialog"			: "Нам кажется, если дадишь им еды, это поможет.",
+			"dialog"			: "Нам кажется, если дадишь ей еды, это поможет.",
 		},
 	],
 	"comment_pickup_B_calorie"	: {
@@ -163,5 +186,34 @@
 		},
 	],
 	
+	"step1_response_B_rendy" : [
+		{
+			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
+			"dialog"			: "Привет, [VAL3]!",
+		},
+		{
+			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_normal"],
+			"dialog"			: "Не беспокойся, Рэнди всё рассчитала.",
+		},
+		{
+			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
+			"dialog"			: "Рэнди обнаружила, что Зарадевочкам нравится быть в клещах!",
+		},
+	],
+	"comment_pickup_B_rendy"	: {
+		"character"	: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
+		"dialog"	: "Рэнди знает, что хочется Зарадевочкам.",
+	},
+	"confirm_pickup_B_rendy"		: {
+		"character"	: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_normal"],
+		"dialog"	: "Ты хочешь отдать ей это?",
+	},
+	"step1_bye_B_rendy" : [
+		{
+			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
+			"dialog"			: "Это порадует Зарадевочек.|L|Уж поверь Рэнди!",
+		},
+	],
+
 
 }

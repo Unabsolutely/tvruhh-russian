@@ -15,8 +15,8 @@
 		},
 	],
 	
-	"my_name1"	: "Буревая Веераль",
-	"my_name2"	: "Бурька",
+	"my_name"	: "Буревая Веераль",
+	"my_nickname"	: "Бурька",
 	
 	"step1_ask_generic" : [
 		{
@@ -223,7 +223,8 @@
 			"dialog_rand3"		: "[VAL1] подумала, что если дать вам эти дары, то-   |L|Я не знаю.",
 		},
 	],
-	"step2_intro_B_storm_veyeral" 	: [
+	"step2_intro_B_storm_veyeral"		: "step2_intro_self",
+	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 			"dialog"			: "|shake|Эмм,   мисс Зарадена?",
@@ -238,7 +239,46 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|Извини меня за то, что напала на тебя!",
+			"dialog"			: "|shake|Извини за то, что напала на тебя!",
+		},
+	],
+	"step2_intro_B_boiler"				: "step2_intro_worry",
+	"step2_intro_B_amalga"				: "step2_intro_worry",
+	"step2_intro_worry" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Эмм,   [VAL1] хотела, чтобы я передала тебе это.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Она о тебе прям беспокоится, ты знаешь?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "А ещё, я просто хотела сказать-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|Извини, что раннее напала на тебя!",
+		},
+	],
+	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_crush" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Я всего лишь хотела    извиниться за нападение на тебя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Но я принесла кое что, что тебе понравится!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "[VAL1] |wave|очень|norm| хотела тебе передать их.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Она была |wave|очень, очень рада|norm|, когда говорила о тебе.",
 		},
 	],
 	"comment_delivery_single"	: {
@@ -347,6 +387,49 @@
 	
 	
 	
+	"step2_leave_B_storm_veyeral_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Ты не обязана была это делать.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Но я знаю, что тебе это было очень тяжело.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "О, это было так просто?",
+		},
+	],
+	"step2_leave_B_storm_veyeral_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Ты искала меня, просто чтобы извиниться?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Да?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "О,   ээ-|L||!|Не беспокойся?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "Я не знаю, что и сказать.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
+		},
+	],
+	
+	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
@@ -385,25 +468,6 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
 			"dialog"			: "Придётся мягко ей отказать.",
-		},
-	],
-	
-	"step2_intro_B_boiler" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Эмм,   [VAL1] хотела, чтобы я передала тебе это.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Она о тебе беспокоится, ты знаешь?",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "А ещё, я просто хотела сказать-",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|Извини, что раннее напала на тебя!",
 		},
 	],
 }
