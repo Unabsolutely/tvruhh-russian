@@ -35,7 +35,7 @@
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
 			"random"			: 2,
 			"dialog_rand1"		: "Зарадена предлагала мне дружбу, но я отплатила   |shake|жестокостью!",
-			"dialog_rand2"		: "Зарадена поделилась со мной люблением, но я знала только   |shake|резание!",
+			"dialog_rand2"		: "Зарадена поделилась со мной люблением, но я знала только   |shake|уколение!",
 		},
 	],
 	"step1_ask_generic_twins" : [
@@ -53,36 +53,36 @@
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
 			"random"			: 2,
 			"dialog_rand1"		: "Одна из Зараден предлагала мне дружбу, но я отплатила   |shake|жестокостью!",
-			"dialog_rand2"		: "Одна из Зараден поделилась со мной люблением, но я знала только   |shake|резание!",
+			"dialog_rand2"		: "Одна из Зараден поделилась со мной люблением, но я знала только   |shake|уколение!",
 		},
 	],
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
 			"random"			: 3,
-			"dialog_rand1"		: "This will be delivered most speedingly.",
-			"dialog_rand2"		: "This will give the Zaraden forgetfulness of my crimes.",
-			"dialog_rand3"		: "This will give the Zaraden forgivingness of my sins.",
+			"dialog_rand1"		: "Это будет доставленно максимально быстроенно.",
+			"dialog_rand2"		: "Это даст Зарадене забывчивость о моих преступлениях.",
+			"dialog_rand3"		: "Это даст Зарадене прощение моих прегрешений.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "There will be many complimentations.",
-			"dialog_rand2"		: "I'm expecting many adulations for me.",
-			"dialog_rand3"		: "The Zaraden will give many praisings to me.",
+			"dialog_rand1"		: "Будет много комплиментаций.",
+			"dialog_rand2"		: "Я ожидаю много лестности.",
+			"dialog_rand3"		: "Зарадена одарит меня большой хваленьбой.",
 		},
 	],
 	"step1_leave_generic_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "If this delivering can bring the forgivingness, then that means-",
+			"dialog"			: "Если это доставление сможет принести извипрощение, то это значит, что-",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "There will be many complimentations from both Zaradens.",
-			"dialog_rand2"		: "There will be great adulations from both Zaradens.",
-			"dialog_rand3"		: "There will be BIG praisings from both Zaradens.",
+			"dialog_rand1"		: "От обеих Зараден будет много комплиментаций.",
+			"dialog_rand2"		: "От обеих Зараден будет много лестности.",
+			"dialog_rand3"		: "От обеих Зараден будет БОЛЬШАЯ хваленьба.",
 		},
 	],
 	
@@ -90,15 +90,15 @@
 	"step1_ask_B_sandrome" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I'm feeling many complications.",
+			"dialog"			: "Я чувствую много осложнений.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "The Zaraden gave me the BIG happiness.",
+			"dialog"			: "Зарадена дала мне БОЛЬШОЕ счастье.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "But also many regretings for the violences I have done.",
+			"dialog"			: "Но также много раскажалений за причинённую мной жестокость.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
@@ -106,87 +106,87 @@
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "What is this?",
+			"dialog"			: "Что это?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "A lucky day for me!|L||!|One of these gifts will bring many forgivings.",
+			"dialog"			: "Это мой счастливый день!|L||!|Один из этих даров принесёт много прощений.",
 		},
 	],
 	"step1_leave_B_sandrome" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "The Zaraden will give many praisings and adulations for this!",
+			"dialog"			: "Зарадена даст мне много хваленьбы и лестности за это!",
 		},
 	],
 	
 	"step1_ask_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-			"dialog"			: "[VAL3], can you help us right now?",
+			"dialog"			: "[VAL3], можишь нам сейчас помочь?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "We want to give something to dis Zaraden.",
+			"dialog"			: "Мы ходим дать что-то этой Зарадене.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "She has da super pretty hair, and da super pretty face, and uh-",
+			"dialog"			: "У неё очень красивые волосы, и очень красивое личико, и э-",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "The red eyes?",
+			"dialog"			: "Красные глаза?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "Yis!",
+			"dialog"			: "Дя!",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "But we're afraid to give dis gifts to her.",
+			"dialog"			: "Но мы боимся дать эти дары ей.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "That Zaraden had many offerings of friendship-",
+			"dialog"			: "Эта Зарадена предлагала много дружбы-",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "But I paid only with the violence!",
+			"dialog"			: "Но я отплатила только жестокостью!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "There will be many punishmentations for me!",
+			"dialog"			: "О, множество караказаний мне!",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
-			"dialog"			: "No, dis Zaraden is not mad at you.",
+			"dialog"			: "Нет, эта Зарадена не злится на тибя.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "Give her our gifts and you will see.",
+			"dialog"			: "Дай ей наши дары, и ты увидишь.",
 		},
 	],
 	"step1_leave_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "Are you sure there will be forgivings?",
+			"dialog"			: "Ты уверена что будут прощения?",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "Yis! She is very nice!",
+			"dialog"			: "Дя! Она очень хорошая!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I see many heart explosionings coming from your floating eyes!",
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих парящих глаз!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Are you sick?",
+			"dialog"			: "|shake|Вы больны?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy_blush"],
-			"dialog"			: "We don't see dis?",
+			"dialog"			: "Мы не видим их?",
 		},
 	],
 	
@@ -197,54 +197,54 @@
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
 			"random"			: 3,
-			"dialog_rand1"		: "A special delivering for the Zaraden!",
-			"dialog_rand2"		: "I bring the deliverings of gifts!",
-			"dialog_rand3"		: "You will get many receivings today!",
+			"dialog_rand1"		: "Особая передоставка для Зарадены!",
+			"dialog_rand2"		: "Я несу передоставку с подарками!",
+			"dialog_rand3"		: "Сегодня вам доставится много получений!",
 		},
 	],
 	"step2_intro_single" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "[VAL1] was sending a gift to you!",
+			"dialog"			: "[VAL1] посылала тебе дар!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
 			"random"			: 2,
-			"dialog_rand1"		: "I have achieved the completioning of this quest.",
-			"dialog_rand2"		: "I was transportationing this gift for your mercy.",
+			"dialog_rand1"		: "Я достигла готовершения этой задачи.",
+			"dialog_rand2"		: "Я прозвела транспортощение этого дара ради твоей милости.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "You will forget my many stabbings, yes?",
+			"dialog"			: "Ты простишь множество моих уколений, да?",
 		},
 	],
 	"step2_intro_multi" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "[VAL1] was sending many gifts to you.",
+			"dialog"			: "[VAL1] посылала тебе много даров.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I was transportationing these gifts for your mercy.",
+			"dialog"			: "Я транспортощила эти дары ради твоей милости.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "You will forgive my many serrations, yes?",
+			"dialog"			: "Ты простишь множество моих зазубренностей, да?",
 		},
 	],
 	"step2_intro_B_sandrome"		: "step2_intro_self",
 	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "I am very sorry for the many attempted stabbings.",
+			"dialog"			: "Я очень извиняюсь за множество попыток уколений.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I bring the delivering of this gift to you!",
+			"dialog"			: "Я приношу тебе передоставку этого дара!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "There will be forgivingness for me, yes?",
+			"dialog"			: "Для меня будет извипрощение, да?",
 		},
 	],
 	"step2_intro_B_boiler"				: "step2_intro_worry",
@@ -252,161 +252,161 @@
 	"step2_intro_worry" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I bring deliverings of gifts from [VAL1]!",
+			"dialog"			: "Я приношу тебе дары от [VAL1]!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "She feels many concernings about you.",
+			"dialog"			: "Она очень озабоспокоится о тебе.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|shake|But I know you are very strong!",
+			"dialog"			: "|shake|Но я знаю, ты очень сильна!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "And you have forgivingness for anyone who gives you many stabbings, yes?",
+			"dialog"			: "И у тебя есть извипрощения для любого, кто даёт множество уколений, да?",
 		},
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "[VAL1] sends many gifts to you!",
+			"dialog"			: "[VAL1] посылает много даров тебе!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|I saw many heart explosionings from her eyes.",
+			"dialog"			: "|wave|Я увидела много взрывотонаций сердец от её глаз.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "I was feeling much concerning about it first.",
+			"dialog"			: "Я очень озаспокоилась об этом поначалу.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "But it seemed to bring her many happiness.",
+			"dialog"			: "Но это, видимо, приносило ей много радостей.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "Delivering this gift will bring forgivings for my past stabbings, yes?",
+			"dialog"			: "Доставка этого дара принесёт мне прощений за мои прошлые уколения, да?",
 		},
 	],
 	"comment_delivery_single"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-		"dialog"	: "For you!",
+		"dialog"	: "Для тебя!",
 	},
 	"comment_delivery_multi"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-		"dialog"	: "Take all your deliverings!",
+		"dialog"	: "Возьми всю нашу передоставку!",
 	},
 	"step2_another_gift" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "There is more!",
+			"dialog"			: "И вот ещё!",
 		},
 	],
 	
 	"step2_leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "You want me to forgive you?",
+			"dialog"			: "Ты хочешь, чтобы я простила тебя?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
-			"dialog"			: "But all you did was give me cuddles, and then run away.",
+			"dialog"			: "Но всё, что ты сделала - обняла меня и потом убежала.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "This is not the stabbings?",
+			"dialog"			: "Это не уколения?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "Oh, [VAL1], I love you.",
+			"dialog"			: "Ах, [VAL1], я люблю тебя.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "This must be the forgivings.",
+			"dialog"			: "Это, должно быть, прощения.",
 		},
 	],
 	"step2_leave_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "Tell [VAL1] I said, \"Thank you!\"",
+			"dialog"			: "[VAL1]? Передай ей \"Спасибо!\"",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "You have offered me forgivings?",
+			"dialog"			: "Ты предлагаешь мне прощения?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "From the most perfect Veyeral, to the world's longest hydrome.",
+			"dialog"			: "От самой идеальной Веерали - самому длинному гидрому в мире.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "You have been forgiven.",
+			"dialog"			: "Ты прощена.",
 		},
 	],
 	"step2_leave_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "Greeny, no!",
+			"dialog"			: "Зелёнка, нет!",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
-			"dialog"			: "Why not?",
+			"dialog"			: "Почему нет?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "We can't keep the giant worm!",
+			"dialog"			: "Мы не можем оставить мебе гигантского червя!",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad2"],
-			"dialog"			: "Just one ride then?",
+			"dialog"			: "Всего одну поездку?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "I am very good at transportationing.",
+			"dialog"			: "Я очень хороша в транспортощении.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "Don't encourage her.",
+			"dialog"			: "Не поощряй её.",
 		},
 	],
 	"step2_leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "You really want my forgiveness?",
+			"dialog"			: "Ты действительно хочешь моего прощения?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Easy! Join my band.",
+			"dialog"			: "Это просто! Присоединяйся к моей группе.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|shake|Yes!",
+			"dialog"			: "|shake|Да!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "But, how does a band?",
+			"dialog"			: "Но как есть группа?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Uhhh... You'll be the touring vehicle!",
+			"dialog"			: "Эмм... Ты будешь нашей машиной для гастролей!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "The rest of the band will ride on top of you as we |shake|conquer the world!",
+			"dialog"			: "Остальная группа будет ехать на тебе,  |shake|покоряя мир!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|shake|Yes!",
+			"dialog"			: "|shake|Да!",
 		},
 	],
 	"step2_leave_default" : [
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "I'll take that as a yes.",
+			"dialog"			: "Я приму это за да.",
 		},
 	],
 	
@@ -416,64 +416,64 @@
 	"step2_leave_B_sandrome_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "You came looking for me, just to apologize?",
+			"dialog"			: "Ты пришла искать меня, просто чтобы извиниться?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "I am begging for any forgivings.",
+			"dialog"			: "Я прошу хоть-каких прощений.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Oh,   uh-|L||!|Don't worry about it?",
+			"dialog"			: "О,   ээ-|L||!|Не беспокойся?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
-			"dialog"			: "I don't know what I'm supposed to say.",
+			"dialog"			: "Я не знаю, что и сказать.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "New feelings cause my darling Defect to malfunction.",
+			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
 		},
 	],
 	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I bring a very special delivering for the Zaraden!",
+			"dialog"			: "Я приношу очень особую передоставку Зарадене!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "Scramby was really really sending these gifts for you!",
+			"dialog"			: "Смятушка на самом самом деле послала эти дары тебе!",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "[VAL1] sent this to me?",
+			"dialog"			: "[VAL1] послала их мне?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "Yes, the very Shambles!",
+			"dialog"			: "Да, именно Осколки!",
 		},
 	],
 	"step2_leave_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "I'll have to thank [VAL1] later.",
+			"dialog"			: "Надо будет поблагодарить Смятку позже.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "But why didn't she bring these to me herself?",
+			"dialog"			: "Но почему она не доставила их мне сама?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|I have some knowings of the secret.",
+			"dialog"			: "|wave|У меня есть знаформация об этом секрете.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "It's worse than I feared.|!||L|She was truly smitten by my perfect form.",
+			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I'll have to let her down gently.",
+			"dialog"			: "Придётся мягко ей отказать.",
 		},
 	],
 }
