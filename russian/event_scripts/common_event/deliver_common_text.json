@@ -118,6 +118,39 @@
 			"dialog"			: "Та, что с маленькими крылышками, беспокоит нас больше всего.",
 		},
 	],
+
+	"comment_pickup_B_knot_knott"	: {
+		"character"	: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+		"dialog"	: "Дай ей один из вот этих.",
+	},
+	"confirm_pickup_B_knot_knott"		: {
+		"character"	: ["VOICE_knot", "CHAR_knot_right", "MOOD_normal"],
+		"dialog"	: "Вот этот?",
+	},
+	"pickup_next_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+			"dialog"			: "И, может, ещё один дар,    на всякий случай.",
+		},
+	],
+	"comment_pickup_B_knot_knott_2"	: {
+		"character"	: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+		"dialog"	: "Спорю, что ей наверняка понравится этот.",
+	},
+	"confirm_pickup_B_knot_knott_2"		: {
+		"character"	: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+		"dialog"	: "Вот этот, ты уверена?",
+	},
+	"step1_bye_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_normal"],
+			"dialog"			: "Это однозначно сработает.",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Доверься нам.",
+		},
+	],
 	
 	"step1_response_B_calorie" : [
 		{
@@ -212,6 +245,213 @@
 		{
 			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
 			"dialog"			: "Это порадует Зарадевочек.|L|Уж поверь Рэнди!",
+		},
+	],
+
+	"step1_response_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
+			"dialog"			: "Вы тоже сражаетесь с Зараденами?",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "У аз есть идея!",
+		},
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+			"dialog"			: "Аз любит фрукты, значит Зарадены тоже любят фрукты?",
+		},
+	],
+	"comment_pickup_B_lila"	: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+		"dialog"	: "Дам Зараденам еду.",
+	},
+	"confirm_pickup_B_lila"		: {
+		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
+		"dialog"	: "Вот это?",
+	},
+	"step1_bye_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
+			"dialog"			: "Скажи Зараденам, что аз просит пвощения.",
+		},
+	],
+	"step1_bye_eyeball_B_lila" : [
+		{
+			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
+			"dialog"			: "|wave|Аз следит за тобой!",
+		},
+	],
+	
+	
+	"step1_response_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "Тебе неприятно от того, что ты сделала, да?",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "Поверь мне. Тебе не о чем волноваться.",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_surprised"],
+			"dialog"			: "Но если тебе и правда настолько неприятно-",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_confused"],
+			"dialog"			: "Почему бы тебе не передать что-то ей?",
+		},
+	],
+	"comment_pickup_B_ombroah"	: {
+		"character"	: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+		"dialog"	: "Дай ей один из них.",
+	},
+	"confirm_pickup_B_ombroah"		: {
+		"character"	: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_normal"],
+		"dialog"	: "Это подойдёт?",
+	},
+	"step1_bye_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "Не волнуйся, она приятная душа.",
+		},
+	],
+	"step1_bye_B_ombroah_twins" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
+			"dialog"			: "Не волнуйся, у них обеих приятные души.",
+		},
+	],
+	"step1_bye_B_ombroah_devil" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_confused"],
+			"dialog"			: "Она может показаться страшной, и наверняка заставит тебя вступить в её группу, но-",
+		},
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "У неё и правда приятная душа.",
+		},
+	],
+	"step1_bye_unknown_B_ombroah" : [
+		{
+			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_content"],
+			"dialog"			: "Можешь звать меня [VAL1].",
+		},
+	],
+	
+	
+	"step1_response_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "|wave|Ага-ага!|norm||L||!|Сегодня Зарадена обстреляла меня любовью!",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_sad"],
+			"dialog"			: "Раньше я всегда пряталась.|L|Я никого не знала.|L|Я просто делала фотки издалека.",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_very_happy"],
+			"dialog"			: "Но теперь я не боюсь.|L||wave|И я буду твоей подругой!",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "Я знаю, что делать.",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "Да-да, мы принесём Зарадене ещё даров!",
+		},
+	],
+	"comment_pickup_B_photoxai"	: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+		"dialog"	: "Я сделала их для неё!",
+	},
+	"confirm_pickup_B_photoxai"		: {
+		"character"	: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_normal"],
+		"dialog"	: "Да-да?",
+	},
+	"pickup_next_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_surprised"],
+			"dialog"			: "Стой-стой, я сделала ещё.",
+		},
+	],
+	"step1_bye_unknown_B_photoxai" : [
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
+			"dialog"			: "Окей-окей, я буду называть тебя [VAL3]!",
+		},
+		{
+			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
+			"dialog"			: "Можешь называть меня [VAL1]!",
+		},
+	],
+	
+	
+	"comment_pickup_B_unit_lulu"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "Выберите любые из данных даров.",
+	},
+	"confirm_pickup_B_unit_lulu"	: {
+		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+		"dialog"	: "Примете ли Вы это?",
+	},
+	"step1_bye_unknown_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль интегрировала новую информацию.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль получила прозвище [VAL1].|L|Вы можете обращаться к ней так.",
+		},
+	],
+	
+	
+	"step1_response_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ха, она и с тобой встретилась?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Я тоже себя чувствовала не очень после этого.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+			"dialog"			: "А затем я поняла, что она приняла меня такой, какая я есть.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Даже со всем этим горением!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Если ты и правда хочешь извиниться, дай ей что-нибудь из этого.",
+		},
+	],
+	"comment_pickup_B_burning_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Выбирай любые из них.",
+	},
+	"confirm_pickup_B_burning_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Достаточно горячее?",
+	},
+	"step1_bye_unknown_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Моё имя легко запомнить.|L|Это [VAL1]!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Если учитывать всё моё |shake|горение!",
+		},
+	],
+	"step1_bye_eyeball_B_burning_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Глаз тебя видит!",
 		},
 	],
 

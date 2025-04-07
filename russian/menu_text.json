@@ -934,6 +934,7 @@
 		"soups_burden"		: "Супов с ношами съедено",
 		"delivery_pickups"	: "Даров принято",
 		"gifts_delivered"	: "Даров доставлено",
+		"unique_delivered"	: "Различных доставок совершено",
 		
 		"total_tetrids"		: "Всего тетридов собрано",
 		"total_green"		: "Зелёных тетридов",

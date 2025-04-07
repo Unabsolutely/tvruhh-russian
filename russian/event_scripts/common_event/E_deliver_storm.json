@@ -53,6 +53,27 @@
 			"dialog"			: "Мне нужно извиниться перед ними.|L||!|Ну, в основном перед зелёной с волосами цвета солнышка.",
 		},
 	],
+	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "Я знаю, что ты не знаешь меня, но выглядишь-",
+			"dialog_rand2"		: "Знаю, мы не знаем друг друга, но-",
+			"dialog_rand3"		: "Ты не знаешь меня, но похоже, что-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Ты встречалась сегодня с Зараденами?",
+			"dialog_rand2"		: "Проиграла ли ты сегодня битву с Зараденой?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Наверное, я былав ужасе от неё, но теперь-",
+		},
+	],
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -70,7 +91,27 @@
 			"dialog_rand2"		: "Я доставлю им это прямо сейчас!",
 		},
 	],
-	
+	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Спасибо тебе больше за это!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Было приятно с тобой встретиться.|L||!|Кстати, я - [VAL2].",
+		},
+	],
+	"step1_leave_B_lila"				: "step1_leave_eyeball",
+	"step1_leave_B_burning_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_eyeball" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Глаз тебя видит!",
+		},
+	],
 	
 	"step1_ask_B_storm_veyeral" : [
 		{
@@ -184,7 +225,71 @@
 			"dialog"			: "Мы спрячимся в этом уголке навечно, оки?",
 		},
 	],
+	"step1_ask_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_sad"],
+			"dialog"			: "Значит, ты правда хочешь, чтобы она простила тебя?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Да, я действительно хочу.",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_surprised"],
+			"dialog"			: "Тогда просто сделай то же, что и мы, когда сражаемся.",
+		},
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+			"dialog"			: "Тебе нужно будет принести ей дары.",
+		},
+	],
 	
+	"step1_ask_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль обнаружила монстра с очень низким уровнем страха.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Посетила ли Вас сегодня Зарадена?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Да, это так. Откуда ты знаешь?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Ты знаешь её?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Это возможно. Этот Модуль обучила нескольких Зараден Силе Любви.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Так вот что это было?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Это было прекрасное чувство.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Но теперь мне стыдно из-за своего поведения.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль предлагает решение, которое поможет избавиться от негативных эмоций.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Принесите Зарадене дар.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль собрала коллекцию даров для выбора.",
+		},
+	],
 	
 	
 	
@@ -348,7 +453,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "|shake|Нет, погоди!|norm|    Это ТАК.   В смысле-",
+			"dialog"			: "|shake|Нет, погоди!|norm|    Это ТАК.   |L|В смысле-",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],

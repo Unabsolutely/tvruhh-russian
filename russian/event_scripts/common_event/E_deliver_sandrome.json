@@ -56,6 +56,44 @@
 			"dialog_rand2"		: "Одна из Зараден поделилась со мной люблением, но я знала только   |shake|уколение!",
 		},
 	],
+
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_unknown" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Настроенность твоя показывает мне, что Зарадена передала тебе любление?",
+			"dialog_rand2"		: "Глазные яблоки мои наблюнаружили любление Зарадены на тебе.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"random"			: 2,
+			"dialog_rand1"		: "Зарадена предлагала мне дружбу, но я отплатила   |shake|жестокостью!",
+			"dialog_rand2"		: "Зарадена поделилась со мной люблением, но я знала только   |shake|уколение!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Ожидает ли меня множество расплатазаний?",
+		},
+	],
+	"step1_ask_B_burning_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_veyeral" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Множество счастий приносит встреча с Пустотным Глазом с любленым настроем!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "Выглядит всё так, будто Зарадена встретилась сегодня тебе?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"random"			: 2,
+			"dialog_rand1"		: "Зарадена предлагала мне дружбу, но я отплатила   |shake|жестокостью!",
+			"dialog_rand2"		: "Зарадена поделилась со мной люблением, но я знала только   |shake|уколение!",
+		},
+	],
+
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
@@ -83,6 +121,19 @@
 			"dialog_rand1"		: "От обеих Зараден будет много комплиментаций.",
 			"dialog_rand2"		: "От обеих Зараден будет много лестности.",
 			"dialog_rand3"		: "От обеих Зараден будет БОЛЬШАЯ хваленьба.",
+		},
+	],
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_burning_veyeral"		: "step1_leave_unknown",
+	"step1_leave_unknown" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Я должна предоставить множество благодарений за такое!|L|Встреченье с тобой принесло мне сегодня удачу!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "Я есть Страж, известная под именем [VAL2].",
 		},
 	],
 	
@@ -191,7 +242,59 @@
 	],
 	
 	
+	"step1_ask_B_knot_knott" : [
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_sad"],
+			"dialog"			: "IПохоже, ты и правда хочешь извиниться перед ней.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Ожидает ли меня множество расплатазаний?",
+		},
+		{
+			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
+			"dialog"			: "Не, она точно не способна на такое.|L||!|Но ты можешь сделать то же, что и мы после боя.",
+		},
+		{
+			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_happy"],
+			"dialog"			: "|wave|Принеси ей дары!",
+		},
+	],
 	
+	"step1_ask_B_unit_lulu" : [
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль обнаружила монстра с очень низким уровнем страха.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Посетила ли Вас сегодня Зарадена?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "Зарадена поделилась со мной люблением, но я знала только   |shake|уколение!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Ожидает ли меня множество расплатазаний?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль рассчитала, что вероятность подобного исхода составляет 0%.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Однако, Этот Модуль предлагает решение, которое поможет избавиться от негативных эмоций.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "|C3|Предложение:|C0| Принесите Зарадене дар.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Этот Модуль собрала коллекцию даров для выбора.",
+		},
+	],
 	
 	"step2_intro_generic" : [
 		{
@@ -320,7 +423,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "Ах, [VAL1], я люблю тебя.",
+			"dialog"			: "Ах, [VAL2], я люблю тебя.",
 		},
 		{
 			"love_hearts"		: 1,
