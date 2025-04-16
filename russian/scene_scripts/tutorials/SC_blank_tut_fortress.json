@@ -1,0 +1,63 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "This Unit must interrupt your current dream sequence with important information.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "This Unit will now explain the unique rules of a |C3|fortress battle.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Fortress battles|C0| are a special type of |C3|shy battle|C0| where you must navigate a monster's fortress.",
+		},
+		{
+			"show_tutorial"	: "combo_bar6",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Fortress monsters|C0| will hold your combo the same as any |C3|shy monster|C0| would, however there is a major difference.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Fortresses have many breakable traps and turrets with very high defenses, but very low mote yield.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "You may safetly allow these traps to leave the arena without losing your combo.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Your main goal will be to break the |C3|special minions|C0| that guard the fortress.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "These |C3|special minions|C0| will stand out in appearance from other breakable parts in the fortress.",
+		},
+		{
+			"show_tutorial"	: "combo_bar7",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "The combo will only drop if a |C3|special minion escapes without receiving love.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Suggestion:|C0| Look for this fortress monster's special minions, and do not allow any of them to escape.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "That is all the information on |C3|fortress battles|C0| that This Unit has for you.",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "This Unit is experiencing a sudden rise in temperature.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "There exists no fortress that can keep out this amount of love.",
+		}
+	]
+}
