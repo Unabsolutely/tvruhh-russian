@@ -434,7 +434,7 @@
 	],
 	
 	
-	],
+	
 
 	"step1_response_B_lila" : [
 		{
@@ -468,7 +468,7 @@
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
 			"dialog"			: "|wave|Аз следит за тобой!",
-	],
+	
 	
 	
 	"step1_response_unknown_B_photoxai" : [
