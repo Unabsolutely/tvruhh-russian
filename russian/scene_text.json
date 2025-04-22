@@ -96,8 +96,8 @@
 		"hint"		: "[hint_story_any]",
 	},
 	"SC_blank_tut_fortress" : {
-		"name"		: "Fortress Battles",
-		"desc"		: "The little robot explains the unique rules of a fortress battle.",
+		"name"		: "Битвы-Крепости",
+		"desc"		: "Маленький робот объясняет особые правила битв-Крепостей.",
 		"hint"		: "[hint_story_any]",
 	},	
 	

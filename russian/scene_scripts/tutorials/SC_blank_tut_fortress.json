@@ -5,59 +5,59 @@
 			"play_music"	: "tutorbot_scene_music",
 			"bg_image"		: "spr_tutorial_common",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "This Unit must interrupt your current dream sequence with important information.",
+			"dialog"		: "Этот Модуль должна прервать Ваш текущий сон, сообщив важную информацию.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "This Unit will now explain the unique rules of a |C3|fortress battle.|C0|",
+			"dialog"		: "Сейчас Этот Модуль объяснит Вам уникальные правила |C3|битвы-Крепости.|C0|",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Fortress battles|C0| are a special type of |C3|shy battle|C0| where you must navigate a monster's fortress.",
+			"dialog"		: "|C3|Битвы-Крепости|C0| - это особый вид |C3|робких битв|C0|, в котором Вы должны пройти через крепость монстра.",
 		},
 		{
 			"show_tutorial"	: "combo_bar6",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Fortress monsters|C0| will hold your combo the same as any |C3|shy monster|C0| would, however there is a major difference.",
+			"dialog"		: "|C3|Монстры-Крепости|C0| будут удерживать Ваше комбо так же, как и любой другой |C3|робкий монстр|C0|, но есть одно большое отличие.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Fortresses have many breakable traps and turrets with very high defenses, but very low mote yield.",
+			"dialog"		: "В крепостях много разрушаемых ловушек и турелей с крайне высокой защитой, но малым содержанием частиц.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "You may safetly allow these traps to leave the arena without losing your combo.",
+			"dialog"		: "Вы можете спокойно позволить этим ловушкам покинуть арену, не потеряв комбо.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Your main goal will be to break the |C3|special minions|C0| that guard the fortress.",
+			"dialog"		: "Вашей основной задачей будет разрушение |C3|особых приспешников|C0|, охраняющих крепость.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "These |C3|special minions|C0| will stand out in appearance from other breakable parts in the fortress.",
+			"dialog"		: "|C3|Особые приспешники|C0| будут выделяться внешним видом среди других разрушимых частей башни.",
 		},
 		{
 			"show_tutorial"	: "combo_bar7",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "The combo will only drop if a |C3|special minion escapes without receiving love.|C0|",
+			"dialog"		: "Комбо исчезнет, только если |C3|особый приспешник сбежит, не получив любви.|C0|",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Suggestion:|C0| Look for this fortress monster's special minions, and do not allow any of them to escape.",
+			"dialog"		: "|C3|Предложение:|C0| Следите за особыми приспешниками этого монстра-крепости и не позволяйте ни одному из них сбежать.",
 		},
 		{
 			"show_tutorial"	: "none",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "That is all the information on |C3|fortress battles|C0| that This Unit has for you.",
+			"dialog"		: "Это вся информация о |C3|битвах-Крепостях,|C0| которой располагает для Вас Этот Модуль.",
 		},
 		{
 			"love_hearts"	: 1,
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
-			"dialog"		: "This Unit is experiencing a sudden rise in temperature.",
+			"dialog"		: "У Этого Модуля наблюдается резкое повышение температуры.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
-			"dialog"		: "There exists no fortress that can keep out this amount of love.",
+			"dialog"		: "Не существует крепости, которая может сдержать такой напор любви.",
 		}
 	]
 }

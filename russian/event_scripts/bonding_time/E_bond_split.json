@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|Shake|Е-е-ей!|norm| Мы хотим играть!",
+			"dialog"			: "|shake|Е-е-ей!|norm| Мы хотим играть!",
 		},
 	],
 	
