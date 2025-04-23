@@ -303,7 +303,7 @@
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_confused"],
-			"dialog"			: "Мы просто не можем перестать думать о ней.",
+			"dialog"			: "Мы просто не можем перестать думать о Солнышке.",
 		},
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_aggressive"],
@@ -467,7 +467,7 @@
 	"step1_bye_eyeball_B_lila" : [
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
-			"dialog"			: "|wave|Аз следит за тобой!",
+			"dialog"			: "|wave|Аз видит вас!",
 	
 	
 	
@@ -846,6 +846,119 @@
 	],
 	
 	
+	"step1_response_B_pearl" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|(The flower wiggles excitedly as if she knows exactly what to do.)",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|(The vine extends further until the Zaranoid figure attached to the other end bursts out of the ground.)",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+			"dialog"			: "|C3|(She holds out a few gifts, and urges [VAL2] to take one.)",
+		},
+	],
+	"comment_pickup_B_pearl"	: {
+		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+		"dialog"	: "|C3|(Pearl holds out these gifts.)",
+	},
+	"confirm_pickup_B_pearl"		: {
+		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
+		"dialog"	: "|C3|(She stares expectantly.)",
+	},
+	"pickup_next_B_pearl" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|(She takes out even more gifts.)",
+		},
+	],
+	"step1_bye_B_pearl" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	
+	"step1_response_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "Was I da only one paying attention?",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "Big    Sister    loves    you.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "You just hafta give her da gifts if you feel sorry.",
+		},
+	],
+	"step1_response_B_kiwi_twins" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "Was I da only one paying attention?",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "Our    big    sisters    love    you.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "You just hafta give them da gifts if you feel sorry.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_aggressive"],
+			"dialog"			: "Give these to Sunshine, because she has da love powers!",
+		},
+	],
+	"step1_response_B_kiwi_devil" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+			"dialog"			: "Was I da only one paying attention?",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
+			"dialog"			: "Da    Devil    loves    you.",
+		},
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "You just hafta join her band and give her da gifts if you feel sorry.",
+		},
+	],
+	"comment_pickup_B_kiwi"	: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+		"dialog"	: "She will probably like our old toys.",
+	},
+	"pickup_next_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+			"dialog"			: "Oh wait, me and my little sisters made these for her too.",
+		},
+	],
+	"comment_pickup_B_kiwi_2"	: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
+		"dialog"	: "Can you guess which one I made?",
+	},
+	"confirm_pickup_B_kiwi"		: {
+		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
+		"dialog"	: "This one?",
+	},
+	"step1_bye_B_kiwi" : [
+		{
+			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_content"],
+			"dialog"			: "Okay [VAL3], but you hafta play Kiwi's Dungeon of Demise and Doom with us next time!",
+		},
+	],
+	
+	
 	"step1_response_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
@@ -1036,5 +1149,194 @@
 			"dialog"			: "|wave|Глаз тебя видит!",
 		},
 	],
-
+	
+	
+	"step1_response_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "You have it all wrong!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "She's not going to be mad at you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Just go back to her and you'll see.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "If you're still worried, you can bring her this gift.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It's a good excuse to see her again.|L||!|Lots of us do it!",
+		},
+	],
+	"step1_response_B_voltage_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "You have it all wrong!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "They're not going to be mad at you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Just go see them again and you'll see.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "If you're still worried, you can bring them a gift.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "A lot of us use these gifts as an excuse to go see them again.",
+		},
+	],
+	"comment_pickup_B_voltage_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Pick one of these.",
+	},
+	"confirm_pickup_B_voltage_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Is this bright enough?",
+	},
+	"step1_bye_unknown_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You can call me [VAL1]!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "We're not very creative.",
+		},
+	],
+	"step1_bye_eyeball_B_voltage_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Eye see you!",
+		},
+	],
+	
+	
+	"step1_response_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "Oh, her.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Do you know what she did to me?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|She made me feel loved!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "All of my stuff! |shake|All of it!|norm||L||!|It all tastes like garbage now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But,    she actually seems to like this junk.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "So, maybe I can let you take some of it to her.",
+		},
+	],
+	"comment_pickup_B_venom_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Take this out of my sight.",
+	},
+	"confirm_pickup_B_venom_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Would she really like this?",
+	},
+	"step1_bye_unknown_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I am [VAL1], but-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I don't know if that fits anymore.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I do still kinda like it.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
+			"dialog"			: "|shake|Ugh, I don't know anymore!",
+		},
+	],
+	"step1_bye_eyeball_B_venom_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Eye see you!",
+		},
+	],
+	
+	
+	"comment_pickup_B_emerald"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those feeling prideful shame.",
+	},
+	"confirm_pickup_B_emerald"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	"comment_pickup_B_ruby"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those that are content in frustration.",
+	},
+	"confirm_pickup_B_ruby"		: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	"comment_pickup_B_topaz"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those accepting denial.",
+	},
+	"confirm_pickup_B_topaz"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	"comment_pickup_B_sapphire"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those feeling calming anxiety.",
+	},
+	"confirm_pickup_B_sapphire"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	"comment_pickup_B_citrine"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those feeling confident insecurity.",
+	},
+	"confirm_pickup_B_citrine"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	"comment_pickup_B_amethyst"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "This Orb offers blessings from those that are belonging with loneliness.",
+	},
+	"confirm_pickup_B_amethyst"	: {
+		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+		"dialog"	: "Is this what you desire?",
+	},
+	
+	
+	"comment_pickup_B_anomaly"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|She is unaware of my presence, but I left these blessings along her path to facilitate a lovely interaction.",
+	},
+	"confirm_pickup_B_anomaly"	: {
+		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
+		"dialog"	: "|C3|Will this be her choice?",
+	},
 }

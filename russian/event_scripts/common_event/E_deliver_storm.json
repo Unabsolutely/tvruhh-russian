@@ -53,67 +53,9 @@
 			"dialog"			: "Мне нужно извиниться перед ними.|L||!|Ну, в основном перед зелёной с волосами цвета солнышка.",
 		},
 	],
-	"step1_ask_B_ombroah"				: "step1_ask_unknown",
-	"step1_ask_B_photoxai"				: "step1_ask_unknown",
-	"step1_ask_unknown" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"random"			: 3,
-			"dialog_rand1"		: "Я знаю, что ты не знаешь меня, но выглядишь-",
-			"dialog_rand2"		: "Знаю, мы не знаем друг друга, но-",
-			"dialog_rand3"		: "Ты не знаешь меня, но похоже, что-",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"random"			: 2,
-			"dialog_rand1"		: "Ты встречалась сегодня с Зараденами?",
-			"dialog_rand2"		: "Проиграла ли ты сегодня битву с Зараденой?",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Наверное, я былав ужасе от неё, но теперь-",
-		},
-	],
-	"step1_leave_generic" : [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"random"			: 3,
-			"dialog_rand1"		: "Спасибо тебе!|L||!|Я отнесу это ей прямо сейчас.",
-			"dialog_rand2"		: "Я удостоверюсь, что она получит это!",
-			"dialog_rand3"		: "Я доставлю ей это прямо сейчас!",
-		},
-	],
-	"step1_leave_generic_twins" : [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"random"			: 2,
-			"dialog_rand1"		: "Я удостоверюсь, что они получат это!",
-			"dialog_rand2"		: "Я доставлю им это прямо сейчас!",
-		},
-	],
-	"step1_leave_B_ombroah"				: "step1_leave_unknown",
-	"step1_leave_B_photoxai"			: "step1_leave_unknown",
-	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
-	"step1_leave_unknown" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Спасибо тебе больше за это!",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Было приятно с тобой встретиться.|L||!|Кстати, я - [VAL2].",
-		},
-	],
-	"step1_leave_B_lila"				: "step1_leave_eyeball",
-	"step1_leave_B_burning_veyeral"		: "step1_leave_eyeball",
-	"step1_leave_eyeball" 	: [
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "|wave|Глаз тебя видит!",
-		},
-	],
-	
-	"step1_ask_B_storm_veyeral" : [
+	"step1_ask_B_storm_veyeral"			: "step1_ask_self",
+	"step1_ask_B_anomaly"				: "step1_ask_self",
+	"step1_ask_self" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 			"dialog"			: "Что за сила у неё была?",
@@ -139,13 +81,134 @@
 			"dialog"			: "Мне надо извиниться.",
 		},
 	],
-	"step1_leave_B_storm_veyeral" : [
+	"step1_ask_B_photoxai"				: "step1_ask_unknown",
+	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_glacia"				: "step1_ask_unknown",
+	"step1_ask_B_pearl"					: "step1_ask_unknown",
+	"step1_ask_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"random"			: 3,
+			"dialog_rand1"		: "Я знаю, что ты не знаешь меня, но выглядишь-",
+			"dialog_rand2"		: "Знаю, мы не знаем друг друга, но-",
+			"dialog_rand3"		: "Ты не знаешь меня, но похоже, что-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"random"			: 2,
+			"dialog_rand1"		: "Ты встречалась сегодня с Зараденами?",
+			"dialog_rand2"		: "Проиграла ли ты сегодня битву с Зараденой?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Наверное, я была в ужасе от неё, но теперь-",
+		},
+	],
+	"step1_ask_B_emerald"				: "step1_ask_gem",
+	"step1_ask_B_ruby"					: "step1_ask_gem",
+	"step1_ask_B_topaz"					: "step1_ask_gem",
+	"step1_ask_B_sapphire"				: "step1_ask_gem",
+	"step1_ask_B_citrine"				: "step1_ask_gem",
+	"step1_ask_B_amethyst"				: "step1_ask_gem",
+	"step1_ask_gem" 	: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "Do not be afraid.",
+			"dialog_rand2"		: "Do not fear This Orb.",
+			"dialog_rand3"		: "Fear not The Orb before you.",
+			"dialog_rand4"		: "This Orb is not to be feared.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|Don't hurt me!",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "This Orb is only here to help you.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "You will deliver a blessing to the Zaraden who loved you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "How did you know about that?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "This One can feel strong emotional material within you.",
+		},
+	],
+	"step1_ask_B_emerald_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_ruby_devil"			: "step1_ask_gem_extra",
+	"step1_ask_B_topaz_twins"			: "step1_ask_gem_extra",
+	"step1_ask_B_citrine_blank"			: "step1_ask_gem_extra",
+	"step1_ask_B_amethyst_defect"		: "step1_ask_gem_extra",
+	"step1_ask_gem_extra" 	: [
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "This One can feel strong emotional material within you.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "You will deliver a blessing to the Zaraden who loved you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "But, how did you know about that?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "This Orb feels a strong resonance with the Zaraden that has shown love to you.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "You now carry that strong emotional material.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Is that good?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "It must be known that This One will have extra blessings to choose from.",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Choose your gift wisely.",
+		},
+	],
+	
+	
+	
+	"step1_leave_generic" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Спасибо тебе!|L||!|Я отнесу это ей прямо сейчас.",
+			"dialog_rand2"		: "Я удостоверюсь, что она получит это!",
+			"dialog_rand3"		: "Я доставлю ей это прямо сейчас!",
+		},
+	],
+	"step1_leave_generic_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "Я удостоверюсь, что они получат это!",
+			"dialog_rand2"		: "Я доставлю им это прямо сейчас!",
+		},
+	],
+	"step1_leave_B_storm_veyeral"		: "step1_leave_self",
+	"step1_leave_B_anomaly"				: "step1_leave_self",
+	"step1_leave_self" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 			"dialog"			: "Надеюсь, она найдёт в своём сердце силы простить меня.",
 		},
 	],
-	"step1_leave_B_storm_veyeral_twins" : [
+	"step1_leave_self_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 			"dialog"			: "Её сестра выглядела так, будто тоже готова напасть на меня.",
@@ -155,6 +218,73 @@
 			"dialog"			: "Надеюсь, они смогут меня простить.",
 		},
 	],
+	"step1_leave_B_amalga"				: "step1_leave_unknown",
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
+	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_null_unit"			: "step1_leave_unknown",
+	"step1_leave_B_prisma"				: "step1_leave_unknown",
+	"step1_leave_B_syncron"				: "step1_leave_unknown",
+	"step1_leave_B_flip_flap"			: "step1_leave_unknown",
+	"step1_leave_B_sentinel_4x"			: "step1_leave_unknown",
+	"step1_leave_B_glacia"				: "step1_leave_unknown",
+	"step1_leave_B_momo"				: "step1_leave_unknown",
+	"step1_leave_unknown" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Спасибо тебе больше за это!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Было приятно с тобой встретиться.|L||!|Кстати, я - [VAL2].",
+		},
+	],
+	"step1_leave_B_lila"				: "step1_leave_eyeball",
+	"step1_leave_B_split_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_burning_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_voltage_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_venom_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_frozen_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_vibrant_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_B_veyeral_rain"		: "step1_leave_eyeball",
+	"step1_leave_B_molten_veyeral"		: "step1_leave_eyeball",
+	"step1_leave_eyeball" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Глаз видит вас!",
+		},
+	],
+	"step1_leave_B_emerald"				: "step1_leave_gem",
+	"step1_leave_B_ruby"				: "step1_leave_gem",
+	"step1_leave_B_topaz"				: "step1_leave_gem",
+	"step1_leave_B_sapphire"			: "step1_leave_gem",
+	"step1_leave_B_citrine"				: "step1_leave_gem",
+	"step1_leave_B_amethyst"			: "step1_leave_gem",
+	"step1_leave_gem" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "What if she doesn't want to see me?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "You will deliver the blessing to the Zaraden, and then you will understand.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Uhh, okay. I'll try.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Umm, who are you?",
+		},
+		{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "The Orb before you is simply [VAL1],    The Orb before you.",
+		},
+	],
+	
+	
 	
 	"step1_ask_B_scrambla_defect" : [
 		{
@@ -225,6 +355,7 @@
 			"dialog"			: "Мы спрячимся в этом уголке навечно, оки?",
 		},
 	],
+	
 	"step1_ask_B_knot_knott" : [
 		{
 			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_sad"],
@@ -241,6 +372,120 @@
 		{
 			"character"			: ["VOICE_knott", "CHAR_knott_right", "MOOD_happy"],
 			"dialog"			: "Тебе нужно будет принести ей дары.",
+		},
+	],
+	
+	"step1_ask_B_amalga" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I know you don't know me, but I'm wondering-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "It seems like you met a Zaraden today?",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "You poor thing!",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "Are you okay? You look exhausted!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Well, I am sad about how I was behaving before.",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
+			"dialog"			: "Oh, the Zaraden forgives you, we are sure of this!",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
+			"dialog"			: "But she's always getting into fights, and it makes us worry.",
+		},
+		{
+			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
+			"dialog"			: "You should take her a gift, and you will see that she forgives you.",
+		},
+	],
+	
+	"step1_ask_B_heliola" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "You're not hiding today?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "No way, stardust!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
+			"dialog"			: "That time is so over!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "The world needs my starlight!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
+			"dialog"			: "It sure looks like you could use some starlight right now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I think I need to apologize to a Zaraden.",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
+			"dialog"			: "Oh, she got you too?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
+			"dialog"			: "Just give her this!",
+		},
+	],
+	"step1_ask_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
+			"dialog"			: "So, you met the twin Zaradens too?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
+			"dialog"			: "Oh. My. Stars. Did you see that Sunshine?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "|shake|I'm losing my mind.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Well, I was going to go apologize to her for my behavior.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Do you want me to take her something?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "Would you?!",
+		},
+	],
+	"step1_leave_B_heliola_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I'm going to tell her it's from you, okay?",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
+			"dialog"			: "Tell me what she says!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_pain"],
+			"dialog"			: "|shake|No, don't tell me!",
+		},
+		{
+			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
+			"dialog"			: "|shake|I'm losing my mind.",
 		},
 	],
 	
@@ -291,6 +536,238 @@
 		},
 	],
 	
+	"step1_ask_B_prisma" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "You're not going to try to kill me, are you?",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
+			"dialog"			: "This Unit has calculated no threat from this Voidling.",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "Many of This Unit's thought routines have been altered after an encounter with the Zaraden.",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
+			"dialog"			: "This Unit has detected a shared feeling of remorse between us.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Yeah, I also attacked her earlier.",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "This Unit has formulated a plan!",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
+			"dialog"			: "This Unit scanned all the simple gifts that the Zaraden had acquired today.",
+		},
+		{
+			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
+			"dialog"			: "Using your high energy output, it is possible to use the duplicator to create gifts for the Zaraden!",
+		},
+	],
+	
+	"step1_ask_B_sentinel_4x" : [
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
+			"dialog"			: "Halt. Voidling.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|Please don't hurt me!",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
+			"dialog"			: "This Unit does not want to hurt you.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_angry"],
+			"dialog"			: "As long as you survive her quiz.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|Wha?",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Question 1:|C0| Has a Zaraden shown love to you today?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Yeah? How did-",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "That is correct.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Question 2:|C0| Are you feeling remorse for your previous behavior?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Uh... I am.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "That is correct.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Question 3:|C0| Will you help This Unit deliver a gift to the Zaraden?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I can do that.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "That is correct.",
+		},
+		{
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Question 4:|C0| Out of all Rank 1 Bonus Gifts, which one would the Zaraden like the most?",
+		},
+	],
+	
+	"step1_ask_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_angry"],
+			"dialog"			: "Alright! I get it!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I'll take your gifts to her, okay?",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
+			"dialog"			: "|C3|(The flower wiggles very excitedly.)",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I still think you should do this yourself one day, but I'll help you out today.",
+		},
+	],
+	"step1_leave_B_pearl_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I'm going to tell her it's from you, [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Is that okay?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|(Upon hearing those words, Pearl's entire body goes limp as she falls unconscious with a smile on her face.)",
+		},
+	],
+	"step1_leave_B_pearl" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Thank you so much for this!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Oh, uh... What should I call you?",
+		},
+		{
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "|C3|(She scribbles |la||ris| in the dirt.)",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Okay [VAL1]! You can call me [VAL2]-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Oh, well you don't have to say it.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
+			"dialog"			: "...",
+		},
+	],
+	
+	"step1_ask_B_momo" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "What a beautiful dance.",
+		},
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "Intruder detected.|L|Time for murder.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
+			"dialog"			: "Down girls!",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "Sorry about that.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "You actually complimented my dance?|L|Something is different about you.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "Did you happen to meet a Zaraden today?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Yeah, I did.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
+			"dialog"			: "I know exactly what you are feeling.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "I was actually about to send these blossoms over to the Zaraden with a gift.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
+			"dialog"			: "But, maybe you should take it to her instead!",
+		},
+	],
+	
+	"step1_ask_B_split_veyeral_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "So, you met Blue Veyeral too?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Yeah, I did, but I kind of attacked her friend.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "We    did that too.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I feel really bad about it.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I know, let's give her a gift from our stash!",
+		},
+	],
+	
 	
 	
 	"step2_intro_generic" : [
@@ -329,6 +806,7 @@
 		},
 	],
 	"step2_intro_B_storm_veyeral"		: "step2_intro_self",
+	"step2_intro_B_anomaly"				: "step2_intro_self",
 	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -368,6 +846,7 @@
 		},
 	],
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -384,6 +863,28 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
 			"dialog"			: "Она была |wave|очень, очень рада|norm|, когда говорила о тебе.",
+		},
+	],
+	"step2_intro_B_pearl_twins" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I brought you something you're gunna like!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "[VAL1] |wave|really|norm| wanted me to give these to you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "She was |wave|really really happy|norm| when talking about you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Well not really talking, but-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I think you know how she is.",
 		},
 	],
 	"comment_delivery_single"	: {
@@ -489,10 +990,11 @@
 			"dialog"			: "Я приму это за \"да\"",
 		},
 	],
-	
-	
-	
-	"step2_leave_B_storm_veyeral_blank" 	: [
+	"step2_leave_B_storm_veyeral_blank"		: "step2_leave_self",
+	"step2_leave_B_storm_veyeral_defect"	: "step2_leave_self",
+	"step2_leave_B_anomaly_blank"			: "step2_leave_self",
+	"step2_leave_B_anomaly_defect"			: "step2_leave_self",
+	"step2_leave_self_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
 			"dialog"			: "Ты не обязана была это делать.",
@@ -511,7 +1013,7 @@
 			"dialog"			: "О, это было так просто?",
 		},
 	],
-	"step2_leave_B_storm_veyeral_defect" 	: [
+	"step2_leave_self_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
 			"dialog"			: "Ты искала меня, просто чтобы извиниться?",
@@ -531,6 +1033,31 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
 			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
+		},
+	],
+	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
+	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
+	"step2_leave_crush_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"dialog"			: "[VAL1] |wave|really really|norm| wanted Sunshine to have this?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|REALLY really really.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "Oh, |wave|really?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "What does that mean?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Probably nothing, Sunshine.",
 		},
 	],
 	
