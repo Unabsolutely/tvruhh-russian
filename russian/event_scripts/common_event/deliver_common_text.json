@@ -807,23 +807,23 @@
 	"step1_response_unknown_B_glacia" : [
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked"],
-			"dialog"			: "She found you too?",
+			"dialog"			: "Она тоже тебя нашла?",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
-			"dialog"			: "Whenever I fight with, uh... anyone, I always try to give them a gift.",
+			"dialog"			: "Когда я сражаюсь с, ммм... кем-либо, Я всега стараюсь поделиться с ними даром.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused_blush"],
-			"dialog"			: "I'm actually looking for a certain kind of gift right now.",
+			"dialog"			: "На самом деле сейчас я ищу дары особого типа.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_normal"],
-			"dialog"			: "But,   I do have something you could give to her.",
+			"dialog"			: "Но,   У меня есть кое-что ты могла бы передать ей.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
-			"dialog"			: "Although, it isn't much.",
+			"dialog"			: "Хотя, тут не так много.",
 		},
 	],
 	"comment_pickup_B_glacia"	: {
@@ -1224,49 +1224,49 @@
 	"step1_response_B_venom_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
-			"dialog"			: "Oh, her.",
+			"dialog"			: "А, это её.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Do you know what she did to me?",
+			"dialog"			: "Знаешь что она сделала со мной?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
-			"dialog"			: "|shake|She made me feel loved!",
+			"dialog"			: "|shake|Она заставила меня почувствовать себя любимой!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
-			"dialog"			: "All of my stuff! |shake|All of it!|norm||L||!|It all tastes like garbage now.",
+			"dialog"			: "Все мои вещи! |shake|Все они!|norm||L||!|Теперь на вкус как мусор.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But,    she actually seems to like this junk.",
+			"dialog"			: "Но,    ей на самом деле нравится этот мусор.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
-			"dialog"			: "So, maybe I can let you take some of it to her.",
+			"dialog"			: "Так что, mвозможно я позволю тебе взять немного для неё.",
 		},
 	],
 	"comment_pickup_B_venom_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Take this out of my sight.",
+		"dialog"	: "Убери это с глаза моего.",
 	},
 	"confirm_pickup_B_venom_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Would she really like this?",
+		"dialog"	: "Понравится ли ей это?",
 	},
 	"step1_bye_unknown_B_venom_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I am [VAL1], but-",
+			"dialog"			: "Я [VAL1], но-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I don't know if that fits anymore.",
+			"dialog"			: "Не думаю что это имя мне теперь подходит.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I do still kinda like it.",
+			"dialog"			: "Хотя мне всё ещё оно нравится.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
