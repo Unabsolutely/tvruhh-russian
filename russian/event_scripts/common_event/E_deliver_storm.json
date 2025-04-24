@@ -413,27 +413,27 @@
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "You're not hiding today?",
+			"dialog"			: "Не прячешься сегодня?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
-			"dialog"			: "No way, stardust!",
+			"dialog"			: "Ни в коем случае, звёздочка!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
-			"dialog"			: "That time is so over!",
+			"dialog"			: "Времени уже совсем нет!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "The world needs my starlight!",
+			"dialog"			: "Миру нужен мой звёздный свет!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
-			"dialog"			: "It sure looks like you could use some starlight right now.",
+			"dialog"			: "Точно так, будто бы сейчас тебе не помешало немного звёздного света.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I think I need to apologize to a Zaraden.",
+			"dialog"			: "Я думаю мне нужно извиниться перед зараденой.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
@@ -539,31 +539,31 @@
 	"step1_ask_B_prisma" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "You're not going to try to kill me, are you?",
+			"dialog"			: "Ты меня убьёшь, да?",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
-			"dialog"			: "This Unit has calculated no threat from this Voidling.",
+			"dialog"			: "Этот модуль не выявила угрозы от данного порождения бездны.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-			"dialog"			: "Many of This Unit's thought routines have been altered after an encounter with the Zaraden.",
+			"dialog"			: "Многие мыслительные процессы этого модуля изменились после встречи с Зараденой.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
-			"dialog"			: "This Unit has detected a shared feeling of remorse between us.",
+			"dialog"			: "Этот модуль обнаружила разделённое чувство скорби между нами.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Yeah, I also attacked her earlier.",
+			"dialog"			: "Да, Я тоже атаковала её раннее.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "This Unit has formulated a plan!",
+			"dialog"			: "Этот модуль сформулировала план!",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-			"dialog"			: "This Unit scanned all the simple gifts that the Zaraden had acquired today.",
+			"dialog"			: "Этот Модуль отсканировал все простые дары, которые Зарадена получила сегодня.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
@@ -574,66 +574,66 @@
 	"step1_ask_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "Halt. Voidling.",
+			"dialog"			: "Стоять. Порождение бездны.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|Please don't hurt me!",
+			"dialog"			: "|shake|Пожалуйста, не делай мне больно!",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "This Unit does not want to hurt you.",
+			"dialog"			: "Этот модуль не будет делать тебе больно.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_angry"],
-			"dialog"			: "As long as you survive her quiz.",
+			"dialog"			: "Если ты переживёшь её викторину.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|Wha?",
+			"dialog"			: "|shake|чё?",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Question 1:|C0| Has a Zaraden shown love to you today?",
+			"dialog"			: "|C3|Вопрос 1:|C0| получила ли ты сегодня любовь от Зарадены?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Yeah? How did-",
+			"dialog"			: "Да? Как ты-",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "That is correct.",
+			"dialog"			: "Правильный ответ.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Question 2:|C0| Are you feeling remorse for your previous behavior?",
+			"dialog"			: "|C3|Вопрос 2:|C0| Раскаиваешься ли ты за своё поведение?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Uh... I am.",
+			"dialog"			: "Эмм... ну да.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "That is correct.",
+			"dialog"			: "Правильный ответ.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Question 3:|C0| Will you help This Unit deliver a gift to the Zaraden?",
+			"dialog"			: "|C3|Вопрос 3:|C0| Поможешь ли ты этому модулю доставить Зарадене дар?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I can do that.",
+			"dialog"			: "Да, помогу.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "That is correct.",
+			"dialog"			: "Правильный ответ.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Question 4:|C0| Out of all Rank 1 Bonus Gifts, which one would the Zaraden like the most?",
+			"dialog"			: "|C3|Вопрос 4:|C0| Среди всех бонусных даров 1 ранга, какой больше всего понравится Зарадене?",
 		},
 	],
 	
@@ -705,50 +705,50 @@
 	"step1_ask_B_momo" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "What a beautiful dance.",
+			"dialog"			: "Какой красивый танец.",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "Intruder detected.|L|Time for murder.",
+			"dialog"			: "Обнаружен нарушитель.|L|Время убивать.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "Down girls!",
+			"dialog"			: "Назад девочки!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Sorry about that.",
+			"dialog"			: "Прости за них.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "You actually complimented my dance?|L|Something is different about you.",
+			"dialog"			: "Ты правда похвалила мой танец?|L|В тебе что-то изменилось.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Did you happen to meet a Zaraden today?",
+			"dialog"			: "Не повстречалась ли тебе сегодня Зарадена?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Yeah, I did.",
+			"dialog"			: "Да, мы виделись.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
-			"dialog"			: "I know exactly what you are feeling.",
+			"dialog"			: "Хорошо понимаю, что ты чувствуешь.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "I was actually about to send these blossoms over to the Zaraden with a gift.",
+			"dialog"			: "Я уже собиралась отправить эти цветы с дарами к Зарадене.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "But, maybe you should take it to her instead!",
+			"dialog"			: "Может ты возьмёшь его!",
 		},
 	],
 	
 	"step1_ask_B_split_veyeral_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "So, you met Blue Veyeral too?",
+			"dialog"			: "Так вы тоже встречали Синюю Веераль?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -868,19 +868,19 @@
 	"step2_intro_B_pearl_twins" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I brought you something you're gunna like!",
+			"dialog"			: "Я принесла тебе то, что тебе понравится!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "[VAL1] |wave|really|norm| wanted me to give these to you.",
+			"dialog"			: "[VAL1] |wave|очень|norm| хотела, чтобы я дала это тебе.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She was |wave|really really happy|norm| when talking about you.",
+			"dialog"			: "Она была |wave|очень-очень счастлива|norm|, когда говорила с тобой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Well not really talking, but-",
+			"dialog"			: "Не то чтобы говорила, но-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
