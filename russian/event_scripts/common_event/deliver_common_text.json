@@ -157,89 +157,89 @@
 	"step1_response_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "You met her too?",
+			"dialog"			: "Ты тоже её видела?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "She's so thin! Is anyone feeding her?",
+			"dialog"			: "Она такая худая! Её кто-нибудь кормит?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "She gets into a lot of fights too-",
+			"dialog"			: "И она постоянно попадает в драки-",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "We are so worried about her.",
+			"dialog"			: "Мы так о ней беспокоимся.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "If you're going to see her again, would you take one of these gifts to her?",
+			"dialog"			: "Если ты её ещё встретишь, можешь передать ей один из этих даров?",
 		},
 	],
 	"step1_response_B_amalga_twins" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "You met them too?",
+			"dialog"			: "Ты тоже их видела?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "They're so thin! Is anyone feeding them?",
+			"dialog"			: "Они такие худые! Их кто-нибудь кормит?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "They're always getting into fights with monsters, and it makes us worry.",
+			"dialog"			: "И она постоянно попадает в драки с монстрами, и мы беспокоимся.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "If you're going to see them again, would you bring them one of these gifts?",
+			"dialog"			: "Если ты их ещё встретишь, можешь передать ей один из этих даров?",
 		},
 	],
 	"comment_pickup_B_amalga"	: {
 		"character"	: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
-		"dialog"	: "Give her one of these.",
+		"dialog"	: "Дай её один из них.",
 	},
 	"confirm_pickup_B_amalga"		: {
 		"character"	: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_normal"],
-		"dialog"	: "Taking this one?",
+		"dialog"	: "Возьмёшь этот?",
 	},
 	"pickup_next_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "Wait.",
+			"dialog"			: "Погоди.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "Can you take another one, just in case?",
+			"dialog"			: "Можешь взять ещё один, на всякий случай?",
 		},
 	],
 	"step1_bye_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_angry"],
-			"dialog"			: "And tell her to be more careful, okay?",
+			"dialog"			: "И передай ей быть осторожнее, хорошо?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "She makes us worry!",
+			"dialog"			: "Мы беспокоимся!",
 		},
 	],
 	"step1_bye_B_amalga_twins" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_angry"],
-			"dialog"			: "Tell them to be more careful, okay?",
+			"dialog"			: "И передай им быть осторожнее, хорошо?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "Especially the one with little wings.",
+			"dialog"			: "Особенно той, с маленькими крылышками.",
 		},
 	],
 	"step1_bye_unknown_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
-			"dialog"			: "You can call us [VAL1].",
+			"dialog"			: "Наше имя - [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_content"],
-			"dialog"			: "And you be careful too, okay?",
+			"dialog"			: "И ты будь осторожнее, хорошо?",
 		},
 	],
 	
@@ -346,40 +346,40 @@
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "Her Highness hath deduced an encounter with her Treasurer of Dreams!",
-			"dialog_rand2"		: "Her Majesty hath deduced an encounter with her Somnific Accountant!",
-			"dialog_rand3"		: "Her Highness hath deduced an encounter with her Curator of Slumber!",
-			"dialog_rand4"		: "Her Majesty hath deduced an encounter with her Somnifacient Treasurer!",
+			"dialog_rand1"		: "Её Высочество произвела вердикт о встрече с Её Кладовщицей Снов!",
+			"dialog_rand2"		: "Её Величество роизвела вердикт о встрече с Её Счетоводом Грёз!",
+			"dialog_rand3"		: "Её Высочество произвела вердикт о встрече с Её Надзирателем Спячек!",
+			"dialog_rand4"		: "Её Величество произвела вердикт о встрече с Её Сонной Хранительницей!",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
-			"dialog"			: "Fear not my loyal subject, for I, Snowball The First, hath rendered a splendid arrangement.",
+			"dialog"			: "Не бойся, моя верноподданная, поскольку я, Снежка Первая, предоставляет сим великолепное поручение.",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
-			"dialog"			: "Thou shall accompany distinguished members of our royal army to the location of our most royal thermostat.",
+			"dialog"			: "Ты будешь сопровождать отличившихся членов нашей королевской армии до меcтоположения нашего благородного королевского термостата.",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
-			"dialog"			: "They shall spend the day in her service, and you shall receive her blessings for the escort.",
+			"dialog"			: "Они проведут день в её распоряжении, и сим сопровождением ты получишь её благословления.",
 		},
 	],
 	"comment_pickup_B_snowball"	: {
 		"character"	: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_angry"],
-		"dialog"	: "Our royal army is unmatched!",
+		"dialog"	: "Наша королевская армия бесподобна!",
 	},
 	"confirm_pickup_B_snowball"		: {
 		"character"	: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
-		"dialog"	: "Shall this be chosen?",
+		"dialog"	: "Сиё будет выбрано?",
 	},
 	"step1_bye_B_snowball" : [
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_normal"],
-			"dialog"			: "Her Highness hath no need for any adulations.",
+			"dialog"			: "Её Высочеству нет необходимости в восхвалении.",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
-			"dialog"			: "After all, it is imperative that Her Majesty tends to the needs of her many loyal subjects.",
+			"dialog"			: "В конце концов, крайне важно, чтобы Ее Величество заботилась о нуждах своих многочисленных верноподданных.",
 		},
 	],
 	
@@ -522,23 +522,23 @@
 	"step1_response_unknown_B_hematoren" : [
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
-			"dialog"			: "Ты говоришь о моей лучшей подруге!",
+			"dialog"			: "Ты говоришь о моей новой лучшей подруге!",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_confused"],
-			"dialog"			: "Ты правда думаешь она злится на тебя?",
+			"dialog"			: "Ты правда думаешь, она злится на тебя?",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_surprised"],
-			"dialog"			: "Понятия не имею.",
+			"dialog"			: "У меня есть идея.",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
-			"dialog"			: "Зарадене нравится, когда из неё вытекает немножко любовной жидкости.",
+			"dialog"			: "Зараденам нравится, когда из них вытекает немножко любовной жидкости.",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
-			"dialog"			: "Так что дай ей что-нибудь тонкое и острое!",
+			"dialog"			: "Так что дай ей что-нибудь колкое и острое!",
 		},
 	],
 	"comment_pickup_B_hematoren"	: {
@@ -556,7 +556,7 @@
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_aggressive"],
-			"dialog"			: "Дьяволу будто бы всё нипочём, но стоит ей увидеть немного сердечного сока, так она сразу же |wave|теряет силы.",
+			"dialog"			: "Дьявол будто бы всё нипочём, но стоит ей увидеть немного сердечного сока, так она сразу же |wave|теряет силы.",
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_surprised"],
@@ -564,7 +564,7 @@
 		},
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Лучше ещё дай ей.",
+			"dialog"			: "|wave|Лучше дай ей ещё и это.",
 		},
 	],
 	"step1_bye_unknown_B_hematoren" : [
@@ -578,7 +578,7 @@
 		},
 	],
 	
-		"step1_response_B_ombroah" : [
+	"step1_response_B_ombroah" : [
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
 			"dialog"			: "Тебе неприятно от того, что ты сделала, да?",
@@ -636,44 +636,44 @@
 	
 	"comment_pickup_B_heliola"	: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
-		"dialog"	: "What do you think she likes?",
+		"dialog"	: "Что, ты думаешь, ей нравится?",
 	},
 	"comment_pickup_B_heliola_I_sun_stone"	: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused_blush"],
-		"dialog"	: "I made that for her.",
+		"dialog"	: "Я сделала его для неё.",
 	},
 	"comment_pickup_B_heliola_I_heart_cookie"	: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-		"dialog"	: "I already took a bite.|L||wave|Would she think this is an indirect kiss?",
+		"dialog"	: "Я уже надкусила её.|L||wave|Подумает ли она, что это непрямой поцелуй?",
 	},
 	"confirm_pickup_B_heliola"		: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-		"dialog"	: "Will she like this?",
+		"dialog"	: "Ей понравится?",
 	},
 	"pickup_next_B_heliola_twins" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "|shake|Ah!|norm| One gift just isn't enough for her!",
+			"dialog"			: "|shake|Ах!|norm| Одного дара для неё недостаточно!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
-			"dialog"			: "I've got something else.",
+			"dialog"			: "У меня есть кое-что ещё.",
 		},
 	],
 	"step1_bye_B_heliola" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content"],
-			"dialog"			: "Trust me stardust, she could never be mad at you.",
+			"dialog"			: "Поверь мне, звёздочка, она не могла быть зла на тебя.",
 		},
 	],
 	"step1_bye_B_heliola_devil" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_aggressive"],
-			"dialog"			: "Trust me stardust, that Zaraden loves to battle with us.",
+			"dialog"			: "Поверь мне, звёздочка, этой Зарадене нравится с нами сражаться.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
-			"dialog"			: "You're probably already in her band, or whatever.",
+			"dialog"			: "Ты, наверное, уже в её группе, или как её там.",
 		},
 	],
 	
@@ -709,7 +709,7 @@
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-			"dialog"			: "Этот модуль просканировал все простые дары полученные сегодня Зараденой.",
+			"dialog"			: "Этот модуль просканировал все простые дары, полученные сегодня Зараденой.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
@@ -717,45 +717,45 @@
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-			"dialog"			: "The duplication device will now be prepared.",
+			"dialog"			: "Сейчас будет подготовлен дубликатор.",
 		},
 	],
 	"comment_pickup_B_prisma"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-		"dialog"	: "Choose a gift for This Unit to duplicate.",
+		"dialog"	: "Выберите дар, который скопирует Этот Модуль.",
 	},
 	"comment_pickup_B_prisma_BNS_karma_a"	: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_blush3"],
-		"dialog"	: "This blueprint scan seems to have failed.",
+		"dialog"	: "Этот чертёж, видимо, не был корректно скопирован.",
 	},
 	"confirm_pickup_B_prisma"		: {
 		"character"	: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-		"dialog"	: "Create this gift?",
+		"dialog"	: "Создать этот дар?",
 	},
 	"pickup_next_B_prisma" : [
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "There is still enough energy to duplicate another gift!",
+			"dialog"			: "Всё ещё достаточно энергии для копирования ещё одного дара!",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
-			"dialog"			: "The device will be prepared again.",
+			"dialog"			: "Устройство будет подготовлено снова.",
 		},
 	],
 	"step1_bye_B_prisma" : [
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "This Unit is happy to provide assistance.",
+			"dialog"			: "Этот Модуль рада предоставить помощь.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_blush2"],
-			"dialog"			: "This will also alleviate the guilt that This Unit had accumulated.",
+			"dialog"			: "Это также ослабит чувство вины, накопленное Этим Модулем.",
 		},
 	],
 	"step1_bye_unknown_B_prisma" : [
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "This Unit was assigned the title of Prisma.",
+			"dialog"			: "Имя, что было присвоено этому модулю - Призма.",
 		},
 	],
 	
@@ -763,43 +763,43 @@
 	"step1_response_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "This Unit has also raised her claws for violence today.",
+			"dialog"			: "Этот Модуль сегодня также подняла свои когти ради жестокости.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "However, This Unit has learned that Zaraden respond positively to receiving gifts.",
+			"dialog"			: "Однако, Этот Модуль узнала, что Зарадены положительно откликаются на получение даров.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "This Unit has a question for you.",
+			"dialog"			: "У Этого Модуля есть вопрос для тебя.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Question:|C0| Out of all Rank 1 Bonus Gifts, which one does the Zaraden like the most?",
+			"dialog"			: "|C3|Вопрос:|C0| Из всех бонусных даров 1 ранга, какой Зарадена любит больше всего?",
 		},
 	],
 	"comment_pickup_B_sentinel_4x"	: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "There is only one correct answer.",
+		"dialog"	: "Только один ответ - правильный.",
 	},
 	"confirm_pickup_B_sentinel_4x"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-		"dialog"	: "Is this your final answer?",
+		"dialog"	: "Это ващ окончательный ответ?",
 	},
 	"step1_bye_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
-			"dialog"			: "This Unit must confess that there was actually no correct answer.",
+			"dialog"			: "Этот Модуль должна признаться, что правильного ответа не было.",
 		},
 	],
 	"step1_bye_unknown_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "The full title of This Unit is Sentinel Model 4X.",
+			"dialog"			: "Полное наименование этого модуля - Дозорная Модели 4X.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "However, you may refer to This Unit simply as Sentinel.",
+			"dialog"			: "Однако вы можете обращаться к Этому Модулю просто \"Дозорная\".",
 		},
 	],
 	
@@ -811,7 +811,7 @@
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
-			"dialog"			: "Когда я сражаюсь с, ммм... кем-либо, Я всега стараюсь поделиться с ними даром.",
+			"dialog"			: "Когда я сражаюсь с, ммм... кем-либо, я всегда стараюсь поделиться с ними даром.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused_blush"],
@@ -819,7 +819,7 @@
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_normal"],
-			"dialog"			: "Но,   У меня есть кое-что ты могла бы передать ей.",
+			"dialog"			: "Но,   у меня есть кое-что, что ты могла бы передать ей.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
@@ -828,20 +828,20 @@
 	],
 	"comment_pickup_B_glacia"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
-		"dialog"	: "You think she would want one of these?",
+		"dialog"	: "Думаешь, ей понравится один из них?",
 	},
 	"confirm_pickup_B_glacia"		: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_normal"],
-		"dialog"	: "Would she like this?",
+		"dialog"	: "Ей понравится это?",
 	},
 	"step1_bye_unknown_B_glacia" : [
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_happy"],
-			"dialog"			: "You can call me [VAL1].",
+			"dialog"			: "[VAL1] - можешь звать меня так.",
 		},
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_very_happy"],
-			"dialog"			: "Can I call you [VAL3]?",
+			"dialog"			: "А можно я тебя буду называть \"[VAL3]\"?",
 		},
 	],
 	
@@ -849,11 +849,11 @@
 	"step1_response_B_pearl" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(The flower wiggles excitedly as if she knows exactly what to do.)",
+			"dialog"			: "|C3|(Цветок возбужденно покачивается, словно точно знает, что делать.)",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(The vine extends further until the Zaranoid figure attached to the other end bursts out of the ground.)",
+			"dialog"			: "|C3|(Лоза всё удлинняется, пока из-под земли не выпрыгивает Зараноидная фигура с другого конца лозы.)",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
@@ -861,21 +861,21 @@
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
-			"dialog"			: "|C3|(She holds out a few gifts, and urges [VAL2] to take one.)",
+			"dialog"			: "|C3|(Она протягивает несколько даров и настаивает, чтобы [VAL2] взяла один из них.)",
 		},
 	],
 	"comment_pickup_B_pearl"	: {
 		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
-		"dialog"	: "|C3|(Pearl holds out these gifts.)",
+		"dialog"	: "|C3|(Жемчужина протягивает дары.)",
 	},
 	"confirm_pickup_B_pearl"		: {
 		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
-		"dialog"	: "|C3|(She stares expectantly.)",
+		"dialog"	: "|C3|(Она смотрит выжидающе.)",
 	},
 	"pickup_next_B_pearl" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
-			"dialog"			: "|C3|(She takes out even more gifts.)",
+			"dialog"			: "|C3|(Она достаёт ещё больше даров.)",
 		},
 	],
 	"step1_bye_B_pearl" : [
@@ -890,71 +890,71 @@
 	"step1_response_B_kiwi" : [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-			"dialog"			: "Was I da only one paying attention?",
+			"dialog"			: "Я единс-ственная, кто обратила внимание?",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "Big    Sister    loves    you.",
+			"dialog"			: "Большая    Сестрица    любит    нас.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "You just hafta give her da gifts if you feel sorry.",
+			"dialog"			: "Тебе прос-сто надо дать ей дары, если чувствуешь себя виноватой.",
 		},
 	],
 	"step1_response_B_kiwi_twins" : [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-			"dialog"			: "Was I da only one paying attention?",
+			"dialog"			: "Я единс-ственная, кто обратила внимание?",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "Our    big    sisters    love    you.",
+			"dialog"			: "Наши    Большие    Сестрицы    любят    нас.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "You just hafta give them da gifts if you feel sorry.",
+			"dialog"			: "Тебе прос-сто надо дать им дары, если чувствуешь себя виноватой.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_aggressive"],
-			"dialog"			: "Give these to Sunshine, because she has da love powers!",
+			"dialog"			: "Дай их Солнышку, ведь у неё есть силы любви!",
 		},
 	],
 	"step1_response_B_kiwi_devil" : [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-			"dialog"			: "Was I da only one paying attention?",
+			"dialog"			: "Я единс-ственная, кто обратила внимание?",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "Da    Devil    loves    you.",
+			"dialog"			: "Дьявол    любит    нас.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "You just hafta join her band and give her da gifts if you feel sorry.",
+			"dialog"			: "Тебе прос-сто надо вступить в её группу и дать ей дары, если чувствуешь себя виноватой.",
 		},
 	],
 	"comment_pickup_B_kiwi"	: {
 		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-		"dialog"	: "She will probably like our old toys.",
+		"dialog"	: "Ей, наверное, понравятся наши старые игрушки.",
 	},
 	"pickup_next_B_kiwi" : [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "Oh wait, me and my little sisters made these for her too.",
+			"dialog"			: "Ах, погоди, я с моими малыми сестрицами сделали и их для неё.",
 		},
 	],
 	"comment_pickup_B_kiwi_2"	: {
 		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-		"dialog"	: "Can you guess which one I made?",
+		"dialog"	: "Угадаешь, какой сделала я?",
 	},
 	"confirm_pickup_B_kiwi"		: {
 		"character"	: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-		"dialog"	: "This one?",
+		"dialog"	: "Этот?",
 	},
 	"step1_bye_B_kiwi" : [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_content"],
-			"dialog"			: "Okay [VAL3], but you hafta play Kiwi's Dungeon of Demise and Doom with us next time!",
+			"dialog"			: "Хорошо, [VAL3], но в следующий раз ты должна сыграть с нами в Подземелье Погибели и Плача Киви!",
 		},
 	],
 	
@@ -962,67 +962,67 @@
 	"step1_response_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "I did the same thing!",
+			"dialog"			: "Я сделала то же самое!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
-			"dialog"			: "It was simply wilting of me.",
+			"dialog"			: "С моей стороны это было просто увядающе.",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "Many stabbing attempts were attempted.",
+			"dialog"			: "Было совершено много попыток уколов.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "I was just thinking about sending these blossoms over with a gift.",
+			"dialog"			: "Я думала послать цветки к ней с даром.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "But, maybe you should take it to her instead!",
+			"dialog"			: "Но, наверное, лучше вместо этого доставь их ты!",
 		},
 	],
 	"step1_response_B_momo_twins" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "I met them too!",
+			"dialog"			: "Я тоже их встретила!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_sad"],
-			"dialog"			: "And I reacted the same way.",
+			"dialog"			: "И отреагировала так же.",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "Our dance was most murderous.",
+			"dialog"			: "Наш танец был наиубийственным.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "I was just about to send these blossoms over with a gift.",
+			"dialog"			: "Я думала послать цветки к ней с даром.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "Why don't you take it to them instead?",
+			"dialog"			: "Почему бы вместо этого их не отнести тебе?",
 		},
 	],
 	"comment_pickup_B_momo"	: {
 		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-		"dialog"	: "Which of these do you think she would like most?",
+		"dialog"	: "Какой из них, ты думаешь, ей больше всего понравится?",
 	},
 	"confirm_pickup_B_momo"		: {
 		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
-		"dialog"	: "Is it this one?",
+		"dialog"	: "Этот?",
 	},
 	"step1_bye_unknown_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "I'm [VAL1], and all of these-",
+			"dialog"			: "Меня зовут [VAL1], а все они-",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "We are the Murder Blossoms.|L|We dance to kill.",
+			"dialog"			: "Мы - Убийственные Цветки.|L|Мы танцуем, чтобы убивать.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Yeah, that.",
+			"dialog"			: "Да, это.",
 		},
 	],
 	
@@ -1030,75 +1030,75 @@
 	"step1_response_B_split_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She's really nice though.|L|There's no way she's mad at you.",
+			"dialog"			: "Она же очень милая.|L|Она не может держать зла на тебя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|shake|Ya!|norm| She plays games with us!",
+			"dialog"			: "|shake|Да!|norm| Она играет с нами!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Give her a gift from our stash, and you'll see!",
+			"dialog"			: "Дай ей дар из наших закромов, и увидишь!",
 		},
 	],
 	"step1_response_unknown_B_split_veyeral_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Is she the one with Blue Veyeral?",
+			"dialog"			: "Это та, что с Синей Веералью?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She would never be mad at you.",
+			"dialog"			: "Она не может держать зла на тебя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|shake|Ya!|norm| She's the best Veyeral ever!",
+			"dialog"			: "|shake|Да!|norm| Она лучшая Веераль из всех!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "You should give Blue's Zaraden a gift from our stash.",
+			"dialog"			: "Ты должна дать Зарадене Синей дар из наших закромов.",
 		},
 	],
 	"step1_response_B_split_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "They're really nice though.",
+			"dialog"			: "Они очень милые.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|shake|Ya!|norm| They play games with us!",
+			"dialog"			: "|shake|Да!|norm| Они играют с нами!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Give them a gift from our stash, and you'll see!",
+			"dialog"			: "Дай ей дар из наших закромов, и увидишь!",
 		},
 	],
 	"comment_pickup_B_split_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Give her one of these!",
+		"dialog"	: "Дай ей один из них!",
 	},
 	"confirm_pickup_B_split_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Is this good?",
+		"dialog"	: "Этот подойдёт?",
 	},
 	"step1_bye_unknown_B_split_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We are all [VAL1]!",
+			"dialog"			: "Мы все - [VAL1]!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Play some games with us next time!",
+			"dialog"			: "|wave|Поиграй с нами в следующий раз!",
 		},
 	],
 	"step1_bye_eyeball_B_split_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видел вас!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видел вас!",
 		},
 	],
 	
@@ -1146,7 +1146,7 @@
 	"step1_bye_eyeball_B_burning_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Глаз тебя видит!",
+			"dialog"			: "|wave|Глаз видел вас!",
 		},
 	],
 	
@@ -1154,69 +1154,69 @@
 	"step1_response_B_voltage_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "You have it all wrong!",
+			"dialog"			: "Ты совершенно не права!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "She's not going to be mad at you.",
+			"dialog"			: "Она не будет на тебя злиться.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Just go back to her and you'll see.",
+			"dialog"			: "Просто вернись к ней и увидишь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "If you're still worried, you can bring her this gift.",
+			"dialog"			: "Если всё ещё волнуешься, можеть отдать ей этот дар.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It's a good excuse to see her again.|L||!|Lots of us do it!",
+			"dialog"			: "Это хороший повод увидеть её ещё раз.|L||!|Многие из нас так делают!",
 		},
 	],
 	"step1_response_B_voltage_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "You have it all wrong!",
+			"dialog"			: "Ты совершенно не права!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "They're not going to be mad at you.",
+			"dialog"			: "Они не будут на тебя злиться.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Just go see them again and you'll see.",
+			"dialog"			: "Просто вернись к ним и увидишь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-			"dialog"			: "If you're still worried, you can bring them a gift.",
+			"dialog"			: "Если всё ещё волнуешься, можеть отдать им этот дар.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "A lot of us use these gifts as an excuse to go see them again.",
+			"dialog"			: "Многие из нас исполльзуют эти дары как предлог встретиться с ними ещё раз.",
 		},
 	],
 	"comment_pickup_B_voltage_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Pick one of these.",
+		"dialog"	: "Выбери один.",
 	},
 	"confirm_pickup_B_voltage_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Is this bright enough?",
+		"dialog"	: "Он достаточно яркий?",
 	},
 	"step1_bye_unknown_B_voltage_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "You can call me [VAL1]!",
+			"dialog"			: "\"[VAL1]\" - так можешь меня звать!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "We're not very creative.",
+			"dialog"			: "Мы не очень оригинальны.",
 		},
 	],
 	"step1_bye_eyeball_B_voltage_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видел вас!",
 		},
 	],
 	
@@ -1228,7 +1228,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Знаешь что она сделала со мной?",
+			"dialog"			: "Знаешь, что она сделала со мной?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
@@ -1244,7 +1244,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Так что, mвозможно я позволю тебе взять немного для неё.",
+			"dialog"			: "Так что, возможно, я позволю тебе взять немного для неё.",
 		},
 	],
 	"comment_pickup_B_venom_veyeral"	: {
@@ -1262,7 +1262,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Не думаю что это имя мне теперь подходит.",
+			"dialog"			: "Не думаю, что это имя мне теперь подходит.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_normal"],
@@ -1270,73 +1270,73 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_angry"],
-			"dialog"			: "|shake|Ugh, I don't know anymore!",
+			"dialog"			: "|shake|Аргх, я даже и не знаю теперь!",
 		},
 	],
 	"step1_bye_eyeball_B_venom_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видел вас!",
 		},
 	],
 	
 	
 	"comment_pickup_B_emerald"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those feeling prideful shame.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что чувствуют гордый стыд.",
 	},
 	"confirm_pickup_B_emerald"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	"comment_pickup_B_ruby"		: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those that are content in frustration.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что удовлетворены фрустрацией.",
 	},
 	"confirm_pickup_B_ruby"		: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	"comment_pickup_B_topaz"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those accepting denial.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что принимают отрицание.",
 	},
 	"confirm_pickup_B_topaz"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	"comment_pickup_B_sapphire"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those feeling calming anxiety.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что чувствуют успокаювающую тревожность.",
 	},
 	"confirm_pickup_B_sapphire"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	"comment_pickup_B_citrine"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those feeling confident insecurity.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что чувствуют уверенную беззащитность.",
 	},
 	"confirm_pickup_B_citrine"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	"comment_pickup_B_amethyst"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "This Orb offers blessings from those that are belonging with loneliness.",
+		"dialog"	: "Эта Сфера предлагает благословления от тех, что принадлежны одиночеству.",
 	},
 	"confirm_pickup_B_amethyst"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-		"dialog"	: "Is this what you desire?",
+		"dialog"	: "Таково твоё желание?",
 	},
 	
 	
 	"comment_pickup_B_anomaly"	: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-		"dialog"	: "|C3|She is unaware of my presence, but I left these blessings along her path to facilitate a lovely interaction.",
+		"dialog"	: "|C3|Она не знает о моём присутствии, но я оставила эти благословения на её пути, чтобы поспособствовать приятному взаимодействию.",
 	},
 	"confirm_pickup_B_anomaly"	: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-		"dialog"	: "|C3|Will this be her choice?",
+		"dialog"	: "|C3|Таким будет её выбор?",
 	},
 }
