@@ -1061,7 +1061,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "|wave|Я тебя вижу.",
+			"dialog"			: "|wave|Глаз видел вас.",
 		},
 		{
 			"love_hearts"		: 1,
