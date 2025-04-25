@@ -115,30 +115,30 @@
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 			"random"			: 4,
-			"dialog_rand1"		: "Do not be afraid.",
-			"dialog_rand2"		: "Do not fear This Orb.",
-			"dialog_rand3"		: "Fear not The Orb before you.",
-			"dialog_rand4"		: "This Orb is not to be feared.",
+			"dialog_rand1"		: "Не бойся Меня.",
+			"dialog_rand2"		: "Не бойся Этой Сферы.",
+			"dialog_rand3"		: "Не страшись Этой Сферы перед собой.",
+			"dialog_rand4"		: "Этой Сферы не нужно бояться.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|Don't hurt me!",
+			"dialog"			: "|shake|Не делай мне больно!",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This Orb is only here to help you.",
+			"dialog"			: "Эта Сфера здесь, лишь чтобы помочь.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will deliver a blessing to the Zaraden who loved you.",
+			"dialog"			: "Ты доставишь благословление Зарадене, что полюбила тебя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "How did you know about that?",
+			"dialog"			: "Откуда ты об этом узнала?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This One can feel strong emotional material within you.",
+			"dialog"			: "Она чувствует сильный эмоциональный материал внутри тебя.",
 		},
 	],
 	"step1_ask_B_emerald_twins"			: "step1_ask_gem_extra",
@@ -149,35 +149,35 @@
 	"step1_ask_gem_extra" 	: [
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This One can feel strong emotional material within you.",
+			"dialog"			: "Она чувствует сильный эмоциональный материал внутри тебя.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will deliver a blessing to the Zaraden who loved you.",
+			"dialog"			: "Ты доставишь благословление Зарадене, что полюбила тебя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "But, how did you know about that?",
+			"dialog"			: "Но как ты об этом узнала?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This Orb feels a strong resonance with the Zaraden that has shown love to you.",
+			"dialog"			: "Эта Сфера испытывает сильный резонанс с Зараденой, что полюбила тебя.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You now carry that strong emotional material.",
+			"dialog"			: "Ты несёшь в себе этот сильный эмоциональный материал.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Is that good?",
+			"dialog"			: "Это хорошо?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "It must be known that This One will have extra blessings to choose from.",
+			"dialog"			: "Необходимо знать, что Она будет обладать дополнительными благословениями на выбор.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "Choose your gift wisely.",
+			"dialog"			: "Выбирай дар с умом.",
 		},
 	],
 	
@@ -264,23 +264,23 @@
 	"step1_leave_gem" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "What if she doesn't want to see me?",
+			"dialog"			: "А если ей не захочется меня видеть?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will deliver the blessing to the Zaraden, and then you will understand.",
+			"dialog"			: "Ты доставишь благословление Зарадене, и тогда ты поймёшь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Uhh, okay. I'll try.",
+			"dialog"			: "Ээм, хорошо. Я попробую.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Umm, who are you?",
+			"dialog"			: "Аааа, а кто ты?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "The Orb before you is simply [VAL1],    The Orb before you.",
+			"dialog"			: "Сфера пред тобой - просто [VAL1],    Сфера пред тобой.",
 		},
 	],
 	
@@ -378,35 +378,35 @@
 	"step1_ask_B_amalga" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I know you don't know me, but I'm wondering-",
+			"dialog"			: "Я знаю, ты меня не знаешь, но я тут думала-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "It seems like you met a Zaraden today?",
+			"dialog"			: "Мне кажется, ты встречала сегодня Зарадену?",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "You poor thing!",
+			"dialog"			: "Бедняжка!",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "Are you okay? You look exhausted!",
+			"dialog"			: "С тобой всё в порядке? Выглядишь измождённо!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Well, I am sad about how I was behaving before.",
+			"dialog"			: "Нууу, мне грустно за моё прошлое поведение.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_happy"],
-			"dialog"			: "Oh, the Zaraden forgives you, we are sure of this!",
+			"dialog"			: "О, Зарадена простит тебя, мы уверены!",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_sad"],
-			"dialog"			: "But she's always getting into fights, and it makes us worry.",
+			"dialog"			: "Но она вечно попадает в драки, и мы беспокоимся.",
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
-			"dialog"			: "You should take her a gift, and you will see that she forgives you.",
+			"dialog"			: "Тебе надо передать ей дар, и ты увидишь, что тебя простят.",
 		},
 	],
 	
@@ -421,7 +421,7 @@
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
-			"dialog"			: "Времени уже совсем нет!",
+			"dialog"			: "То время уже прошло!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
@@ -433,59 +433,59 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Я думаю мне нужно извиниться перед зараденой.",
+			"dialog"			: "Я думаю, мне нужно извиниться перед Зараденой.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
-			"dialog"			: "Oh, she got you too?",
+			"dialog"			: "О, она и тебя достала?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
-			"dialog"			: "Just give her this!",
+			"dialog"			: "Просто дай ей это!",
 		},
 	],
 	"step1_ask_B_heliola_twins" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_starstruck"],
-			"dialog"			: "So, you met the twin Zaradens too?",
+			"dialog"			: "Так ты тоже встретила близняшек Зараден?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "Oh. My. Stars. Did you see that Sunshine?",
+			"dialog"			: "О. Мои. Звёзды. Ты видела то Солнышко?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
-			"dialog"			: "|shake|I'm losing my mind.",
+			"dialog"			: "|shake|Я схожу с ума.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Well, I was going to go apologize to her for my behavior.",
+			"dialog"			: "Ну, я хотела пойти извиниться за моё поведение.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Do you want me to take her something?",
+			"dialog"			: "Хочешь ей что-то передать?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "Would you?!",
+			"dialog"			: "А ты передашь?!",
 		},
 	],
 	"step1_leave_B_heliola_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I'm going to tell her it's from you, okay?",
+			"dialog"			: "Я передам ей, что это от тебя, окей?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "Tell me what she says!",
+			"dialog"			: "Расскажи мне, что она ответит!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_pain"],
-			"dialog"			: "|shake|No, don't tell me!",
+			"dialog"			: "|shake|Нет, не говори мне!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
-			"dialog"			: "|shake|I'm losing my mind.",
+			"dialog"			: "|shake|Я сошла с ума.",
 		},
 	],
 	
@@ -532,7 +532,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Этот Модуль собрала коллекцию даров для выбора.",
+			"dialog"			: "Этот Модуль собрала коллекцию даров на выбор.",
 		},
 	],
 	
@@ -543,7 +543,7 @@
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
-			"dialog"			: "Этот модуль не выявила угрозы от данного порождения бездны.",
+			"dialog"			: "Этот модуль не выявила угрозы от данного порождения Пустоты.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_normal"],
@@ -555,7 +555,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Да, Я тоже атаковала её раннее.",
+			"dialog"			: "Да, Я тоже атаковала её ранее.",
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
@@ -567,14 +567,14 @@
 		},
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
-			"dialog"			: "Using your high energy output, it is possible to use the duplicator to create gifts for the Zaraden!",
+			"dialog"			: "Используя твоё высокое выделение энергии, возможно использовать дубликатор для создания даров для Зарадены!",
 		},
 	],
 	
 	"step1_ask_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "Стоять. Порождение бездны.",
+			"dialog"			: "Стоять. Порождение Пустоты.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -582,19 +582,19 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "Этот модуль не будет делать тебе больно.",
+			"dialog"			: "Этот Модуль не будет делать вам больно.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_angry"],
-			"dialog"			: "Если ты переживёшь её викторину.",
+			"dialog"			: "Если вы переживёте её викторину.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|чё?",
+			"dialog"			: "|shake|Чё?",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Вопрос 1:|C0| получила ли ты сегодня любовь от Зарадены?",
+			"dialog"			: "|C3|Вопрос 1:|C0| Получили ли вы сегодня любовь от Зарадены?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -607,7 +607,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Вопрос 2:|C0| Раскаиваешься ли ты за своё поведение?",
+			"dialog"			: "|C3|Вопрос 2:|C0| Раскаиваетесь ли вы за своё поведение?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -620,7 +620,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "|C3|Вопрос 3:|C0| Поможешь ли ты этому модулю доставить Зарадене дар?",
+			"dialog"			: "|C3|Вопрос 3:|C0| Поможете ли вы Этому Модулю доставить дар Зарадене?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -644,56 +644,56 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_angry"],
-			"dialog"			: "Alright! I get it!",
+			"dialog"			: "Хорошо! Я поняла!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I'll take your gifts to her, okay?",
+			"dialog"			: "Я передам ей твои дары, окей?",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(The flower wiggles very excitedly.)",
+			"dialog"			: "|C3|(Цветок очень возбуждённо покачивается.)",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I still think you should do this yourself one day, but I'll help you out today.",
+			"dialog"			: "Я всё ещё думаю, что однажды ты должна сделать это сама, но сегодня я тебе помогу.",
 		},
 	],
 	"step1_leave_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I'm going to tell her it's from you, [VAL1].",
+			"dialog"			: "Я скажу ей, что это от тебя, [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Is that okay?",
+			"dialog"			: "Это будет окей?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
-			"dialog"			: "|C3|(Upon hearing those words, Pearl's entire body goes limp as she falls unconscious with a smile on her face.)",
+			"dialog"			: "|C3|(Услышав это, Жемчужина обмякает и падает без сознания с улыбкой на лице.)",
 		},
 	],
 	"step1_leave_B_pearl" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Thank you so much for this!",
+			"dialog"			: "Спасибо тебе за это!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Oh, uh... What should I call you?",
+			"dialog"			: "А, э... Как мне тебя звать?",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
-			"dialog"			: "|C3|(She scribbles |la||ris| in the dirt.)",
+			"dialog"			: "|C3|(Она корябает |la||ris| в грязи.)",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Okay [VAL1]! You can call me [VAL2]-",
+			"dialog"			: "Окей, [VAL1]! Можешь называть меня  \"[VAL2]\"-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Oh, well you don't have to say it.",
+			"dialog"			: "Ой, можешь его не произносить.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -713,7 +713,7 @@
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "Назад девочки!",
+			"dialog"			: "Назад, девочки!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
@@ -737,34 +737,34 @@
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Я уже собиралась отправить эти цветы с дарами к Зарадене.",
+			"dialog"			: "Я уже собиралась отправить цветки с дарами к Зарадене.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
-			"dialog"			: "Может ты возьмёшь его!",
+			"dialog"			: "Но, наверное, лучше вместо этого доставь их ты!",
 		},
 	],
 	
 	"step1_ask_B_split_veyeral_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Так вы тоже встречали Синюю Веераль?",
+			"dialog"			: "Так ты тоже встретила Синюю Веераль?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Yeah, I did, but I kind of attacked her friend.",
+			"dialog"			: "Да, я встретила, но я типа напала на её подругу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
-			"dialog"			: "We    did that too.",
+			"dialog"			: "Мы    тоже так поступили.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I feel really bad about it.",
+			"dialog"			: "Из-за этого я чувствую себя ужасно.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I know, let's give her a gift from our stash!",
+			"dialog"			: "Знаю, давай дадим ей дар из наших закромов!",
 		},
 	],
 	
@@ -884,7 +884,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I think you know how she is.",
+			"dialog"			: "Ну, ты понимаешь, о чём я.",
 		},
 	],
 	"comment_delivery_single"	: {
@@ -1041,23 +1041,23 @@
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
-			"dialog"			: "[VAL1] |wave|really really|norm| wanted Sunshine to have this?",
+			"dialog"			: "[VAL1] |wave|прям-прям|norm| хотела, чтобы это было у Солнышка?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|REALLY really really.",
+			"dialog"			: "|wave|ПРЯМ-прям-прям.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "Oh, |wave|really?",
+			"dialog"			: "Ооо, |wave|прям так?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "What does that mean?",
+			"dialog"			: "Что всё это значит?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|Probably nothing, Sunshine.",
+			"dialog"			: "|wave|Да ничего, Солнышко.",
 		},
 	],
 	
