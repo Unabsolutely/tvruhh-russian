@@ -139,30 +139,30 @@
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 			"random"			: 4,
-			"dialog_rand1"		: "Do not be afraid.",
-			"dialog_rand2"		: "Do not fear This Orb.",
-			"dialog_rand3"		: "Fear not The Orb before you.",
-			"dialog_rand4"		: "This Orb is not to be feared.",
+			"dialog_rand1"		: "Не бойся Меня.",
+			"dialog_rand2"		: "Не бойся Этой Сферы.",
+			"dialog_rand3"		: "Не страшись Этой Сферы перед собой.",
+			"dialog_rand4"		: "Этой Сферы не нужно бояться.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|[VAL2] fears nothing!",
+			"dialog"			: "|shake|[VAL2] ничего не боится!",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "Is that so?",
+			"dialog"			: "Так ли это?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "Maybe [VAL2] was fearing of the loving    a little bit.",
+			"dialog"			: "Может, [VAL2] боялась любления    немножечко.",
+		},
+{
+			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
+			"dialog"			: "Она чувствует сильный эмоциональный материал внутри тебя.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This One can feel strong emotional material within you.",
-		},
-		{
-			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will deliver a blessing to the Zaraden who loved you.",
+			"dialog"			: "Ты доставишь благословление Зарадене, что полюбила тебя.",
 		},
 	],
 	"step1_ask_B_emerald_twins"			: "step1_ask_gem_extra",
@@ -173,35 +173,35 @@
 	"step1_ask_gem_extra" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "You have a questing for me?",
+			"dialog"			: "У вас есть работозадание для меня?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will deliver a blessing to the Zaraden who showed you love today.",
+			"dialog"			: "Ты доставишь благословление Зарадене, что полюбила тебя.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "I have the fearings for one thing only, and it is the Zaraden of loving.",
+			"dialog"			: "У меня есть страхобоязнь лишь одного, и это Зарадена любления.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "Deliver the blessing to the Zaraden, and then you will understand.",
+			"dialog"			: "Ты доставишь благословление Зарадене, и тогда ты поймёшь.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "I am accepting of this quest!",
+			"dialog"			: "Я соглапринимаю задание!",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "This Orb feels a strong resonance with the Zaraden that loved you.",
+			"dialog"			: "Ты несёшь в себе этот сильный эмоциональный материал.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "It must be known that This Orb will have extra blessings to choose from.",
+			"dialog"			: "Необходимо знать, что Она будет обладать дополнительными благословениями на выбор.",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "Choose your gift wisely.",
+			"dialog"			: "Выбирай дар с умом.",
 		},
 	],
 	
@@ -275,19 +275,19 @@
 	"step1_leave_gem" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "This delivering can bring the forgivingness for me?",
+			"dialog"			: "Это доставление сможет принести мне извипрощение?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You will only understand when the gift has been delivered.",
+			"dialog"			: "Ты поймёшь, только когда дар будет доставлен.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "Then what is the naming to who this gift is from?",
+			"dialog"			: "Тогда каково именование для той, от кого этот дар?",
 		},
 		{
 			"character"			: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
-			"dialog"			: "You may address This Orb as [VAL1].",
+			"dialog"			: "Ты можешь обращаться к Этой Сфере как к [VAL1].",
 		},
 	],
 	
@@ -384,111 +384,111 @@
 	"step1_leave_B_snowball" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "I must give many thankulations for this!",
+			"dialog"			: "Я должна дать много благодарений за это!",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_angry"],
-			"dialog"			: "Halt!|!||L|This simply will not do!",
+			"dialog"			: "Стоять!|!||L|Это просто неприемлемо!",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
-			"dialog"			: "Come now, we shall practice thine delivery speech.",
+			"dialog"			: "Давай, мы должны попрактиковать речь для сей доставки.",
 		},
 	],
 	
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "It is a wonderful day for seeing [VAL1] outside today!",
+			"dialog"			: "Сегодня чудесный день для видения Гелиолы снаружи!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
-			"dialog"			: "I'm done with all that hiding now!",
+			"dialog"			: "Я больше не буду прятаться!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "The world needs my starlight!",
+			"dialog"			: "Миру нужен мой звёздный свет!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_surprised"],
-			"dialog"			: "But are you okay, stardust?",
+			"dialog"			: "Но с тобой всё в порядке, звёздочка?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "Your vibenings show me that the same Zaraden has shared the loving to you?",
+			"dialog"			: "Твоё духостроение показывает мне, что тебя с тобой поделилась люблением та же Зарадена?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "I attempted many stabbings to her in return.",
+			"dialog"			: "Взамен я попыталась совершить много уколений.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_confused"],
-			"dialog"			: "Ah, you attacked her too, right?",
+			"dialog"			: "А, так ты тоже напала на неё, да?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
-			"dialog"			: "Just give her this!",
+			"dialog"			: "Просто дай ей это!",
 		},
 	],
 	"step1_ask_B_heliola_twins" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sad"],
-			"dialog"			: "You really think they could be mad at you?",
+			"dialog"			: "Ты действительно думаешь, что она зла на тебя?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "Sunshine just doesn't seem like the type.",
+			"dialog"			: "На Солнышко, мне кажется, это не похоже.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "My many stabbings are non-forgivingable.",
+			"dialog"			: "Мои множественные уколения не простиизвинтельны.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "But, your vibenings show me many feelings for the Sunshine.",
+			"dialog"			: "Но твоё духостроение показывает мне твои множественные чувства к Солнышку.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "Oh. My. Stars. Did you see her though?",
+			"dialog"			: "О. Мои. Звёзды. Ты её вообще видела?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "|shake|I'm losing my mind.",
+			"dialog"			: "|shake|Я схожу с ума.",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_awkward"],
-			"dialog"			: "I want to give her more gifts.",
+			"dialog"			: "Хочу дать ей ещё больше даров.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "Maybe I can transportation your gifts, and receive the forgivings from her?",
+			"dialog"			: "Может, я могу транспортировку твоих даров и получить от неё прощений?",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
-			"dialog"			: "Would you do that for me?",
+			"dialog"			: "Ты сделаешь это ради меня?",
 		},
 	],
 	"step1_leave_B_heliola_twins" : [
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle2"],
-			"dialog"			: "Tell me what she says when you give them to her!",
+			"dialog"			: "Расскажи мне, что она ответит, когда ты их отдашь!",
 		},
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_pain"],
-			"dialog"			: "|shake|No, don't tell me!",
+			"dialog"			: "|shake|Нет, не говори мне!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I see many heart explosionings coming from your eyes!",
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Are you sick?",
+			"dialog"			: "|shake|Ты больна?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_content_blush"],
-			"dialog"			: "|shake|Stop,|norm|   I'm freaking out enough as it is.",
+			"dialog"			: "|shake|Остановись,|norm|    я сошла с ума и так.",
 		},
 	],
 	
@@ -534,61 +534,61 @@
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "You have a questing for me?",
+			"dialog"			: "У тебя есть для меня работозадание?",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(The flower wiggles very excitedly.)",
+			"dialog"			: "|C3|(Цветок очень возбужденно покачивается.)",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "I am accepting of this quest and will deliverate these gifts!",
+			"dialog"			: "Я соглапринимаю это задание и перемедоставлю эти дары!",
 		},
 	],
 	"step1_leave_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "This is for the loving Zaraden with the sunshining hair, yes?",
+			"dialog"			: "Это для любящей Зарадены с солнышкиными волосами, да?",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
-			"dialog"			: "|C3|(Pearl nods her head frantically.)",
+			"dialog"			: "|C3|(Жемчужина бешено кивает головой.)",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I see many heart explosionings coming from your eyes!",
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Are you sick?",
+			"dialog"			: "|shake|Ты больна?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
-			"dialog"			: "|C3|(Pearl's entire body goes limp as she falls unconscious with a smile on her face.)",
+			"dialog"			: "|C3|(Всё тело Жемчужины обвисает, и она теряет сознание с улыбкой на лице.)",
 		},
 	],
 	
 	"step1_leave_B_momo" : [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|wave|Worm ride. Worm ride. Worm ride.",
+			"dialog"			: "|wave|Червепоездка. Червепоездка. Червепоездка.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "Get off of her!",
+			"dialog"			: "Слезайте с неё!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "But, I am very good at transportationing!",
+			"dialog"			: "Но я очень хороша в транспортощении!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "Well, if you're okay with it-",
+			"dialog"			: "Ну, если тебе нормально-",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "We shall return soon.",
+			"dialog"			: "Мы скоро вернёмся.",
 		},
 	],
 	
@@ -844,24 +844,24 @@
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_crush_twins" 	: [
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
-			"dialog"			: "[VAL1] had heart explosionings in her eyes, you say?",
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "[VAL1] испускала много взрывотонаций сердец из глаз, говоришь?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "There was many heart explosionings!",
+			"dialog"			: "Было много взрывотонаций сердец!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Too many!",
+			"dialog"			: "|shake|Слишком много!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "What does that mean?",
+			"dialog"			: "Что всё это значит?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|Probably nothing, Sunshine.",
+			"dialog"			: "|wave|Да ничего, Солнышко.",
 		},
 	],
 
@@ -910,185 +910,185 @@
 	"step2_intro_B_snowball_blank" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Thine specialty... deliverings to thou... from her majesties.",
+			"dialog"			: "|shake|Cии особенные... передоставки тебь... от её высочеств.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "Have you been talking to [VAL1]?",
+			"dialog"			: "Ты говорила со Снежкой?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "Yes, she was sending a gift to you.",
+			"dialog"			: "Да, она посылала тебе дар.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "I am very sorry for the many attempted stabbings.",
+			"dialog"			: "Я очень извиняюсь за множество попыток уколений.",
 		},
 	],
 	"step2_intro_B_snowball_defect" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Thine specialty... deliverings for thou... Princess of Void.",
+			"dialog"			: "|shake|Cии особенные... передоставки тебь... Принцесса Пустоты.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Did [VAL1] say that?",
+			"dialog"			: "Это [VAL1] сказала?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "Yes, she was sending a gift to you.",
+			"dialog"			: "Да, она посылала тебе дар.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "I am very sorry for the many attempted stabbings.",
+			"dialog"			: "Я очень извиняюсь за множество попыток уколений.",
 		},
 	],
 	"step2_intro_B_snowball_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Thine specialty... deliverings... for thou... royal cuddlings.",
+			"dialog"			: "|shake|Cии особенные... передоставки тебь... королевские обнимашки.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "Did [VAL1] tell you to say that?",
+			"dialog"			: "Это [VAL1] тебя такому научила?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|I hath most regretful... remorseful... and... uh.",
+			"dialog"			: "|shake|Я была наиболее сожалеющей... раскаивающейся... и... э...",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "Yes, you have discovering our secret.",
+			"dialog"			: "Да, ты нашлооткрыла наш секрет.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "She was sending a gift to both of you.",
+			"dialog"			: "Она посылала дар обеим из вас.",
 		},
 	],
 	"step2_intro_B_snowball_devil" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|She bringeth specialty... deliverings to thou...",
+			"dialog"			: "|shake|Она приносити специальные... передоставки тебь...",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "What did [VAL1] do to you?",
+			"dialog"			: "Что с тобой сделала [VAL1]?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|I hath most regretful... remorseful... and... uh.",
+			"dialog"			: "|shake|Я была наиболее сожалеющей... раскаивающейся... и... э...",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "Yes, it was [VAL1].",
+			"dialog"			: "Да, это была [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "She was sending a gift to you.",
+			"dialog"			: "Она посылала тебе дар.",
 		},
 	],
 	
 	"step2_intro_B_momo" 	: [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "Here we come.|L|Clear the way.|L|The gift arrives.",
+			"dialog"			: "Вот и мы.|L|Очистите путь.|L|Дар идёт.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I bring a special delivering for the Zaraden!",
+			"dialog"			: "Я приношу особую передоставку Зарадене!",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "[VAL1] sends her blessings.|L|A gift just for you.|L|There is no choice but acceptance.",
+			"dialog"			: "[VAL1] присылает свои благословления.|L|Дар только для тебя.|L|У тебя нет варианта не принять его.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "I was very good transportationing today!",
+			"dialog"			: "Сегодня я был очень хорошим транспортощением!",
 		},
 	],
 	"step2_leave_B_momo_blank" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "We must be returnifying to [VAL1] now.",
+			"dialog"			: "Мы должны уховозвратиться к [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "The time to leave is now.|L|We must return to where we dance.",
+			"dialog"			: "Время уходить.|L|Мы должны вернуться туда, где мы танцуем.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
-			"dialog"			: "Wait!",
+			"dialog"			: "Погоди!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я люблю вас!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Onward! Full speedingly!",
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
 		},
 	],
 	"step2_leave_B_momo_defect" 	: [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "The time to leave is now.|L|We must return to where we dance.",
+			"dialog"			: "Время уходить.|L|Мы должны вернуться туда, где мы танцуем.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Onward! Full speedingly!",
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "What the?",
+			"dialog"			: "Что?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
-			"dialog"			: "They know each other?",
+			"dialog"			: "Они знают друг друга?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "My gravity brings all kinds together.",
+			"dialog"			: "Моё притяжение сводит всех, самых разных, вместе.",
 		},
 	],
 	"step2_leave_B_momo_twins" 	: [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "The time to leave is now.|L|We must return to where we dance.",
+			"dialog"			: "Время уходить.|L|Мы должны вернуться туда, где мы танцуем.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I'll be right back!",
+			"dialog"			: "|wave|Я скоро вернусь!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
-			"dialog"			: "Greeny, don't get on the giant worm!",
+			"dialog"			: "Зелёнка, не лезь на гигантского червя!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Onward! Full speedingly!",
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content2"],
-			"dialog"			: "You better come right back.",
+			"dialog"			: "Лучше б тебе вернуться.",
 		},
 	],
 	"step2_leave_B_momo_devil" 	: [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "The time to leave is now.|L|We must return to where we dance.",
+			"dialog"			: "Время уходить.|L|Мы должны вернуться туда, где мы танцуем.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Onward! Full speedingly!",
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Righteous.",
+			"dialog"			: "Праведно.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "That is going to be my touring vehicle someday.",
+			"dialog"			: "Однажды она будет моей машиной для гастролей.",
 		},
 	],
 	

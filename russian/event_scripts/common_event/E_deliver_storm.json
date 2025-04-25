@@ -1040,7 +1040,7 @@
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
 	"step2_leave_crush_twins" 	: [
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "suspicious2"],
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
 			"dialog"			: "[VAL1] |wave|прям-прям|norm| хотела, чтобы это было у Солнышка?",
 		},
 		{
