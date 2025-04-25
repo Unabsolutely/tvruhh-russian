@@ -91,7 +91,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "Почему ты защищаешь |C3|порождение Пустоты?|C0|",
+			"dialog"			: "Почему Вы защищаете |C3|порождение Пустоты?|C0|",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
@@ -132,7 +132,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "Этот Модуль не хочет причинять тебе боль.",
+			"dialog"			: "Этот Модуль не хочет причинять Вам боль.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry1"],
@@ -182,7 +182,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "Ты не злишься на Этот Модуль?",
+			"dialog"			: "Вы не злитесь на Этот Модуль?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
@@ -202,7 +202,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
-			"dialog"			: "Ох... У Этого Модуля есть для тебя запрос.",
+			"dialog"			: "Ох... У Этого Модуля есть для Вас запрос.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
@@ -210,11 +210,11 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_confused"],
-			"dialog"			: "Этот Модуль желает сыграть с тобой в игру.",
+			"dialog"			: "Этот Модуль желает сыграть с вами в игру.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "Это простая игра.|L||!|Этот Модуль будет задавать тебе вопросы, а ты - отвечать на них.",
+			"dialog"			: "Это простая игра.|L||!|Этот Модуль будет задавать Вам вопросы, а Вы - отвечать на них.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
@@ -222,7 +222,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Этот Модуль вернётся к тебе, когда приготовит вопросы.",
+			"dialog"			: "Этот Модуль вернётся к Вам, когда приготовит вопросы.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],

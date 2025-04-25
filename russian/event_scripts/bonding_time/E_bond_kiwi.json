@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-			"dialog"			: "Мои младшие сестрёнки интересуются...|L|Хотите поиграть в нашем подземелье?",
+			"dialog"			: "Мои малые сестрицы интересуются...|L|Хотите поиграть в нашем подземелье?",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
@@ -20,7 +20,7 @@
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
-			"dialog"			: "Мои младшие сестрёнки интересуются...|L|Хотите поиграть в нашем подземелье?",
+			"dialog"			: "Мои малые сестрицы интересуются...|L|Хотите поиграть в нашем подземелье?",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
@@ -106,7 +106,7 @@
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "Мои младшие сестрёнки тоже нарисовали парочку из них.",
+			"dialog"			: "Мои малые сестрицы тоже нарисовали парочку из них.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
@@ -250,11 +250,11 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
-			"dialog"			: "Киви, теперь вы все наши младшие сестрёнки.",
+			"dialog"			: "Киви, теперь вы все наши малые сестрицы.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_content"],
-			"dialog"			: "|wave|Окей, Старшая сестра.",
+			"dialog"			: "|wave|Окей, Большая cестрица.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
@@ -282,7 +282,7 @@
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_happy"],
-			"dialog"			: "Мои младшие сестрёнки говорят, что наши новые старшие сёстры очень забавные.",
+			"dialog"			: "Мои малые сестрицы говорят, что наши новые большие cестрицы очень забавные.",
 		},
 	],
 	"talk_devil" 	: [
@@ -660,7 +660,7 @@
 	"to_another_gift" 		: [
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "Это от моей младшей сестрёнки.",
+			"dialog"			: "Это от моей малой сестрицы.",
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_normal"],
@@ -711,7 +711,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Я люблю тебя!|norm||L||!|Эй,  а нам можно называть тебя старшей сестрёнкой?",
+			"dialog"			: "|wave|Я люблю тебя!|norm||L||!|Эй,  а нам можно называть тебя большой сестрицей?",
 		},
 		{
 			"love_hearts"		: 1,
@@ -752,7 +752,7 @@
 		},
 		{
 			"character"			: ["VOICE_kiwi", "CHAR_kiwi_right", "MOOD_very_happy"],
-			"dialog"			: "Однажды она тебя поцелует, Старшая сестрёнка!",
+			"dialog"			: "Однажды она тебя поцелует, Большая сестрица!",
 		},
 		{
 			"love_hearts"		: 1,
