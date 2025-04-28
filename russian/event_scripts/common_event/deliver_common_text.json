@@ -152,6 +152,114 @@
 			"dialog"			: "|wave|Доверься нам.",
 		},
 	],
+
+	
+		"step1_response_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "You mean THAT cutie?",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "She's so easy to please.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+			"dialog"			: "Just give her something. It could be anything really.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "Let's see, what do we have around here?",
+		},
+	],
+	"step1_response_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "Oh my muses, are you talking about |shake|THAT     cutie?!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "|wave|She's so talented at painting.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "And her skin is like a blank canvas just waiting to be painted all over.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "|shake|Not that we would want to do that or anything.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+			"dialog"			: "We weren't supposed to let that much out.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Just give her one of these for us, okay?",
+		},
+	],
+	"comment_pickup_B_blot"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+		"dialog"	: "Give the gift of art!",
+	},
+	"comment_pickup_B_blot_I_blot_of_paint"	: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|We can spare a little piece of ourselves.",
+	},
+	"confirm_pickup_B_blot"		: {
+		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
+		"dialog"	: "You want this piece?",
+	},
+	"pickup_next_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "That cutie deserves much more than this!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Let's give her another one.",
+		},
+	],
+	"step1_bye_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Say hi to the cutie for us, alright cutie?",
+		},
+	],
+	"step1_bye_B_blot_blank" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "Just thinking about that cutie-",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
+			"dialog"			: "We just want to make sure she's happy.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
+			"dialog"			: "Don't mind us. We're going to go paint some angsty art about something unrelated.",
+		},
+	],
+	"step1_bye_B_blot_twins" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
+			"dialog"			: "Say hi to those cuties for us, alright cutie?",
+		},
+	],
+	"step1_bye_unknown_B_blot" : [
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
+			"dialog"			: "We are [VAL1]!",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "And you should know that we're probably going to paint you later.",
+		},
+		{
+			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
+			"dialog"			: "We hope that's alright, cutie!",
+		},
+	],
 	
 	
 	"step1_response_B_amalga" : [
@@ -311,6 +419,62 @@
 		},
 	],
 
+	
+		"step1_response_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "Didn't you notice that her vibes approach infinity from all sides?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "You have nothing to worry about.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+			"dialog"			: "But, we have a solution to both your problem, and my curiosity.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "We want to find out what elemental effect these gifts will have on the power of love.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
+			"dialog"			: "And you need an excuse to apologize, right?",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Then we'll just have you take one of these gifts to her.",
+		},
+	],
+	"comment_pickup_B_joule"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+		"dialog"	: "We wonder what this will do.",
+	},
+	"comment_pickup_B_joule_2"	: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+		"dialog"	: "Where are these coming from?",
+	},
+	"confirm_pickup_B_joule"		: {
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
+		"dialog"	: "Are you taking this one?",
+	},
+	"pickup_next_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+			"dialog"			: "We also keep finding these strange things everywhere.",
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
+			"dialog"			: "Let's give her one of these too.",
+		},
+	],
+	"step1_bye_B_joule" : [
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+			"dialog"			: "Oh, and make sure to record the data!",
+		},
+	],
+	
 	
 	"step1_response_B_rendy" : [
 		{
@@ -694,6 +858,58 @@
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"			: "Этот Модуль получила прозвище [VAL1].|L|Вы можете обращаться к ней так.",
+		},
+	],
+	
+	
+	"step1_response_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "I was totally floating there, minding my own business and being miserable.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Then that Zaraden totally ambushed me and made me feel all loved and junk.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Now I have to live like this too.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "All happy but also kinda like, guilty I guess.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "You should take some of my garbage to her as like, an apology from both of us, or whatever.",
+		},
+	],
+	"comment_pickup_B_null_unit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "I only have broken stuff and junk.",
+	},
+	"confirm_pickup_B_null_unit"	: {
+		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+		"dialog"	: "You like, taking that junk?",
+	},
+	"step1_bye_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "If you need me later, you know where to like, totally find me.|L||!|In the trash.",
+		},
+	],
+	"step1_bye_unknown_B_null_unit" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "I'm like, totally rebelling against the concept of labels and junk right now.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "So like, my name is null, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "[VAL1].|L||!|What a totally perfect label for me.",
 	},
 	],
 	
