@@ -875,6 +875,7 @@
 			"dialog"			: "Your vibenings are seeming conflicted.",
 		},
 	],
+	"step2_leave_crush_twins"     : [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
 			"dialog"			: "[VAL1] испускала много взрывотонаций сердец из глаз, говоришь?",
