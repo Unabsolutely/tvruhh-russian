@@ -671,6 +671,7 @@
 			"dialog"			: "И у тебя есть извипрощения для любого, кто даёт множество уколений, да?",
 		},
 	],
+	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
@@ -839,10 +840,41 @@
 			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
 		},
 	],
+	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
-	"step2_leave_crush_twins" 	: [
+	"step2_leave_crush_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "You saw hearts in her eyes?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "There was many heart explosionings!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
+			"dialog"			: "Oh [VAL1]...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "This is causing of sadness?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|Not at all.|norm||L|Love is a wonderful feeling, isn't it?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "I love you, [VAL2].",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "Your vibenings are seeming conflicted.",
+		},
+	],
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
 			"dialog"			: "[VAL1] испускала много взрывотонаций сердец из глаз, говоришь?",
