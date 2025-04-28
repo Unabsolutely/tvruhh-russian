@@ -81,6 +81,7 @@
 			"dialog"			: "Мне надо извиниться.",
 		},
 	],
+	"step1_ask_B_blot"					: "step1_ask_unknown",
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
@@ -218,6 +219,7 @@
 			"dialog"			: "Надеюсь, они смогут меня простить.",
 		},
 	],
+	"step1_leave_B_blot"				: "step1_leave_unknown",
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
@@ -536,6 +538,71 @@
 		},
 	],
 	
+		"step1_ask_B_null_unit" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "You wouldn't try to hurt me, would you?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "I like, totally don't do that kinda thing.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "But also, you're like    way to polite for a Voidling.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "She totally got you too, I bet.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "So you did meet the Zaraden!|L|I knew it!",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "You totally feel guilty about attacking her too, I bet.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|Can you read minds?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Nah. I just like, feel the same way.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "But, I think Zaraden take garbage as like an apology though.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Take some of my junk to her as a gift, or whatever.",
+		},
+	],
+	"step1_ask_B_null_unit_twins" : [
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "I can't believe we like, both attacked the same Zaradens today.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "But what should we do about it?",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "It's totally going to be fine.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "I think Zaraden take garbage as like, an apology, or whatever.",
+		},
+		{
+			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
+			"dialog"			: "Just take some of my junk to them as a gift.",
+		},
+	],
+	
 	"step1_ask_B_prisma" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -845,6 +912,7 @@
 			"dialog"			: "|shake|Извини, что раннее напала на тебя!",
 		},
 	],
+	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_crush" 	: [
@@ -1035,12 +1103,44 @@
 			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
 		},
 	],
+	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
+		"step2_leave_crush_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
+			"dialog"			: "When you say she \"really really\" seemed happy-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I'm just going to say it!|L|She has a crush on you!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
+			"dialog"			: "Oh [VAL1]...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I see...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "It seems you've made her a lot happier no matter what happens.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Thanks for saying that.|L|I love you, [VAL3].",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I think I speak for all of us when I say,   we love you too.",
+		},
+	],
 	"step2_leave_crush_twins" 	: [
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "Mood_suspicious2"],
 			"dialog"			: "[VAL1] |wave|прям-прям|norm| хотела, чтобы это было у Солнышка?",
 		},
 		{
