@@ -506,7 +506,7 @@
 		"run_score"			: "Текущий счёт",
 		"run_time"			: "Время битвы",
 		"best_score"		: "Лучший счёт",
-		"best_final_score"	: "Best Win Score",
+		"best_final_score"	: "Лучший счёт победы",
 		"best_time"			: "Лучшее время",
 		"run_karma"			: "Кармы заработано",
 		"run_level"			: "Максимальный уровень",
