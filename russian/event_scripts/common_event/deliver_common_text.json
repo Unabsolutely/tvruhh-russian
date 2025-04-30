@@ -154,110 +154,110 @@
 	],
 
 	
-		"step1_response_B_blot" : [
+	"step1_response_B_blot" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-			"dialog"			: "You mean THAT cutie?",
+			"dialog"			: "Ты про ЭТУ милашку?",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-			"dialog"			: "She's so easy to please.",
+			"dialog"			: "Её так легко порадовать.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
-			"dialog"			: "Just give her something. It could be anything really.",
+			"dialog"			: "Просто дай ей что-нибудь. Что угодно, на самом деле.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-			"dialog"			: "Let's see, what do we have around here?",
+			"dialog"			: "Давай посмотрим, что тут вокруг нас есть?",
 		},
 	],
 	"step1_response_B_blot_blank" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-			"dialog"			: "Oh my muses, are you talking about |shake|THAT     cutie?!",
+			"dialog"			: "О мои музы, ты говоришь о |shake|ТОЙ САМОЙ     милашке?!",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-			"dialog"			: "|wave|She's so talented at painting.",
+			"dialog"			: "|wave|Она такая талантливая художница.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-			"dialog"			: "And her skin is like a blank canvas just waiting to be painted all over.",
+			"dialog"			: "И её кожа словно чистый холст, что ждёт нанесения на него картины.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-			"dialog"			: "|shake|Not that we would want to do that or anything.",
+			"dialog"			: "|shake|Не то что бы нам хотелось сделать это, ни в коем разе.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
-			"dialog"			: "We weren't supposed to let that much out.",
+			"dialog"			: "Мы не должны были выпускать так много наружу.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-			"dialog"			: "Just give her one of these for us, okay?",
+			"dialog"			: "Просто отдай ей один из них за нас, ладно?",
 		},
 	],
 	"comment_pickup_B_blot"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-		"dialog"	: "Give the gift of art!",
+		"dialog"	: "Дай дар искусства!",
 	},
 	"comment_pickup_B_blot_I_blot_of_paint"	: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|We can spare a little piece of ourselves.",
+		"dialog"	: "|wave|Мы можем поделиться кусочком себя.",
 	},
 	"confirm_pickup_B_blot"		: {
 		"character"	: ["VOICE_blot", "CHAR_blot_right", "MOOD_normal"],
-		"dialog"	: "You want this piece?",
+		"dialog"	: "Хочешь это произведение?",
 	},
 	"pickup_next_B_blot_blank" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-			"dialog"			: "That cutie deserves much more than this!",
+			"dialog"			: "Эта милашка заслуживает намного большего!",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-			"dialog"			: "Let's give her another one.",
+			"dialog"			: "Давай дадим ей ещё один.",
 		},
 	],
 	"step1_bye_B_blot" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-			"dialog"			: "Say hi to the cutie for us, alright cutie?",
+			"dialog"			: "Передай привет милашке за нас, да, милашка?",
 		},
 	],
 	"step1_bye_B_blot_blank" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-			"dialog"			: "Just thinking about that cutie-",
+			"dialog"			: "Просто думая о этой милашке-",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_confused"],
-			"dialog"			: "We just want to make sure she's happy.",
+			"dialog"			: "Мы просто хотим быть уверены, что она счастлива.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_sad"],
-			"dialog"			: "Don't mind us. We're going to go paint some angsty art about something unrelated.",
+			"dialog"			: "Не обращай на нас внимания. Мы нарисуем что-то печальное и совершенно ни с чем не связанное.",
 		},
 	],
 	"step1_bye_B_blot_twins" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_very_happy"],
-			"dialog"			: "Say hi to those cuties for us, alright cutie?",
+			"dialog"			: "Передай привет милашкам за нас, да, милашка?",
 		},
 	],
 	"step1_bye_unknown_B_blot" : [
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_happy"],
-			"dialog"			: "We are [VAL1]!",
+			"dialog"			: "Мы - [VAL1]!",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-			"dialog"			: "And you should know that we're probably going to paint you later.",
+			"dialog"			: "И ты должна знать, что мы, наверное, нарисуем тебя позже.",
 		},
 		{
 			"character"			: ["VOICE_blot", "CHAR_blot_right", "MOOD_content"],
-			"dialog"			: "We hope that's alright, cutie!",
+			"dialog"			: "Мы надеемся, ты не против, милашка!",
 		},
 	],
 	
@@ -420,58 +420,58 @@
 	],
 
 	
-		"step1_response_B_joule" : [
+	"step1_response_B_joule" : [
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
-			"dialog"			: "Didn't you notice that her vibes approach infinity from all sides?",
+			"dialog"			: "Ты не заметила, что её настрой стремится к бесконечности со всех сторон?",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "You have nothing to worry about.",
+			"dialog"			: "Тебе не о чем беспокоиться.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
-			"dialog"			: "But, we have a solution to both your problem, and my curiosity.",
+			"dialog"			: "Но у нас есть решение и для твоей проблемы, и для нашего любопытства.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
-			"dialog"			: "We want to find out what elemental effect these gifts will have on the power of love.",
+			"dialog"			: "Мы хотим выяснить, как стихийный эффект этих даров повлияет на силу любви.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
-			"dialog"			: "And you need an excuse to apologize, right?",
+			"dialog"			: "И тебе нужен предлог, чтобы извиниться, да?",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "Then we'll just have you take one of these gifts to her.",
+			"dialog"			: "Тогда просто передай один из этих даров ей.",
 		},
 	],
 	"comment_pickup_B_joule"	: {
 		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
-		"dialog"	: "We wonder what this will do.",
+		"dialog"	: "Нам интересно, что сделает это.",
 	},
 	"comment_pickup_B_joule_2"	: {
 		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
-		"dialog"	: "Where are these coming from?",
+		"dialog"	: "Откуда все они?",
 	},
 	"confirm_pickup_B_joule"		: {
 		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_normal"],
-		"dialog"	: "Are you taking this one?",
+		"dialog"	: "Ты возьмёшь его?",
 	},
 	"pickup_next_B_joule" : [
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
-			"dialog"			: "We also keep finding these strange things everywhere.",
+			"dialog"			: "Кстати, мы также находим эти странные штуки повсюду.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "Let's give her one of these too.",
+			"dialog"			: "Давай отдадим ей ещё и один из них.",
 		},
 	],
 	"step1_bye_B_joule" : [
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
-			"dialog"			: "Oh, and make sure to record the data!",
+			"dialog"			: "О, и не забудь записать результаты!",
 		},
 	],
 	
@@ -865,52 +865,52 @@
 	"step1_response_B_null_unit" : [
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "I was totally floating there, minding my own business and being miserable.",
+			"dialog"			: "Я, типа, просто летала тут, занимаясь своими делами и, типа, в полной печали.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Then that Zaraden totally ambushed me and made me feel all loved and junk.",
+			"dialog"			: "Потом та Зарадена напала на меня из засады и заставила меня почувствовать меня любимой и всё такое.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Now I have to live like this too.",
+			"dialog"			: "И теперь мне с этим жить.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "All happy but also kinda like, guilty I guess.",
+			"dialog"			: "Счастливой, но, типа, виноватой.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "You should take some of my garbage to her as like, an apology from both of us, or whatever.",
+			"dialog"			: "Ты должна отдать ей что-нибудь из моего мусора как типа, извинение от нас обеих и всё такое.",
 		},
 	],
 	"comment_pickup_B_null_unit"	: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-		"dialog"	: "I only have broken stuff and junk.",
+		"dialog"	: "У меня только поломанное и мусор.",
 	},
 	"confirm_pickup_B_null_unit"	: {
 		"character"	: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-		"dialog"	: "You like, taking that junk?",
+		"dialog"	: "Ты, типа, возьмёшь этот мусор?",
 	},
 	"step1_bye_B_null_unit" : [
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "If you need me later, you know where to like, totally find me.|L||!|In the trash.",
+			"dialog"			: "Если тебе я потом потребуюсь, ты, типа, знаешь, где меня искать.|L||!|На свалке.",
 		},
 	],
 	"step1_bye_unknown_B_null_unit" : [
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "I'm like, totally rebelling against the concept of labels and junk right now.",
+			"dialog"			: "Я, типа, сейчас восстаю против концепции того, чтобы вешать ярлыки и всё такое.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "So like, my name is null, or whatever.",
+			"dialog"			: "Так что, типа, моё имя - нуль, или типа того.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "[VAL1].|L||!|What a totally perfect label for me.",
-	},
+			"dialog"			: "[VAL1].|L||!|Насколько идеальный ярлык для меня.",
+		},
 	],
 	
 	

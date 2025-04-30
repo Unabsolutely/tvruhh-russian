@@ -538,68 +538,68 @@
 		},
 	],
 	
-		"step1_ask_B_null_unit" : [
+	"step1_ask_B_null_unit" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "You wouldn't try to hurt me, would you?",
+			"dialog"			: "Ты не навредишь мне, да?",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "I like, totally don't do that kinda thing.",
+			"dialog"			: "Я, типа, совсем не делаю таких вещей.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "But also, you're like    way to polite for a Voidling.",
+			"dialog"			: "Но вообще, типа, ты    слишком вежлива для Порождения Пустоты.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "She totally got you too, I bet.",
+			"dialog"			: "Она, типа, и тебя достала, точняк.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "So you did meet the Zaraden!|L|I knew it!",
+			"dialog"			: "Так ты тоже встретила Зарадену!|L|Я так и знала!",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "You totally feel guilty about attacking her too, I bet.",
+			"dialog"			: "Ты прям чувствуешь себя, типа, виновной после атаки на неё.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|Can you read minds?",
+			"dialog"			: "|shake|Ты можешь читать мысли?",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Nah. I just like, feel the same way.",
+			"dialog"			: "Неа. Я просто типа, чувствую так же.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "But, I think Zaraden take garbage as like an apology though.",
+			"dialog"			: "Но, мне кажется, Зарадены принимают мусор в качестве извинений.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Take some of my junk to her as a gift, or whatever.",
+			"dialog"			: "Дай ей немного моего мусора как дар, или типа того.",
 		},
 	],
 	"step1_ask_B_null_unit_twins" : [
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "I can't believe we like, both attacked the same Zaradens today.",
+			"dialog"			: "Не могу поверить, что мы сегодня напали, типа, на одних и тех же Зараден.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "But what should we do about it?",
+			"dialog"			: "Но что мы должны делать с этим?",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "It's totally going to be fine.",
+			"dialog"			: "Всё, типа, будет в порядке.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "I think Zaraden take garbage as like, an apology, or whatever.",
+			"dialog"			: "Мне кажется, Зарадены принимают, типа, мусор в качестве извинений, или типа того.",
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_unit_right", "MOOD_normal"],
-			"dialog"			: "Just take some of my junk to them as a gift.",
+			"dialog"			: "Просто дай им немного моего мусора как дар.",
 		},
 	],
 	
@@ -1107,35 +1107,35 @@
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
-		"step2_leave_crush_blank" 	: [
+	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
-			"dialog"			: "When you say she \"really really\" seemed happy-",
+			"dialog"			: "Когда ты сказала, что она была \"очень, очень\" рада-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I'm just going to say it!|L|She has a crush on you!",
+			"dialog"			: "Я скажу прямо!|L|Она в тебя влюбилась!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
-			"dialog"			: "Oh [VAL1]...",
+			"dialog"			: "О, [VAL1]...",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "I see...",
+			"dialog"			: "Я вижу...",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "It seems you've made her a lot happier no matter what happens.",
+			"dialog"			: "Мне кажется, ты сделала её счастливее, что бы не произойдёт.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "Thanks for saying that.|L|I love you, [VAL3].",
+			"dialog"			: "Спасибо, что сказала это.|L|Я люблю тебя, [VAL3].",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I think I speak for all of us when I say,   we love you too.",
+			"dialog"			: "Мне кажется, я говорю за всех нас, когда я говорю,   мы тоже тебя любим.",
 		},
 	],
 	"step2_leave_crush_twins" 	: [

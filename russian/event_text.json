@@ -294,7 +294,7 @@
 	"E_stage_shamble" : {
 		"name"		: "Осколки Художественных Принадлежностей",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "There was a big group of Shambles today. I think |C3|there was 6 of them|C0| all together!|L||L|They all had |C3|artistic|C0| and other Shamble related gifts. Maybe Blot was trying to teach them how to paint!",
+		"details"	: "Сегодня я повстречала большую группу Осколков. Мне кажется, |C3|их было 6|C0| в сумме!|L||L|У них всех были дары, связанные с |C3|искусством|C0| и Осколками. Наверное, Клякса попыталась научить их рисовать!",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
@@ -303,7 +303,7 @@
 	"E_stage_guardian" : {
 		"name"		: "Пир Стражей",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "I found a gathering of |C3|6 Guardian Monsters|C0| today! They were having some kind of feast. They had mushrooms, fruits, and all kinds of other |C3|food|C0| gifts. There was also a lot of |C3|mites|C0| and other small critters there.|L||L|I tried to sneak my way in, but most of them ran away... as usual.",
+		"details"	: "Сегодня я наткнулась на встречу |C3|6 монстров-Стражей|C0|! У них был какого-то рода пир. На нём были грибы, фрукты и прочие дары-|C3|еда|C0|. Также вокруг было множество |C3|клещей|C0| и других зверьков.|L||L|Я попыталась тихо проникнуть на пир, но почти все Стражи сбежали... как обычно.",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
@@ -312,7 +312,7 @@
 	"E_stage_glyph" : {
 		"name"		: "Каменный Океан Глифов",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "I found myself beneath |C3|6 Eyeric Glyphs|C0| floating far above me. They made a pile of |C3|heart stones|C0| and other glyph related gifts. I couldn't get their attention by calling out to them, so I did what I usually do. I touched their stuff.|L||L|I know that they always give me their gifts in the end, but I don't like upsetting them like this. After enough days pass, will I feel like it's okay to do whatever I want?",
+		"details"	: "Я оказалась под |C3|6 Айрическими Глифами|C0|, парящими высоко надо мной. Они создали кучу |C3|сердечных камней|C0| и прочих связанных с глифами даров. Я не смогла привлечь их внимание, окликнув их, так что я сделала то же, что и всегда. Я потрогала их вещи.|L||L|Я знаю, что в конце концов они отдаут мне дары, но мне всё ещё не нравится огорчать их так. Если пройдёт достаточно дней, буду ли я чувствовать, что вправе делать то, что я хочу?",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
@@ -321,7 +321,7 @@
 	"E_stage_zaramech" : {
 		"name"		: "Починка Зарамехов",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "A group of |C3|6 Zaramechs|C0| were all working on something at the base of a tower. They had all kinds of |C3|broken, mechanical,|C0| and [ZAP] gifts spread out all over the place.|L||L|I think they were trying to repair something? I keep forgetting to ask one of them after they... stop trying to kill me.",
+		"details"	: "Группа из |C3|6 Зарамехов|C0| работала над чем-то у основания башни. Вокруг них были разбросаны всякие |C3|сломанные, механические|C0| дары и дары типа [ZAP].|L||L|Мне кажется, они пытались что-то починить? Я всё забываю спросить их после того, как они... перестают пытаться убить меня.",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
@@ -330,7 +330,7 @@
 	"E_stage_glass" : {
 		"name"		: "Космическое Цветочное Поле",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "I found that field of flowers again. I usually find |C3|6 Glass Flora|C0| hiding in it! Sadly, after I battle with the first one, the rest will vanish before I can wake up.|L||L|The ones in this field always seem to have |C3|cosmic and glass|C0| gifts. All the Glass Flora seem to love the stars so much. They probably miss seeing them more than I do.",
+		"details"	: "Я опять нашла это поле цветов. Обычно я нахожу |C3|Стеклянную Флору, целых 6|C0|, что прячутся в нём! Жаль, что после битвы с одной из них остальные исчезают до того, как я просыпаюсь.|L||L|Те, что в этом поле, всегда имеют |C3|космические и стеклянные|C0| дары. Всей Стеклянной Флоре так нравятся звёзды. Они скучают по ним, наверное, больше, чем я.",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
@@ -339,7 +339,7 @@
 	"E_stage_veyeral" : {
 		"name"		: "Они Пришли Из Пустоты",
 		"hint"		: "[hint_stage_family]",
-		"details"	: "I'm always finding Veyerals melding together in clumps. Like today, I found a |C3|cluster of 6 Veyerals|C0| all blending together. They all had gifts that were |C3|broken, sharp, and dangerous,|C0| along with other [VOID] gifts.|L||L|There's still a lot I don't understand about these cute little eyeballs.",
+		"details"	: "Я постоянно нахожу Веералей, сливающихся в комки. Как сегодня, Сегодня, например, я увидела |C3|скопление из 6 Веералей|C0|, смешавшихся вместе. У всех них были дары, что были |C3|сломаны, острыми и опасными,|C0| а также те, в которых была [VOID].|L||L|Я так много всё ещё не понимаю про эти милые маленькие глазики.",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",

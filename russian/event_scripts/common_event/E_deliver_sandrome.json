@@ -847,32 +847,32 @@
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
-			"dialog"			: "You saw hearts in her eyes?",
+			"dialog"			: "Ты видела сердца в её глазах?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "There was many heart explosionings!",
+			"dialog"			: "Было много взрывотонаций сердец!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad_blush"],
-			"dialog"			: "Oh [VAL1]...",
+			"dialog"			: "O, [VAL1]...",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "This is causing of sadness?",
+			"dialog"			: "Это причивызвает грусть?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "|wave|Not at all.|norm||L|Love is a wonderful feeling, isn't it?",
+			"dialog"			: "|wave|Ни в коем разе.|norm||L|Любовь - чудесное чувство, не так ли?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "I love you, [VAL2].",
+			"dialog"			: "Я люблю тебя, [VAL2].",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "Your vibenings are seeming conflicted.",
+			"dialog"			: "Твоё духостроение наивыглядит противоречивым.",
 		},
 	],
 	"step2_leave_crush_twins"     : [
