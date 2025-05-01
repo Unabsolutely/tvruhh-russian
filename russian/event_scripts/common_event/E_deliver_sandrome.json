@@ -259,11 +259,11 @@
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "Я должна предоставить множество благодарений за такое!|L|Встреченье с тобой принесло мне сегодня удачу!",
+			"dialog"			: "Я должна предоставить много благодарений за такое! Встреченье с тобой принесло мне сегодня удачу!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "Я есть Страж, известная под именем [VAL2].|L|Каково твоё имязвание?",
+			"dialog"			: "Я есть Страж, известная под именем [VAL2]. Каково твоё имязвание?",
 		},
 	],
 	"step1_leave_B_emerald"				: "step1_leave_gem",
