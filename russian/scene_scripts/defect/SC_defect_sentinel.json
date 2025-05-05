@@ -152,7 +152,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "Похоже, что порождение Пустоты находится в твоей папке |C3|Любимые|C0|.",
+			"dialog"			: "Похоже, что Порождение Пустоты находится в твоей папке |C3|Любимые|C0|.",
 		},
 		{
 			"play_music"		: "tutorbot_scene_music",

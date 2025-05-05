@@ -10,11 +10,11 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
-			"dialog"			: "|wave|Прыг-скок.          ",
+			"dialog"			: "|wave|Прыг-скок.  ",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
-			"dialog"			: "|wave|Прыг-скок.          ",
+			"dialog"			: "|wave|Прыг-скок.  ",
 		},
 		{
 			"fast_text"			: 0,
@@ -27,19 +27,19 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
-			"dialog"			: "|wave|Прыг-скок.          ",
+			"dialog"			: "|wave|Прыг-скок  .",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
-			"dialog"			: "|wave|Прыг-скок.          ",
+			"dialog"			: "|wave|Прыг-скок  .",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
-			"dialog"			: "|wave|У Этих Модулей-          ",
+			"dialog"			: "|wave|У Этих Модулей-  ",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
-			"dialog"			: "|wave|Есть дар-          ",
+			"dialog"			: "|wave|Есть дар-  ",
 		},
 		{
 			"fast_text"			: 0,

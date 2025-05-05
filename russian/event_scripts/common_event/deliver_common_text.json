@@ -741,6 +741,7 @@
 		},
 	],
 	
+	
 	"step1_response_B_ombroah" : [
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
@@ -840,7 +841,143 @@
 		},
 	],
 	
-
+	
+	"step1_response_B_chemory" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised"],
+			"dialog"			: "I met her too!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
+			"dialog"			: "My behavior was also very toxic.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+			"dialog"			: "But, we can all change for the better.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+			"dialog"			: "I have an idea.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"dialog"			: "Give her one of these gifts I found.",
+		},
+	],
+	"step1_response_B_chemory_blank" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "The pale Zaraden?|L|You met her too?",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_blush"],
+			"dialog"			: "|wave|The scent on that one.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "I probably freaked her out with my behavior before AND after our battle.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad_blush"],
+			"dialog"			: "I should give her something to apologize.",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Would you take this to her?|L|Then you can apologize too.",
+		},
+	],
+	"step1_response_B_chemory_twins" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "The green one with the yellow spots? Sunshine?",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_blush"],
+			"dialog"			: "|wave|She's so cute!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "Do you mind giving her a gift for me?",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "You can use it as an excuse to apologize too.",
+		},
+	],
+	"comment_pickup_B_chemory"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_happy"],
+		"dialog"	: "What do you think she likes?",
+	},
+	"comment_pickup_B_chemory_I_blight_stone"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_blush"],
+		"dialog"	: "|wave|I made this just for her.",
+	},
+	"confirm_pickup_B_chemory"	: {
+		"character"	: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_normal"],
+		"dialog"	: "Will she like this?",
+	},
+	"pickup_next_B_chemory" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "Wait! I have something else for her.",
+		},
+	],
+	"step1_bye_B_chemory" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
+			"dialog"			: "Prove to her that we can all change.",
+		},
+	],
+	"step1_bye_B_chemory_blank" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Tell her I said her hair smells lovely!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "No wait!|L|That's wierd, huh?|L|Don't do that!",
+		},
+	],
+	"step1_bye_B_chemory_twins" : [
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content_blush"],
+			"dialog"			: "Tell me what Sunshine says!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|No, don't!",
+		},
+		{
+			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_awkward"],
+			"dialog"			: "|shake|I don't know!",
+		},
+	],
+	
+	
+	"comment_pickup_B_hadesoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+		"dialog"	: "Pick any blessing.",
+	},
+	"comment_pickup_B_hadesoh_BLS_hadesoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_upset"],
+		"dialog"	: "Is this all my blessing can |shake||nu||ze||nah||norm| do?",
+	},
+	"comment_pickup_B_hadesoh_BLS_chionotoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_content"],
+		"dialog"	: "|wave|She's so cool.",
+	},
+	"confirm_pickup_B_hadesoh"	: {
+		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+		"dialog"	: "You taking this?",
+	},
+	"step1_bye_unknown_B_hadesoh" : [
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "I'm the glyph of |shake||nu||ze||nah||norm| fire!|L||!|Just call me [VAL1].",
+		},
+	],
+	
+	
 	"comment_pickup_B_unit_lulu"	: {
 		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 		"dialog"	: "Выберите любые из данных даров.",
@@ -971,6 +1108,80 @@
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_happy"],
 			"dialog"			: "Имя, что было присвоено этому модулю - Призма.",
+		},
+	],
+	
+	
+	"step1_response_B_syncron" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "This Unit has formulated a solution to your problem.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"dialog"			: "This Unit understands where |C3|Syncron-01|C0| is going with this.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+			"dialog"			: "You will give a gift to the Zaraden that you have wronged.",
+		},
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+			"dialog"			: "You may use the excess panic generated by These Units as a gift.",
+		},
+	],
+	"comment_pickup_B_syncron"	: {
+		"character"	: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
+		"dialog"	: "Choose any of these gifts.",
+	},
+	"confirm_pickup_B_syncron"	: {
+		"character"	: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_happy"],
+		"dialog"	: "Is this your choice?",
+	},
+	"step1_bye_B_syncron" : [
+		{
+			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
+			"dialog"			: "These Units believe that you will receive what you are looking for.",
+		},
+	],
+	
+	
+	"comment_pickup_B_flip_flap"	: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+		"dialog"	: "Choose the gift that brings |C3|[Pure Positivity]|C0| to her.",
+	},
+	"confirm_pickup_B_flip_flap"	: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+		"dialog"	: "Are you positive?",
+	},
+	"pickup_next_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "This Unit also wants to send a gift to the Zaraden.",
+		},
+	],
+	"pickup_next_B_flip_flap_twins" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "That Zaraden had a sibling.|L|The equation requires another gift.",
+		},
+	],
+	"comment_pickup_B_flip_flap_2"	: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+		"dialog"	: "Choose a gift that keeps |C3|[Pure Negativity]|C0| away from her.",
+	},
+	"confirm_pickup_B_flip_flap_2"		: {
+		"character"	: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+		"dialog"	: "Are you positive?",
+	},
+	"step1_bye_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "|wave|Trust in the calculations.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_happy"],
+			"dialog"			: "|wave|The math simply adds up.",
 		},
 	],
 	

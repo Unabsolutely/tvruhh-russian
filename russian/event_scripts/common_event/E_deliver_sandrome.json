@@ -246,6 +246,7 @@
 	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_glacia"				: "step1_leave_unknown",
 	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
@@ -492,6 +493,53 @@
 		},
 	],
 	
+	"step1_ask_B_hadesoh" : [
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "Hey, let me ask you something.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
+			"dialog"			: "Can you see these gifts?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "I have visionated these blessings many times.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
+			"dialog"			: "So you could always see them too?",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "Let's start a |shake||nu||ze||nah||norm| club about it!",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
+			"dialog"			: "Anyways, I noticed more monsters are reacting to blessings today.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "I think it has to do with that Zaraden going around blowing their |shake||nu||ze||nah||norm| minds!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "A Zaraden shared the loving to me!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "I attempted many stabbings to her in return.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
+			"dialog"			: "It looks like you need an excuse to go apologize to her.",
+		},
+		{
+			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
+			"dialog"			: "I want you to give her one of these blessings.",
+		},
+	],
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -524,6 +572,37 @@
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"			: "Этот Модуль собрала коллекцию даров для выбора.",
+		},
+	],
+	
+	"step1_ask_B_flip_flap" : [
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "This much |C3|[Pure Negativity]|C0| is not good for you.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "I'm fearing there be many punishmentations for me.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
+			"dialog"			: "That Zaraden only contains |C3|[Pure Love]|C0| within her heart.",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
+			"dialog"			: "The equations all calculate to the same outcome.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Worse than punishmentation?",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_blush"],
+			"dialog"			: "|shake|Incorrect!",
+		},
+		{
+			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
+			"dialog"			: "Give the Zaraden gifts and the negativity will cancel out.",
 		},
 	],
 	
@@ -674,6 +753,8 @@
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
+	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
+	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
@@ -843,6 +924,8 @@
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
+	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
+	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{

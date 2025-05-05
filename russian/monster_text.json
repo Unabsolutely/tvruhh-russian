@@ -9,6 +9,14 @@
 	"special"		: "Особый",
 	"unknown"		: "Неизвестный",
 	
+	"shamble_plural"	: "Осколки",
+	"guardian_plural"	: "Стражи",
+	"glyph_plural"		: "Айрические Глифы",
+	"zaramech_plural"	: "Зарамехи",
+	"glass_plural"		: "Стеклянная Флора",
+	"veyeral_plural"	: "Веерали",
+	"special_plural"	: "Особые монстры",
+	
 	"shiny_battle"	: "Сияющий Бой",
         "???_before"	: "Бойся неизвестности",
 	
