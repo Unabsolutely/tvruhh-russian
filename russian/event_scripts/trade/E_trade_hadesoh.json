@@ -222,7 +222,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_content"],
-			"dialog"			: "Она очень крутая, да?",
+			"dialog"			: "Она очень крутая, да? Меня аж в холод бросает.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_sad"],
