@@ -496,47 +496,47 @@
 	"step1_ask_B_hadesoh" : [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
-			"dialog"			: "Hey, let me ask you something.",
+			"dialog"			: "Эй, у меня есть вопрос.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_confused"],
-			"dialog"			: "Can you see these gifts?",
+			"dialog"			: "Ты видишь эти дары?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "I have visionated these blessings many times.",
+			"dialog"			: "Я смотридела эти благословления много раз.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
-			"dialog"			: "So you could always see them too?",
+			"dialog"			: "Так ты всегда могла их видеть?",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
-			"dialog"			: "Let's start a |shake||nu||ze||nah||norm| club about it!",
+			"dialog"			: "Время основать |shake||nu||ze||nah||norm| клуб про это!",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_normal"],
-			"dialog"			: "Anyways, I noticed more monsters are reacting to blessings today.",
+			"dialog"			: "В любом случае, я заметила, что сегодня больше монстров реагировало на благословления.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-			"dialog"			: "I think it has to do with that Zaraden going around blowing their |shake||nu||ze||nah||norm| minds!",
+			"dialog"			: "Мне кажется, это связано с той Зараденой, что ходила и вышибала всем их |shake||nu||ze||nah||norm| мозги!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "A Zaraden shared the loving to me!",
+			"dialog"			: "Зарадена поделилась со мной люблением!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "I attempted many stabbings to her in return.",
+			"dialog"			: "Взамен я попыталась ответить ей уколением.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-			"dialog"			: "It looks like you need an excuse to go apologize to her.",
+			"dialog"			: "Видимо, тебе нужен предлог, чтобы пойти и извиниться перед ней.",
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
-			"dialog"			: "I want you to give her one of these blessings.",
+			"dialog"			: "Я хочу, чтобы ты отдала ей одно из этих благословений.",
 		},
 	],
 	
@@ -578,31 +578,31 @@
 	"step1_ask_B_flip_flap" : [
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
-			"dialog"			: "This much |C3|[Pure Negativity]|C0| is not good for you.",
+			"dialog"			: "Столько |C3|[Чистого Негатива]|C0| вредно Вам.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "I'm fearing there be many punishmentations for me.",
+			"dialog"			: "Я боюсь множества караказаний меня.",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_normal"],
-			"dialog"			: "That Zaraden only contains |C3|[Pure Love]|C0| within her heart.",
+			"dialog"			: "У этой Зарадены содержится только |C3|[Чистая Любовь]|C0| в её сердце.",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_normal"],
-			"dialog"			: "The equations all calculate to the same outcome.",
+			"dialog"			: "Все уравнения приводят к одному результату.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Worse than punishmentation?",
+			"dialog"			: "|shake|Хуже караказаний?",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flap_right", "MOOD_blush"],
-			"dialog"			: "|shake|Incorrect!",
+			"dialog"			: "|shake|Неверно!",
 		},
 		{
 			"character"			: ["VOICE_flip_flap", "CHAR_flip_right", "MOOD_happy"],
-			"dialog"			: "Give the Zaraden gifts and the negativity will cancel out.",
+			"dialog"			: "Дай Зарадене дары и негатив сократится.",
 		},
 	],
 	
