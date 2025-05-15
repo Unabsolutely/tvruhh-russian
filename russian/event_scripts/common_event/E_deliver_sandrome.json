@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" : [
 		{
@@ -248,6 +249,7 @@
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_dot"					: "step1_leave_unknown",
 	"step1_leave_B_glacia"				: "step1_leave_unknown",
 	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
 	"step1_leave_B_burning_veyeral"		: "step1_leave_unknown",

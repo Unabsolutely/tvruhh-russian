@@ -807,6 +807,20 @@
 			"dialog"			: "Вернёмся обратно в пещеру.",
 		},
 	],
+	"return_to_cave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "В небе не было ничего, кроме дождя.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious"],
+			"dialog"			: "А мы и не думали?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Мы как раз направлялись назад в пещеру.",
+		},
+	],
 	"return_get_ingredient" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -959,6 +973,13 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_normal"],
 			"dialog"			: "Дай мне сначала нагреться.",
+		},
+	],
+	"back_to_normal_form_in_cave" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Надеюсь, этого хватит.",
 		},
 	],
 	"back_to_normal_form" : [

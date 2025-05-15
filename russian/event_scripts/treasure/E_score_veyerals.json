@@ -185,7 +185,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Глаз видел вас.",
+			"dialog"			: "|wave|Глаз видит вас.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -202,7 +202,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "О.|!| Глаз     видел   вас?",
+			"dialog"			: "О.|!| Глаз     видит   вас?",
 		},
 		{
 			"love_hearts"		: 1,

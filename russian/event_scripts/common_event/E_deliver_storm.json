@@ -882,6 +882,145 @@
 		},
 	],
 	
+	
+	"step1_ask_B_dot" : [
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
+			"dialog"			: "You really think she's mad at you?|L|Even after giving her a hug?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Was I supposed to do that?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
+			"dialog"			: "You didn't even try to give her a hug?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I didn't.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|What am I supposed to do now?",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
+			"dialog"			: "Calm down. You can still fix this!",
+		},
+		{
+			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
+			"dialog"			: "Just find her again and give her one of these.",
+		},
+	],
+	
+	
+	"step1_ask_B_vitrea" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Okay, this is happening again, I guess.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
+			"dialog"			: "I can't help it!|L||shake|You are just so cute!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Are you made of electricity?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "How do you even work?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Umm, I don't know.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_upset"],
+			"dialog"			: "Alright, forget about that for now.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
+			"dialog"			: "I know how to make the Zaraden forgive you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "What can I do?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Did you know that Zaraden are easily defeated by giving them gifts?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
+			"dialog"			: "Just give her one of these and she'll be your friend    |shake|forever.",
+		},
+	],
+	"step1_ask_B_vitrea_twins" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Okay, this is happening again, I guess.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
+			"dialog"			: "I can't help it!|L||shake|You are just so cute!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "It's just like those Zaraden were trying to tell me.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "But I wasn't very nice to them.",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
+			"dialog"			: "You can still fix this.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "What can I do?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
+			"dialog"			: "Did you know that Zaraden are easily defeated by giving them gifts?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
+			"dialog"			: "Just give them one of these and they will be your friends    |shake|forever.",
+		},
+	],
+	"step1_leave_B_vitrea_defect" : [
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
+			"dialog"			: "Oh, one more thing.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "What is it?",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
+			"dialog"			: "Squeeze that Blue Veyeral for me!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|What?!",
+		},
+		{
+			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
+			"dialog"			: "I forgot to test this earlier, and I must know what happens.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I don't even know how I would do that.",
+		},
+	],
+	
+	
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -1383,6 +1522,48 @@
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
 			"dialog"			: "Придётся мягко ей отказать.",
 		},
+	],
+	
+	
+	"step2_leave_B_vitrea_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Oh, and one more thing...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Umm...",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Well, this was unexpected!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "[VAL1] said I should squeeze you to see what would happen.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Did something happen?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Hmm, I can't get any more perfect.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Perhaps something happened to you instead?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Well, it did feel really nice to be so close to you.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "That must be the perfection rubbing onto you.",
+			},
 	],
 	
 }
