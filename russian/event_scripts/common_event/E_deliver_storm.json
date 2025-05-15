@@ -886,31 +886,31 @@
 	"step1_ask_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
-			"dialog"			: "You really think she's mad at you?|L|Even after giving her a hug?",
+			"dialog"			: "Ты действительно думаешь, что она на тебя злится?|L|Даже после того, как ты обняла её?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Was I supposed to do that?",
+			"dialog"			: "А мне надо было её обнять?",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
-			"dialog"			: "You didn't even try to give her a hug?",
+			"dialog"			: "Ты даже не попыталась?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I didn't.",
+			"dialog"			: "Нет.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|What am I supposed to do now?",
+			"dialog"			: "|shake|И что мне теперь делать?",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
-			"dialog"			: "Calm down. You can still fix this!",
+			"dialog"			: "Успокойся. Всё ещё можно исправить!",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_very_happy"],
-			"dialog"			: "Just find her again and give her one of these.",
+			"dialog"			: "Просто опять найди её и отдай ей один из них.",
 		},
 	],
 	
@@ -919,104 +919,104 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Okay, this is happening again, I guess.",
+			"dialog"			: "Окей, это происходит опять, видимо.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
-			"dialog"			: "I can't help it!|L||shake|You are just so cute!",
+			"dialog"			: "Ничего не могу поделать!|L||shake|Ты просто такая милая!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Are you made of electricity?",
+			"dialog"			: "Сделана ли ты из электричества?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
-			"dialog"			: "How do you even work?",
+			"dialog"			: "Как ты вообще работаешь?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Umm, I don't know.",
+			"dialog"			: "Эмм, я не знаю.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_upset"],
-			"dialog"			: "Alright, forget about that for now.",
+			"dialog"			: "Ладно, забудь пока об этом.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-			"dialog"			: "I know how to make the Zaraden forgive you.",
+			"dialog"			: "Я знаю, как сделать так, чтобы Зарадена простила тебя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "What can I do?",
+			"dialog"			: "И что мне делать?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Did you know that Zaraden are easily defeated by giving them gifts?",
+			"dialog"			: "А ты знала, что Зараден легко победить, принося им дары?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
-			"dialog"			: "Just give her one of these and she'll be your friend    |shake|forever.",
+			"dialog"			: "Просто дай ей один из этих и она будет твоей подругой    |shake|навеки.",
 		},
 	],
 	"step1_ask_B_vitrea_twins" : [
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Okay, this is happening again, I guess.",
+			"dialog"			: "Окей, это происходит опять, видимо.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_blush"],
-			"dialog"			: "I can't help it!|L||shake|You are just so cute!",
+			"dialog"			: "Ничего не могу поделать!|L||shake|Ты просто такая милая!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "It's just like those Zaraden were trying to tell me.",
+			"dialog"			: "Всё как то, что мне пытались сказать те Зарадены.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "But I wasn't very nice to them.",
+			"dialog"			: "Но я не очень хорошо с ними обошлась.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-			"dialog"			: "You can still fix this.",
+			"dialog"			: "Ты всё ещё можешь исправить.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "What can I do?",
+			"dialog"			: "И что мне делать?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Did you know that Zaraden are easily defeated by giving them gifts?",
+			"dialog"			: "А ты знала, что Зараден легко победить, принося им дары?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
-			"dialog"			: "Just give them one of these and they will be your friends    |shake|forever.",
+			"dialog"			: "Просто дай им один из этих и она будет твоей подругой    |shake|навеки.",
 		},
 	],
 	"step1_leave_B_vitrea_defect" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_glare"],
-			"dialog"			: "Oh, one more thing.",
+			"dialog"			: "А, ещё кое-что.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "What is it?",
+			"dialog"			: "И что же?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
-			"dialog"			: "Squeeze that Blue Veyeral for me!",
+			"dialog"			: "Стисни эту Синюю Веераль за меня!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "|shake|What?!",
+			"dialog"			: "|shake|Что?!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
-			"dialog"			: "I forgot to test this earlier, and I must know what happens.",
+			"dialog"			: "Я забыла проверить ранее, и я должна знать, что произойдёт.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I don't even know how I would do that.",
+			"dialog"			: "Я даже не знаю, как я могу сделать это.",
 		},
 	],
 	
@@ -1528,41 +1528,41 @@
 	"step2_leave_B_vitrea_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh, and one more thing...",
+			"dialog"			: "О, и ещё...",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Umm...",
+			"dialog"			: "Эмм...",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Well, this was unexpected!",
+			"dialog"			: "Ну, это было неожиданно!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "[VAL1] said I should squeeze you to see what would happen.",
+			"dialog"			: "[VAL1] попросила меня сжать тебя как можно сильнее и посмотреть, что получится.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Did something happen?",
+			"dialog"			: "Что-нибудь получилось?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Hmm, I can't get any more perfect.",
+			"dialog"			: "Хмм, Я не могу стать ещё более идеальной.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Perhaps something happened to you instead?",
+			"dialog"			: "Может быть, вместо этого что-то случилось с тобой?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Well, it did feel really nice to be so close to you.",
+			"dialog"			: "Ну, было очень приятно находиться так близко к тебе.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "That must be the perfection rubbing onto you.",
+			"dialog"			: "Должно быть, тебе передалась частичка идеала.",
 			},
 	],
 	

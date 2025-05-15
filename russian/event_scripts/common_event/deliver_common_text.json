@@ -1233,47 +1233,47 @@
 	"step1_response_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
-			"dialog"			: "It sounds like you didn't try to give her a hug!",
+			"dialog"			: "Похоже, ты просто не попыталась обнять её!",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
-			"dialog"			: "You were supposed to do that, silly.",
+			"dialog"			: "Подразумевалось, что это сделаешь, глупенькая.",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised"],
-			"dialog"			: "But I know what to do.",
+			"dialog"			: "Но я знаю, что делать.",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
-			"dialog"			: "Go find her again, and then give her one of these.",
+			"dialog"			: "Найди её снова и отдай ей один из них.",
 		},
 	],
 	"comment_pickup_B_dot"	: {
 		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
-		"dialog"	: "I think these will increase her hugging power.",
+		"dialog"	: "Мне кажется, они увеличат её обнимашечную силу.",
 	},
 	"confirm_pickup_B_dot"		: {
 		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_normal"],
-		"dialog"	: "You think she'll like this?",
+		"dialog"	: "Думаешь, ей понравится?",
 	},
 	"step1_bye_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_surprised_blush"],
-			"dialog"			: "Wait!",
+			"dialog"			: "Погоди!",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
-			"dialog"			: "Let me practice hugging you before you go.",
+			"dialog"			: "Дай мне попрактиковаться в обнимашках, пока ты не ушла.",
 		},
 	],
 	"step1_bye_unknown_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
-			"dialog"			: "|wave|Hi [VAL3]!|norm||L|My name is [VAL1].",
+			"dialog"			: "|wave|Привет, [VAL3]!|norm||L|Меня зовут [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
-			"dialog"			: "Can I practice hugging you before you go?",
+			"dialog"			: "Можно попрактиковаться в обнимашках, пока ты не ушла?",
 		},
 	],
 	
@@ -1323,57 +1323,57 @@
 	"step1_response_B_vitrea" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
-			"dialog"			: "So, it wasn't just me!",
+			"dialog"			: "Так это была не только я!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-			"dialog"			: "She got you too, huh?",
+			"dialog"			: "Она и тебя достала, угу?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "Did you know that Zaraden are easily defeated by giving them gifts?",
+			"dialog"			: "А ты знала, что Зараден легко победить, принося им дары?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_aggressive"],
-			"dialog"			: "Just give her one of these and she'll be your friend    |shake|forever.",
+			"dialog"			: "Просто дай ей один из этих и она будет твоей подругой    |shake|навеки.",
 		},
 	],
 	"comment_pickup_B_vitrea"	: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
-		"dialog"	: "I got these from my special telescopes.",
+		"dialog"	: "Я получила их при помощи моих особых телескопов.",
 	},
 	"confirm_pickup_B_vitrea"		: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_normal"],
-		"dialog"	: "Is this what you want?",
+		"dialog"	: "То, что ты хочешь?",
 	},
 	"step1_bye_B_vitrea" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "There is nothing she can do against the power of gifts.",
+			"dialog"			: "Она ничего не сможет сделать против силы даров.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-			"dialog"			: "She will have to forgive you.",
+			"dialog"			: "Ей придётся тебя простить.",
 		},
 	],
 	"step1_bye_B_vitrea_defect" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
-			"dialog"			: "What do you think would happen if you gave that Blue Veyeral she has a little squeeze?",
+			"dialog"			: "Что, думаешь, случится, если ты бы попыталась немножечко сжать ту Синюю Веерать?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
-			"dialog"			: "|shake|I should have tested this myself!",
+			"dialog"			: "|shake|Мне нужно было проверить это самой!",
 		},
 	],
 	"step1_bye_B_vitrea_twins" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy_glare"],
-			"dialog"			: "There is nothing they can do against the power of gifts.",
+			"dialog"			: "Они ничего не сможет сделать против силы даров.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-			"dialog"			: "They will have to forgive you.",
+			"dialog"			: "Им придётся тебя простить.",
 		},
 	],
 	
@@ -1816,103 +1816,103 @@
 	"step1_response_B_vibrant_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh,   you're talking about her.",
+			"dialog"			: "О,   ты говоришь о ней.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|I umm,|norm|   met her too.",
+			"dialog"			: "|shake|Я, эмм,|norm|   тоже её встретил.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She was really nice though.",
+			"dialog"			: "Она была такой доброй.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "She's not mad at us,   right?",
+			"dialog"			: "Она на нас не злится,   да?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Maybe you should give her something.",
+			"dialog"			: "Наверное, тебе надо дать ей что-нибудь.",
 		},
 	],
 	"step1_response_B_vibrant_veyeral_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh,   you're talking about her.",
+			"dialog"			: "О,   ты говоришь о ней.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|She had Blue with her.",
+			"dialog"			: "|shake|С ней была Синяя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Blue is so pretty.",
+			"dialog"			: "|wave|Синяя такая красивая.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "They would never be mad at us,   right?",
+			"dialog"			: "Они на нас не могут злиться,   да?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Maybe you should give her Zaraden a gift.",
+			"dialog"			: "Наверное, тебе надо дать её Зарадене что-нибудь.",
 		},
 	],
 	"step1_response_B_vibrant_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh,   you mean those two.",
+			"dialog"			: "О,   ты говоришь об этих двоих.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|I umm,|norm|   met them too.",
+			"dialog"			: "|shake|Я, эмм,|norm|   тоже их встретил.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "They were really nice though.",
+			"dialog"			: "Хотя они были такие добрые.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "The green one was shy, just like me.",
+			"dialog"			: "Та, что зелёная, была такая застенчивая, прямо как я.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She made me feel a lot less alone.",
+			"dialog"			: "От неё мне стало сильно менее одиноко.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "But she can't be mad at us,   right?",
+			"dialog"			: "Она не может на нас злиться,   да?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Maybe you should give her something.",
+			"dialog"			: "Наверное, тебе надо дать ей что-нибудь.",
 		},
 	],
 	"comment_pickup_B_vibrant_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-		"dialog"	: "This is some art I found.",
+		"dialog"	: "Вот рисунки, что я нашла.",
 	},
 	"confirm_pickup_B_vibrant_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Is this okay?",
+		"dialog"	: "Это пойдёт?",
 	},
 	"step1_bye_unknown_B_vibrant_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|Oh    right,   ummm-|norm|    |L|I do have a name.",
+			"dialog"			: "|shake|А ,   да,   эммм-|norm|    |L|У меня есть имя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "My name is [VAL1]!",
+			"dialog"			: "Моё имя - [VAL1]!",
 		},
 	],
 	"step1_bye_eyeball_B_vibrant_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Oh,   Umm-",
+			"dialog"			: "А ,   эммм-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Eye see you!",
+			"dialog"			: "Глаз видит вас!",
 		},
 	],
 	
