@@ -1359,7 +1359,7 @@
 	"step1_bye_B_vitrea_defect" : [
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_too_happy"],
-			"dialog"			: "Что, думаешь, случится, если ты бы попыталась немножечко сжать ту Синюю Веерать?",
+			"dialog"			: "Что, думаешь, случится, если ты бы попыталась немножечко сжать ту Синюю Веераль?",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked_glare"],
@@ -1385,7 +1385,7 @@
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_tail_right", "MOOD_normal"],
-			"dialog"			: "|C3|(Лоза всё удлинняется, пока из-под земли не выпрыгивает Зараноидная фигура с другого конца лозы.)",
+			"dialog"			: "|C3|(Лоза всё удлинняется, пока из-под земли не выпрыгивает зараноидная фигура с другого конца лозы.)",
 		},
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
@@ -1898,7 +1898,7 @@
 	"step1_bye_unknown_B_vibrant_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_normal"],
-			"dialog"			: "|shake|А ,   да,   эммм-|norm|    |L|У меня есть имя.",
+			"dialog"			: "|shake|А,   да,   эммм-|norm|    |L|У меня есть имя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
@@ -1908,7 +1908,7 @@
 	"step1_bye_eyeball_B_vibrant_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_sad"],
-			"dialog"			: "А ,   эммм-",
+			"dialog"			: "А,   эммм-",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
