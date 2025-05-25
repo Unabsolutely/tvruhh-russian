@@ -960,7 +960,7 @@
 	},
 	"comment_pickup_B_hadesoh_BLS_hadesoh"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_upset"],
-		"dialog"	: "Это всё, что моё благословление может, |shake||nu||ze||nah||norm|, сделать?",
+		"dialog"	: "И это всё, что моё благословление может, |shake||nu||ze||nah||norm|, сделать?",
 	},
 	"comment_pickup_B_hadesoh_BLS_chionotoh"	: {
 		"character"	: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_content"],
@@ -974,6 +974,94 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
 			"dialog"			: "Я - глиф |shake||nu||ze||nah||norm| огня!|L||!|Просто зови меня [VAL1].",
+		},
+	],
+	
+	
+	"step1_response_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "|shake|Моя подруга [VAL3]!",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Да. Да. Да. Да. Да. Да.|L|Да. Да. Да. Да. Да.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "Я знаю, о ком ты говоришь, и я тоже искала её заново.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "Но я ещё не нашла её и вместо этого я нашла тебя.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "А затем ты попросила меня помочь, и потом я не знаю, что произошло, потому что ещё не произошло.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "О! Я знаю! Я знаю! Я знаю!|L||wave|Дааааааааааааа!",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "Найди её и дай ей дар!",
+		},
+	],
+	"step1_response_unknown_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "|shake|Не может быть!",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "Я знаю, о ком ты говоришь, и я тоже ищу её заново.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "Но я ещё не смогла её найти, и ещё я немного уставшая, и ещё я голодная.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
+			"dialog"			: "О! Я знаю! Я знаю! Я знаю!|L||wave|Дааааааааааааа!",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "Найди её и дай ей дар!",
+		},
+	],
+	"comment_pickup_B_astrayo"	: {
+		"character"	: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+		"dialog"	: "Бери. Бери. Бери!",
+	},
+	"confirm_pickup_B_astrayo"		: {
+		"character"	: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_normal"],
+		"dialog"	: "Дa да да, этот?",
+	},
+	"pickup_next_B_astrayo" : [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "Ей надо больше!|L||shake|Больше! Больше! Больше! Больше!|L|Да. Да. Да. Да. Да. Да.",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "Ещё один для неё, да?",
+		},
+	],
+	"step1_bye_B_astrayo" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "Пока-пока, [VAL3]!",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
+			"dialog"			: "Теперь передай его ей.|L|Иди! Иди! Иди!",
 		},
 	],
 	
@@ -1809,6 +1897,120 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_venom_veyeral_right", "MOOD_happy"],
 			"dialog"			: "|wave|Глаз видит вас!",
+		},
+	],
+	
+	
+	"step1_response_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Она тоже меня нашла.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Но она дала мне новое чувство.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Такое тёплое чувство.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Она не могла быть холодна к тебе.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Если только она не потеряла своё тепло?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Дай ей этот дар, чтобы напомнить ей о том тепле.",
+		},
+	],
+	"step1_response_unknown_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Должно быть, это та же Зарадена, что я встретил сегодня.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Но она не могла быть холодна к тебе, что бы ты не сделала.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Если только она не потеряла своё тепло?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Нет, такое невозможно...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Может, тебе надо отдать ей один из этих даров, на всякий случай.",
+		},
+	],
+	"step1_response_unknown_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Но она была такой тёплой!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Несмотря на то, что я была холодна к ней, она держала меня так крепко.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Хотелось бы, чтобы она меня никогда не отпускала.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Ты и вправду думаешь, что она будет холодна к тебе?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Отнеси ей эти дары.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Ты увидишь, насколько она тепла.",
+		},
+	],
+	"comment_pickup_B_frozen_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Я отдам ей ту толику теплоты, что у меня есть.",
+	},
+	"confirm_pickup_B_frozen_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Это согреет её?",
+	},
+	"pickup_next_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "У меня есть для неё ещё кое-что.",
+		},
+	],
+	"comment_pickup_B_frozen_veyeral_2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Я хочу, чтобы это было у неё.",
+	},
+	"confirm_pickup_B_frozen_veyeral_2"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Думаешь, ей понравится?",
+	},
+	"step1_bye_unknown_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Я - [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Знаешь, |shake|потому что я вся мёрз-з-злая.",
+		},
+	],
+	"step1_bye_eyeball_B_frozen_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Глаз видит вас!",
 		},
 	],
 	

@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_astrayo"				: "step1_ask_unknown",
 	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_unknown" : [
@@ -542,6 +543,98 @@
 		},
 	],
 	
+	"step1_ask_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "У тебя есть для меня работозадание?",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Да. Да. Да. Да. Да. Да.|L|Да. Да. Да. Да. Да.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"dialog"			: "Ты встретила этих близняшек-Зараден, да?",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "Та, что с пятнышками и волосами...",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "|shake|Она такая красивая.|L|Она слишком красивая.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "И её сестра смотрела на меня, ну, ты знаешь? Ты знаешь? Ты знаешь? Ты знаешь?",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|Понимаешь, что я говорю!?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "У меня проблемы с осмыспониманием.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "Аргх! Просто отдай ей дары!",
+		},
+	],
+	"step1_leave_B_astrayo" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "У меня проблемы с осмыспониманием, но-",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "Встреча с тобой вызывала день удачи мне!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Я Страж, известная как [VAL2].|L|Каково твоё наименование?",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "|shake|[VAL3]!|L|Ничего, если я буду звать тебя [VAL3]?|L||wave|[VAL3]! [VAL3]! [VAL3]! [VAL3]!",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "Еееей, [VAL3]!|L|Меня зовут [VAL1].",
+		},
+	],
+	"step1_leave_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Это для любящей Зарадены с солнышкиными волосами, да?",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Ага. Ага. Ага. Ага. Ага.|L|Да. Да. Да. Да. Да. Да.|L||wave|Да-а-а-а-а-а-а!",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
+		},
+		{
+			"fast_text"			: 1,
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "Ой. Ой. Ой. Ой. Ой.|L|Нет. Нет. Нет. Нет. Нет. Нет. Нет.|L|Нет. Нет. Нет. Нет. Нет. Нет.",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Ты больна?",
+		},
+	],
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -673,6 +766,29 @@
 		},
 	],
 	
+	"step1_leave_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Ты больна?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Что? У меня только один глаз.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Я не-     Я не понимаю, что это значит.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Наверное, ничего.",
+		},
+	],
+	
 	
 	
 	
@@ -757,7 +873,9 @@
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
+	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
+	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -923,12 +1041,15 @@
 			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
 		},
 	],
+	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
+	"step2_leave_B_astrayo_twins"		: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
+	"step2_leave_B_frozen_veyeral_devil": "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -960,6 +1081,28 @@
 			"dialog"			: "Твоё духостроение наивыглядит противоречивым.",
 		},
 	],
+	"step2_leave_crush_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "Надо будет поблагодарить Смятку позже.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Но почему она не доставила их мне сама?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|У меня есть знаформация об этом секрете.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Придётся мягко ей отказать.",
+		},
+	],
 	"step2_leave_crush_twins"     : [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
@@ -982,7 +1125,42 @@
 			"dialog"			: "|wave|Да ничего, Солнышко.",
 		},
 	],
-
+	"step2_leave_crush_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Ты уверена про все эти взрывы сердец?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "Было много взрывотонаций сердец!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Слишком много!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Ещё одна становится жертвой моего дьвольского обаяния.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Теперь их достаточно, чтобы заполнить стадион.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Увы, Дьявол может выбрать только одну.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Но я не могу решать всё это, пока я занимаюсь группой.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|И почему я такая обаятельная?",
+		},
+	],
+	
+	
 	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
@@ -1002,28 +1180,7 @@
 			"dialog"			: "Да, именно Осколки!",
 		},
 	],
-	"step2_leave_B_scrambla_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "Надо будет поблагодарить Смятку позже.",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "Но почему она не доставила их мне сама?",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|У меня есть знаформация об этом секрете.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Придётся мягко ей отказать.",
-		},
-	],
+	
 	
 	"step2_intro_B_snowball_blank" : [
 		{

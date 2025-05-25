@@ -236,7 +236,7 @@
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Спасибо тебе больше за это!",
+			"dialog"			: "Спасибо тебе большое за это!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -253,6 +253,10 @@
 	"step1_leave_B_veyeral_rain"		: "step1_leave_eyeball",
 	"step1_leave_B_molten_veyeral"		: "step1_leave_eyeball",
 	"step1_leave_eyeball" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Спасибо тебе большое за это!",
+		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "|wave|Глаз видит вас!",
@@ -540,6 +544,100 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
 			"dialog"			: "Ты ищешь предлог, чтобы с ней снова встретиться, по глазу видно.",
+		},
+	],
+	
+	"step1_ask_B_astrayo_twins" : [
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "Ой. Ой. Ой. Ой. Ой.|L|Нет. Нет. Нет. Нет. Нет. Нет. Нет.|L|Нет. Нет. Нет. Нет. Нет. Нет.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"dialog"			: "Ты встретила этих близняшек-Зараден, да?",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_confused"],
+			"dialog"			: "Та, что с пятнышками и волосами...",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "|shake|Она такая красивая.|L|Она слишком красивая.",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "И её сестра смотрела на меня, ну, ты знаешь? Ты знаешь? Ты знаешь? Ты знаешь?",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|Понимаешь, что я говорю!?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "|shake|[VAL1]!|norm| Ты слишком спешишь, даже для тебя!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Что не так?",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "Аргх! Просто отдай ей дары!",
+		},
+	],
+	"step1_leave_B_astrayo_blank" : [
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_normal"],
+			"dialog"			: "Теперь передай его ей.|L|Иди! Иди! Иди!",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Спасибо-",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
+			"dialog"			: "Пока-пока, [VAL3]!",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Я ЛЮБЛЮ ТЕБЯ!",
+		},
+		{
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "Это меня она научила.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "На неё это похоже.",
+		},
+	],
+	"step1_leave_B_astrayo_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Мне кажется, я знаю, что происходит.",
+		},
+		{
+			"fast_text"			: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_angry_blush"],
+			"dialog"			: "|shake|Стой. Стой. Стой. Стой. Стой. Стой. Стой. Стой. Стой. Стой.",
+		},
+		{
+			"fast_text"			: 0,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Извини.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_blush"],
+			"dialog"			: "Просто отдай их ей, пожалуйста.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Уже иду!",
 		},
 	],
 	
@@ -1020,7 +1118,6 @@
 		},
 	],
 	
-	
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -1152,6 +1249,57 @@
 		},
 	],
 	
+	"step1_ask_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Так ты тоже встретила эту Зарадену?|L||!|Ту, что зовёт себя Дьявол?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "В ней было столько тепла!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Несмотря на то, что я была холодна к ней, она держала меня так крепко.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Хотелось бы, чтобы она меня никогда не отпускала.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Тебе она очень нравится.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Эй, если ты её ещё увидишь...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Не против отнести ей эти дары?",
+		},
+	],
+	"step1_leave_B_frozen_veyeral_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Я скажу ей, что это от тебя.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Это можно...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Почему мне теперь так тепло?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|shake|Что со мной не так?",
+		},
+	],
+	
+	
 	
 	
 	"step2_intro_generic" : [
@@ -1234,6 +1382,8 @@
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
+	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
+	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1422,12 +1572,15 @@
 			"dialog"			: "Моя дорогуша Дефект вышла из строя из-за новых чувств.",
 		},
 	],
+	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
+	"step2_leave_B_astrayo_twins"			: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
+	"step2_leave_B_frozen_veyeral_devil"	: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -1459,6 +1612,28 @@
 			"dialog"			: "Мне кажется, я говорю за всех нас, когда я говорю,   мы тоже тебя любим.",
 		},
 	],
+	"step2_leave_crush_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "[VAL1] выслушает от меня комплименты позже.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "Но почему она не принесла мне их сама?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Ну,|norm|   я думаю-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Придётся мягко ей отказать.",
+		},
+	],
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "Mood_suspicious2"],
@@ -1481,6 +1656,36 @@
 			"dialog"			: "|wave|Да ничего, Солнышко.",
 		},
 	],
+	"step2_leave_crush_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "Итак, ещё одна становится жертвой моего дьвольского обаяния. Я права?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Мне прям так кажется.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Такие случаи нередки.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "Увы, Дьявол может выбрать только одну.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Но я не могу решать всё это, пока я занимаюсь группой.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|И почему я такая обаятельная?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Тебе, наверное, так тяжело.",
+		},
+	],
 	
 	
 	"step2_intro_B_scrambla_defect" 	: [
@@ -1501,28 +1706,7 @@
 			"dialog"			: "Отдать мне, взаправду?",
 		},
 	],
-	"step2_leave_B_scrambla_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "[VAL1] выслушает от меня комплименты позже.",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "Но почему она не принесла мне их сама?",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Ну,|norm|   я думаю-",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Всё ещё хуже, чем я думала.|!||L|Она была воистину поражена моей идеальной формой.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Придётся мягко ей отказать.",
-		},
-	],
+
 	
 	
 	"step2_leave_B_vitrea_defect" 	: [
