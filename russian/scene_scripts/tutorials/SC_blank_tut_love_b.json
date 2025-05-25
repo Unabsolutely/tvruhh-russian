@@ -132,7 +132,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Нахождение в |C3|Фокусе|C0| замедлит скорость движения Вашего сердца.",
+			"dialog"			: "Нахождение в |C3|Фокусе|C0| уменьшит скорость движения Вашего сердца.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -211,7 +211,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
-			"dialog"			: "Значит, я могу делать бесконечные |wave||C3|Заряженные выстрелы,|C0||norm| пока продолжаю что-то ломать?",
+			"dialog"			: "Значит, я могу делать бесконечные |wave||C3|заряженные выстрелы,|C0||norm| пока продолжаю что-то ломать?",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

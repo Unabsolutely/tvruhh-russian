@@ -244,7 +244,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
-			"dialog"			: "Наши ни для кого ничего не делают.",
+			"dialog"			: "Наши ни для кого ничё не делают.",
 		},
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_sad"],

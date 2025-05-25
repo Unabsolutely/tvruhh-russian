@@ -158,62 +158,32 @@
 		}
 	],
 	
-	"upgrade_to_2" 		: [
+	"upgrade_to_next" 		: [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать |C3|2 звезды силы!|C0|",
+			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать до |C3|[VAL1] звезд силы!|C0|",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Нам нужно где-то |C3|6 тетридов|C0| любых цветов.",
+			"dialog"			: "Нам нужно где-то |C3|[VAL2] тетридов|C0| любых цветов.",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
 			"dialog"			: "Можешь дать нам любые цвета,   но    вот ети |C3|красненькие дают нам больше силы.|C0|",
 		}
 	],
-	"upgrade_to_3" 		: [
+	"upgrade_to_final" 		: [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать |C3|3 звезды силы!|C0|",
+			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать до |C3|[VAL1] звёзд силы!|C0|",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Нам нужно где-то |C3|12 тетридов|C0| любых цветов.",
-		}
-	],
-	"upgrade_to_4" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать |C3|4 звезды силы!|C0|",
+			"dialog"			: "Нам нужно будет |C3|[VAL2] лучезарных тетридов|C0| вместо остальных цветов.",
 		},
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Нам нужно где-то |C3|24 тетрида|C0| любых цветов.",
-		}
-	],
-	"upgrade_to_5" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать |C3|5 звёзд силы!|C0|",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Нам нужно где-то |C3|40 тетридов|C0| любых цветов.",
-		}
-	],
-	"upgrade_to_6" 		: [
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_happy"],
-			"dialog"			: "Мы можем расширить наши |C3|связи синапса|C0|, чтобы вмещать |C3|5 звёзд силы!|C0|",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Нам нужно будет |C3|7 лучезарных тетридов|C0| вместо остальных цветов.",
-		},
-		{
-			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_normal"],
-			"dialog"			: "Но ето наш лимит.|L||!|Для дальнейшего расширения нужно больше енергии, чем от целой планеты тетридов.",
+			"dialog"			: "Но ето наш предел.|L||!|Для дальнейшего расширения нужно больше енергии, чем от целой планеты тетридов.",
 		}
 	],
 	
@@ -445,7 +415,6 @@
 			"dialog"			: "|wave|Я люблю вас!",
 		}
 	],
-	
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_boiler", "CHAR_boiler_right", "MOOD_confused"],
@@ -469,7 +438,6 @@
 			"dialog"			: "|shake|Дя!",
 		}
 	],
-	
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive2"],
@@ -489,7 +457,6 @@
 			"dialog"			: "Дважды жгучие обнимашки!",
 		}
 	],
-	
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
@@ -509,7 +476,6 @@
 			"dialog"			: "И это даже близко не стоит с вашей жгучестью.",
 		}
 	],
-	
 	"leave_default" 	: [
 		{
 			"love_hearts"		: 1,

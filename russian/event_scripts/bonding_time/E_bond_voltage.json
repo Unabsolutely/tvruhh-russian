@@ -50,6 +50,7 @@
 	"op_burden"		: "Принять ношу",
 	"op_game_rain"	: "Сыграть в Дождь Веералей",
 	"op_rain_gift"	: "Что это?",
+	"op_game_race"	: "Устроить гонку",
 	"op_game_scrub"	: "Разряжающие почёсы",
 	"op_scavenge"	: "Покопаться",
 	"op_game_cards"	: "Сыграть в карточную игру",
@@ -531,6 +532,106 @@
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content_blush"],
 			"dialog"			: "Спасибо.",
+		},
+	],
+	
+	
+	
+	"to_mg_race_first" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "У меня идея!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Давай наперегонки к тому клочку розовой травы.",
+		},
+	],
+	"to_mg_race" 			: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "А в этот раз финишем будет клочок розовой травы |wave|вооооооон|norm| там.",
+		},
+	],
+	"to_mg_race_charge" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Это наверняка меня зарядит!",
+		},
+	],
+	"to_mg_race_discharge" 	: [
+		{
+			"character"			: ["VOICE_thought", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "|C3|(Зачем я это сказала? Это только больше зарядит меня.)",
+		},
+	],
+	"comment_race_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Старт!",
+	},
+	"comment_race_hit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|shake|Было больно?",
+	},
+	"comment_race_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+		"dialog"	: "|shake|Погоди меня!",
+	},
+	"comment_race_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Я победила!",
+	},
+	"race_win" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|Ты слишком быстрая!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Я настолько старалась, что мой заряд вырос на |C3|[VAL1]%|C0|!",
+		},
+	],
+	"race_lose_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Мой заряд вырос на |C3|[VAL1]%|C0| под дождём.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Ты же мне не поддавалась, да?",
+		},
+	],
+	"race_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Я победила!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "А мой заряд вырос на |C3|[VAL1]%|C0| под дождём.",
+		},
+		
+	],
+	"race_win_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Не огорчайся.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Этот исход был предсказан в легендах!",
+		},
+	],
+	"race_lose_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "Дьявол не проигрывает намеренно!",
+		},
+	],
+	"race_end" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Но теперь я слишком устала для гонок.",
 		},
 	],
 	

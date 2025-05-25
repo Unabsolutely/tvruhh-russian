@@ -6,7 +6,7 @@
 		},
 		{
 			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_happy"],
-			"random"			: 2,
+			"random"			: 3,
 			"dialog_rand1"		: "|wave|Это снова ты!",
 			"dialog_rand2"		: "|wave|Я тебя нашла!",
 			"dialog_rand3"		: "|wave|А я тебя искала!",
