@@ -554,7 +554,7 @@
 			"dialog"			: "Ой. Ой. Ой. Ой. Ой.|L|Нет. Нет. Нет. Нет. Нет. Нет. Нет.|L|Нет. Нет. Нет. Нет. Нет. Нет.",
 		},
 		{
-			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
 			"dialog"			: "Ты встретила этих близняшек-Зараден, да?",
 		},
 		{
@@ -638,6 +638,87 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
 			"dialog"			: "Уже иду!",
+		},
+	],
+	
+		"step1_ask_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_normal"],
+			"dialog"			: "|wave|Эй, дорогуша.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "Сделаешь коек-что для меня?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Ммм, что именно?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Не будь такой стесняшкой, дорогуша.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "Эта Зарадена пересекнулась с тобой, не так ли?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "Мне нужно, чтобы ты передала ей что-нибудь для меня.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Но она же больше не хочет меня видеть.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_angry"],
+			"dialog"			: "Не могу поверить, что ты такое говоришь.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_confused"],
+			"dialog"			: "Разве ты не знаешь, что она любит тебя?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Я даже не знаю, что за любовь была этим утром.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Это всё ещё слишком в новинку для меня.",
+		},
+		{
+			"character"			: ["VOICE_thought", "CHAR_philolu_right", "MOOD_sad"],
+			"dialog"			: "|C3|(Я сама так старалась достучаться до всех вас.)",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
+			"dialog"			: "Так, она дала тебе почувствовать кое-что!",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "Она в самом деле замечательная, не так ли?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Ага! Я поняла. Отнесу ей твой подарок.",
+		},
+	],
+	"step1_leave_B_philolu" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Я все еще пытаюсь понять, как работает любовь.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Думаю, я понимаю, что ты здесь делаешь.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Больше тебе спасибо, Филолу.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "Только теперь не раскрывай всем мои секреты.",
 		},
 	],
 	
@@ -1301,6 +1382,7 @@
 	
 	
 	
+
 	
 	"step2_intro_generic" : [
 		{
@@ -1383,6 +1465,7 @@
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
+	"step2_intro_B_philolu"				: "step2_intro_crush",
 	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
@@ -1579,6 +1662,7 @@
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
 	"step2_leave_B_astrayo_twins"			: "step2_leave_crush",
+	"step2_leave_B_philolu"					: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"				: "step2_leave_crush",
 	"step2_leave_B_frozen_veyeral_devil"	: "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
@@ -1704,8 +1788,57 @@
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
 			"dialog"			: "Отдать мне, взаправду?",
+				},
+	],
+	
+	"step2_intro_B_monovai" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "|shake|Прости меня!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Я не должна была тебя атаковать тогда.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Эмм, [VAL1] сказала, что я должна дать это тебе.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Я правда не понимаю, о чём она говорит большую часть времени.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Но, похоже, стоит это сделать.",
 		},
 	],
+	
+	"step2_leave_B_philolu_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|Ну,   как прошло свидание с [VAL1]?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Разве было свидание?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "Я только запомнила, что моя сестра оставила меня.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Нет!|L|Это не так-|L|Я не-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|Я люблю тебя, Солнышко!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "...",
 
 	
 	
