@@ -1062,6 +1062,56 @@
 		{
 			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_content"],
 			"dialog"			: "Теперь передай его ей.|L|Иди! Иди! Иди!",
+			},
+	],
+	
+	
+	"step1_response_B_monovai" : [
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
+			"dialog"			: "|shake|You are thinking about this the wrong way.",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
+			"dialog"			: "Think of nothing but your sweet revenge.",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
+			"dialog"			: "That Zaraden has shown us love, and we must show her that there are consequences for those actions.",
+		},
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+			"dialog"			: "These gifts will bring light to her transgressions.",
+		},
+	],
+	"comment_pickup_B_monovai"	: {
+		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+		"dialog"	: "Choose your form of retribution.",
+	},
+	"confirm_pickup_B_monovai"		: {
+		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
+		"dialog"	: "Will this do?",
+	},
+	"step1_bye_B_monovai" : [
+		{
+			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
+			"dialog"			: "May your vengeance be swift and merciless.",
+		},
+	],
+	
+	
+	"comment_pickup_B_philolu"	: {
+		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+		"dialog"	: "Help me out here. Which one of these would a sweetheart like her want the most?",
+	},
+	"confirm_pickup_B_philolu"		: {
+		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+		"dialog"	: "Are you sure?",
+	},
+	"pickup_next_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
+			"dialog"			: "You can carry an extra little bonus for her, right sweetheart?",
 		},
 	],
 	
@@ -1630,7 +1680,29 @@
 	"confirm_pickup_B_momo"		: {
 		"character"	: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
 		"dialog"	: "Этот?",
-	},
+		},
+	"pickup_next_B_momo" : [
+		{
+			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
+			"dialog"			: "|wave|Worm ride. Worm ride. Worm ride.",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
+			"dialog"			: "Get off of her!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "But, I am very good at transportationing!",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
+			"dialog"			: "Well, if you're okay with it-",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
+			"dialog"			: "Maybe you can take another gift with you.",
+		},
+	],
 	"step1_bye_unknown_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],
@@ -2115,6 +2187,180 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_vibrant_veyeral_right", "MOOD_happy"],
 			"dialog"			: "Глаз видит вас!",
+			},
+	],
+	
+	
+	"step1_response_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "The pretty lady with the lovely dreams?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She couldn't possibly be upset with you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Why don't you give her one of our gifts?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "She will be happy to see you.",
+		},
+	],
+	"step1_response_B_veyeral_rain_defect" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "The pretty lady with Blue Veyeral?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She couldn't possibly be upset with you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Let's give her one of our gifts.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Splendid idea! Take this gift to Blue and her Zaraden.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "They will be happy to see you.",
+		},
+	],
+	"step1_response_B_veyeral_rain_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "The pretty lady with the lovely dreams?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She couldn't possibly be upset with you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Her sister is also a delight.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Let's give them one of our gifts.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Splendid idea! Take this gift to them.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "They will be happy to see you.",
+		},
+	],
+	"comment_pickup_B_veyeral_rain"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Take any of these.",
+	},
+	"confirm_pickup_B_veyeral_rain"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Is this good enough?",
+	},
+	"step1_bye_unknown_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We are [VAL1]!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We wish you lovely dreams every night!",
+		},
+	],
+	"step1_bye_eyeball_B_veyeral_rain" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Eye see you!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|Eye see you!",
+		},
+	],
+	
+	
+	"step1_response_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I also met her!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She made me realize what ingredient my soup was missing.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It was love!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
+			"dialog"			: "I can't believe how obvious it was.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I actually made a new soup for her.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Would you mind giving it to her?",
+		},
+	],
+	"step1_response_B_molten_veyeral_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I also met her!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "She made me realize what ingredient my soup was missing.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "It was love!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I actually made a new soup for her, and her sister.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Would you mind taking it to them?",
+		},
+	],
+	"comment_pickup_B_molten_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Which one of these do you think is better?",
+	},
+	"confirm_pickup_B_molten_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Does this look good?",
+	},
+	"step1_bye_unknown_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'm called [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I'm made of rock soup!",
+		},
+	],
+	"step1_bye_eyeball_B_molten_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Eye see you!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'll make your favorite soup next time.",
 		},
 	],
 	
