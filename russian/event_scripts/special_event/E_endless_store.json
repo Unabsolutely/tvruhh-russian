@@ -393,14 +393,13 @@
 	
 	"intro_first" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Все |C3|когда-либо обнаруженные тобой дары|C0| могут найтись здесь.",
 		},
@@ -431,14 +430,13 @@
 	],
 	"intro_price1" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Добро пожаловать в твою тихую гавань!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Солара нашла ещё дары для тебя.",
 		},
@@ -462,14 +460,13 @@
 	],
 	"intro_price2" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Солара нашла новый вид даров!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Теперь, когда Солара знает, где искать |C3|Бонусные дары|C0|, новые правила кармы открылись для Солары.",
 		},
@@ -504,14 +501,13 @@
 	],
 	"intro_love_power" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Солара приготовила тебе сюрприз!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Солара изобрела |C3|Измеритель Силы Любви|C0| для тебя!",
 		},
@@ -572,14 +568,13 @@
 	],
 	"intro_quick" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_content"],
 			"dialog"			: "|wave|Теперь Солара может дать тебе |C3|Быстрые Дары|C0|!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Цены на Быстрые Дары растут отдельно от цен на остальные виды даров.",
 		},
@@ -598,14 +593,13 @@
 	],
 	"intro_blessings" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Твоя тихая гавань теперь благословлена благословениями!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_happy"],
 			"dialog"			: "Благословения растут в цене с каждым купленным Даром Силы, хоть и гораздо медленнее.",
 		},
@@ -632,14 +626,13 @@
 	],
 	"intro_burdens" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "|wave|Твоя тихая гавань теперь несёт ноши!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_confused"],
 			"dialog"			: "Но зачем тебе могут понадобиться ноши?",
 		},
@@ -658,14 +651,13 @@
 	],
 	"intro_dupes" : [
 		{
-			"unskippable"		: 1,
+			"safe_skip_lock"	: 1,
 			"use_textbox"		: 1,
 			"play_music"		: "yellow_scene_music",
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_very_happy"],
 			"dialog"			: "Теперь Солара может находить |C3|копии|C0| твоих даров силы!",
 		},
 		{
-			"unskippable"		: 0,
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_normal"],
 			"dialog"			: "Тебе достаточно владеть |C3|хотя бы 5 дарами|C0|, которые можно копировать.",
 		},
