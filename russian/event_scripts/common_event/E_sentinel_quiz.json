@@ -37,15 +37,15 @@
 	},
 	"end_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "Вы устали от сегодняшней викторины?",
+		"dialog"	: "Достаточно викторины на сегодня?",
 	},
 	"leave_text"		: {
-		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-		"dialog"	: "Вы не хотите играть сегодня?",
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
+		"dialog"	: "Уровень радости достигает бесконечности.",
 	},
 	"leave_confirm"		: {
-		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-		"dialog"	: "Вы уверены, что хотите уйти?",
+		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+		"dialog"	: "Взорвётся ли этот модуль прямо сейчас?",
 	},
 	
 	"reward_title"	: "Выберите Награду",
@@ -892,23 +892,33 @@
 	"dont_play" 	: [
 		{
 			"play_music"		: "silence",
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
-			"dialog"			: "Ах... Этот Модуль понимает.|L||!|Есть более важные вещи, которые нужно сделать.",
-		},
-		{
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "|C3|Обнаружена боль|C0|",
+			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
+			"dialog"			: "Перегрузка-   грузка-   грузка-   грузка-   грузка-.",
 		},
 		{
 			"love_hearts"		: 1,
-			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Хорошо! Вы просто сыграете в игру с Этим Модулем в следующий раз.",
+			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "Уровень Волнения превысил максимум|C0|",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
+			"dialog"			: "|C3|Вход в Режим Восстановления|C0|",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Этот Модуль любит Вас.",
+			"dialog"			: "|C3|Предполагаемое Время Восстановления: 8 часов|C0|",
 		},
 	],
+	
+	"exaggeration_phrase_1"		: "Радость в этом Модуле не может быть сдержана её бронёй.",
+	"exaggeration_phrase_2"		: "Этот Модуль |shake|трясётся|norm| от возбуждения.",
+	"exaggeration_phrase_3"		: "Теперь этот Модуль |shake|вибрирует|norm| от возбуждения.",
+	"exaggeration_phrase_4"		: "Счастье, которое чувствует этот Модуль, практически невозможно сдержать.",
+	"exaggeration_phrase_5"		: "Теперь |shake|на самом деле невозможно|norm| сдержать счастье, которое испытывает этот Модуль.",
+	"exaggeration_phrase_6"		: "Каждый момент существует ненулевой шанс, что этот Модуль взорвётся.",
+	"exaggeration_phrase_7"		: "Радость испытваемая этим модулём может зарядить ближайшую башню на сотню лет.",
+	"exaggeration_phrase_8"		: "Значение волнения этого модуля не может быть рассчитано в разумный временной интервал.",
+	"exaggeration_phrase_9"		: "Существует 107% вероятность, что этот модуль    |shake|взорвётся|norm| на месте.",
 	
 	"round1_start" 	: [
 		{
@@ -917,7 +927,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Радость в этом Модуле не может быть сдержана её бронёй.",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -937,7 +947,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Этот Модуль |shake|трясётся|norm| от возбуждения.",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -952,7 +962,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Теперь этот Модуль |shake|вибрирует|norm| от возбуждения.",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -972,7 +982,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Счастье, которое чувствует этот Модуль, практически невозможно сдержать.",
+			"dialog"			: "[VAL3].",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -987,7 +997,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Теперь |shake|на самом деле невозможно|norm| сдержать счастье, которое испытывает этот Модуль.",
+			"dialog"			: "[VAL3]",
 		},
 	],
 	
@@ -1007,7 +1017,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "Каждый момент существует ненулевой шанс, что этот Модуль взорвётся от волнения.",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
