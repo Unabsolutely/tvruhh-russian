@@ -2194,95 +2194,95 @@
 	"step1_response_B_veyeral_rain" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "The pretty lady with the lovely dreams?",
+			"dialog"			: "Эта милая леди с прекрасными снами?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She couldn't possibly be upset with you.",
+			"dialog"			: "Ты никак не могла расстроить её.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Why don't you give her one of our gifts?",
+			"dialog"			: "Почему бы тебе не дать ей один из наших даров?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "She will be happy to see you.",
+			"dialog"			: "Она будет рада тебя видеть.",
 		},
 	],
 	"step1_response_B_veyeral_rain_defect" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "The pretty lady with Blue Veyeral?",
+			"dialog"			: "Эта милая леди с Синей Веералью?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She couldn't possibly be upset with you.",
+			"dialog"			: "Ты никак не могла расстроить её.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Let's give her one of our gifts.",
+			"dialog"			: "Давайте отдадим ей один из наших даров.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Splendid idea! Take this gift to Blue and her Zaraden.",
+			"dialog"			: "Замечательная идея! Передай этот дар Синей и её зарадене.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "They will be happy to see you.",
+			"dialog"			: "Они будут рады тебя видеть.",
 		},
 	],
 	"step1_response_B_veyeral_rain_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "The pretty lady with the lovely dreams?",
+			"dialog"			: "Эта милая леди с прекрасными снами?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She couldn't possibly be upset with you.",
+			"dialog"			: "Ты никак не могла расстроить её.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Her sister is also a delight.",
+			"dialog"			: "Её сестричка тоже прелесть.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Let's give them one of our gifts.",
+			"dialog"			: "Давайте отдадим ей один из наших даров",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Splendid idea! Take this gift to them.",
+			"dialog"			: "Замечательная идея! Передай им этот дар.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "They will be happy to see you.",
+			"dialog"			: "Они будут рады тебя видеть.",
 		},
 	],
 	"comment_pickup_B_veyeral_rain"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Take any of these.",
+		"dialog"	: "Выбери любой.",
 	},
 	"confirm_pickup_B_veyeral_rain"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Is this good enough?",
+		"dialog"	: "Этот подойдёт?",
 	},
 	"step1_bye_unknown_B_veyeral_rain" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We are [VAL1]!",
+			"dialog"			: "Мы [VAL1]!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],
-			"dialog"			: "We wish you lovely dreams every night!",
+			"dialog"			: "Сладких снов тебе каждую ночь!",
 		},
 	],
 	"step1_bye_eyeball_B_veyeral_rain" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видит вас!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|Eye see you!",
+			"dialog"			: "|wave|Глаз видит вас!",
 		},
 	],
 	
