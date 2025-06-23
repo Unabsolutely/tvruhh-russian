@@ -1069,49 +1069,49 @@
 	"step1_response_B_monovai" : [
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
-			"dialog"			: "|shake|You are thinking about this the wrong way.",
+			"dialog"			: "|shake|Ты неправильно об этом думаешь.",
 		},
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
-			"dialog"			: "Think of nothing but your sweet revenge.",
+			"dialog"			: "Думай только о своём сладком возмездии.",
 		},
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
-			"dialog"			: "That Zaraden has shown us love, and we must show her that there are consequences for those actions.",
+			"dialog"			: "Та Зарадена поделилась с нами любовью, и мы должны показать ей, что у таких деяний есть последствия.",
 		},
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
-			"dialog"			: "These gifts will bring light to her transgressions.",
+			"dialog"			: "Эти дары прольют свет на её проступки.",
 		},
 	],
 	"comment_pickup_B_monovai"	: {
 		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
-		"dialog"	: "Choose your form of retribution.",
+		"dialog"	: "Выбирай свою месть.",
 	},
 	"confirm_pickup_B_monovai"		: {
 		"character"	: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
-		"dialog"	: "Will this do?",
+		"dialog"	: "Возьмёшь это?",
 	},
 	"step1_bye_B_monovai" : [
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_happy"],
-			"dialog"			: "May your vengeance be swift and merciless.",
+			"dialog"			: "Пусть твоё возмездие будет быстрым и беспощадным.",
 		},
 	],
 	
 	
 	"comment_pickup_B_philolu"	: {
 		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
-		"dialog"	: "Help me out here. Which one of these would a sweetheart like her want the most?",
+		"dialog"	: "Помоги мне. Какой из них дорогуша вроде неё захочет больше всего?",
 	},
 	"confirm_pickup_B_philolu"		: {
 		"character"	: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
-		"dialog"	: "Are you sure?",
+		"dialog"	: "Ты уверена?",
 	},
 	"pickup_next_B_philolu" : [
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
-			"dialog"			: "You can carry an extra little bonus for her, right sweetheart?",
+			"dialog"			: "Можешь передать ей небольшой бонус, да, дорогуша?",
 		},
 	],
 	
@@ -1684,23 +1684,23 @@
 	"pickup_next_B_momo" : [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|wave|Worm ride. Worm ride. Worm ride.",
+			"dialog"			: "|wave|Червепоездка. Червепоездка. Червепоездка.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "Get off of her!",
+			"dialog"			: "Слезайте с неё!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "But, I am very good at transportationing!",
+			"dialog"			: "Но я очень хороша в транспортощении!",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "Well, if you're okay with it-",
+			"dialog"			: "Ну, если тебе нормально-",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_normal"],
-			"dialog"			: "Maybe you can take another gift with you.",
+			"dialog"			: "Может, ты сможешь передать ей ещё один дар.",
 		},
 	],
 	"step1_bye_unknown_B_momo" : [
@@ -2224,7 +2224,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Замечательная идея! Передай этот дар Синей и её зарадене.",
+			"dialog"			: "Замечательная идея! Передай этот дар Синей и её Зарадене.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],
@@ -2290,77 +2290,77 @@
 	"step1_response_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I also met her!",
+			"dialog"			: "Я тоже её встретил!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She made me realize what ingredient my soup was missing.",
+			"dialog"			: "Из-за неё я понял, какого ингредиента не хватала моему супу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It was love!",
+			"dialog"			: "Это была любовь!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_angry"],
-			"dialog"			: "I can't believe how obvious it was.",
+			"dialog"			: "Не могу поверить, насколько очевидно это было.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I actually made a new soup for her.",
+			"dialog"			: "Я, кстати, сделал новый суп для неё.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Would you mind giving it to her?",
+			"dialog"			: "Не против передать его ей?",
 		},
 	],
 	"step1_response_B_molten_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I also met her!",
+			"dialog"			: "Я тоже её встретил!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "She made me realize what ingredient my soup was missing.",
+			"dialog"			: "Из-за неё я понял, какого ингредиента не хватала моему супу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It was love!",
+			"dialog"			: "Это была любовь!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I actually made a new soup for her, and her sister.",
+			"dialog"			: "Я, кстати, сделал новый суп для неё и её сестры.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Would you mind taking it to them?",
+			"dialog"			: "Не против отнестии его им?",
 		},
 	],
 	"comment_pickup_B_molten_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Which one of these do you think is better?",
+		"dialog"	: "Какой из них, думаешь, лучше?",
 	},
 	"confirm_pickup_B_molten_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Does this look good?",
+		"dialog"	: "Хорошо выглядит?",
 	},
 	"step1_bye_unknown_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I'm called [VAL1].",
+			"dialog"			: "Я - [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I'm made of rock soup!",
+			"dialog"			: "Я - из каменного супа!",
 		},
 	],
 	"step1_bye_eyeball_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Eye see you!",
+			"dialog"			: "Глаз видит вас!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I'll make your favorite soup next time.",
+			"dialog"			: "В следующий раз я сделаю твой любимый суп.",
 		},
 	],
 	

@@ -635,6 +635,64 @@
 		},
 	],
 	
+	"step1_ask_B_philolu" : [
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_normal"],
+			"dialog"			: "|wave|Ну здравствуй, дорогуша.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "У меня есть для тебя маленькое задание.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Работозадание, для меня?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "Зарадена достала тебя сегодня, да?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "Мне нужно, чтобы ты ей кое-что передала.",
+		},
+	],
+	"step1_leave_B_philolu" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Это задание будет завершечено очень быстроено.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Но у меня есть одна волнозабота.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_confused"],
+			"dialog"			: "Что, дорогуша?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Ты больна?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
+			"dialog"			: "|shake|Так ты на самом деле можешь это видеть?",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
+			"dialog"			: "Твоя восприимчивость |wave|сииииииильно|norm| выше обычного уровней.",
+		},
+		{
+			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
+			"dialog"			: "Используй её с умом.",
+		},
+	],
+	
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -744,25 +802,17 @@
 	],
 	
 	"step1_leave_B_momo" : [
-		{
-			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "|wave|Червепоездка. Червепоездка. Червепоездка.",
-		},
-		{
-			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_angry"],
-			"dialog"			: "Слезайте с неё!",
-		},
-		{
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "Но я очень хороша в транспортощении!",
-		},
-		{
-			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
-			"dialog"			: "Ну, если тебе нормально-",
-		},
-		{
+			{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
 			"dialog"			: "Мы скоро вернёмся.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
+		},
+		{
+			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
+			"dialog"			: "Осторожнее, ладно?",
 		},
 	],
 	
@@ -874,6 +924,7 @@
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
+	"step2_intro_B_philolu"				: "step2_intro_crush",
 	"step2_intro_B_pearl_twins"			: "step2_intro_crush",
 	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
@@ -1048,6 +1099,7 @@
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",
 	"step2_leave_B_astrayo_twins"		: "step2_leave_crush",
+	"step2_leave_B_philolu"				: "step2_leave_crush",
 	"step2_leave_B_pearl_twins"			: "step2_leave_crush",
 	"step2_leave_B_frozen_veyeral_devil": "step2_leave_crush",
 	"step2_leave_crush_blank" 	: [
@@ -1161,7 +1213,6 @@
 	],
 	
 	
-	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -1180,6 +1231,54 @@
 			"dialog"			: "Да, именно Осколки!",
 		},
 	],
+	
+	"step2_intro_B_monovai" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Сегодня будет много возмести!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "[VAL1] посылала тебе дар!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Узри последования твоих люблений!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "Ты простишь множество моих уколений, да?",
+		},
+	],
+	
+	"step2_leave_B_philolu_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "|wave|Ну,   как свидание с [VAL1]?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "Что такое свидание?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "Я только запомнила, что моя сестра оставила меня.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Нет!|L|Это не-|L|Я не-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|Я люблю тебя, Солнышко!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
+			"dialog"			: "...",
+		},
+	],
+	
 	
 	
 	"step2_intro_B_snowball_blank" : [
@@ -1263,6 +1362,7 @@
 		},
 	],
 	
+	
 	"step2_intro_B_momo" 	: [
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
@@ -1274,7 +1374,7 @@
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "[VAL1] присылает свои благословления.|L|Дар только для тебя.|L|У тебя нет варианта не принять его.",
+			"dialog"			: "[VAL1] присылает свои благословления.|L|Дары только для тебя.|L|У тебя нет варианта не принять его.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],

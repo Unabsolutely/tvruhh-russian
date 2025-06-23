@@ -1829,7 +1829,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Нет!|L|Это не так-|L|Я не-",
+			"dialog"			: "|shake|Нет!|L|Это не-|L|Я не-",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
