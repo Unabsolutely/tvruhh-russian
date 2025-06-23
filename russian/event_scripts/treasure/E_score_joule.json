@@ -38,12 +38,12 @@
 		"dialog"	: "Используй свою силу, чтобы вытащить из наших волос как можно больше частиц за минимальное время.",
 	},
 	"comment_leave"		: {
-		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
-		"dialog"	: "У тебя сегодня нет времени?",
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
+		"dialog"	: "В наших волосах что-то есть?",
 	},
 	"leave_confirm"		: {
-		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
-		"dialog"	: "Ты уверена?",
+		"character"	: ["VOICE_joule", "CHAR_joule_right", "MOOD_shocked"],
+		"dialog"	: "|shake|В наших волосах что-то есть?",
 	},
 	
 	"start_battle" 	: [
@@ -86,17 +86,21 @@
 	
 	"no_battle" 	: [
 		{
-			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_confused"],
-			"dialog"			: "Эй, мы понимаем.",
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_aggressive"],
+			"dialog"			: "Похоже, что другая Джоулия уже отправляет нам энергию!",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
-			"dialog"			: "Другая Джоулия уже отправляет нам энергию, и всё благодаря ещё одной тебе.",
+			"dialog"			: "Нам нужно скорее записать эти данные.",		
+		},
+		{
+			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
+			"dialog"			: "Нам всё же не понадобится твоя помощь.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "Лишь одно из преимуществ бытия Осколка.",
+			"dialog"			: "Но мы всё равно почувствовали твой настрой из другой вселенной.",
 		},
 	],
 	
