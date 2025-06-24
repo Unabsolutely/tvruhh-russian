@@ -1114,9 +1114,9 @@
 	
 	"adj_radiant_res"	: "Сладкий",
 	"adj_void_res"		: "Сухой",
-	"adj_burn_res"		: "Острый",
+	"adj_burn_res"		: "Жгучий",
 	"adj_zap_res"		: "Кислый",
-	"adj_toxic_res"		: "Сливочный",
+	"adj_toxic_res"		: "Сгущёный",
 	"adj_hp"			: "Лечащий",
 	"adj_max_hp"		: "Сердечный",
 	"adj_max_en"		: "Энергичный",
