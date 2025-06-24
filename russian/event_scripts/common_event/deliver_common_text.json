@@ -2246,7 +2246,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Давайте отдадим ей один из наших даров",
+			"dialog"			: "Давайте отдадим им один из наших даров",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_happy"],

@@ -5,7 +5,7 @@
 			"random"			: 3,
 			"dialog_rand1"		: "Встреча с тобой приносит этому Модулю огромную радость.",
 			"dialog_rand2"		: "Этот Модуль испытывает уровень радости, который может привести к ошибке переполнения.",
-			"dialog_rand3"		: "Этот Модуль не может выдержать количество радости, испытываемое ею.",
+			"dialog_rand3"		: "Этот Модуль не может выдержать количество возбуждения, испытываемое ею.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
@@ -25,7 +25,7 @@
 	
 	"round1_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-		"dialog"	: "|C3|Правильно ответьте на 4 вопроса|C0|, и этот Модуль предоставит вам награду. Вы можете ошибиться |C3|не более двух раз!",
+		"dialog"	: "|C3|Правильно ответьте на 4 вопроса,|C0| и этот Модуль предоставит вам награду. Вы можете ошибиться |C3|не более двух раз!",
 	},
 	"round2_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
@@ -37,11 +37,11 @@
 	},
 	"end_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "Достаточно викторины на сегодня?",
+		"dialog"	: "На сегодня достаточно викторины?",
 	},
 	"leave_text"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
-		"dialog"	: "Уровень радости достигает бесконечности.",
+		"dialog"	: "Уровень возбуждения достигает бесконечности.",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
@@ -898,7 +898,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
-			"dialog"			: "Уровень Волнения превысил максимум|C0|",
+			"dialog"			: "Уровень Возбуждения Превысил Максимум|C0|",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_sentinel_right", "MOOD_normal"],
@@ -906,19 +906,19 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "|C3|Предполагаемое Время Восстановления: 8 часов|C0|",
+			"dialog"			: "|C3|Предполагаемое Время Восстановления: 8 Часов|C0|",
 		},
 	],
 	
 	"exaggeration_phrase_1"		: "Радость в этом Модуле не может быть сдержана её бронёй.",
-	"exaggeration_phrase_2"		: "Этот Модуль |shake|трясётся|norm| от возбуждения.",
-	"exaggeration_phrase_3"		: "Теперь этот Модуль |shake|вибрирует|norm| от возбуждения.",
+	"exaggeration_phrase_2"		: "Этот Модуль  |shake|трясётся|norm| от возбуждения.",
+	"exaggeration_phrase_3"		: "Теперь этот Модуль  |shake|вибрирует|norm| от возбуждения.",
 	"exaggeration_phrase_4"		: "Счастье, которое чувствует этот Модуль, практически невозможно сдержать.",
-	"exaggeration_phrase_5"		: "Теперь |shake|на самом деле невозможно|norm| сдержать счастье, которое испытывает этот Модуль.",
+	"exaggeration_phrase_5"		: "Теперь  |shake|на самом деле невозможно|norm| сдержать счастье, которое испытывает этот Модуль.",
 	"exaggeration_phrase_6"		: "Каждый момент существует ненулевой шанс, что этот Модуль взорвётся.",
-	"exaggeration_phrase_7"		: "Радость испытваемая этим модулём может зарядить ближайшую башню на сотню лет.",
-	"exaggeration_phrase_8"		: "Значение волнения этого модуля не может быть рассчитано в разумный временной интервал.",
-	"exaggeration_phrase_9"		: "Существует 107% вероятность, что этот модуль    |shake|взорвётся|norm| на месте.",
+	"exaggeration_phrase_7"		: "Радость, испытываемая этим модулём, может питать ближайшую башню на сотню лет.",
+	"exaggeration_phrase_8"		: "Значение возбуждения этого модуля не может быть рассчитано в разумный временной интервал.",
+	"exaggeration_phrase_9"		: "С вероятностью 107% этот модуль сейчас    |shake|взорвётся|norm| прямо на месте.",
 	
 	"round1_start" 	: [
 		{
@@ -982,7 +982,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-			"dialog"			: "[VAL3].",
+			"dialog"			: "[VAL3]",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],

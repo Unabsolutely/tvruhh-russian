@@ -19,15 +19,15 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"fast_text"			: 0,
@@ -62,15 +62,15 @@
 		{
 			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncr_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"character"			: ["VOICE_syncron_panic", "CHAR_syncb_right", "MOOD_panic"],
-			"dialog"			: "|C2||shake|Паническая Тревога Паническая Тревога Паническая Тревога",
+			"dialog"			: "|C2||shake|Паническая Тревога",
 		},
 		{
 			"fast_text"			: 0,
@@ -141,20 +141,10 @@
 	
 	"no_battle" 	: [
 		{
-			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
 			"dialog"			: "|C3|Паническая петля разрешена",
 		},
 		{
-			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паническая петля разрешена",
-		},
-		{
-			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паническая петля разрешена",
-		},
-		{
-			"fast_text"			: 0,
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
 			"dialog"			: "Этот Модуль тоже была готова запустить режим паники.",
 		},
@@ -167,20 +157,10 @@
 	
 	"return_intro" : [
 		{
-			"fast_text"			: 1,
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паническая петля разрешена",
+			"dialog"			: "|C3|Паника",
 		},
 		{
-			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паническая петля разрешена",
-		},
-		{
-			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паническая петля разрешена",
-		},
-		{
-			"fast_text"			: 0,
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],
 			"dialog"			: "Этот Модуль тоже была готова запустить режим паники.",
 		},

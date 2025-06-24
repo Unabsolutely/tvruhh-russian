@@ -171,7 +171,7 @@
 	"craft_max_en"			:	"Макс. энергия +[VAL1]",
 	"craft_panic"			:	"+[VAL1] Панические атаки",
 	"craft_manic_panic"		:	"+[VAL1] Манические паники",
-	"craft_panic_polyp"		:	"+[VAL1] Панический полип",
+	"craft_panic_polyp"		:	"+[VAL1] Панических Полипа",
 	"craft_karma"			:	"+[VAL1] кармы",
 	"craft_damage"			:	"Весь урон +[VAL1]%",
 	"craft_crit_rate"		:	"Частота крита +[VAL1]%",

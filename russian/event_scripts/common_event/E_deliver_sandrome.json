@@ -684,7 +684,7 @@
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
-			"dialog"			: "Твоя восприимчивость |wave|сииииииильно|norm| выше обычного уровней.",
+			"dialog"			: "Твоя восприимчивость |wave|сииииииильно|norm| выше обычного уровня.",
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
