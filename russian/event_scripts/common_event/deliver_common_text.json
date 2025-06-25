@@ -1069,7 +1069,7 @@
 	"step1_response_B_monovai" : [
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_angry"],
-			"dialog"			: "|shake|Ты неправильно об этом думаешь.",
+			"dialog"			: "|shake|Ты не так об этом думаешь.",
 		},
 		{
 			"character"			: ["VOICE_monovai", "CHAR_monovai_right", "MOOD_normal"],
@@ -2268,7 +2268,7 @@
 	"step1_bye_unknown_B_veyeral_rain" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Мы [VAL1]!",
+			"dialog"			: "Мы - [VAL1]!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_veyeral_right", "MOOD_normal"],

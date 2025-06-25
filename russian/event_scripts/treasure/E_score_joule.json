@@ -91,7 +91,7 @@
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_happy"],
-			"dialog"			: "Нам нужно скорее записать эти данные.",		
+			"dialog"			: "Нам нужно скорее записать эти данные.",
 		},
 		{
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_sad"],
@@ -100,7 +100,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_joule", "CHAR_joule_right", "MOOD_content"],
-			"dialog"			: "Но мы всё равно почувствовали, что это твой настрой, аж из другой вселенной.",
+			"dialog"			: "Но мы всё равно аж из другой вселенной почувствовали, что это твой настрой.",
 		},
 	],
 	

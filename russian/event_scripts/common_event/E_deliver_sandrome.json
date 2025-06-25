@@ -554,7 +554,7 @@
 			"dialog"			: "|shake|Да. Да. Да. Да. Да. Да.|L|Да. Да. Да. Да. Да.",
 		},
 		{
-			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "OOD_surprised"],
+			"character"			: ["VOICE_astrayo", "CHAR_astrayo_right", "MOOD_surprised"],
 			"dialog"			: "Ты встретила этих близняшек-Зараден, да?",
 		},
 		{
@@ -1374,7 +1374,7 @@
 		},
 		{
 			"character"			: ["VOICE_murder_blossom", "CHAR_murder_blossom_right", "MOOD_normal"],
-			"dialog"			: "[VAL1] присылает свои благословления.|L|Дары только для тебя.|L|У тебя нет варианта не принять его.",
+			"dialog"			: "[VAL1] присылает свои благословления.|L|Дары только для тебя.|L|У тебя нет варианта не принять их.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],

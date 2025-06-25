@@ -641,7 +641,7 @@
 		},
 	],
 	
-		"step1_ask_B_philolu" : [
+	"step1_ask_B_philolu" : [
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_normal"],
 			"dialog"			: "|wave|Эй, дорогуша.",
@@ -652,7 +652,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Ммм, что именно?",
+			"dialog"			: "Эм, что именно?",
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_very_happy"],
@@ -660,7 +660,7 @@
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_aggressive"],
-			"dialog"			: "Эта Зарадена пересекнулась с тобой, не так ли?",
+			"dialog"			: "Эта Зарадена достала тебя, не так ли?",
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
@@ -680,7 +680,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "Я даже не знаю, что за любовь была этим утром.",
+			"dialog"			: "Этим утром, я даже не знала, что такое любовь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -688,11 +688,11 @@
 		},
 		{
 			"character"			: ["VOICE_thought", "CHAR_philolu_right", "MOOD_sad"],
-			"dialog"			: "|C3|(Я сама так старалась достучаться до всех вас.)",
+			"dialog"			: "|C3|(Я так старалась сама достучаться до всех вас)",
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_content"],
-			"dialog"			: "Так, она дала тебе почувствовать кое-что!",
+			"dialog"			: "Так, она дала тебе почувствовать что-то новое!",
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_blush"],
@@ -710,7 +710,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Думаю, я понимаю, что ты здесь делаешь.",
+			"dialog"			: "Думаю, я поняла, что ты здесь делаешь.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -1788,7 +1788,7 @@
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
 			"dialog"			: "Отдать мне, взаправду?",
-				},
+		},
 	],
 	
 	"step2_intro_B_monovai" : [
@@ -1810,14 +1810,14 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Но, похоже, стоит это сделать.",
+			"dialog"			: "Но, похоже, стоило это сделать.",
 		},
 	],
 	
 	"step2_leave_B_philolu_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "|wave|Ну,   как прошло свидание с [VAL1]?",
+			"dialog"			: "|wave|Ну,   как свидание с [VAL1]?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
@@ -1839,8 +1839,8 @@
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_content"],
 			"dialog"			: "...",
-
-	
+		},
+	],
 	
 	"step2_leave_B_vitrea_defect" 	: [
 		{
