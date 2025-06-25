@@ -2320,7 +2320,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Из-за неё я понял, какого ингредиента не хватало моему супу.",
+			"dialog"			: "Из-за неё я поняла, какого ингредиента не хватало моему супу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -2332,7 +2332,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Не против отнестии его им?",
+			"dialog"			: "Не против отнести его им?",
 		},
 	],
 	"comment_pickup_B_molten_veyeral"	: {
