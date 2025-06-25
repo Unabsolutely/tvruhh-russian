@@ -648,7 +648,7 @@
 		},
 		{
 			"character"			: ["VOICE_philolu", "CHAR_philolu_right", "MOOD_happy"],
-			"dialog"			: "Сделаешь коек-что для меня?",
+			"dialog"			: "Сделаешь кое-что для меня?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
