@@ -2290,11 +2290,11 @@
 	"step1_response_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Я тоже её встретил!",
+			"dialog"			: "Я тоже её встретила!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Из-за неё я понял, какого ингредиента не хватала моему супу.",
+			"dialog"			: "Из-за неё я поняла, какого ингредиента не хватало моему супу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -2306,7 +2306,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Я, кстати, сделал новый суп для неё.",
+			"dialog"			: "Я, кстати, сделала новый суп для неё.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -2316,11 +2316,11 @@
 	"step1_response_B_molten_veyeral_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Я тоже её встретил!",
+			"dialog"			: "Я тоже её встретила!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Из-за неё я понял, какого ингредиента не хватала моему супу.",
+			"dialog"			: "Из-за неё я понял, какого ингредиента не хватало моему супу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -2328,7 +2328,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Я, кстати, сделал новый суп для неё и её сестры.",
+			"dialog"			: "Я, кстати, сделала новый суп для неё и её сестры.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
