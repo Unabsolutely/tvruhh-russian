@@ -45,7 +45,7 @@
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
-		"dialog"	: "Взорвётся ли этот модуль прямо сейчас?",
+		"dialog"	: "Взорвётся ли Этот Модуль прямо сейчас?",
 	},
 	
 	"reward_title"	: "Выберите Награду",

@@ -542,7 +542,14 @@
 
 
 
-	
+	"E_bond_chionotoh" : {
+		"name"		: "A Walk Through the Snow",
+		"hint"		: "[hint_chance]",
+		"details"	: "When I find Chionotoh walking outside, she always asks me to join her. |C3|She seems to be happier the further we can walk together.|C0||L||L|She's always worried about the ice she creates along our path. If her |C3|temperature gets too low, there is a chance she will panic|C0| and lose control of her power! All I can do then, is be there to warm her up with a hug.",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_dot" : {
 		"name"		: "Обхватывая Точку",
 		"hint"		: "[hint_chance]",

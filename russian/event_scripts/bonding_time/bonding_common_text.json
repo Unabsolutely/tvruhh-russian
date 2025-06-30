@@ -235,6 +235,47 @@
 		},
 	],
 	
+	"comfort_ask_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "If you're not feeling okay, maybe you can talk about it?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "You can tell me anything.",
+		},
+	],
+	"comfort_ask_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "You should say something about what you're feeling.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "If you don't, you might start making up wrong answers.",
+		},
+	],
+	"comfort_ask_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad2"],
+			"dialog"			: "Umm, I'm not very good at this, but-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "You wanna tell me what's wrong?",
+		},
+	],
+	"comfort_ask_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "I know when my future bandmates are upset.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "You must always share your feelings with The Devil.",
+		},
+	],
+	
 	"times_up_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],

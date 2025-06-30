@@ -1,0 +1,779 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Oh! It's you again.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I wanted to go outside today.|!||L|Even if it's still raining.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "I haven't been outside in a long time.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "Why don't you come walk with me?",
+		},
+	],
+	"intro_twins" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Oh! It's you two.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I wanted to go outside today.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "Why don't you walk with me?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "I'm actually feeling really tired all of a sudden.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Why don't you go with her, Sunshine?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_serious2"],
+			"dialog"			: "I'll just take a little nap here.",
+		},
+	],
+	
+	"monster_mood"		: "Chionotoh's Mood",
+	"monster_stuff"		: "Chionotoh's [VAL1]",
+	"walk_tiles"		: "Tiles: [VAL1]",
+	"walk_total"		: "Total: [VAL1]",
+	"walk_end"			: "You Walked [VAL1] Tiles!",
+	"rating_title"		: "Hug Rating [VAL1]%",
+	
+	"op_walk1"		: "Walk a short distance",
+	"op_walk2"		: "Walk a long distance",
+	"op_hug"		: "Warm her up",
+	"op_burden"		: "Take on a burden",
+	"op_talk"		: "Talk to her",
+	"op_comfort"	: "Is something wrong?",
+	"op_sleep"		: "Take a nap",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "Join me on a walk.",
+	},
+	"comment_normal"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "Shall we keep going?",
+	},
+	"comment_cold"			: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "I'm feeling a little cold.",
+	},
+	"comment_burdened"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	
+	
+	
+	"to_walk_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Of course I'll walk with you, Chionotoh!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|I love the snow.",
+		},
+	],
+	"to_walk_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
+			"dialog"			: "If you really want me around, then yes.",
+		},
+	],
+	"to_walk_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "Oh, sure.    I'll walk with you.",
+		},
+	],
+	"to_walk_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|This rightous stroll will be remembered in legends!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "Yeah, I got time.",
+		},
+	],
+	"to_walk_first_reply" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "You'll be making this walk very special for me.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "Just be careful of all the ice on the ground.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "I can't seem to stop it.",
+		},
+	],
+	"to_walk" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "Let's keep going.",
+			"dialog_rand2"		: "The ice isn't getting in the way, is it?",
+			"dialog_rand3"		: "I want to keep walking with you.",
+			"dialog_rand4"		: "I'm having a lovely time.",
+		},
+	],
+	
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"comment_course_find"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "I feel warmer.",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+		"dialog"	: "Did I hurt you?",
+	},
+	"comment_course_end"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "Let's stop here for now.",
+	},
+	
+	"walk_no_distance" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "That's okay, we can just stand here for a while.",
+		},
+	],
+	"walk_end" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "We've walked [VAL1] tiles so far.",
+		},
+	],
+	"after_walk_continue" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "We can keep going if you want.",
+			"dialog_rand2"		: "I think I can keep walking now.",
+		},
+	],
+	"after_walk_cold" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "My temperature is getting low.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 2,
+			"dialog_rand1"		: "Am I making you feel cold?",
+			"dialog_rand2"		: "I'm not making you freeze, am I?",
+		},
+	],
+	
+	
+	
+	"to_hug_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "You look so cold.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|I know how to fix that!",
+		},
+	],
+	"to_hug_first_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Defect darling, why don't you try that perfect warming technique on miss Chionotoh?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Oh... I guess I can do that for someone else.",
+		},
+	],
+	"to_hug_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Hey, umm...",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Maybe I can, uhh,   warm you up,   or-",
+		},
+	],
+	"to_hug_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
+			"dialog"			: "The Devil can't allow you to suffer this cold any longer!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Not when I have so much warmth to give!",
+		},
+	],
+	"to_hug_first_reply" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "You would really share your warmth with me again?",
+		},
+	],
+	"to_hug" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "Just how much warmth do you have left?",
+			"dialog_rand2"		: "How can you still do this for me?",
+			"dialog_rand3"		: "You still have warmth to give?",
+			"dialog_rand4"		: "I can't figure out where you're keeping all this warmth.",
+		},
+	],
+	
+	"comment_hug_crit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "Woah!",
+	},
+	"comment_hug_good"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "So warm.",
+	},
+	"comment_hug_bad"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+		"dialog"	: "That's my fault.",
+	},
+	"comment_hug_perfect"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|Perfect!",
+	},
+	"comment_hug_win"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "Thank you!",
+	},
+	"comment_hug_lose"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "I appreciate the effort...",
+	},
+	
+	"hug_perfect" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "If only I could always be this warm.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Is this what you always feel like?",
+		},
+	],
+	"hug_win" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "I feel so much better.",
+			"dialog_rand2"		: "I'm feeling warmer.",
+			"dialog_rand3"		: "I really needed that.",
+		},
+	],
+	"hug_lose" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "All I did was make you colder.",
+		},
+	],
+	
+	
+	
+	"to_cold_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Oh dear!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|Wait!   Get back!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|I can't control the ice!",
+		},
+	],
+	"to_cold_game" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"random"			: 4,
+			"dialog_rand1"		: "Not again!",
+			"dialog_rand2"		: "I can feel the ice again.",
+			"dialog_rand3"		: "I'm losing control again!",
+			"dialog_rand4"		: "No! Not now.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"random"			: 3,
+			"dialog_rand1"		: "|shake|I don't want to hurt you!",
+			"dialog_rand2"		: "|shake|I'm too dangerous!",
+			"dialog_rand3"		: "|shake|Stay back this time!",
+		},
+	],
+	
+	"comment_cold_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+		"dialog"	: "|shake|Please help! I don't like this!",
+	},
+	"comment_cold_clear"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "Is it over?",
+	},
+	"comment_cold_hit"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+		"dialog"	: "|shake|No!",
+	},
+	
+	"cold_win_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "You stayed by my side?",
+		},
+	],
+	"cold_win_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "I'd never abandon you when you need me.",
+		},
+	],
+	"cold_win_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "I can't let you go through this alone.",
+		},
+	],
+	"cold_win_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|I don't know, is it over?|L|I don't know what I'm doing!",
+		},
+	],
+	"cold_win_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Never leave a bandmate behind!",
+		},
+	],
+	"cold_win" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Thank you for staying by me again.",
+		},
+	],
+	"cold_lose_first" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "I hurt you!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "That's all I know how to do.",
+		},
+	],
+	"cold_lose_first_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "Don't talk like that!|L||!|You know it was an accident.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "I know. I'm sorry.",
+		},
+	],
+	"cold_lose_first_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "I'm not going to let you blame yourself for this!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "I can't let you go through this alone.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "I'm sorry. I'll try not to talk like that again.",
+		},
+	],
+	"cold_lose_first_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|I don't care!|L|I'm not leaving until you feel better!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "...I'm so lucky to have you.",
+		},
+	],
+	"cold_lose_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|You call this hurt?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "It's barely even a scratch.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Are you really okay with this?",
+		},
+	],
+	"cold_lose" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "You're still okay, right?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Thanks for still staying with me.",
+		},
+	],
+	"the_cold_continues" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|No!    I'm still losing control!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|Be careful!",
+		},
+	],
+	"the_cold_ends" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "I think it's over now.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "I'd like to keep walking with you, if you still want to.",
+		},
+	],
+	"from_cold_to_times_up" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "I think I'm going to be fine.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "I'm just exhausted now.",
+		},
+	],
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh! Sorry.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "I was just thinking about something.",
+		},
+	],
+	"comment_burden_choice"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"burden_confirm"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "Is that a burden?",
+	},
+	"burden_taken" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "Is this what she was always talking about?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "And you can just take that out of me?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "You really are a wonderful being.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I'm feeling much better now.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Really,    I am.",
+		},
+	],
+
+
+	
+	"comfort_ask_blank"		: "bonding_time/bonding_common_text",
+	"comfort_ask_defect"	: "bonding_time/bonding_common_text",
+	"comfort_ask_twins"		: "bonding_time/bonding_common_text",
+	"comfort_ask_devil"		: "bonding_time/bonding_common_text",
+	"talk_hadesoh" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "There's no point in hiding it, is there?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "It's about my girlfriend-",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Or not...|L||!|Hadesoh.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "I think she broke up with me!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "At least, I thought she did.|!||L|She never actually SAID that.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Well... we do fight a lot.|!||L|And then I go hide in my cave.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "But, she would always come get me sooner or later.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Just      not this time...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|Ah!|norm| But I always assumed everything she was thinking!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Now I feel so dumb for always doing that.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
+			"dialog"			: "What did YOU do to me?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "I should be the one who goes looking for her sometimes.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "Maybe that's what she was waiting for this time?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
+			"dialog"			: "|shake|Ah!|norm| It doesn't matter if that's what she wanted! That's what I wanna do now!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "I miss her face.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "I think I'll go see her tomorrow.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I feel so much better now!|L||!|I mean it this time.|L||!|Thanks for listening.",
+		},
+	],
+	
+	
+
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|This walk has been so lovely.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I think I'll be going back home now.",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Oh! I almost forgot to give this to you.",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+		"dialog"	: "You can have any of these",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+		"dialog"	: "Why can't I remember what this is?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "You want this one?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+		"dialog"	: "You really don't want anything?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "Just one gift isn't enough for you.",
+		},
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "You've done so much for me.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "Please, take one more!",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "That made me feel so warm!",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh dear!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "Come here. You can rest next to me.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "I'm much warmer than I used to be.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Here's one more for the road.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "Oh my! You still have more to give?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "Thank you.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "You want to know my temperature, don't you?|L|I can tell.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+			"dialog"			: "I'll admit that I've been wondering.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "Here you go.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+			"dialog"			: "How    is this even possible?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
+			"dialog"			: "The perfect temperature, is it not?",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
+			"dialog"			: "That was fun.|!||L|I, uhh,   really liked    walking with you.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Oh, is that your sister over there?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Oh is she? Well, I should go before she comes over here and says something weird to you.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "You're really cute when you're nervous, you know?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Not you too!|L||!|You're all the same!",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
+			"dialog"			: "With the righteous stroll of lengends complete, Chionotoh had no choice-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "She had to join my band!",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "Do I have to learn to play an instrument?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|We'll work out those trivial details later.",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "Thank you for walking with me.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "I had a lovely time.",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

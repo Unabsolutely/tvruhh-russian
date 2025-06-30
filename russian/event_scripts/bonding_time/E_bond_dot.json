@@ -246,7 +246,7 @@
 	"you_win" 	: [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_happy"],
-			"random"			: 2,
+			"random"			: 3,
 			"dialog_rand1"		: "Это было весьма неплохо, но мне кажется, я могу лучше.",
 			"dialog_rand2"		: "Этот приём всё ещё можно улучшить.",
 			"dialog_rand3"		: "Я знаю, что могу ещё лучше.",
