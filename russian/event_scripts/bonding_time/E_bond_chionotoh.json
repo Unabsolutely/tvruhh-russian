@@ -2,74 +2,74 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Oh! It's you again.",
+			"dialog"			: "О! Это снова ты.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "I wanted to go outside today.|!||L|Even if it's still raining.",
+			"dialog"			: "Я хотела сегодня погулять снаружи.|!||L|Даже со всем этим дождём.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "I haven't been outside in a long time.",
+			"dialog"			: "Я не была там очень давно.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "Why don't you come walk with me?",
+			"dialog"			: "Не прогуляешься со мной?",
 		},
 	],
 	"intro_twins" : [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Oh! It's you two.",
+			"dialog"			: "О! Это вы двое.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "I wanted to go outside today.",
+			"dialog"			: "Я хотела сегодня погулять снаружи.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "Why don't you walk with me?",
+			"dialog"			: "Не прогуляетесь со мной?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
-			"dialog"			: "I'm actually feeling really tired all of a sudden.",
+			"dialog"			: "На самом деле я внезапно почувствовала себя очень уставшей.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Why don't you go with her, Sunshine?",
+			"dialog"			: "Почему бы тебе не пойти с ней, Солнышко?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_serious2"],
-			"dialog"			: "I'll just take a little nap here.",
+			"dialog"			: "Я просто посплю здесь немного.",
 		},
 	],
 	
-	"monster_mood"		: "Chionotoh's Mood",
-	"monster_stuff"		: "Chionotoh's [VAL1]",
-	"walk_tiles"		: "Tiles: [VAL1]",
-	"walk_total"		: "Total: [VAL1]",
-	"walk_end"			: "You Walked [VAL1] Tiles!",
-	"rating_title"		: "Hug Rating [VAL1]%",
+	"monster_mood"		: "Настроение Хионотох",
+	"monster_stuff"		: "[VAL1] Хионотох",
+	"walk_tiles"		: "Полей: [VAL1]",
+	"walk_total"		: "Всего: [VAL1]",
+	"walk_end"			: "Вы прошли [VAL1] Полей!",
+	"rating_title"		: "Оценка Объятий [VAL1]%",
 	
-	"op_walk1"		: "Walk a short distance",
-	"op_walk2"		: "Walk a long distance",
-	"op_hug"		: "Warm her up",
-	"op_burden"		: "Take on a burden",
-	"op_talk"		: "Talk to her",
-	"op_comfort"	: "Is something wrong?",
-	"op_sleep"		: "Take a nap",
+	"op_walk1"		: "Пройти недалеко",
+	"op_walk2"		: "Пройти далеко",
+	"op_hug"		: "Согреть её",
+	"op_burden"		: "Принять ношу",
+	"op_talk"		: "Поговорить с ней",
+	"op_comfort"	: "Что-то не так?",
+	"op_sleep"		: "Вздремнуть",
 	
 	"comment_first"		: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-		"dialog"	: "Join me on a walk.",
+		"dialog"	: "Погуляй вместе со мной.",
 	},
 	"comment_normal"		: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-		"dialog"	: "Shall we keep going?",
+		"dialog"	: "Продолжим?",
 	},
 	"comment_cold"			: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "I'm feeling a little cold.",
+		"dialog"	: "Мне немного холодно.",
 	},
 	"comment_burdened"		: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
@@ -81,57 +81,57 @@
 	"to_walk_first_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "Of course I'll walk with you, Chionotoh!",
+			"dialog"			: "Конечно, я прогуляюсь с тобой, Хионотох!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "|wave|I love the snow.",
+			"dialog"			: "|wave|Я люблю снег.",
 		},
 	],
 	"to_walk_first_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "If you really want me around, then yes.",
+			"dialog"			: "Если ты на самом деле хочешь, чтобы я была рядом, тогда давай.",
 		},
 	],
 	"to_walk_first_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "Oh, sure.    I'll walk with you.",
+			"dialog"			: "О, конечно.    Я прогуляюсь с тобой.",
 		},
 	],
 	"to_walk_first_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "|shake|This rightous stroll will be remembered in legends!",
+			"dialog"			: "|shake|Эта праведная прогулка будет увековечена в легендах!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "Yeah, I got time.",
+			"dialog"			: "Да, время у меня есть.",
 		},
 	],
 	"to_walk_first_reply" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "You'll be making this walk very special for me.",
+			"dialog"			: "Ты сделаешь эту прогулку особой для меня.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Just be careful of all the ice on the ground.",
+			"dialog"			: "Просто будь осторожнее со всем этим льдом на земле.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "I can't seem to stop it.",
+			"dialog"			: "У меня не получается его остановить.",
 		},
 	],
 	"to_walk" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "Let's keep going.",
-			"dialog_rand2"		: "The ice isn't getting in the way, is it?",
-			"dialog_rand3"		: "I want to keep walking with you.",
-			"dialog_rand4"		: "I'm having a lovely time.",
+			"dialog_rand1"		: "Давай дальше.",
+			"dialog_rand2"		: "Лёд не мешает тебе, да?",
+			"dialog_rand3"		: "Я хочу и дальше идти вместе с тобой.",
+			"dialog_rand4"		: "Мне так приятно.",
 		},
 	],
 	
@@ -141,15 +141,15 @@
 	},
 	"comment_course_find"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-		"dialog"	: "I feel warmer.",
+		"dialog"	: "Мне уже теплее.",
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-		"dialog"	: "Did I hurt you?",
+		"dialog"	: "Я поранила тебя?",
 	},
 	"comment_course_end"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "Let's stop here for now.",
+		"dialog"	: "Давай пока на этом остановимся.",
 	},
 	
 	"walk_no_distance" 	: [
