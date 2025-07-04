@@ -155,33 +155,33 @@
 	"walk_no_distance" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "That's okay, we can just stand here for a while.",
+			"dialog"			: "Это нормально, мы можем просто постоять здесь.",
 		},
 	],
 	"walk_end" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "We've walked [VAL1] tiles so far.",
+			"dialog"			: "Пока что мы прошли [VAL1] полей.",
 		},
 	],
 	"after_walk_continue" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "We can keep going if you want.",
-			"dialog_rand2"		: "I think I can keep walking now.",
+			"dialog_rand1"		: "Мы можем продолжить, если ты хочешь.",
+			"dialog_rand2"		: "Я думаю, я могу продолжить прогулку.",
 		},
 	],
 	"after_walk_cold" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "My temperature is getting low.",
+			"dialog"			: "Моя температура падает.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
 			"random"			: 2,
-			"dialog_rand1"		: "Am I making you feel cold?",
-			"dialog_rand2"		: "I'm not making you freeze, am I?",
+			"dialog_rand1"		: "Тебе от меня не холодно?",
+			"dialog_rand2"		: "Ты не замерзаешь из-за меня?",
 		},
 	],
 	
@@ -190,108 +190,108 @@
 	"to_hug_first_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
-			"dialog"			: "You look so cold.",
+			"dialog"			: "Ты выглядишь такой замёрзшей.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "|wave|I know how to fix that!",
+			"dialog"			: "|wave|Я знаю, как это исправить!",
 		},
 	],
 	"to_hug_first_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Defect darling, why don't you try that perfect warming technique on miss Chionotoh?",
+			"dialog"			: "Дефект, дорогуша, почему бы тебе не попробовать ту идеальную согревающую технику на мисс Хионотох?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Oh... I guess I can do that for someone else.",
+			"dialog"			: "О... Ну да, я могу делать это для кого-то другого.",
 		},
 	],
 	"to_hug_first_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Hey, umm...",
+			"dialog"			: "Эй, эмм...",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "|shake|Maybe I can, uhh,   warm you up,   or-",
+			"dialog"			: "|shake|Быть может, я, эммм,   согрею тебя,   или-",
 		},
 	],
 	"to_hug_first_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_upset"],
-			"dialog"			: "The Devil can't allow you to suffer this cold any longer!",
+			"dialog"			: "Дьявол больше не может позволить тебе страдать от этого холода!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "Not when I have so much warmth to give!",
+			"dialog"			: "Не тогда, когда у меня есть столько тепла для тебя!",
 		},
 	],
 	"to_hug_first_reply" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "You would really share your warmth with me again?",
+			"dialog"			: "Ты действительно опять поделишься со мной теплотой?",
 		},
 	],
 	"to_hug" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
 			"random"			: 4,
-			"dialog_rand1"		: "Just how much warmth do you have left?",
-			"dialog_rand2"		: "How can you still do this for me?",
-			"dialog_rand3"		: "You still have warmth to give?",
-			"dialog_rand4"		: "I can't figure out where you're keeping all this warmth.",
+			"dialog_rand1"		: "Сколько же в тебе ещё тепла?",
+			"dialog_rand2"		: "Как ты всё ещё можешь делать это ради меня?",
+			"dialog_rand3"		: "У тебя всё ещё есть тепло?",
+			"dialog_rand4"		: "Я не могу понять, где ты держишь всё это тепло.",
 		},
 	],
 	
 	"comment_hug_crit"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "Woah!",
+		"dialog"	: "Вау!",
 	},
 	"comment_hug_good"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-		"dialog"	: "So warm.",
+		"dialog"	: "Так тепло.",
 	},
 	"comment_hug_bad"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
-		"dialog"	: "That's my fault.",
+		"dialog"	: "Моя вина.",
 	},
 	"comment_hug_perfect"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|Perfect!",
+		"dialog"	: "|wave|Идеально!",
 	},
 	"comment_hug_win"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-		"dialog"	: "Thank you!",
+		"dialog"	: "Спасибо!",
 	},
 	"comment_hug_lose"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-		"dialog"	: "I appreciate the effort...",
+		"dialog"	: "Я ценю старания...",
 	},
 	
 	"hug_perfect" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "If only I could always be this warm.",
+			"dialog"			: "Ах, если бы я всегда могла быть такой тёплой.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Is this what you always feel like?",
+			"dialog"			: "И так ты чувствуешь себя всегда?",
 		},
 	],
 	"hug_win" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "I feel so much better.",
-			"dialog_rand2"		: "I'm feeling warmer.",
-			"dialog_rand3"		: "I really needed that.",
+			"dialog_rand1"		: "Мне заметно лучше.",
+			"dialog_rand2"		: "Мне теплее.",
+			"dialog_rand3"		: "Это мне было очень нужно.",
 		},
 	],
 	"hug_lose" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
-			"dialog"			: "All I did was make you colder.",
+			"dialog"			: "Всё, что я сделала - остудила тебя.",
 		},
 	],
 	
@@ -300,180 +300,180 @@
 	"to_cold_first" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Oh dear!",
+			"dialog"			: "О нет!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|Wait!   Get back!",
+			"dialog"			: "|shake|Погоди!   Назад!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|I can't control the ice!",
+			"dialog"			: "|shake|Я не могу контролировать лёд!",
 		},
 	],
 	"to_cold_game" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
 			"random"			: 4,
-			"dialog_rand1"		: "Not again!",
-			"dialog_rand2"		: "I can feel the ice again.",
-			"dialog_rand3"		: "I'm losing control again!",
-			"dialog_rand4"		: "No! Not now.",
+			"dialog_rand1"		: "Только не опять!",
+			"dialog_rand2"		: "Я снова чувствую лёд.",
+			"dialog_rand3"		: "Я снова теряю контроль!",
+			"dialog_rand4"		: "Нет! Не сейчас.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
 			"random"			: 3,
-			"dialog_rand1"		: "|shake|I don't want to hurt you!",
-			"dialog_rand2"		: "|shake|I'm too dangerous!",
-			"dialog_rand3"		: "|shake|Stay back this time!",
+			"dialog_rand1"		: "|shake|Я не хочу снова ранить тебя!",
+			"dialog_rand2"		: "|shake|Я слишком опасна!",
+			"dialog_rand3"		: "|shake|Держись подальше в этот раз!",
 		},
 	],
 	
 	"comment_cold_normal"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-		"dialog"	: "|shake|Please help! I don't like this!",
+		"dialog"	: "|shake|Пожалуйста, помоги! Мне это не нравится!",
 	},
 	"comment_cold_clear"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "Is it over?",
+		"dialog"	: "Всё закончилось?",
 	},
 	"comment_cold_hit"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-		"dialog"	: "|shake|No!",
+		"dialog"	: "|shake|Нет!",
 	},
 	
 	"cold_win_first" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "You stayed by my side?",
+			"dialog"			: "Ты осталась со мной?",
 		},
 	],
 	"cold_win_first_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
-			"dialog"			: "I'd never abandon you when you need me.",
+			"dialog"			: "Я никогда не покину тебя, когда ты во мне нуждаешься.",
 		},
 	],
 	"cold_win_first_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
-			"dialog"			: "I can't let you go through this alone.",
+			"dialog"			: "Я не могу позволить тебе проходить через это одной.",
 		},
 	],
 	"cold_win_first_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|I don't know, is it over?|L|I don't know what I'm doing!",
+			"dialog"			: "|shake|Я не знаю, это закончилось?|L|Я не знаю, что делаю!",
 		},
 	],
 	"cold_win_first_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "Never leave a bandmate behind!",
+			"dialog"			: "Никогда не оставляй согруппника позади!",
 		},
 	],
 	"cold_win" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Thank you for staying by me again.",
+			"dialog"			: "Спасибо, что опять осталась со мной.",
 		},
 	],
 	"cold_lose_first" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
-			"dialog"			: "I hurt you!",
+			"dialog"			: "Я поранила тебя!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "That's all I know how to do.",
+			"dialog"			: "Это всё, что я умею делать.",
 		},
 	],
 	"cold_lose_first_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
-			"dialog"			: "Don't talk like that!|L||!|You know it was an accident.",
+			"dialog"			: "Не говори так!|L||!|Ты знаешь, что это была случайность.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "I know. I'm sorry.",
+			"dialog"			: "Я знаю. Извини.",
 		},
 	],
 	"cold_lose_first_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
-			"dialog"			: "I'm not going to let you blame yourself for this!",
+			"dialog"			: "Я не позволю тебе винить себя за это!",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
-			"dialog"			: "I can't let you go through this alone.",
+			"dialog"			: "Я не могу позволить тебе проходить через это одной.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "I'm sorry. I'll try not to talk like that again.",
+			"dialog"			: "Извини. Я попытаюсь больше так не говорить.",
 		},
 	],
 	"cold_lose_first_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|I don't care!|L|I'm not leaving until you feel better!",
+			"dialog"			: "|shake|Неважно!|L|Я не уйду, пока ты не почувствуешь себя лучше!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "...I'm so lucky to have you.",
+			"dialog"			: "...Мне так повезло, что ты у меня есть.",
 		},
 	],
 	"cold_lose_first_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "|shake|You call this hurt?",
+			"dialog"			: "|shake|Ты называешь это раной?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "It's barely even a scratch.",
+			"dialog"			: "Это даже не царапина.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Are you really okay with this?",
+			"dialog"			: "Ты действительно в порядке?",
 		},
 	],
 	"cold_lose" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "You're still okay, right?",
+			"dialog"			: "Ты всё ещё в порядке, да?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Thanks for still staying with me.",
+			"dialog"			: "Спасибо, что опять осталась со мной.",
 		},
 	],
 	"the_cold_continues" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|No!    I'm still losing control!",
+			"dialog"			: "|shake|Нет!    Я всё ещё теряю контроль!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|Be careful!",
+			"dialog"			: "|shake|Осторожно!",
 		},
 	],
 	"the_cold_ends" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "I think it's over now.",
+			"dialog"			: "Я думаю, теперь всё закончилось.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "I'd like to keep walking with you, if you still want to.",
+			"dialog"			: "Мы можем продолжить прогулку с тобой, если ты всё ещё хочешь.",
 		},
 	],
 	"from_cold_to_times_up" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "I think I'm going to be fine.",
+			"dialog"			: "Я думаю, со мной всё будет нормально.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "I'm just exhausted now.",
+			"dialog"			: "Я просто выдохлась.",
 		},
 	],
 	
@@ -486,11 +486,11 @@
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Oh! Sorry.",
+			"dialog"			: "Ой! Извини.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "I was just thinking about something.",
+			"dialog"			: "Я просто задумалась.",
 		},
 	],
 	"comment_burden_choice"	: {
@@ -499,28 +499,28 @@
 	},
 	"burden_confirm"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "Is that a burden?",
+		"dialog"	: "Это ноша?",
 	},
 	"burden_taken" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "Is this what she was always talking about?",
+			"dialog"			: "Так вот о чём она говорила?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "And you can just take that out of me?",
+			"dialog"			: "И ты просто можешь снять её с меня?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "You really are a wonderful being.",
+			"dialog"			: "Ты действительно чудесна.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "I'm feeling much better now.",
+			"dialog"			: "Теперь я чувствую себя намного лучше.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Really,    I am.",
+			"dialog"			: "Правда,    лучше.",
 		},
 	],
 
@@ -533,71 +533,71 @@
 	"talk_hadesoh" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "There's no point in hiding it, is there?",
+			"dialog"			: "Нет смысла это скрывать, не так ли?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "It's about my girlfriend-",
+			"dialog"			: "Это про мою девушку-",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Or not...|L||!|Hadesoh.",
+			"dialog"			: "Или нет...|L||!|Аидасо.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
-			"dialog"			: "I think she broke up with me!",
+			"dialog"			: "Я думаю, она рассталась со мной!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "At least, I thought she did.|!||L|She never actually SAID that.",
+			"dialog"			: "По крайней мере, я думаю, что рассталась.|!||L|Она на самом деле не СКАЗАЛА это.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Well... we do fight a lot.|!||L|And then I go hide in my cave.",
+			"dialog"			: "Ну... мы часто дерёмся.|!||L|А потом я прячусь в своей пещере.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "But, she would always come get me sooner or later.",
+			"dialog"			: "Но она всегда приходила за мной раньше или позже.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Just      not this time...",
+			"dialog"			: "Но      не на этот раз...",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|Ah!|norm| But I always assumed everything she was thinking!",
+			"dialog"			: "|shake|А!|norm| Но я всегда додумывала все её мысли!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Now I feel so dumb for always doing that.",
+			"dialog"			: "Теперь я чувствую себя глупо за всё это.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
-			"dialog"			: "What did YOU do to me?",
+			"dialog"			: "Что ТЫ со мной сделала?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "I should be the one who goes looking for her sometimes.",
+			"dialog"			: "Иногда я должна быть той, что ищет её.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Maybe that's what she was waiting for this time?",
+			"dialog"			: "Может, этого она ждала на этот раз?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
-			"dialog"			: "|shake|Ah!|norm| It doesn't matter if that's what she wanted! That's what I wanna do now!",
+			"dialog"			: "|shake|А!|norm| Неважно, хотела ли она этого! Теперь это хочу я!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "I miss her face.",
+			"dialog"			: "Я скучаю по её личику.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "I think I'll go see her tomorrow.",
+			"dialog"			: "Я думаю, я найду её завтра.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "I feel so much better now!|L||!|I mean it this time.|L||!|Thanks for listening.",
+			"dialog"			: "Теперь я чувствую себя намного лучше!|L||!|И теперь я серьёзно.|L||!|Спасибо, что выслушала.",
 		},
 	],
 	
@@ -606,55 +606,55 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|This walk has been so lovely.",
+			"dialog"			: "|wave|Эта прогулка была такой приятной.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "I think I'll be going back home now.",
+			"dialog"			: "Я думаю, теперь я вернусь домой.",
 		},
 	],
 	"to_gift" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Oh! I almost forgot to give this to you.",
+			"dialog"			: "Ой! Я чуть не забыла тебе отдать это.",
 		},
 	],
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-		"dialog"	: "You can have any of these",
+		"dialog"	: "Ты можешь забрать любой из них,",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-		"dialog"	: "Why can't I remember what this is?",
+		"dialog"	: "Почему я не могу вспомнить, что это?",
 	},
 	"gift_confirm"		: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-		"dialog"	: "You want this one?",
+		"dialog"	: "Этот?",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-		"dialog"	: "You really don't want anything?",
+		"dialog"	: "Ты и вправду ничего не хочешь?",
 	},
 	"to_another_gift" 		: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Just one gift isn't enough for you.",
+			"dialog"			: "Всего одного дара тебе недостаточно.",
 		},
 	],
 	"to_last_gift" 		: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "You've done so much for me.",
+			"dialog"			: "Ты так много сделала для меня.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "Please, take one more!",
+			"dialog"			: "Пожалуйста, возьми ещё один!",
 		}
 	],
 	"to_the_end" 		: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "That made me feel so warm!",
+			"dialog"			: "Это меня так согрело!",
 		},
 	],
 	
@@ -667,16 +667,16 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Oh dear!",
+			"dialog"			: "Ой!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Come here. You can rest next to me.",
+			"dialog"			: "Иди сюда. Ты можешь отдохнуть со мной.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "I'm much warmer than I used to be.",
+			"dialog"			: "Я намного теплее, чем раньше.",
 		},
 	],
 	
@@ -685,93 +685,93 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "Here's one more for the road.",
+			"dialog"			: "Вот ещё на дорожку.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я люблю тебя!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "Oh my! You still have more to give?",
+			"dialog"			: "Оу! У тебя всё ещё есть, что отдать?",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "Thank you.",
+			"dialog"			: "Спасибо.",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "You want to know my temperature, don't you?|L|I can tell.",
+			"dialog"			: "Ты хочешь узнать мою температуру?|L|По тебе видно.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "I'll admit that I've been wondering.",
+			"dialog"			: "Признаю, что задалась вопросом.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "Here you go.",
+			"dialog"			: "Ну тогда давай.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-			"dialog"			: "How    is this even possible?",
+			"dialog"			: "Как    это вообще возможно?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
-			"dialog"			: "The perfect temperature, is it not?",
+			"dialog"			: "Идеальная температура, не так ли?",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_blush"],
-			"dialog"			: "That was fun.|!||L|I, uhh,   really liked    walking with you.",
+			"dialog"			: "Это было весело.|!||L|Мне, эмм,   очень понравилось    гулять с тобой.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Oh, is that your sister over there?",
+			"dialog"			: "Ой, это не твоя сестра там?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Oh is she? Well, I should go before she comes over here and says something weird to you.",
+			"dialog"			: "Это она? Ну, тогда я должна расстаться до того, как она подойдёт и скажет тебе что-то странное.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "You're really cute when you're nervous, you know?",
+			"dialog"			: "Знаешь, ты такая милая, когда нервничаешь?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "|shake|Not you too!|L||!|You're all the same!",
+			"dialog"			: "|shake|Только ещё и не ты!|L||!|Вы все одинаковые!",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_serious2"],
-			"dialog"			: "With the righteous stroll of lengends complete, Chionotoh had no choice-",
+			"dialog"			: "Закончив праведную прогулку легенд, у Хионотох не осталось выбора-",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "She had to join my band!",
+			"dialog"			: "Ей пришлось вступить в мою группу!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Do I have to learn to play an instrument?",
+			"dialog"			: "Мне нужно будет научиться играть на инструменте?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|We'll work out those trivial details later.",
+			"dialog"			: "|wave|Мы разберёмся с мелочами позднее.",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Thank you for walking with me.",
+			"dialog"			: "Спасибо, что гуляла со мной.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "I had a lovely time.",
+			"dialog"			: "Мне было очень приятно.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
