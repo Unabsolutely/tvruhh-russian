@@ -1,0 +1,797 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Hey! Come over here!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "I was just playing with some mites.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|You should come play with us!",
+		},
+	],
+	
+	"monster_mood"		: "Lavalin's Mood",
+	"monster_stuff"		: "Lavalin's [VAL1]",
+	
+	"op_mite_first"	: "Play with mites",
+	"op_card_first"	: "Play a card game",
+	"op_mite_game"	: "Another mite game",
+	"op_card_game"	: "Another card game",
+	"op_devil"		: "Devil Deal",
+	"op_quake"		: "Help Her!",
+	"op_comfort"	: "What just happened?",
+	"op_sleep"		: "Take a nap",
+	
+	"comment_first"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "You know you want to play with us.",
+	},
+	"comment_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "What should we do next?",
+	},
+	"comment_quake"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+		"dialog"	: "|shake|Please, hold me!",
+	},
+	"comment_scared"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "I promise, I'm fine.|L|Let's just keep playing.",
+	},
+	
+	
+	
+	"to_mite_game_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "I knew you would join us!",
+		},
+	],
+	"to_mite_game_first_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|Sunshine, we have to play with the mites!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "Calm down.|L|We can play with the mites.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Yaaaaaaaaay!",
+		},
+	],
+	"to_mite_game" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"random"			: 3,
+			"dialog_rand1"		: "What game is next?",
+			"dialog_rand2"		: "Let's see what's next.",
+			"dialog_rand3"		: "What will they do next?",
+		},
+	],
+	"start_mite_swap" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "This round will be |C3|Mite Swap!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "These mites will hide under mushrooms and swap around.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Try to remember which mite had [VAL1] after moving around.",
+		},
+	],
+	"start_mite_burrow" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "This round will be |C3|Mite Burrow!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Count how many mites with [VAL1] come out of the ground.",
+		},
+	],
+	"start_mite_burrow2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "This is a special round of |C3|Mite Burrow!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Try to remember how many mites of all the colors you see.|L||!|I will ask about any of them.",
+		},
+	],
+	"start_mite_peek" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "This round will be |C3|Mite Peek!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Count how many mites with [VAL1] come out from under this mushroom.",
+		},
+	],
+	"start_mite_peek2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "This is a special round of |C3|Mite Peek!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Try to remember how many mites of all the colors you see.|L||!|I will ask about any of them.",
+		},
+	],
+	"start_mite_swarm" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "This round will be |C3|Mite Swarm!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Count all the mites with [VAL1] that pass by.",
+		},
+	],
+	"comment_swap_choose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "Where is the mite with [VAL1] hiding?",
+	},
+	"comment_mite_count"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "How many mites with [VAL1] did you see?",
+	},
+	"comment_mite_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "|wave|You got it!",
+	},
+	"comment_mite_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "|shake|Sorry!",
+	},
+	"mite_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "That was fun!",
+		},
+	],
+	"mite_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "You can't win every time.",
+		},
+	],
+	"mite_wins_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "You've won three mite games so far!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I hope you're having fun.",
+		},
+	],
+	"mite_streak_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "You won three mite games in a row!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "You are so good at this.",
+		},
+	],
+	"mite_wins_5" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "You won five of the mite games!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "That's really good!",
+		},
+	],
+	"mite_streak_5" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "You won five mite games in a row!",
+		},
+	],
+	"mite_continue_after_5_streak" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Can you make it six?",
+		},
+	],
+	"mite_streak_6" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "I can't believe you won six in a row!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "You are too good at this!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "I think they're giving up for today.",
+		},
+	],
+	"mites_continue_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "The mites still want to play, but-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I also have a fun card game, if you want to try it!",
+		},
+	],
+	"mites_continue" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "It looks like they still want to play.",
+			"dialog_rand2"		: "The mites want another round.",
+			"dialog_rand3"		: "I think they still want to play!",
+		},
+	],
+	"mites_done" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "But it looks like they're finally tired now.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "I think they're done playing games for today.",
+		},
+	],
+	
+	
+	
+	
+	"to_card_game_first" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "It's called |C3|Danger Glyphs!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "All you have to do is flip two cards over and see if they match.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "But if one of the cards you flip has a |ral| glyph, then |C3|you get a strike!|C0|",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "If both cards have |ral| glyphs, then it's still a match and you are safe!",
+		},
+	],
+	"to_card_game" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Another round of |C3|Danger Glyphs!|C0|",
+		},
+	],
+	"to_card_game_after_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Let's try that round again.",
+		},
+	],
+	"start_card_game" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I'll be using [VAL1] cards, with [VAL2] of them having |ral| glyphs.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "You lose after [VAL3] strikes!",
+		},
+	],
+	"start_card_game_twins" : [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive"],
+			"dialog"			: "Don't worry, Sunshine.|L|I'll help you remember some of the cards!",
+		},
+	],
+	"comment_cards_start"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "Flip a card!",
+	},
+	"comment_cards_match"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "|wave|Yes!",
+	},
+	"comment_cards_mood_up"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+		"dialog"	: "You are doing great!",
+	},
+	"comment_cards_cleared"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "|wave|You survived!",
+	},
+	"comment_cards_miss"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "Try again.",
+	},
+	"comment_cards_danger"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+		"dialog"	: "|shake|Watch out!",
+	},
+	"comment_cards_strike"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
+		"dialog"	: "|shake|That's a strike!",
+	},
+	"comment_cards_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "Too bad.",
+	},
+	"cards_perfect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "|shake|Without any strikes too!",
+		},
+	],
+	"cards_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "You are so lucky.",
+		},
+	],
+	"cards_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "That was bad luck.",
+		},
+	],
+	"cards_lose_close" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "You almost had it too!",
+		},
+	],
+	"cards_after_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "You'll get it next time.",
+		},
+	],
+	"cards_next_stage_2" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "I'll make it harder next time.",
+		},
+	],
+	"cards_next_stage_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "The next one will be really tough!",
+		},
+	],
+	"cards_wins_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "You've won all my card games!",
+		},
+	],
+	"cards_streak_3" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "|shake|You won all 3 in a row!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "I don't think I can actually beat that luck of yours.",
+		},
+	],
+	
+	
+	
+	"rain_power_increases" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Oh! The rain is picking up.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "The rain can be a little scary when it get's heavier, huh?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "You don't think it will get any worse, right?",
+		},
+	],
+	"to_earthquake" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "|shake|No!",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "|shake|Not right now!|!||L|It's raining too hard!",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|I'm going to cause an earthquake!",
+		},
+	],
+	"start_earthquake_blank" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|I won't let you go!",
+		},
+	],
+	"start_earthquake_defect" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|I'm right here!",
+		},
+	],
+	"start_earthquake_twins" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
+			"dialog"			: "|shake|What do I do?",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Hold her, Sunshine!",
+		},
+	],
+	"start_earthquake_devil" 	: [
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|The Devil does not fail those she loves!|L|I'm not letting go!",
+		},
+	],
+	"comment_quake_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+		"dialog"	: "|shake|Help me!",
+	},
+	"comment_quake_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+		"dialog"	: "What happened?",
+	},
+	"comment_quake_hit"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+		"dialog"	: "|shake|Stop!",
+	},
+	"comment_quake_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"quake_perfect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "|wave|That was perfect!|L||!|How did you do that?",
+		},
+	],
+	"quake_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "You are really good at this.",
+		},
+	],
+	"after_quake_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I'm glad you were here with me.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "Even if that was really embarrassing, and I wish you never saw it.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I'm already feeling much better now.",
+		},
+	],
+	"quake_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "I'm sorry about that.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "I know you tried to help, but I didn't make it easy.",
+		},
+	],
+	"after_quake_lose" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I'm still happy you stayed by me.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I'm already feeling better.",
+		},
+	],
+	"quake_hurt" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "I know you were trying to help, but all I did was hurt you.",
+		},
+	],
+	"hurt_scold_blank"	: "bonding_time/bonding_common_text",
+	"hurt_scold_defect"	: "bonding_time/bonding_common_text",
+	"hurt_scold_twins"	: "bonding_time/bonding_common_text",
+	"hurt_scold_devil"	: "bonding_time/bonding_common_text",
+	"after_quake_hurt" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "I know...",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "I'm still going to feel bad about it.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "But maybe not as bad as I would have felt before!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I'm still happy you stayed by me anyways.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I'm feeling a lot better now.",
+		},
+	],
+	
+	
+	
+	"comfort_ask_blank"		: "bonding_time/bonding_common_text",
+	"comfort_ask_defect"	: "bonding_time/bonding_common_text",
+	"comfort_ask_twins"		: "bonding_time/bonding_common_text",
+	"comfort_ask_devil"		: "bonding_time/bonding_common_text",
+	"talk_fear" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "What gave it away?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "Not that panic attack I just had, right?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "Anyways... I'm scared of the rain.|L||!|When it gets really strong-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "What if there's a flood?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "I'm the |C3|Glyph of Chaos.|C0||!||L|I make natural disasters happen by accident.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "I usually try to stay perfectly still, so that nothing ever happens.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "I must never   |shake|ever|norm|   move on a bad day.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "But there are still good days.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "Like today, because I met you!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I can move around just a little bit.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|And I can play with the mites.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "But when I get scared, bad stuff happens.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "And bad stuff happening makes me scared!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "And then bad stuff happens!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|It's just so exhausting all the time!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "Oh.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "I shouldn't yell that loud, or something bad might-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Nothing happened?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Did you see?|!||L|I just got all excited and nothing bad happened!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|This really is a good day.",
+		},
+	],
+	
+	
+	
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "You've been here with me long enough today.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I want you to go help more of us out there.",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "Use some of my gifts to show them love!",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "Which one do you like?",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
+		"dialog"	: "I am having so much trouble remembering what anything is today.",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "You like this one?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "You don't want anything?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "I think the mites brought you that one.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "You have to take one of mine next.",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "At least take one more.",
+		},
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "You're gunna love so much better with that!",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Well, at least come in here and get all cozy next to me.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "Don't mind all the mites crawling on you.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "I'll always be here for you.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "I know.|L|Thanks for playing with me.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I also know what it's like to have an uncontrollable power.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "You do?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I have no flaws, and there's nothing I can do about it.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "I don't really think that's the same thing.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "By the way, you can let go of me now. I promise I'll be okay.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
+			"dialog"			: "|shake|Oh!|norm||L||!|I forgot I was still holding you.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "I mean,    you don't   HAVE  to let go yet.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Yeah, you don't    HAVE  to let go yet.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Umm, now you're the one holding on.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Thanks for playing with me.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "And   for helping me through that whole    earthquake  thing.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Did you really think some rain and a little earthquake was enough to get rid of The Devil?",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "Thanks for playing with me!",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

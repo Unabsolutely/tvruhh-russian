@@ -1,4 +1,5 @@
 {
+
 	"gifts_tag"		: "Дары",
 	"burdens_tag"	: "Ноши",
 	"player_gifts"	: "Дары у [NAME]",
@@ -6,7 +7,9 @@
 	"times_up"	: "Время вышло!",
 	"victory"	: "Победа!",
 	"ouch"		: "Ай!",
-	
+
+	"hug_rating"	: "Hug Rating [VAL1]%",
+		
 	"course_walk"	: "Пройди 1 клетку",
 	"course_jump"	: "Прыгни на 2 клетки",
 
@@ -17,7 +20,16 @@
 	"pupil_shape2"	: "|C3|круглыми зрачками|C0|",
 	"pupil_shape3"	: "|C3|квадратными зрачками|C0|",
 	
-	
+	"mite_shell1"	: "|C3|green shells|C0|",
+	"mite_shell2"	: "|C3|pink shells|C0|",
+	"mite_shell3"	: "|C3|yellow shells|C0|",
+	"mite_eye1"		: "|C3|three eyes|C0|",
+	"mite_eye2"		: "|C3|one eye|C0|",
+	"mite_eye3"		: "|C3|no eyes|C0|",
+	"mite_antennae"	: "|C3|long antennae|C0|",
+	"mite_no_ant"	: "|C3|no antennae|C0|",
+		
+
 	
 	"pet_name_structure"	: "[PREFIX] [MOD] [PET] [SUFFIX]",
 	
@@ -262,6 +274,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad"],
 			"dialog"			: "Расскажешь мне, что не так?",
 		},
 	],
@@ -273,6 +286,39 @@
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
 			"dialog"			: "Ты всегда должна делиться своими чувствами с Дьяволом.",
+		},
+	],
+	
+	"hurt_scold_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "Don't talk like that!|L||!|You know it was an accident.",
+		},
+	],
+	"hurt_scold_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "I'm not going to let you blame yourself for this!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "I can't let you go through this alone.",
+		},
+	],
+	"hurt_scold_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|I don't care!|L|I'm not leaving until you feel better!",
+		},
+	],
+	"hurt_scold_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|You call this hurt?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "It's barely even a scratch.",
 		},
 	],
 	
