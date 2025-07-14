@@ -541,7 +541,14 @@
 		},
 
 
-
+	"E_bond_lavalin" : {
+		"name"		: "Lavalin's Fault",
+		"hint"		: "[hint_chance]",
+		"details"	: "I went back to check on Lavalin again today. She's always in the same place, playing games with all the mites. The problem is, every time I see her, the rain always picks up. Then it gets even heavier. Then |C3|there's always an earthquake!|C0||L||L|I know how she worries about accidentally hurting someone. I might just be causing her more stress when I visit her. No! I can't think about it like that!",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_chionotoh" : {
 		"name"		: "Прогулка Через Снег",
 		"hint"		: "[hint_chance]",
