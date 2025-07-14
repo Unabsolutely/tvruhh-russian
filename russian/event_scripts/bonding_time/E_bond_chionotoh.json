@@ -48,14 +48,11 @@
 	"monster_stuff"		: "[VAL1] Хионотох",
 	"walk_tiles"		: "Полей: [VAL1]",
 	"walk_total"		: "Всего: [VAL1]",
-	"walk_end"			: "Вы прошли [VAL1] Полей!",
-	"rating_title"		: "Оценка Объятий [VAL1]%",
 	
 	"op_walk1"		: "Пройти недалеко",
 	"op_walk2"		: "Пройти далеко",
 	"op_hug"		: "Согреть её",
 	"op_burden"		: "Принять ношу",
-	"op_talk"		: "Поговорить с ней",
 	"op_comfort"	: "Что-то не так?",
 	"op_sleep"		: "Вздремнуть",
 	
@@ -621,7 +618,7 @@
 	],
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-		"dialog"	: "Ты можешь забрать любой из них,",
+		"dialog"	: "Ты можешь забрать любой из них.",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],

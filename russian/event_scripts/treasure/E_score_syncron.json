@@ -158,7 +158,7 @@
 	"return_intro" : [
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncb_right", "MOOD_normal"],
-			"dialog"			: "|C3|Паника",
+			"dialog"			: "|C3|Паническая петля разрешена",
 		},
 		{
 			"character"			: ["VOICE_syncron", "CHAR_syncr_right", "MOOD_happy"],

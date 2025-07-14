@@ -2,45 +2,45 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Hey! Come over here!",
+			"dialog"			: "Эй! Подойди сюда!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "I was just playing with some mites.",
+			"dialog"			: "Я тут играю с парочкой клещей.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "|wave|You should come play with us!",
+			"dialog"			: "|wave|Тебе стоит поиграть с нами!",
 		},
 	],
 	
-	"monster_mood"		: "Lavalin's Mood",
-	"monster_stuff"		: "Lavalin's [VAL1]",
+	"monster_mood"		: "Настроение Лавалин",
+	"monster_stuff"		: "[VAL1] Лавалин",
 	
-	"op_mite_first"	: "Play with mites",
-	"op_card_first"	: "Play a card game",
-	"op_mite_game"	: "Another mite game",
-	"op_card_game"	: "Another card game",
-	"op_devil"		: "Devil Deal",
-	"op_quake"		: "Help Her!",
-	"op_comfort"	: "What just happened?",
-	"op_sleep"		: "Take a nap",
+	"op_mite_first"	: "Поиграть с клещами",
+	"op_card_first"	: "Сыграть в карты",
+	"op_mite_game"	: "Ещё игра с клещами",
+	"op_card_game"	: "Ещё карточная игра",
+	"op_devil"		: "Сделка с Дьяволом",
+	"op_quake"		: "Помочь ей!",
+	"op_comfort"	: "Что это было?",
+	"op_sleep"		: "Вздремнуть",
 	
 	"comment_first"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "You know you want to play with us.",
+		"dialog"	: "Вы знаем, ты хочешь с нами поиграть.",
 	},
 	"comment_normal"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-		"dialog"	: "What should we do next?",
+		"dialog"	: "Чем займёмся дальше?",
 	},
 	"comment_quake"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-		"dialog"	: "|shake|Please, hold me!",
+		"dialog"	: "|shake|Прошу, держись за меня!",
 	},
 	"comment_scared"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-		"dialog"	: "I promise, I'm fine.|L|Let's just keep playing.",
+		"dialog"	: "Я в порядке, обещаю.|L|Давай просто играть дальше.",
 	},
 	
 	
@@ -48,207 +48,207 @@
 	"to_mite_game_first" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "I knew you would join us!",
+			"dialog"			: "Я знала, что ты присоединишься к нам!",
 		},
 	],
 	"to_mite_game_first_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
-			"dialog"			: "|shake|Sunshine, we have to play with the mites!",
+			"dialog"			: "|shake|Солнышко, нам очень нужно поиграть с клещами!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
-			"dialog"			: "Calm down.|L|We can play with the mites.",
+			"dialog"			: "Успокойся.|L|Мы поиграем с клещами.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|Yaaaaaaaaay!",
+			"dialog"			: "|wave|Е-е-е-е-е-е-е!",
 		},
 	],
 	"to_mite_game" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
 			"random"			: 3,
-			"dialog_rand1"		: "What game is next?",
-			"dialog_rand2"		: "Let's see what's next.",
-			"dialog_rand3"		: "What will they do next?",
+			"dialog_rand1"		: "Во что сыграем дальше?",
+			"dialog_rand2"		: "Посмотрим, что у нас дальше.",
+			"dialog_rand3"		: "Чем они займутся теперь?",
 		},
 	],
 	"start_mite_swap" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "This round will be |C3|Mite Swap!|C0|",
+			"dialog"			: "В этом раунде у нас |C3|Подмена клещей!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "These mites will hide under mushrooms and swap around.",
+			"dialog"			: "Эти клещи спрячутся под грибами и поменяются местами.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Try to remember which mite had [VAL1] after moving around.",
+			"dialog"			: "Постарайся запомнить клеща с [VAL1], когда они переместятся.",
 		},
 	],
 	"start_mite_burrow" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "This round will be |C3|Mite Burrow!|C0|",
+			"dialog"			: "В этом раунде у нас |C3|Закопанные клещи!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Count how many mites with [VAL1] come out of the ground.",
+			"dialog"			: "Посчитай, сколько клещей с [VAL1] вылезут из-под земли.",
 		},
 	],
 	"start_mite_burrow2" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "This is a special round of |C3|Mite Burrow!|C0|",
+			"dialog"			: "Это особый раунд |C3|Закопанных клещей!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Try to remember how many mites of all the colors you see.|L||!|I will ask about any of them.",
+			"dialog"			: "Запомни количество клещей всех цветов.|L||!|Я могу спросить про любой из них.",
 		},
 	],
 	"start_mite_peek" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "This round will be |C3|Mite Peek!|C0|",
+			"dialog"			: "В этом раунде у нас |C3|Гляделки клещей!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Count how many mites with [VAL1] come out from under this mushroom.",
+			"dialog"			: "Посчитай, сколько клещей с [VAL1] вылезут из-под этого гриба.",
 		},
 	],
 	"start_mite_peek2" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "This is a special round of |C3|Mite Peek!|C0|",
+			"dialog"			: "Это особый раунд |C3|Гляделок клещей!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Try to remember how many mites of all the colors you see.|L||!|I will ask about any of them.",
+			"dialog"			: "Запомни количество клещей всех цветов.|L||!|Я могу спросить про любой из них.",
 		},
 	],
 	"start_mite_swarm" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "This round will be |C3|Mite Swarm!|C0|",
+			"dialog"			: "В этом раунде у нас |C3|Рой клещей!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Count all the mites with [VAL1] that pass by.",
+			"dialog"			: "Посчитай, сколько клещей с [VAL1] пройдут мимо.",
 		},
 	],
 	"comment_swap_choose"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "Where is the mite with [VAL1] hiding?",
+		"dialog"	: "Где прячется клещ с [VAL1]?",
 	},
 	"comment_mite_count"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "How many mites with [VAL1] did you see?",
+		"dialog"	: "Сколько клещей с [VAL1] ты увидела?",
 	},
 	"comment_mite_win"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-		"dialog"	: "|wave|You got it!",
+		"dialog"	: "|wave|Правильно!",
 	},
 	"comment_mite_lose"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-		"dialog"	: "|shake|Sorry!",
+		"dialog"	: "|shake|Извини!",
 	},
 	"mite_win" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "That was fun!",
+			"dialog"			: "Это было весело!",
 		},
 	],
 	"mite_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "You can't win every time.",
+			"dialog"			: "Не каждый же раз выигрывать.",
 		},
 	],
 	"mite_wins_3" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "You've won three mite games so far!",
+			"dialog"			: "Ты выиграла уже три игры с клещами!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I hope you're having fun.",
+			"dialog"			: "Надеюсь, тебе весело.",
 		},
 	],
 	"mite_streak_3" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "You won three mite games in a row!",
+			"dialog"			: "Ты выиграла три игры с клещами подряд!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "You are so good at this.",
+			"dialog"			: "У тебя так хорошо получается.",
 		},
 	],
 	"mite_wins_5" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "You won five of the mite games!",
+			"dialog"			: "Ты выиграла пять игр с клещами!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "That's really good!",
+			"dialog"			: "Это очень хорошо!",
 		},
 	],
 	"mite_streak_5" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "You won five mite games in a row!",
+			"dialog"			: "Пять выигранных игр с клещами подряд!",
 		},
 	],
 	"mite_continue_after_5_streak" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Can you make it six?",
+			"dialog"			: "А сможешь и шестую?",
 		},
 	],
 	"mite_streak_6" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "I can't believe you won six in a row!",
+			"dialog"			: "Поверить не могу, что у тебя шесть побед подряд!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "You are too good at this!",
+			"dialog"			: "Ты уж даже слишком хороша!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "I think they're giving up for today.",
+			"dialog"			: "По-моему, они на сегодня устали.",
 		},
 	],
 	"mites_continue_first" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "The mites still want to play, but-",
+			"dialog"			: "Клещи хотят играть ещё, но-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I also have a fun card game, if you want to try it!",
+			"dialog"			: "У меня ещё есть забавная игра с картами, если интересно!",
 		},
 	],
 	"mites_continue" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "It looks like they still want to play.",
-			"dialog_rand2"		: "The mites want another round.",
-			"dialog_rand3"		: "I think they still want to play!",
+			"dialog_rand1"		: "Похоже, они ещё хотят играть.",
+			"dialog_rand2"		: "Клещи желают ещё один раунд.",
+			"dialog_rand3"		: "Думаю, они всё ещё хотят играть!",
 		},
 	],
 	"mites_done" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "But it looks like they're finally tired now.",
+			"dialog"			: "Но похоже, что они наконец устали.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "I think they're done playing games for today.",
+			"dialog"			: "Думаю, на сегодня они уже наигрались.",
 		},
 	],
 	
@@ -258,137 +258,137 @@
 	"to_card_game_first" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "It's called |C3|Danger Glyphs!|C0|",
+			"dialog"			: "Она называется |C3|Опасные Глифы!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "All you have to do is flip two cards over and see if they match.",
+			"dialog"			: "Всё что требуется - переворачивать карты и смотреть, есть ли пара.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "But if one of the cards you flip has a |ral| glyph, then |C3|you get a strike!|C0|",
+			"dialog"			: "Но если на одной из этих карт есть глиф |ral|, то |C3|ты теряешь жизнь!|C0|",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "If both cards have |ral| glyphs, then it's still a match and you are safe!",
+			"dialog"			: "Если глиф |ral| на обеих картах, они считаются парой, и ты в безопасности!",
 		},
 	],
 	"to_card_game" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Another round of |C3|Danger Glyphs!|C0|",
+			"dialog"			: "Ещё раунд |C3|Опасных Глифов!|C0|",
 		},
 	],
 	"to_card_game_after_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "Let's try that round again.",
+			"dialog"			: "Попробуем этот раунд ещё раз.",
 		},
 	],
 	"start_card_game" 		: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I'll be using [VAL1] cards, with [VAL2] of them having |ral| glyphs.",
+			"dialog"			: "Я разложу [VAL1] карт, и на [VAL2] из них будет глиф |ral|.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "You lose after [VAL3] strikes!",
+			"dialog"			: "У тебя есть [VAL3] жизни!",
 		},
 	],
 	"start_card_game_twins" : [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive"],
-			"dialog"			: "Don't worry, Sunshine.|L|I'll help you remember some of the cards!",
+			"dialog"			: "Не переживай, Солнышко.|L|Я помогу тебе запомнить несколько карт!",
 		},
 	],
 	"comment_cards_start"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-		"dialog"	: "Flip a card!",
+		"dialog"	: "Переверни карту!",
 	},
 	"comment_cards_match"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-		"dialog"	: "|wave|Yes!",
+		"dialog"	: "|wave|Да!",
 	},
 	"comment_cards_mood_up"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-		"dialog"	: "You are doing great!",
+		"dialog"	: "У тебя хорошо получается!",
 	},
 	"comment_cards_cleared"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-		"dialog"	: "|wave|You survived!",
+		"dialog"	: "|wave|И ты выжила!",
 	},
 	"comment_cards_miss"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "Try again.",
+		"dialog"	: "Попробуй ещё.",
 	},
 	"comment_cards_danger"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-		"dialog"	: "|shake|Watch out!",
+		"dialog"	: "|shake|Осторожно!",
 	},
 	"comment_cards_strike"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
-		"dialog"	: "|shake|That's a strike!",
+		"dialog"	: "|shake|Уф, жизнь потеряна!",
 	},
 	"comment_cards_lose"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-		"dialog"	: "Too bad.",
+		"dialog"	: "Как жаль.",
 	},
 	"cards_perfect" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "|shake|Without any strikes too!",
+			"dialog"			: "|shake|И не потеряла ни одной жизни!",
 		},
 	],
 	"cards_win" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "You are so lucky.",
+			"dialog"			: "Ты такая везучая.",
 		},
 	],
 	"cards_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "That was bad luck.",
+			"dialog"			: "Вот не повезло.",
 		},
 	],
 	"cards_lose_close" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "You almost had it too!",
+			"dialog"			: "А ведь ты была так близко!",
 		},
 	],
 	"cards_after_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "You'll get it next time.",
+			"dialog"			: "В следующий раз пполучится.",
 		},
 	],
 	"cards_next_stage_2" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "I'll make it harder next time.",
+			"dialog"			: "В этот раз будет немного сложнее.",
 		},
 	],
 	"cards_next_stage_3" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "The next one will be really tough!",
+			"dialog"			: "Следующий раунд будет очень трудным!",
 		},
 	],
 	"cards_wins_3" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "You've won all my card games!",
+			"dialog"			: "Ты выиграла все мои карточные игры!",
 		},
 	],
 	"cards_streak_3" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "|shake|You won all 3 in a row!",
+			"dialog"			: "|shake|Ты выиграла все три подряд!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "I don't think I can actually beat that luck of yours.",
+			"dialog"			: "Не думаю, что могу сравниться с твоей удачей.",
 		},
 	],
 	
@@ -397,76 +397,76 @@
 	"rain_power_increases" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Oh! The rain is picking up.",
+			"dialog"			: "О! Кажется, дождь нарастает.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "The rain can be a little scary when it get's heavier, huh?",
+			"dialog"			: "Дождь может быть немного страшным, когда он сильный, да?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "You don't think it will get any worse, right?",
+			"dialog"			: "Ты же не думаешь, что он ещё усилится, да?",
 		},
 	],
 	"to_earthquake" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "|shake|No!",
+			"dialog"			: "|shake|Нет!",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "|shake|Not right now!|!||L|It's raining too hard!",
+			"dialog"			: "|shake|Только не сейчас!|!||L|Он слишком сильный!",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-			"dialog"			: "|shake|I'm going to cause an earthquake!",
+			"dialog"			: "|shake|Я вызову землетрясение!",
 		},
 	],
 	"start_earthquake_blank" 	: [
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
-			"dialog"			: "|shake|I won't let you go!",
+			"dialog"			: "|shake|Я тебя не отпущу!",
 		},
 	],
 	"start_earthquake_defect" 	: [
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
-			"dialog"			: "|shake|I'm right here!",
+			"dialog"			: "|shake|Я здесь, рядом!",
 		},
 	],
 	"start_earthquake_twins" 	: [
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked"],
-			"dialog"			: "|shake|What do I do?",
+			"dialog"			: "|shake|Что мне делать?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Hold her, Sunshine!",
+			"dialog"			: "|shake|Хватай её, Солнышко!",
 		},
 	],
 	"start_earthquake_devil" 	: [
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "|shake|The Devil does not fail those she loves!|L|I'm not letting go!",
+			"dialog"			: "|shake|Дьявол не оставляет любимых в беде!|L|Я не отпущу!",
 		},
 	],
 	"comment_quake_normal"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-		"dialog"	: "|shake|Help me!",
+		"dialog"	: "|shake|Помоги мне!",
 	},
 	"comment_quake_win"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-		"dialog"	: "What happened?",
+		"dialog"	: "Что случилось?",
 	},
 	"comment_quake_hit"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-		"dialog"	: "|shake|Stop!",
+		"dialog"	: "|shake|Перестань!",
 	},
 	"comment_quake_lose"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
@@ -475,53 +475,53 @@
 	"quake_perfect" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
-			"dialog"			: "|wave|That was perfect!|L||!|How did you do that?",
+			"dialog"			: "|wave|Это было идеально!|L||!|Как у тебя получилсь?",
 		},
 	],
 	"quake_win" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
-			"dialog"			: "You are really good at this.",
+			"dialog"			: "Ты в этом действительно хороша.",
 		},
 	],
 	"after_quake_win" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I'm glad you were here with me.",
+			"dialog"			: "Я рада, что ты была рядом со мной.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "Even if that was really embarrassing, and I wish you never saw it.",
+			"dialog"			: "Правда, мне было неловко, и мне бы хотелось, чтобы ты это не видела.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I'm already feeling much better now.",
+			"dialog"			: "Мне уже гораздо лучше.",
 		},
 	],
 	"quake_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "I'm sorry about that.",
+			"dialog"			: "Прости насчёт этого.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "I know you tried to help, but I didn't make it easy.",
+			"dialog"			: "Знаю, ты пыталась помочь, но со мной это непросто.",
 		},
 	],
 	"after_quake_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I'm still happy you stayed by me.",
+			"dialog"			: "Я всё ещё рада, что ты была рядом.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I'm already feeling better.",
+			"dialog"			: "Мне уже лучше.",
 		},
 	],
 	"quake_hurt" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "I know you were trying to help, but all I did was hurt you.",
+			"dialog"			: "Знаю, ты пыталась помочь, а я лишь причинила тебе боль.",
 		},
 	],
 	"hurt_scold_blank"	: "bonding_time/bonding_common_text",
@@ -531,23 +531,23 @@
 	"after_quake_hurt" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "I know...",
+			"dialog"			: "Знаю...",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "I'm still going to feel bad about it.",
+			"dialog"			: "Мне всё равно будет неприятно об этом думать.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
-			"dialog"			: "But maybe not as bad as I would have felt before!",
+			"dialog"			: "Ну, наверняка не так неприятно, как раньше!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I'm still happy you stayed by me anyways.",
+			"dialog"			: "Я всё равно рада, что ты осталась помочь.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I'm feeling a lot better now.",
+			"dialog"			: "Сейчас мне намного лучше.",
 		},
 	],
 	
@@ -560,83 +560,83 @@
 	"talk_fear" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "What gave it away?",
+			"dialog"			: "Как ты догадалась?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
-			"dialog"			: "Not that panic attack I just had, right?",
+			"dialog"			: "Не из-за панической атаки, что со мной сейчас случилась, да?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "Anyways... I'm scared of the rain.|L||!|When it gets really strong-",
+			"dialog"			: "Неважно... Я боюсь дождя.|L||!|Когда он очень сильный-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "What if there's a flood?",
+			"dialog"			: "Что, если случится потоп?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "I'm the |C3|Glyph of Chaos.|C0||!||L|I make natural disasters happen by accident.",
+			"dialog"			: "Я ведь |C3|Глиф Хаоса.|C0||!||L|Я по неосторожности вызываю стихийные бедствия.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "I usually try to stay perfectly still, so that nothing ever happens.",
+			"dialog"			: "Обычно я пытаюсь стоять смирно, чтобы ничего не случилось.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "I must never   |shake|ever|norm|   move on a bad day.",
+			"dialog"			: "Я не должна двигаться   |shake|вовсе|norm|   в плохие дни.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "But there are still good days.",
+			"dialog"			: "Но бывают и хорошие дни.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "Like today, because I met you!",
+			"dialog"			: "Как сегодня, потому что я встретилась с тобой!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I can move around just a little bit.",
+			"dialog"			: "И я могу подвигаться совсем чуть-чуть.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "|wave|And I can play with the mites.",
+			"dialog"			: "|wave|И поиграть с клещами.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "But when I get scared, bad stuff happens.",
+			"dialog"			: "Но когда я пугаюсь, происходят неприятности.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "And bad stuff happening makes me scared!",
+			"dialog"			: "А неприятности пугают меня ещё больше!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-			"dialog"			: "And then bad stuff happens!",
+			"dialog"			: "А потом больше неприятностей!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-			"dialog"			: "|shake|It's just so exhausting all the time!",
+			"dialog"			: "|shake|Это так утомительно каждый раз!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
-			"dialog"			: "Oh.",
+			"dialog"			: "Ой.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
-			"dialog"			: "I shouldn't yell that loud, or something bad might-",
+			"dialog"			: "Мне не стоит так кричать, иначе случится что-то плохое-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Nothing happened?",
+			"dialog"			: "Ничего не произошло?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Did you see?|!||L|I just got all excited and nothing bad happened!",
+			"dialog"			: "Ты видела?|!||L|Я так вобудилась, и ничего не стряслось!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "|wave|This really is a good day.",
+			"dialog"			: "|wave|Это и правда чудесный день.",
 		},
 	],
 	
@@ -645,55 +645,55 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "You've been here with me long enough today.",
+			"dialog"			: "Сегодня ты была со мной достаточно долго.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I want you to go help more of us out there.",
+			"dialog"			: "Я хочу, чтобы ты помогла и остальным.",
 		},
 	],
 	"to_gift" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "Use some of my gifts to show them love!",
+			"dialog"			: "Прими мои дары и покажи им любовь!",
 		},
 	],
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-		"dialog"	: "Which one do you like?",
+		"dialog"	: "Что-нибудь приглянулось?",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_angry"],
-		"dialog"	: "I am having so much trouble remembering what anything is today.",
+		"dialog"	: "Сегодня у меня просто всё из головы вылетает, ничего не помню.",
 	},
 	"gift_confirm"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "You like this one?",
+		"dialog"	: "Нравится этот?",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-		"dialog"	: "You don't want anything?",
+		"dialog"	: "Ты ничего не хочешь?",
 	},
 	"to_another_gift" 		: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-			"dialog"			: "I think the mites brought you that one.",
+			"dialog"			: "Похоже, этот тебе принесли клещи.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "You have to take one of mine next.",
+			"dialog"			: "Теперь возьми один из моих даров.",
 		}
 	],
 	"to_last_gift" 		: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "At least take one more.",
+			"dialog"			: "Возьми хотя бы ещё один.",
 		},
 	],
 	"to_the_end" 		: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "You're gunna love so much better with that!",
+			"dialog"			: "С ним ты будешь любить намного лучше!",
 		},
 	],
 	
@@ -706,11 +706,11 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Well, at least come in here and get all cozy next to me.",
+			"dialog"			: "Ну, хотя бы заходи внутрь и устраивайся со мной поудобнее.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "Don't mind all the mites crawling on you.",
+			"dialog"			: "Не переживай насчёт клещей, что тут ползают.",
 		},
 	],
 	
@@ -719,77 +719,77 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "I'll always be here for you.",
+			"dialog"			: "Я всегда буду здесь для тебя.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я люблю тебя!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "I know.|L|Thanks for playing with me.",
+			"dialog"			: "Я знаю.|L|Спасибо, что поиграла со мной.",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I also know what it's like to have an uncontrollable power.",
+			"dialog"			: "Я тоже знаю, каково это - владеть неподвластной силой.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "You do?",
+			"dialog"			: "Правда?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I have no flaws, and there's nothing I can do about it.",
+			"dialog"			: "У меня нет недостатков, и я ничего с этим не могу поделать.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "I don't really think that's the same thing.",
+			"dialog"			: "Я не думаю, что это одно и то же.",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "By the way, you can let go of me now. I promise I'll be okay.",
+			"dialog"			: "Кстати, уже можешь меня отпустить. Я в порядке, обещаю.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "|shake|Oh!|norm||L||!|I forgot I was still holding you.",
+			"dialog"			: "|shake|Ой!|norm||L||!|Я забыла, что всё ещё держалась за тебя.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "I mean,    you don't   HAVE  to let go yet.",
+			"dialog"			: "Ну,    тебе не   нужно  отпускать меня сразу же.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Yeah, you don't    HAVE  to let go yet.",
+			"dialog"			: "Да, тебе не    нужно  отпускать сразу же.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Umm, now you're the one holding on.",
+			"dialog"			: "Э-э-э, теперь за неё держишься ты.",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Thanks for playing with me.",
+			"dialog"			: "Спасибо, что поиграла со мной.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "And   for helping me through that whole    earthquake  thing.",
+			"dialog"			: "И   что помогла мне во время    этого  землетрясения.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Did you really think some rain and a little earthquake was enough to get rid of The Devil?",
+			"dialog"			: "Ты правда думаешь, что дождик и землетрясение способны избавиться от Дьявола?",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "Thanks for playing with me!",
+			"dialog"			: "Спасибо, что поиграла со мной!",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",

@@ -8,8 +8,8 @@
 	"victory"	: "Победа!",
 	"ouch"		: "Ай!",
 
-	"hug_rating"	: "Hug Rating [VAL1]%",
-		
+	"hug_rating"	: "Оценка Объятий [VAL1]%",
+	
 	"course_walk"	: "Пройди 1 клетку",
 	"course_jump"	: "Прыгни на 2 клетки",
 
@@ -19,15 +19,15 @@
 	"pupil_shape1"	: "|C3|крестовыми зрачками|C0|",
 	"pupil_shape2"	: "|C3|круглыми зрачками|C0|",
 	"pupil_shape3"	: "|C3|квадратными зрачками|C0|",
-	
-	"mite_shell1"	: "|C3|green shells|C0|",
-	"mite_shell2"	: "|C3|pink shells|C0|",
-	"mite_shell3"	: "|C3|yellow shells|C0|",
-	"mite_eye1"		: "|C3|three eyes|C0|",
-	"mite_eye2"		: "|C3|one eye|C0|",
-	"mite_eye3"		: "|C3|no eyes|C0|",
-	"mite_antennae"	: "|C3|long antennae|C0|",
-	"mite_no_ant"	: "|C3|no antennae|C0|",
+
+	"mite_shell1"	: "|C3|зелёными панцирями|C0|",
+	"mite_shell2"	: "|C3|розовыми панцирями|C0|",
+	"mite_shell3"	: "|C3|жёлтыми панцирями|C0|",
+	"mite_eye1"		: "|C3|тремя глазами|C0|",
+	"mite_eye2"		: "|C3|одним глазом|C0|",
+	"mite_eye3"		: "|C3|без глаз|C0|",
+	"mite_antennae"	: "|C3|длинными антеннами|C0|",
+	"mite_no_ant"	: "|C3|без антенн|C0|",
 		
 
 	
@@ -273,7 +273,6 @@
 			"dialog"			: "Эмм, я не очень хороша в этом, но-",
 		},
 		{
-			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_sad"],
 			"dialog"			: "Расскажешь мне, что не так?",
 		},
@@ -286,6 +285,39 @@
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
 			"dialog"			: "Ты всегда должна делиться своими чувствами с Дьяволом.",
+		},
+	],
+
+	"hurt_scold_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
+			"dialog"			: "Не говори так!|L||!|Ты же знаешь, что это не нарочно.",
+		},
+	],
+	"hurt_scold_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
+			"dialog"			: "Я не позволю тебе винить себя за это!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
+			"dialog"			: "Я не позволю тебе пережить это в одиночку.",
+		},
+	],
+	"hurt_scold_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|Мне всё равно!|L|Я не уйду, пока тебе не станет лучше!",
+		},
+	],
+	"hurt_scold_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|И это ты называешь болью?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Да на мне даже царапины нет.",
 		},
 	],
 	
