@@ -29,7 +29,7 @@
 	],
 	
 	"monster_mood"		: "Настроение Киви",
-	"monster_stuff"		: "[VAL1] Киви",
+	"monster_gifts"		: "Дары Киви",
 	
 	"op_dungeon"	: "Войти в подземелье",
 	"op_sleep"		: "Вздремнуть",

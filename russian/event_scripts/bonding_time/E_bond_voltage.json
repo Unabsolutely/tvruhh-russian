@@ -40,7 +40,8 @@
 		},
 	],
 	
-	"monster_stuff"		: "[VAL1] Токовой Веерали",
+	"monster_gifts"		: "Дары Токовой Веерали",
+	"monster_burdens"	: "Ноши Токовой Веерали",
 	"monster_mood"		: "Настроение Токовой",
 	"scrapyard_gifts"	: "Дары со свалки",
 	"veyerals_gifts"	: "Награда от Веералей",

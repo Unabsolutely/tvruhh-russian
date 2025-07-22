@@ -1,7 +1,5 @@
 {
 
-	"gifts_tag"		: "Дары",
-	"burdens_tag"	: "Ноши",
 	"player_gifts"	: "Дары у [NAME]",
 	
 	"times_up"	: "Время вышло!",
@@ -19,17 +17,17 @@
 	"pupil_shape1"	: "|C3|крестовыми зрачками|C0|",
 	"pupil_shape2"	: "|C3|круглыми зрачками|C0|",
 	"pupil_shape3"	: "|C3|квадратными зрачками|C0|",
-
-	"mite_shell1"	: "|C3|зелёными панцирями|C0|",
-	"mite_shell2"	: "|C3|розовыми панцирями|C0|",
-	"mite_shell3"	: "|C3|жёлтыми панцирями|C0|",
-	"mite_eye1"		: "|C3|тремя глазами|C0|",
-	"mite_eye2"		: "|C3|одним глазом|C0|",
+	
+	"mite_shell1"	: "|C3|с зелёными панцирями|C0|",
+	"mite_shell2"	: "|C3|с розовыми панцирями|C0|",
+	"mite_shell3"	: "|C3|с жёлтыми панцирями|C0|",
+	"mite_eye1"		: "|C3|с тремя глазами|C0|",
+	"mite_eye2"		: "|C3|с одним глазом|C0|",
 	"mite_eye3"		: "|C3|без глаз|C0|",
-	"mite_antennae"	: "|C3|длинными антеннами|C0|",
+	"mite_antennae"	: "|C3|с длинными антеннами|C0|",
 	"mite_no_ant"	: "|C3|без антенн|C0|",
 		
-
+	
 	
 	"pet_name_structure"	: "[PREFIX] [MOD] [PET] [SUFFIX]",
 	
@@ -176,7 +174,9 @@
 	
 	"scrap_ingredient1"	:	"Простой Ингредиент",
 	"scrap_ingredient2"	:	"Приятный Ингредиент",
-	"scrap_ingredient3"	:	"Чудесный	 Ингредиент",
+	"scrap_ingredient3"	:	"Чудесный Ингредиент",
+	
+	
 	
 	"craft_hp"				:	"Лечит [VAL1]% здоровья",
 	"craft_max_hp"			:	"Максимум ОЗ +[VAL1]",
@@ -287,7 +287,7 @@
 			"dialog"			: "Ты всегда должна делиться своими чувствами с Дьяволом.",
 		},
 	],
-
+	
 	"hurt_scold_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
@@ -318,39 +318,6 @@
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
 			"dialog"			: "Да на мне даже царапины нет.",
-		},
-	],
-	
-	"hurt_scold_blank" 	: [
-		{
-			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
-			"dialog"			: "Don't talk like that!|L||!|You know it was an accident.",
-		},
-	],
-	"hurt_scold_defect" 	: [
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_upset"],
-			"dialog"			: "I'm not going to let you blame yourself for this!",
-		},
-		{
-			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
-			"dialog"			: "I can't let you go through this alone.",
-		},
-	],
-	"hurt_scold_twins" 	: [
-		{
-			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|I don't care!|L|I'm not leaving until you feel better!",
-		},
-	],
-	"hurt_scold_devil" 	: [
-		{
-			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "|shake|You call this hurt?",
-		},
-		{
-			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "It's barely even a scratch.",
 		},
 	],
 	

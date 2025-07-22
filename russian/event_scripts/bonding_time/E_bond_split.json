@@ -11,7 +11,7 @@
 	],
 	
 	"monster_mood"		: "Настроение Веералей",
-	"monster_stuff"		: "[VAL1] Веералей",
+	"monster_gifts"		: "Дары Веералей",
 	
 	"op_game"		: "Пойти играть",
 	"op_next_game"	: "Сыграть ещё раз",

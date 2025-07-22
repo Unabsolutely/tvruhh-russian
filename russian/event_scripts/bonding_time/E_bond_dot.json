@@ -51,7 +51,8 @@
 	],
 	
 	"monster_mood"		: "Настроение Точки",
-	"monster_stuff"		: "[VAL1] Точки",
+	"monster_gifts"		: "Дары Точки",
+	"monster_burdens"	: "Ноши Точки",
 	"healing_gifts"		: "Лечащие Дары",
 	
 	"op_power"		: "Практиковать хват",

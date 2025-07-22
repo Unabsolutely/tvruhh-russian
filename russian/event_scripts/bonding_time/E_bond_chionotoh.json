@@ -45,7 +45,8 @@
 	],
 	
 	"monster_mood"		: "Настроение Хионотох",
-	"monster_stuff"		: "[VAL1] Хионотох",
+	"monster_gifts"		: "Дары Хионотох",
+	"monster_burdens"	: "Ноши Хионотох",
 	"walk_tiles"		: "Полей: [VAL1]",
 	"walk_total"		: "Всего: [VAL1]",
 	
@@ -197,7 +198,7 @@
 	"to_hug_first_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Дефект, дорогуша, почему бы тебе не попробовать ту идеальную согревающую технику на мисс Хионотох?",
+			"dialog"			: "Дефект, дорогуша, почему бы тебе не попробовать ту идеальную согревающую технику на Мисс Хионотох?",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
@@ -388,7 +389,7 @@
 	"cold_lose_first_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_upset"],
-			"dialog"			: "Не говори так!|L||!|Ты знаешь, что это была случайность.",
+			"dialog"			: "Не говори так!|L||!|Ты же знаешь, что это не нарочно.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_pain"],
@@ -402,7 +403,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad"],
-			"dialog"			: "Я не могу позволить тебе проходить через это одной.",
+			"dialog"			: "Я не позволю тебе пережить это в одиночку",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
@@ -412,7 +413,7 @@
 	"cold_lose_first_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|Неважно!|L|Я не уйду, пока ты не почувствуешь себя лучше!",
+			"dialog"			: "|shake|Мне всё равно!|L|Я не уйду, пока тебе не станет лучше!",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
@@ -422,11 +423,11 @@
 	"cold_lose_first_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "|shake|Ты называешь это раной?",
+			"dialog"			: "|shake|И это ты называешь болью?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "Это даже не царапина.",
+			"dialog"			: "Да на мне даже царапины нет.",
 		},
 		{
 			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],

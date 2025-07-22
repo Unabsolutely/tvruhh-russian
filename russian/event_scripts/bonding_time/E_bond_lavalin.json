@@ -15,20 +15,21 @@
 	],
 	
 	"monster_mood"		: "Настроение Лавалин",
-	"monster_stuff"		: "[VAL1] Лавалин",
+	"monster_gifts"		: "Дары Лавалин",
 	
 	"op_mite_first"	: "Поиграть с клещами",
 	"op_card_first"	: "Сыграть в карты",
 	"op_mite_game"	: "Ещё игра с клещами",
 	"op_card_game"	: "Ещё карточная игра",
 	"op_devil"		: "Сделка с Дьяволом",
+	"op_jumping"	: "Поломать камни",
 	"op_quake"		: "Помочь ей!",
 	"op_comfort"	: "Что это было?",
 	"op_sleep"		: "Вздремнуть",
 	
 	"comment_first"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "Вы знаем, ты хочешь с нами поиграть.",
+		"dialog"	: "Ты знаешь, ты хочешь с нами поиграть.",
 	},
 	"comment_normal"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
@@ -36,11 +37,15 @@
 	},
 	"comment_quake"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-		"dialog"	: "|shake|Прошу, держись за меня!",
+		"dialog"	: "|shake|Прошу, держи меня!",
 	},
 	"comment_scared"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
 		"dialog"	: "Я в порядке, обещаю.|L|Давай просто играть дальше.",
+	},
+	"comment_hungry"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+		"dialog"	: "Ты сказала, что сделаешь всё, что я захочу?",
 	},
 	
 	
@@ -85,7 +90,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Постарайся запомнить клеща с [VAL1], когда они переместятся.",
+			"dialog"			: "Постарайся запомнить клеща [VAL1], когда они переместятся.",
 		},
 	],
 	"start_mite_burrow" 	: [
@@ -95,7 +100,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Посчитай, сколько клещей с [VAL1] вылезут из-под земли.",
+			"dialog"			: "Посчитай, сколько клещей [VAL1] вылезут из-под земли.",
 		},
 	],
 	"start_mite_burrow2" 	: [
@@ -115,7 +120,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Посчитай, сколько клещей с [VAL1] вылезут из-под этого гриба.",
+			"dialog"			: "Посчитай, сколько клещей [VAL1] вылезут из-под этого гриба.",
 		},
 	],
 	"start_mite_peek2" 	: [
@@ -135,7 +140,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "Посчитай, сколько клещей с [VAL1] пройдут мимо.",
+			"dialog"			: "Посчитай, сколько клещей [VAL1] пройдут мимо.",
 		},
 	],
 	"comment_swap_choose"	: {
@@ -219,7 +224,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
-			"dialog"			: "По-моему, они на сегодня устали.",
+			"dialog"			: "По-моему, они сдались на сегодня.",
 		},
 	],
 	"mites_continue_first" 	: [
@@ -360,7 +365,7 @@
 	"cards_after_lose" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "В следующий раз пполучится.",
+			"dialog"			: "В следующий раз получится.",
 		},
 	],
 	"cards_next_stage_2" 	: [
@@ -389,6 +394,210 @@
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
 			"dialog"			: "Не думаю, что могу сравниться с твоей удачей.",
+		},
+	],
+	"cards_done" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Было весело, правда?",
+		},
+	],
+	
+	
+	
+	"to_devil_deal" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Как насчёт небольшой Сделки с Дьяволом?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Что это такое?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Я сыграю ещё один раунд |C3|Опасных Глифов|C0|, и ты наполнишь его множеством глифов |ral|!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Если я выиграю этот раунд, тогда ты должна отдать мне свою душу.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Но если я проиграю, я сделаю всё, что ты хочешь.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Всё?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "|wave|В-с-ё.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Окей.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_aggressive"],
+			"dialog"			: "Без невероятной удачи тебе не победить!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Моя победа была предречена!",
+		},
+	],
+	"devil_deal_win" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Ты слишком удачлива.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "А, да.    |L|Что я теперь должна сделать?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Твоя душа принадлежит мне, так что-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Теперь ты в моей группе!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "И что это значит?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Не беспокойся о мелких деталях.|L|Просто знай-",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "Ты будешь навсегда запечатлена в   |shake|Легенде о Дьяволе!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "Я действительо достойна этого?",
+		},
+	],
+	"devil_deal_lose" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_shocked"],
+			"dialog"			: "Дьявол, поражена какой-то карточной игрой?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad"],
+			"dialog"			: "Что за жестокую и ужасную судьбу ты приготовила мне?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "Ну, мне кое-что нужно.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Я проголодалась, а вон в тех камнях находятся вкусные фрукты.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Можешь мне принести немного?",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Хочешь, чтобы я сломала камни со странными фруктами внутри?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Это противоположность жестокой и ужасной судьбе!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Дьявол снова победила.",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "Прыгай, когда будешь готова.",
+	},
+	"comment_jumping_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+		"dialog"	: "Попытайся сломать ещё один!",
+	},
+	"comment_jumping_get"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "Этот выглядит сочно!",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "|shake|Ничего?",
+	},
+	"comment_jumping_win"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+		"dialog"	: "|wave|Я так голодна!",
+	},
+	"comment_jumping_lose"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+		"dialog"	: "Все они были пусты?",
+	},
+	"jumping_win_high" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Я приношу тебе урожай каменных фруктов!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Ты нашла так много!|L||!|Они выглядят так сочно!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|Хрумммммммммммм.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "Эти насытят меня на недели.",
+		},
+	],
+	"jumping_win" 		: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Я не ела ничего неделями.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "|wave|Хрумммммммммммм.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "Так сочно!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "Спасибо тебе большое!",
+		},
+	],
+	"jumping_lose" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "Я ничего не нашла!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_sad2"],
+			"dialog"			: "|shake|Я подвела тебя!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "Всё в порядке.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Всё, чего я хотела - чтобы ты попыталась.",
 		},
 	],
 	
@@ -491,7 +700,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "Правда, мне было неловко, и мне бы хотелось, чтобы ты это не видела.",
+			"dialog"			: "Правда, мне было неловко, и мне бы хотелось, чтобы ты этого не увидела.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
@@ -548,6 +757,51 @@
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
 			"dialog"			: "Сейчас мне намного лучше.",
+		},
+	],
+	
+	
+	
+	"to_hug_reward" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "Это было крайне постыдно, но ты как будто точно знала, что делать!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "Я хочу наградить тебя за такую идеальную помощь.",
+		},
+	],
+	"to_hug_reward_defect" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "Это было крайне постыдно, но ты помогла мне так идеально!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Да, ну,   такое постоянно происходит, когда я рядом.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Пустяк, правда.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "Я дам тебе что-нибудь за эту помощь.",
+		},
+	],
+	"comment_hug_reward_normal"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "Я очень хочу отдать тебе один из них.",
+	},
+	"hug_reward_confirm"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "Хочешь этот?",
+	},
+	"hug_reward_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
+			"dialog"			: "Теперь он твой!",
 		},
 	],
 	
@@ -632,7 +886,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Ты видела?|!||L|Я так вобудилась, и ничего не стряслось!",
+			"dialog"			: "Ты видела?|!||L|Я так возбудилась, и ничего не стряслось!",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
@@ -645,7 +899,7 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "Сегодня ты была со мной достаточно долго.",
+			"dialog"			: "Мне кажется, сегодня ты была со мной достаточно долго.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
@@ -706,7 +960,7 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
-			"dialog"			: "Ну, хотя бы заходи внутрь и устраивайся со мной поудобнее.",
+			"dialog"			: "Ну, хотя бы подойди и устройся со мной поудобнее.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
@@ -760,11 +1014,11 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Ну,    тебе не   нужно  отпускать меня сразу же.",
+			"dialog"			: "Ну,    тебе не   НУЖНО  отпускать меня сразу же.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Да, тебе не    нужно  отпускать сразу же.",
+			"dialog"			: "Да, тебе не    НУЖНО  отпускать сразу же.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -783,7 +1037,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Ты правда думаешь, что дождик и землетрясение способны избавиться от Дьявола?",
+			"dialog"			: "Ты правда думаешь, что дождик и землетрясеньице способны избавиться от Дьявола?",
 		},
 	],
 	"leave_default" : [
