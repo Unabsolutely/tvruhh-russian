@@ -540,7 +540,14 @@
 		"rule3"		: "[rule_trade2]",
 		},
 
-
+	"E_bond_dendrohai" : {
+		"name"		: "",
+		"hint"		: "[hint_chance]",
+		"details"	: "",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_lavalin" : {
 		"name"		: "Провал Лавалин",
 		"hint"		: "[hint_chance]",

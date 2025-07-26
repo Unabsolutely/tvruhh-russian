@@ -4,64 +4,72 @@
 			"use_textbox"		: 1,
 			"play_music"		: "dreaming_scene_music",
 			"bg_image"			: "spr_scene_dreaming",
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "О, привет. Меня зовут Хионотох.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Это я, Дендрохай!",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Если ты ещё ни разу не видела меня, попробуй |C3|поторговать|C0| с Морозной Веералью.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "Было решено, что эффективнее всего раскрывать новые Зараноидные дизайны - здесь!",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-			"dialog"			: "Её то ты ведь уже встречала?",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "Теперь мой черёд объяснять |C3|Башни.|C0|",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-			"dialog"			: "В любом случае, я расскажу тебе о |C3|Башнях.",
-		},
-		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
 			"dialog"			: "Здесь ты найдёшь 2 новых вида даров.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "|C3|Благословения|C0| помогут тебе прямо как дары силы, но их эффект пропадает через несколько битв.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Первый типа даров называется |C3|Благословления!|C0|",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
-			"dialog"			: "Ещё есть |C3|Ноши.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "|C3|Благословения|C0| активируются, как и дары силы, при получении, но их эффект пропадает через несколько битв.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
-			"dialog"			: "|C3|Ноши|C0| всегда вредят тебе, но они тоже длятся только несколько битв.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Другой типа даров - |C3|Ноши.|C0|",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
-			"dialog"			: "Большинство монстров дадут тебе сразу и |C3|Благословения и Ноши|C0|, так что будь осторожна.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+			"dialog"			: "|C3|Ноши|C0| работают так же, как и Благословения, но они вредят тебе!",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Сложность в том, что монстры дадут тебе сразу и |C3|Благословения и Ноши|C0|.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "Вы должны планировать наиболее эффективный путь любления с предоставленным вам выбором!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
 			"dialog"			: "И ещё одно важное правило Башен.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Монстры увеличивают свои уровни, только если ты набираешь высокий счёт в боях.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Здесь монстры увеличивают свою уровень на основе вашего счёта.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "Хорошо проведённые бои против монстров высокого уровня быстро увеличат их уровень.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "Хорошее проведение боёв против монстров высокого уровня - оптимальный метод увеличивать их уровень.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
-			"dialog"			: "Кроме того, не забывай, что некоторые башни пока ещё не имеют финальных битв.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Но если ты хочешь притормозить, выбирайте битвы меньшего уровня и теряйте на них комбо.",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
-			"dialog"			: "Но скоро они будут добавлены.",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "И ещё кое-что!|!||L|У некоторых башен всё ещё нет их финальных битв!",
 		},
 		{
-			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-			"dialog"			: "|wave|Наслаждайся подъёмом!",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Видимо, создатель этой игры мог бы быть и эффективнее.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "|wave|Да будет ваше восхождение наиболее эффективным!",
 		},
 	]
 }

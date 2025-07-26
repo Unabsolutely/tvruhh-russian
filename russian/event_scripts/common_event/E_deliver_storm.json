@@ -1388,7 +1388,7 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 			"random"			: 3,
-			"dialog_rand1"		: "|shake|Эмм,   мисс Зарадена?",
+			"dialog_rand1"		: "|shake|Эмм,   Мисс Зарадена?",
 			"dialog_rand2"		: "|shake|П-привет,    я тебя искала.",
 			"dialog_rand3"		: "|shake|Ты помнишь меня,   да?",
 		},
@@ -1424,7 +1424,7 @@
 	"step2_intro_self" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "|shake|Эмм,   мисс Зарадена?",
+			"dialog"			: "|shake|Эмм,   Мисс Зарадена?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
