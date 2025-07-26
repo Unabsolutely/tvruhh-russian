@@ -29,7 +29,7 @@
 	
 	"comment_first"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "Ты знаешь, ты хочешь с нами поиграть.",
+		"dialog"	: "Ты же знаешь, что хочешь поиграть с нами.",
 	},
 	"comment_normal"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy"],
