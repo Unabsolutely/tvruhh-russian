@@ -1,0 +1,796 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "I have something to show you.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "I modified |C3|Dungeon of Demise and Doom|C0| and made my own game!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Please come play it with me!",
+		},
+	],
+	
+	"monster_mood"		: "Dendrohai's Mood",
+	"monster_gifts"		: "Dendrohai's Gifts",
+	
+	"op_play"		: "Play her game",
+	"op_sleep"		: "Take a nap",
+	"op_start_game"	: "Start the game",
+	"op_talk"		: "Explain the game",
+	
+	"op_course"		: "Search for loot",
+	"op_scavenge"	: "Scavenge for loot",
+	"op_battle"		: "Battle for loot",
+	"op_boss"		: "Fight a Demonlord",
+	
+	"comment_before_game"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "You have to play it!",
+	},
+	"comment_in_game"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "What is the most efficient path?",
+	},
+	"comment_boss_time"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "It must be time to fight a Demonlord!",
+	},
+	
+	"to_her_home" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "I set it up over here.",
+		},
+	],
+	"talk_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "How do I play?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The most efficient way to explain it is to tell you who you will be playing as.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You are going to be the |C3|Lovemancer|C0| class!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Lovemancers will |C3|heal when they get a critical hit!|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "Your goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"			: "That sounds difficult.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "That's why you'll want to steal their treasures first.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "Demon treasures will make you strong enough to fight them!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "You'll have to choose the optimal time to attack!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "Okay! I think I'm ready.",
+		},
+	],
+	"talk_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "So, what is this game?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
+			"dialog"			: "Are you saying I have to fight something?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "|shake|Yes!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "I knew that making you |C3|The Voidlurker|C0| was the optimal choice!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "Voidlurkers start with slightly stronger attacks, and they |C3|heal every time they defeat an enemy!|C0|",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|Show me what to kill!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Don't just jump into a fight with a Demonlord.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Oh! That's probably a good idea.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "The most efficient strategy is to loot treasure to power up first.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "I think I get it now.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|I'll have to kill something smaller first!",
+		},
+	],
+	"talk_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_normal"],
+			"dialog"			: "How do we play?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "I think the optimal way to explain it is to tell you what both of your roles are first.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "You are going to be the |C3|Mage|C0| class.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "I think a Solar Mage will fit you nicely.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Mages will |C3|cure an ailment|C0| when they get a critical hit!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "What's an ailment?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Ailments will make it harder to hit the enemies by filling the |C3|action bar|C0| with more chances to miss and backfire.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "Action bar? Backfire?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "Maybe this was not a very efficient way to explain the game.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|You'll figure it out as we go.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "I hope so.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "Your sister is going to be the |C3|Angel|C0| class.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Angels can heal better than other support heroes!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "You heard that, Sunshine?|L||!|I'm an angel.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious2"],
+			"dialog"			: "I didn't know they had such lazy angels.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
+			"dialog"			: "I help sometimes!",
+		},
+	],
+	"talk_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "So what do I gotta do?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
+			"dialog"			: "The Demonlords think they can take on The Devil?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "Well, you are going to be playing as |C3|The Beast.|C0|",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Are those metal gloves?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Yeah! Those are The Beast's punching weapons!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "She |C3|gains attack power|C0| for every enemy defeated!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "But this bonus will wear off after each battle.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "The Beast is no stranger to the ways of the mosh pit.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "The Demonlords shall feel the righteous wrath of    The Beast!",
+		},
+	],
+	
+	
+	"to_first_round" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "Let's begin!",
+		},
+		{
+			"play_music"		: "kiwi_music",
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The story begins long ago in an ancient forest.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "It was always a peaceful place with lots of really big mushrooms!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+			"dialog"			: "Then one day, |C3|The Demonlords|C0| came and took over the forest!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "That's when |C3|[VAL1]|C0| and |C3|[VAL2]|C0| set out to defeat |C3|The Demonlords|C0| and save the forest.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "But first, they'll need to steal demon treasures to gain power.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You enter the forest looking for such demon treasures.",
+		},
+	],
+	"to_next_round" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 9,
+			"dialog_rand1"		: "What will you do next?",
+			"dialog_rand2"		: "What is |C3|[VAL1]|C0| planning to do next?",
+			"dialog_rand3"		: "What is the most efficient next step?",
+			"dialog_rand4"		: "You must now decide what to do next.",
+			"dialog_rand5"		: "Now our heroes must decide what to do next.",
+			"dialog_rand6"		: "Our heroes take a short break as they decide what to do next.",
+			"dialog_rand7"		: "What will our heroes do next?",
+			"dialog_rand8"		: "|C3|[VAL1]|C0| takes a moment to plan the optimal path.",
+			"dialog_rand9"		: "Our heroes contemplate the most efficient path forward.",
+		},
+	],
+	
+	"battle_mix1"		: "You are attacked by various demon minions!",
+	"battle_mix2"		: "A mixed group of demon minions attacks you!",
+	"battle_mites"		: "A nest of demon possessed mites ambushes you!",
+	"battle_aviocs"		: "A flock of demon possessed aviocs swoops down on you!",
+	"battle_stones"		: "A pod of heart stones activate attack mode!",
+	"battle_dancers"	: "A group of demon possessed dancers encircle you!",
+	"battle_scrambles"	: "A gang of demon scrambles surrounds you!",
+	"battle_voidlings"	: "A soup of voidlings rains down upon you!",
+	"start_battle" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 9,
+			"dialog_rand1"		: "You find a treasure chest sitting out in the open, but as you lift the lid open-",
+			"dialog_rand2"		: "You find something shiny in a tree, but as you reach out for it-",
+			"dialog_rand3"		: "As you are walking through the forest, |C3|[VAL2]|C0| suddenly yells at you to turn around.",
+			"dialog_rand4"		: "You accidentally trip and fall into a hole. You happen to find a piece of treasure in here, but when you look up-",
+			"dialog_rand5"		: "That night, as you are sleeping by the fire, a noise suddenly wakes you.",
+			"dialog_rand6"		: "You find the ruins of a fallen tower, but as you enter it-",
+			"dialog_rand7"		: "You decide to search for treasure in a dark cave, but as you enter-",
+			"dialog_rand8"		: "You find a scrapyard and decide to search it for treasure.",
+			"dialog_rand9"		: "You find a forest dungeon and decide to search it for treasure.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "[VAL3]",
+		},
+	],
+	"start_demonlord_first" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The heroes encounter the first Demonlord!",
+		},
+	],
+	"start_demonlord" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The heroes encounter another Demonlord!",
+		},
+	],
+	"start_battle_teeth" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "It's the |C3|Demon of Teeth|C0| with her mob of |C3|Scrambles!|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "She likes to trick her victims into giving her a toothy hug.",
+		},
+	],
+	"start_battle_fury" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "It's the |C3|Demon of Fury|C0| with her mob of |C3|Boils!|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "|C3|Boils|C0| are weak, but they also give the next enemy a turn!",
+		},
+	],
+	"start_battle_maiden" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "Run to the hills!|L|The |C3|Iron Maiden|C0| emerges from the ground beneath you!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "She can swim through the ground by turning it into lava.",
+		},
+	],
+	"start_battle_engine" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The |C3|Chaos Engine|C0| emerges from her tower!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "She is followed by a |C3|Chaos Construct|C0| that she has constructed in her image.",
+		},
+	],
+	"start_battle_avenger" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "The mechanical demonlord, |C3|Avenger 7X,|C0| appears before you!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Her army of |C3|Sync Units|C0| will prioritize healing her and increasing her defenses.",
+		},
+	],
+	"start_battle_voidmass" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+			"dialog"			: "Drops of pure void begin to rain down upon you.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "The drops collect together to form the |C3|Void Mass|C0| right before you!",
+		},
+	],
+	
+	"comment_turn_main"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1]|C0| can attack the enemies.",
+	},
+	"comment_turn_support"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL2]|C0| can heal |C3|[VAL1]|C0| or give her a power boost.",
+	},
+	"comment_turn_target"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+		"dialog"	: "Choose your target!",
+	},
+	"comment_turn_action"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "What will the outcome be?",
+	},
+	"comment_action_hit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|Your action succeeded!",
+	},
+	"comment_action_crit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+		"dialog"	: "|shake|That's a critical hit!",
+	},
+	"comment_action_miss"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+		"dialog"	: "|shake|That's a miss!",
+	},
+	"comment_nothing"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
+	"comment_win"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|You win this battle!",
+	},
+	"comment_lose"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|You barely escaped!",
+	},
+	
+	"to_battle_small_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "These minions were only guarding a tiny treasure chest.",
+		},
+	],
+	"to_battle_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "These minions were guarding a demon treasure chest!",
+		},
+	],
+	"to_battle_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "These minions were guarding a |wave|huge demon treasure chest!",
+		},
+	],
+	"to_boss_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You also claim this Demonlord's treasure chest!",
+		},
+	],
+	"to_boss_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "You also claim this Demonlord's |wave|huge demon treasure chest!",
+		},
+	],
+	"battle_lose" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "You managed to escape just in time!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+			"dialog"			: "|C3|[VAL1]|C0| and |C3|[VAL2]|C0| retreat from the forest for the night.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "They fully recovered after a night of rest.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "Then they returned to the forest the next morning!",
+		},
+	],
+	
+	
+	
+	"start_course" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "You decide to search the forest for treasure.",
+			"dialog_rand2"		: "You see an unguarded demon treasure just ahead of you.",
+			"dialog_rand3"		: "As you walk through the forest, you see a treasure in a small cave ahead of you.",
+			"dialog_rand4"		: "You find a treasure chest sitting out in the open. All you have to do is reach it.",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|C3|[VAL1]|C0| searches for treasure.",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|A bad roll!",
+	},
+	
+	"start_scavenge" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "You decide to search for treasure in a dark cave. Luckily, there were no minions inside.",
+			"dialog_rand2"		: "You find the ruins of a fallen tower, and you decide to scavenge it for treasure.",
+			"dialog_rand3"		: "You find a scrapyard with no demon minions around. You decide to search it for treasure.",
+			"dialog_rand4"		: "You find a forest dungeon, and you decide to scavenge it for treasure. Luckily, there were no minions inside.",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "|C3|[VAL1]|C0| scavenges for treasure.",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+		"dialog"	: "|shake|Try again!",
+	},
+	
+	"comment_searching_win"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "|wave|You found treasure!",
+	},
+	"comment_searching_lose"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
+		"dialog"	: "You didn't find anything.",
+	},
+	
+	"to_find_small_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "You found a tiny treasure chest!",
+		},
+	],
+	"to_find_medium_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You found a demon treasure chest!",
+		},
+	],
+	"to_find_large_loot" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "You found a |wave|huge demon treasure chest!",
+		},
+	],
+	"comment_choose_rewards"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "You can |C3|take [VAL1] cards|C0| from this treasure chest.",
+	},
+	
+	
+	
+	"timed_out" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "|C3|[VAL2]|C0| noticed a massive group of demon minions approaching!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "Our heroes decide that the optimal strategy was to retreat for the day.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "It's also getting pretty late.",
+		},
+	],
+	"you_win_but_times_up" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You found some treasure, but-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "It's getting pretty late, don't you think?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "We can always continue the game tomorrow!",
+		},
+	],
+	"you_win_and_max_mood" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "You found some treasure, but-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "You already made it through everything I planned out so far!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "|wave|You are so efficient!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
+			"dialog"			: "I'll have to make the other Demonlords even worse!",
+		},
+	],
+	
+	
+	
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "That's enough of my game for today.",
+		},
+	],
+	"times_up_defect" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "That's enough of my game for today.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Wait!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|I'm not done killing yet!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "It's just for pretend, My Defect.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "Sorry, I got carried away there.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "I didn't expect you to like my game so much!",
+		},
+	],
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "I've prepared some prizes for you!",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "Choose your gifts.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+		"dialog"	: "Did I put this here? What is it?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+		"dialog"	: "Is this your choice?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+		"dialog"	: "You want me to keep them?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "That is certainly the optimal choice!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Your reward will have to be another gift!",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "You are the ideal gift receiver!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "I guess I'll have to give you one more.",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Gifts are such an efficient way to express love!",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "I haven't slept in 4 days while working on this game anyways.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "You don't mind if I sleep next to you, right?",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Did you draw all the little characters?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "No, not me. It was my friend, Kiwi!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love Kiwi!|!||L|And I love you, too!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "Thanks for playing with me!",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "You saw my claws, right?|L|They just do that sometimes.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "They are so long!",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "It happens when I get too excited.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "I knew I picked the right character for you.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Maybe next time, you can introduce a character that wants to romance |C3|The Mage.|C0|",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised_blush"],
+			"dialog"			: "You read my mind!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "|C3|The Dryad|C0| is another one of my characters, and she would be interested.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "But I'm going to be really bad at acting out that kind of thing.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "|wave|Everyone is bad at it!",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "They'll be singing songs about our righteous campaign!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "I'll have to write an epic about our heroes and their battles with the Demonlords.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "It shall be called,    The Beast and the Dryad!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
+			"dialog"			: "I can't wait to hear it!",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "Thank you for playing with me!",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}
