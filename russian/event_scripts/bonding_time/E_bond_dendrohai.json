@@ -77,7 +77,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "С демонические сокровищами ты сможешь сразиться с ними!",
+			"dialog"			: "С демоническими сокровищами ты сможешь сразиться с ними!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
@@ -397,7 +397,7 @@
 	
 	"comment_turn_main"		: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL1]|C0| может атакаовать противников.",
+		"dialog"	: "|C3|[VAL1]|C0| может атаковать противников.",
 	},
 	"comment_turn_support"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
@@ -433,7 +433,7 @@
 	},
 	"comment_lose"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
-		"dialog"	: "|shake|Ели ноги унесла!",
+		"dialog"	: "|shake|Еле ноги унесла!",
 	},
 	
 	"to_battle_small_loot" : [
@@ -510,9 +510,9 @@
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
 			"random"			: 4,
-			"dialog_rand1"		: "You decide to search for treasure in a dark cave. Luckily, there were no minions inside.",
-			"dialog_rand2"		: "You find the ruins of a fallen tower, and you decide to scavenge it for treasure.",
-			"dialog_rand3"		: "You find a scrapyard with no demon minions around. You decide to search it for treasure.",
+			"dialog_rand1"		: "Вы решаете искать сокровища в тёмной пещере. К счастью, приспешников внутри не оказалось.",
+			"dialog_rand2"		: "Вы находите руины рухнувшей башни и решаете обыскать ее в поисках сокровищ.",
+			"dialog_rand3"		: "Вы находите свалку без единого демона-приспешника. Вы решаете обыскать её на предмет сокровищ.",
 			"dialog_rand4"		: "You find a forest dungeon, and you decide to scavenge it for treasure. Luckily, there were no minions inside.",
 		},
 	],
@@ -621,29 +621,29 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Wait!",
+			"dialog"			: "|shake|Подожди!",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
-			"dialog"			: "|shake|I'm not done killing yet!",
+			"dialog"			: "|shake|Я ещё не закончила с убийствами!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "It's just for pretend, My Defect.",
+			"dialog"			: "Это всё не по-настоящему, моя Дефект.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
-			"dialog"			: "Sorry, I got carried away there.",
+			"dialog"			: "Извини, я немного увлеклась.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "I didn't expect you to like my game so much!",
+			"dialog"			: "Не ожидала, что вам так понравится моя игра!",
 		},
 	],
 	"to_gift" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "I've prepared some prizes for you!",
+			"dialog"			: "Я приготовила для вас несколько наград!",
 		},
 	],
 	"comment_take_normal"	: {
@@ -711,20 +711,20 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "Did you draw all the little characters?",
+			"dialog"			: "Это ты нарисовала всех маленьких персонажей?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "No, not me. It was my friend, Kiwi!",
+			"dialog"			: "Нет, не я. Это работа моей подруги Киви!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love Kiwi!|!||L|And I love you, too!",
+			"dialog"			: "|wave|Я люблю Киви!|!||L|И тебя тоже!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "Thanks for playing with me!",
+			"dialog"			: "Спасибо, что поиграла со мной!",
 		},
 	],
 	"leave_defect" 	: [
