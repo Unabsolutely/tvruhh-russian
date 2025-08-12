@@ -295,20 +295,20 @@
 		},
 	],
 	
-	"battle_mix1"		: "You are attacked by various demon minions!",
-	"battle_mix2"		: "A mixed group of demon minions attacks you!",
-	"battle_mites"		: "A nest of demon possessed mites ambushes you!",
-	"battle_aviocs"		: "A flock of demon possessed aviocs swoops down on you!",
-	"battle_stones"		: "A pod of heart stones activate attack mode!",
-	"battle_dancers"	: "A group of demon possessed dancers encircle you!",
-	"battle_scrambles"	: "A gang of demon scrambles surrounds you!",
-	"battle_voidlings"	: "A soup of voidlings rains down upon you!",
+	"battle_mix1"		: "На вас нападают разные демоны-приспешники!",
+	"battle_mix2"		: "На вас нападает смешанная группа демонов-приспешников!",
+	"battle_mites"		: "Вы попали в засаду, устроенную одержимыми клещами!",
+	"battle_aviocs"		: "Стая одержимых авиоков пикирует на вас!",
+	"battle_stones"		: "Косяк камней-сердец активирует атакующий режим!",
+	"battle_dancers"	: "Вас окружает группа одержимых танцовщиц!",
+	"battle_scrambles"	: "Банда демонических смяток взяла вас в кольцо!",
+	"battle_voidlings"	: "Суп из пустотных созданий ливнем падает на вас!",
 	"start_battle" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
 			"random"			: 9,
-			"dialog_rand1"		: "You find a treasure chest sitting out in the open, but as you lift the lid open-",
-			"dialog_rand2"		: "You find something shiny in a tree, but as you reach out for it-",
+			"dialog_rand1"		: "Вы находите сундук с сокровищами прямо на виду, но как только вы сдвигаете крышку-",
+			"dialog_rand2"		: "Вы замечаете что-то сверкающее в дереве, но стоит вам протянуть руку, то-",
 			"dialog_rand3"		: "As you are walking through the forest, |C3|[VAL2]|C0| suddenly yells at you to turn around.",
 			"dialog_rand4"		: "You accidentally trip and fall into a hole. You happen to find a piece of treasure in here, but when you look up-",
 			"dialog_rand5"		: "That night, as you are sleeping by the fire, a noise suddenly wakes you.",
@@ -325,103 +325,103 @@
 	"start_demonlord_first" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The heroes encounter the first Demonlord!",
+			"dialog"			: "Герои встречают первого Лорда Демонов!",
 		},
 	],
 	"start_demonlord" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The heroes encounter another Demonlord!",
+			"dialog"			: "Герои столкнулись с очередным Лордом Демонов!",
 		},
 	],
 	"start_battle_teeth" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "It's the |C3|Demon of Teeth|C0| with her mob of |C3|Scrambles!|C0|",
+			"dialog"			: "Это |C3|Зубной Демон|C0| со своей шайкой |C3|Смяток!|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "She likes to trick her victims into giving her a toothy hug.",
+			"dialog"			: "Она любит обманом получать обзубятия от своих жертв.",
 		},
 	],
 	"start_battle_fury" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "It's the |C3|Demon of Fury|C0| with her mob of |C3|Boils!|C0|",
+			"dialog"			: "Это |C3|Демон Ярости|C0| со своей шайкой |C3|Варок!|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "|C3|Boils|C0| are weak, but they also give the next enemy a turn!",
+			"dialog"			: "|C3|Варки|C0| слабы, но они дают дополнительный ход следующему врагу!",
 		},
 	],
 	"start_battle_maiden" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "Run to the hills!|L|The |C3|Iron Maiden|C0| emerges from the ground beneath you!",
+			"dialog"			: "Быстрее к холмам!|L||C3|Железная Дева|C0| вылезает из-под земли под вами!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "She can swim through the ground by turning it into lava.",
+			"dialog"			: "Она может плавать по земле, превращая её в лаву.",
 		},
 	],
 	"start_battle_engine" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The |C3|Chaos Engine|C0| emerges from her tower!",
+			"dialog"			: "|C3|Двигатель Хаоса|C0| возникает из своей башни!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "She is followed by a |C3|Chaos Construct|C0| that she has constructed in her image.",
+			"dialog"			: "За ней следуют |C3|Конструкты Хаоса|C0| созданные ей по её образу и подобию.",
 		},
 	],
 	"start_battle_avenger" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The mechanical demonlord, |C3|Avenger 7X,|C0| appears before you!",
+			"dialog"			: "Механический Лорд Демонов, |C3|Мститель 7X,|C0| появляется пред вами!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Her army of |C3|Sync Units|C0| will prioritize healing her and increasing her defenses.",
+			"dialog"			: "Её армия |C3|Синкр Модулей|C0| будет уделять первоочередное внимание ее исцелению и усилению ее защиты.",
 		},
 	],
 	"start_battle_voidmass" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
-			"dialog"			: "Drops of pure void begin to rain down upon you.",
+			"dialog"			: "Капли чистой пустоты ливнем падают на вас.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "The drops collect together to form the |C3|Void Mass|C0| right before you!",
+			"dialog"			: "Капли собираются, формируя |C3|Пустую Массу|C0| прямо перед вами!",
 		},
 	],
 	
 	"comment_turn_main"		: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL1]|C0| can attack the enemies.",
+		"dialog"	: "|C3|[VAL1]|C0| может атакаовать противников.",
 	},
 	"comment_turn_support"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL2]|C0| can heal |C3|[VAL1]|C0| or give her a power boost.",
+		"dialog"	: "|C3|[VAL2]|C0| может лечить |C3|[VAL1]|C0| или делать её сильнее.",
 	},
 	"comment_turn_target"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-		"dialog"	: "Choose your target!",
+		"dialog"	: "Выбери цель!",
 	},
 	"comment_turn_action"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-		"dialog"	: "What will the outcome be?",
+		"dialog"	: "Каков же будет результат?",
 	},
 	"comment_action_hit"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "|wave|Your action succeeded!",
+		"dialog"	: "|wave|Успех!",
 	},
 	"comment_action_crit"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-		"dialog"	: "|shake|That's a critical hit!",
+		"dialog"	: "|shake|Критическое попадание!",
 	},
 	"comment_action_miss"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
-		"dialog"	: "|shake|That's a miss!",
+		"dialog"	: "|shake|Промах!",
 	},
 	"comment_nothing"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
@@ -429,59 +429,59 @@
 	},
 	"comment_win"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "|wave|You win this battle!",
+		"dialog"	: "|wave|В этом сражении победа за тобой!",
 	},
 	"comment_lose"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
-		"dialog"	: "|shake|You barely escaped!",
+		"dialog"	: "|shake|Ели ноги унесла!",
 	},
 	
 	"to_battle_small_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "These minions were only guarding a tiny treasure chest.",
+			"dialog"			: "Эти приспешники всего лишь охраняли крошечный сундук с сокровищами.",
 		},
 	],
 	"to_battle_medium_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "These minions were guarding a demon treasure chest!",
+			"dialog"			: "Эти приспешники охраняли демонический сундук с сокровищами!",
 		},
 	],
 	"to_battle_large_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "These minions were guarding a |wave|huge demon treasure chest!",
+			"dialog"			: "Эти приспешники охраняли |wave|огромный демонический сундук с сокровищами!",
 		},
 	],
 	"to_boss_medium_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "You also claim this Demonlord's treasure chest!",
+			"dialog"			: "Ты также забираешь сундук с сокровищами Лорда Демонов!",
 		},
 	],
 	"to_boss_large_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "You also claim this Demonlord's |wave|huge demon treasure chest!",
+			"dialog"			: "Ты также забираешь этот |wave|огромный сундук с сокровищами Лорда Демонов!",
 		},
 	],
 	"battle_lose" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "You managed to escape just in time!",
+			"dialog"			: "Тебе вовремя удалось сбежать!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
-			"dialog"			: "|C3|[VAL1]|C0| and |C3|[VAL2]|C0| retreat from the forest for the night.",
+			"dialog"			: "|C3|[VAL1]|C0| и |C3|[VAL2]|C0| сбегают из леса на одну ночь.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "They fully recovered after a night of rest.",
+			"dialog"			: "Они полностью восстановились после ночного отдыха.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "Then they returned to the forest the next morning!",
+			"dialog"			: "Следующим утром они вернулись в лес!",
 		},
 	],
 	
@@ -491,19 +491,19 @@
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
 			"random"			: 4,
-			"dialog_rand1"		: "You decide to search the forest for treasure.",
-			"dialog_rand2"		: "You see an unguarded demon treasure just ahead of you.",
-			"dialog_rand3"		: "As you walk through the forest, you see a treasure in a small cave ahead of you.",
-			"dialog_rand4"		: "You find a treasure chest sitting out in the open. All you have to do is reach it.",
+			"dialog_rand1"		: "Вы решаете отправиться на поиски сокровищ в лесу.",
+			"dialog_rand2"		: "Прямо перед собой вы видите неохраняемое сокровище демона.",
+			"dialog_rand3"		: "Проходя по лесу, вы видите сокровище в небольшой пещерке перед собой..",
+			"dialog_rand4"		: "Вы находите сундук с сокровищами, стоящий на открытом пространстве. Вам осталось только лишь добраться до него.",
 		},
 	],
 	"comment_course_normal"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "|C3|[VAL1]|C0| searches for treasure.",
+		"dialog"	: "|C3|[VAL1]|C0| ищет сокровище.",
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
-		"dialog"	: "|shake|A bad roll!",
+		"dialog"	: "|shake|Плохой бросок!",
 	},
 	
 	"start_scavenge" 	: [
@@ -527,34 +527,34 @@
 	
 	"comment_searching_win"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "|wave|You found treasure!",
+		"dialog"	: "|wave|Ты нашла сокровище!",
 	},
 	"comment_searching_lose"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
-		"dialog"	: "You didn't find anything.",
+		"dialog"	: "Ты ничего не нашла.",
 	},
 	
 	"to_find_small_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "You found a tiny treasure chest!",
+			"dialog"			: "Ты нашла крошечный сундук с сокровищами!",
 		},
 	],
 	"to_find_medium_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "You found a demon treasure chest!",
+			"dialog"			: "Ты нашла демонический сундук с сокровищами!",
 		},
 	],
 	"to_find_large_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "You found a |wave|huge demon treasure chest!",
+			"dialog"			: "Ты нашла |wave|огромный демонический сундук с сокровищами!",
 		},
 	],
 	"comment_choose_rewards"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "You can |C3|take [VAL1] cards|C0| from this treasure chest.",
+		"dialog"	: "Можешь |C3|взять [VAL1] карт|C0| из этого сундука.",
 	},
 	
 	
@@ -562,47 +562,47 @@
 	"timed_out" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "|C3|[VAL2]|C0| noticed a massive group of demon minions approaching!",
+			"dialog"			: "|C3|[VAL2]|C0| заметила приближающуюся громадную толпу демонов-приспешников!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "Our heroes decide that the optimal strategy was to retreat for the day.",
+			"dialog"			: "Наши герои решили, что самой оптимальной стратегией на сегодня будет бегство.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "It's also getting pretty late.",
+			"dialog"			: "Кроме того, уже довольно поздно.",
 		},
 	],
 	"you_win_but_times_up" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "You found some treasure, but-",
+			"dialog"			: "Вы нашли сокровище, но-",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "It's getting pretty late, don't you think?",
+			"dialog"			: "Уже довольно поздно, не так ли?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "We can always continue the game tomorrow!",
+			"dialog"			: "Мы всегда можем продолжить завтра!",
 		},
 	],
 	"you_win_and_max_mood" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "You found some treasure, but-",
+			"dialog"			: "Вы нашли сокровище, но-",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "You already made it through everything I planned out so far!",
+			"dialog"			: "Вы исчерпали мой запас запланированных событий!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "|wave|You are so efficient!",
+			"dialog"			: "|wave|Вы были очень эффективны!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "I'll have to make the other Demonlords even worse!",
+			"dialog"			: "Теперь я должна сделать следующих Лордов Демонов ещё опаснее!",
 		},
 	],
 	
@@ -611,13 +611,13 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "That's enough of my game for today.",
+			"dialog"			: "Достаточно моей игры на сегодня.",
 		},
 	],
 	"times_up_defect" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "That's enough of my game for today.",
+			"dialog"			: "Достаточно моей игры на сегодня.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shocked"],
