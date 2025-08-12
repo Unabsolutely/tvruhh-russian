@@ -2,248 +2,248 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "I have something to show you.",
+			"dialog"			: "У меня есть кое-что, что я хочу показать.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "I modified |C3|Dungeon of Demise and Doom|C0| and made my own game!",
+			"dialog"			: "Я изменила |C3|Подземелье Погибели и Плача|C0| и создала свою игру!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Please come play it with me!",
+			"dialog"			: "|wave|Пожалуйста, поиграй со мной!",
 		},
 	],
 	
-	"monster_mood"		: "Dendrohai's Mood",
-	"monster_gifts"		: "Dendrohai's Gifts",
+	"monster_mood"		: "Настроение Дендрохай",
+	"monster_gifts"		: "Дары Дендрохай",
 	
-	"op_play"		: "Play her game",
-	"op_sleep"		: "Take a nap",
-	"op_start_game"	: "Start the game",
-	"op_talk"		: "Explain the game",
+	"op_play"		: "Сыграть с ней",
+	"op_sleep"		: "Вздремнуть",
+	"op_start_game"	: "Начать игру",
+	"op_talk"		: "Объяснить игру",
 	
-	"op_course"		: "Search for loot",
-	"op_scavenge"	: "Scavenge for loot",
-	"op_battle"		: "Battle for loot",
-	"op_boss"		: "Fight a Demonlord",
+	"op_course"		: "Искать добычу",
+	"op_scavenge"	: "Покопаться ради добычи",
+	"op_battle"		: "Сразиться ради добычи",
+	"op_boss"		: "Сразиться с Лордом Демонов",
 	
 	"comment_before_game"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "You have to play it!",
+		"dialog"	: "Ты просто обязана попробовать!",
 	},
 	"comment_in_game"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "What is the most efficient path?",
+		"dialog"	: "Какой путь самый эффективный?",
 	},
 	"comment_boss_time"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-		"dialog"	: "It must be time to fight a Demonlord!",
+		"dialog"	: "Время сразиться с Лордом Демонов!",
 	},
 	
 	"to_her_home" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "I set it up over here.",
+			"dialog"			: "Я разложила всё вон там.",
 		},
 	],
 	"talk_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "How do I play?",
+			"dialog"			: "И как играть?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The most efficient way to explain it is to tell you who you will be playing as.",
+			"dialog"			: "Самый эффективный метод объяснить - рассказать, за кого ты будешь играть.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "You are going to be the |C3|Lovemancer|C0| class!",
+			"dialog"			: "Твой класс - |C3|Любведьма|C0|!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Lovemancers will |C3|heal when they get a critical hit!|C0|",
+			"dialog"			: "Любведьмы  |C3|лечатся при нанесении критических ударов!|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "Your goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+			"dialog"			: "Твоя задача - победить |C3|Лордов Демонов|C0|, захвативших лес.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
-			"dialog"			: "That sounds difficult.",
+			"dialog"			: "Звучит сложно.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "That's why you'll want to steal their treasures first.",
+			"dialog"			: "Поэтому тебе надо сначала украсть их сокровища.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "Demon treasures will make you strong enough to fight them!",
+			"dialog"			: "С демонические сокровищами ты сможешь сразиться с ними!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "You'll have to choose the optimal time to attack!",
+			"dialog"			: "Необходимо будет выбрать наилучшее время для атаки!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "Okay! I think I'm ready.",
+			"dialog"			: "Хорошо! Я думаю, я готова.",
 		},
 	],
 	"talk_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "So, what is this game?",
+			"dialog"			: "Ну, что это за игра?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+			"dialog"			: "Задача - победить |C3|Лордов Демонов|C0|, что захватили лес.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
-			"dialog"			: "Are you saying I have to fight something?",
+			"dialog"			: "Значит, мне надо драться с кем-то?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "|shake|Yes!",
+			"dialog"			: "|shake|Да!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "I knew that making you |C3|The Voidlurker|C0| was the optimal choice!",
+			"dialog"			: "Я знала, что тебе лучше всего подойдёт класс |C3|Пустоблюдательницы|C0|!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "Voidlurkers start with slightly stronger attacks, and they |C3|heal every time they defeat an enemy!|C0|",
+			"dialog"			: "Пустоблюдательницы начинают с чуть более сильными атаками и |C3|лечатся каждый раз, когда побеждают врага!|C0|",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
-			"dialog"			: "|shake|Show me what to kill!",
+			"dialog"			: "|shake|Покажи мне, что убить!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Don't just jump into a fight with a Demonlord.",
+			"dialog"			: "Не надо сразу лезть в драку с Лордом Демонов.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Oh! That's probably a good idea.",
+			"dialog"			: "А! Это, наверное, хорошая идея.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "The most efficient strategy is to loot treasure to power up first.",
+			"dialog"			: "Самая эффективная стратегия - сначала собрать сокровища, чтобы стать сильнее.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
-			"dialog"			: "I think I get it now.",
+			"dialog"			: "Кажется, я поняла.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive2"],
-			"dialog"			: "|shake|I'll have to kill something smaller first!",
+			"dialog"			: "|shake|Сначала надо убить что-то поменьше!",
 		},
 	],
 	"talk_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_normal"],
-			"dialog"			: "How do we play?",
+			"dialog"			: "И как играть?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "I think the optimal way to explain it is to tell you what both of your roles are first.",
+			"dialog"			: "Я думаю, наилучший метод объяснить - сначала рассказать вам обеим ваши роли.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "You are going to be the |C3|Mage|C0| class.",
+			"dialog"			: "Ты будешь |C3|Магом|C0|.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "I think a Solar Mage will fit you nicely.",
+			"dialog"			: "Я думаю, класс Мага Солнца тебе подойдёт.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Mages will |C3|cure an ailment|C0| when they get a critical hit!",
+			"dialog"			: "Маги |C3|снимает ослабление|C0|, когда совершают критическую атаку!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "What's an ailment?",
+			"dialog"			: "Что такое ослабление?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Ailments will make it harder to hit the enemies by filling the |C3|action bar|C0| with more chances to miss and backfire.",
+			"dialog"			: "Ослабления усложняют попадания по врагам, заполняя |C3|полосу действий|C0| промахами и вызывающими контрудар атаками.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised"],
-			"dialog"			: "Action bar? Backfire?",
+			"dialog"			: "Полосу действий? Контрудар?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "Maybe this was not a very efficient way to explain the game.",
+			"dialog"			: "Наверное, это был не самый эффективный метод объяснить игру.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|You'll figure it out as we go.",
+			"dialog"			: "|wave|Ты разберёшься по ходу.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "I hope so.",
+			"dialog"			: "Я надеюсь.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "Your sister is going to be the |C3|Angel|C0| class.",
+			"dialog"			: "Твоя сестра будет принадлежать к классу |C3|Ангелов|C0|.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Angels can heal better than other support heroes!",
+			"dialog"			: "Ангелы лечат лучше, чем другие герои поддержки!",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
-			"dialog"			: "You heard that, Sunshine?|L||!|I'm an angel.",
+			"dialog"			: "Слышала, Солнышко?|L||!|Я ангел.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_suspicious2"],
-			"dialog"			: "I didn't know they had such lazy angels.",
+			"dialog"			: "Не знала, что есть такие ленивые ангелы.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_upset"],
-			"dialog"			: "I help sometimes!",
+			"dialog"			: "Иногда я помогаю!",
 		},
 	],
 	"talk_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "So what do I gotta do?",
+			"dialog"			: "И что мне делать?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The goal is to defeat |C3|The Demonlords|C0| that have taken over the forest.",
+			"dialog"			: "Задача - победить |C3|Лордов Демонов|C0|, что захватили лес.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_angry"],
-			"dialog"			: "The Demonlords think they can take on The Devil?",
+			"dialog"			: "Лорды Демонов думают, что могут справиться с Дьяволом?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Well, you are going to be playing as |C3|The Beast.|C0|",
+			"dialog"			: "Ну, ты будешь играть за |C3|Зверя.|C0|",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Are those metal gloves?",
+			"dialog"			: "Это - металлические перчатки?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Yeah! Those are The Beast's punching weapons!",
+			"dialog"			: "Да! Это - тяжёлые кулаки Зверя!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "She |C3|gains attack power|C0| for every enemy defeated!",
+			"dialog"			: "Она |C3|усиляет атаку|C0| за каждого побеждённого врага!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "But this bonus will wear off after each battle.",
+			"dialog"			: "Но этот бонус пропадает после каждой битвы.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "The Beast is no stranger to the ways of the mosh pit.",
+			"dialog"			: "Зверь не понаслышке знаком с мошем.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "The Demonlords shall feel the righteous wrath of    The Beast!",
+			"dialog"			: "Лорды Демонов почувствуют праведный гнев    Зверя!",
 		},
 	],
 	
@@ -251,32 +251,32 @@
 	"to_first_round" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "Let's begin!",
+			"dialog"			: "Начнём!",
 		},
 		{
 			"play_music"		: "kiwi_music",
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "The story begins long ago in an ancient forest.",
+			"dialog"			: "История начинается давным-давно в древнем лесу.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "It was always a peaceful place with lots of really big mushrooms!",
+			"dialog"			: "В нём всегда царил мир и росли очень большие грибы!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
-			"dialog"			: "Then one day, |C3|The Demonlords|C0| came and took over the forest!",
+			"dialog"			: "Но однажды |C3|Лорды Демонов|C0| вторглись и захватили лес!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "That's when |C3|[VAL1]|C0| and |C3|[VAL2]|C0| set out to defeat |C3|The Demonlords|C0| and save the forest.",
+			"dialog"			: "Тогда |C3|[VAL1]|C0| и |C3|[VAL2]|C0| отправились в поход, чтобы победить |C3|Лордов Демонов|C0| и спасти лес.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "But first, they'll need to steal demon treasures to gain power.",
+			"dialog"			: "Но сперва им придётся украсть сокровища демонов, чтобы усилиться.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "You enter the forest looking for such demon treasures.",
+			"dialog"			: "Вы заходите в лес в поисках подобных сокровищ.",
 		},
 	],
 	"to_next_round" 	: [
