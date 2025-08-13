@@ -21,7 +21,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Первый типа даров называется |C3|Благословления!|C0|",
+			"dialog"			: "Первый тип даров называется |C3|Благословления!|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
@@ -29,7 +29,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Другой типа даров - |C3|Ноши.|C0|",
+			"dialog"			: "Другой тип даров - |C3|Ноши.|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
@@ -49,7 +49,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Здесь монстры увеличивают свою уровень на основе вашего счёта.",
+			"dialog"			: "Здесь монстры увеличивают свой уровень на основе вашего счёта.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
@@ -57,7 +57,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Но если ты хочешь притормозить, выбирайте битвы меньшего уровня и теряйте на них комбо.",
+			"dialog"			: "Но если ты хочешь притормозить, выбирай битвы меньшего уровня и теряйте на них комбо.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],

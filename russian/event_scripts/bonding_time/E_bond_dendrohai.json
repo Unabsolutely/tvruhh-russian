@@ -283,15 +283,15 @@
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
 			"random"			: 9,
-			"dialog_rand1"		: "What will you do next?",
-			"dialog_rand2"		: "What is |C3|[VAL1]|C0| planning to do next?",
-			"dialog_rand3"		: "What is the most efficient next step?",
-			"dialog_rand4"		: "You must now decide what to do next.",
-			"dialog_rand5"		: "Now our heroes must decide what to do next.",
-			"dialog_rand6"		: "Our heroes take a short break as they decide what to do next.",
-			"dialog_rand7"		: "What will our heroes do next?",
-			"dialog_rand8"		: "|C3|[VAL1]|C0| takes a moment to plan the optimal path.",
-			"dialog_rand9"		: "Our heroes contemplate the most efficient path forward.",
+			"dialog_rand1"		: "Что же было дальше?",
+			"dialog_rand2"		: "Что планирует |C3|[VAL1]|C0|?",
+			"dialog_rand3"		: "Каков самый эффективный следующий шаг?",
+			"dialog_rand4"		: "Теперь вы должны решить, что делать дальше.",
+			"dialog_rand5"		: "Теперь наши герои должны решить, что делать дальше.",
+			"dialog_rand6"		: "Наши герои берут передышку и решают, что делать дальше.",
+			"dialog_rand7"		: "Что же сделают наши герои?",
+			"dialog_rand8"		: "|C3|[VAL1]|C0| раздумывает на наилучшим маршрутом.",
+			"dialog_rand9"		: "Наши герои раздумывают на наилучшим будущим путём.",
 		},
 	],
 	
@@ -309,13 +309,13 @@
 			"random"			: 9,
 			"dialog_rand1"		: "Вы находите сундук с сокровищами прямо на виду, но как только вы сдвигаете крышку-",
 			"dialog_rand2"		: "Вы замечаете что-то сверкающее в дереве, но стоит вам протянуть руку, то-",
-			"dialog_rand3"		: "As you are walking through the forest, |C3|[VAL2]|C0| suddenly yells at you to turn around.",
-			"dialog_rand4"		: "You accidentally trip and fall into a hole. You happen to find a piece of treasure in here, but when you look up-",
-			"dialog_rand5"		: "That night, as you are sleeping by the fire, a noise suddenly wakes you.",
-			"dialog_rand6"		: "You find the ruins of a fallen tower, but as you enter it-",
-			"dialog_rand7"		: "You decide to search for treasure in a dark cave, but as you enter-",
-			"dialog_rand8"		: "You find a scrapyard and decide to search it for treasure.",
-			"dialog_rand9"		: "You find a forest dungeon and decide to search it for treasure.",
+			"dialog_rand3"		: "Во время вашей прогулки через лес, |C3|[VAL2]|C0| внезапно окрикает вас \"развернись!\".",
+			"dialog_rand4"		: "Вы случвйно оступаетесь и падаете в яму. Там вы находите сокровище, но когда вы бросатете взгляд наверх-",
+			"dialog_rand5"		: "Этой ночью, пока вы спите у огня, вас внезапно будит шум.",
+			"dialog_rand6"		: "Вы находите развалины рухнувшей башни, но когда вы входите в них-",
+			"dialog_rand7"		: "Вы решаете поискать сокровища в тёмной пещере, но когда вы входите в неё-",
+			"dialog_rand8"		: "Вы находите свалку и решаете поискать сокровище в ней.",
+			"dialog_rand9"		: "Ны находите лесное подземелье и решаете обыскать его на предмет сокровищ.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
@@ -337,11 +337,11 @@
 	"start_battle_teeth" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "Это |C3|Зубной Демон|C0| со своей шайкой |C3|Смяток!|C0|",
+			"dialog"			: "Это |C3|Демон Зубов|C0| со своей шайкой |C3|Смяток!|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "Она любит обманом получать обзубятия от своих жертв.",
+			"dialog"			: "Она любит обманом получать обзубьятия от своих жертв.",
 		},
 	],
 	"start_battle_fury" 		: [
@@ -367,7 +367,7 @@
 	"start_battle_engine" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "|C3|Двигатель Хаоса|C0| возникает из своей башни!",
+			"dialog"			: "|C3|Машина Хаоса|C0| возникает из своей башни!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
@@ -381,17 +381,17 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Её армия |C3|Синкр Модулей|C0| будет уделять первоочередное внимание ее исцелению и усилению ее защиты.",
+			"dialog"			: "Её армия |C3|Синк Модулей|C0| будет уделять первоочередное внимание ее исцелению и усилению ее защиты.",
 		},
 	],
 	"start_battle_voidmass" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
-			"dialog"			: "Капли чистой пустоты ливнем падают на вас.",
+			"dialog"			: "Капли чистой пустоты дождём льются на вас.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
-			"dialog"			: "Капли собираются, формируя |C3|Пустую Массу|C0| прямо перед вами!",
+			"dialog"			: "Капли собираются, формируя |C3|Пустотную Массу|C0| прямо перед вами!",
 		},
 	],
 	
@@ -401,7 +401,7 @@
 	},
 	"comment_turn_support"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL2]|C0| может лечить |C3|[VAL1]|C0| или делать её сильнее.",
+		"dialog"	: "|C3|[VAL2]|C0| может лечить персонажа |C3|[VAL1]|C0| или делать её сильнее.",
 	},
 	"comment_turn_target"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_aggressive"],
@@ -439,7 +439,7 @@
 	"to_battle_small_loot" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-			"dialog"			: "Эти приспешники всего лишь охраняли крошечный сундук с сокровищами.",
+			"dialog"			: "Эти приспешники охраняли всего лишь крошечный сундук с сокровищами.",
 		},
 	],
 	"to_battle_medium_loot" : [
@@ -469,7 +469,7 @@
 	"battle_lose" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "Тебе вовремя удалось сбежать!",
+			"dialog"			: "Тебе удалось вовремя сбежать!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_sad"],
@@ -493,7 +493,7 @@
 			"random"			: 4,
 			"dialog_rand1"		: "Вы решаете отправиться на поиски сокровищ в лесу.",
 			"dialog_rand2"		: "Прямо перед собой вы видите неохраняемое сокровище демона.",
-			"dialog_rand3"		: "Проходя по лесу, вы видите сокровище в небольшой пещерке перед собой..",
+			"dialog_rand3"		: "Проходя по лесу, вы видите сокровище в небольшой пещерке перед собой.",
 			"dialog_rand4"		: "Вы находите сундук с сокровищами, стоящий на открытом пространстве. Вам осталось только лишь добраться до него.",
 		},
 	],
@@ -511,18 +511,18 @@
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
 			"random"			: 4,
 			"dialog_rand1"		: "Вы решаете искать сокровища в тёмной пещере. К счастью, приспешников внутри не оказалось.",
-			"dialog_rand2"		: "Вы находите руины рухнувшей башни и решаете обыскать ее в поисках сокровищ.",
+			"dialog_rand2"		: "Вы находите развалины рухнувшей башни и решаете обыскать ее в поисках сокровищ.",
 			"dialog_rand3"		: "Вы находите свалку без единого демона-приспешника. Вы решаете обыскать её на предмет сокровищ.",
-			"dialog_rand4"		: "You find a forest dungeon, and you decide to scavenge it for treasure. Luckily, there were no minions inside.",
+			"dialog_rand4"		: "лесное подземелье и решаете обыскать его на предмет сокровищ. К счастью, приспешников внутри не оказалось.",
 		},
 	],
 	"comment_scavenge_correct"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-		"dialog"	: "|C3|[VAL1]|C0| scavenges for treasure.",
+		"dialog"	: "|C3|[VAL1]|C0| копает ради сокровищ.",
 	},
 	"comment_scavenge_miss"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
-		"dialog"	: "|shake|Try again!",
+		"dialog"	: "|shake|Попробуй ещё раз!",
 	},
 	
 	"comment_searching_win"	: {
@@ -648,44 +648,44 @@
 	],
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-		"dialog"	: "Choose your gifts.",
+		"dialog"	: "Выбирай свои дары.",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-		"dialog"	: "Did I put this here? What is it?",
+		"dialog"	: "Это я сюда положила? Что это?",
 	},
 	"gift_confirm"		: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-		"dialog"	: "Is this your choice?",
+		"dialog"	: "Таков твой выбор?",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
-		"dialog"	: "You want me to keep them?",
+		"dialog"	: "Хочешь, чтобы я оставила их себе?",
 	},
 	"to_another_gift" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "That is certainly the optimal choice!",
+			"dialog"			: "Это определённо был наилучший выбор!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Your reward will have to be another gift!",
+			"dialog"			: "Твоей наградой будет ещё один дар!",
 		}
 	],
 	"to_last_gift" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "You are the ideal gift receiver!",
+			"dialog"			: "Ты - идеальная получательница даров!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
-			"dialog"			: "I guess I'll have to give you one more.",
+			"dialog"			: "Видимо, придётся дать тебе ещё один.",
 		}
 	],
 	"to_the_end" 		: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Gifts are such an efficient way to express love!",
+			"dialog"			: "Дары - такой эффективный метод выражать любовь!",
 		},
 	],
 	
@@ -698,11 +698,11 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "I haven't slept in 4 days while working on this game anyways.",
+			"dialog"			: "Я не спала 4 дня, пока работала над этой игрой.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "You don't mind if I sleep next to you, right?",
+			"dialog"			: "Ты не против, если я посплю рядом с тобой?",
 		},
 	],
 	
@@ -730,65 +730,65 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "You saw my claws, right?|L|They just do that sometimes.",
+			"dialog"			: "Видела мои когти?|L|Они... иногда так делают.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
-			"dialog"			: "They are so long!",
+			"dialog"			: "Они такие длинные!",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
-			"dialog"			: "It happens when I get too excited.",
+			"dialog"			: "Это происхиодит, когда я слишком возбуждена.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "I knew I picked the right character for you.",
+			"dialog"			: "Я знала, что выбрала правильного персонажа для тебя.",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Maybe next time, you can introduce a character that wants to romance |C3|The Mage.|C0|",
+			"dialog"			: "Может, в следующий раз ты введёшь персонажа с романтической линией с |C3|Магом.|C0|",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised_blush"],
-			"dialog"			: "You read my mind!",
+			"dialog"			: "Читаешь мои мысли!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "|C3|The Dryad|C0| is another one of my characters, and she would be interested.",
+			"dialog"			: "|C3|Дриада|C0| - ещё одна из моих персонажей, и она была бы заинтересована.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "But I'm going to be really bad at acting out that kind of thing.",
+			"dialog"			: "Но у меня ужасно получится отыгрывать это.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "|wave|Everyone is bad at it!",
+			"dialog"			: "|wave|У всех ужасно получается!",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
-			"dialog"			: "They'll be singing songs about our righteous campaign!",
+			"dialog"			: "О нашей праведной кампании будут петь баллады!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "I'll have to write an epic about our heroes and their battles with the Demonlords.",
+			"dialog"			: "Надо будет написать эпос про наших героев и их сражениях с Лордами Демонов.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "It shall be called,    The Beast and the Dryad!",
+			"dialog"			: "Он будет назван,    Зверь и Дриада!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_content"],
-			"dialog"			: "I can't wait to hear it!",
+			"dialog"			: "Жду не дождусь услышать его!",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "Thank you for playing with me!",
+			"dialog"			: "Спасибо, что поиграла со мной!",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
