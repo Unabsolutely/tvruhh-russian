@@ -254,7 +254,7 @@
 			"dialog"			: "Начнём!",
 		},
 		{
-			"play_music"		: "kiwi_music",
+			"play_music"		: "dendrohai_music",
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
 			"dialog"			: "История начинается давным-давно в древнем лесу.",
 		},
