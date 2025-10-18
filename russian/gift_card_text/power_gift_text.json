@@ -1137,6 +1137,26 @@
 		"memory"  : "Это такая крутая повязка, которую можно носить на ноге. Хотя я не уверена, что смогла бы привыкнуть к чему-то, что будет постоянно так касаться моей кожи.",
 		"card"    : "Вращение помощн. вокруг тебя|L|[VAL2] свет. помощн.",
 	},
+	"I_antenna_rings" : {
+		"name"    : "Antenna Rings",
+		"memory"  : "Some Zaraden like to hang these decorations on their antennae. They look really pretty, but I don't think I could ever get used to them. Wearing them makes everything sound different and they also mess with my balance.",
+		"card"    : "Helpers form into two chains|L|[VAL2] Void Helpers",
+	},
+	"I_ribbon" : {
+		"name"    : "Ribbon",
+		"memory"  : "I regret leaving my favorite ribbon behind. Now I have to use my own hair to tie up the rest of my hair! And I have to do that in order to focus my raw power! I can't shred righteously with all this hair getting caught in the strings!",
+		"card"    : "Helper shot rate +[VAL1]% in focus|L|[VAL2] Burn Helpers",
+	},
+	"I_hairpin" : {
+		"name"    : "Hairpin",
+		"memory"  : "It started as an attempt to remove all the excess energy from our hair. It did not work as expected. Our hair only stayed pinned for a microsecond before exploding outwards and blasting the pin into low orbit! But it was not a complete failure. We can use the pin as a battery now.",
+		"card"    : "Helpers will fire wavy shots|L|[VAL3] Zap Helpers",
+	},
+	"I_necklace" : {
+		"name"    : "Necklace",
+		"memory"  : "A necklace is something I might be able to wear, but...|L||L|I made one for... someone once. Then I found it on the ground later, so... I guess she didn't like it.|L||L|I don't think I could wear one after all.",
+		"card"    : "Helper shots warp back around|L|[VAL2] Toxic Helpers",
+	},
 	"I_despair" : {
 		"name"    : "Отчаяние",
 		"memory"  : "Раньше я испытывала лишь одно чувство, но в этот момент всё навсегда изменилось. Кто знал, что один момент способен всё так изменить.",

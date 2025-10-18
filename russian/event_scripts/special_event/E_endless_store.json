@@ -213,7 +213,7 @@
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],
-			"dialog"			: "Каждый найденный |C3|Чудесный Дар|C0| усложняет нахождение остальных!",
+			"dialog"			: "Каждый |C3|Чудесный Дар|C0|, что при тебе, усложняет нахождение остальных!",
 		},
 		{
 			"character"			: ["VOICE_solara", "CHAR_solara_right", "MOOD_shocked"],

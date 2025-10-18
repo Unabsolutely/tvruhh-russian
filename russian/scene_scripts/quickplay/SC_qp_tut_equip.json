@@ -1,0 +1,144 @@
+{
+	"script" : [
+		{
+			"use_textbox"	: 1,
+			"play_music"	: "tutorbot_scene_music",
+			"bg_image"		: "spr_tutorial_common",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Теперь, когда ваш ранг Быстрой игры увеличился, этот Модуль готов предоставить вам дополнительную информацию.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "С ростом вашего ранга, вам будет позволено экипировать всё больше и больше даров в битве.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Однако, чтобы остался справедливый вызов, этот Модуль задал рекомендованные пределы вашей |C3|Силы Любви|C0|.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Особый |C3|Измеритель Силы Любви|C0| был установлен на этот Модуль для исполнения данной задачи.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar1",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Эта шкала измеряет вашу текущую |C3|Силу Любви|C0|.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar1",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Обратите внимание, что ваше сердце само по себе имеет некоторое количество силы, даже без даров.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar2",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Каждый экипированный дар увелчит вашу |C3|Силу Любви|C0| на определённое значение.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar3",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Если ваша |C3|Сила Любви|C0| превышает рекомендуемый предел, то количество извлекаемых вами частиц будет уменьшено.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar4",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это снижение очков пропорционально увеличивается по мере того, как ваша |C3|Сила Любви|C0| превышает лимит.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "С достаточно сильным снижением, будет невозможно достичь самых высоких медалей.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "Всё в порядке. В любом случае эти медали были бы совсем не так интересны, если бы их стало слишком легко получить.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar_levels",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Рекомендуемый предел |C3|Силы Любви|C0| определяется только уровнем монстра.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar_levels",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Монстры более высокого уровня позволяют вам экипировать более мощные дары без снижения счёта.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "Сколько силы прибавляет каждый дар?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Значение у всех даров разное, кроме того, оно меняется от взаимодействия даров между собой.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Дары ещё больше увеличат вашу силу, если их эффект усиливается от эффекта других экипированных даров.",
+		},
+		{
+			"show_tutorial"	: "quickplay_gift_example",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Используя эти дары как пример, ваше сердце будет стрелять пулями чаще, и каждая пуля будет наносить больше урона.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это приводит к мультипликативному увеличению силы, поэтому оба дара будут давать больше силы вместе.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "В целом, значение вашей |C3|Силы Любви|C0| будет отражать возможное |C3|Количество Любови в секунду|C0| от всех ваших атак.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"		: "Не уверена, что сама смогу всё это рассчитать.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|Мне повезло, что ты можешь сделать это для меня.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вы также могли заметить, что вы начинаете быстрые бои без |C3|Панических Атак.",
+		},
+		{
+			"show_tutorial"	: "quickplay_panic_example",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Можно экипировать Дары Силы, которые дают |C3|Панические Атаки|C0|, чтобы использовать их.",
+		},
+		{
+			"show_tutorial"	: "quickplay_panic_bars",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Однако имейте в виду, что каждая экипированная вами |C3|Паническая Атака|C0| увеличит вашу силу любви на всё большую величину.",
+		},
+		{
+			"show_tutorial"	: "quickplay_bar5",
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|Предложение:|C0| Всегда используйте как можно больше даров, не превышая рекомендуемый лимит |C3|Силы Любви|C0|.
+",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
+			"dialog"		: "Мне просто нужно подвести шкалу как можно ближе к этой линии, не выходя за ее пределы, верно?",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Рекомендую так делать, если вы не уверены, что именно экипировать.",
+		},
+		{
+			"show_tutorial"	: "none",
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"		: "Спасибо, Маленький Робот.",
+		},
+		{
+			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"		: "|wave|Я люблю тебя.",
+		},
+		{
+			"love_hearts"	: 1,
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
+			"dialog"		: "|C3|Сила Любви|C0| превысила 512% от рекомендуемого значения.",
+		}
+	]
+}

@@ -34,7 +34,7 @@
 		},
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_confused"],
-			"dialog"			: "Посмотрим, хватит ли у нас воды для вас двоих.|!| Посидите немного и отдохните.|!||L|Мы позаботимся о вас.",
+			"dialog"			: "Дать вам обоим воды?|!| Посидите немного и отдохните.|!||L|Мы позаботимся о вас.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
