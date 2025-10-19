@@ -79,7 +79,7 @@
 		{
 			"show_tutorial"	: "quickplay_gift_example",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Например, с этими дарами, ваше сердце будет стрелять чаще, и каждая выстрел будет наносить больше урона.",
+			"dialog"		: "Например, с этими дарами, ваше сердце будет стрелять чаще, и каждый выстрел будет наносить больше урона.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
