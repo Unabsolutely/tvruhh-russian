@@ -1342,6 +1342,10 @@
 		"name"    : "90 Даров за Время Вместе",
 		"desc"    : "Примите суммарно 90 даров от любых событий Времени Вместе",
 	},
+	"DR_bonding_voladrome" : {
+		"name"    : "No Rest for a Vault Hunter",
+		"desc"    : "Take 10 gifts from vaults while treasure hunting with Voladrome",
+	},
 	"DR_bonding_dendrohai" : {
 		"name"    : "Души Лордов Демонов",
 		"desc"    : "Победите 6 Лордов Демонов в игре Дендрохай",
