@@ -1,0 +1,1026 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Зарадена!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|Я нашла сокровище!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Хранилища в этих башнях заполнены дарами.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "Но |C3|Ключи от Хранилищ|C0| необходимы для открытия!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "Поищем ключи, да?",
+		},
+	],
+	
+	"key_title"			: "Vault Keys",
+	"vault_gifts"		: "Vault Gifts",
+	"mite_gifts"		: "Mite Gifts",
+	
+	"op_move"		: "Go somewhere else",
+	"op_sleep"		: "Take a nap",
+	
+	"op_rest"			: "Rest for a moment",
+	"op_jumping"		: "Smash some rocks",
+	"op_course"			: "Search the field",
+	"op_dungeon"		: "Search the dungeon",
+	"op_falling"		: "Search the Scrapyard",
+	"op_scavenge_yard"	: "Search fallen debris",
+	"op_scavenge_cave"	: "Scavenge in the dark",
+	"op_hacking_first"	: "Ask the tower",
+	"op_hacking"		: "Open the locker",
+	"op_ask_veyerals"	: "Ask the Veyerals",
+	"op_blink"			: "Play Veyeral Blink",
+	"op_peek"			: "Play Veyeral Peek",
+	"op_swap"			: "Check the mites",
+	
+	"go_cave"		: "Small cave",
+	"go_outside"	: "Rainy field",
+	"go_scrapyard"	: "Scrapyard",
+	"go_umbrella"	: "Under an umbrella",
+	"go_deep_cave"	: "Deep cavern",
+	"go_paint_cave"	: "Painted cave",
+	"go_dungeon"	: "Dungeon",
+	"go_tower"		: "Inside a tower",
+	"go_leaves"		: "Inside a mite den",
+	
+	"main_comment_first"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "We must hunt the keys.",
+	},
+	"main_comment_key"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "I know there is key here!",
+	},
+	"main_comment_clear"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "No more keys are here.",
+	},
+	"main_comment_umbrella_key"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "Is there no key here?",
+	},
+	"main_comment_umbrella_clear"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Now, for sure, there is no key here.",
+	},
+	"main_comment_veyeral_ask"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "We can ask the eyeball creature if they know of the keys.",
+	},
+	"main_comment_veyeral_play"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "The only way is to play.",
+	},
+	"move_comment"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Where do we go?",
+	},
+	
+	
+	
+	"to_first_move" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I sense where the |C3|Vault Keys|C0| hide.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "They lurk around us!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|I will be the transportation on this hunt!",
+		},
+	],
+	"to_first_move_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "You want us to get on?",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|I will be the transportation on this hunt!",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "Sunshine, please! I'll never ask for anything again!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "Liar!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "But, fine.",
+		},
+	],
+	"to_new_zone" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "|shake|I sense the key around here!",
+			"dialog_rand2"		: "|shake|The key can't hide from us!",
+			"dialog_rand3"		: "|shake|Onward! For the treasure!",
+			"dialog_rand4"		: "|shake|I will hunt all keys!",
+		},
+	],
+	"to_new_zone_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "|wave|Weeeeeeeeeeeee!",
+			"dialog_rand2"		: "|wave|Gaint worm coming through!",
+			"dialog_rand3"		: "|wave|Worm Riiiiiide!",
+		},
+	],
+	
+	
+	
+	"umbrella_rest_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Why don't we rest here for a little?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad2"],
+			"dialog"			: "All this running around has tired me out.",
+		},
+	],
+	"umbrella_rest_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Darling Defect, I think you need to rest here for a moment.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "I guess I am a little tired.",
+		},
+	],
+	"umbrella_rest_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Let's rest here for a bit.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "But I want to keep riding the worm.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_angry"],
+			"dialog"			: "You should let her rest too!",
+		},
+	],
+	"umbrella_rest_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Who keeps leaving these huge umbrellas all over the place?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "Anyways, The Devil could use a moment to rest and count her treasures.",
+		},
+	],
+	"umbrella_key_find" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "We will make time for the resting.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Has my treasure sense failed?",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "There was undetected key right here!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|This rest was much needed for me.",
+		},
+	],
+	
+	
+	
+	"comment_general_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "|wave|Shiny find!",
+	},
+	"comment_general_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "You find nothing?",
+	},
+	"game_win_no_key" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"random"			: 4,
+			"dialog_rand1"		: "This is no key.|L|Only shiny junk here.",
+			"dialog_rand2"		: "This is just useless slab of pure gold.",
+			"dialog_rand3"		: "It was shiny, but is no treasure.",
+			"dialog_rand4"		: "You only found the shiny garbage.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"random"			: 3,
+			"dialog_rand1"		: "We will try again, yes?",
+			"dialog_rand2"		: "The key must be close.",
+			"dialog_rand3"		: "But I know there is key here.",
+		},
+	],
+	"game_win_key" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "You found a key!",
+			"dialog_rand2"		: "One more treasure for us!",
+			"dialog_rand3"		: "Another vault will be opening soon.",
+			"dialog_rand4"		: "I am excited for the opening of treasure!",
+		},
+	],
+	"game_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "The keys can't hide forever!",
+			"dialog_rand2"		: "We will find it next time!",
+			"dialog_rand3"		: "The keys are hiding too good!",
+			"dialog_rand4"		: "We must try again!",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "One of this rocks has the |C3|Vault Key|C0| inside.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You jump on the rocks to smash them!",
+		},
+	],
+	"to_mg_jumping_first_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "I'm gunna go smash those rocks over there!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You knew the key was hiding in there?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Yeah... Of course I knew that.",
+		},
+	],
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|Smash more rocks!",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "You jump farther when your knees are more bend.",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Try again!",
+	},
+	
+	
+	
+	"to_mg_course_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I have detected the shiny in the grass.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You just avoid thorns and spikes on the way.",
+		},
+	],
+	"to_mg_course" 			: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I have detected another shiny in the grass.",
+		},
+	],
+	"to_mg_dungeon" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I have detected the shiny very deep in this dungeon.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|This must be the key!",
+		},
+	],
+	"to_mg_dungeon_devil" 		: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "You ever wonder why this place was built here?",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|To hide the keys from me!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "You must be right.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "I shall brave this mighty dungeon and find the key!",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "The time for treasure hunting is now!",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "|shake|Ouch!",
+	},
+	"comment_course_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "There is a shiny!",
+	},
+	"comment_course_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "Was the shiny a lie?",
+	},
+	
+	
+	
+	"to_mg_falling" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "We will search the Scrapyard, yes?",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "Wait!",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "The scraps are falling!",
+		},
+	],
+	"comment_falling_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "|shake|Watch out!",
+	},
+	"comment_falling_hit"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "I am the blame for this.",
+	},
+	"comment_failing_win"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "|wave|You are safe!",
+	},
+	"falling_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You are a dodge master!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "You even got the key as it was falling!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|More treasure will be opening now.",
+		},
+	],
+	"falling_win_no_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I'm happy you are safe!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I saw the key falling too.|L|It was over here.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "I find it!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|More treasure will be ours, yes?",
+		},
+	],
+	"falling_lose_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ouch!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Don't worry about me.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "|wave|I've been through so much worse than this.",
+		},
+	],
+	"falling_lose_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|Ahhhhh!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Are you hurt?",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused_blush"],
+			"dialog"			: "Actually, no, but I thought it would hurt.",
+		},
+	],
+	"falling_lose_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
+			"dialog"			: "|shake|I'm dying!",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "I'm the one that got hit.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "But, I can feel your pain.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "Then you should know it didn't really hurt.",
+		},
+	],
+	"falling_lose_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "The Devil will not be defeated by mere falling debris!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Actually, that barely even hurt.",
+		},
+	],
+	"falling_lose_response" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "I should have gaurd you better.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|And we lost the key.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "Should we search for it?",
+		},
+	],
+	"to_mg_scavenge_yard" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I saw it fall over here.",
+		},
+	],
+	
+	
+	
+	"to_mg_scavenge_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "It is very dark here, but there must be a key!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|We will scavenge blind until we find.",
+		},
+	],
+	"to_mg_scavenge_first_defect" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "It is very dark here, and I can't see.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
+			"dialog"			: "That's fine, because I can see in the dark.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "This place is a mess, though.|L|There's a lot of junk to look through.",
+		},
+	],
+	"to_mg_scavenge" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I don't need seeing for hunting keys.",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Use your feelers for finding.",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+		"dialog"	: "Not that!",
+	},
+	
+	
+	
+	"ask_veyerals" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Eyeball creature, have you seen the |C3|Vault Key|C0| hiding here?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Yeah.|L||wave|We know where it is.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But you have to play with us first.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|If it must be done!",
+		},
+	],
+	"start_vg_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We are so inspired by the colors painted on the walls of this cave.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "We'll be changing the colors of our eyes too.",
+		},
+	],
+	"start_vg_first_defect" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Come join us, Blue.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I can never turn down a Veyeral game.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_angry"],
+			"dialog"			: "I won't be going easy on you, My Defect.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
+			"dialog"			: "I'm not worried about that.",
+		},
+	],
+	"to_vg_normal" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Count how many of us with [VAL1] you see.",
+		},
+	],
+	"to_vg_special" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Try to remember the colors of all our eyes.|L|We will ask about any color.",
+		},
+	],
+	"comment_vg_type_count"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+		"dialog"	: "How many Veyerals with [VAL1] did you see?",
+	},
+	"comment_vg_win"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+		"dialog"	: "|wave|Yay!",
+	},
+	"comment_vg_lose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+		"dialog"	: "So close.",
+	},
+	"vg_win_first" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You got it right!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But you gotta win at least one more if you want the key.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Fooled by the eyeballs once again!",
+		},
+	],
+	"vg_win_key" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Alright! You've played with us enough.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Here's the key thingy you wanted.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "We have very earned this key.",
+		},
+	],
+	"vg_lose" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Sorry, that was wrong.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Keep trying and we will give you the key.",
+		},
+	],
+	
+	
+	
+	"start_mite_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|This mite has the shiny!",
+		},
+	],
+	"start_mite_game" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Another shiny detected!",
+		},
+	],
+	"to_mite_game" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "The mite with the [VAL1] has it!",
+		},
+	],
+	"comment_mite_swap_choose"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Where is the [VAL1] mite hidding?",
+	},
+	"comment_mite_win"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "That's the mite!",
+	},
+	"comment_mite_lose"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "Not this one.",
+	},
+	"mite_win_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "This is no key.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "But she has a gift for you.",
+		},
+	],
+	"comment_mite_reward_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "She wants you to take one.",
+	},
+	"mite_reward_confirm"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "You want this, yes?",
+	},
+	"mite_reward_gift_taken" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Another mite must have the key.",
+		},
+	],
+	"mite_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Little mite, we are looking for the keys.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "We can have it, yes?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "We have gained the key!",
+		},
+	],
+	"mite_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "This mite has no key.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "I know one of them has it!",
+		},
+	],
+	
+	
+	
+	"hacking_score_title"		: "Score [VAL1]",
+	"hacking_goal_title"		: "Goal [VAL1]",
+	"hacking_fail_title"		: "Access Denied",
+	
+	"to_hacking_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "This tower can talk.|L|I ask her many questions.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Tower, where is the |C3|Vault Key|C0| in here?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "A |C3|Vault Key|C0| was last placed into |C3|locker |lu|-[VAL2].|C0|",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "As previously instructed, a score of |C3|[VAL1]|C0| is required to open this locker.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "I never know what to do for this.",
+		},
+	],
+	"to_hacking" 	: [
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "|C3|Locker |lu|-[VAL2]|C0| presently requires a score of |C3|[VAL1]|C0| to be opened.",
+		},
+	],
+	"comment_hacking_correct"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "Try pushing the buttons.",
+	},
+	"comment_hacking_miss"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+		"dialog"	: "Was this a bad thing?",
+	},
+	"hacking_response_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Who designed it to work like this?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "The Devil respects the torturous designs of this place.",
+		},
+	],
+	"hacking_win_first" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Is empty!?",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "Tower lied to me?",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "Apologies. It appears that the |C3|Vault Key|C0| was transferred to |C3|locker |lu|-[VAL2]|C0| without proper notice.",
+		},
+	],
+	"hacking_win_key" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|The key is here!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "We hope you found this result satisfactory.",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "We look forward to your next visit.",
+		},
+	],
+	"hacking_lose" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Let me in!",
+		},
+		{
+			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
+			"dialog"			: "We are sorry for the inconvenience, but you may try again.",
+		},
+	],
+	
+	
+	
+	"times_up_no_keys" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "We got no keys.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "But I still enjoy being the transportation.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|We will hunt better next time!",
+		},
+	],
+	"times_up" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Wait! There is no more time for the hunting.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "We must return to the vaults, quick!",
+		},
+	],
+	"to_first_vault" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "The time for treasure is now!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Open!",
+		},
+	],
+	"comment_vault_gift_normal"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "Which one is for you?",
+	},
+	"vault_gift_confirm"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "You want this, yes?",
+	},
+	"to_another_vault" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "A good choice for you.",
+			"dialog_rand2"		: "Very shiny, yes?",
+			"dialog_rand3"		: "I like this gift.",
+			"dialog_rand4"		: "You take this gift.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"random"			: 4,
+			"dialog_rand1"		: "Next vault now!",
+			"dialog_rand2"		: "We will now open another vault!",
+			"dialog_rand3"		: "Time for more treasure!",
+			"dialog_rand4"		: "Open the next vault!",
+		},
+	],
+	"to_final_vault" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "Only one key left.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|Final opening!",
+		},
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|The treasure hunt was the success!",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I will guard you.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I am very good at guarding.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "The best part of treasure is sharing with my new friend.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "You're a treasure.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You share too much!|L|Keep some for you!",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
+			"dialog"			: "That's not even 1% of my power.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "Did the eyeball want some treasure?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I already have the most perfect treasure.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|My Defect.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Blue,    |shake|stop it!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "And also myself, naturally.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "One more ride.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "It's never just   \"one more\"   of anything with you!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "One more, yes?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
+			"dialog"			: "Here we go again.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "The Devil has determined that you are qualified to be one of the band's touring vehicles!",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "High speed movement.|L|Immunity to extreme temperatures.|L|Tight turning radius.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Are you worthy of carrying all the expensive and fragile equipment?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I am very good at transportation.",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I very much enjoyed the treasure hunting today.",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}
