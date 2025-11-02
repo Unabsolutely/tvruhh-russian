@@ -295,11 +295,11 @@
 	],
 	"comment_jumping_start"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "You jump farther when your knees are more bend.",
+		"dialog"	: "Ты можешь прыгнуть дальше, если сильнее согнёшь колени.",
 	},
 	"comment_jumping_miss"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Try again!",
+		"dialog"	: "Попробуй ещё раз!",
 	},
 	
 	
@@ -307,37 +307,37 @@
 	"to_mg_course_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I have detected the shiny in the grass.",
+			"dialog"			: "Я заметила блестяшку в траве.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "You just avoid thorns and spikes on the way.",
+			"dialog"			: "Просто избегай шипов и колючек на своем пути.",
 		},
 	],
 	"to_mg_course" 			: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I have detected another shiny in the grass.",
+			"dialog"			: "Я заметила ещё одну блестяшку в траве.",
 		},
 	],
 	"to_mg_dungeon" 		: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I have detected the shiny very deep in this dungeon.",
+			"dialog"			: "Я заметила блестяшку в глубинах этого подземелья.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|This must be the key!",
+			"dialog"			: "|shake|Это должен быть ключ!",
 		},
 	],
 	"to_mg_dungeon_devil" 		: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
-			"dialog"			: "You ever wonder why this place was built here?",
+			"dialog"			: "Ты когда-нибудь задумывалась, почему это место было построено именно здесь?",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|To hide the keys from me!",
+			"dialog"			: "|shake|Чтобы спрятать от меня ключи!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
@@ -345,28 +345,28 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "You must be right.",
+			"dialog"			: "Думаю ты права.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "I shall brave this mighty dungeon and find the key!",
+			"dialog"			: "Я должна спустится в это могучее подземелье и найти ключ!",
 		},
 	],
 	"comment_course_normal"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "The time for treasure hunting is now!",
+		"dialog"	: "Время искать сокровища!",
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "|shake|Ouch!",
+		"dialog"	: "|shake|ох!",
 	},
 	"comment_course_win"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "There is a shiny!",
+		"dialog"	: "О блестяшка!",
 	},
 	"comment_course_lose"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-		"dialog"	: "Was the shiny a lie?",
+		"dialog"	: "Блестяшка была ложью?",
 	},
 	
 	
@@ -374,39 +374,39 @@
 	"to_mg_falling" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "We will search the Scrapyard, yes?",
+			"dialog"			: "Мы обыщем Свалку, ага?",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "Wait!",
+			"dialog"			: "Подожди!",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "The scraps are falling!",
+			"dialog"			: "Мусор падает!",
 		},
 	],
 	"comment_falling_normal"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "|shake|Watch out!",
+		"dialog"	: "|shake|Остерегайся!",
 	},
 	"comment_falling_hit"		: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-		"dialog"	: "I am the blame for this.",
+		"dialog"	: "Это я виновата.",
 	},
 	"comment_failing_win"		: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "|wave|You are safe!",
+		"dialog"	: "|wave|Ты в безопасности!",
 	},
 	"falling_win_key" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "You are a dodge master!",
+			"dialog"			: "Да ты мастер уклонений!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "You even got the key as it was falling!",
+			"dialog"			: "Ты даже успела поймать ключ, пока он падал.!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -416,19 +416,19 @@
 	"falling_win_no_key" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "I'm happy you are safe!",
+			"dialog"			: "Рада, что ты в безопасности!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I saw the key falling too.|L|It was over here.",
+			"dialog"			: "Я тоже видела падающий ключ.|L|Вот здесь вот.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "I find it!",
+			"dialog"			: "Я найду его!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|More treasure will be ours, yes?",
+			"dialog"			: "|wave|Больше сокровищь будут нашимы, да?",
 		},
 	],
 	"falling_lose_blank" 	: [
@@ -744,22 +744,22 @@
 	
 	
 	
-	"hacking_score_title"		: "Score [VAL1]",
-	"hacking_goal_title"		: "Goal [VAL1]",
-	"hacking_fail_title"		: "Access Denied",
+	"hacking_score_title"		: "Счёт [VAL1]",
+	"hacking_goal_title"		: "Цель [VAL1]",
+	"hacking_fail_title"		: "Доступ Запрещён",
 	
 	"to_hacking_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "This tower can talk.|L|I ask her many questions.",
+			"dialog"			: "Эта башня может говорить.|L|Я задаю ей много вопросов.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Tower, where is the |C3|Vault Key|C0| in here?",
+			"dialog"			: "Башня, где здешний |C3|Ключ от Хранилища|C0|?",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "A |C3|Vault Key|C0| was last placed into |C3|locker |lu|-[VAL2].|C0|",
+			"dialog"			: "|C3|Ключ от Хранилища|C0| был помещён в |C3|шкафчик |lu|-[VAL2].|C0|",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
@@ -773,12 +773,12 @@
 	"to_hacking" 	: [
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "|C3|Locker |lu|-[VAL2]|C0| presently requires a score of |C3|[VAL1]|C0| to be opened.",
+			"dialog"			: "|C3|Шкафчик |lu|-[VAL2]|C0| в настоящее время требует счёт в |C3|[VAL1]|C0| для открытия.",
 		},
 	],
 	"comment_hacking_correct"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Try pushing the buttons.",
+		"dialog"	: "Понажимай на кнопки.",
 	},
 	"comment_hacking_miss"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
@@ -787,49 +787,49 @@
 	"hacking_response_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
-			"dialog"			: "Who designed it to work like this?",
+			"dialog"			: "Кто сделал все это таким?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "The Devil respects the torturous designs of this place.",
+			"dialog"			: "Дьявол уважает пыточную идею этого места.",
 		},
 	],
 	"hacking_win_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Is empty!?",
+			"dialog"			: "|shake|Пусто!?",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "Tower lied to me?",
+			"dialog"			: "Башня наврала мне?",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Apologies. It appears that the |C3|Vault Key|C0| was transferred to |C3|locker |lu|-[VAL2]|C0| without proper notice.",
+			"dialog"			: "Мои извинения. Похоже, что |C3|Ключ от Хранилища|C0| был перевезён в |C3|шкафчик |lu|-[VAL2]|C0| без моего ведома.",
 		},
 	],
 	"hacking_win_key" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|The key is here!",
+			"dialog"			: "|wave|Ключ!",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "We hope you found this result satisfactory.",
+			"dialog"			: "Мы надеемся, вы найдете этот результат удовлетворительным.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "We look forward to your next visit.",
+			"dialog"			: "С нетерпением ждём нашей следующей встречи.",
 		},
 	],
 	"hacking_lose" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Let me in!",
+			"dialog"			: "|shake|Впусти меня!",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "We are sorry for the inconvenience, but you may try again.",
+			"dialog"			: "Приносим извинения за неудобство, но ты можешь попробывать ещё раз.",
 		},
 	],
 	
@@ -838,7 +838,7 @@
 	"times_up_no_keys" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "We got no keys.",
+			"dialog"			: "У нас нет ключей.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -852,63 +852,63 @@
 	"times_up" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Wait! There is no more time for the hunting.",
+			"dialog"			: "Подожди! Больше нет времени на поискание.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "We must return to the vaults, quick!",
+			"dialog"			: "Мы должны вернуться к хранилищам, быстро!",
 		},
 	],
 	"to_first_vault" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "The time for treasure is now!",
+			"dialog"			: "Время для сокровища!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Open!",
+			"dialog"			: "|shake|Откройся!",
 		},
 	],
 	"comment_vault_gift_normal"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "Which one is for you?",
+		"dialog"	: "Какой из них дать тебе?",
 	},
 	"vault_gift_confirm"		: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "You want this, yes?",
+		"dialog"	: "Хочешь это, да?",
 	},
 	"to_another_vault" 		: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "A good choice for you.",
-			"dialog_rand2"		: "Very shiny, yes?",
-			"dialog_rand3"		: "I like this gift.",
-			"dialog_rand4"		: "You take this gift.",
+			"dialog_rand1"		: "Хороший выбор.",
+			"dialog_rand2"		: "Ярко сверкает, ага?",
+			"dialog_rand3"		: "Мне нравится этот дар.",
+			"dialog_rand4"		: "Возьми этот дар.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
 			"random"			: 4,
-			"dialog_rand1"		: "Next vault now!",
-			"dialog_rand2"		: "We will now open another vault!",
-			"dialog_rand3"		: "Time for more treasure!",
-			"dialog_rand4"		: "Open the next vault!",
+			"dialog_rand1"		: "Следующее хранилище прямо сейчас!",
+			"dialog_rand2"		: "Теперь мы откроем следующее хранилище!",
+			"dialog_rand3"		: "Время найти больше сокровищ!",
+			"dialog_rand4"		: "Открой следующее хранилище!",
 		},
 	],
 	"to_final_vault" 		: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "Only one key left.",
+			"dialog"			: "Только один ключ остался.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Final opening!",
+			"dialog"			: "|shake|Финальный дебют!",
 		},
 	],
 	"to_the_end" 		: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|The treasure hunt was the success!",
+			"dialog"			: "|wave|Поиск сокровищ был успешен!",
 		},
 	],
 	
@@ -921,12 +921,12 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "I will guard you.",
+			"dialog"			: "Я буду тебя охранять.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "I am very good at guarding.",
+			"dialog"			: "Я очень хороша в охранении.",
 		},
 	],
 	
@@ -935,24 +935,24 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "The best part of treasure is sharing with my new friend.",
+			"dialog"			: "Лучшее в сокровище - это поделиться им с моим новым другом.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "You're a treasure.",
+			"dialog"			: "Сокровище - это ты.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я тебя люблю!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "You share too much!|L|Keep some for you!",
+			"dialog"			: "Ты слишком много делишься!|L|Оставь и себе немного!",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
-			"dialog"			: "That's not even 1% of my power.",
+			"dialog"			: "Я показываю тебе даже не 1% моей силы.",
 		},
 	],
 	"leave_defect" 	: [
@@ -1022,5 +1022,6 @@
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
+
 
 }
