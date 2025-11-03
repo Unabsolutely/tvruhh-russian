@@ -14,7 +14,7 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "Но |C3|Ключи от Хранилищ|C0| необходимы для открытия!",
+			"dialog"			: "Но для открытия необходимы |C3|Ключи Хранилищ|C0|!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -22,68 +22,68 @@
 		},
 	],
 	
-	"key_title"			: "Vault Keys",
-	"vault_gifts"		: "Vault Gifts",
-	"mite_gifts"		: "Mite Gifts",
+	"key_title"			: "Ключи Хранилищ",
+	"vault_gifts"		: "Дары Хранилищ",
+	"mite_gifts"		: "Дары клещей",
 	
-	"op_move"		: "Go somewhere else",
-	"op_sleep"		: "Take a nap",
+	"op_move"		: "Пойти в другое место",
+	"op_sleep"		: "Вздремнуть",
 	
-	"op_rest"			: "Rest for a moment",
-	"op_jumping"		: "Smash some rocks",
-	"op_course"			: "Search the field",
-	"op_dungeon"		: "Search the dungeon",
-	"op_falling"		: "Search the Scrapyard",
-	"op_scavenge_yard"	: "Search fallen debris",
-	"op_scavenge_cave"	: "Scavenge in the dark",
-	"op_hacking_first"	: "Ask the tower",
-	"op_hacking"		: "Open the locker",
-	"op_ask_veyerals"	: "Ask the Veyerals",
-	"op_blink"			: "Play Veyeral Blink",
-	"op_peek"			: "Play Veyeral Peek",
-	"op_swap"			: "Check the mites",
+	"op_rest"			: "Ненадолго отдохнуть",
+	"op_jumping"		: "Разбить камни",
+	"op_course"			: "Поискать в поле",
+	"op_dungeon"		: "Поискать в подземелье",
+	"op_falling"		: "Поискать на Свалке",
+	"op_scavenge_yard"	: "Поискать в упавшем мусоре",
+	"op_scavenge_cave"	: "Покопаться в темноте",
+	"op_hacking_first"	: "Спросить у Башни",
+	"op_hacking"		: "Открыть шкафчик",
+	"op_ask_veyerals"	: "Спросить у Веералей",
+	"op_blink"			: "Сыграть в Вееральные Жмурки",
+	"op_peek"			: "Сыграть в Вееральные Гляделки",
+	"op_swap"			: "Проверить клещей",
 	
-	"go_cave"		: "Small cave",
-	"go_outside"	: "Rainy field",
-	"go_scrapyard"	: "Scrapyard",
-	"go_umbrella"	: "Under an umbrella",
-	"go_deep_cave"	: "Deep cavern",
-	"go_paint_cave"	: "Painted cave",
-	"go_dungeon"	: "Dungeon",
-	"go_tower"		: "Inside a tower",
-	"go_leaves"		: "Inside a mite den",
+	"go_cave"		: "Маленькая пещера",
+	"go_outside"	: "Дождливое поле",
+	"go_scrapyard"	: "Свалка",
+	"go_umbrella"	: "Под зонтом",
+	"go_deep_cave"	: "Глубокая пещера",
+	"go_paint_cave"	: "Раскрашенная пещера",
+	"go_dungeon"	: "Подземелье",
+	"go_tower"		: "В башне",
+	"go_leaves"		: "В логове клещей",
 	
 	"main_comment_first"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "We must hunt the keys.",
+		"dialog"	: "Мы должны начать охоту за ключами.",
 	},
 	"main_comment_key"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "I know there is key here!",
+		"dialog"	: "Я знаю, здесь ключ!",
 	},
 	"main_comment_clear"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-		"dialog"	: "No more keys are here.",
+		"dialog"	: "Здесь больше нет ключей.",
 	},
 	"main_comment_umbrella_key"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-		"dialog"	: "Is there no key here?",
+		"dialog"	: "Здесь нет ключа?",
 	},
 	"main_comment_umbrella_clear"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Now, for sure, there is no key here.",
+		"dialog"	: "Ну теперь точно здесь нет ключа.",
 	},
 	"main_comment_veyeral_ask"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "We can ask the eyeball creature if they know of the keys.",
+		"dialog"	: "Мы можем спросить это существо-глаз про ключи.",
 	},
 	"main_comment_veyeral_play"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "The only way is to play.",
+		"dialog"	: "Единственный выход - играть.",
 	},
 	"move_comment"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Where do we go?",
+		"dialog"	: "Куда отправимся?",
 	},
 	
 	
@@ -91,7 +91,7 @@
 	"to_first_move" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Я чувствую где прячутся |C3|Ключи от Хранилищ|C0|.",
+			"dialog"			: "Я чувствую, где прячутся |C3|Ключи от Хранилищ|C0|.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
@@ -99,7 +99,7 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|I will be the transportation on this hunt!",
+			"dialog"			: "|wave|Я буду транспортировать тебя на этой охоте!",
 		},
 	],
 	"to_first_move_twins" 	: [
@@ -109,11 +109,11 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|I will be the transportation on this hunt!",
+			"dialog"			: "|wave|Я буду транспортировать вас на этой охоте!",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
-			"dialog"			: "Солнышко, прошу! Больше я тебя никогда ни о чём не буду просить!",
+			"dialog"			: "Солнышко, пожааааалуйста! Больше я тебя никогда ни о чём не буду просить!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
@@ -159,11 +159,11 @@
 	"umbrella_rest_defect" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Дорогая Дефект, Я думаю тебе надо отдохнуть здесь немного.",
+			"dialog"			: "Дорогая Дефект, я думаю, тебе стоит здесь немного отдохнуть.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Я думаю, я немного устал.",
+			"dialog"			: "Я и вправду немного устала.",
 		},
 	],
 	"umbrella_rest_twins" 	: [
@@ -183,17 +183,17 @@
 	"umbrella_rest_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Who keeps leaving these huge umbrellas all over the place?",
+			"dialog"			: "Да кто постоянно оставляет за собой везде эти огромные зонты?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
-			"dialog"			: "Anyways, The Devil could use a moment to rest and count her treasures.",
+			"dialog"			: "В любом случае Дьяволу не помешает время на отдых и пересчёт сокровищ.",
 		},
 	],
 	"umbrella_key_find" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "We will make time for the resting.",
+			"dialog"			: "Мы найдём время для отдыхания.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
@@ -201,15 +201,15 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Has my treasure sense failed?",
+			"dialog"			: "|shake|Неужели моё чувство сокровищ подвело меня?",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "There was undetected key right here!",
+			"dialog"			: "Здесь был необнаруженный ключ!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|This rest was much needed for me.",
+			"dialog"			: "|wave|Этот отдых был мне весьма необходим.",
 		},
 	],
 	
@@ -246,8 +246,8 @@
 			"random"			: 4,
 			"dialog_rand1"		: "Ты нашла ключ!",
 			"dialog_rand2"		: "Еще одно сокровище для нас!",
-			"dialog_rand3"		: "Another vault will be opening soon.",
-			"dialog_rand4"		: "I am excited for the opening of treasure!",
+			"dialog_rand3"		: "Ещё одно хранилище откроется скоро.",
+			"dialog_rand4"		: "Я так жду открытия сокровищ!",
 		},
 	],
 	"game_lose" 	: [
@@ -266,11 +266,11 @@
 	"to_mg_jumping_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Внутри одного из этих камней |C3|Ключ от Хранилища|C0|.",
+			"dialog"			: "Внутри одного из этих камней |C3|Ключ Хранилища|C0|.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "Вы прыгаете на камни, чтобы разбить их!",
+			"dialog"			: "Прыгай на камни, чтобы разбить их!",
 		},
 	],
 	"to_mg_jumping_first_devil" 	: [
@@ -290,7 +290,7 @@
 	"to_mg_jumping" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|Разбей эти камни!",
+			"dialog"			: "|wave|Разбей ещё камни!",
 		},
 	],
 	"comment_jumping_start"	: {
@@ -345,11 +345,11 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "Думаю ты права.",
+			"dialog"			: "Думаю, ты права.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Я должна спустится в это могучее подземелье и найти ключ!",
+			"dialog"			: "Я должна спуститься в это могучее подземелье и найти ключ!",
 		},
 	],
 	"comment_course_normal"	: {
@@ -358,11 +358,11 @@
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "|shake|ох!",
+		"dialog"	: "|shake|Ай!",
 	},
 	"comment_course_win"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "О блестяшка!",
+		"dialog"	: "О, блестяшка!",
 	},
 	"comment_course_lose"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
@@ -406,11 +406,11 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "Ты даже успела поймать ключ, пока он падал.!",
+			"dialog"			: "Ты даже успела поймать ключ, пока он падал!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|More treasure will be opening now.",
+			"dialog"			: "|wave|Будет открыто больше сокровищ.",
 		},
 	],
 	"falling_win_no_key" 	: [
@@ -428,7 +428,7 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|Больше сокровищь будут нашимы, да?",
+			"dialog"			: "|wave|Больше сокровищ будут нашими, да?",
 		},
 	],
 	"falling_lose_blank" 	: [
@@ -448,7 +448,7 @@
 	"falling_lose_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
-			"dialog"			: "|shake|аааааааааай!",
+			"dialog"			: "|shake|Аааааааааай!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
@@ -462,25 +462,25 @@
 	"falling_lose_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_pain"],
-			"dialog"			: "|shake|I'm dying!",
+			"dialog"			: "|shake|Я умираю!",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "I'm the one that got hit.",
+			"dialog"			: "Ударило же меня.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
-			"dialog"			: "But, I can feel your pain.",
+			"dialog"			: "Но я чувствую твою боль.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "Then you should know it didn't really hurt.",
+			"dialog"			: "Тогда ты должна знать, что это не было больно.",
 		},
 	],
 	"falling_lose_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "Дьявол не будет побеждён простыми падающими обломками.!",
+			"dialog"			: "Дьявол не будет побеждена простыми падающими обломками!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
@@ -504,7 +504,7 @@
 	"to_mg_scavenge_yard" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I saw it fall over here.",
+			"dialog"			: "Я видела, что он упал тут.",
 		},
 	],
 	
@@ -513,40 +513,40 @@
 	"to_mg_scavenge_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "It is very dark here, but there must be a key!",
+			"dialog"			: "Здесь очень темно, но ключ должен быть здесь!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "|wave|We will scavenge blind until we find.",
+			"dialog"			: "|wave|Мы будем копаться в темноте, пока не найдём.",
 		},
 	],
 	"to_mg_scavenge_first_defect" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "It is very dark here, and I can't see.",
+			"dialog"			: "Здесь очень темно, и я ничего не вижу.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
-			"dialog"			: "That's fine, because I can see in the dark.",
+			"dialog"			: "Всё хорошо, я вижу в темноте.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "This place is a mess, though.|L|There's a lot of junk to look through.",
+			"dialog"			: "Правда, здесь полный бардак.|L|Придётся разобрать горы хлама.",
 		},
 	],
 	"to_mg_scavenge" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "I don't need seeing for hunting keys.",
+			"dialog"			: "Мне не нужно смотрение для охоты за ключами.",
 		},
 	],
 	"comment_scavenge_correct"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Use your feelers for finding.",
+		"dialog"	: "Используй свои щупальца для поиска.",
 	},
 	"comment_scavenge_miss"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-		"dialog"	: "Not that!",
+		"dialog"	: "Не то!",
 	},
 	
 	
@@ -554,85 +554,85 @@
 	"ask_veyerals" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Eyeball creature, have you seen the |C3|Vault Key|C0| hiding here?",
+			"dialog"			: "Существо-глаз, ты видело прячущийся здесь |C3|Ключ Хранилища|C0|?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Yeah.|L||wave|We know where it is.",
+			"dialog"			: "Да.|L||wave|Мы знаем, где он.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "But you have to play with us first.",
+			"dialog"			: "Но сначала поиграйте с нами.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|If it must be done!",
+			"dialog"			: "|shake|Если это необходимо!",
 		},
 	],
 	"start_vg_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We are so inspired by the colors painted on the walls of this cave.",
+			"dialog"			: "Мы вдохновлены цветами на стенах этой пещеры.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "We'll be changing the colors of our eyes too.",
+			"dialog"			: "Так и мы будем менять цвета наших глаз.",
 		},
 	],
 	"start_vg_first_defect" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Come join us, Blue.",
+			"dialog"			: "Присоединяйся, Синяя.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I can never turn down a Veyeral game.",
+			"dialog"			: "Я не могу отказаться от игры Веералей.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_angry"],
-			"dialog"			: "I won't be going easy on you, My Defect.",
+			"dialog"			: "Моя Дефект, я не буду поддаваться.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_aggressive"],
-			"dialog"			: "I'm not worried about that.",
+			"dialog"			: "Меня это не волнует.",
 		},
 	],
 	"to_vg_normal" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Count how many of us with [VAL1] you see.",
+			"dialog"			: "Посчитай, скольких из нас с [VAL1] ты видишь.",
 		},
 	],
 	"to_vg_special" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Try to remember the colors of all our eyes.|L|We will ask about any color.",
+			"dialog"			: "Попытайся запомнить цвета всех наших глаз.|L|Мы можем спросить про любой.",
 		},
 	],
 	"comment_vg_type_count"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-		"dialog"	: "How many Veyerals with [VAL1] did you see?",
+		"dialog"	: "Скольких Веералей с [VAL1] ты видела?",
 	},
 	"comment_vg_win"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-		"dialog"	: "|wave|Yay!",
+		"dialog"	: "|wave|Ура!",
 	},
 	"comment_vg_lose"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
-		"dialog"	: "So close.",
+		"dialog"	: "Так близко.",
 	},
 	"vg_win_first" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "You got it right!",
+			"dialog"			: "Верно!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
-			"dialog"			: "But you gotta win at least one more if you want the key.",
+			"dialog"			: "Но ты должна выиграть ещё хотя бы одну, если хочешь получить ключ.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Fooled by the eyeballs once again!",
+			"dialog"			: "|shake|Очередной раз обманута глазами!",
 		},
 	],
 	"vg_win_key" 	: [
@@ -646,17 +646,17 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "We have very earned this key.",
+			"dialog"			: "Мы очень заслужили этот ключ.",
 		},
 	],
 	"vg_lose" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Sorry, that was wrong.",
+			"dialog"			: "Извини, это было неправильно.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Keep trying and we will give you the key.",
+			"dialog"			: "Продолжай пытаться, и мы дадим тебе ключ.",
 		},
 	],
 	
@@ -677,12 +677,12 @@
 	"to_mite_game" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "У клеща с [VAL1]!",
+			"dialog"			: "Она у клеща [VAL1]!",
 		},
 	],
 	"comment_mite_swap_choose"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Где же прячется [VAL1] клещ?",
+		"dialog"	: "Где же прячется клещ [VAL1]?",
 	},
 	"comment_mite_win"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -695,50 +695,50 @@
 	"mite_win_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "This is no key.",
+			"dialog"			: "Это не ключ.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "But she has a gift for you.",
+			"dialog"			: "Но у неё есть для тебя дар.",
 		},
 	],
 	"comment_mite_reward_normal"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-		"dialog"	: "She wants you to take one.",
+		"dialog"	: "Она хочет, чтобы ты взяла один.",
 	},
 	"mite_reward_confirm"		: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "You want this, yes?",
+		"dialog"	: "Этот, да?",
 	},
 	"mite_reward_gift_taken" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Another mite must have the key.",
+			"dialog"			: "Ключ, должно быть, у другого клеща.",
 		},
 	],
 	"mite_win_key" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Little mite, we are looking for the keys.",
+			"dialog"			: "Маленький клещ, мы ищем ключи.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "We can have it, yes?",
+			"dialog"			: "Мы можем его забрать, да?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "We have gained the key!",
+			"dialog"			: "Мы получили ключ!",
 		},
 	],
 	"mite_lose" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "This mite has no key.",
+			"dialog"			: "У этого клеща нет ключа.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "I know one of them has it!",
+			"dialog"			: "Я уверена, у одного из них он есть!",
 		},
 	],
 	

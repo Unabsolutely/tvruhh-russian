@@ -1320,7 +1320,7 @@
 	"step2_intro_B_snowball_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Cии особенные... передоставки тебь... королевские обнимашки.",
+			"dialog"			: "|shake|Cии особенные... передоставки тебь... королевские обниматия.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],

@@ -163,7 +163,7 @@
 	],
 	"to_vg_first_defect" 		: [
 		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
+			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_normal"],
 			"dialog"			: "Иди к нам, Синяя.",
 		},
 		{

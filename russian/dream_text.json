@@ -1343,8 +1343,8 @@
 		"desc"    : "Примите суммарно 90 даров от любых событий Времени Вместе",
 	},
 	"DR_bonding_voladrome" : {
-		"name"    : "No Rest for a Vault Hunter",
-		"desc"    : "Take 10 gifts from vaults while treasure hunting with Voladrome",
+		"name"    : "Кто Ищет, Тот Всегда Найдёт",
+		"desc"    : "Возьмите суммарно 10 даров из хранилищ во время поиска сокровищ с Лавадром",
 	},
 	"DR_bonding_dendrohai" : {
 		"name"    : "Души Лордов Демонов",
