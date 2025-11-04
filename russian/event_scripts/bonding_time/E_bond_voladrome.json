@@ -14,7 +14,7 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "Но для открытия необходимы |C3|Ключи Хранилищ|C0|!",
+			"dialog"			: "Но для открытия необходимы |C3|Ключи от Хранилищ|C0|!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -22,7 +22,7 @@
 		},
 	],
 	
-	"key_title"			: "Ключи Хранилищ",
+	"key_title"			: "Ключи от Хранилищ",
 	"vault_gifts"		: "Дары Хранилищ",
 	"mite_gifts"		: "Дары клещей",
 	
@@ -266,7 +266,7 @@
 	"to_mg_jumping_first" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Внутри одного из этих камней |C3|Ключ Хранилища|C0|.",
+			"dialog"			: "Внутри одного из этих камней |C3|Ключ от Хранилища|C0|.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
@@ -554,7 +554,7 @@
 	"ask_veyerals" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-			"dialog"			: "Существо-глаз, ты видело прячущийся здесь |C3|Ключ Хранилища|C0|?",
+			"dialog"			: "Существо-глаз, ты видело прячущийся здесь |C3|Ключ от Хранилища|C0|?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_multi_veyeral_right", "MOOD_happy"],
@@ -763,11 +763,11 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "As previously instructed, a score of |C3|[VAL1]|C0| is required to open this locker.",
+			"dialog"			: "Согласно предыдущим предписаниям, для открытия шкафчика требуется счёт в |C3|[VAL1]|C0|.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "I never know what to do for this.",
+			"dialog"			: "Никогда не знаю, что с этим делать.",
 		},
 	],
 	"to_hacking" 	: [
@@ -782,16 +782,16 @@
 	},
 	"comment_hacking_miss"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-		"dialog"	: "Was this a bad thing?",
+		"dialog"	: "Произошло что-то плохое?",
 	},
 	"hacking_response_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
-			"dialog"			: "Кто сделал все это таким?",
+			"dialog"			: "Да кто всё это придумал?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "Дьявол уважает пыточную идею этого места.",
+			"dialog"			: "Почтение Дьявола издевательскому замыслу этого места.",
 		},
 	],
 	"hacking_win_first" 	: [
@@ -805,7 +805,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Мои извинения. Похоже, что |C3|Ключ от Хранилища|C0| был перевезён в |C3|шкафчик |lu|-[VAL2]|C0| без моего ведома.",
+			"dialog"			: "Мои извинения. Похоже, что |C3|Ключ от Хранилища|C0| был переведён в |C3|шкафчик |lu|-[VAL2]|C0| без моего ведома.",
 		},
 	],
 	"hacking_win_key" 	: [
@@ -829,7 +829,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Приносим извинения за неудобство, но ты можешь попробывать ещё раз.",
+			"dialog"			: "Приносим извинения за неудобство. Вы можете попробовать ещё раз.",
 		},
 	],
 	
@@ -842,11 +842,11 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "But I still enjoy being the transportation.",
+			"dialog"			: "Но мне всё ещё нравится быть транспортировкой.",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|We will hunt better next time!",
+			"dialog"			: "|shake|В следующий раз охота будет удачней!",
 		},
 	],
 	"times_up" 	: [
@@ -902,7 +902,7 @@
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
-			"dialog"			: "|shake|Финальный дебют!",
+			"dialog"			: "|shake|Последнее вскрытие!",
 		},
 	],
 	"to_the_end" 		: [
@@ -952,73 +952,73 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_suspicious3"],
-			"dialog"			: "Я показываю тебе даже не 1% моей силы.",
+			"dialog"			: "Это даже не 1% моей силы.",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "Did the eyeball want some treasure?",
+			"dialog"			: "А глаз не хотел сокровищ?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I already have the most perfect treasure.",
+			"dialog"			: "У меня уже есть самое идеальное сокровище.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "|wave|My Defect.",
+			"dialog"			: "|wave|Моя Дефект.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Blue,    |shake|stop it!",
+			"dialog"			: "Синяя,    |shake|хватит!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "And also myself, naturally.",
+			"dialog"			: "И я, разумеется.",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
-			"dialog"			: "One more ride.",
+			"dialog"			: "Ещё одну поездку.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "It's never just   \"one more\"   of anything with you!",
+			"dialog"			: "С тобой никогда ничего заканчивается   \"ещё одной\"!",
 		},
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
-			"dialog"			: "One more, yes?",
+			"dialog"			: "Ещё одну, да?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_serious2"],
-			"dialog"			: "Here we go again.",
+			"dialog"			: "Ну вот, опять.",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "The Devil has determined that you are qualified to be one of the band's touring vehicles!",
+			"dialog"			: "Дьявол определила, что ты готова быть одной из машин нашей группы на туре!",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "High speed movement.|L|Immunity to extreme temperatures.|L|Tight turning radius.",
+			"dialog"			: "Быстрая скорость перемещения.|L|Иммунитет к экстремальным температурам.|L|Низкий радиус поворота.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Are you worthy of carrying all the expensive and fragile equipment?",
+			"dialog"			: "Ты достойна носить всё дорогое и хрупкое оборудование?",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "I am very good at transportation.",
+			"dialog"			: "Я очень хороша в транспортировке.",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "I very much enjoyed the treasure hunting today.",
+			"dialog"			: "Мне очень понравилось сегодня охотиться за сокровищами.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
