@@ -214,7 +214,7 @@
 		},
 		{
 			"character"			: ["VOICE_null_bot", "CHAR_null_holo_right", "MOOD_normal"],
-			"dialog"			: "В легендах предсказано, или типа того.|!||L|Ты это хотела услышать?",
+			"dialog"			: "В легендах рассказывалось, или типа того.|!||L|Ты это хотела услышать?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],

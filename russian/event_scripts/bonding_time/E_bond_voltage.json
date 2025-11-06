@@ -620,7 +620,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Этот исход был предсказан в легендах!",
+			"dialog"			: "Об этом рассказывалось в легендах!",
 		},
 	],
 	"race_lose_first_devil" 	: [

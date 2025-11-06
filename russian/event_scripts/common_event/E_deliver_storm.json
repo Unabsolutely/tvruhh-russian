@@ -1588,7 +1588,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Наша великая битва была предсказана в легендах!",
+			"dialog"			: "О нашей великой битве рассказывалось в легендах!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],

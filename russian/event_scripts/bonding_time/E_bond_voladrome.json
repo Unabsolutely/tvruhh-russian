@@ -1018,7 +1018,7 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
-			"dialog"			: "Мне очень понравилось сегодня охотиться за сокровищами.",
+			"dialog"			: "Мне очень понравилось охотиться за сокровищами сегодня.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
