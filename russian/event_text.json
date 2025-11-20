@@ -575,6 +575,14 @@
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
 	},
+	"E_bond_ventra" : {
+		"name"		: "Я Смогу Её Исправить",
+		"hint"		: "[hint_chance]",
+		"details"	: "Ventra isn't as responsive every day, but sometimes she asks me to help her reactivate her body. After that, I carry her around on my back as we search for components she needs to build upgrades for my heart! She needs |C3|5 components|C0| for each upgrade chip.|L||L|I thought she was going to use them to repair herself, but she would need way more time. She can never make any progress the way things are now...",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_dot" : {
 		"name"		: "Обхватывая Точку",
 		"hint"		: "[hint_chance]",

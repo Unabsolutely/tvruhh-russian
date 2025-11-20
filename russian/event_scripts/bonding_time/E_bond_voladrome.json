@@ -681,7 +681,7 @@
 		},
 	],
 	"comment_mite_swap_choose"	: {
-		"character"	: ["VOICE_veyeral", "CHAR_voladrome_right", "MOOD_normal"],
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
 		"dialog"	: "Где же прячется клещ [VAL1]?",
 	},
 	"comment_mite_win"	: {

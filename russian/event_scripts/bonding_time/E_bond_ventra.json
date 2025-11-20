@@ -1,0 +1,968 @@
+{
+	"intro" : [
+		{
+			"play_music"		: "silence",
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Your assistance is requested.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Please adjust any misaligned energy cells to restore power to the voice box of This Unit.",
+		},
+	],
+	
+	"first_charge_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "I'll try my best, but I don't know what I'm doing.",
+		},
+	],
+	"first_charge_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
+			"dialog"			: "I don't know if I can do this.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+			"dialog"			: "My perfect form does not allow for fingers, so it must be you, My Defect.",
+		},
+	],
+	"first_charge_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "She wants you to put your hands in there.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Why are you always like this?",
+		},
+	],
+	"first_charge_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
+			"dialog"			: "The Devil is great with technology, and has famously never broken anything just by touching it.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "I hope we both survive this.",
+		},
+	],
+	"comment_no_power"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"power_restored" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Power restored|L|Facial movement activated|L|Voice box activated",
+		},
+		{
+			"play_music"		: "tutorbot_scene_music",
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Hello?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "My face moves!|L|I can talk again!|L||wave|Thank you so much!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Do you think you could help me with something else?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "I need a lot of |C3|components,|C0| but as you can probably see-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "I'm not really in any condition to get them myself.",
+		},
+	],
+	
+	"item_title"		: "Components",
+	
+	"op_first"		: "Restore her power",
+	"op_recharge"	: "Recharge her energy",
+	"op_ask_where"	: "Where can I find them?",
+	"op_scan_wide"	: "Wide scan",
+	"op_scan_rare"	: "Precise scan",
+	"op_move"		: "Go somewhere else",
+	"op_scavenge"	: "Scavenge blindly",
+	"op_course"		: "Collect components",
+	"op_jumping"	: "Break some rocks",
+	"op_picking"	: "Falling components",
+	"op_swap"		: "Follow a mite",
+	"op_sleep"		: "Take a nap",
+	
+	"item_t0"		: "|I3||C16|Simple Component|C0|",
+	"item_t1"		: "|I4||C17|Lovely Component|C0|",
+	"item_t2"		: "|I5||C18|Wonderful Component|C0|",
+	
+	"main_comment_ask"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "Will you help me?",
+	},
+	"main_comment_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "The search continues.",
+	},
+	"main_comment_wide_scan"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "This scan will detect |C3|many lower quality components.",
+	},
+	"main_comment_rare_scan"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "This scan will detect |C3|fewer, but higher quality components.",
+	},
+	"main_comment_recharge"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "I could always use more energy.",
+	},
+	
+	"ask_where" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "I can scan the area and find components, but it will use some of my energy.",
+		},
+	],
+	"scan_done" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "I found some components!",
+			"dialog_rand2"		: "Scan complete!",
+		},
+	],
+	"scan_done_many" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "I detected several in the direction I'm looking.",
+			"dialog_rand2"		: "There are a bunch of small components around here.",
+		},
+	],
+	"scan_done_rare" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "I detected a rare one!",
+			"dialog_rand2"		: "There is a rare one nearby.",
+		},
+	],
+	"scan_free_item" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Oh, wait-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "There's also a [VAL1] right behind you!",
+		},
+	],
+	
+	
+	
+	"to_recharge_2nd" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "There are a lot of exposed wires around those power cells.",
+		},
+	],
+	"to_recharge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"random"			: 3,
+			"dialog_rand1"		: "Please, be careful.",
+			"dialog_rand2"		: "Be gentle.",
+			"dialog_rand3"		: "I trust you.",
+		},
+	],
+	"comment_charge_start"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "",
+	},
+	"comment_charge_crit"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "Awesome!",
+	},
+	"comment_charge_good"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "Good!",
+	},
+	"comment_charge_bad"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "Miss!",
+	},
+	"comment_charge_perfect"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "|wave|Full combo!",
+	},
+	"comment_charge_win"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Great score!",
+	},
+	"comment_charge_lose"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "Good enough...",
+	},
+	"comment_charge_hurt"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|Ouch!",
+	},
+	"recharge_perfect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "You get a perfect score!",
+		},
+	],
+	"recharge_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "It feels so good to have my energy flowing again.",
+			"dialog_rand2"		: "I haven't been this charged in a long time.",
+			"dialog_rand3"		: "You do not understand how good this feels for a Zaramech.",
+		},
+	],
+	"recharge_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"random"			: 2,
+			"dialog_rand1"		: "That still feels really good.",
+			"dialog_rand2"		: "You'll get better with more practice.",
+		},
+	],
+	"ventra_damaged_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_despair"],
+			"dialog"			: "I'm so sorry!",
+		},
+	],
+	"ventra_damaged_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
+			"dialog"			: "I didn't mean to-",
+		},
+	],
+	"ventra_damaged_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_despair"],
+			"dialog"			: "I messed up!",
+		},
+	],
+	"ventra_damaged_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_despair"],
+			"dialog"			: "Did I break you for good this time?",
+		},
+	],
+	"ventra_damaged" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"random"			: 4,
+			"dialog_rand1"		: "That was nothing. Just Look at me.",
+			"dialog_rand2"		: "Don't worry about it. I can survive anything.",
+			"dialog_rand3"		: "That's hardly the worst thing I've been through.",
+			"dialog_rand4"		: "That wasn't your fault. I was already falling apart.",
+		},
+	],
+	
+	
+	
+	"to_scrapyard" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "I bet there are a lot of components in the scrapyard too.",
+		},
+	],
+	"to_tower" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "We could go looking for components inside this tower.",
+		},
+	],
+	"to_new_zone" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "But there's a little problem...",
+		},
+	],
+	"to_dodge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Would you be able to carry me there?",
+		},
+	],
+	"to_dodge_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
+			"dialog"			: "I can do that.",
+		},
+	],
+	"to_dodge_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "I guess so.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Another passenger riding on my perfect vehicle.",
+		},
+	],
+	"to_dodge_twins" 	: [
+		{
+			"character"			: ["VOICE_static", "CHAR_ryden_left", "MOOD_surprised"],
+			"dialog"			: "It has to be you. Your hands have been in her circuitry.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_xaila_left", "MOOD_surprised"],
+			"dialog"			: "But it's always me.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive2"],
+			"dialog"			: "|shake|You have an unbreakable bond of trust.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "What are you talking about over there?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "|shake|Nothing!|L|I'll carry you.",
+		},
+	],
+	"to_dodge_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
+			"dialog"			: "I'm used to carrying loads of equipment, and I almost never drop ALL of it.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "You have nothing to worry about.",
+		},
+	],
+	"comment_dodge_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "Grab any components you see on the way.",
+	},
+	"comment_dodge_clear"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "We made it.",
+	},
+	"comment_dodge_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|I'm okay.",
+	},
+	"dodge_perfect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "A perfect clear!|L|Thanks for carrying me.",
+		},
+	],
+	"dodge_win" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "No hits!|L|Thanks for carrying me.",
+		},
+	],
+	"dodge_win_hit" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Don't worry about that scratch. I think it was already there.",
+		},
+	],
+	"dodge_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "I only lost some energy.|!||L|Nothing else was damaged.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "The important thing is that we made it.",
+		},
+	],
+	"arrived_at_zone" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Now that we're here, I should do a scan for components.",
+		},
+	],
+	"arrived_cost_reduced" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "They should be close by, so it will take me less energy to detect them again.",
+		},
+	],
+	"arrived_low_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "But my energy is pretty low, so if you wouldn't mind...",
+		},
+	],
+	
+	
+	
+	"to_mg_scavenge_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "I get that you don't want me to use all my energy, but I don't think you'll be able to find much by yourself.",
+		},
+	],
+	"to_mg_scavenge" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "I hope you find something.",
+		},
+	],
+	"comment_scavenge_correct"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "There might be something here.",
+	},
+	"comment_scavenge_find"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "Nice!",
+	},
+	"comment_scavenge_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "Combo break!",
+	},
+	"scavenge_good_find" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Awesome! You actually found something good.",
+		},
+	],
+	"scavenge_bad_find" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Not much luck, huh?",
+		},
+	],
+	
+	
+
+	"to_mg_course" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"random"			: 2,
+			"dialog_rand1"		: "You'll find them if you keep walking that way.",
+			"dialog_rand2"		: "Keep walking forward and you'll see them.",
+		},
+	],
+	"comment_course_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "Just keep moving.",
+	},
+	"comment_course_find"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Score!",
+	},
+	"comment_course_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "Combo break!",
+	},
+	"comment_course_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "That's far enough.",
+	},
+	"course_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Now look down at your feet.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "There's one more [VAL1] right there!",
+		},
+	],
+	"course_dnf" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "Come back and I can scan for more components.",
+		},
+	],
+	"found_none" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "You didn't find anything?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "Did my scan really fail this badly?",
+		},
+	],
+	
+	
+	
+	"to_mg_jumping_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "The scan says there are components inside these rocks.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "You think you can break them by jumping on them?",
+		},
+	],
+	"to_mg_jumping" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "There are more components in these rocks.",
+		},
+	],
+	"comment_jumping_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "Bend your knees more to jump farther.",
+	},
+	"comment_jumping_item"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "Plus one!",
+	},
+	"comment_jumping_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "Miss!",
+	},
+	"jumping_win_high" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Now those are high quality components!",
+		},
+	],
+	"jumping_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "The scan said these should be higher quality, but oh well.",
+		},
+	],
+	
+	
+	
+	"to_mg_picking_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "The components are way up on top of this scrap pile.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Don't let any scrap fall on you.",
+		},
+	],
+	"to_mg_picking" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Watch out for falling scrap.",
+		},
+	],
+	"comment_picking_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+		"dialog"	: "Be careful!",
+	},
+	"comment_picking_hit"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|Minus one!",
+	},
+	"picking_perfect" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|Full combo!|norm||L|You got all of them.",
+		},
+	],
+	"picking_win" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "|wave|Great score!|norm||L|You got a lot of them.",
+		},
+	],
+	"picking_miss" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "A few misses, but that's all right.",
+		},
+	],
+	"picking_none" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "All components missed.",
+		},
+	],
+	"picking_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "Are you okay?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "I wish I could help you more.",
+		},
+	],
+	
+	
+	
+	"start_mg_swap_first" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Those mites have a rare component!",
+		},
+	],
+	"start_mg_swap" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Follow those mites!",
+		},
+	],
+	"to_mg_swap" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "The mite with [VAL1] has it now!",
+		},
+	],
+	"comment_swap_choose"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+		"dialog"	: "Which one had the component?",
+	},
+	"comment_swap_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "That's the one!",
+	},
+	"comment_swap_lose"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "Combo broken...",
+	},
+	"swap_lose" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Well, at least this one had a [VAL1] on her.",
+		},
+	],
+	"to_mg_stash" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Wait! Keep following her.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "She's showing you her stash.",
+		},
+	],
+	"comment_stash_correct"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "You want us to have these?",
+	},
+	"comment_stash_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "|shake|Be careful with those.",
+	},
+	"comment_stash_win"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "Thank you, little mite.",
+	},
+	"stash_done" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Mites are always so helpful in their own silly ways.",
+		},
+	],
+	
+	
+	
+	"return_home" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "I think we've searched long enough now.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Can you take me back, please?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "I have a surprise for you.",
+		},
+	],
+	"already_home" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "I think we've been searching long enough, and I have a surprise for you.",
+		},
+	],
+	"craft_time" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "You probably thought I was trying to repair myself, right?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "That's going to take    A LOT  more components than this.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Instead, I'm going to use this chip crafting station to build some upgrades for your heart!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "Take this wire and plug me into this port over here.",
+		},
+	],
+	"comment_craft_normal"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Now drop all the components onto this table, and I'll handle the rest.",
+	},
+	"comment_craft_done"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "All the chips are ready.",
+	},
+	"comment_craft_none"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "We didn't find anything, but I can still make some default chips.",
+	},
+	"to_mg_crafting" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "The last step is to activate them.",
+		},
+	],
+	"to_mg_crafting_low_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "My energy is pretty low, so these chips might not turn out so optimal.",
+		},
+	],
+	"to_mg_crafting_med_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "It looks like I have just enough energy for this.",
+		},
+	],
+	"to_mg_crafting_high_energy" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Thanks to you, I have way more than enough energy for this!",
+		},
+	],
+	
+	"craft_complete"	: "Crafting Complete!",
+	"comment_crafting"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+		"dialog"	: "|C3|Crafting...",
+	},
+	"crafting_done" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "They are complete!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "Now let's just snap them onto your heart.",
+		},
+	],
+
+	
+	"empty_chip"			: "Empty Socket",
+	"basic_chip"			: "Default Chip",
+	"chip_name_structure"	: "[ADJ1] [ADJ2] [NOUN] [CHIP]",
+	
+	"bdn_void_hp"		: "Broken",
+	"bdn_zap_hp"		: "Overloaded",
+	"bdn_bleed_heart"	: "Damaged",
+	"bdn_stress_heart"	: "Faulty",
+	"bdn_trauma_heart"	: "Deficient",
+	
+	"adj_radiant_res"	: "Shiny",
+	"adj_void_res"		: "Null",
+	"adj_burn_res"		: "Insulated",
+	"adj_zap_res"		: "Elastic",
+	"adj_toxic_res"		: "Resistant",
+	"adj_hp"			: "Refill",
+	"adj_max_hp"		: "Extra",
+	"adj_max_en"		: "Energetic",
+	"adj_karma"			: "Karmic",
+	"adj_reserve_hp"	: "Aux",
+	"adj_glass_heart"	: "Glass",
+	"adj_chrome_heart"	: "Chrome",
+	"adj_damage"		: "Kinetic",
+	"adj_crit_rate"		: "Critical",
+	"adj_panic"			: "Super",
+	"adj_manic_panic"	: "Hyper",
+	"adj_panic_polyp"	: "Fuzzy",
+	"adj_revive"		: "New",
+	"adj_denial"		: "Defensive",
+	"adj_mite"			: "Glitchy",
+	"adj_magnet"		: "Magnetic",
+	
+	"noun_default"		: "Stock",
+	"noun_damage"		: "Power",
+	"noun_crit_rate"	: "Force",
+	"noun_panic"		: "Terror",
+	"noun_manic_panic"	: "Hype",
+	"noun_panic_polyp"	: "Polyp",
+	"noun_revive"		: "Failsafe",
+	"noun_denial"		: "Barrier",
+	"noun_mite"			: "Creature",
+	"noun_magnet"		: "Magnet",
+	
+	"chip_1"			: "Circuit",
+	"chip_2"			: "Chip",
+	"chip_3"			: "Wafer",
+	
+	"leave_now"		: "Leave Now",
+	"comment_chip_choosing"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Which one do you want?",
+	},
+	"bad_chip_blank" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Are you okay?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
+			"dialog"			: "|shake|I'm okay!",
+		},
+	],
+	"bad_chip_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
+			"dialog"			: "|shake|Is it supposed to hurt?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+			"dialog"			: "Uhh...",
+		},
+	],
+	"bad_chip_twins" 	: [
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
+			"dialog"			: "|shake|Okay, that one hurt a little.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Love hurts, Sunshine.",
+		},
+	],
+	"bad_chip_devil" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Did that hurt?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
+			"dialog"			: "|shake|This can only make me stronger!",
+		},
+	],
+	"bad_chip" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "I'm sorry...",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "You should probably |C3|check your heart|C0| and make sure you understand the side effects.",
+		},
+	],
+	"three_chips_taken" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Actually, you probably shouldn't install more than three of these in a single day.",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Are you okay?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "Come lay down next to me.",
+		},
+	],
+	
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "I can also tell you are worried about me, but I promise I'll start on my repairs soon.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
+			"dialog"			: "Okay. You better.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "I love you.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "My heart drive is already at capacity.",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "I tried to make some for your Voidling, but all my calculations said that adding anything to her is a downgrade.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "One cannot add to that which is already perfect.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "There were a lot of \"divide by infinity\" errors.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "Isn't my sister so good at aligning energy cells?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "|wave|Absolutely!|norm||!||L|She has such a gentle touch.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Are you okay?|L|Why is your face heating up?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "|shake|I don't know.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
+			"dialog"			: "Can you use this to upgrade my guitar? And also build me a guitar?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Well, that depends.|L|What's a guitar?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
+			"dialog"			: "You don't know what a guitar is?|L||!|Where do I even start?",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "The legend begins in a time long before there was metal-",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "I hope these upgrades help you.",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}

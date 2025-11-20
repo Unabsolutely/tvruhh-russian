@@ -7,6 +7,7 @@
 	"ouch"		: "Ай!",
 
 	"hug_rating"	: "Оценка Объятий [VAL1]%",
+	"energy_rating"	: "Efficiency Rating [VAL1]%",
 	
 	"course_walk"	: "Пройди 1 клетку",
 	"course_jump"	: "Прыгни на 2 клетки",
@@ -175,7 +176,9 @@
 	"scrap_ingredient1"	:	"Простой Ингредиент",
 	"scrap_ingredient2"	:	"Приятный Ингредиент",
 	"scrap_ingredient3"	:	"Чудесный Ингредиент",
-	
+	"scrap_component1"	:	"Simple Component",
+	"scrap_component2"	:	"Lovely Component",
+	"scrap_component3"	:	"Wonderful Component",
 	
 	
 	"craft_hp"				:	"Лечит [VAL1]% здоровья",
