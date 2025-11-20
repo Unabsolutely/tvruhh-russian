@@ -578,7 +578,7 @@
 	"E_bond_ventra" : {
 		"name"		: "Я Смогу Её Исправить",
 		"hint"		: "[hint_chance]",
-		"details"	: "Ventra isn't as responsive every day, but sometimes she asks me to help her reactivate her body. After that, I carry her around on my back as we search for components she needs to build upgrades for my heart! She needs |C3|5 components|C0| for each upgrade chip.|L||L|I thought she was going to use them to repair herself, but she would need way more time. She can never make any progress the way things are now...",
+		"details"	: "Нутра обычно не разговорчива, но иногда она просит меня помочь ей реактивировать её тело. Затем я беру её на спину и мы идём искать компоненты, необходимые для улучшения моего сердца! Ей нужно |C3|5 компонентов|C0| для каждого улучшающего чипа.|L||L|Я думала она использует их, чтобы починить себя, но на это ей бы понадобилось гораздо больше времени. В нынешней ситуации она никогда не продвинется в выполнении этой задачи...",
 		"rule1"		: "[rule_bonding1]",
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
