@@ -3,48 +3,48 @@
 		{
 			"play_music"		: "silence",
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Your assistance is requested.",
+			"dialog"			: "|C3|Мне необходима ваша помощь.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Please adjust any misaligned energy cells to restore power to the voice box of This Unit.",
+			"dialog"			: "|C3|Пожалуйста, отрегулируйте все сбившиеся энергетические ячейки, чтобы восстановить подачу питания в голосовое устройство этого Модуля.",
 		},
 	],
 	
 	"first_charge_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "I'll try my best, but I don't know what I'm doing.",
+			"dialog"			: "Я постараюсь изо всех сил, хоть и не понимаю, что нужно делать.",
 		},
 	],
 	"first_charge_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],
-			"dialog"			: "I don't know if I can do this.",
+			"dialog"			: "Не уверена, смогу ли я это сделать.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "My perfect form does not allow for fingers, so it must be you, My Defect.",
+			"dialog"			: "В моей идеальной форме нет места для пальцев, ничего не остаётся, кроме как предоставить это тебе, моя Дефект.",
 		},
 	],
 	"first_charge_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "She wants you to put your hands in there.",
+			"dialog"			: "Она хочет, чтобы ты засунула руки туда.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "|shake|Why are you always like this?",
+			"dialog"			: "|shake|Почему ты всегда такая?",
 		},
 	],
 	"first_charge_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "The Devil is great with technology, and has famously never broken anything just by touching it.",
+			"dialog"			: "Дьявол хороша с технологиями, и она известна тем, что ещё ничего не ломала просто прекоснувшись.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
-			"dialog"			: "I hope we both survive this.",
+			"dialog"			: "Надеюсь, мы обе переживём это.",
 		},
 	],
 	"comment_no_power"	: {
@@ -54,38 +54,38 @@
 	"power_restored" : [
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Power restored|L|Facial movement activated|L|Voice box activated",
+			"dialog"			: "|C3|Питание восстановлено|L|Движение лицевых мышц активировно|L|Голосовое устройство",
 		},
 		{
 			"play_music"		: "tutorbot_scene_music",
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Hello?",
+			"dialog"			: "Привет?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "My face moves!|L|I can talk again!|L||wave|Thank you so much!",
+			"dialog"			: "Моё лицо движется!|L|Я снова могу говорить!|L||wave|Спасибо вам большое!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Do you think you could help me with something else?",
+			"dialog"			: "Поможете мне ещё кое с чем?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "I need a lot of |C3|components,|C0| but as you can probably see-",
+			"dialog"			: "Мне нужно много |C3|компонентов,|C0| но как вы возможно видите-",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-			"dialog"			: "I'm not really in any condition to get them myself.",
+			"dialog"			: "Я не совсем в состоянии добыть их самой.",
 		},
 	],
 	
-	"item_title"		: "Components",
+	"item_title"		: "Компоненты",
 	
-	"op_first"		: "Restore her power",
-	"op_recharge"	: "Recharge her energy",
-	"op_ask_where"	: "Where can I find them?",
-	"op_scan_wide"	: "Wide scan",
-	"op_scan_rare"	: "Precise scan",
+	"op_first"		: "Восстановить её питание",
+	"op_recharge"	: "Зарядить её",
+	"op_ask_where"	: "Где я могу их найти?",
+	"op_scan_wide"	: "Дальнее сканирование",
+	"op_scan_rare"	: "Точное сканирование",
 	"op_move"		: "Go somewhere else",
 	"op_scavenge"	: "Scavenge blindly",
 	"op_course"		: "Collect components",
@@ -94,17 +94,17 @@
 	"op_swap"		: "Follow a mite",
 	"op_sleep"		: "Take a nap",
 	
-	"item_t0"		: "|I3||C16|Simple Component|C0|",
-	"item_t1"		: "|I4||C17|Lovely Component|C0|",
-	"item_t2"		: "|I5||C18|Wonderful Component|C0|",
+	"item_t0"		: "|I3||C16|Простой Компонент|C0|",
+	"item_t1"		: "|I4||C17|Милый Компонент|C0|",
+	"item_t2"		: "|I5||C18|Чудесный Компонент|C0|",
 	
 	"main_comment_ask"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "Will you help me?",
+		"dialog"	: "Вы поможете мне?",
 	},
 	"main_comment_normal"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "The search continues.",
+		"dialog"	: "Поиск продолжается.",
 	},
 	"main_comment_wide_scan"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
@@ -116,13 +116,13 @@
 	},
 	"main_comment_recharge"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "I could always use more energy.",
+		"dialog"	: "Никогда не помешает больше энергии.",
 	},
 	
 	"ask_where" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "I can scan the area and find components, but it will use some of my energy.",
+			"dialog"			: "Я могу сканировать область и находить компоненты, но это потребует часть моей энергии.",
 		},
 	],
 	"scan_done" 	: [
@@ -131,7 +131,7 @@
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"random"			: 2,
 			"dialog_rand1"		: "I found some components!",
-			"dialog_rand2"		: "Scan complete!",
+			"dialog_rand2"		: "Сканирование завершено!",
 		},
 	],
 	"scan_done_many" 	: [
@@ -139,8 +139,8 @@
 			"scene_flash"		: 1,
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "I detected several in the direction I'm looking.",
-			"dialog_rand2"		: "There are a bunch of small components around here.",
+			"dialog_rand1"		: "Я обнаружила несколько в том направлении, куда я смотрю.",
+			"dialog_rand2"		: "Рядом есть куча небольших компонентов.",
 		},
 	],
 	"scan_done_rare" 	: [
@@ -148,18 +148,18 @@
 			"scene_flash"		: 1,
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "I detected a rare one!",
-			"dialog_rand2"		: "There is a rare one nearby.",
+			"dialog_rand1"		: "Я обнаружила редкий!",
+			"dialog_rand2"		: "Рядом есть редкий компонент.",
 		},
 	],
 	"scan_free_item" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Oh, wait-",
+			"dialog"			: "О, подожди-",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "There's also a [VAL1] right behind you!",
+			"dialog"			: "Здеась ещё [VAL1] прямо позади тебя!",
 		},
 	],
 	
@@ -168,16 +168,16 @@
 	"to_recharge_2nd" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "There are a lot of exposed wires around those power cells.",
+			"dialog"			: "Рядом с этими ячейками много оголенных проводов.",
 		},
 	],
 	"to_recharge" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
 			"random"			: 3,
-			"dialog_rand1"		: "Please, be careful.",
-			"dialog_rand2"		: "Be gentle.",
-			"dialog_rand3"		: "I trust you.",
+			"dialog_rand1"		: "Пожалуйста, будьте осторожны..",
+			"dialog_rand2"		: "Будьте нежными.",
+			"dialog_rand3"		: "Я вам доверяю.",
 		},
 	],
 	"comment_charge_start"		: {
@@ -186,36 +186,36 @@
 	},
 	"comment_charge_crit"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "Awesome!",
+		"dialog"	: "Замечательно!",
 	},
 	"comment_charge_good"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "Good!",
+		"dialog"	: "Хорошо!",
 	},
 	"comment_charge_bad"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "Miss!",
+		"dialog"	: "Провал!",
 	},
 	"comment_charge_perfect"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "|wave|Full combo!",
+		"dialog"	: "|wave|Полное Комбо!",
 	},
 	"comment_charge_win"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "Great score!",
+		"dialog"	: "Отличный счёт!",
 	},
 	"comment_charge_lose"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "Good enough...",
+		"dialog"	: "Более менее...",
 	},
 	"comment_charge_hurt"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "|shake|Ouch!",
+		"dialog"	: "|shake|Ох!",
 	},
 	"recharge_perfect" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "You get a perfect score!",
+			"dialog"			: "Вы получили идеальный счёт!",
 		},
 	],
 	"recharge_win" 		: [
@@ -256,17 +256,17 @@
 	"ventra_damaged_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_despair"],
-			"dialog"			: "Did I break you for good this time?",
+			"dialog"			: "Я доломала тебя в этом раз?",
 		},
 	],
 	"ventra_damaged" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
 			"random"			: 4,
-			"dialog_rand1"		: "That was nothing. Just Look at me.",
-			"dialog_rand2"		: "Don't worry about it. I can survive anything.",
-			"dialog_rand3"		: "That's hardly the worst thing I've been through.",
-			"dialog_rand4"		: "That wasn't your fault. I was already falling apart.",
+			"dialog_rand1"		: "Ничего страшного. Просто посмотрите на меня.",
+			"dialog_rand2"		: "Не волнуйтесь насчёт этого. Я всё переживу.",
+			"dialog_rand3"		: "Это далеко не самое худшее, что мне пришлось пережить.",
+			"dialog_rand4"		: "Вы не виноваты. Я и так рассыпалась на части.",
 		},
 	],
 	
@@ -275,113 +275,113 @@
 	"to_scrapyard" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "I bet there are a lot of components in the scrapyard too.",
+			"dialog"			: "Могу поспорить на свалке немало компонентов.",
 		},
 	],
 	"to_tower" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "We could go looking for components inside this tower.",
+			"dialog"			: "Можем поискать компоненты внутри этой башни.",
 		},
 	],
 	"to_new_zone" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "But there's a little problem...",
+			"dialog"			: "Но есть небольшая проблема...",
 		},
 	],
 	"to_dodge" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Would you be able to carry me there?",
+			"dialog"			: "Сможете ли вы отнести меня туда?",
 		},
 	],
 	"to_dodge_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"			: "I can do that.",
+			"dialog"			: "Смогу.",
 		},
 	],
 	"to_dodge_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "I guess so.",
+			"dialog"			: "Полагаю да.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Another passenger riding on my perfect vehicle.",
+			"dialog"			: "Очередной пассажир на моём идеальной средстве передвижения.",
 		},
 	],
 	"to_dodge_twins" 	: [
 		{
 			"character"			: ["VOICE_static", "CHAR_ryden_left", "MOOD_surprised"],
-			"dialog"			: "It has to be you. Your hands have been in her circuitry.",
+			"dialog"			: "Это должна быть ты. Ты засовывала руки в её схемы.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_xaila_left", "MOOD_surprised"],
-			"dialog"			: "But it's always me.",
+			"dialog"			: "Почему это всегда я?",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_aggressive2"],
-			"dialog"			: "|shake|You have an unbreakable bond of trust.",
+			"dialog"			: "|shake|Ты вызываешь нерушимое доверие.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "What are you talking about over there?",
+			"dialog"			: "О чем вы там говорите?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "|shake|Nothing!|L|I'll carry you.",
+			"dialog"			: "|shake|Ничего!|L|Я понесу тебя.",
 		},
 	],
 	"to_dodge_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "I'm used to carrying loads of equipment, and I almost never drop ALL of it.",
+			"dialog"			: "Я привыкла таскать с собой кучу оборудывания, и я почти никогда не роняла ВСЁ сразу.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "You have nothing to worry about.",
+			"dialog"			: "Тебе не о чем беспокоиться.",
 		},
 	],
 	"comment_dodge_normal"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "Grab any components you see on the way.",
+		"dialog"	: "Соберите любые компоненты, которые увидите по пути.",
 	},
 	"comment_dodge_clear"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "We made it.",
+		"dialog"	: "Мы добрались.",
 	},
 	"comment_dodge_hit"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "|shake|I'm okay.",
+		"dialog"	: "|shake|Я в порядке.",
 	},
 	"dodge_perfect" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "A perfect clear!|L|Thanks for carrying me.",
+			"dialog"			: "Идеально!|L|Спасибо за то, что несли меня.",
 		},
 	],
 	"dodge_win" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "No hits!|L|Thanks for carrying me.",
+			"dialog"			: "Без падений!|L|Спасибо за то, что несли меня.",
 		},
 	],
 	"dodge_win_hit" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Don't worry about that scratch. I think it was already there.",
+			"dialog"			: "Не беспокойся об этой царапине. Кажется, она уже была здесь.",
 		},
 	],
 	"dodge_lose" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-			"dialog"			: "I only lost some energy.|!||L|Nothing else was damaged.",
+			"dialog"			: "Я только потеряла немного энергии.|!||L|Больше ничего не пострадало.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "The important thing is that we made it.",
+			"dialog"			: "Главное, что мы это всё таки добрались.",
 		},
 	],
 	"arrived_at_zone" 	: [
@@ -393,13 +393,13 @@
 	"arrived_cost_reduced" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "They should be close by, so it will take me less energy to detect them again.",
+			"dialog"			: "Они должны быть где-то рядом, поэтому мне потребуется меньше энергии, чтобы обнаружить их снова.",
 		},
 	],
 	"arrived_low_energy" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "But my energy is pretty low, so if you wouldn't mind...",
+			"dialog"			: "Но у меня почти не осталось энергии, так что если вы не против...",
 		},
 	],
 	
@@ -432,13 +432,13 @@
 	"scavenge_good_find" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Awesome! You actually found something good.",
+			"dialog"			: "Отлично! Вы действительно нашли что-то стоящее.",
 		},
 	],
 	"scavenge_bad_find" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Not much luck, huh?",
+			"dialog"			: "Не очень-то повезло, да?",
 		},
 	],
 	
@@ -500,7 +500,7 @@
 	"to_mg_jumping_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "The scan says there are components inside these rocks.",
+			"dialog"			: "Сканирование показывает, что внутри этих камней есть компоненты.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
@@ -515,26 +515,26 @@
 	],
 	"comment_jumping_start"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "Bend your knees more to jump farther.",
+		"dialog"	: "Наклони колени, чтобы прыгнуть дальше.",
 	},
 	"comment_jumping_item"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "Plus one!",
+		"dialog"	: "Плюс один!",
 	},
 	"comment_jumping_miss"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "Miss!",
+		"dialog"	: "Мимо!",
 	},
 	"jumping_win_high" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Now those are high quality components!",
+			"dialog"			: "Вот это я называю компоненты высокого качества!",
 		},
 	],
 	"jumping_win" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "The scan said these should be higher quality, but oh well.",
+			"dialog"			: "Сканирование показало, что качество должно быть выше, ну да ладно.",
 		},
 	],
 	
@@ -562,7 +562,7 @@
 	},
 	"comment_picking_hit"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "|shake|Minus one!",
+		"dialog"	: "|shake|Минус один!",
 	},
 	"picking_perfect" 		: [
 		{
@@ -591,11 +591,11 @@
 	"picking_lose" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-			"dialog"			: "Are you okay?",
+			"dialog"			: "С тобой всё в порядке?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "I wish I could help you more.",
+			"dialog"			: "Хотела бы я иметь возможность тебе помочь.",
 		},
 	],
 	
@@ -964,5 +964,6 @@
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
+
 
 }
