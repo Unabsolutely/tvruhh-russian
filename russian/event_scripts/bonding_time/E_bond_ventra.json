@@ -708,20 +708,20 @@
 	],
 	"comment_craft_normal"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "Now drop all the components onto this table, and I'll handle the rest.",
+		"dialog"	: "Теперь положите все компоненты на этот стол, а я займусь всем остальным.",
 	},
 	"comment_craft_done"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "All the chips are ready.",
+		"dialog"	: "Все чипы готовы.",
 	},
 	"comment_craft_none"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-		"dialog"	: "We didn't find anything, but I can still make some default chips.",
+		"dialog"	: "Мы ничего не нашли, но я все равно могу сделать несколько стандартных чипов.",
 	},
 	"to_mg_crafting" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "The last step is to activate them.",
+			"dialog"			: "Осталось только активировать их.",
 		},
 	],
 	"to_mg_crafting_low_energy" 	: [
@@ -743,7 +743,7 @@
 		},
 	],
 	
-	"craft_complete"	: "Crafting Complete!",
+	"craft_complete"	: "Сборка Завершена!",
 	"comment_crafting"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
 		"dialog"	: "|C3|Crafting...",
@@ -751,11 +751,11 @@
 	"crafting_done" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "They are complete!",
+			"dialog"			: "Они готовы!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Now let's just snap them onto your heart.",
+			"dialog"			: "А теперь давай просто прикрепим их к Вашему сердцу.",
 		},
 	],
 
@@ -810,62 +810,62 @@
 	"leave_now"		: "Leave Now",
 	"comment_chip_choosing"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "Which one do you want?",
+		"dialog"	: "Какой из них Вы хотите забрать?",
 	},
 	"bad_chip_blank" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Are you okay?",
+			"dialog"			: "Вы в порядке?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
-			"dialog"			: "|shake|I'm okay!",
+			"dialog"			: "|shake|Всё нормально!",
 		},
 	],
 	"bad_chip_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
-			"dialog"			: "|shake|Is it supposed to hurt?",
+			"dialog"			: "|shake|Это и должно вызывать боль?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-			"dialog"			: "Uhh...",
+			"dialog"			: "Эээ...",
 		},
 	],
 	"bad_chip_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|Okay, that one hurt a little.",
+			"dialog"			: "|shake|Ладно, этот был немножечко болючим.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Love hurts, Sunshine.",
+			"dialog"			: "Любовь - это боль, Солнышко.",
 		},
 	],
 	"bad_chip_devil" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Did that hurt?",
+			"dialog"			: "Было больно?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_pain"],
-			"dialog"			: "|shake|This can only make me stronger!",
+			"dialog"			: "|shake|Это лишь сделает меня сильнее!",
 		},
 	],
 	"bad_chip" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-			"dialog"			: "I'm sorry...",
+			"dialog"			: "Простите...",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "You should probably |C3|check your heart|C0| and make sure you understand the side effects.",
+			"dialog"			: "Наверно вам следует|C3|проверить сердце|C0| и убедиться, что вы понимаете все побочные эффекты.",
 		},
 	],
 	"three_chips_taken" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Actually, you probably shouldn't install more than three of these in a single day.",
+			"dialog"			: "На самом деле, вам, вероятно, не стоит устанавливать больше трёх из них за один день.",
 		},
 	],
 	
@@ -878,11 +878,11 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Are you okay?",
+			"dialog"			: "Вы в порядке?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Come lay down next to me.",
+			"dialog"			: "Прилягте рядом со мной.",
 		},
 	],
 	
@@ -891,79 +891,80 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "I can also tell you are worried about me, but I promise I'll start on my repairs soon.",
+			"dialog"			: "Я также понимаю, что вы волнуетесь за меня, но я обещаю, что скоро начну ремонтировать себя.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
-			"dialog"			: "Okay. You better.",
+			"dialog"			: "Хорошо. Займись этим.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "I love you.",
+			"dialog"			: "Я люблю тебя.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "My heart drive is already at capacity.",
+			"dialog"			: "Мой сердечный привод уже почти забит.",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "I tried to make some for your Voidling, but all my calculations said that adding anything to her is a downgrade.",
+			"dialog"			: "Я пыталась сделать что нибудь и для вашего Порождения Пустоты, но все мои вычисления показали, что любые добавления к ней могут быть лишь ухудшением.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "One cannot add to that which is already perfect.",
+			"dialog"			: "Невозможно улучшить то, что и так уже идеально.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-			"dialog"			: "There were a lot of \"divide by infinity\" errors.",
+			"dialog"			: "Было очень много ошибок типа \"деление на бесконечность\".",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Isn't my sister so good at aligning energy cells?",
+			"dialog"			: "Разве моя сестра не хороша в регулеровке энергетических ячеек?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "|wave|Absolutely!|norm||!||L|She has such a gentle touch.",
+			"dialog"			: "|wave|Безусловно!|norm||!||L|У неё такие нежные руки.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Are you okay?|L|Why is your face heating up?",
+			"dialog"			: "Вы в порядке?|L|Почему у вас горит лицо?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "|shake|I don't know.",
+			"dialog"			: "|shake|Я не знаю.",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
-			"dialog"			: "Can you use this to upgrade my guitar? And also build me a guitar?",
+			"dialog"			: "Можно ли этим улучшить мою гитару? А также сделать мне гитару?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Well, that depends.|L|What's a guitar?",
+			"dialog"			: "Пока не знаю.|L|А что такое гитара?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
-			"dialog"			: "You don't know what a guitar is?|L||!|Where do I even start?",
+			"dialog"			: "Ты не знаешь, что такое гитара?|L||!|С чего бы мне начать?",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "The legend begins in a time long before there was metal-",
+			"dialog"			: "Эта легенда началась давным-давно во времена ещё до метал-",
 		},
 	],
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "I hope these upgrades help you.",
+			"dialog"			: "Я надеюсь, эти обновления помогут вам.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
 
 
 }
+
