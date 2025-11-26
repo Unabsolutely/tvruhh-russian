@@ -1386,8 +1386,8 @@
 		"desc"    : "Пройдите суммарно 500 полей с Хионотох",
 	},
 	"DR_bonding_ventra" : {
-		"name"    : "Trashed and Scattered Again",
-		"desc"    : "Help Ventra find at least 25 components in a single visit",
+		"name"    : "Одна Нога Здесь, Другая Там",
+		"desc"    : "Помогите Нутре найти не менее 25 компонентов за одно посещение",
 	},
 	"DR_bonding_dot" : {
 		"name"    : "Я Знаю, Осколки Подходят Друг Другу",

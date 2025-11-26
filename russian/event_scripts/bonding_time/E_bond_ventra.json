@@ -3,7 +3,7 @@
 		{
 			"play_music"		: "silence",
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Мне необходима ваша помощь.",
+			"dialog"			: "|C3|Необходима Ваша помощь.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
@@ -14,7 +14,7 @@
 	"first_charge_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "Я постараюсь изо всех сил, хоть и не понимаю, что нужно делать.",
+			"dialog"			: "Я постараюсь изо всех сил, но я не понимаю, что делаю.",
 		},
 	],
 	"first_charge_defect" 	: [
@@ -24,7 +24,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-			"dialog"			: "В моей идеальной форме нет места для пальцев, ничего не остаётся, кроме как предоставить это тебе, моя Дефект.",
+			"dialog"			: "В моей идеальной форме нет места для пальцев, так что ничего не остаётся, кроме как предоставить это тебе, моя Дефект.",
 		},
 	],
 	"first_charge_twins" 	: [
@@ -40,7 +40,7 @@
 	"first_charge_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_very_happy"],
-			"dialog"			: "Дьявол хороша с технологиями, и она известна тем, что ещё ничего не ломала просто прекоснувшись.",
+			"dialog"			: "Дьявол хороша с техникой, а также известна тем, что никогда ничего не ломала одним касанием.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_confused"],
@@ -54,7 +54,7 @@
 	"power_restored" : [
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Питание восстановлено|L|Движение лицевых мышц активировно|L|Голосовое устройство",
+			"dialog"			: "|C3|Питание восстановлено|L|Лицевое движение активировано|L|Голосовое устройство активировано",
 		},
 		{
 			"play_music"		: "tutorbot_scene_music",
@@ -63,7 +63,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Моё лицо движется!|L|Я снова могу говорить!|L||wave|Спасибо вам большое!",
+			"dialog"			: "Моё лицо движется!|L|Я снова могу говорить!|L||wave|Спасибо Вам большое!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
@@ -71,7 +71,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Мне нужно много |C3|компонентов,|C0| но как вы возможно видите-",
+			"dialog"			: "Мне нужно много |C3|компонентов,|C0| но как вы, наверное, видите-",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
@@ -84,15 +84,15 @@
 	"op_first"		: "Восстановить её питание",
 	"op_recharge"	: "Зарядить её",
 	"op_ask_where"	: "Где я могу их найти?",
-	"op_scan_wide"	: "Дальнее сканирование",
+	"op_scan_wide"	: "Широкое сканирование",
 	"op_scan_rare"	: "Точное сканирование",
-	"op_move"		: "Go somewhere else",
-	"op_scavenge"	: "Scavenge blindly",
-	"op_course"		: "Collect components",
-	"op_jumping"	: "Break some rocks",
-	"op_picking"	: "Falling components",
-	"op_swap"		: "Follow a mite",
-	"op_sleep"		: "Take a nap",
+	"op_move"		: "Пойти в другое место",
+	"op_scavenge"	: "Покопаться вслепую",
+	"op_course"		: "Собрать компоненты",
+	"op_jumping"	: "Разбить камни",
+	"op_picking"	: "Падающие компоненты",
+	"op_swap"		: "Следовать за клещом",
+	"op_sleep"		: "Вздремнуть",
 	
 	"item_t0"		: "|I3||C16|Простой Компонент|C0|",
 	"item_t1"		: "|I4||C17|Милый Компонент|C0|",
@@ -108,15 +108,15 @@
 	},
 	"main_comment_wide_scan"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "This scan will detect |C3|many lower quality components.",
+		"dialog"	: "Это сканирование обнаружит |C3|много компонентов низкого качества.",
 	},
 	"main_comment_rare_scan"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "This scan will detect |C3|fewer, but higher quality components.",
+		"dialog"	: "Это сканирование обнаружит |C3|меньше компонентов, но они будут лучшего качества.",
 	},
 	"main_comment_recharge"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "Никогда не помешает больше энергии.",
+		"dialog"	: "Больше энергии никогда не помешает.",
 	},
 	
 	"ask_where" 	: [
@@ -130,7 +130,7 @@
 			"scene_flash"		: 1,
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "I found some components!",
+			"dialog_rand1"		: "Я нашла компоненты!",
 			"dialog_rand2"		: "Сканирование завершено!",
 		},
 	],
@@ -159,7 +159,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Здеась ещё [VAL1] прямо позади тебя!",
+			"dialog"			: "Здесь ещё [VAL1] прямо позади Вас!",
 		},
 	],
 	
@@ -175,9 +175,9 @@
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
 			"random"			: 3,
-			"dialog_rand1"		: "Пожалуйста, будьте осторожны..",
+			"dialog_rand1"		: "Пожалуйста, будьте осторожны.",
 			"dialog_rand2"		: "Будьте нежными.",
-			"dialog_rand3"		: "Я вам доверяю.",
+			"dialog_rand3"		: "Я Вам доверяю.",
 		},
 	],
 	"comment_charge_start"		: {
@@ -206,7 +206,7 @@
 	},
 	"comment_charge_lose"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "Более менее...",
+		"dialog"	: "Более-менее...",
 	},
 	"comment_charge_hurt"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
