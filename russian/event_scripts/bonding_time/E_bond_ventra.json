@@ -176,7 +176,7 @@
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
 			"random"			: 3,
 			"dialog_rand1"		: "Пожалуйста, будьте осторожны.",
-			"dialog_rand2"		: "Будьте нежными.",
+			"dialog_rand2"		: "Будьте нежнее.",
 			"dialog_rand3"		: "Я Вам доверяю.",
 		},
 	],
@@ -222,35 +222,35 @@
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "It feels so good to have my energy flowing again.",
-			"dialog_rand2"		: "I haven't been this charged in a long time.",
-			"dialog_rand3"		: "You do not understand how good this feels for a Zaramech.",
+			"dialog_rand1"		: "Так хорошо снова чувствовать потоки энергии.",
+			"dialog_rand2"		: "Я не была такой заряженной долгое время.",
+			"dialog_rand3"		: "Вы не понимаете, насколько хорошо это чувствуется Зарамехом.",
 		},
 	],
 	"recharge_lose" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
 			"random"			: 2,
-			"dialog_rand1"		: "That still feels really good.",
-			"dialog_rand2"		: "You'll get better with more practice.",
+			"dialog_rand1"		: "Ощущения всё ещё прекрасные.",
+			"dialog_rand2"		: "С практикой Вы станете лучше.",
 		},
 	],
 	"ventra_damaged_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_despair"],
-			"dialog"			: "I'm so sorry!",
+			"dialog"			: "Извини!",
 		},
 	],
 	"ventra_damaged_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
-			"dialog"			: "I didn't mean to-",
+			"dialog"			: "Я не хотела-",
 		},
 	],
 	"ventra_damaged_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_despair"],
-			"dialog"			: "I messed up!",
+			"dialog"			: "Я налажала!",
 		},
 	],
 	"ventra_damaged_devil" 	: [
@@ -275,7 +275,7 @@
 	"to_scrapyard" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Могу поспорить на свалке немало компонентов.",
+			"dialog"			: "Могу поспорить, на свалке немало компонентов.",
 		},
 	],
 	"to_tower" 	: [
@@ -293,7 +293,7 @@
 	"to_dodge" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Сможете ли вы отнести меня туда?",
+			"dialog"			: "Вы сможете отнести меня туда?",
 		},
 	],
 	"to_dodge_blank" 	: [
@@ -305,11 +305,11 @@
 	"to_dodge_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
-			"dialog"			: "Полагаю да.",
+			"dialog"			: "Полагаю, да.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Очередной пассажир на моём идеальной средстве передвижения.",
+			"dialog"			: "Очередной пассажир моего идеального средства передвижения.",
 		},
 	],
 	"to_dodge_twins" 	: [
@@ -337,7 +337,7 @@
 	"to_dodge_devil" 	: [
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_normal"],
-			"dialog"			: "Я привыкла таскать с собой кучу оборудывания, и я почти никогда не роняла ВСЁ сразу.",
+			"dialog"			: "Я привыкла таскать с собой кучу оборудования, и я почти никогда не роняла ВСЁ сразу.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_happy"],
