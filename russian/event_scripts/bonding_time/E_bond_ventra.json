@@ -543,22 +543,22 @@
 	"to_mg_picking_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "The components are way up on top of this scrap pile.",
+			"dialog"			: "Эти компоненты на самой верхушке кучи мусора.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Don't let any scrap fall on you.",
+			"dialog"			: "Не подставляйте себя под падающий мусор.",
 		},
 	],
 	"to_mg_picking" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Watch out for falling scrap.",
+			"dialog"			: "Остерегайтесь падающего мусора.",
 		},
 	],
 	"comment_picking_normal"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-		"dialog"	: "Be careful!",
+		"dialog"	: "Будьте осторожны!",
 	},
 	"comment_picking_hit"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
@@ -567,25 +567,25 @@
 	"picking_perfect" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Full combo!|norm||L|You got all of them.",
+			"dialog"			: "|wave|Полное Комбо!|norm||L|Вы собрали их всех.",
 		},
 	],
 	"picking_win" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "|wave|Great score!|norm||L|You got a lot of them.",
+			"dialog"			: "|wave|Отличный Счёт!|norm||L|Вы немало их собрали.",
 		},
 	],
 	"picking_miss" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "A few misses, but that's all right.",
+			"dialog"			: "Несколько упущено, но ничего страшно.",
 		},
 	],
 	"picking_none" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "All components missed.",
+			"dialog"			: "Все компоненты упущены.",
 		},
 	],
 	"picking_lose" 		: [
@@ -604,65 +604,65 @@
 	"start_mg_swap_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Those mites have a rare component!",
+			"dialog"			: "У этих клещей есть редкий компонент!",
 		},
 	],
 	"start_mg_swap" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Follow those mites!",
+			"dialog"			: "Следуйте за этими клещами!",
 		},
 	],
 	"to_mg_swap" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "The mite with [VAL1] has it now!",
+			"dialog"			: "Он у клеща с [VAL1]!",
 		},
 	],
 	"comment_swap_choose"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-		"dialog"	: "Which one had the component?",
+		"dialog"	: "У кого из них компонент?",
 	},
 	"comment_swap_win"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "That's the one!",
+		"dialog"	: "У этого самого!",
 	},
 	"comment_swap_lose"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-		"dialog"	: "Combo broken...",
+		"dialog"	: "Комбо Провалено...",
 	},
 	"swap_lose" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Well, at least this one had a [VAL1] on her.",
+			"dialog"			: "Что же, по крайней мере, у этой был [VAL1].",
 		},
 	],
 	"to_mg_stash" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Wait! Keep following her.",
+			"dialog"			: "Подожди! Не прекращай следовать за ней.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "She's showing you her stash.",
+			"dialog"			: "Она показывает тебе свои запасы.",
 		},
 	],
 	"comment_stash_correct"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "You want us to have these?",
+		"dialog"	: "Вы хотите, чтобы мы взяли это?",
 	},
 	"comment_stash_miss"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-		"dialog"	: "|shake|Be careful with those.",
+		"dialog"	: "|shake|Внимательнее с этим.",
 	},
 	"comment_stash_win"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "Thank you, little mite.",
+		"dialog"	: "Спасибо, маленький клещ.",
 	},
 	"stash_done" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Mites are always so helpful in their own silly ways.",
+			"dialog"			: "Клещи всегда очень полезны, хоть и по-своей глупой манере.",
 		},
 	],
 	
@@ -671,39 +671,39 @@
 	"return_home" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "I think we've searched long enough now.",
+			"dialog"			: "Я думаю, мы искали уже достаточно долго.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Can you take me back, please?",
+			"dialog"			: "Пожалуйста, отнесите меня обратно.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "I have a surprise for you.",
+			"dialog"			: "У меня для вас сюрприз.",
 		},
 	],
 	"already_home" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "I think we've been searching long enough, and I have a surprise for you.",
+			"dialog"			: "Думаю, мы искали достаточно долго, и у меня для вас есть сюрприз.",
 		},
 	],
 	"craft_time" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "You probably thought I was trying to repair myself, right?",
+			"dialog"			: "Вы, наверное, думали, что я пытаюсь себя починить, да?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "That's going to take    A LOT  more components than this.",
+			"dialog"			: "Но для этого понадобится    НАМНОГО  больше компонентов.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Instead, I'm going to use this chip crafting station to build some upgrades for your heart!",
+			"dialog"			: "Вместо этого я использую эту станцию ​​по изготовлению микрочипов, чтобы сделать улучшения для вашего сердца!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Take this wire and plug me into this port over here.",
+			"dialog"			: "Возьмите этот провод и подключите его вот к тому порту.",
 		},
 	],
 	"comment_craft_normal"	: {
@@ -727,19 +727,19 @@
 	"to_mg_crafting_low_energy" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "My energy is pretty low, so these chips might not turn out so optimal.",
+			"dialog"			: "У меня довольно низкий уровень энергии, поэтому эти чипы могут оказаться не достаточно оптимизироваными.",
 		},
 	],
 	"to_mg_crafting_med_energy" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "It looks like I have just enough energy for this.",
+			"dialog"			: "Похоже, у меня как раз хватит энергии.",
 		},
 	],
 	"to_mg_crafting_high_energy" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Thanks to you, I have way more than enough energy for this!",
+			"dialog"			: "Благодаря вам у меня более чем достаточно энергии на чипы!",
 		},
 	],
 	
@@ -967,4 +967,5 @@
 
 
 }
+
 
