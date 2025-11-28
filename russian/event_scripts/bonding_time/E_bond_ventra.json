@@ -14,7 +14,7 @@
 	"first_charge_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
-			"dialog"			: "Я постараюсь изо всех сил, но я не понимаю, что делаю.",
+			"dialog"			: "Постараюсь изо всех сил, но я не понимаю, что делаю.",
 		},
 	],
 	"first_charge_defect" 	: [
@@ -83,6 +83,7 @@
 	
 	"op_first"		: "Восстановить её питание",
 	"op_recharge"	: "Зарядить её",
+	"op_free_charge": "Быстрая зарядка",
 	"op_ask_where"	: "Где я могу их найти?",
 	"op_scan_wide"	: "Широкое сканирование",
 	"op_scan_rare"	: "Точное сканирование",
@@ -92,6 +93,8 @@
 	"op_jumping"	: "Разбить камни",
 	"op_picking"	: "Падающие компоненты",
 	"op_swap"		: "Следовать за клещом",
+	"op_matching"	: "Взломать шкафчики",
+	"op_passwords"	: "Взломать пароли",
 	"op_sleep"		: "Вздремнуть",
 	
 	"item_t0"		: "|I3||C16|Простой Компонент|C0|",
@@ -113,6 +116,14 @@
 	"main_comment_rare_scan"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
 		"dialog"	: "Это сканирование обнаружит |C3|меньше компонентов, но они будут лучшего качества.",
+	},
+	"main_comment_matching"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "В этих шкафчиках |C3|много компонентов низкого качества.",
+	},
+	"main_comment_passwords"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "В этих шкафчиках |C3|меньше компонентов, но они будут лучшего качества.",
 	},
 	"main_comment_recharge"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
@@ -198,7 +209,7 @@
 	},
 	"comment_charge_perfect"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "|wave|Полное Комбо!",
+		"dialog"	: "|wave|Полное комбо!",
 	},
 	"comment_charge_win"		: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
@@ -267,6 +278,31 @@
 			"dialog_rand2"		: "Не волнуйтесь насчёт этого. Я всё переживу.",
 			"dialog_rand3"		: "Это далеко не самое худшее, что мне пришлось пережить.",
 			"dialog_rand4"		: "Вы не виноваты. Я и так рассыпалась на части.",
+		},
+	],
+	
+	
+	
+	"free_charge_a_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "Дай мне кое-что попробовать.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|Я люблю тебя!",
+		},
+	],
+	"free_charge_b_blank" 	: [
+		{
+			"love_hearts"		: 1,
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Как это вообще сработало?",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused"],
+			"dialog"			: "Я не понимаю, что делаю.",
 		},
 	],
 	
@@ -365,7 +401,7 @@
 	"dodge_win" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Без падений!|L|Спасибо за то, что несли меня.",
+			"dialog"			: "Без ударов!|L|Спасибо за то, что несли меня.",
 		},
 	],
 	"dodge_win_hit" 	: [
@@ -377,23 +413,33 @@
 	"dodge_lose" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-			"dialog"			: "Я только потеряла немного энергии.|!||L|Больше ничего не пострадало.",
+			"dialog"			: "Я всего лишь потеряла немного энергии.|!||L|Больше ничего не пострадало.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Главное, что мы это всё таки добрались.",
+			"dialog"			: "Главное, что мы всё-таки добрались.",
 		},
 	],
-	"arrived_at_zone" 	: [
+	"arrived_at_scrapyard" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Now that we're here, I should do a scan for components.",
+			"dialog"			: "Раз мы здесь, я должна просканировать окружение на предмет компонентов.",
 		},
 	],
 	"arrived_cost_reduced" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
 			"dialog"			: "Они должны быть где-то рядом, поэтому мне потребуется меньше энергии, чтобы обнаружить их снова.",
+		},
+	],
+	"arrived_at_tower" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Я обнаружила множество компонентов во всех этих ящичках, но для открытия мне придётся их взломать.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Мне придётся использовать на это часть моей энергии.",
 		},
 	],
 	"arrived_low_energy" 	: [
@@ -408,26 +454,26 @@
 	"to_mg_scavenge_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "I get that you don't want me to use all my energy, but I don't think you'll be able to find much by yourself.",
+			"dialog"			: "Я понимаю, что Вы не хотите, чтобы я потратила всю мою энергию, но не думаю, что Вы найдёте много одни.",
 		},
 	],
 	"to_mg_scavenge" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "I hope you find something.",
+			"dialog"			: "Надеюсь, Вы что-то найдёте.",
 		},
 	],
 	"comment_scavenge_correct"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "There might be something here.",
+		"dialog"	: "Здесь может быть что-то.",
 	},
 	"comment_scavenge_find"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "Nice!",
+		"dialog"	: "Отлично!",
 	},
 	"comment_scavenge_miss"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "Combo break!",
+		"dialog"	: "Комбо потеряно!",
 	},
 	"scavenge_good_find" 	: [
 		{
@@ -448,50 +494,50 @@
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 			"random"			: 2,
-			"dialog_rand1"		: "You'll find them if you keep walking that way.",
-			"dialog_rand2"		: "Keep walking forward and you'll see them.",
+			"dialog_rand1"		: "Вы найдёте их, если продолжите идти туда.",
+			"dialog_rand2"		: "Продолжайте идти вперёд, и вы увидите их.",
 		},
 	],
 	"comment_course_normal"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-		"dialog"	: "Just keep moving.",
+		"dialog"	: "Просто продолжайте идти.",
 	},
 	"comment_course_find"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "Score!",
+		"dialog"	: "Бонус!",
 	},
 	"comment_course_hit"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-		"dialog"	: "Combo break!",
+		"dialog"	: "Комбо потеряно!",
 	},
 	"comment_course_win"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-		"dialog"	: "That's far enough.",
+		"dialog"	: "Уже достаточно далеко.",
 	},
 	"course_win" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Now look down at your feet.",
+			"dialog"			: "А тепнрть посмотрите под ноги.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "There's one more [VAL1] right there!",
+			"dialog"			: "Ещё оди [VAL1] - прямо здесь!",
 		},
 	],
 	"course_dnf" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Come back and I can scan for more components.",
+			"dialog"			: "Возвращайтесь, и я смогу найти больше компонентов ещё одним сканированием.",
 		},
 	],
 	"found_none" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "You didn't find anything?",
+			"dialog"			: "Вы ничего не нашли?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-			"dialog"			: "Did my scan really fail this badly?",
+			"dialog"			: "Моё сканирование провалилось так сильно?",
 		},
 	],
 	
@@ -504,13 +550,13 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "You think you can break them by jumping on them?",
+			"dialog"			: "Сможете сломать их, прыгая на них?",
 		},
 	],
 	"to_mg_jumping" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "There are more components in these rocks.",
+			"dialog"			: "В этих камнях - больше компонентов.",
 		},
 	],
 	"comment_jumping_start"	: {
@@ -528,7 +574,7 @@
 	"jumping_win_high" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Вот это я называю компоненты высокого качества!",
+			"dialog"			: "Вот это я называю - компоненты высокого качества!",
 		},
 	],
 	"jumping_win" 		: [
@@ -543,11 +589,11 @@
 	"to_mg_picking_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Эти компоненты на самой верхушке кучи мусора.",
+			"dialog"			: "Эти компоненты на самой верхушке этой кучи мусора.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Не подставляйте себя под падающий мусор.",
+			"dialog"			: "Не подставляйтесь под падающий мусор.",
 		},
 	],
 	"to_mg_picking" 	: [
@@ -567,25 +613,25 @@
 	"picking_perfect" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "|wave|Полное Комбо!|norm||L|Вы собрали их всех.",
+			"dialog"			: "|wave|Полное комбо!|norm||L|Вы собрали их всех.",
 		},
 	],
 	"picking_win" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "|wave|Отличный Счёт!|norm||L|Вы немало их собрали.",
+			"dialog"			: "|wave|Отличный счёт!|norm||L|Вы немало их собрали.",
 		},
 	],
 	"picking_miss" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Несколько упущено, но ничего страшно.",
+			"dialog"			: "Несколько потеряно, но ничего страшно.",
 		},
 	],
 	"picking_none" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Все компоненты упущены.",
+			"dialog"			: "Все компоненты потеряны.",
 		},
 	],
 	"picking_lose" 		: [
@@ -595,7 +641,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Хотела бы я иметь возможность тебе помочь.",
+			"dialog"			: "Хотела бы я иметь возможность Вам помочь.",
 		},
 	],
 	
@@ -616,7 +662,7 @@
 	"to_mg_swap" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Он у клеща с [VAL1]!",
+			"dialog"			: "Он у клеща [VAL1]!",
 		},
 	],
 	"comment_swap_choose"	: {
@@ -629,7 +675,7 @@
 	},
 	"comment_swap_lose"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-		"dialog"	: "Комбо Провалено...",
+		"dialog"	: "Комбо потеряно...",
 	},
 	"swap_lose" 	: [
 		{
@@ -653,7 +699,7 @@
 	},
 	"comment_stash_miss"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-		"dialog"	: "|shake|Внимательнее с этим.",
+		"dialog"	: "|shake|Осторожнее с этим.",
 	},
 	"comment_stash_win"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
@@ -662,7 +708,142 @@
 	"stash_done" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Клещи всегда очень полезны, хоть и по-своей глупой манере.",
+			"dialog"			: "Клещи всегда очень полезны, хоть и в своей смешной манере.",
+		},
+	],
+	
+	
+	
+	"to_mg_matching_first" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Взлом завершён, но у Вас мало времени!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Нажимайте кнопки на этой консоли!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Если лампочки совпадут, откроется шкафчик.",
+		},
+	],
+	"to_mg_matching_first_twins" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Я взломала шкафчики, но вам надо открыть их скорее!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Нажимайте кнопки на консоли и найдите те, что с совпадающими лампочками.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_normal"],
+			"dialog"			: "Я помогу тебе, запоминая столько кнопок, сколько я могу.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_very_happy"],
+			"dialog"			: "То есть 3!|L|Я могу запоминать только лишь 3 вещи!",
+		},
+	],
+	"to_mg_matching" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Взлом завершён!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Открывайте, сколько сможете!",
+		},
+	],
+	"comment_matching_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "Нажмите на любую кнопку.",
+	},
+	"comment_matching_match"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Попадание!",
+	},
+	"comment_matching_dud"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "|shake|Этот пуст!",
+	},
+	"comment_matching_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+		"dialog"	: "Промах!",
+	},
+	"matching_win_high" 	: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "Вы даже нашли редкий компонентов!",
+		},
+	],
+	"matching_win" 			: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Вы нашли много компонентов!",
+		},
+	],
+	"matching_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Ох, если бы я могла дать Вам больше времени.",
+		},
+	],
+	
+	
+	
+	"to_mg_passwords_first" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Я взломала пароли ко всем этим шкафчикам, но они сбросятся через несколько секунд.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Я зачитаю их, а Вы попробуйте открыть столько, сколько можете!",
+		},
+	],
+	"to_mg_passwords" 	: [
+		{
+			"scene_flash"		: 1,
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Я взломала ещё паролей.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Открывайте шкафчики, быстрее!",
+		},
+	],
+	"comment_passwords_start"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "Вот пароль.",
+	},
+	"comment_passwords_empty"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
+		"dialog"	: "Пусто! Следующий!",
+	},
+	"comment_passwords_item"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Идеально!",
+	},
+	"comment_passwords_miss"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+		"dialog"	: "|shake|Комбо потеряно!",
+	},
+	"passwords_win" 			: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "Они высокого качества!",
+		},
+	],
+	"passwords_lose" 		: [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "Почему так много пустышек?",
 		},
 	],
 	
@@ -699,11 +880,11 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Вместо этого я использую эту станцию ​​по изготовлению микрочипов, чтобы сделать улучшения для вашего сердца!",
+			"dialog"			: "Вместо этого я использую эту станцию по изготовлению микрочипов, чтобы создать улучшения для вашего сердца!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "Возьмите этот провод и подключите его вот к тому порту.",
+			"dialog"			: "Возьмите этот провод и подключите меня вот к тому порту.",
 		},
 	],
 	"comment_craft_normal"	: {
@@ -727,7 +908,7 @@
 	"to_mg_crafting_low_energy" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "У меня довольно низкий уровень энергии, поэтому эти чипы могут оказаться не достаточно оптимизироваными.",
+			"dialog"			: "У меня довольно низкий уровень энергии, поэтому эти чипы могут оказаться не оптимизированными.",
 		},
 	],
 	"to_mg_crafting_med_energy" 	: [
@@ -746,7 +927,7 @@
 	"craft_complete"	: "Сборка Завершена!",
 	"comment_crafting"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-		"dialog"	: "|C3|Crafting...",
+		"dialog"	: "|C3|Сборка...",
 	},
 	"crafting_done" 	: [
 		{
@@ -755,59 +936,59 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "А теперь давай просто прикрепим их к Вашему сердцу.",
+			"dialog"			: "А теперь давайте просто прикрепим их к Вашему сердцу.",
 		},
 	],
 
 	
-	"empty_chip"			: "Empty Socket",
-	"basic_chip"			: "Default Chip",
-	"chip_name_structure"	: "[ADJ1] [ADJ2] [NOUN] [CHIP]",
+	"empty_chip"			: "Пустой Гнездо",
+	"basic_chip"			: "Стандартный Чип",
+	"chip_name_structure"	: "[ADJ1] [ADJ2] [CHIP]-[NOUN]",
 	
-	"bdn_void_hp"		: "Broken",
-	"bdn_zap_hp"		: "Overloaded",
-	"bdn_bleed_heart"	: "Damaged",
-	"bdn_stress_heart"	: "Faulty",
-	"bdn_trauma_heart"	: "Deficient",
+	"bdn_void_hp"		: "Сломанный",
+	"bdn_zap_hp"		: "Перегруженный",
+	"bdn_bleed_heart"	: "Повреждённый",
+	"bdn_stress_heart"	: "Неисправный",
+	"bdn_trauma_heart"	: "Бракованный",
 	
-	"adj_radiant_res"	: "Shiny",
-	"adj_void_res"		: "Null",
-	"adj_burn_res"		: "Insulated",
-	"adj_zap_res"		: "Elastic",
-	"adj_toxic_res"		: "Resistant",
-	"adj_hp"			: "Refill",
-	"adj_max_hp"		: "Extra",
-	"adj_max_en"		: "Energetic",
-	"adj_karma"			: "Karmic",
-	"adj_reserve_hp"	: "Aux",
-	"adj_glass_heart"	: "Glass",
-	"adj_chrome_heart"	: "Chrome",
-	"adj_damage"		: "Kinetic",
-	"adj_crit_rate"		: "Critical",
-	"adj_panic"			: "Super",
-	"adj_manic_panic"	: "Hyper",
-	"adj_panic_polyp"	: "Fuzzy",
-	"adj_revive"		: "New",
-	"adj_denial"		: "Defensive",
-	"adj_mite"			: "Glitchy",
-	"adj_magnet"		: "Magnetic",
+	"adj_radiant_res"	: "Блестящий",
+	"adj_void_res"		: "Пустой",
+	"adj_burn_res"		: "Изолированный",
+	"adj_zap_res"		: "Эластичный",
+	"adj_toxic_res"		: "Защищённый",
+	"adj_hp"			: "Восстанавливающий",
+	"adj_max_hp"		: "Дополнительный",
+	"adj_max_en"		: "Энергетичный",
+	"adj_karma"			: "Кармический",
+	"adj_reserve_hp"	: "Дополнительный",
+	"adj_glass_heart"	: "Стеклянный",
+	"adj_chrome_heart"	: "Хромированный",
+	"adj_damage"		: "Кинетический",
+	"adj_crit_rate"		: "Критический",
+	"adj_panic"			: "Супер",
+	"adj_manic_panic"	: "Гипер",
+	"adj_panic_polyp"	: "Пушистый",
+	"adj_revive"		: "Новый",
+	"adj_denial"		: "Защитный",
+	"adj_mite"			: "Глючный",
+	"adj_magnet"		: "Магнитный",
 	
-	"noun_default"		: "Stock",
-	"noun_damage"		: "Power",
-	"noun_crit_rate"	: "Force",
-	"noun_panic"		: "Terror",
-	"noun_manic_panic"	: "Hype",
-	"noun_panic_polyp"	: "Polyp",
-	"noun_revive"		: "Failsafe",
-	"noun_denial"		: "Barrier",
-	"noun_mite"			: "Creature",
-	"noun_magnet"		: "Magnet",
+	"noun_default"		: "Стандарт",
+	"noun_damage"		: "Мощь",
+	"noun_crit_rate"	: "Сила",
+	"noun_panic"		: "Ужас",
+	"noun_manic_panic"	: "Выброс",
+	"noun_panic_polyp"	: "Полип",
+	"noun_revive"		: "Предохранитель",
+	"noun_denial"		: "Барьер",
+	"noun_mite"			: "Тварь",
+	"noun_magnet"		: "Магнит",
 	
-	"chip_1"			: "Circuit",
-	"chip_2"			: "Chip",
-	"chip_3"			: "Wafer",
+	"chip_1"			: "Контур",
+	"chip_2"			: "Чип",
+	"chip_3"			: "Пластина",
 	
-	"leave_now"		: "Leave Now",
+	"leave_now"		: "Уйти Прямо Сейчас",
 	"comment_chip_choosing"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
 		"dialog"	: "Какой из них Вы хотите забрать?",
@@ -825,7 +1006,7 @@
 	"bad_chip_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_pain"],
-			"dialog"			: "|shake|Это и должно вызывать боль?",
+			"dialog"			: "|shake|Это должно вызывать боль?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
@@ -835,7 +1016,7 @@
 	"bad_chip_twins" 	: [
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "|shake|Ладно, этот был немножечко болючим.",
+			"dialog"			: "|shake|Ладно, от этого было немножечко больно.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
@@ -859,7 +1040,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Наверно вам следует|C3|проверить сердце|C0| и убедиться, что вы понимаете все побочные эффекты.",
+			"dialog"			: "Наверное, вам следует|C3|проверить сердце|C0| и убедиться, что вы понимаете все побочные эффекты.",
 		},
 	],
 	"three_chips_taken" 	: [
@@ -891,7 +1072,7 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Я также понимаю, что вы волнуетесь за меня, но я обещаю, что скоро начну ремонтировать себя.",
+			"dialog"			: "Я также понимаю, что Вы волнуетесь за меня, но я обещаю, что скоро начну ремонтировать себя.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
@@ -904,13 +1085,13 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Мой сердечный привод уже почти забит.",
+			"dialog"			: "Мой сердечный диск уже почти забит.",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Я пыталась сделать что нибудь и для вашего Порождения Пустоты, но все мои вычисления показали, что любые добавления к ней могут быть лишь ухудшением.",
+			"dialog"			: "Я пыталась сделать что-нибудь и для вашего Порождения Пустоты, но все мои вычисления показали, что добавление к ней чего угодно сделают её хуже.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
@@ -924,7 +1105,7 @@
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "Разве моя сестра не хороша в регулеровке энергетических ячеек?",
+			"dialog"			: "Разве моя сестра не хороша в выравнивании энергетических ячеек?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
@@ -932,7 +1113,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Вы в порядке?|L|Почему у вас горит лицо?",
+			"dialog"			: "Вы в порядке?|L|Почему у Вас горит лицо?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
@@ -954,7 +1135,7 @@
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
-			"dialog"			: "Эта легенда началась давным-давно во времена ещё до метал-",
+			"dialog"			: "Эта легенда начинается давным-давно во времена ещё до метал-",
 		},
 	],
 	"leave_default" : [

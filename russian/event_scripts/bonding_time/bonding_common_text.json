@@ -27,8 +27,8 @@
 	"mite_eye3"		: "|C3|без глаз|C0|",
 	"mite_antennae"	: "|C3|с длинными антеннами|C0|",
 	"mite_no_ant"	: "|C3|без антенн|C0|",
-		
 	
+	"password_title"	: "Пароль [VAL1]",
 	
 	"pet_name_structure"	: "[PREFIX] [MOD] [PET] [SUFFIX]",
 	
