@@ -625,7 +625,7 @@
 	"picking_miss" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Несколько потеряно, но ничего страшно.",
+			"dialog"			: "Несколько потеряно, но ничего страшного.",
 		},
 	],
 	"picking_none" 		: [
@@ -778,7 +778,7 @@
 	"matching_win_high" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Вы даже нашли редкий компонентов!",
+			"dialog"			: "Вы даже нашли редкий компонент!",
 		},
 	],
 	"matching_win" 			: [
@@ -804,7 +804,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Я зачитаю их, а Вы попробуйте открыть столько, сколько можете!",
+			"dialog"			: "Я зачитаю их, а Вы попробуйте открыть столько, сколько сможете!",
 		},
 	],
 	"to_mg_passwords" 	: [
@@ -941,7 +941,7 @@
 	],
 
 	
-	"empty_chip"			: "Пустой Гнездо",
+	"empty_chip"			: "Пустое Гнездо",
 	"basic_chip"			: "Стандартный Чип",
 	"chip_name_structure"	: "[ADJ1] [ADJ2] [CHIP]-[NOUN]",
 	
@@ -1046,7 +1046,7 @@
 	"three_chips_taken" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "На самом деле, вам, вероятно, не стоит устанавливать больше трёх из них за один день.",
+			"dialog"			: "На самом деле, вам, вероятно, не стоит устанавливать больше трёх из них одним днём.",
 		},
 	],
 	
@@ -1148,5 +1148,6 @@
 
 
 }
+
 
 
