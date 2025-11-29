@@ -478,7 +478,7 @@
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
-			"dialog"			: "Я действительо достойна этого?",
+			"dialog"			: "Я действительно достойна этого?",
 		},
 	],
 	"devil_deal_lose" 	: [
