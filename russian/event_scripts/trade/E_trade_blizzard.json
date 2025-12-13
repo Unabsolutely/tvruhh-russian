@@ -1,0 +1,401 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Welcome to my castle!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "It's a little messy right now, but I'm working on that.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'm thinking of decorating the place with a theme.|!| Maybe you can help me with that?",
+		},
+	],
+	"request_single_theme" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Do you have any |C3|[VAL1] gifts|C0| you'd want to trade?",
+		},
+	],
+	"request_double_theme" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'll trade you for any |C3|[VAL1] gifts|C0| that you don't need.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I think |C3|[VAL2] gifts|C0| would also fit my style.",
+		},
+	],
+	"reject_none" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'd also take anything else you have to trade.",
+		},
+	],
+	"reject_one" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I'd take anything else, but I do think |C4|[VAL3] gifts|C0| would clash with my vision, so I don't want any of those.",
+		},
+	],
+	
+	"theme_RADIANT"	: "radiant",
+	"theme_VOID"	: "void",
+	"theme_BURN"	: "burn",
+	"theme_ZAP"		: "zap",
+	"theme_TOXIC"	: "toxic",
+	"theme_food"	: "food",
+	"theme_art"		: "artistic",
+	"theme_space"	: "cosmic",
+	"theme_broken"	: "broken",
+	"theme_danger"	: "hazardous",
+	"theme_scent"	: "fragrant",
+	"theme_mech"	: "mechanical",
+	
+	"mood_title"	: "Blizzard's Mood",
+	"monster_gifts"	: "Blizzard's Gifts",
+	"burden_title"	: "Blizzard's Burdens",
+	"player_gifts"	: "[NAME]'s Active Gifts",
+	"player_quicks"	: "[NAME]'s Quick Gifts",
+
+	"op_trade"			: "Blizzard's Gifts",
+	"op_give_active"	: "Give Active Gifts",
+	"op_burden"			: "Take a Burden",
+	"op_leave"			: "Leave",
+	
+	"comment_trade"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "You can have any of these.",
+	},
+	"comment_want1"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I want |C3|[VAL1] gifts,|C0| but I'll also take anything else.",
+	},
+	"comment_want2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I'll take anything, but I really want |C3|[VAL1] gifts|C0| or |C3|[VAL2] gifts.|C0|",
+	},
+	"comment_reject1"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I want |C3|[VAL1] gifts,|C0| but I'll take anything that isn't a |C4|[VAL3] gift.|C0|",
+	},
+	"comment_reject2"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I want |C3|[VAL1] gifts|C0| or |C3|[VAL2] gifts,|C0| but I'll take anything that isn't a |C4|[VAL3] gift.|C0|",
+	},
+	"comment_burden"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "What are you looking at?",
+	},
+	"comment_leave"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Let me know when you want to leave.",
+	},
+	
+	"comment_closed"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "I've given you everything I have to give.",
+	},
+	"comment_give_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "You've given me enough for today.|L|Now I have to figure out how to arrange them.",
+	},
+	"comment_burden_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "I'm so happy you are here right now.",
+	},
+	"comment_blue_special"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
+		"dialog"	: "My dearest Defect, I insist that we help her in some way before we go.",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Are you leaving already?",
+	},
+	
+	
+	
+	
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I think you would like this one.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "It's covered in frost, and I can't tell what it is. Sorry about that.",
+	},
+	"comment_take_over"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "I actually want to keep that one for now.",
+	},
+	"comment_quick_limit"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "You don't have any room for this.",
+	},
+	"buy_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Do you really want this?",
+	},
+	"gift_taken" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "A lovely decoration for your heart.",
+			"dialog_rand2"		: "You should put it in your castle.",
+			"dialog_rand3"		: "You have such good taste.",
+			"dialog_rand4"		: "I know you will find the perfect place for this.",
+		}
+	],
+	
+	
+	
+	
+	
+	"comment_give_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "I could take this if you don't want it.",
+	},
+	"comment_give_special"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "This would absolutely fit the theme of my castle.",
+	},
+	"comment_give_dislike"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "This clashes with how I'm imagining the theme of my castle.",
+	},
+	"comment_give_quick"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+		"dialog"	: "This would be gone before I could even find a place for it.",
+	},
+	"comment_give_blessing"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "This is inspirational.",
+	},
+	"comment_give_TAG_blizzard_part"	: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
+		"dialog"	: "|shake|Can I have that, please?!",
+	},
+	"comment_give_burden"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "...Sorry I was just thinking about something.",
+	},
+	"comment_give_taken"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+		"dialog"	: "I just gave that to you.",
+	},
+	"comment_give_starter"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "This defines your style too much for me to accept it.",
+	},
+	"give_confirm"			: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Can I have this?",
+	},
+	"gift_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 4,
+			"dialog_rand1"		: "I think I can find a place for this.",
+			"dialog_rand2"		: "I can make this work with the theme.",
+			"dialog_rand3"		: "This will always remind me of you.",
+			"dialog_rand4"		: "I'll figure out a place to put this.",
+		}
+	],
+	"special_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "This will fit my theme perfectly!",
+			"dialog_rand2"		: "This is exactly what I wanted!",
+			"dialog_rand3"		: "I was looking for something like this!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"random"			: 4,
+			"dialog_rand1"		: "I know exactly where to put it.",
+			"dialog_rand2"		: "I know just the place for it.",
+			"dialog_rand3"		: "This will bring all my decorations together.",
+			"dialog_rand4"		: "My vision is really coming together.",
+		}
+	],
+	"blessing_given" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I don't know what just happened, but I suddenly feel very inspired.",
+		}
+	],
+	
+	
+	
+	"to_burden" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Why are you looking at me like that?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Is there something in my eye?",
+		},
+	],
+	"comment_burden_normal"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+		"dialog"	: "...",
+	},
+	"take_burden_confirm"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "..?",
+	},
+	"burden_taken" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "What did you just do to me?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I suddenly feel a lot better!",
+		},
+	],
+	"veyeral_taken" 		: [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I just realized that I suddenly worry for all of my sisters.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I didn't really care much about them, and I don't think they cared for me either.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "We only cared about ourselves and our own loneliness.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "But now I just want us all to be happy together.",
+		},
+	],
+	"BDN_blizz_veyeral_taken" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "My sisters and I always feel alone.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Well, I used to feel so alone.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I had hoped that this could become a home for all of us.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Or at least the ones who want to be here.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "They will always be welcome here no matter what happens.",
+		},
+	],
+	"BDN_the_void_taken" 		: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I wonder how mother really feels about us?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "You can help her too, right?",
+		},
+	],
+
+	
+	
+	"leave_blank" 	: [
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "No matter how you decide to decorate this place, it will look beautiful.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
+			"dialog"			: "I know this because I've seen it in your dreams.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You will always be welcome at my castle!",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "This castle is well on it's way to absolute perfection.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But it will never be as perfect as your castle.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_normal"],
+			"dialog"			: "You have a castle?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|You are my perfect castle, My Defect.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_blush"],
+			"dialog"			: "Blue, what does that even mean?",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad2"],
+			"dialog"			: "You're really going to just leave without giving her a hug?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Oh, I guess I could-",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
+			"dialog"			: "She's so cold.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
+			"dialog"			: "I get it, Greeny!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You are so warm.",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_surprised"],
+			"dialog"			: "Also some chains would look righteous hanging from this side.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive"],
+			"dialog"			: "Oh! And you can put a guitar rack over here!",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "I think those might look better in your castle.",
+		},
+	],
+	"leave_default" : [
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You are always welcome at my castle!",
+		},
+	],
+}

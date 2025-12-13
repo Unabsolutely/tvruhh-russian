@@ -118,6 +118,10 @@
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
 		"dialog"	: "|shake|Можно мне взять это, пожалуйста?!",
 	},
+	"comment_give_TAG_glacia_part"	: {
+		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
+		"dialog"	: "Не представляю, чтобы она могла бы это хотеть.",
+	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
 		"dialog"	: "К сожалению, это исчезнет до того, как я смогу передать это ей.",
@@ -133,10 +137,6 @@
 	"comment_give_taken"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_confused"],
 		"dialog"	: "Не думаю, что это мне ещё пригодится.",
-	},
-	"comment_give_petal"	: {
-		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
-		"dialog"	: "Не представляю, чтобы она могла бы это хотеть.",
 	},
 	"comment_give_starter"	: {
 		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_sad"],
