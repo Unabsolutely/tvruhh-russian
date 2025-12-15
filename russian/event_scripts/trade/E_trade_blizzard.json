@@ -10,7 +10,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Я бы хотела украсить это место под какую-нибудь тему.|!|Поможешь ли ты мне с этим?",
+			"dialog"			: "Я бы хотела украсить это место под какую-нибудь тему.|!|Может, поможешь мне с этим?",
 		},
 	],
 	"request_single_theme" : [
@@ -26,7 +26,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Также думаю, что |C3|[VAL2] дары|C0| подойдут моему стилю.",
+			"dialog"			: "Моему стилю подойдут и |C3|[VAL2] дары|C0|.",
 		},
 	],
 	"reject_none" : [
@@ -42,29 +42,29 @@
 		},
 	],
 	
-	"theme_RADIANT"	: "radiant",
-	"theme_VOID"	: "void",
-	"theme_BURN"	: "burn",
-	"theme_ZAP"		: "zap",
-	"theme_TOXIC"	: "toxic",
-	"theme_food"	: "food",
-	"theme_art"		: "artistic",
-	"theme_space"	: "cosmic",
-	"theme_broken"	: "broken",
-	"theme_danger"	: "hazardous",
-	"theme_scent"	: "fragrant",
-	"theme_mech"	: "mechanical",
+	"theme_RADIANT"	: "светлые",
+	"theme_VOID"	: "пустотные",
+	"theme_BURN"	: "горящие",
+	"theme_ZAP"		: "молниевые",
+	"theme_TOXIC"	: "токсичные",
+	"theme_food"	: "пищевые",
+	"theme_art"		: "художественные",
+	"theme_space"	: "космические",
+	"theme_broken"	: "сломанные",
+	"theme_danger"	: "опасные",
+	"theme_scent"	: "пахнущие",
+	"theme_mech"	: "механические",
 	
-	"mood_title"	: "Blizzard's Mood",
-	"monster_gifts"	: "Blizzard's Gifts",
-	"burden_title"	: "Blizzard's Burdens",
-	"player_gifts"	: "[NAME]'s Active Gifts",
-	"player_quicks"	: "[NAME]'s Quick Gifts",
+	"mood_title"	: "Настроение Вьюжной",
+	"monster_gifts"	: "Дары Вьюжной",
+	"burden_title"	: "Ноши Вьюжной",
+	"player_gifts"	: "Активные дары у [NAME]",
+	"player_quicks"	: "Быстрые дары у [NAME]",
 
-	"op_trade"			: "Blizzard's Gifts",
-	"op_give_active"	: "Give Active Gifts",
-	"op_burden"			: "Take a Burden",
-	"op_leave"			: "Leave",
+	"op_trade"			: "Дары Вьюжной",
+	"op_give_active"	: "Дать активные дары",
+	"op_burden"			: "Принять ношу",
+	"op_leave"			: "Уйти",
 	
 	"comment_trade"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
@@ -76,15 +76,15 @@
 	},
 	"comment_want2"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "I'll take anything, but I really want |C3|[VAL1] gifts|C0| or |C3|[VAL2] gifts.|C0|",
+		"dialog"	: "Я готова принять что угодно, но я очень хочу |C3|[VAL1] или [VAL2] дары.|C0|",
 	},
 	"comment_reject1"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "I want |C3|[VAL1] gifts,|C0| but I'll take anything that isn't a |C4|[VAL3] gift.|C0|",
+		"dialog"	: "Я хочу |C3|[VAL1] дары,|C0| но я возьму любые, что не |C4|[VAL3].|C0|",
 	},
 	"comment_reject2"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "I want |C3|[VAL1] gifts|C0| or |C3|[VAL2] gifts,|C0| but I'll take anything that isn't a |C4|[VAL3] gift.|C0|",
+		"dialog"	: "Я хочу |C3|[VAL1] или [VAL2] дары,|C0| но я приму любые не |C4|[VAL3] дары.|C0|",
 	},
 	"comment_burden"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
@@ -92,16 +92,16 @@
 	},
 	"comment_leave"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Дай мне знать когда захочешь уйти.",
+		"dialog"	: "Дай мне знать, когда захочешь уйти.",
 	},
 	
 	"comment_closed"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-		"dialog"	: "я дала тебе всё, что должна.",
+		"dialog"	: "Я дала тебе всё, что могла.",
 	},
 	"comment_give_limit"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Ты дала мне достаточно на сегодня.|L|Теперь я думаб как бы их разместить.",
+		"dialog"	: "Ты дала мне достаточно на сегодня.|L|Теперь я думаю, как бы их разместить.",
 	},
 	"comment_burden_limit"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
@@ -109,7 +109,7 @@
 	},
 	"comment_blue_special"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
-		"dialog"	: "My dearest Defect, I insist that we help her in some way before we go.",
+		"dialog"	: "Моя дорогая Дефект, я настаиваю, чтобы мы как-нибудь помогли ей перед нашим уходом.",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
@@ -121,11 +121,11 @@
 	
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Думаю тебе он понравится.",
+		"dialog"	: "Думаю, тебе он понравится.",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-		"dialog"	: "Он покрыт изморозью, и я не могу сказать о нём больше. Прости, что так получилось.",
+		"dialog"	: "Он покрыт изморозью, и больше я ничего не могу сказать о нём. Прости, что так получилось.",
 	},
 	"comment_take_over"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
@@ -137,7 +137,7 @@
 	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Ты действительно берёшь его?",
+		"dialog"	: "Ты действительно возьмёшь его?",
 	},
 	"gift_taken" 		: [
 		{
@@ -146,7 +146,7 @@
 			"dialog_rand1"		: "Милое украшение для твоего сердца.",
 			"dialog_rand2"		: "Тебе стоит разместить его в своём замке.",
 			"dialog_rand3"		: "У тебя очень хороший вкус.",
-			"dialog_rand4"		: "Я знаю, ты поставишь его в идеальное место.",
+			"dialog_rand4"		: "Я знаю, ты найдёшь для него идеальное место.",
 		}
 	],
 	
@@ -156,7 +156,7 @@
 	
 	"comment_give_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Я могу взять, если он тебе не нужен.",
+		"dialog"	: "Я могу его взять, если тебе он не нужен.",
 	},
 	"comment_give_special"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
@@ -164,7 +164,7 @@
 	},
 	"comment_give_dislike"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-		"dialog"	: "Это противоречит тому, как я представляю тему моего замка.",
+		"dialog"	: "Это противоречит моему видению моего замка.",
 	},
 	"comment_give_quick"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
@@ -198,33 +198,33 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
 			"random"			: 4,
-			"dialog_rand1"		: "I think I can find a place for this.",
-			"dialog_rand2"		: "I can make this work with the theme.",
-			"dialog_rand3"		: "This will always remind me of you.",
-			"dialog_rand4"		: "I'll figure out a place to put this.",
+			"dialog_rand1"		: "Я думаю, ему найдётся местечко.",
+			"dialog_rand2"		: "Я смогу вписать это в тему.",
+			"dialog_rand3"		: "Это всегда будет напоминать мне о тебе.",
+			"dialog_rand4"		: "Я найду, куда его поместить.",
 		}
 	],
 	"special_given" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "This will fit my theme perfectly!",
-			"dialog_rand2"		: "This is exactly what I wanted!",
-			"dialog_rand3"		: "I was looking for something like this!",
+			"dialog_rand1"		: "Это идеально впишется в мою тему!",
+			"dialog_rand2"		: "Именно то, что я хотела!",
+			"dialog_rand3"		: "Я искала что-то вроде этого!",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
 			"random"			: 4,
-			"dialog_rand1"		: "I know exactly where to put it.",
-			"dialog_rand2"		: "I know just the place for it.",
-			"dialog_rand3"		: "This will bring all my decorations together.",
-			"dialog_rand4"		: "My vision is really coming together.",
+			"dialog_rand1"		: "Я точно знаю, куда его поместить.",
+			"dialog_rand2"		: "Я знаю идеальное место для него.",
+			"dialog_rand3"		: "Это свяжет все украшения вместе.",
+			"dialog_rand4"		: "Моё видение замка сходится воедино.",
 		}
 	],
 	"blessing_given" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I don't know what just happened, but I suddenly feel very inspired.",
+			"dialog"			: "Не знаю, что сейчас произошло, но я чувствую вдохновение.",
 		}
 	],
 	
@@ -267,7 +267,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Я не особенно насчёт них волновалась, и не думаю, что они тоже беспокоились обо мне.",
+			"dialog"			: "Я особенно не волновалась насчёт них, и не думаю, что они тоже беспокоились обо мне.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
@@ -285,7 +285,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Что же, я уже привыкла быть одинокой.",
+			"dialog"			: "Ну, раньше я чувствовала себя одинокой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
@@ -293,7 +293,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Или, по крайней мере, те, кто хочет здесь быть.",
+			"dialog"			: "Или, по крайней мере, для тех, кто хочет здесь быть.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
@@ -303,11 +303,11 @@
 	"BDN_the_void_taken" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Интересно, что мама в самом деле думает о нас?",
+			"dialog"			: "Интересно, какие чувства к нам в самом деле испытывает наша мать?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "You can help her too, right?",
+			"dialog"			: "Ты можешь помочь и ей, да?",
 		},
 	],
 
@@ -320,7 +320,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
-			"dialog"			: "Я знаю, ведь я видела всё в твоих снах.",
+			"dialog"			: "Я знаю, ведь я видела его в твоих снах.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
@@ -388,14 +388,14 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-			"dialog"			: "я думаю, это лучше выглядело бы в твоём замке.",
+			"dialog"			: "Я думаю, это лучше подошло бы твоему замку.",
 		},
 	],
 	"leave_default" : [
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "В моём замке всегда рады гостям!",
+			"dialog"			: "В моём замке тебе всегда рады!",
 		},
 	],
 

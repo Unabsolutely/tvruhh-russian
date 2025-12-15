@@ -242,11 +242,11 @@
 			"dialog_rand2"		: "|wave|Разве это не романтично?",
 			"dialog_rand3"		: "|wave|Небольшой роман между химикатами.",
 		}
-		],
+	],
 	"burden_given" 		: [
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_sad"],
-			"dialog"			: "Как мы здесь оказались?",
+			"dialog"			: "Как мы все до этого дошли?",
 		},
 		{
 			"character"			: ["VOICE_chemory", "CHAR_chemory_right", "MOOD_content"],
