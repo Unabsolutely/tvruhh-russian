@@ -114,6 +114,7 @@
 	
 	"B_burning_veyeral" : {
 		"name"    : "Пылающая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ze||soh||nah| (Veyeral Zeesona)",
 		"before"  : "Не осталось тепла",
 		"after"   : "Мне так тепло",
@@ -123,6 +124,7 @@
 	
 	"B_roundsaw" : {
 		"name"	  : "Циркуляра",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah| (Lahaika)",
 		"before"  : "Разрезать их! Разрезать их сейчас же!",
 		"after"   : "Я пыталась навредить тебе. Пв-вости...",
@@ -132,6 +134,7 @@
 	
 	"B_syncron" : {
 		"name"    : "Синкрон",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah| (Sikana)",
 		"before"  : "Каждый бит на своём месте",
 		"after"   : "Приложение ЛЮБОВЬ установлено",
@@ -141,6 +144,7 @@
 	
 	"B_glacia" : {
 		"name"    : "Хрусталия",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah| (Kihaina)",
 		"before"  : "Мне так страшно их сломать",
 		"after"   : "Я такая красивая, потому что отражаю тебя",
@@ -150,6 +154,7 @@
 	
 	"B_split_veyeral" : {
 		"name"    : "Дробная Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ai||dis| (Veyeral Aidis)",
 		"before"  : "Больше никого не осталось",
 		"after"   : "Мы так любимы",
@@ -159,6 +164,7 @@
 	
 	"B_blot" : {
 		"name"    : "Клякса",
+		"card"    : "",
 		"eyeric"  : "|zhe||den| (Zheden)",
 		"before"  : "Всё должно быть в цвете!",
 		"after"   : "Обожаем наши новые цвета!",
@@ -168,6 +174,7 @@
 	
 	"B_voltage_veyeral" : {
 		"name"    : "Токовая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||mo||yo| (Veyeral Moyo)",
 		"before"  : "Не осталось света",
 		"after"   : "Я снова могу видеть",
@@ -177,8 +184,9 @@
 	
 	"B_the_void" : {
 		"name"    : "Пустота",
-		"eyeric"  : "|nah||-||vai||dra| (Nah Vaidra)",
+		"card"    : "",
 		"title"   : "Абсолютный Ноль",
+		"eyeric"  : "|nah||-||vai||dra| (Nah Vaidra)",
 		"before"  : "Ничего...",
 		"after"   : "...Всё",
 		"notes"   : "Здесь так холодно и одиноко...",
@@ -188,6 +196,7 @@
 	
 	"B_hadesoh" : {
 		"name"    : "Аидасо",
+		"card"    : "",
 		"eyeric"  : "|foh||dis||soh| (Fodisoh)",
 		"before"  : "Добро пожаловать в буллет-хелл",
 		"after"   : "Твоё тепло жарче огня!",
@@ -198,6 +207,7 @@
 	"B_scrambla" : {
 		"name"    : "Смятка",
 		"eyeric"  : "|lin||shi||la| (Linshila)",
+		"card"    : "",
 		"before"  : "Не смотри на няс!",
 		"after"   : "Нам пёнравились обнимащки!",
 		"notes"   : "Только увидев её, большинство Зараден немедленно тянет отвернуться, но когда я вижу, как она топчется, смотря на них, я понимаю, что ей просто нужны обнимашки.",
@@ -206,6 +216,7 @@
 	
 	"B_boiler" : {
 		"name"    : "Варка",
+		"card"    : "",
 		"eyeric"  : "|foh||shi||fa| (Foshifa)",
 		"before"  : "Мы сожжём тибя!",
 		"after"   : "Всё равно любишь няс?",
@@ -215,6 +226,7 @@
 	
 	"B_sentinel_4x" : {
 		"name"    : "Дозорная 4X",
+		"card"    : "",
 		"eyeric"  : "|sen||kah||ze||-||n4||dis| (Senkahze Seedis)",
 		"before"  : "Проход воспрещён",
 		"after"   : "Пароль принят: Я Люблю Тебя",
@@ -224,6 +236,7 @@
 	
 	"B_sandrome" : {
 		"name"    : "Пескодром",
+		"card"    : "",
 		"eyeric"  : "|teh||dra||mo| (Tehdramo)",
 		"before"  : "Коли! Коли!",
 		"after"   : "Теперь только дружелюбные уколы",
@@ -233,6 +246,7 @@
 	
 	"B_vitrea" : {
 		"name"    : "Витражия",
+		"card"    : "",
 		"eyeric"  : "|ki||ze||ah| (Kizea)",
 		"before"  : "Не говори мне успокоиться!",
 		"after"   : "Ты меня успокоила",
@@ -242,6 +256,7 @@
 	
 	"B_ombroah" : {
 		"name"    : "Омброа",
+		"card"    : "",
 		"eyeric"  : "|oh||dis||ah| (Odisah)",
 		"before"  : "Дождь никогда не кончится",
 		"after"   : "Так уютно, когда мы мостимся вместе",
@@ -251,6 +266,7 @@
 	
 	"B_monovai" : {
 		"name"    : "Моновай",
+		"card"    : "",
 		"eyeric"  : "|mai||dis||vai| (Maidisvai)",
 		"before"  : "Ты одна-одинёшенька",
 		"after"   : "Я больше не одинока",
@@ -260,6 +276,7 @@
 	
 	"B_prisma" : {
 		"name"    : "Призма",
+		"card"    : "",
 		"eyeric"  : "|sen||n4| (Sensi)",
 		"before"  : "Защитный режим запущен",
 		"after"   : "СТРАХ перезаписан приложением ЛЮБОВЬ",
@@ -269,6 +286,7 @@
 	
 	"B_amalga" : {
 		"name"    : "Амальга",
+		"card"    : "",
 		"eyeric"  : "|shi||mis||fra| (Shimisfra)",
 		"before"  : "От нас не спрячешься!",
 		"after"   : "Мы будем защищать друг друга",
@@ -278,6 +296,7 @@
 	
 	"B_molten_veyeral" : {
 		"name"    : "Плавленая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ah||lin||lin| (Veyeral Alinlin)",
 		"before"  : "Я заберу твоё тепло",
 		"after"   : "Я не хотела ожечь тебя",
@@ -287,6 +306,7 @@
 	
 	"B_nix_polyps" : {
 		"name"    : "Пустополипы",
+		"card"    : "",
 		"title"   : "Воплощение Паники",
 		"eyeric"  : "|teh||ehv||tar||-||n0||dah| (Tevtar Tohda)",
 		"before"  : "Трудно дышать",
@@ -298,6 +318,7 @@
 	
 	"B_null_roundsaw" : {
 		"name"    : "Нуль-Циркуляра",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah||-||n0||nah| (Lahaika Tohna)",
 		"before"  : "Изруби их в ноль!",
 		"after"   : "Пв-рости меня",
@@ -307,6 +328,7 @@
 	
 	"B_null_glacia" : {
 		"name"    : "Нуль-Хрусталия",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah||-||n0||nah| (Kihaina Tohna)",
 		"before"  : "Отражение отталкивает",
 		"after"   : "Думаешь, моё отражение милое?",
@@ -316,6 +338,7 @@
 	
 	"B_anomaly" : {
 		"name"    : "Аномалия",
+		"card"    : "",
 		"eyeric"  : "|za||fu||sha| (Zafusha)",
 		"title"   : "Тайный Поклонник",
 		"before"  : "Ты убиваешь?",
@@ -327,6 +350,7 @@
 	
 	"B_shy_scrambla" : {
 		"name"    : "Робкая Смятка",
+		"card"    : "",
 		"eyeric"  : "|lin||shi||la||-||ze||ai||li| (Linshila Zeali)",
 		"before"  : "Не ищи няс!",
 		"after"   : "Нам нрафятся твои объятия!",
@@ -336,6 +360,7 @@
 	
 	"B_hematoren" : {
 		"name"    : "Гематорен",
+		"card"    : "",
 		"eyeric"  : "|zhen||dis||ren| (Zhendisren)",
 		"before"  : "Крови мне!",
 		"after"   : "Люби жизнь, кровью данную",
@@ -345,6 +370,7 @@
 	
 	"B_rage_prisma" : {
 		"name"    : "Яростная Призма",
+		"card"    : "",
 		"eyeric"  : "|sen||n4||-||soh||ze| (Sensi Sohze)",
 		"before"  : "Предупреждение: Система перегревается",
 		"after"   : "Охлаждение перезапущено",
@@ -354,6 +380,7 @@
 	
 	"B_totaria" : {
 		"name"    : "Тотария",
+		"card"    : "",
 		"title"   : "Меньше Чем Ничто",
 		"eyeric"  : "|n0||tar||dra| (Totardra)",
 		"before"  : "Меньше Чем Ничто!",
@@ -377,6 +404,7 @@
 	
 	"B_lila" : {
 		"name"    : "Лила",
+		"card"    : "",
 		"eyeric"  : "|li||la| (Lila)",
 		"before"  : "Аз виждь тя!",
 		"after"   : "Аз люблю тя!",
@@ -386,6 +414,7 @@
 	
 	"B_tox_polyps" : {
 		"name"    : "Токсополипы",
+		"card"    : "",
 		"title"   : "Воплощённая Паника",
 		"eyeric"  : "|teh||ehv||tar||-||ry||dah| (Tevtar Raida)",
 		"before"  : "Ты не заслуживаешь дышать!",
@@ -406,6 +435,7 @@
 	
 	"B_dual_prisma" : {
 		"name"    : "Дуопризма",
+		"card"    : "",
 		"eyeric"  : "|sen||n4||-||n2||shi| (Sensi Sheshi)",
 		"before"  : "Защитный режим на все 200%",
 		"after"   : "Загружаю 2 Гигобъятия",
@@ -415,6 +445,7 @@
 	
 	"B_veyeral_rain" : {
 		"name"    : "Дождь Веералей",
+		"card"    : "",
 		"eyeric"  : "|ah||tra||-||nah||-||vai||ral| (Ahtra nah Veyeral)",
 		"before"  : "Больше негде укрыться",
 		"after"   : "Теперь мы в безопасности",
@@ -424,6 +455,7 @@
 	
 	"B_unit_lulu" : {
 		"name"    : "Модуль Лулу",
+		"card"    : "",
 		"eyeric"  : "|n1||kah||-||lu||lu| (Ikah Lulu)",
 		"before"  : "Режим практики запущен",
 		"after"   : "Обнаружен резкий подъём температуры",
@@ -433,6 +465,7 @@
 	
 	"B_sentinel_0x" : {
 		"name"    : "Дозорная 0X",
+		"card"    : "",
 		"eyeric"  : "|sen||kah||ze||-||n0||dis| (Senkahze Todis)",
 		"before"  : "Помечены к Удалению",
 		"after"   : "Добавлена в папку: Любимые",
@@ -442,6 +475,7 @@
 	
 	"B_rage_boiler" : {
 		"name"    : "Яростная Варка",
+		"card"    : "",
 		"eyeric"  : "|foh||shi||fa||-||soh||ze| (Foshifa Sohze)",
 		"before"  : "Мы слишком жгучие!",
 		"after"   : "Уровень жгучести вернулся в норму",
@@ -451,6 +485,7 @@
 	
 	"B_shamra" : {
 		"name"    : "Шамра",
+		"card"    : "",
 		"eyeric"  : "|sha||mo||ry| (Shamory)",
 		"before"  : "Что есть мы?",
 		"after"   : "Мы любимы",
@@ -460,6 +495,7 @@
 	
 	"B_oudenai" : {
 		"name"    : "Уденай",
+		"card"    : "",
 		"eyeric"  : "|n0||dis||ai| (Todisai)",
 		"before"  : "Кто есть я?",
 		"after"   : "Я любима",
@@ -469,6 +505,7 @@
 	
 	"B_blue_veyeral" : {
 		"name"    : "Синяя Веераль",
+		"card"    : "",
 		"title"	  : "Идеальное Существо",
 		"eyeric"  : "|vai||ral||-||ah||den| (Veyeral Ahden)",
 		"before"  : "Ты ничто!",
@@ -480,6 +517,7 @@
 	
 	"B_rendy" : {
 		"name"    : "Рэнди",
+		"card"    : "",
 		"eyeric"  : "|ren||dy| (Rendy) |ren||n5| (Rendi)",
 		"before"  : "Полна отвращения!",
 		"after"   : "Прими объятия в клещах!",
@@ -489,6 +527,7 @@
 	
 	"B_chroma" : {
 		"name"    : "Хрома",
+		"card"    : "",
 		"eyeric"  : "|fai||den||la| (Faidenla)",
 		"before"  : "Узри моё сияние!",
 		"after"   : "Люблю твои цвета!",
@@ -498,6 +537,7 @@
 	
 	"B_echo" : {
 		"name"    : "Эхо",
+		"card"    : "",
 		"eyeric"  : "|sin||shin| (Sinshin)",
 		"before"  : "Что есть ты?",
 		"after"   : "Ты любима",
@@ -507,6 +547,7 @@
 	
 	"B_snowball" : {
 		"name"    : "Снежка",
+		"card"    : "",
 		"eyeric"  : "|toh||ah||la| (Toala)",
 		"before"  : "Застыла в страхе!",
 		"after"   : "Растопи моё ледяное сердце",
@@ -516,6 +557,7 @@
 	
 	"B_rage_duet" : {
 		"name"    : "Яростный Дуэт",
+		"card"    : "",
 		"eyeric"  : "|n2||shi||-||soh||ze| (Sheshi Sohze)",
 		"before"  : "Гори вместе с нами!",
 		"after"   : "Нам нравится танцевать вместе",
@@ -525,6 +567,7 @@
 	
 	"B_trinity" : {
 		"name"    : "Троица",
+		"card"    : "",
 		"eyeric"  : "|n3||shi| (Teshi)",
 		"before"  : "Тьма, Бесцветие, Страх",
 		"after"   : "Свет, Разноцветие, Любовь",
@@ -534,6 +577,7 @@
 	
 	"B_venom_veyeral" : {
 		"name"    : "Ядовитая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||dy||ah| (Veyeral Diah)",
 		"before"  : "Не осталось чувств",
 		"after"   : "Я снова могу чувствовать",
@@ -543,6 +587,7 @@
 	
 	"B_photoxai" : {
 		"name"    : "Фотозай",
+		"card"    : "",
 		"eyeric"  : "|fai||dis||xai| (Faidishai)",
 		"before"  : "Ослеплена вспышкой",
 		"after"   : "Давай сфотографируемся вместе",
@@ -552,6 +597,7 @@
 	
 	"B_kiwi" : {
 		"name"    : "Киви",
+		"card"    : "",
 		"eyeric"  : "|n4||ki||shi| (Sikishi)",
 		"before"  : "От нас не спрячешься!",
 		"after"   : "Поиграй с нами",
@@ -561,6 +607,7 @@
 	
 	"B_knot_knott" : {
 		"name"    : "Узел-Узелок",
+		"card"    : "",
 		"eyeric"  : "|nu||toh||-||nu||n0| (Nuutoh Nuutoh)",
 		"before"  : "Запутана между нами",
 		"after"   : "Всегда будем вместе",
@@ -570,6 +617,7 @@
 	
 	"B_duality" : {
 		"name"    : "Двойственность",
+		"card"    : "",
 		"eyeric"  : "|n2||shi| (Sheshi)",
 		"before"  : "Лёд и пламя падут на тебя",
 		"after"   : "Мы ярко сияем над тобой",
@@ -579,6 +627,7 @@
 	
 	"B_stella" : {
 		"name"    : "Стелла",
+		"card"    : "",
 		"eyeric"  : "|fai||la| (Faila)",
 		"before"  : "Солнечный ожог падёт на тебя",
 		"after"   : "Яркий звёздный свет падёт на тебя",
@@ -588,6 +637,7 @@
 	
 	"B_celestia" : {
 		"name"    : "Селестия",
+		"card"    : "",
 		"eyeric"  : "|la||nu||la| (Lanula)",
 		"before"  : "Хладная ночь падёт на тебя",
 		"after"   : "Лунное сияние падёт на тебя",
@@ -597,6 +647,7 @@
 	
 	"B_unity" : {
 		"name"    : "Единство",
+		"card"    : "",
 		"eyeric"  : "|n1||shi| (Ishi)",
 		"before"  : "Тебе не место",
 		"after"   : "Вместе со мной",
@@ -606,6 +657,7 @@
 	
 	"B_shy_lila" : {
 		"name"    : "Робкая Лила",
+		"card"    : "",
 		"eyeric"  : "|li||la||-||ze||ai||li| (Lila Zeali)",
 		"before"  : "Прочь! Прочь!",
 		"after"   : "Аз останусь с тобой",
@@ -615,6 +667,7 @@
 	
 	"B_chemory" : {
 		"name"    : "Химори",
+		"card"    : "",
 		"eyeric"  : "|dy||dis||ry| (Deedisry)",
 		"before"  : "Страх - это химия",
 		"after"   : "Любовь - это химия",
@@ -624,6 +677,7 @@
 	
 	"B_astrayo" : {
 		"name"    : "Астрайо",
+		"card"    : "",
 		"eyeric"  : "|mo||dis||yo| (Modisyo)",
 		"before"  : "Бесконечный гром и молнии",
 		"after"   : "Шторм прошёл",
@@ -631,9 +685,10 @@
 		"tips"    : "Если вы хотите извлечь как можно больше частиц, не наносите ей урон в первой половине битвы. Сконцентрируйтесь на разрушении маленьких глифов.",
 	},
 	
-	"B_alter_blot" : {
-		"name"    : "Иная Клякса",
-		"eyeric"  : "|zhe||den||-||ai||za| (Zheden Aiza)",
+	"B_avoid_blot" : {
+		"name"    : "Избегающая Клякса",
+		"card"    : "",
+		"eyeric"  : "|zhe||den||-||vai||ze||na| (Zheden Vaizena)",
 		"before"  : "Всё будет мрачно!",
 		"after"   : "Некрасивых цветов не бывает!",
 		"notes"   : "Иногда она просыпается в отвращении к себе без всякой причины. Ей не всегда нравятся свои цвета, но я напоминаю ей, что некрасивых цветов не бывает.",
@@ -642,6 +697,7 @@
 	
 	"B_alter_roundsaw" : {
 		"name"    : "Иная Циркуляра",
+		"card"    : "",
 		"eyeric"  : "|la||hai||kah||-||ai||za| (Lahaika Aiza)",
 		"before"  : "Режь их быстро! Скорее!",
 		"after"   : "Прости. Прости. Прости... Пв-вости",
@@ -651,6 +707,7 @@
 	
 	"B_alter_glacia" : {
 		"name"    : "Иная Хрусталия",
+		"card"    : "",
 		"eyeric"  : "|ki||hai||nah||-||ai||za| (Kihaina Aiza)",
 		"before"  : "Слишком холодна для тебя",
 		"after"   : "Такое тёплое отражение",
@@ -660,6 +717,7 @@
 	
 	"B_alter_syncron" : {
 		"name"    : "Иные Синкрон",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah||-||ai||za| (Sikana Aiza)",
 		"before"  : "Этот бит не на месте",
 		"after"   : "Дублируем папку счастья",
@@ -669,6 +727,7 @@
 	
 	"B_frozen_veyeral" : {
 		"name"    : "Мёрзлая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||toh||nah| (Veyeral Tohna)",
 		"before"  : "Не осталось воли",
 		"after"   : "Я снова хочу двигаться",
@@ -678,6 +737,7 @@
 	
 	"B_joule" : {
 		"name"    : "Джоулия",
+		"card"    : "",
 		"eyeric"  : "|yo||hai| (Yohai)",
 		"before"  : "Хотим твою силу!",
 		"after"   : "РАБОТА может быть совместной",
@@ -687,6 +747,7 @@
 	
 	"B_dot" : {
 		"name"    : "Точка",
+		"card"    : "",
 		"eyeric"  : "|n1||teh| (Iteh)",
 		"before"  : "Ты не совершенна",
 		"after"   : "Совершенные объятия для тебя",
@@ -696,6 +757,7 @@
 	
 	"B_pearl" : {
 		"name"    : "Жемчужина",
+		"card"    : "",
 		"eyeric"  : "|la||ris| (Laris)",
 		"before"  : "Нет выражения",
 		"after"   : "Ты заставила меня снова чувствовать",
@@ -705,6 +767,7 @@
 	
 	"B_calorie" : {
 		"name"    : "Калория",
+		"card"    : "",
 		"eyeric"  : "|foh||hai| (Fohai)",
 		"before"  : "Гори ради нас!",
 		"after"   : "Ты топливо нашего огня!",
@@ -714,6 +777,7 @@
 	
 	"B_flip_flap" : {
 		"name"    : "Флип-Флап",
+		"card"    : "",
 		"eyeric"  : "|yih||kah||-||nu||kah| (Yika Nuka)",
 		"before"  : "Обнаружена запутавшаяся проводка",
 		"after"   : "Обнаружена чистая привязанность",
@@ -723,6 +787,7 @@
 	
 	"B_null_unit" : {
 		"name"    : "Нуль-Модуль",
+		"card"    : "",
 		"eyeric"  : "|n1||kah||-||n0||nah| (Ikah Tohna)",
 		"before"  : "Удали свою память",
 		"after"   : "Этот модуль не забудет тебя",
@@ -732,6 +797,7 @@
 	
 	"B_nova" : {
 		"name"    : "Нова",
+		"card"    : "",
 		"title"	  : "Спектр Страха",
 		"eyeric"  : "|no||vai||lu| (Novailu)",
 		"before"  : "Всеобщий страх",
@@ -743,6 +809,7 @@
 	
 	"B_emerald" : {
 		"name"    : "Изумруд",
+		"card"    : "",
 		"eyeric"  : "|ry||den||dra| (Rydendra)",
 		"before"  : "Стыдно быть",
 		"after"   : "Ты чувствуешь гордость",
@@ -752,6 +819,7 @@
 	
 	"B_ruby" : {
 		"name"    : "Рубин",
+		"card"    : "",
 		"eyeric"  : "|soh||den||dra| (Sohdendra)",
 		"before"  : "Яростно быть",
 		"after"   : "Ты чувствуешь удовлетворённость",
@@ -761,6 +829,7 @@
 	
 	"B_topaz" : {
 		"name"    : "Топаз",
+		"card"    : "",
 		"eyeric"  : "|yo||den||dra| (Yodendra)",
 		"before"  : "Не могу принять",
 		"after"   : "Ты можешь принять что угодно",
@@ -770,6 +839,7 @@
 	
 	"B_sapphire" : {
 		"name"    : "Сапфир",
+		"card"    : "",
 		"eyeric"  : "|ah||den||dra| (Adendra)",
 		"before"  : "Тревожно быть",
 		"after"   : "Ты чувствуешь полное спокойствие",
@@ -779,6 +849,7 @@
 	
 	"B_citrine" : {
 		"name"    : "Цитрин",
+		"card"    : "",
 		"eyeric"  : "|lin||den||dra| (Lindendra)",
 		"before"  : "Хрупко быть",
 		"after"   : "Ты чувствуешь себя уверенно",
@@ -788,6 +859,7 @@
 	
 	"B_amethyst" : {
 		"name"    : "Аметист",
+		"card"    : "",
 		"eyeric"  : "|vai||den||dra| (Vaidendra)",
 		"before"  : "Одиноко быть",
 		"after"   : "Ты чувствуешь себя принятой",
@@ -797,6 +869,7 @@
 	
 	"B_forma" : {
 		"name"    : "Форма",
+		"card"    : "",
 		"eyeric"  : "|ai||shi| (Aishi)",
 		"before"  : "Почему есть я?",
 		"after"   : "Я любима",
@@ -806,6 +879,7 @@
 	
 	"B_default" : {
 		"name"    : "Основа",
+		"card"    : "",
 		"eyeric"  : "|ai||zha| (Aizha)",
 		"before"  : "Чем я должна стать?",
 		"after"   : "Я буду любовью",
@@ -815,6 +889,7 @@
 	
 	"B_lavalin" : {
 		"name"    : "Лавалин",
+		"card"    : "",
 		"eyeric"  : "|rin||dis||lin| (Rindislin)",
 		"before"  : "Апокалипсис надвигается",
 		"after"   : "Вместе до конца",
@@ -824,6 +899,7 @@
 	
 	"B_heliola" : {
 		"name"    : "Гелиола",
+		"card"    : "",
 		"eyeric"  : "|fa||dis||la| (Fadisla)",
 		"before"  : "Подсвечиваю твои недостатки",
 		"after"   : "Буду купаться в твоём свете",
@@ -833,6 +909,7 @@
 	
 	"B_vibrant_veyeral" : {
 		"name"    : "Яркая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||ris||den| (Veyeral Risden)",
 		"before"  : "Больше нет цвета",
 		"after"   : "Я снова вижу цвета",
@@ -840,9 +917,10 @@
 		"tips"    : "Она выпустит ровно 12 красочных бомб на определенных отрезках её шкалы страха. Замедлитесь ближе к концу битвы, чтобы не упустить ни одной.",
 	},
 	
-	"B_alter_vitrea" : {
-		"name"    : "Иная Витражия",
-		"eyeric"  : "|ki||ze||ah||-||ai||za| (Kizea Aiza)",
+	"B_avoid_vitrea" : {
+		"name"    : "Избегающая Витражия",
+		"card"    : "Избег. Витражия",
+		"eyeric"  : "|ki||ze||ah||-||vai||ze||na| (Kizea Vaizena)",
 		"before"  : "Не указывай мне, как быть!",
 		"after"   : "С тобой я могу быть собой",
 		"notes"   : "Невыносимо видеть её такой. Она скорее будет грустить в одиночестве, чем потревожит кого-либо, но я всегда готова её выслушать.",
@@ -851,6 +929,7 @@
 	
 	"B_null_blot" : {
 		"name"    : "Нуль-Клякса",
+		"card"    : "",
 		"eyeric"  : "|zhe||den||-||n0||nah| (Zheden Tohna)",
 		"before"  : "Ничто не будет в цвете!",
 		"after"   : "Мы снова вдохновлены!",
@@ -860,6 +939,7 @@
 	
 	"B_voladrome" : {
 		"name"    : "Лавадром",
+		"card"    : "",
 		"eyeric"  : "|foh||dra||mo| (Fohdramo)",
 		"before"  : "Сожги их сейчас!",
 		"after"   : "Теперь я дружелюбная тёплая лапша",
@@ -869,6 +949,7 @@
 	
 	"B_shy_momo" : {
 		"name"    : "Робкая Момо",
+		"card"    : "",
 		"eyeric"  : "|mo||mo||-||ze||ai||li| (Momo Zeali)",
 		"before"  : "Я не выйду!",
 		"after"   : "Я всегда буду танцевать с тобой",
@@ -878,6 +959,7 @@
 	
 	"B_dendrohai" : {
 		"name"    : "Дендрохай",
+		"card"    : "",
 		"eyeric"  : "|kai||dis||hai| (Kaidisai)",
 		"before"  : "Теперь твой страх будет только расти",
 		"after"   : "Любовь прорастает сквозь тебя",
@@ -887,6 +969,7 @@
 	
 	"B_veyeral_quartet" : {
 		"name"    : "Квартет Веералей",
+		"card"    : "",
 		"eyeric"  : "|n4||tar||-||vai||ral| (Sitar Veyeral)",
 		"before"  : "Никто, нигде, без любви, ничего",
 		"after"   : "Снова можем делиться любовью",
@@ -896,6 +979,7 @@
 	
 	"B_shiny_joule" : {
 		"name"    : "Сияющая Джоулия",
+		"card"    : "",
 		"eyeric"  : "|yo||hai||-||fai||shen| (Yohai Faishen)",
 		"before"  : "За работу!",
 		"after"   : "Твой асимптотичный настрой РАБОТАЕТ!",
@@ -906,6 +990,7 @@
 	
 	"B_shiny_momo" : {
 		"name"    : "Сияющая Момо",
+		"card"    : "",
 		"eyeric"  : "|mo||mo||-||fai||shen| (Momo Faishen)",
 		"before"  : "Я хочу потанцевать с тобой",
 		"after"   : "Я позитивно расцветаю любовью!",
@@ -917,6 +1002,7 @@
 	"B_shiny_veyerals" : {
 		"name"    : "Сияющие Веерали",
 		"eyeric"  : "|vai||ral||tar||-||fai||shen| (Veyeraltar Faishen)",
+		"card"    : "",
 		"before"  : "Дай нам увидеть сны",
 		"after"   : "Этой ночью у нас будут только хорошие сны",
 		"notes"   : "Они всегда могли сиять столь же ярко. Просто раньше они этого не понимали.",
@@ -926,6 +1012,7 @@
 	
 	"B_storm_veyeral" : {
 		"name"    : "Буревая Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||yo||tra| (Veyeral Yotra)",
 		"before"  : "Я заберу твой свет",
 		"after"   : "Я не хотела напугать тебя",
@@ -935,6 +1022,7 @@
 	
 	"B_shiny_rendy" : {
 		"name"    : "Сияющая Рэнди",
+		"card"    : "",
 		"eyeric"  : "|ren||n5||-||fai||shen| (Rendi Faishen)",
 		"before"  : "Копаю ради сокровища!",
 		"after"   : "Ты - сокровище Рэнди",
@@ -945,6 +1033,7 @@
 	
 	"B_shiny_snowball" : {
 		"name"    : "Сияющая Снежка",
+		"card"    : "",
 		"eyeric"  : "|toh||ah||la||-||fai||shen| (Toala Faishen)",
 		"before"  : "Ищу королевское сокровище",
 		"after"   : "Любовь - настоящее королевское сокровище",
@@ -955,6 +1044,7 @@
 	
 	"B_shiny_anomaly" : {
 		"name"    : "Сияющая Аномалия",
+		"card"    : "",
 		"title"	  : "Кармический Бог",
 		"eyeric"  : "|za||fu||sha||-||fai||shen| (Zafusha Faishen)",
 		"before"  : "Как ты проявляешь любовь?",
@@ -966,6 +1056,7 @@
 	
 	"B_chionotoh" : {
 		"name"    : "Хионотох",
+		"card"    : "",
 		"eyeric"  : "|koh||dis||toh| (Kodistoh)",
 		"before"  : "Теперь ты замёрзнешь навсегда!",
 		"after"   : "Несмотря на то, что я была холодна к тебе?",
@@ -975,6 +1066,7 @@
 	
 	"B_philolu" : {
 		"name"    : "Филолу",
+		"card"    : "",
 		"eyeric"  : "|fu||dis||lu| (Fuudislu)",
 		"before"  : "Идём на свидание!",
 		"after"   : "Поцелуй на ночь!",
@@ -985,6 +1077,7 @@
 	
 	"B_ventra" : {
 		"name"    : "Нутра",
+		"card"    : "",
 		"eyeric"  : "|lu||kah||tra| (Lukatra)",
 		"before"  : "Твоя цель недостижима",
 		"after"   : "Ты нашла подход ко мне",
@@ -994,6 +1087,7 @@
 	
 	"B_guardian_soul" : {
 		"name"    : "Душа Стража",
+		"card"    : "",
 		"eyeric"  : "|ai||soh||ren||-||sen||ehv| (Aisoren Senev)",
 		"before"  : "Куда мне идти?",
 		"after"   : "Я пойду любить",
@@ -1003,6 +1097,7 @@
 	
 	"B_shiny_knots" : {
 		"name"    : "Сияющие Узлы",
+		"card"    : "",
 		"eyeric"  : "|nu||toh||-||nu||n0||-||fai||shen| (Nuutoh Nuutoh Faishen)",
 		"before"  : "Помоги нам найти её!",
 		"after"   : "Теперь мы всегда будем вместе",
@@ -1013,6 +1108,7 @@
 	
 	"B_shiny_syncron" : {
 		"name"    : "Сияющие Синкрон",
+		"card"    : "",
 		"eyeric"  : "|n4||kah||nah||-||fai||shen| (Sikana Faishen)",
 		"before"  : "Преодолеваю Режим Паники",
 		"after"   : "Паническая петля разрешена",
@@ -1023,6 +1119,7 @@
 	
 	"B_shanx" : {
 		"name"    : "Шэнкс",
+		"card"    : "",
 		"eyeric"  : "|shal||ki| (Shalki)",
 		"before"  : "Заостряю мои руки-резюки!",
 		"after"   : "Ты пронзила моё сердце",
@@ -1032,6 +1129,7 @@
 	
 	"B_alter_shanx" : {
 		"name"    : "Иная Шэнкс",
+		"card"    : "",
 		"eyeric"  : "|shal||ki||-||ai||za| (Shalki Aiza)",
 		"before"  : "Я поражу тебя как молния!",
 		"after"   : "Ты поразила моё сердце",
@@ -1041,6 +1139,7 @@
 	
 	"B_moss" : {
 		"name"    : "Мох",
+		"card"    : "",
 		"eyeric"  : "|kai||den| (Kaiden)",
 		"before"  : "У нас всё равно не было воли",
 		"after"   : "Больше не стыдимся",
@@ -1051,6 +1150,7 @@
 	
 	"B_scarlet" : {
 		"name"    : "Багрянец",
+		"card"    : "",
 		"eyeric"  : "|foh||den| (Fohden)",
 		"before"  : "Вернись ко мне, это немыслимо!",
 		"after"   : "Больше не злюсь",
@@ -1061,6 +1161,7 @@
 	
 	"B_dandy" : {
 		"name"    : "Одуванчик",
+		"card"    : "",
 		"eyeric"  : "|mo||den| (Moden)",
 		"before"  : "Не то чтобы я не могла, или не хотела",
 		"after"   : "Больше не боюсь",
@@ -1071,6 +1172,7 @@
 	
 	"B_indigo" : {
 		"name"    : "Индиго",
+		"card"    : "",
 		"eyeric"  : "|ah||oh||den| (Aoden)",
 		"before"  : "Я скомпроментирована и обеззарадирована",
 		"after"   : "Больше не тревожусь",
@@ -1081,6 +1183,7 @@
 	
 	"B_amber" : {
 		"name"    : "Янтарь",
+		"card"    : "",
 		"eyeric"  : "|rin||li||den| (Rinleeden)",
 		"before"  : "И в снах моих, ещё один день",
 		"after"   : "Больше не беззащитна",
@@ -1091,6 +1194,7 @@
 	
 	"B_violet" : {
 		"name"    : "Сирень",
+		"card"    : "",
 		"eyeric"  : "|mai||den| (Meyeden)",
 		"before"  : "Нет больше ночи, нет больше боли",
 		"after"   : "Больше не одинока",
@@ -1101,6 +1205,7 @@
 	
 	"B_blizz_veyeral" : {
 		"name"    : "Вьюжная Веераль",
+		"card"    : "",
 		"eyeric"  : "|vai||ral||-||rah||toh||tra| (Veyeral Rahtotra)",
 		"before"  : "Я заберу твою волю",
 		"after"   : "Я не хотела быть такой холодной",
@@ -1110,6 +1215,7 @@
 
 	"B_limbo" : {
 		"name"    : "Лимбо",
+		"card"    : "",
 		"title"	  : "Неудачный Эксперимент",
 		"eyeric"  : "|dra||-||nah||hai||za| (Dra Nahaiza)",
 		"before"  : "Я застряла в гнусном мире",

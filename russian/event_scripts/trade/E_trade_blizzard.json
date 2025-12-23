@@ -10,7 +10,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Я бы хотела украсить это место под какую-нибудь тему.|!|Может, поможешь мне с этим?",
+			"dialog"			: "Я бы хотела украсить это место под какую-нибудь тему.|!| Может, поможешь мне с этим?",
 		},
 	],
 	"request_single_theme" : [
@@ -125,7 +125,7 @@
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-		"dialog"	: "Он покрыт изморозью, и больше я ничего не могу сказать о нём. Прости, что так получилось.",
+		"dialog"	: "Он покрыт изморозью, и больше я ничего не могу сказать о нём. Прости, что так вышло.",
 	},
 	"comment_take_over"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
@@ -173,10 +173,6 @@
 	"comment_give_blessing"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
 		"dialog"	: "Вдохновляюще.",
-	},
-	"comment_give_TAG_blizzard_part"	: {
-		"character"	: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked_blush"],
-		"dialog"	: "|shake|Можно мне его, пожалуйста?!",
 	},
 	"comment_give_burden"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
@@ -303,7 +299,7 @@
 	"BDN_the_void_taken" 		: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Интересно, какие чувства к нам в самом деле испытывает наша мать?",
+			"dialog"			: "Интересно, какие чувства к нам в самом деле испытывает Мать?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
@@ -398,5 +394,4 @@
 			"dialog"			: "В моём замке тебе всегда рады!",
 		},
 	],
-
 }
