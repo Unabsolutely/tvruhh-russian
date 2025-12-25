@@ -426,6 +426,7 @@
 	
 	"B_momo" : {
 		"name"    : "Момо",
+		"card"    : "",
 		"eyeric"  : "|mo||mo| (Momo)",
 		"before"  : "Танцевальная битва насмерть!",
 		"after"   : "Танцуй со мной",
@@ -1001,8 +1002,8 @@
 	
 	"B_shiny_veyerals" : {
 		"name"    : "Сияющие Веерали",
-		"eyeric"  : "|vai||ral||tar||-||fai||shen| (Veyeraltar Faishen)",
 		"card"    : "",
+		"eyeric"  : "|vai||ral||tar||-||fai||shen| (Veyeraltar Faishen)",
 		"before"  : "Дай нам увидеть сны",
 		"after"   : "Этой ночью у нас будут только хорошие сны",
 		"notes"   : "Они всегда могли сиять столь же ярко. Просто раньше они этого не понимали.",
