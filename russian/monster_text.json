@@ -687,7 +687,7 @@
 	},
 	
 	"B_avoid_blot" : {
-		"name"    : "Избегающая Клякса",
+		"name"    : "Замкнутая Клякса",
 		"card"    : "",
 		"eyeric"  : "|zhe||den||-||vai||ze||nah| (Zheden Vaizena)",
 		"before"  : "Всё будет мрачно!",
@@ -919,8 +919,8 @@
 	},
 	
 	"B_avoid_vitrea" : {
-		"name"    : "Избегающая Витражия",
-		"card"    : "Избег. Витражия",
+		"name"    : "Замкнутая Витражия",
+		"card"    : "",
 		"eyeric"  : "|ki||ze||ah||-||vai||ze||nah| (Kizea Vaizena)",
 		"before"  : "Не указывай мне, как быть!",
 		"after"   : "С тобой я могу быть собой",
