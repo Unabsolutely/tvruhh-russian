@@ -657,6 +657,16 @@
 	"rpg_atk_dance3"			: "Смертельный Танец",
 	"rpg_atk_dance4"			: "Головокружительный Танец",
 	
+	"stargem_previous"			: "Предыдущая",
+	"stargem_next"				: "Следующая",
+	"stargem_stardust"			: "Звёздной Пыли - [VAL1]",
+	"stargem_level"				: "Ур. [VAL1]",
+	"stargem_max"				: "Ур. [VAL1] Максимум",
+	"stargem_goal"				: "Следующий: [VAL1]",
+	"stargem_round"				: "Счёт Раунда: [VAL1]",
+	"stargem_flips"				: "Переворотов: [VAL1]",
+	"stargem_deck_title"		: "Ваша Колода",
+	
 	"error_catch" 	: [
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],

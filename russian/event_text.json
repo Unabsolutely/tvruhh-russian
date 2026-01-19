@@ -543,6 +543,14 @@
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
 	},
+	"E_bond_shanx" : {
+		"name"		: "Крестовый Поход Звёздной Пыли",
+		"hint"		: "[hint_chance]",
+		"details"	: "(Coming Soon v8.31a)",
+		"rule1"		: "[rule_bonding1]",
+		"rule2"		: "[rule_bonding2]",
+		"rule3"		: "[rule_bonding3]",
+	},
 	"E_bond_dendrohai" : {
 		"name"		: "Игра Тернов",
 		"hint"		: "[hint_chance]",

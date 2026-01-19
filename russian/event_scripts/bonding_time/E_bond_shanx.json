@@ -1,0 +1,367 @@
+{
+	"intro" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "There ya are, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I see you still scurrying around, chasin' monsters all over the forest.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Why don't ya take a little break and play a game of |C3|Stargems|C0| with me?",
+		},
+	],
+	
+	"monster_mood"		: "Shanx's Mood",
+	"monster_gifts"		: "Shanx's Gifts",
+	
+	"op_game"		: "Play Stargems",
+	"op_sleep"		: "Take a nap",
+	"op_tutorial"	: "Explain Stargems",
+	"op_start_game"	: "Start the game",
+	
+	"comment_first"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "Play with me, darling!",
+	},
+	"comment_before_game"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "Have you played this before?",
+	},
+	
+	"to_cave" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I set up the game in this snug little cave over here.",
+		},
+	],
+	
+	"explain_game" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "The game is pretty simple.",
+		},
+		{
+			"show_tutorial"		: "stargem_board",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Ya get a deck of 24 cards in 12 pairs, and each round I'm gunna give you half of 'em.",
+		},
+		{
+			"show_tutorial"		: "stargem_board_match1",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "All you gotta do is flip them over and try to match 'em.",
+		},
+		{
+			"show_tutorial"		: "stargem_board_match3",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "After every 3 matches, I'll replace those cards with 3 more pairs from your deck.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Ya get 30 flips to make as many matches as ya can, darling!",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Every card match will give ya some |C3|stardust points!|C0|",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "They give ya different amounts of stardust dependin' on how many little points the star has.",
+		},
+		{
+			"show_tutorial"		: "stargem_4point",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Like this star right here has 4 points, so matching it gives ya 4 points.",
+		},
+		{
+			"show_tutorial"		: "stargem_5point",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "This star has 5 points, so it gives ya 5 points.|L|Easy, right?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "But here's where it gets real good.",
+		},
+		{
+			"show_tutorial"		: "stargem_bonus_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Somma your cards got these little bonuses on 'em.",
+		},
+		{
+			"show_tutorial"		: "stargem_multi_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "These cards will double or triple their own score!",
+		},
+		{
+			"show_tutorial"		: "stargem_multi_bonus",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "But these ones multiply the score of your NEXT card match!",
+		},
+		{
+			"show_tutorial"		: "stargem_add_bonus",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "And these cards will add stardust to your NEXT TWO card matches.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "These get added before any multipliers too!",
+		},
+		{
+			"show_tutorial"		: "stargem_bonus_cards",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "So now ya gotta consider what order you wanna match your cards.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Don't just match 'em all as soon as you know where they are.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "You gotta plan a chain, darling.",
+		},
+		{
+			"show_tutorial"		: "stargem_combo_chain",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "If ya match these 3 cards in this order, you're gunna get a whole lotta stardust!",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "But you still gotta remember that ya got limited flips before the round ends.",
+		},
+		{
+			"show_tutorial"		: "none",
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "It gets even more interesting between rounds, but you'll figure it out when we get there.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Oh, one more thing-",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Just |C3|press |B7||C0| on any revealed card and I'll tell ya what it does if ya can't remember.",
+		},
+	],
+	
+	
+	"to_first_round" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Let's get right to it then, darling!",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Here's your first round of cards.",
+		},
+	],
+	"to_next_round" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Round [VAL1], comin' up!",
+			"dialog_rand2"		: "It's time for round [VAL1]!",
+			"dialog_rand3"		: "Let's go another round, darling!",
+		},
+	],
+	
+	"sg_main_basic"		: "This star gives ya [VAL1] stardust.",
+	"sg_main_bonus"		: "This star gives ya [VAL1] stardust, [BONUS]",
+	"sg_main_star"		: "This star is always worth 25% of the stardust ya got in the round so far!",
+	"sg_main_copy"		: "This card copies the last one ya matched!|L||C4|It only gives ya 2 stardust if ya got no matches yet though.|C0|",
+	"sg_main_add"		: "This card adds |C3|+[VAL1] stardust|C0| to all matches for the rest of the round!",
+	"sg_main_reveal"	: "This star is only worth 1 stardust, but it'll activate and |C3|reveal random cards [VAL1] times!|C0|",
+	"sg_bonus_multi"	: "but the card activates [VAL1] times!",
+	"sg_bonus_add"		: "and it adds |C3|+[VAL1] stardust|C0| to the next 2 matches.",
+	"sg_bonus_x2"		: "and it gives your next match |C3|double stardust!|C0|",
+	"sg_bonus_x3"		: "and it gives your next match |C3|triple stardust!|C0|",
+	"sg_bonus_reveal1"	: "and it also |C3|reveals a random card.|C0|",
+	"sg_bonus_reveal2"	: "and it also |C3|reveals 2 random cards!|C0|",
+	"sg_score_preview"	: "|C5|It'll getcha [VAL1] stardust right now.|C0|",
+	"explain_form"			: "[MAIN]",
+	"explain_form_score"	: "[MAIN]|L|[SCORE]",
+	"comment_explain_card"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "[VAL1]",
+	},
+	
+	"comment_stargems_start"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Let's get to flippin'.",
+	},
+	"comment_stargems_match"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "Gatherin' stardust.",
+	},
+	"comment_stargems_miss"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "Try again, darling.",
+	},
+	"comment_stargems_round_end"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "That's all for this round, darling.",
+	},
+	"comment_stargems_game_win"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "|shake|You made it to the top!",
+	},
+	
+	"round_end_no_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
+			"dialog"			: "You didn't get enough stardust to go up a level this time.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "But there's always next round, darling.",
+		},
+	],
+	"round_end_level_up" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Ya went up a whole stardust level this round!",
+		},
+	],
+	"round_end_multi_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Ya went up by [VAL1] whole stardust levels, darling!",
+		},
+	],
+	"round_end_times_up" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
+			"dialog"			: "That's all the rounds we got time for today, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Ya made it all the way up to stardust level [VAL2]!",
+		},
+	],
+	"round_end_max_level" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Ya made a pile of stardust even taller than I am!",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "|wave|I think you won the game, darling.",
+		},
+	],
+	
+	
+	
+	"to_card_trade_first" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Now I'm gunna pull out some random cards, and you can trade 'em for ones you got in your deck.",
+		},
+	],
+	"to_card_trade" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 3,
+			"dialog_rand1"		: "Let's getcha some new cards.",
+			"dialog_rand2"		: "Let's see whatcha get this time.",
+			"dialog_rand3"		: "New cards commin' up.",
+		},
+	],
+	"comment_nothing"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "",
+	},
+	"comment_choose_swap"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Pick the card ya wanna swap for it.",
+	},
+	"comment_choose_done"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Touch this card when you're all done tradin'.",
+	},
+	
+	
+	
+	"to_gift" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Before you go, I got some gifts for ya!",
+		},
+	],
+	"comment_take_normal"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Take anythin' ya want.",
+	},
+	"comment_take_unknown"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "Wait. What is this again?",
+	},
+	"gift_confirm"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Ya want this?",
+	},
+	"leave_confirm"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+		"dialog"	: "Don't want nothin'?",
+	},
+	"to_another_gift" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "That suits you so well, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "You want another one?",
+		}
+	],
+	"to_last_gift" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "I'm glad ya like it, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I wantcha to take one more.",
+		}
+	],
+	"to_the_end" 		: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Look at that big ol' smile it put on your face.",
+		},
+	],
+	
+	
+	
+	"to_sleep_blank"	: "bonding_time/bonding_common_text",
+	"to_sleep_defect"	: "bonding_time/bonding_common_text",
+	"to_sleep_twins"	: "bonding_time/bonding_common_text",
+	"to_sleep_devil"	: "bonding_time/bonding_common_text",
+	"sleep_response" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "You can sleep right here next to me, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Far as I'm concerned, you're my new guard zone 'til you wake up.",
+		},
+	],
+	
+	
+	
+	
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Sorry 'bout this, but a little more time is needed to write all these little endin' scenes.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "I hope ya enjoyed playin' stargems with me.",
+		},
+	],
+	"error_catch"	: "bonding_time/bonding_common_text",
+
+}
