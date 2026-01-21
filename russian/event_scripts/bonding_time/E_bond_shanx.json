@@ -37,6 +37,32 @@
 			"dialog"			: "I set up the game in this snug little cave over here.",
 		},
 	],
+	"to_cave_twins" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I set up the game in this cozy cave over here.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
+			"dialog"			: "It looks like there's not much room for all of us in here.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
+			"dialog"			: "That's okay though. I think I'll go for a little walk while you two play.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
+			"dialog"			: "Wait.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Looks like it's just me n' you, darling.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Umm... Okay.",
+		},
+	],
 	
 	"explain_game" 	: [
 		{
@@ -351,15 +377,98 @@
 	
 	
 	
-	
-	"leave_default" : [
+	"leave_blank" 	: [
 		{
-			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Sorry 'bout this, but a little more time is needed to write all these little endin' scenes.",
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
+			"dialog"			: "Your flower crown is so pretty.|L|I love it!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"random"			: 5,
+			"dialog_rand1"		: "Darling, you got me happier than an avioc findin' a fresh batch of sweet fruits.",
+			"dialog_rand2"		: "Darling, you got me feelin' like a day bloom in the sunshine after 2 weeks of rain.",
+			"dialog_rand3"		: "Darling, you got me feelin' like a night bloom on the night of the three full moons.",
+			"dialog_rand4"		: "Darling, if I were a glyph, you'd be drownin' in heart stones right about now.",
+			"dialog_rand5"		: "Darling, don't make me have to pick you up and squeeze ya 'til all your cute rubs off on me.",
+		},
+		{
+			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love you!",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "You just love gettin' a reaction outta me, don't ya?",
+		},
+	],
+	"leave_defect" 	: [
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
+			"dialog"			: "I was wondering,    how can you see anything without any eyes?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I don't need eyes to see, darling.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "I hope ya enjoyed playin' stargems with me.",
+			"dialog"			: "There are so many other ways to see.",
+		},
+		{
+			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
+			"dialog"			: "Oh... I never thought about that.",
+		},
+	],
+	"leave_twins" 	: [
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_normal"],
+			"dialog"			: "How was the game?",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
+			"dialog"			: "I really could have used your help.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
+			"dialog"			: "That would have been cheating.",
+		},
+		{
+			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
+			"dialog"			: "You have to learn to do this yourself sometimes.",
+		},
+		{
+			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
+			"dialog"			: "Are we still talking about the game?",
+		},
+	],
+	"leave_devil" 	: [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Darling, your crown is simply magnificent.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "It makes you look so powerful.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
+			"dialog"			: "I knew you would understand the importance of looking powerful.",
+		},
+		{
+			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
+			"dialog"			: "Your crown gives you such a dominating presence.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Darling, keep talkin' like that, and I'll just have to keep ya here with me forever.",
+		},
+	],
+	"leave_default" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "I hope ya enjoyed playin' some Stargems with me, darling.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
