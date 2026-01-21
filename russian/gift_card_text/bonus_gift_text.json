@@ -184,11 +184,36 @@
 		"name"    : "Больше Отмены",
 		"memory"  : "Я не думаю, что заслуживаю ещё одного шанса.",
 		"card"    : "Блокирует следующие [VAL1] удара",
+		},
+	
+	
+	
+	
+	"BNS_shiny_chip" : {
+		"name"    : "Блестящий Чип",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "Защита Света +[VAL1]|L|+[VAL2] кармы",
 	},
-	
-	
-	
-	
+	"BNS_null_chip" : {
+		"name"    : "Пустой Чип",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "Защита Пустоты. +[VAL1]|L|+[VAL2] паник",
+	},
+	"BNS_insulated_chip" : {
+		"name"    : "Изолированный Чип",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "Защита Огня +[VAL1]|L|Макс ОЗ +[VAL2]",
+	},
+	"BNS_elastic_chip" : {
+		"name"    : "Эластичный Чип",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "Защита Молнии +[VAL1]|L|+[VAL2] резервных ОЗ",
+	},
+	"BNS_resistant_chip" : {
+		"name"    : "Нержавеющий Чип",
+		"memory"  : "(Coming Soon v8.31c)",
+		"card"    : "Защита Яда +[VAL1]|L|+[VAL2] Стеклянных сердец",
+	},	
 	"BNS_sweet_soup" : {
 		"name"    : "Сладкий Суп",
 		"memory"  : "Зарадены любят конфеты, так? Давайте высыпем целую гору конфет в суп и посмотрим, что получится!",
