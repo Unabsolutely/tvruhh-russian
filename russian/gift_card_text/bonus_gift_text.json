@@ -197,12 +197,12 @@
 	"BNS_null_chip" : {
 		"name"    : "Пустой Чип",
 		"memory"  : "(Coming Soon v8.31c)",
-		"card"    : "Защита Пустоты. +[VAL1]|L|+[VAL2] паник",
+		"card"    : "Защита Пустоты +[VAL1]|L|+[VAL2] паника",
 	},
 	"BNS_insulated_chip" : {
 		"name"    : "Изолированный Чип",
 		"memory"  : "(Coming Soon v8.31c)",
-		"card"    : "Защита Огня +[VAL1]|L|Макс ОЗ +[VAL2]",
+		"card"    : "Защита Огня +[VAL1]|L|Макс. ОЗ +[VAL2]",
 	},
 	"BNS_elastic_chip" : {
 		"name"    : "Эластичный Чип",
@@ -212,7 +212,7 @@
 	"BNS_resistant_chip" : {
 		"name"    : "Нержавеющий Чип",
 		"memory"  : "(Coming Soon v8.31c)",
-		"card"    : "Защита Яда +[VAL1]|L|+[VAL2] Стеклянных сердец",
+		"card"    : "Защита Яда +[VAL1]|L|+[VAL2] Стеклянное сердце",
 	},	
 	"BNS_sweet_soup" : {
 		"name"    : "Сладкий Суп",

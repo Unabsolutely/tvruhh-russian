@@ -75,7 +75,7 @@
 	},
 	"main_comment_veyeral_ask"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
-		"dialog"	: "Мы можем спросить это существо-глаз про ключи.",
+		"dialog"	: "Мы можем спросить эти существа-глаза про ключи.",
 	},
 	"main_comment_veyeral_play"	: {
 		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
