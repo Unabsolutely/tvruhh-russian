@@ -380,89 +380,89 @@
 	"leave_blank" 	: [
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "Your flower crown is so pretty.|L|I love it!",
+			"dialog"			: "Твой цветочный венец такой красивый.|L|Он мне очень нравится!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
 			"random"			: 5,
-			"dialog_rand1"		: "Darling, you got me happier than an avioc findin' a fresh batch of sweet fruits.",
-			"dialog_rand2"		: "Darling, you got me feelin' like a day bloom in the sunshine after 2 weeks of rain.",
-			"dialog_rand3"		: "Darling, you got me feelin' like a night bloom on the night of the three full moons.",
-			"dialog_rand4"		: "Darling, if I were a glyph, you'd be drownin' in heart stones right about now.",
-			"dialog_rand5"		: "Darling, don't make me have to pick you up and squeeze ya 'til all your cute rubs off on me.",
+			"dialog_rand1"		: "Солнышко, ты сделала меня счастливие авиоки, снискавшей целую тонну свежых и сладких фруктов.",
+			"dialog_rand2"		: "Солнышко, я чувствую себя, будто цветик, попавший под первые лучи спустя две недели дождя.",
+			"dialog_rand3"		: "Солнышко, я чувствую себя, будто лунный цветок, оказавшийся сразу под трёмя ночными светилами.",
+			"dialog_rand4"		: "Солнышко, будь я глифом, ты бы уже почти тонула в сердечных камнях.",
+			"dialog_rand5"		: "Солнышко, не заставляй меня хватать и обнимать тебя, пока вся твоя милота не впитается в меня.",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_very_happy"],
-			"dialog"			: "|wave|I love you!",
+			"dialog"			: "|wave|Я люблю тебя!",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "You just love gettin' a reaction outta me, don't ya?",
+			"dialog"			: "Тебе ведь просто нравится наблюдать за моими ответами, не так ли?",
 		},
 	],
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_confused"],
-			"dialog"			: "I was wondering,    how can you see anything without any eyes?",
+			"dialog"			: "Я тут думала,    как у тебя получается видеть без глаз?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I don't need eyes to see, darling.",
+			"dialog"			: "Мне не нужны глаза, чтобы смотреть, солнышно.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "There are so many other ways to see.",
+			"dialog"			: "Есть большое количество других способов видеть.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "Oh... I never thought about that.",
+			"dialog"			: "О... Никогда об этом не задумывалась.",
 		},
 	],
 	"leave_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_normal"],
-			"dialog"			: "How was the game?",
+			"dialog"			: "Как была игра?",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused"],
-			"dialog"			: "I really could have used your help.",
+			"dialog"			: "Мне бы точно не помешала твоя помощь.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_content"],
-			"dialog"			: "That would have been cheating.",
+			"dialog"			: "Это было бы нечестно.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "You have to learn to do this yourself sometimes.",
+			"dialog"			: "Иногда тебе надо делать это и самой.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Are we still talking about the game?",
+			"dialog"			: "Мы все ещё об игре говорим?",
 		},
 	],
 	"leave_devil" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Darling, your crown is simply magnificent.",
+			"dialog"			: "Солнышко, твой венец просто великолепен.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "It makes you look so powerful.",
+			"dialog"			: "Он делает тебя такой могущественной.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_content"],
-			"dialog"			: "I knew you would understand the importance of looking powerful.",
+			"dialog"			: "Я знала, что ты поймёшь важность выглядеть внушительно.",
 		},
 		{
 			"character"			: ["VOICE_devil", "CHAR_devil_left", "MOOD_aggressive2"],
-			"dialog"			: "Your crown gives you such a dominating presence.",
+			"dialog"			: "Твой венец оказывает по-настоящему подавляющее присутствие.",
 		},
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Darling, keep talkin' like that, and I'll just have to keep ya here with me forever.",
+			"dialog"			: "Солнышко, продолжишь так разглагольствовать, и я захочу оставить тебя со мной здесь навечно.",
 		},
 	],
 	"leave_default" : [
@@ -472,5 +472,6 @@
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
+
 
 }
