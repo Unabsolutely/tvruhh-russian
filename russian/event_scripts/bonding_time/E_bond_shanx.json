@@ -2,173 +2,173 @@
 	"intro" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "There ya are, darling.",
+			"dialog"			: "А вот и ты, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I see you still scurrying around, chasin' monsters all over the forest.",
+			"dialog"			: "Всё шастаешь вокруг да около, гоняешься за монстрами по всему лесу.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Why don't ya take a little break and play a game of |C3|Stargems|C0| with me?",
+			"dialog"			: "Почему бы тебе не прерваться и поиграть со мной в |C3|Камни-Звёзды|C0|?",
 		},
 	],
 	
-	"monster_mood"		: "Shanx's Mood",
-	"monster_gifts"		: "Shanx's Gifts",
+	"monster_mood"		: "Настроение Шэнкс",
+	"monster_gifts"		: "Дары Шэнкс",
 	
-	"op_game"		: "Play Stargems",
-	"op_sleep"		: "Take a nap",
-	"op_tutorial"	: "Explain Stargems",
-	"op_start_game"	: "Start the game",
+	"op_game"		: "Играть в Камни-Звёзды",
+	"op_sleep"		: "Вздремнуть",
+	"op_tutorial"	: "Объяснить Камни-Звёзды",
+	"op_start_game"	: "Начать игру",
 	
 	"comment_first"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-		"dialog"	: "Play with me, darling!",
+		"dialog"	: "Сыграй со мной, солнышко!",
 	},
 	"comment_before_game"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "Have you played this before?",
+		"dialog"	: "Ты уже играла в них?",
 	},
 	
 	"to_cave" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I set up the game in this snug little cave over here.",
+			"dialog"			: "Я разложила игру вон в той уютной пещерке.",
 		},
 	],
 	"to_cave_twins" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I set up the game in this cozy cave over here.",
+			"dialog"			: "Я разложила игру вон в той уютной пещерке.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_confused"],
-			"dialog"			: "It looks like there's not much room for all of us in here.",
+			"dialog"			: "Мне кажется, все мы туда не поместимся.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
-			"dialog"			: "That's okay though. I think I'll go for a little walk while you two play.",
+			"dialog"			: "Ну и ладно. Прогуляюсь, пока вы двое играете.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_shocked_blush"],
-			"dialog"			: "Wait.",
+			"dialog"			: "Погоди.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Looks like it's just me n' you, darling.",
+			"dialog"			: "Ну вот мы и остались вдвоём, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Umm... Okay.",
+			"dialog"			: "Эмм... Ладно.",
 		},
 	],
 	
 	"explain_game" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "The game is pretty simple.",
+			"dialog"			: "Игра довольно проста.",
 		},
 		{
 			"show_tutorial"		: "stargem_board",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Ya get a deck of 24 cards in 12 pairs, and each round I'm gunna give you half of 'em.",
+			"dialog"			: "У вас есть колода из 24 карт - 12 пар, и каждый раунд я раздам тебе половину из них.",
 		},
 		{
 			"show_tutorial"		: "stargem_board_match1",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "All you gotta do is flip them over and try to match 'em.",
+			"dialog"			: "Всё, что нужно - переворачивать их и попытаться сопоставлять одинаковые.",
 		},
 		{
 			"show_tutorial"		: "stargem_board_match3",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "After every 3 matches, I'll replace those cards with 3 more pairs from your deck.",
+			"dialog"			: "После каждых трёх пар я заменю их тремя новыми парами из колоды.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Ya get 30 flips to make as many matches as ya can, darling!",
+			"dialog"			: "У тебя 30 переворотов, чтобы собрать как можно больше пар, солнышко!",
 		},
 		{
 			"show_tutorial"		: "none",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Every card match will give ya some |C3|stardust points!|C0|",
+			"dialog"			: "Каждая пара даст тебе |C3|очки звёздной пыли!|C0|",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "They give ya different amounts of stardust dependin' on how many little points the star has.",
+			"dialog"			: "Они дадут тебе столько звёздной пыли, сколько вершин на звёздах.",
 		},
 		{
 			"show_tutorial"		: "stargem_4point",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Like this star right here has 4 points, so matching it gives ya 4 points.",
+			"dialog"			: "Вот как на этой звезде 4 вершины, так и пара этих звёзд даст тебе 4 очка.",
 		},
 		{
 			"show_tutorial"		: "stargem_5point",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "This star has 5 points, so it gives ya 5 points.|L|Easy, right?",
+			"dialog"			: "Это - пятиконечная звезда, так что она даст тебе пять очков.|L|Несложно, да?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "But here's where it gets real good.",
+			"dialog"			: "Но смотри, есть ещё кое-то интересное.",
 		},
 		{
 			"show_tutorial"		: "stargem_bonus_cards",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Somma your cards got these little bonuses on 'em.",
+			"dialog"			: "На кой-каких картах есть маленькие бонусы.",
 		},
 		{
 			"show_tutorial"		: "stargem_multi_cards",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "These cards will double or triple their own score!",
+			"dialog"			: "Эти карты удвоят или утроят свою стоимость!",
 		},
 		{
 			"show_tutorial"		: "stargem_multi_bonus",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "But these ones multiply the score of your NEXT card match!",
+			"dialog"			: "А эти умножат стоимость СЛЕДУЮЩЕЙ пары!",
 		},
 		{
 			"show_tutorial"		: "stargem_add_bonus",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "And these cards will add stardust to your NEXT TWO card matches.",
+			"dialog"			: "А эти добавят звёздную пыль к твоим СЛЕДУЮЩИМ ДВУМ парам.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "These get added before any multipliers too!",
+			"dialog"			: "И да, она будет добавлена до любых множителей!",
 		},
 		{
 			"show_tutorial"		: "stargem_bonus_cards",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "So now ya gotta consider what order you wanna match your cards.",
+			"dialog"			: "Так что тебе надо смекнуть, в каком порядке ты будешь собирать пары.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Don't just match 'em all as soon as you know where they are.",
+			"dialog"			: "Не собирай их, как только ты узнаешь, где они.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "You gotta plan a chain, darling.",
+			"dialog"			: "Устрой цепочку, солнышко.",
 		},
 		{
 			"show_tutorial"		: "stargem_combo_chain",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "If ya match these 3 cards in this order, you're gunna get a whole lotta stardust!",
+			"dialog"			: "Соберёшь пары из этих 3 карт в этом порядке - получишь море звёздной пыли!",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "But you still gotta remember that ya got limited flips before the round ends.",
+			"dialog"			: "Но упомни, что у тебя ограниченное число переворотов до конца раунда.",
 		},
 		{
 			"show_tutorial"		: "none",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "It gets even more interesting between rounds, but you'll figure it out when we get there.",
+			"dialog"			: "Меж раундами будет ещё интереснее, но мы разберёмся по ходу.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Oh, one more thing-",
+			"dialog"			: "А, и ещё-",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Just |C3|press |B7||C0| on any revealed card and I'll tell ya what it does if ya can't remember.",
+			"dialog"			: "Просто |C3|нажми на |B7||C0| на любой открытой карте, и я скажу тебе, что она делает, если не помнишь.",
 		},
 	],
 	
@@ -176,36 +176,36 @@
 	"to_first_round" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Let's get right to it then, darling!",
+			"dialog"			: "Давай начнём, солнышко!",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Here's your first round of cards.",
+			"dialog"			: "Вот твой первый набор карт.",
 		},
 	],
 	"to_next_round" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "Round [VAL1], comin' up!",
-			"dialog_rand2"		: "It's time for round [VAL1]!",
-			"dialog_rand3"		: "Let's go another round, darling!",
+			"dialog_rand1"		: "Раунд [VAL1], начало!",
+			"dialog_rand2"		: "Время для [VAL1]-го раунда!",
+			"dialog_rand3"		: "Начнём новый раунд, солнышко!",
 		},
 	],
 	
-	"sg_main_basic"		: "This star gives ya [VAL1] stardust.",
-	"sg_main_bonus"		: "This star gives ya [VAL1] stardust, [BONUS]",
-	"sg_main_star"		: "This star is always worth 25% of the stardust ya got in the round so far!",
-	"sg_main_copy"		: "This card copies the last one ya matched!|L||C4|It only gives ya 2 stardust if ya got no matches yet though.|C0|",
-	"sg_main_add"		: "This card adds |C3|+[VAL1] stardust|C0| to all matches for the rest of the round!",
-	"sg_main_reveal"	: "This star is only worth 1 stardust, but it'll activate and |C3|reveal random cards [VAL1] times!|C0|",
-	"sg_bonus_multi"	: "but the card activates [VAL1] times!",
-	"sg_bonus_add"		: "and it adds |C3|+[VAL1] stardust|C0| to the next 2 matches.",
-	"sg_bonus_x2"		: "and it gives your next match |C3|double stardust!|C0|",
-	"sg_bonus_x3"		: "and it gives your next match |C3|triple stardust!|C0|",
-	"sg_bonus_reveal1"	: "and it also |C3|reveals a random card.|C0|",
-	"sg_bonus_reveal2"	: "and it also |C3|reveals 2 random cards!|C0|",
-	"sg_score_preview"	: "|C5|It'll getcha [VAL1] stardust right now.|C0|",
+	"sg_main_basic"		: "Эта звезда даёт тебе [VAL1] звёздной пыли.",
+	"sg_main_bonus"		: "Эта звезда даёт тебе [VAL1] звёздной пыли, [BONUS]",
+	"sg_main_star"		: "Эта звезда всегда даёт 25% звёздной пыли, что ты уже получил за это раунд!",
+	"sg_main_copy"		: "Эта карта копирует вашу последнюю пару!|L||C4|Правда, она даст только 2 очка, если ты ещё не собрала ни одной пары.|C0|",
+	"sg_main_add"		: "Эта карта добавляет |C3|+[VAL1] звёздной пыли|C0| ко всем парам на весь оставшийся раунд!",
+	"sg_main_reveal"	: "Эта звезда стоит всего 1 очко, но после активации она |C3|откроет [VAL1] случайные карты!|C0|",
+	"sg_bonus_multi"	: "но эта карта активируется [VAL1] раза!",
+	"sg_bonus_add"		: "и добавляет |C3|+[VAL1] звёздной пыли|C0| к следующим 2 парам.",
+	"sg_bonus_x2"		: "и даёт следующей паре |C3|удвоенную звёздную пыль!|C0|",
+	"sg_bonus_x3"		: "и даёт следующей паре |C3|утроенную звёздную пыль!|C0|",
+	"sg_bonus_reveal1"	: "и |C3|открывает случайную карту.|C0|",
+	"sg_bonus_reveal2"	: "и |C3|открывает 2 случайные карты!|C0|",
+	"sg_score_preview"	: "|C5|Сейчас она даст тебе [VAL1] звёздной пыли.|C0|",
 	"explain_form"			: "[MAIN]",
 	"explain_form_score"	: "[MAIN]|L|[SCORE]",
 	"comment_explain_card"	: {
@@ -215,23 +215,23 @@
 	
 	"comment_stargems_start"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Let's get to flippin'.",
+		"dialog"	: "Давай начнём.",
 	},
 	"comment_stargems_match"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-		"dialog"	: "Gatherin' stardust.",
+		"dialog"	: "Собираю звёздную пыль.",
 	},
 	"comment_stargems_miss"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "Try again, darling.",
+		"dialog"	: "Попытайся опять, солнышко.",
 	},
 	"comment_stargems_round_end"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-		"dialog"	: "That's all for this round, darling.",
+		"dialog"	: "На этот раунд всё, солнышко.",
 	},
 	"comment_stargems_game_win"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "|shake|You made it to the top!",
+		"dialog"	: "|shake|Ты дошла до верхушки!",
 	},
 	
 	"round_end_no_level" : [
