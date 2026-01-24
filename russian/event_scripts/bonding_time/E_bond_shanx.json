@@ -237,43 +237,43 @@
 	"round_end_no_level" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
-			"dialog"			: "You didn't get enough stardust to go up a level this time.",
+			"dialog"			: "На сей раз ты не получила достаточно звёздной пыли, чтобы получить уровень.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "But there's always next round, darling.",
+			"dialog"			: "Но всегда есть ещё один, солнышко.",
 		},
 	],
 	"round_end_level_up" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Ya went up a whole stardust level this round!",
+			"dialog"			: "Ты получила целый уровень звёздной пыли за раунд!",
 		},
 	],
 	"round_end_multi_level" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Ya went up by [VAL1] whole stardust levels, darling!",
+			"dialog"			: "Ты получила аж [VAL1] уровней звёздной пыли, солнышко!",
 		},
 	],
 	"round_end_times_up" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_sad"],
-			"dialog"			: "That's all the rounds we got time for today, darling.",
+			"dialog"			: "На сегодня раундам конец, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Ya made it all the way up to stardust level [VAL2]!",
+			"dialog"			: "Ты дошла аж до [VAL2]-го уровня звёздной пыли !",
 		},
 	],
 	"round_end_max_level" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Ya made a pile of stardust even taller than I am!",
+			"dialog"			: "Ты собрала гору звёздной пыли аж выше, чем я!",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "|wave|I think you won the game, darling.",
+			"dialog"			: "|wave|Мне кажется, ты выиграла, солнышко.",
 		},
 	],
 	
@@ -282,16 +282,16 @@
 	"to_card_trade_first" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Now I'm gunna pull out some random cards, and you can trade 'em for ones you got in your deck.",
+			"dialog"			: "Теперь я достану несколько случайных карт, и ты можешь поменять их с теми, что у тебя в колоде.",
 		},
 	],
 	"to_card_trade" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
 			"random"			: 3,
-			"dialog_rand1"		: "Let's getcha some new cards.",
-			"dialog_rand2"		: "Let's see whatcha get this time.",
-			"dialog_rand3"		: "New cards commin' up.",
+			"dialog_rand1"		: "Давай достанем новые карты.",
+			"dialog_rand2"		: "Посмотрим, что тебе придёт в этот раз.",
+			"dialog_rand3"		: "Вот и новые карты.",
 		},
 	],
 	"comment_nothing"	: {
@@ -300,11 +300,11 @@
 	},
 	"comment_choose_swap"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Pick the card ya wanna swap for it.",
+		"dialog"	: "Выбери карту, с коей ты хочешь поменять.",
 	},
 	"comment_choose_done"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Touch this card when you're all done tradin'.",
+		"dialog"	: "Коснись этой карты, если наторгуешься.",
 	},
 	
 	
@@ -312,49 +312,49 @@
 	"to_gift" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Before you go, I got some gifts for ya!",
+			"dialog"			: "Коли ты ещё не ушла, дары у меня есть для тебя!",
 		},
 	],
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Take anythin' ya want.",
+		"dialog"	: "Бери что пожелаешь.",
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "Wait. What is this again?",
+		"dialog"	: "Погоди, а что это за диво?",
 	},
 	"gift_confirm"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Ya want this?",
+		"dialog"	: "Хочешь его?",
 	},
 	"leave_confirm"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "Don't want nothin'?",
+		"dialog"	: "Не хочешь ничего?",
 	},
 	"to_another_gift" 		: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "That suits you so well, darling.",
+			"dialog"			: "Тебе это так идёт, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "You want another one?",
+			"dialog"			: "Хочешь ещё?",
 		}
 	],
 	"to_last_gift" 		: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "I'm glad ya like it, darling.",
+			"dialog"			: "Я рада, что тебе нравится, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I wantcha to take one more.",
+			"dialog"			: "Возьми ещё один.",
 		}
 	],
 	"to_the_end" 		: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Look at that big ol' smile it put on your face.",
+			"dialog"			: "Ну посмотри на эту улыбку на твоём личике.",
 		},
 	],
 	
@@ -367,11 +367,11 @@
 	"sleep_response" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "You can sleep right here next to me, darling.",
+			"dialog"			: "Можешь поспать прямо здесь, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Far as I'm concerned, you're my new guard zone 'til you wake up.",
+			"dialog"			: "Коль так, ты моя новая зона стражи, пока не проснёшься.",
 		},
 	],
 	
@@ -468,7 +468,7 @@
 	"leave_default" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "I hope ya enjoyed playin' some Stargems with me, darling.",
+			"dialog"			: "Надеюсь, тебе понравилось играть в Камни-Звёзды со мной, солнышко.",
 		},
 	],
 	"error_catch"	: "bonding_time/bonding_common_text",
