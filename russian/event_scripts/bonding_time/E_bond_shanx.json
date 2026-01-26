@@ -6,11 +6,11 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Всё шастаешь вокруг да около, гоняешься за монстрами по всему лесу.",
+			"dialog"			: "Всё шастаешь по всему лесу, гоняешься за монстрами.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Почему бы тебе не прерваться и поиграть со мной в |C3|Камни-Звёзды|C0|?",
+			"dialog"			: "Что бы тебе не прерваться и поиграть со мной в |C3|Камни-Звёзды|C0|?",
 		},
 	],
 	
@@ -34,7 +34,7 @@
 	"to_cave" 	: [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Я разложила игру вон в той уютной пещерке.",
+			"dialog"			: "Я разложила игру вон в той уютной пещерочке.",
 		},
 	],
 	"to_cave_twins" 	: [
@@ -72,7 +72,7 @@
 		{
 			"show_tutorial"		: "stargem_board",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "У вас есть колода из 24 карт - 12 пар, и каждый раунд я раздам тебе половину из них.",
+			"dialog"			: "У тебя есть колода из 24 карт - 12 пар, и каждый раунд я сдам тебе половину из них.",
 		},
 		{
 			"show_tutorial"		: "stargem_board_match1",
@@ -95,12 +95,12 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Они дадут тебе столько звёздной пыли, сколько вершин на звёздах.",
+			"dialog"			: "Камни дадут тебе столько звёздной пыли, сколько вершин на звёздах.",
 		},
 		{
 			"show_tutorial"		: "stargem_4point",
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Вот как на этой звезде 4 вершины, так и пара этих звёзд даст тебе 4 очка.",
+			"dialog"			: "Как на этой звездочке 4 вершины, так и пара этих звёзд даст тебе 4 очка.",
 		},
 		{
 			"show_tutorial"		: "stargem_5point",
@@ -142,11 +142,11 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Не собирай их, как только ты узнаешь, где они.",
+			"dialog"			: "Не собирай их, как только узнаешь, где они.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Устрой цепочку, солнышко.",
+			"dialog"			: "Построй цепочечку, солнышко.",
 		},
 		{
 			"show_tutorial"		: "stargem_combo_chain",
@@ -188,7 +188,7 @@
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
 			"random"			: 3,
 			"dialog_rand1"		: "Раунд [VAL1], начало!",
-			"dialog_rand2"		: "Время для [VAL1]-го раунда!",
+			"dialog_rand2"		: "Времечко [VAL1]-го раунда!",
 			"dialog_rand3"		: "Начнём новый раунд, солнышко!",
 		},
 	],
@@ -321,7 +321,7 @@
 	},
 	"comment_take_unknown"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-		"dialog"	: "Погоди, а что это за диво?",
+		"dialog"	: "Погоди, а что это?",
 	},
 	"gift_confirm"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
@@ -387,8 +387,8 @@
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
 			"random"			: 5,
 			"dialog_rand1"		: "Солнышко, ты сделала меня счастливие авиоки, снискавшей целую тонну свежих и сладких фруктов.",
-			"dialog_rand2"		: "Солнышко, я чувствую себя, будто цветик, попавший под первые лучи спустя две недели дождя.",
-			"dialog_rand3"		: "Солнышко, я чувствую себя, будто лунный цветок, оказавшийся сразу под трёмя ночными светилами.",
+			"dialog_rand2"		: "Солнышко, я чувствую себя, будто дневной цвет, попавший под первые лучи спустя две недели дождя.",
+			"dialog_rand3"		: "Солнышко, я чувствую себя, будто ночной цвет, оказавшийся сразу под трёмя полными лунами.",
 			"dialog_rand4"		: "Солнышко, будь я глифом, ты бы уже почти тонула в сердечных камнях.",
 			"dialog_rand5"		: "Солнышко, не заставляй меня хватать и обнимать тебя, пока вся твоя милота не впитается в меня.",
 		},
@@ -399,7 +399,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Тебе ведь просто нравится наблюдать за моими ответами, не так ли?",
+			"dialog"			: "Тебе ведь просто наблюдать за моей реакцией, не так ли?",
 		},
 	],
 	"leave_defect" 	: [
@@ -409,11 +409,11 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Мне не нужны глаза, чтобы смотреть, солнышно.",
+			"dialog"			: "Мне не нужны глаза, чтобы смотреть, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Есть большое количество других способов видеть.",
+			"dialog"			: "Есть множество других способов видеть.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
@@ -435,11 +435,11 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_happy"],
-			"dialog"			: "Иногда тебе надо делать это и самой.",
+			"dialog"			: "Тебе надо научиться делать это самой.",
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_confused_blush"],
-			"dialog"			: "Мы все ещё об игре говорим?",
+			"dialog"			: "Мы все ещё говорим об игре?",
 		},
 	],
 	"leave_devil" 	: [

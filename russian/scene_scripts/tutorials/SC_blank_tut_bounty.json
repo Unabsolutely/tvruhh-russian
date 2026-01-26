@@ -39,7 +39,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_happy"],
-			"dialog"			: "С этим я смогу получить более высокий результат!",
+			"dialog"			: "С ними я смогу получить более высокий результат!",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -61,7 +61,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Этот эффект от ноши будет действовать только в одной битве.",
+			"dialog"			: "Этот эффект ноши будет действовать только в одной битве.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

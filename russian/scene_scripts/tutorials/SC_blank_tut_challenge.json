@@ -9,7 +9,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised"],
-			"dialog"			: "Они хотят подарить мне ещё больше подарков?",
+			"dialog"			: "Они хотят подарить мне ещё больше даров?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_confused_blush"],
@@ -17,12 +17,12 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Теперь у монстров может быть |C3|до 3 подарков|C0| которые они могут Вам подарить.",
+			"dialog"			: "Теперь у монстров может быть |C3|до 3 даров,|C0| которые они могут Вам подарить.",
 		},
 		{
 			"show_tutorial"		: "small_challenge_cards",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Однако они могут не так легко расстаться с этими дополнительными дарами.",
+			"dialog"			: "Однако они не всегда так легко расстанутся с этими дополнительными дарами.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

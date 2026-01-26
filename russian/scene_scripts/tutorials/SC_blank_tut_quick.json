@@ -57,7 +57,7 @@
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Монстры не будут показывать Вам их |C3|Быстрые Дары|C0|, если у Вас их уже слишком много.",
+			"dialog"			: "Монстры не будут показывать Вам свои |C3|Быстрые Дары|C0|, если у Вас их уже слишком много.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

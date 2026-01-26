@@ -33,7 +33,7 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Не у каждого монстра есть разрушаемые части, но у многих они есть.",
+			"dialog"		: "Не у каждого монстра есть разрушаемые части, но многие имеют их.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
