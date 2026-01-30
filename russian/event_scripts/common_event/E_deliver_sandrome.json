@@ -114,6 +114,7 @@
 	"step1_ask_B_frozen_veyeral"		: "step1_ask_veyeral",
 	"step1_ask_B_vibrant_veyeral"		: "step1_ask_veyeral",
 	"step1_ask_B_veyeral_rain"			: "step1_ask_veyeral",
+	"step1_ask_B_storm_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_B_molten_veyeral"		: "step1_ask_veyeral",
 	"step1_ask_veyeral" : [
 		{
@@ -250,6 +251,7 @@
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
+	"step1_leave_B_ventra"				: "step1_leave_unknown",
 	"step1_leave_B_dot"					: "step1_leave_unknown",
 	"step1_leave_B_glacia"				: "step1_leave_unknown",
 	"step1_leave_B_split_veyeral"		: "step1_leave_unknown",
@@ -397,6 +399,29 @@
 		{
 			"character"			: ["VOICE_snowball", "CHAR_snowball_right", "MOOD_happy"],
 			"dialog"			: "Давай, мы должны попрактиковать речь для сей доставки.",
+		},
+	],
+	
+	"step1_leave_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "I see many heart explosionings coming from your eyes!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Are you sick?",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "Yes, and I'm afraid it could be terminal.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "Hurry and deliver these gifts while I'm still alive!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Onward! Full speedingly!",
 		},
 	],
 	
@@ -759,6 +784,41 @@
 		},
 	],
 	
+	"step1_ask_B_ventra" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Your assistance is requested.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "I am hearing a questing for me in this area.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "But I see only the robot with many damagings.",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Please deliver the ------- to --------",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "I am solving of this message!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "A gift must be delivered to the Zaraden with many lovings, yes?",
+		},
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Correct Answer.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "I am accepting of this quest!",
+		},
+	],
+	
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -836,6 +896,29 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
 			"dialog"			: "Наверное, ничего.",
+		},
+	],
+	
+	"step1_leave_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "I am accepting of this quest and will deliverate this gift!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "I will also be telling from who this gift was giving.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "And there will be many forgivings for the both of us.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "You would do that for me?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "|wave|I must share the forgivings with my new stormy friend.",
 		},
 	],
 	
@@ -920,6 +1003,7 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
@@ -1095,6 +1179,7 @@
 	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_dendrohai_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"		: "step2_leave_crush",

@@ -634,6 +634,116 @@
 	],
 	
 	
+	"step1_response_B_sandrome" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "The very Zaraden had offerings of friendship, but I also paid with    |shake|the violence!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "But an idea has been formulatified.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "A gift will bring us many forgivings!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+			"dialog"			: "But I have too many shamings to see the Zaraden again.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "The quest of gift delivering must go to you!",
+		},
+	],
+	"comment_pickup_B_sandrome"	: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+		"dialog"	: "Choose the best gift for forgivings.",
+	},
+	"confirm_pickup_B_sandrome"		: {
+		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
+		"dialog"	: "Delivering this?",
+	},
+	
+	
+	"step1_response_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "You feel much remorse for your actions, yes?",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "Lucky there is a simple solution.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "Zaraden love the treasure!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I have many treasures to give!",
+		},
+	],
+	"step1_response_B_voladrome_devil" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shock"],
+			"dialog"			: "You must understand, this Zaraden craves the battles!",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_sad"],
+			"dialog"			: "She will never be angry for this.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "I have many treasures.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "Take some to her, and you will understand that she loves you.",
+		},
+	],
+	"comment_pickup_B_voladrome"	: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+		"dialog"	: "Which treasure will you give?",
+	},
+	"confirm_pickup_B_voladrome"		: {
+		"character"	: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+		"dialog"	: "You want this, yes?",
+	},
+	"pickup_next_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_normal"],
+			"dialog"			: "A hydrome of your length must have high carrying capacity.",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "You will take more treasure!",
+		},
+	],
+	"step1_bye_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "The best part of treasure is sharing with friends.",
+		},
+	],
+	"step1_bye_B_voladrome_devil" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "Give her the treasure, and she will deem you worthy of transportation!",
+		},
+	],
+	"step1_bye_unknown_B_voladrome" : [
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_happy"],
+			"dialog"			: "I am the Guardian known as [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_voladrome", "CHAR_voladrome_right", "MOOD_shocked"],
+			"dialog"			: "|shake|I am very good at guarding.",
+		},
+	],
+	
+	
 	"step1_response_unknown_B_photoxai" : [
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
@@ -678,6 +788,80 @@
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_content"],
 			"dialog"			: "Можешь называть меня [VAL1]!!",
+		},
+	],
+	
+	
+	"step1_response_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
+			"dialog"			: "You are thinking too inefficiently!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_confused"],
+			"dialog"			: "There is no reason to feel bad anymore.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "Look at this.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "I made these heart stones for her.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "You take one of them to her right now, and she'll be happy to see you!",
+		},
+	],
+	"step1_response_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised_blush"],
+			"dialog"			: "You are thinking too inefficiently!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "|shake|But so am I!|L|I can't stop thinking about her!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "She is way too sweet to be mad at you.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_surprised"],
+			"dialog"			: "I have an idea.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+			"dialog"			: "You deliver one of my gifts to her.|L|You need the excuse to see her again-",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "And I need to calm down before I can see her again.",
+		},
+	],
+	"comment_pickup_B_dendrohai"	: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
+		"dialog"	: "Which one is the optimal gift for her right now?",
+	},
+	"confirm_pickup_B_dendrohai"		: {
+		"character"	: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+		"dialog"	: "Is it this one?",
+	},
+	"pickup_next_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "Wait, I have something else for her.",
+		},
+	],
+	"step1_bye_B_dendrohai" : [
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_normal"],
+			"dialog"			: "She receives my gift, and you get to apologize at the same time.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|I love solving multiple problems at once.",
 		},
 	],
 	
@@ -1364,6 +1548,40 @@
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_happy"],
 			"dialog"			: "Однако вы можете обращаться к Этому Модулю просто \"Дозорная\".",
+		},
+	],
+	
+	
+	"comment_pickup_B_ventra"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+		"dialog"	: "Which one should I give her?",
+	},
+	"confirm_pickup_B_ventra"		: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "This one?",
+	},
+	"pickup_next_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Actually, I think I can spare another one.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "I'll be fine without it.",
+		},
+	],
+	"comment_pickup_B_ventra_B_sandrome"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "...",
+	},
+	"confirm_pickup_B_ventra_B_sandrome"	: {
+		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+		"dialog"	: "..?",
+	},
+	"step1_bye_unknown_B_ventra" : [
+		{
+			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "|C3|Assigned Name: Ventra",
 		},
 	],
 	
@@ -2285,6 +2503,30 @@
 			"dialog"			: "|wave|Глаз видит вас!",
 		},
 	],
+	
+	
+	"step1_response_B_storm_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
+			"dialog"			: "You know what? I was just about to take a gift to that very same Zaraden.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+			"dialog"			: "But I'm worried she wouldn't want to see me again anyways.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Maybe you should do it instead.",
+		},
+	],
+	"comment_pickup_B_storm_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
+		"dialog"	: "What do you think she wants?",
+	},
+	"confirm_pickup_B_storm_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
+		"dialog"	: "Are you sure?",
+	},
 	
 	
 	"step1_response_B_molten_veyeral" : [

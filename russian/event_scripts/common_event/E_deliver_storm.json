@@ -82,6 +82,8 @@
 		},
 	],
 	"step1_ask_B_blot"					: "step1_ask_unknown",
+	"step1_ask_B_sandrome"				: "step1_ask_unknown",
+	"step1_ask_B_voladrome"				: "step1_ask_unknown",
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
@@ -221,6 +223,7 @@
 	],
 	"step1_leave_B_blot"				: "step1_leave_unknown",
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
+	"step1_leave_B_voladrome"			: "step1_leave_unknown",
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_ombroah"				: "step1_leave_unknown",
@@ -414,6 +417,44 @@
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
 			"dialog"			: "Тебе надо передать ей дар, и ты увидишь, что тебя простят.",
+		},
+	],
+	
+	"step1_leave_B_sandrome" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I'm going to tell her it's from you, okay?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "She will definitely forgive you then.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "You would share the forgivings to me?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|I'd do anything for my new friend.",
+		},
+	],
+	
+	"step1_leave_B_dendrohai_twins" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I'm going to tell her these are from you.",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
+			"dialog"			: "That may be the only way to cure my brain inefficiency!",
+		},
+		{
+			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
+			"dialog"			: "But maybe I don't want to be cured.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I never thought I'd see the day.",
 		},
 	],
 	
@@ -1061,6 +1102,90 @@
 		},
 	],
 	
+	"step1_ask_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "You're like a portable power supply.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "I'm charging up just by being near you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "You're not going to try to kill me, are you?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "I wouldn't do that.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
+			"dialog"			: "A long time ago, someone told me that Voidlings are not always a threat.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Huh, but you look kinda different now...    I think.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "Did you always have eyeballs?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I don't remember ever   NOT   having an eye.",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
+			"dialog"			: "Look, I'm going to enter emergency self repair mode right now, but can you do me a little favor?",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "You've just been blasted by love from a Zaraden today, right?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "That did happen to me, but how-",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "It happened to me too!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
+			"dialog"			: "Can you please give her one of these?",
+		},
+	],
+	"step1_leave_B_ventra" : [
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "Tell her these are from [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
+			"dialog"			: "And thanks for the free energy!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
+			"dialog"			: "I'll be going into sleep mode for a while now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Thanks for not trying to kill me!",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
+			"dialog"			: "...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I didn't know they could be so nice.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Just one unexpected thing after another today.",
+		},
+	],
 	
 	"step1_ask_B_dot" : [
 		{
@@ -1461,6 +1586,7 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
@@ -1658,6 +1784,7 @@
 	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_dendrohai_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
 	"step2_leave_B_chemory_twins"			: "step2_leave_crush",
