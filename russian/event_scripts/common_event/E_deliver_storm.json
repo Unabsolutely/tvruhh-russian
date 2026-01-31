@@ -423,38 +423,38 @@
 	"step1_leave_B_sandrome" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I'm going to tell her it's from you, okay?",
+			"dialog"			: "Я скажу ей, что это от тебя, ладно?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "She will definitely forgive you then.",
+			"dialog"			: "Тогда она точно тебя простит.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
-			"dialog"			: "You would share the forgivings to me?",
+			"dialog"			: "Ты разделишь со мной прощения?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "|wave|I'd do anything for my new friend.",
+			"dialog"			: "|wave|Я сделаю что угодно для моего нового друга.",
 		},
 	],
 	
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "I'm going to tell her these are from you.",
+			"dialog"			: "Я скажу ей, что они от тебя.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "That may be the only way to cure my brain inefficiency!",
+			"dialog"			: "Это может быть единственным методом излечить неэффективность моего мозга!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "But maybe I don't want to be cured.",
+			"dialog"			: "Хотя, может, я и не хочу лечиться.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I never thought I'd see the day.",
+			"dialog"			: "Не думала, что такой день наступит.",
 		},
 	],
 	
@@ -1105,73 +1105,73 @@
 	"step1_ask_B_ventra" : [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "You're like a portable power supply.",
+			"dialog"			: "Ты прямо портативный источник энергии.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "I'm charging up just by being near you.",
+			"dialog"			: "Я заряжаюсь, просто находясь рядом с тобой.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "You're not going to try to kill me, are you?",
+			"dialog"			: "Ты не попытаешься убить меня, да?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "I wouldn't do that.",
+			"dialog"			: "Я бы этого не делала.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "A long time ago, someone told me that Voidlings are not always a threat.",
+			"dialog"			: "Давным-давно, кое-кто рассказал мне, что Порождения Пустоты - не всегда угроза.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Huh, but you look kinda different now...    I think.",
+			"dialog"			: "Хмм, но ты выглядишь как-то по другом...    мне кажется.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Did you always have eyeballs?",
+			"dialog"			: "У вас всегда были глазные яблоки?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
-			"dialog"			: "I don't remember ever   NOT   having an eye.",
+			"dialog"			: "Не помню, чтобы у меня когда-то    НЕ   было глаза.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_pain"],
-			"dialog"			: "Look, I'm going to enter emergency self repair mode right now, but can you do me a little favor?",
+			"dialog"			: "Слушай, я сейчас уйду в экстренный режим самопочинки. Можешь мне немного помочь?",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "You've just been blasted by love from a Zaraden today, right?",
+			"dialog"			: "Тебя тоже сегодня поразила любовь Зарадены, да?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "That did happen to me, but how-",
+			"dialog"			: "Да, со мной это произошло, но как-",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "It happened to me too!",
+			"dialog"			: "Это произошло и со мной!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "Can you please give her one of these?",
+			"dialog"			: "Можешь передать ей один из них?",
 		},
 	],
 	"step1_leave_B_ventra" : [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "Tell her these are from [VAL1].",
+			"dialog"			: "Скажи ей, что их передала [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "And thanks for the free energy!",
+			"dialog"			: "И спасибо за бесплатную подзарядку!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
-			"dialog"			: "I'll be going into sleep mode for a while now.",
+			"dialog"			: "Сейчас я надолго уйду в режим сна.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Thanks for not trying to kill me!",
+			"dialog"			: "Спасибо, что не пыталась убить меня!",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_normal"],
@@ -1179,11 +1179,11 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "I didn't know they could be so nice.",
+			"dialog"			: "Не думала, что они могут быть настолько любезными.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
-			"dialog"			: "Just one unexpected thing after another today.",
+			"dialog"			: "Сегодня прям одна неожиданность за другой.",
 		},
 	],
 	

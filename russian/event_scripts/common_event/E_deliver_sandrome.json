@@ -405,23 +405,23 @@
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I see many heart explosionings coming from your eyes!",
+			"dialog"			: "Я вижу много взрывотонаций сердец из твоих глаз!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "Are you sick?",
+			"dialog"			: "|shake|Ты больна?",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_blush"],
-			"dialog"			: "Yes, and I'm afraid it could be terminal.",
+			"dialog"			: "Да, и боюсь, это смертельно.",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy_blush"],
-			"dialog"			: "Hurry and deliver these gifts while I'm still alive!",
+			"dialog"			: "Поспеши и доставь эти дары, пока я ещё жива!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "|shake|Onward! Full speedingly!",
+			"dialog"			: "|shake|Вперёд! Полное быстроение!",
 		},
 	],
 	
@@ -787,35 +787,35 @@
 	"step1_ask_B_ventra" : [
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Your assistance is requested.",
+			"dialog"			: "|C3|Запрашивается ваша помощь.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I am hearing a questing for me in this area.",
+			"dialog"			: "Я слышаю о работозадании для меня в этом месте.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
-			"dialog"			: "But I see only the robot with many damagings.",
+			"dialog"			: "Но я вижу только робота с множеством ущербждений.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Please deliver the ------- to --------",
+			"dialog"			: "|C3|Пожалуйста, доставьте ------- к --------",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "I am solving of this message!",
+			"dialog"			: "Я решбираюсь в этом сообщении!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "A gift must be delivered to the Zaraden with many lovings, yes?",
+			"dialog"			: "Дар должен быть доставлен Зарадене с множеством люблений, да?",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
-			"dialog"			: "|C3|Correct Answer.",
+			"dialog"			: "|C3|Правильный Ответ.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "I am accepting of this quest!",
+			"dialog"			: "Я принимаю это работозадание!",
 		},
 	],
 	
@@ -902,23 +902,23 @@
 	"step1_leave_B_storm_veyeral" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
-			"dialog"			: "I am accepting of this quest and will deliverate this gift!",
+			"dialog"			: "Я соглапринимаю это задание и перемедоставлю эти дары!",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
-			"dialog"			: "I will also be telling from who this gift was giving.",
+			"dialog"			: "Я также расскажу, от кого был даден этот дар.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "And there will be many forgivings for the both of us.",
+			"dialog"			: "И для нас обоих будет множество прощений.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
-			"dialog"			: "You would do that for me?",
+			"dialog"			: "Ты сделаешь это ради меня?",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
-			"dialog"			: "|wave|I must share the forgivings with my new stormy friend.",
+			"dialog"			: "|wave|Я должен разделить прощения с моим новым бурьным другом.",
 		},
 	],
 	
