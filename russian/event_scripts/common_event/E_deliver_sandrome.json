@@ -371,7 +371,7 @@
 	"step1_ask_B_knot_knott" : [
 		{
 			"character"			: ["VOICE_knot", "CHAR_knot_right", "MOOD_sad"],
-			"dialog"			: "IПохоже, ты и правда хочешь извиниться перед ней.",
+			"dialog"			: "Похоже, ты и правда хочешь извиниться перед ней.",
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
