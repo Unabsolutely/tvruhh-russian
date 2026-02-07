@@ -454,7 +454,7 @@
 	"to_mg_scavenge_first" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Я понимаю, что Вы не хотите, чтобы я потратила всю мою энергию, но не думаю, что Вы найдёте много одни.",
+			"dialog"			: "Я понимаю, что Вы не хотите, чтобы я потратила всю мою энергию, но не думаю, что Вы найдёте много сами.",
 		},
 	],
 	"to_mg_scavenge" 	: [
@@ -517,11 +517,11 @@
 	"course_win" 		: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_surprised"],
-			"dialog"			: "А тепнрть посмотрите под ноги.",
+			"dialog"			: "А теперь посмотрите под ноги.",
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_very_happy"],
-			"dialog"			: "Ещё оди [VAL1] - прямо здесь!",
+			"dialog"			: "Ещё один [VAL1] - прямо здесь!",
 		},
 	],
 	"course_dnf" 	: [
@@ -537,7 +537,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_despair"],
-			"dialog"			: "Моё сканирование провалилось так сильно?",
+			"dialog"			: "Моё сканирование так сильно провалилось?",
 		},
 	],
 	
@@ -1040,7 +1040,7 @@
 		},
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_sad"],
-			"dialog"			: "Наверное, вам следует|C3|проверить сердце|C0| и убедиться, что вы понимаете все побочные эффекты.",
+			"dialog"			: "Наверное, вам следует|C3| проверить сердце|C0| и убедиться, что вы понимаете все побочные эффекты.",
 		},
 	],
 	"three_chips_taken" 	: [
@@ -1148,6 +1148,7 @@
 
 
 }
+
 
 
 
