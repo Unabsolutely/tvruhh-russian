@@ -687,6 +687,8 @@
 		"B_wisp"				: "Груша для Битья",
 		"B_ember_polyps"		: "Курица Прайм",
 		"B_volt_polyps"			: "Бесплатные Электролиты!",
+		"B_avoid_stella"		: "Смотри Прямо На Меня!",
+		"B_rage_celestia"		: "Солнце (Ночью)",
 	},
 	
 	"spooky_names" : {
@@ -782,6 +784,8 @@
 		"B_chroma"				: "Умеренность",
 		"B_duality"				: "Мир",
 		"B_trinity"				: "Колесница",
+		"B_avoid_stella"		: "Смерть",
+		"B_rage_celestia"		: "Сила",
 		"B_nix_polyps"			: "Тёмная Сладкая Вата",
 		"B_ember_polyps"		: "Жареная Сладкая Вата",
 		"B_volt_polyps"			: "Кислая Сладкая Вата",
