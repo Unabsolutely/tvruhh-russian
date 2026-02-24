@@ -466,6 +466,9 @@
 	"MENU_stage_titles" : {
 		"normal_gift"	: "Полюби за этот дар",
 		"challenge_gift": "Поработай за этот дар",
+		"bless_bounty"	: "За эту битву Награда",
+		"burden_bounty"	: "На этой битве Ноша",
+		"burden_gift"	: "Прими её ноши",
 		"xstat_adjust"	: "Сила этого монстра изменена",
 		"underlevel"	: "Уровень этого монстра снижен",
 		"overlevel"		: "Уровень этого монстра увеличен",

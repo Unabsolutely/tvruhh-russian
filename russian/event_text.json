@@ -208,6 +208,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "У них всех есть награда для тебя",
 	},
 	"E_stage_wrath" : {
 		"name"		: "Гневные Монстры",
@@ -217,6 +218,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "Эти монстры злятся на тебя!",
 	},
 	"E_stage_repel" : {
 		"name"		: "Отталкивающие Монстры",
@@ -226,8 +228,9 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "Эти монстры замкнуты в себе!",
 	},
-        "E_stage_mirror" : {
+	"E_stage_mirror" : {
 		"name"		: "Перевёрнутые Сны",
 		"hint"		: "[hint_stage_common]",
 		"details"	: "У меня немного кружилась голова, когда я встретилась с этими монстрами. Это не было бы чем-то серьёзным, но оказалось, что все наши грёзы были |C3|отзеркалены или перевёрнуты!|C0| Я была дезориентирована тем, что оказалась не на той стороне сна! Всё остальное было как обычно, но я не ожидала, что это так сильно повлияет на меня.",
@@ -235,6 +238,7 @@
 		"rule2"		: "[rule_stage2]",
 		"rule3"		: "[rule_karma]",
 		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "У тебя кружится голова",
 	},
 	"E_stage_no_panic" : {
 		"name"		: "Не Паникуй!",
@@ -263,6 +267,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "Светлые монстры и дары",
 	},
 	"E_stage_void" : {
 		"name"		: "Всё Тьма",
@@ -272,6 +277,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "Пустотные монстры и дары",
 	},
 	"E_stage_burn" : {
 		"name"		: "Всё Горит",
@@ -281,6 +287,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "Огненные монстры и дары",
 	},
 	"E_stage_zap" : {
 		"name"		: "Всё Шокирует",
@@ -290,6 +297,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "Электрические монстры и дары",
 	},
 	"E_stage_toxic" : {
 		"name"		: "Всё Отравлено",
@@ -299,6 +307,7 @@
 		"rule2"		: "[rule_element1]",
 		"rule3"		: "[rule_element2]",
 		"rule4"		: "[rule_element3]",
+		"stage_t"	: "Ядовитые монстры и дары",
 	},
 	"E_stage_shamble" : {
 		"name"		: "Осколки Инструментов Художницы",
@@ -308,6 +317,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Осколков",
 	},
 	"E_stage_guardian" : {
 		"name"		: "Пир Стражей",
@@ -317,6 +327,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Стражей",
 	},
 	"E_stage_glyph" : {
 		"name"		: "Каменный Океан Глифов",
@@ -326,6 +337,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Глифов",
 	},
 	"E_stage_zaramech" : {
 		"name"		: "Починка Зарамехов",
@@ -335,6 +347,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Зарамехов",
 	},
 	"E_stage_glass" : {
 		"name"		: "Космическое Цветочное Поле",
@@ -344,6 +357,7 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Стеклянной Флоры",
 	},
 	"E_stage_veyeral" : {
 		"name"		: "Они Пришли Из Пустоты",
@@ -353,13 +367,15 @@
 		"rule2"		: "[rule_family1]",
 		"rule3"		: "[rule_family2]",
 		"rule4"		: "[rule_family3]",
+		"stage_t"	: "Ты встретила группу Веералей",
 	},
 	"E_stage_large" : {
-		"name"		: "Я Вижу Каждую",
+		"name"		: "Я Вижу Всех",
 		"hint"		: "[hint_stage_common]",
 		"details"	: "Всего лишь на мгновение, но дождь рассеялся. Мир будто бы замер, без единой капли, падающей с неба. |C3|Вокруг меня было 10 монстров|C0|. Все они пялились на меня, ждали моего шага. Ах, если бы только я смогла выбрать больше одного, прежде чем снова пошёл дождь и я потеряла из виду всех остальных.",
 		"rule1"		: "[rule_stage1]",
 		"rule2"		: "[rule_stage2]",
+		"stage_t"	: "Большая группа монстров!",
 	},
 	
 	
