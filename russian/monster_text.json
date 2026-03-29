@@ -1159,7 +1159,7 @@
 	
 	"B_shiny_rendy" : {
 		"name"		: "Сияющая Рэнди",
-		"card"		"",
+		"card"		: "",
 		"eyeric"	: "|ren||n5||-||fai||shen| (Rendi Faishen)",
 		"before"	: "Копаю ради сокровища!",
 		"after"		: "Ты - сокровище Рэнди",
