@@ -744,6 +744,122 @@
 	],
 	
 	
+	"step1_response_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Are you talkin' about the same Zaraden that I just met?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Darling, I'm going to let ya in on a little secret.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "All Zaraden like things that smell nice.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Why don'tcha give her one of these as a gift?",
+		},
+	],
+	"step1_response_B_shanx_defect" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Are you talkin' about the same Zaraden that I just met?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Did ya notice how long her claws get when she's in a fighting mood?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "She's a fierce one, but she would never hurt ya, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Why don'tcha give her one of these gifts as an apology?",
+		},
+	],
+	"step1_response_B_shanx_twins" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Are these the same Zaradens that I just met?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "Darling, I'm going to let ya in on a little secret.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "All Zaraden like things that smell nice.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Why don'tcha give them one of these as a gift?",
+		},
+	],
+	"step1_response_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Are you talkin' about The Devil?",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "She has such a magnificient crown on her pretty little head.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "Just thinkin' about her is making me wanna blast out a roar louder than Mount Retina goin' off.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I got an idea.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Why don'tcha go give her one of my gifts as an apology?",
+		},
+	],
+	"comment_pickup_B_shanx"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "What will it be, darling?",
+	},
+	"confirm_pickup_B_shanx"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "Is this the one?",
+	},
+	"pickup_next_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "A darling like her also needs somethin' dangerous to make her look even more powerful.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "You'd better take her one of these too.",
+		},
+	],
+	"step1_bye_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I promise you this, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "She'll be happier than an avioc in a big ol' fruit basket.",
+		},
+	],
+	"step1_bye_B_shanx_twins" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "I promise you this, darling.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "They'll be happier than a pod of mites jumpin' on a big ol' mushroom.",
+		},
+	],
+	
+	
 	"step1_response_unknown_B_photoxai" : [
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
@@ -982,6 +1098,142 @@
 	],
 	
 	
+	"step1_response_B_lavalin" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "Not you too.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|Why is it so hard to avoid hurting anyone!",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Oh-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "That was a close one.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "I almost hurt that Zaraden earlier too.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "I actually just picked out some mushrooms for her, as another apology.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Can you take one of these to her?",
+		},
+	],
+	"step1_response_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "I almost hurt that Zaraden earlier, and-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "|shake|Her sister was frightening me too!",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Oh-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "But in the end, they were very kind to me.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "I actually just picked out some mushrooms for them.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Can you take one of these to them?",
+		},
+	],
+	"comment_pickup_B_lavalin"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "Maybe some mites want to go instead.",
+	},
+	"confirm_pickup_B_lavalin"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "This one?",
+	},
+	"pickup_next_B_lavalin_blank" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Now that I think about it.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "No one had ever said they loved me before today.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "She deserves another one, don't you think?",
+		},
+	],
+	"step1_bye_B_lavalin" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "It's nice to meet you, [VAL3].",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "My name is [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "When you see the Zaraden, tell her to be careful, okay?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "You never know when an earthquake can happen.",
+		},
+	],
+	"step1_bye_B_lavalin_blank" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "You can call me [VAL1], if I can call you [VAL3].",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "Tell the Zaraden to watch out for earthquakes, okay?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "And I, uh-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "|shake|I love you.",
+		},
+	],
+	"step1_bye_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "It's nice to meet you, [VAL3].",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "My name is [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "And when you see those Zaraden, tell them to be careful, okay?",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "You never know when a disaster will strike.",
+		},
+	],
+	
+	
 	"comment_pickup_B_heliola"	: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
 		"dialog"	: "Что, ты думаешь, ей нравится?",
@@ -1160,6 +1412,24 @@
 			"dialog"			: "Я - глиф |shake||nu||ze||nah||norm| огня!|L||!|Просто зови меня [VAL1].",
 		},
 	],
+	
+	
+	"comment_pickup_B_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "Pick any of these.",
+	},
+	"comment_pickup_B_chionotoh_BLS_hadesoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+		"dialog"	: "Did she leave this on me this whole time?",
+	},
+	"comment_pickup_B_chionotoh_BLS_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "This is what I can do for her.",
+	},
+	"confirm_pickup_B_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "Is this the one you want?",
+	},
 	
 	
 	"step1_response_B_astrayo" : [
@@ -2603,6 +2873,58 @@
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
 			"dialog"			: "В следующий раз я сделаю твой любимый суп.",
+		},
+	],
+	
+	
+	"step1_response_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "So, she can even reach the largest monsters in the forest.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Are you worried that she will be upset with you?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "I have the perfect solution.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Choose any of these high quality decorations from my castle.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Offer it to her as a gift.",
+		},
+	],
+	"comment_pickup_B_blizz_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "Give her one of these.",
+	},
+	"confirm_pickup_B_blizz_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "Do you think she'll like it?",
+	},
+	"pickup_next_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I almost forgot.|L|You have to take another one.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|This one is for Blue Veyeral.",
+		},
+	],
+	"step1_bye_unknown_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I'm [VAL1].",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Also known as    |wave|the queen of this castle.",
 		},
 	],
 	

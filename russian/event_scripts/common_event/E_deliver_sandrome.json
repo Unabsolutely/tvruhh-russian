@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_lavalin"				: "step1_ask_unknown",
 	"step1_ask_B_astrayo"				: "step1_ask_unknown",
 	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
@@ -116,6 +117,7 @@
 	"step1_ask_B_veyeral_rain"			: "step1_ask_veyeral",
 	"step1_ask_B_storm_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_B_molten_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_blizz_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_veyeral" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -249,6 +251,7 @@
 	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_lavalin"				: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_ventra"				: "step1_leave_unknown",
@@ -262,6 +265,7 @@
 	"step1_leave_B_vibrant_veyeral"		: "step1_leave_unknown",
 	"step1_leave_B_veyeral_rain"		: "step1_leave_unknown",
 	"step1_leave_B_molten_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_blizz_veyeral"		: "step1_leave_unknown",
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -402,6 +406,26 @@
 		},
 	],
 	
+	"step1_leave_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "I see many heart explosionings on your head!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|Are you under attack?",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Darling, you never told me you had that special type of sight.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "No one will ever be able to keep any secrets from ya.",
+		},
+	],
+	
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
@@ -422,6 +446,33 @@
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
 			"dialog"			: "|shake|Вперёд! Полное быстроение!",
+		},
+	],
+	
+	"step1_leave_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "You must take my thankulations for this!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "I almost forgot.|!||L|Be careful around her sister.",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "I think she might try to ride on you.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "Transportationing is one of my top skills!",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "Oh-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "Have fun then, I guess.",
 		},
 	],
 	
@@ -565,6 +616,71 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
 			"dialog"			: "Я хочу, чтобы ты отдала ей одно из этих благословений.",
+		},
+	],
+	
+	"step1_ask_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "Thanks for walking with me.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "Are you sure you don't want the transportationing?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "The whole point is for me to do this myself right now.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
+			"dialog"			: "Just like you have something to do yourself.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "The challengingness of this quest is too high.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I'll make this easier for you.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "Oh, uh- Can you see these?",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "I have visionated these blessings many times before.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "You could always see them too?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Blessings?  That's what    someone I know used to call them.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "Anyways, these blessings will be your excuse to go see her again.",
+		},
+	],
+	"step1_leave_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Trust me. You don't want to waste all this time avoiding her.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Before you realize it, too much time will have passed...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|I am accepting of this grand quest!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "This blessing will bring many forgivings for my sins.",
 		},
 	],
 	
@@ -983,6 +1099,7 @@
 	],
 	"step2_intro_B_boiler"				: "step2_intro_worry",
 	"step2_intro_B_amalga"				: "step2_intro_worry",
+	"step2_intro_B_lavalin"				: "step2_intro_worry",
 	"step2_intro_worry" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -1030,7 +1147,25 @@
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "Доставка этого дара принесёт мне прощений за мои прошлые уколения, да?",
+			"dialog"			: "Доставка этих даров принесёт мне прощений за мои прошлые уколения, да?",
+		},
+	],
+	"step2_intro_B_shanx_devil" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "[VAL1] sends many gifts to you!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|I saw many heart explosionings all over her face.",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "I was believing she was under attack!",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "But it seemed to actually bring her many happiness.",
 		},
 	],
 	"comment_delivery_single"	: {
@@ -1100,7 +1235,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_pain"],
-			"dialog"			: "Мы не можем оставить мебе гигантского червя!",
+			"dialog"			: "Мы не можем оставить себе гигантского червя!",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad2"],
@@ -1179,6 +1314,7 @@
 	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_shanx_devil"			: "step2_leave_crush",
 	"step2_leave_B_dendrohai_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",

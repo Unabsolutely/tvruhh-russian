@@ -87,6 +87,7 @@
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_lavalin"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_B_pearl"					: "step1_ask_unknown",
 	"step1_ask_unknown" 	: [
@@ -227,6 +228,7 @@
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_lavalin"				: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_null_unit"			: "step1_leave_unknown",
@@ -439,6 +441,22 @@
 		},
 	],
 	
+	"step1_leave_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "I'm going to tell her these are from you.",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "Darling, this isn't about me right now.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "But I wouldn't mind gettin' a sneaky little report about her adorable reaction.",
+		},
+	],
+	
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -568,7 +586,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-			"dialog"			: "Это ведь Зарадена влезла в твоё |shake||nu||ze||nah||norm| сознание, да?",
+			"dialog"			: "Это ведь Зарадена влезла в твоё |shake||nu||ze||nah||norm| сознание. Так?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -585,6 +603,75 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
 			"dialog"			: "Ты ищешь предлог, чтобы с ней снова встретиться, по глазу видно.",
+		},
+	],
+	
+	"step1_ask_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "Thanks for walking with me.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I wouldn't really call this walking.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "There you go doubting yourself again.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "It was a joke.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|I know.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "So, are you ready to go see her now?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "Well...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "I'll make this easy for you.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Can you see these strange gifts too?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "What are those?",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "I don't really know.|L|I just started seeing them myself.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "But I do know that you can use one as an excuse to go see her again.",
+		},
+	],
+	"step1_leave_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "Trust me. You don't want to waste all this time avoiding her.",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "Before you realize it, too much time will have passed...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "I see.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I won't let that happen.",
 		},
 	],
 	
@@ -1505,9 +1592,83 @@
 		},
 	],
 	
+	"step1_ask_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I know exactly how you feel right now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "But it's completely impossible that she is angry with you.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "How do you know for sure?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "She climbed my whole mind castle and saved me from my nightmares.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "She did what?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "Did we not experience the same thing?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I had a big castle filled with traps and-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+			"dialog"			: "The details don't matter.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "Have you noticed that my new castle has a lot of high quality decorations?",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "I guess they are pretty.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "Well, I want you to take one and offer it to her as a gift!",
+		},
+	],
+	"step1_leave_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|Thank you so much.|norm||L|I'll go find her right now.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "Also, your new castle is so tall and filled with lovely decorations.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "About that.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "I was thinking...|L||!|Maybe all of our sisters could live here.",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "You could live here too,   if you want.",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "Somewhere to live?|L|Can I really have that?",
+		},
+	],
 	
 	
-
+	
+	
 	
 	"step2_intro_generic" : [
 		{
@@ -1566,6 +1727,7 @@
 	],
 	"step2_intro_B_boiler"				: "step2_intro_worry",
 	"step2_intro_B_amalga"				: "step2_intro_worry",
+	"step2_intro_B_lavalin"				: "step2_intro_worry",
 	"step2_intro_worry" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1586,6 +1748,7 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_shanx_devil"			: "step2_intro_crush",
 	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
@@ -1784,6 +1947,7 @@
 	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_shanx_devil"				: "step2_leave_crush",
 	"step2_leave_B_dendrohai_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
