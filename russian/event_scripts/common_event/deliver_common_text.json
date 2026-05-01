@@ -747,115 +747,115 @@
 	"step1_response_B_shanx" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Are you talkin' about the same Zaraden that I just met?",
+			"dialog"			: "Ты о той Зарадене, что я только что повстречала?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Darling, I'm going to let ya in on a little secret.",
+			"dialog"			: "Солнышко, я поделюсь с тобой маленьким секретиком.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "All Zaraden like things that smell nice.",
+			"dialog"			: "Всем Зараденам нравится то, что хорошо пахнет.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Why don'tcha give her one of these as a gift?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек?",
 		},
 	],
 	"step1_response_B_shanx_defect" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Are you talkin' about the same Zaraden that I just met?",
+			"dialog"			: "Ты о той Зарадене, что я только что повстречала?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Did ya notice how long her claws get when she's in a fighting mood?",
+			"dialog"			: "Видела, какие длинные её когти, когда она готова драться?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "She's a fierce one, but she would never hurt ya, darling.",
+			"dialog"			: "Она свирепа, но она не тронет тебя, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Why don'tcha give her one of these gifts as an apology?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек и так извиниться?",
 		},
 	],
 	"step1_response_B_shanx_twins" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Are these the same Zaradens that I just met?",
+			"dialog"			: "Ты о тех Зарадене, что я только что повстречала?",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Darling, I'm going to let ya in on a little secret.",
+			"dialog"			: "Солнышко, я поделюсь с тобой маленьким секретиком.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "All Zaraden like things that smell nice.",
+			"dialog"			: "Всем Зараденам нравится то, что хорошо пахнет.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Why don'tcha give them one of these as a gift?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек?",
 		},
 	],
 	"step1_response_B_shanx_devil" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Are you talkin' about The Devil?",
+			"dialog"			: "Ты о Дьяволе",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "She has such a magnificient crown on her pretty little head.",
+			"dialog"			: "На её красивой головушке такая изумительная корона.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "Just thinkin' about her is making me wanna blast out a roar louder than Mount Retina goin' off.",
+			"dialog"			: "Просто думая о ней, хочется завыть громче, чем извержение Горы Сетчатки.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I got an idea.",
+			"dialog"			: "У меня есть идея.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Why don'tcha go give her one of my gifts as an apology?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек и так извиниться?",
 		},
 	],
 	"comment_pickup_B_shanx"	: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-		"dialog"	: "What will it be, darling?",
+		"dialog"	: "И что это будет, солнышко?",
 	},
 	"confirm_pickup_B_shanx"		: {
 		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-		"dialog"	: "Is this the one?",
+		"dialog"	: "Возьмёшь этот?",
 	},
 	"pickup_next_B_shanx" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "A darling like her also needs somethin' dangerous to make her look even more powerful.",
+			"dialog"			: "У такое солнышка, как она, должно быть ещё что-то опасное, что сделает её вид ещё более могучим.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "You'd better take her one of these too.",
+			"dialog"			: "Лучше передай ей ещё один из этих.",
 		},
 	],
 	"step1_bye_B_shanx" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I promise you this, darling.",
+			"dialog"			: "Обещаю тебе, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "She'll be happier than an avioc in a big ol' fruit basket.",
+			"dialog"			: "Она будет счастливее, чем авиоко в корзиночке фруктов.",
 		},
 	],
 	"step1_bye_B_shanx_twins" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "I promise you this, darling.",
+			"dialog"			: "Обещаю тебе, солнышко.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
-			"dialog"			: "They'll be happier than a pod of mites jumpin' on a big ol' mushroom.",
+			"dialog"			: "Она будет счастливее, чем стая клещей, прыгающих на большом-пребольшом грибочке.",
 		},
 	],
 	
@@ -1101,135 +1101,135 @@
 	"step1_response_B_lavalin" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "Not you too.",
+			"dialog"			: "О нет, только ещё и не ты.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
-			"dialog"			: "|shake|Why is it so hard to avoid hurting anyone!",
+			"dialog"			: "|shake|Ну почему так тяжело никого не ранить!",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Oh-",
+			"dialog"			: "Ах-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "That was a close one.",
+			"dialog"			: "Это было близко.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "I almost hurt that Zaraden earlier too.",
+			"dialog"			: "Я ведь ещё и чуть не поранила ту Зарадену ранее.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "I actually just picked out some mushrooms for her, as another apology.",
+			"dialog"			: "На самом деле я только что собрала немного грибов для неё. Хочу ещё раз извиниться.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "Can you take one of these to her?",
+			"dialog"			: "Можешь передать ей один из них?",
 		},
 	],
 	"step1_response_B_lavalin_twins" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "I almost hurt that Zaraden earlier, and-",
+			"dialog"			: "Я чуть не поранила ту Зарадену ранее, и-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
-			"dialog"			: "|shake|Her sister was frightening me too!",
+			"dialog"			: "|shake|Её сестра тоже меня напугала!",
 		},
 		{
 			"scene_shake"		: 1,
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Oh-",
+			"dialog"			: "Ах-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "But in the end, they were very kind to me.",
+			"dialog"			: "Но, в конце концов, они были добры ко мне.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "I actually just picked out some mushrooms for them.",
+			"dialog"			: "На самом деле я только что собрала немного грибов для них.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "Can you take one of these to them?",
+			"dialog"			: "Можешь передать им один из них?",
 		},
 	],
 	"comment_pickup_B_lavalin"	: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
-		"dialog"	: "Maybe some mites want to go instead.",
+		"dialog"	: "Может, кто-то из клещей захотят отправиться вместо этого.",
 	},
 	"confirm_pickup_B_lavalin"		: {
 		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-		"dialog"	: "This one?",
+		"dialog"	: "Этот?",
 	},
 	"pickup_next_B_lavalin_blank" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "Now that I think about it.",
+			"dialog"			: "Теперь, когда я об этом задумалась...",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
-			"dialog"			: "No one had ever said they loved me before today.",
+			"dialog"			: "Никто не говорил мне, что любит меня, до этого дня.",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "She deserves another one, don't you think?",
+			"dialog"			: "Она заслуживает ещё один, не думаешь?",
 		},
 	],
 	"step1_bye_B_lavalin" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "It's nice to meet you, [VAL3].",
+			"dialog"			: "Приятно познакомиться, [VAL3].",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
-			"dialog"			: "My name is [VAL1].",
+			"dialog"			: "Меня зовут [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "When you see the Zaraden, tell her to be careful, okay?",
+			"dialog"			: "Увидишь Зарадену, передай, чтобы была осторожнее, ладно?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "You never know when an earthquake can happen.",
+			"dialog"			: "Никогда не знаешь, когда случится землетрясение.",
 		},
 	],
 	"step1_bye_B_lavalin_blank" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "You can call me [VAL1], if I can call you [VAL3].",
+			"dialog"			: "Можешь звать меня [VAL1], если позволишь называть тебя \"[VAL3]\".",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "Tell the Zaraden to watch out for earthquakes, okay?",
+			"dialog"			: "Передай Зарадене быть осторожнее с землетрясениями, ладно?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
-			"dialog"			: "And I, uh-",
+			"dialog"			: "И я, эм-",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
-			"dialog"			: "|shake|I love you.",
+			"dialog"			: "|shake|Я люблю тебя.",
 		},
 	],
 	"step1_bye_B_lavalin_twins" : [
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
-			"dialog"			: "It's nice to meet you, [VAL3].",
+			"dialog"			: "Рада встрече, [VAL3].",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
-			"dialog"			: "My name is [VAL1].",
+			"dialog"			: "Меня зовут [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
-			"dialog"			: "And when you see those Zaraden, tell them to be careful, okay?",
+			"dialog"			: "И когда увидишь Зараден, скажи им быть осторожнее, ладно?",
 		},
 		{
 			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
-			"dialog"			: "You never know when a disaster will strike.",
+			"dialog"			: "Никогда не знаешь, когда грянет бедствие.",
 		},
 	],
 	
@@ -1416,19 +1416,19 @@
 	
 	"comment_pickup_B_chionotoh"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
-		"dialog"	: "Pick any of these.",
+		"dialog"	: "Выбери любой из них.",
 	},
 	"comment_pickup_B_chionotoh_BLS_hadesoh"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
-		"dialog"	: "Did she leave this on me this whole time?",
+		"dialog"	: "Она оставила мне его всё это время?",
 	},
 	"comment_pickup_B_chionotoh_BLS_chionotoh"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
-		"dialog"	: "This is what I can do for her.",
+		"dialog"	: "Вот что я могу сделать для неё.",
 	},
 	"confirm_pickup_B_chionotoh"	: {
 		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
-		"dialog"	: "Is this the one you want?",
+		"dialog"	: "Ты хочешь этот?",
 	},
 	
 	
@@ -2880,51 +2880,51 @@
 	"step1_response_B_blizz_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "So, she can even reach the largest monsters in the forest.",
+			"dialog"			: "Так она может достать даже самых больших монстров в лесу.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Are you worried that she will be upset with you?",
+			"dialog"			: "Боишься, что она будет расстроена тобой?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "I have the perfect solution.",
+			"dialog"			: "У меня есть идеальное решение.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Choose any of these high quality decorations from my castle.",
+			"dialog"			: "Возьми любую высококачественную декорацию из моего замка.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Offer it to her as a gift.",
+			"dialog"			: "И отдай ей как подарок.",
 		},
 	],
 	"comment_pickup_B_blizz_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Give her one of these.",
+		"dialog"	: "Отдай ей один из них.",
 	},
 	"confirm_pickup_B_blizz_veyeral"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Do you think she'll like it?",
+		"dialog"	: "Думаешь, ей понравится этот?",
 	},
 	"pickup_next_B_blizz_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I almost forgot.|L|You have to take another one.",
+			"dialog"			: "Я едва не забыла.|L|Возьми ещё один.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|This one is for Blue Veyeral.",
+			"dialog"			: "|wave|Этот - для Синей Веерали.",
 		},
 	],
 	"step1_bye_unknown_B_blizz_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
-			"dialog"			: "I'm [VAL1].",
+			"dialog"			: "Я - [VAL1].",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Also known as    |wave|the queen of this castle.",
+			"dialog"			: "Также известная как    |wave|королева этого замка.",
 		},
 	],
 	
