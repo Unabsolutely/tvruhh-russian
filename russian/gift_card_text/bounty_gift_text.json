@@ -247,6 +247,36 @@
 		"name"    : "Шар Отторжения",
 		"memory"  : "Иногда монстры инвертируют свои Атаки на Всю Арену. Они наполнят пузыри аурой, вместо того, чтобы распространять её по всему сну. Эти пузыри всегда в самых неудобных местах! Могу только догадываться, почему монстры так атакуют. Когда я спрашиваю их об этом, они не могут вспомнить ничего конкретного из нашего общего сна.",
 		"card"    : "Опасные пузыри!|L|+[VAL3]% к частицам",
+		},
+	"BNT_gloom_a" : {
+		"name"    : "Shard of Gloom",
+		"memory"  : "Sorry, little sisters. Big Sister is too sad and sleepy now. Da Zaraden lady is gunna get us.|L||L|Don't cry, Big Sister. You did good. We were bad sisters.",
+		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+	},
+	"BNT_gloom_b" : {
+		"name"    : "Chunk of Gloom",
+		"memory"  : "What's the |shake||nu||ze||nah||norm| point anymore? I bet you just want to |shake||nu||ze||nah||norm| hurt me too. Do your worst. I don't care anymore.",
+		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+	},
+	"BNT_gloom_c" : {
+		"name"    : "Orb of Gloom",
+		"memory"  : "I'll sometimes find monsters in such a depressive mood that it affects our dreams. They will cover parts of the dream with thick gloomy walls that won't let my heart my heart pass through. The walls can even rain down more attacks that I have to avoid.|L||L|Now that I think about it, these gloom walls are made of the same stuff that The Void uses in her dreams.",
+		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+	},
+	"BNT_invader_a" : {
+		"name"    : "Invader Shard",
+		"memory"  : "Can I be here too?|L|Is that okay?|L|Am I allowed?|L|Can you help me?",
+		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
+	},
+	"BNT_invader_b" : {
+		"name"    : "Invader Chunk",
+		"memory"  : "Is this an invitation?|L|I do have a little bit of time left before I go away. I can spend that time with you.",
+		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
+	},
+	"BNT_invader_c" : {
+		"name"    : "Invader Orb",
+		"memory"  : "I don't really know how my power works exactly, but I do know that I can catch more that one monster at a time with it. They aren't usually so close together, but every so often I'll catch Wisp in the dreamscape along with another monster. She can act on her own, but usually adjusts her behavior to match whatever the other monsters are feeling around her.",
+		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
 	},
 	
 }
