@@ -3,20 +3,20 @@
 	"monster_gifts"		: "Дары [VAL1]",
 	"delivery_gifts"	: "Доставка Даров",
 	
-	"comment_pickup_B_sandrome"	: {
+	"comment_pickup_B_sandrome_B_sandrome"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
 		"dialog"	: "Зарадены любят дары.",
 	},
-	"confirm_pickup_B_sandrome"		: {
+	"confirm_pickup_B_sandrome_B_sandrome"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
 		"dialog"	: "Ей понравится этот?",
 	},
 	
-	"comment_pickup_B_storm_veyeral"	: {
+	"comment_pickup_B_storm_veyeral_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 		"dialog"	: "Интересно, понравится ли ей один из них.",
 	},
-	"confirm_pickup_B_storm_veyeral"		: {
+	"confirm_pickup_B_storm_veyeral_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 		"dialog"	: "Это и правда сработает?",
 	},
