@@ -250,33 +250,33 @@
 		},
 	"BNT_gloom_a" : {
 		"name"    : "Щепка Мрака",
-		"memory"  : "Sorry, little sisters. Big Sister is too sad and sleepy now. Da Zaraden lady is gunna get us.|L||L|Don't cry, Big Sister. You did good. We were bad sisters.",
-		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+		"memory"  : "Извините, малые сестрицы. Большая Сестрица слишком грустная и сонная. Эт-та леди Зарадена достанет нас.|L||L|Не плачь, Большая Сестрица. Ты справилась. Мы были плохими сестрицами.",
+		"card"    : "Мрачная битва!|L|+[VAL3]% к частицам",
 	},
 	"BNT_gloom_b" : {
 		"name"    : "Кусок Мрака",
-		"memory"  : "What's the |shake||nu||ze||nah||norm| point anymore? I bet you just want to |shake||nu||ze||nah||norm| hurt me too. Do your worst. I don't care anymore.",
-		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+		"memory"  : "Да в чём вообще |shake||nu||ze||nah||norm| смысл? Ставлю на то, что ты мне тоже, |shake||nu||ze||nah||norm|, сделаешь мне больно. Ну давай. Мне уже |shake||nu||ze||nah||norm|.",
+		"card"    : "Мрачная битва!|L|+[VAL3]% к частицам",
 	},
 	"BNT_gloom_c" : {
 		"name"    : "Шар Мрака",
-		"memory"  : "I'll sometimes find monsters in such a depressive mood that it affects our dreams. They will cover parts of the dream with thick gloomy walls that won't let my heart my heart pass through. The walls can even rain down more attacks that I have to avoid.|L||L|Now that I think about it, these gloom walls are made of the same stuff that The Void uses in her dreams.",
-		"card"    : "Gloomy Battle!|L|Mote score +[VAL3]%",
+		"memory"  : "Иногда я нахожу монстров в такой глубокой депрессии, что это отражается в их снах. Они покроют части сна толстыми стенами мрака, что не пропускают моё сердце. Из стен могут даже изливаться атаки, что я должна избегать.|L||L|Хм, подумав об этом, эти стены - из той же материи, что я вижу в снах Пустоты.",
+		"card"    : "Мрачная битва!|L|+[VAL3]% к частицам",
 	},
 	"BNT_invader_a" : {
 		"name"    : "Щепка Вторжения",
 		"memory"  : "Можно и мне сюда?|L|Это ведь нормально?|L|Мне позволено?|L|Поможешь мне?",
-		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
+		"card"    : "Вторжение Светлячка!|L|+[VAL2]% к частицам",
 	},
 	"BNT_invader_b" : {
 		"name"    : "Кусок Вторжения",
 		"memory"  : "Это приглашение?|L|У меня есть немного времени, прежде, чем я уйду. Я могу провести это время с тобой.",
-		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
+		"card"    : "Вторжение Светлячка!|L|+[VAL2]% к частицам",
 	},
 	"BNT_invader_c" : {
 		"name"    : "Шар Вторжения",
-		"memory"  : "Я даже не знаю как на самом деле работает моя сила, но я уверена, что с её помощью могу поймать не одного монстра за раз. Обычно они так близки друг к другу, но временами я ловлю Светлячка во сон вместе с другим монстром. Она может действовать самостоятельно, но обычно подстраивает своё поведение под чувства других монстров, находящихся рядом с ней.",
-		"card"    : "Invader Wisp!|L|Mote score +[VAL2]%",
+		"memory"  : "Я даже не знаю, как на самом деле работает моя сила, но я уверена, что с её помощью могу поймать больше одного монстра за раз. Обычно они не так близки друг к другу, но временами я ловлю Светлячка во сон вместе с другим монстром. Она может действовать самостоятельно, но обычно подстраивает своё поведение под чувства других монстров, находящихся рядом с ней.",
+		"card"    : "Вторжение Светлячка!|L|+[VAL2]% к частицам",
 	},
 	
 }
