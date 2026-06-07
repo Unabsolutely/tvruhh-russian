@@ -17,7 +17,7 @@
 		},
 		{
 			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
-			"dialog"			: "Подойди,      и стань ничем вместе со мной.",
+			"dialog"			: "Подойди      и стань ничем вместе со мной.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_shy"],

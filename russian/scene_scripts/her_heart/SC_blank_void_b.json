@@ -57,7 +57,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_pain"],
-			"dialog"			: "Каждый заслуживает того, чтобы чувствовать себя любимым!",
+			"dialog"			: "Каждый заслуживает того, чтобы его любили!",
 		},
 		{
 			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_cry"],
