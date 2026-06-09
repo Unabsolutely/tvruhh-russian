@@ -113,11 +113,11 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Чудовища, которых эта Зарадена любила раньше, будут делиться с Вами своими мечтами.",
+			"dialog"		: "Монстры, которых эта Зарадена любила раньше, будут делиться с Вами своими мечтами.",
 		},
 		{
 			"character"		: ["VOICE_blank", "CHAR_blank_left", "MOOD_content"],
-			"dialog"		: "|wave|Я могу помочь им в осуществлении их мечты.",
+			"dialog"		: "|wave|Я могу помочь осуществить их мечты.",
 		},
 		{
 			"show_tutorial"	: "monster_dreams",

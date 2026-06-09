@@ -57,11 +57,11 @@
 	
 	"storage_delete"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-		"dialog"	: "Мы можем убрать этот дар и освободить место для других, но он исчезнит.",
+		"dialog"	: "Мы можем убрать етот дар и освободить место для других, но он исчезнит.",
 	},
 	"delete_confirm"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
-		"dialog"	: "Уверина, что хочишь удалить этот дар?",
+		"dialog"	: "Уверина, что хочишь удалить етот дар?",
 	},
 	"storage_add"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
@@ -74,11 +74,11 @@
 	
 	"comment_starter"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-		"dialog"	: "Этот дар для тибя сейчас слишком сильно важен.",
+		"dialog"	: "Етот дар для тибя сейчас слишком сильно важен.",
 	},
 	"comment_link"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
-		"dialog"	: "Ты достала этот дар с утра!|L|Если его вирнуть, будет парадокс...|L|От которого всиленная взорвётся!",
+		"dialog"	: "Ты достала етот дар с утра!|L|Если его вирнуть, будет парадокс...|L|От которого всиленная взорвётся!",
 	},
 	"comment_one"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
@@ -90,7 +90,7 @@
 	},
 	"comment_three"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "|wave|Оох!|norm||L|Это же чудесный дар!",
+		"dialog"	: "|wave|Оох!|norm||L|Ето же чудесный дар!",
 	},
 	"comment_TAG_scrambla_fav"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
@@ -98,11 +98,11 @@
 	},
 	"comment_TAG_boiler_fav"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Это любимая еда систрицы Варки.",
+		"dialog"	: "Ето любимая еда систрицы Варки.",
 	},
 	"comment_TAG_scrambla_part"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "|wave|Это кусочик нас!",
+		"dialog"	: "|wave|Ето кусочик нас!",
 	},
 	"comment_TAG_boiler_part"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
@@ -110,7 +110,7 @@
 	},
 	"comment_I_link_synapse"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Ни волнуйся, |wave|это просто нибольшой парадокс!",
+		"dialog"	: "Ни волнуйся, |wave|ето просто нибольшой парадокс!",
 	},
 	"comment_duplicate"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
@@ -118,31 +118,31 @@
 	},
 	"comment_over"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-		"dialog"	: "Это дар слишком сильный, чтобы его можно было вмистить.",
+		"dialog"	: "Етот дар слишком сильный, чтобы его можно было вмистить.",
 	},
 	"comment_type"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-		"dialog"	: "У этого дара ниправильная форма!|L|Мы ни можем его взять.",
+		"dialog"	: "У етого дара ниправильная форма!|L|Мы ни можем его взять.",
 	},
 	"store_confirm"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Хочешь, чтобы мы сохранили этот дар?",
+		"dialog"	: "Хочешь, чтобы мы сохранили етот дар?",
 	},
 	
 	"gift_stored" 		: [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Мы сохранили этот дар!|L|Он будит ждать тибя завтра!",
+			"dialog"			: "Мы сохранили етот дар!|L|Он будит ждать тибя завтра!",
 		}
 	],
 	"unradiated_stored" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Мы сохранили этот дар!|L||!|Он будит ждать тибя завтра!",
+			"dialog"			: "Мы сохранили етот дар!|L||!|Он будит ждать тибя завтра!",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-			"dialog"			: "Ох!      Он ни был освищён.|L||!|Ты помнишь, что это было?",
+			"dialog"			: "Ох!      Он ни был освищён.|L||!|Ты помнишь, что ето было?",
 		}
 	],
 	
@@ -157,7 +157,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Можешь дать нам любые цвита, но эти |C3|зилёные особенно вкусные!|C0|",
+			"dialog"			: "Можешь дать нам любые цвита, но ети |C3|зилёные особенно вкусные!|C0|",
 		}
 	],
 	"upgrade_to_final" 		: [
@@ -167,7 +167,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-			"dialog"			: "Но мы почти достигли придела.|L||!|После этого ми ни сможем расширять |C3|увязку синапса|C0| дальше.",
+			"dialog"			: "Но мы почти достигли придела.|L||!|После етого ми ни сможем расширять |C3|увязку синапса|C0| дальше.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
@@ -181,11 +181,11 @@
 	},
 	"red_comment"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Красные тёплые и очинь жгучие.|L|Систрёнка никогда не скажит, но |wave|она их любит!",
+		"dialog"	: "Красные тёплые и очинь жгучие.|L|Систрёнка никогда не признаится, но |wave|она их любит!",
 	},
 	"yellow_comment"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-		"dialog"	: "Жёлтые хорошо пахнут, но у них ниту никакого вкуса.",
+		"dialog"	: "Жёлтые хорошо пахнут, но у них нету никакого вкуса.",
 	},
 	"blue_comment"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
@@ -219,7 +219,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Да, нам нужны обнимашки, чтобы это сделать.",
+			"dialog"			: "Да, нам нужны обнимащки для етого.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -234,7 +234,7 @@
 	"middle_upgrade" 	: [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить это улучшение.",
+			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить ето улучшение.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -252,7 +252,7 @@
 			"play_music"		: "green_scene_music",
 			"bg_image"			: "spr_scene_scrambla_bg",
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_confused"],
-			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить это улучшение.",
+			"dialog"			: "Нам нужны обнимашки, чтобы, ээ, зарядить ето улучшение.",
 		},
 		{
 			"love_hearts"		: 1,
@@ -274,11 +274,11 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-			"dialog"			: "Нам нужно кои-что сказать...|L||!|Мы знаим, что сделали плохо раньше.|L||!|До этого мы ранили тибя много раз.",
+			"dialog"			: "Нам нужно кои-что сказать...|L||!|Мы знаим, что сделали плохо раньше.|L||!|До етого мы ранили тибя много раз.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
-			"dialog"			: "Мы сделаны из стыда и должны это признать...",
+			"dialog"			: "Мы сделаны из стыда и должны ето признать...",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
@@ -336,7 +336,7 @@
 	"come_back_ready" 		: [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Окее! Это удержит нашу |C3|увязку синапса|C0| открытой до конца этого дня.",
+			"dialog"			: "Окее! Ето удержит нашу |C3|увязку синапса|C0| открытой до конца етого дня.",
 		}
 	],
 	
@@ -379,7 +379,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_blush"],
-			"dialog"			: "Это было здорово...",
+			"dialog"			: "Ето было здорово...",
 		}
 	],
 	"leave_twins" 	: [

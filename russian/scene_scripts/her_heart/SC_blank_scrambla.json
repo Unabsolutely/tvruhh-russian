@@ -58,7 +58,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_sad"],
-			"dialog"			: "Но,     есть     много вариантов получше, чем я.",
+			"dialog"			: "Но     есть     много вариантов получше, чем я.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_normal"],
@@ -122,7 +122,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-			"dialog"			: "Иди, покажи свою любовь етому другому монстру.|L||!|Мы найдем тебя после етого,   оки?",
+			"dialog"			: "Иди, покажи свою любовь етому другому монстру.|L||!|Мы найдём тебя после боя,   оки?",
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_normal"],
@@ -130,7 +130,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "О, и еще кое-что.",
+			"dialog"			: "О, и ещ1 кое-что.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
