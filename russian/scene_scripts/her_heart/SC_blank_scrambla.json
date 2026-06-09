@@ -130,7 +130,7 @@
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-			"dialog"			: "О, и ещ1 кое-что.",
+			"dialog"			: "О, и ещё кое-что.",
 		},
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
