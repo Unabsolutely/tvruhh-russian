@@ -156,7 +156,7 @@
 	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_normal"],
-		"dialog"	: "Нравится вот это, да?",
+		"dialog"	: "Нравится вот этот, да?",
 	},
 	"gift_taken" 		: [
 		{

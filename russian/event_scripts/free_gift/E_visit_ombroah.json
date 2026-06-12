@@ -18,7 +18,7 @@
 		},
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
-			"dialog"			: "Это немного, но мы хотя бы сможем укрыться от дождя.",
+			"dialog"			: "Я мало что могу предложить, но мы хотя бы сможем укрыться от дождя.",
 		},
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_confused"],

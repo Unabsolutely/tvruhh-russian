@@ -25,11 +25,11 @@
 		},
 		{
 			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
-			"dialog"			: "Я всегда брала только те сердца, которые были мне отданы.",
+			"dialog"			: "Я всегда брала только те сердца, что мне отдавали.",
 		},
 		{
 			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
-			"dialog"			: "Никто не захотел бы отдать мне своё сердце, если бы не испытывал постоянную, невыносимую боль.",
+			"dialog"			: "Никто не захотел бы отдать мне своё сердце, не испытывай она постоянную невыносимую боль.",
 		},
 		{
 			"character"			: ["VOICE_void", "CHAR_void_right", "MOOD_normal"],
@@ -94,7 +94,7 @@
 		},
 		{
 			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_normal"],
-			"dialog"			: "|C2|И они продолжают делать это даже сейчас.",
+			"dialog"			: "|C2|И они продолжают даже сейчас.",
 		},
 		{
 			"character"			: ["VOICE_totaria", "CHAR_totaria_right", "MOOD_angry"],
