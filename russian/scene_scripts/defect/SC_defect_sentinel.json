@@ -21,7 +21,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
-			"dialog"			: "Рада это слышать.",
+			"dialog"			: "Рада слышать.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
@@ -29,7 +29,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Дай ей ещё момент, чтобы обработать мою красоту.",
+			"dialog"			: "Дай ей ещё время обработать мою красоту.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_normal"],
@@ -95,7 +95,7 @@
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
-			"dialog"			: "Они слишком опасны, чтобы им было дозволено существовать.",
+			"dialog"			: "Они слишком опасны, чтобы существовать.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_yell"],
@@ -194,7 +194,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Никто из нас не смог бы сделать ничего, чтобы это предотвратить.",
+			"dialog"			: "Никто из нас никак не смог бы это предотвратить.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_content"],
