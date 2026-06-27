@@ -3403,5 +3403,13 @@
 		"name"    : "Объятия на День Рождения Формы",
 		"desc"    : "В одном бою с Формой разбейте не менее 7 сфер пустоты паническими атаками (Режим Истории)",
 	},
+	"DR_pure_shamra1" : {
+		"name"    : "Рождена из Стыда",
+		"desc"    : "Defeat Pure Shamra while accepting a rank-3 Burdened Bounty for the battle (The Towers)",
+	},
+	"DR_pure_shamra2" : {
+		"name"    : "For You're The One Who's Shamed",
+		"desc"    : "Defeat Pure Shamra with a 100% full combo while using at least 6 panic attacks during the battle (Story Mode)",
+	},
 
 }
