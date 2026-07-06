@@ -66,19 +66,19 @@
 	
 	
 	
-	"comment_take"		: {
+	"comment_take_normal"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
 		"dialog"	: "|wave|Можешь брать!",
 	},
-	"comment_unknown"	: {
+	"comment_take_unknown"	: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
 		"dialog"	: "Аз это не помнит, но бери!",
 	},
-	"comment_over"		: {
+	"comment_take_over"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
 		"dialog"	: "Эээ... Аз оставит это себе.|L|Пвости.",
 	},
-	"comment_limit"		: {
+	"comment_quick_limit"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
 		"dialog"	: "Ты не унесёшь столько, глупышка.",
 	},
