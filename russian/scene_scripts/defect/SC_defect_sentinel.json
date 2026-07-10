@@ -136,7 +136,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_sad_cry1"],
-			"dialog"			: "Выключи свои оружия, Дозорная.|L||!|Они тебе больше не нужны.",
+			"dialog"			: "Выключи свои орудия, Дозорная.|L||!|Они тебе больше не нужны.",
 		},
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
@@ -190,7 +190,7 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Вполне естественно, что вы две за меня сражаетесь.",
+			"dialog"			: "Вполне естественно, что вы обе сражаетесь за меня.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],

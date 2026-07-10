@@ -35,7 +35,7 @@
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_confused"],
-			"dialog"			: "Ээ, да.|L|У меня есть новый танец.",
+			"dialog"			: "Эм, да.|L|У меня есть новый танец.",
 		},
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_happy"],

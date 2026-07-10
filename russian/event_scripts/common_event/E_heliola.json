@@ -11,7 +11,7 @@
 		{
 			"character"			: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_sparkle1"],
 			"random"			: 4,
-			"dialog_rand1"		: "Тогда у меня для тебя есть то что надо!",
+			"dialog_rand1"		: "Тогда у меня для тебя есть то, что надо!",
 			"dialog_rand2"		: "Тогда пусть это осветит твой день!",
 			"dialog_rand3"		: "Тогда позволь мне пролить свет на тебя в этот пасмурный день!",
 			"dialog_rand4"		: "Я сделала тебе кое-что полезное для такого случая!",
@@ -114,7 +114,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_surprised_blush"],
-			"dialog"			: "|shake|Ох, ээ-      |L||norm|Пока.",
+			"dialog"			: "|shake|Ох, эм...      |L||norm|Пока.",
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious"],

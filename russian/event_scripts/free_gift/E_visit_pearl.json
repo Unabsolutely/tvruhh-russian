@@ -96,7 +96,7 @@
 	
 	"comment_take_normal"	: {
 		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],
-		"dialog"	: "|C3|(Жемчужина держит несколько даров, как если бы она предложила выбрать один из них.)",
+		"dialog"	: "|C3|(Жемчужина держит несколько даров, словно предлагая выбрать один из них.)",
 	},
 	"take_confirm"		: {
 		"character"	: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_normal"],

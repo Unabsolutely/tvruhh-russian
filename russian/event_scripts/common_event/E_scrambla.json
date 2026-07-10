@@ -78,7 +78,7 @@
 	},
 	"comment_link"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
-		"dialog"	: "Ты достала етот дар с утра!|L|Если его вирнуть, будет парадокс...|L|От которого всиленная взорвётся!",
+		"dialog"	: "Ты достала етот дар утром!|L|Если его вирнуть, случится парадокс...|L|От которого всиленная взорвётся!",
 	},
 	"comment_one"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
@@ -90,7 +90,7 @@
 	},
 	"comment_three"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "|wave|Оох!|norm||L|Ето же чудесный дар!",
+		"dialog"	: "|wave|О-ох!|norm||L|Ето же чудесный дар!",
 	},
 	"comment_TAG_scrambla_fav"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
@@ -114,7 +114,7 @@
 	},
 	"comment_duplicate"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],
-		"dialog"	: "Оо! Ты нашла эту копию сигодня?|L|Её можно хранить бизопасно.",
+		"dialog"	: "О-о! Ты нашла эту копию сигодня?|L|Её можно хранить бизопасно.",
 	},
 	"comment_over"		: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
@@ -197,11 +197,11 @@
 	},
 	"purple_comment"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_shocked"],
-		"dialog"	: "Ааа! Эти такие холодные!",
+		"dialog"	: "А-а-а! Эти такие холодные!",
 	},
 	"radiant_comment"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_surprised"],
-		"dialog"	: "Ооо!|L|Вот эти такие красивые!",
+		"dialog"	: "О-о-о!|L|Вот эти такие красивые!",
 	},
 	"upgrade_confirm"	: {
 		"character"	: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_happy"],

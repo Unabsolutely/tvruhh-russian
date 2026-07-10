@@ -180,7 +180,7 @@
 		},
 		{
 			"character"			: ["VOICE_xaila", "CHAR_xaila_left", "MOOD_upset"],
-			"dialog"			: "Она не распознает твои странные вопросы.",
+			"dialog"			: "Она не распознаёт твои странные вопросы.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_holo_unit_right", "MOOD_normal"],

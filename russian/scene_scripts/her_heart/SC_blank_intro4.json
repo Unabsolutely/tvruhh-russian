@@ -162,7 +162,7 @@
 		},
 		{
 			"character"			: ["VOICE_blank", "CHAR_blank_left", "MOOD_surprised_cry"],
-			"dialog"			: "Я удивляюсь, как мне вдруг удалось сохранить память.",
+			"dialog"			: "Удивительно, как мне вдруг удалось сохранить память.",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

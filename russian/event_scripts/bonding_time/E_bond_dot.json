@@ -125,7 +125,7 @@
 	"to_hug_first_reply" 	: [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
-			"dialog"			: "Ты действительно даёшь мне это сделать!",
+			"dialog"			: "Ты действительно позволила мне!",
 		},
 	],
 	"to_hug" 	: [
@@ -154,8 +154,8 @@
 			"random"			: 4,
 			"dialog_rand1"		: "|wave|Большие обнимашки!|L|Большие обнимашки!|L|Большие обнимашки!",
 			"dialog_rand2"		: "Ещё одни большие обнимашки!",
-			"dialog_rand3"		: "|wave|Ла ла ла ла лаааа",
-			"dialog_rand4"		: "|wave|Ду ду дуууууууу|L|Время для больших обнимашек!",
+			"dialog_rand3"		: "|wave|Ла-ла-ла-ла-ла-а-а",
+			"dialog_rand4"		: "|wave|Ду-у-ду-ду-у-у|L|Время для больших обнимашек!",
 		},
 	],
 	
@@ -198,7 +198,7 @@
 	},
 	"comment_hug_good"	: {
 		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
-		"dialog"	: "|wave|Хмммммммм|L||wave|Хммммммммм",
+		"dialog"	: "|wave|Хм-м-мммм|L||wave|Хм-м-ммммм",
 	},
 	"comment_hug_bad"	: {
 		"character"	: ["VOICE_dot", "CHAR_dot_right", "MOOD_pain_blush"],
@@ -239,7 +239,7 @@
 			"random"			: 4,
 			"dialog_rand1"		: "А теперь следующий приём!",
 			"dialog_rand2"		: "Продолжаем!",
-			"dialog_rand3"		: "|wave|Ещё больше обнимааааааашек",
+			"dialog_rand3"		: "|wave|Ещё больше обнима-а-ааашек",
 			"dialog_rand4"		: "Ещё!",
 		},
 	],
@@ -321,15 +321,15 @@
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content"],
 			"random"			: 3,
-			"dialog_rand1"		: "|wave|Ля ля ля ляяяя",
-			"dialog_rand2"		: "|wave|Хммм хмммм хмммммммммм",
-			"dialog_rand3"		: "|wave|Дуу ду дуууууу",
+			"dialog_rand1"		: "|wave|Ля-ля-ля-ля-я-я",
+			"dialog_rand2"		: "|wave|Хм-м-м-хм-м-м-хм-м-мммммм",
+			"dialog_rand3"		: "|wave|Ду-у-ду-ду-у-уу",
 		},
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_content_blush"],
 			"random"			: 2,
-			"dialog_rand1"		: "|wave|В такооооом идеальном равновеееееесии",
-			"dialog_rand2"		: "|wave|Такааааая идеально симметричнааааааая",
+			"dialog_rand1"		: "|wave|В тако-о-ом идеальном равнове-е-есии",
+			"dialog_rand2"		: "|wave|Така-а-ая идеально симметрична-а-ая",
 		},
 	],
 	"hold_continue_blank" 	: [
@@ -743,7 +743,7 @@
 		},
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_sad"],
-			"dialog"			: "Уууу, ну я же несерьёзно.",
+			"dialog"			: "Уо-о-о, ну я же несерьёзно.",
 		},
 	],
 	"leave_devil" 	: [

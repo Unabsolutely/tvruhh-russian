@@ -41,7 +41,7 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "Штука в том, что монстры в этих башнях дают тебе сразу и |C3|Благословения|C0| и |C3|Ноши|C0|.",
+			"dialog"			: "Штука в том, что монстры в этих башнях дают тебе сразу и |C3|Благословения|C0|, и |C3|Ноши|C0|.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
@@ -49,11 +49,11 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "О, в Башнях есть ещё одно важное правило",
+			"dialog"			: "О, в Башнях есть ещё одно важное правило.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Уровень монстров растёт вместе с твоим счётом",
+			"dialog"			: "Уровень монстров растёт вместе с твоим счётом.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
@@ -65,7 +65,7 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "И напоследок.|!||L|Башни все ещё могут быть без своих финальных битв.",
+			"dialog"			: "И напоследок.|!||L|Башни всё ещё могут быть без своих финальных битв.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],

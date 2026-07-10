@@ -117,7 +117,7 @@
 	},
 	"comment_quick_limit"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
-		"dialog"	: "У тебя это даже в руках не поместится.",
+		"dialog"	: "У тебя он даже в руках не поместится.",
 	},
 	"buy_confirm"		: {
 		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
@@ -140,7 +140,7 @@
 	
 	"comment_give_normal"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_normal"],
-		"dialog"	: "Даже это кажется тёплым, потому что это из твоих рук.",
+		"dialog"	: "Даже это кажется тёплым, потому что из твоих рук.",
 	},
 	"comment_give_special"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_sad"],
@@ -180,7 +180,7 @@
 	},
 	"give_confirm"			: {
 		"character"	: ["VOICE_veyeral", "CHAR_frozen_veyeral_right", "MOOD_happy"],
-		"dialog"	: "Я могу это взять?",
+		"dialog"	: "Я могу его взять?",
 	},
 	"gift_given" 		: [
 		{

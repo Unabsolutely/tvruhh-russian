@@ -78,7 +78,7 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "Эй Синяя, а ты сейчас ничего не боишься?",
+			"dialog"			: "Эй, Синяя, а ты сейчас ничего не боишься?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],

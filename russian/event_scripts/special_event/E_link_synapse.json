@@ -137,7 +137,7 @@
 		},
 		{
 			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "|C3|Похоже, что их него можно было достать только один дар перед закрытием.",
+			"dialog"			: "|C3|Похоже, что из него можно было достать только один дар перед закрытием.",
 		},
 		{
 			"character"			: ["VOICE_default", "CHAR_center", "MOOD_normal"],

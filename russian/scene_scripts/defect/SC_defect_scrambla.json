@@ -53,11 +53,11 @@
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Не могу сказать, что я виню её за это.|L||!|Подобные вещи просто случаются.",
+			"dialog"			: "Не могу сказать, что я виню её.|L||!|Так бывает.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],
-			"dialog"			: "Я бы и сама на себя залюбовалась.|L||!|Если бы была двумя разными существами.",
+			"dialog"			: "Я бы и сама на себя залюбовалась.|L||!|Была бы двумя разными существами.",
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_awkward"],
@@ -101,7 +101,7 @@
 		},
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_happy"],
-			"dialog"			: "Ты видела это? Ей просто нужно было время, чтобы привыкнуть к нам.",
+			"dialog"			: "Видишь? Ей просто нужно было время, чтобы привыкнуть к нам.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_normal"],
