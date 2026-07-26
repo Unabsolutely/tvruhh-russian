@@ -35,6 +35,7 @@
 	
 	"level_tag"			: "Уровень [VAL1]",
 	"abbrev_level"		: "Ур. [VAL1]",
+	"FC_tag"			: "[VAL1]% ПК",
 	"very_long_time"	: "[VAL1] мин",
 	"abbrev_num_k"		: "[VAL1]К",
 	"abbrev_num_m"		: "[VAL1]М",
@@ -339,8 +340,12 @@
 		},
 	"SG_tower_shamble" : {
 		"name"		: "Рождена в Стыде",
-		"desc"		: "Тема Чистой Шамры",
-	},
+		"desc"		: "Тема битвы Чистой Шамры",
+		},
+	"SG_tower_guardian" : {
+		"name"		: "Рождена в Фрустрации",
+		"desc"		: "Тема битвы Чистой Души",
+		},
 	"SG_defect_scene" : {
 		"name"		: "Маленькое Несовершенство",
 		"desc"		: "Тема Дефект",
@@ -707,8 +712,9 @@
 		"B_avoid_stella"		: "Смотри Прямо На Меня!",
 		"B_rage_celestia"		: "Солнце (Ночью)",
 		"B_equinox"				: "Двойственность",
-		"B_octavia"				: "Синее Веераль",
+		"B_octavia"				: "Синее Веерали",
 		"B_pure_shamra"			: "Это Добром Не Кончится",
+		"B_pure_soul"			: "Endless Explosions",
 	},
 	"plus_wisp_foolish1"		: "[VAL1] и Все-Все-Все",
 	"plus_wisp_foolish2"		: "[VAL1] (Ft. Лил Полип)",
@@ -824,6 +830,7 @@
 		"B_echo"				: "Кривые Зеркала",
 		"B_forma"				: "Оно Пришло Из Пустоты",
 		"B_pure_shamra"			: "Венера",
+		"B_pure_soul"			: "Марс",	
 		
 		"B_nova"				: "Мешок с Конфетами",
 		"B_emerald"				: "Кислая Конфета",
