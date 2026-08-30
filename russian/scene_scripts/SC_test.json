@@ -1,15 +1,14 @@
 {
 	"script" : [
 		{
-			"use_textbox"		: 1,
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 320,
+			"text_y"			: 180,
+			"text_w"			: 500,
 			"play_music"		: "scene_music_a",
-			"bg_image"			: "spr_tutorial_common",
-			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_normal"],
-			"dialog"			: "Time for some Rendy facts!",
-		},
-		{
-			"character"			: ["VOICE_rendy", "CHAR_rendy_right", "MOOD_happy"],
-			"dialog"			: "ÁÉÍÓÚáéíóúÑñ¡¿|L|ÀÈÌÒÙàèìòùÄËÏÖÜäëïöü|L|ÂÊÎÔÛâêîôûҪҫẞß",
+			"voice"				: "VOICE_blue",
+			"dialog"			: "Здесь ничего нет. Куда подевалось?",
 		},
 	]
 }

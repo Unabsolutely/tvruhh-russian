@@ -30,11 +30,11 @@
 	"one_left_tag"		: "- 1 битва осталась -",
 	
 	
-	"radiant_tag"	: "|I11||C11|Свет|C0|",
-	"void_tag"		: "|I12||C12|Пустота|C0|",
-	"burn_tag"		: "|I13||C13|Огонь|C0|",
-	"zap_tag"		: "|I14||C14|Молния|C0|",
-	"toxic_tag"		: "|I15||C15|Яд|C0|",
+	"radiant_tag"	: "|I11||C11|Свет|PC|",
+	"void_tag"		: "|I12||C12|Пустота|PC|",
+	"burn_tag"		: "|I13||C13|Огонь|PC|",
+	"zap_tag"		: "|I14||C14|Молния|PC|",
+	"toxic_tag"		: "|I15||C15|Яд|PC|",
 	"radiant_open"	: "|I11|Свет",
 	"void_open"		: "|I12|Пустота",
 	"burn_open"		: "|I13|Огонь",

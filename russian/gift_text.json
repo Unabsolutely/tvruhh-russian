@@ -890,6 +890,7 @@
 		"[CHROME_HEARTS]" 			: "+[VAL_status_chrome_hearts] Хромасердца",
 		"[STOCK_REVIVE]" 			: "+[VAL_status_once_revive] доп. жизнь",
 		"[STOCK_REVIVES]" 			: "+[VAL_status_once_revive] доп. жизни",
+		"[STOCK_REVIVES_alt]" 		: "Переживи [VAL_status_once_revive] смертельных удара c 1 ОЗ",
 		"[STOCK_DENIAL]" 			: "+[VAL_status_once_denial] доп. щит",
 		"[STOCK_DENIALS]" 			: "+[VAL_status_once_denial] доп. щита",
 		
@@ -967,5 +968,16 @@
 		"[INSECURITY_short]" 		: "Урон +[SPEC1]% после повреждения|L|(1 раз за бой)",
 		"[INSECURITY2]" 			: "Урон +[SPEC1]% после повреждения|L|(2 раза за бой)",
 		"[KEY_POWER]" 				: "Все Испытания упрощаются и дают +[VAL_effect_key_power]% урона",
+		
+		"[RADIANT_PANIC]" 			: "Светлые паники",
+		"[VOID_PANIC]" 				: "Пустотные паники",
+		"[BURN_PANIC]" 				: "Огненные паники",
+		"[ZAP_PANIC]" 				: "Молниевые паники",
+		"[TOXIC_PANIC]" 			: "Ядовитые паники",
+		"[PANIC_DMG]" 				: "Урон паники +[VAL_panic_damage_raw]",
+		"[LONGER_PANIC]" 			: "Паники длятся дольше",
+		"[BIGGER_PANIC]" 			: "Большие паники",
+		"[AUTO_PANIC]" 				: "Автоматические паники",
+
 	},
 }
