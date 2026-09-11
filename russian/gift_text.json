@@ -876,7 +876,7 @@
 		"[PANICS_one]" 				: "+[VAL_status_panics] Паника",
 		"[PANICS_long]" 			: "+[VAL_status_panics] Панические атаки",
 		"[PANICS_one_long]" 		: "+[VAL_status_panics] Паническая атака",
-		"[MANIC_PANICS]" 			: "+[VAL_status_manic_panics] Манич. панику",
+		"[MANIC_PANICS]" 			: "+[VAL_status_manic_panics] Манич. паники",
 		"[MANIC_PANICS_long]" 		: "+[VAL_status_manic_panics] Маническую панику",
 		"[PANIC_POLYPS]" 			: "+[VAL_status_panic_polyps] Полипа паник",
 		"[PANIC_POLYPS_long]" 		: "+[VAL_status_panic_polyps] Панических полипа",
@@ -890,7 +890,7 @@
 		"[CHROME_HEARTS]" 			: "+[VAL_status_chrome_hearts] Хромасердца",
 		"[STOCK_REVIVE]" 			: "+[VAL_status_once_revive] доп. жизнь",
 		"[STOCK_REVIVES]" 			: "+[VAL_status_once_revive] доп. жизни",
-		"[STOCK_REVIVES_alt]" 		: "Переживи [VAL_status_once_revive] смертельных удара c 1 ОЗ",
+		"[STOCK_REVIVES_alt]" 		: "Переживи [VAL_status_once_revive] смертельных удара",
 		"[STOCK_DENIAL]" 			: "+[VAL_status_once_denial] доп. щит",
 		"[STOCK_DENIALS]" 			: "+[VAL_status_once_denial] доп. щита",
 		
