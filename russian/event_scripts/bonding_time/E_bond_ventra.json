@@ -1091,7 +1091,11 @@
 	"leave_defect" 	: [
 		{
 			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
-			"dialog"			: "Я пыталась сделать что-нибудь и для вашего Порождения Пустоты, но все мои вычисления показали, что добавление к ней чего угодно сделают её хуже.",
+			"dialog"			: "Я пыталась сделать что-нибудь и для вашего Порождения Пустоты...",
+		},
+		{
+			"character"			: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_confused"],
+			"dialog"			: "...но все мои вычисления показали, что добавление к ней чего угодно сделают её хуже.",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],

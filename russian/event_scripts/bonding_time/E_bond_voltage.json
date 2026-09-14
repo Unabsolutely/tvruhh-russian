@@ -313,7 +313,7 @@
 	"to_mg_rain_first_defect" 	: [
 		{
 			"character"			: ["VOICE_defect", "CHAR_defect_left", "MOOD_surprised"],
-			"dialog"			: "Там, что, другие веерали?|L||!|Эй! Синяя, куда ты уходишь?",
+			"dialog"			: "Там что, другие веерали?|L||!|Эй! Синяя, куда ты уходишь?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_left", "MOOD_happy"],

@@ -562,7 +562,7 @@
 		"+_double_charge_3" 	: "Обычная заряженная атака возвращает половину единицы энергии при запуске.",
 		"+_start_overflow" 		: "В начале каждой битвы восполняет всю энергию и даёт ещё до [VAL1] ед. избыточной энергии.",
 	
-		"=_cant_charge" 		: "|C4|Пока этот дар активен, нельзя делать заряженные атаки.",
+		"=_cant_charge" 		: "|C4|Пока этот дар активен, нельзя совершать заряженные атаки.",
 		"=_empty_battery" 		: "|C4|Вся энергия сбрасывается к нулю в начале каждой битвы. Избыточная энергия сохраняется.",
 	},
 	"common_shot_effects" : {
@@ -877,7 +877,7 @@
 		"[PANICS_long]" 			: "+[VAL_status_panics] Панические атаки",
 		"[PANICS_one_long]" 		: "+[VAL_status_panics] Паническая атака",
 		"[MANIC_PANICS]" 			: "+[VAL_status_manic_panics] Манич. паники",
-		"[MANIC_PANICS_long]" 		: "+[VAL_status_manic_panics] Маническую панику",
+		"[MANIC_PANICS_long]" 		: "+[VAL_status_manic_panics] Манических паники",
 		"[PANIC_POLYPS]" 			: "+[VAL_status_panic_polyps] Полипа паник",
 		"[PANIC_POLYPS_long]" 		: "+[VAL_status_panic_polyps] Панических полипа",
 		"[RESERVE_HP]" 				: "+[VAL_status_reserve_hp] резервных ОЗ",
