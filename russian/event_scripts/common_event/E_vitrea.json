@@ -88,7 +88,7 @@
 	"cost_line_1"	: "Используй |C3|1 Жетон Линз|C0|, чтобы заснять этот дар.",
 	"comment_unknown"		: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_shocked"],
-		"dialog"	: "Похоже, телескоп не может на этом сфокусироваться!|L|[VAL1]",
+		"dialog"	: "Похоже, телескоп не может на этом сфокусироваться! [VAL1]",
 	},
 	"comment_one"		: {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_normal"],
@@ -399,7 +399,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
-			"dialog"			: "|shake|Расширение пространства!",
+			"dialog"			: "|shake|Расширение территории!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_very_happy"],
@@ -446,7 +446,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
-			"dialog"			: "|shake|Расширение пространства!",
+			"dialog"			: "|shake|Расширение территории!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy"],
@@ -468,7 +468,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
-			"dialog"			: "|shake|Расширение пространства!",
+			"dialog"			: "|shake|Расширение территории!",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_happy"],

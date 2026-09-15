@@ -795,7 +795,7 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих даров как подарочек?",
 		},
 	],
 	"step1_response_B_shanx_devil" : [
@@ -817,7 +817,7 @@
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
-			"dialog"			: "Чтоб тебе не отдать ей один из этих как подарочек и так извиниться?",
+			"dialog"			: "Чтоб тебе не отдать ей один из этих даров как подарочек и так извиниться?",
 		},
 	],
 	"comment_pickup_B_shanx"	: {
@@ -831,7 +831,7 @@
 	"pickup_next_B_shanx" : [
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
-			"dialog"			: "У такое солнышка, как она, должно быть ещё что-то опасное, что сделает её вид ещё более могучим.",
+			"dialog"			: "У такого солнышка, как она, должно быть ещё что-то опасное, что сделает её вид ещё более могучим.",
 		},
 		{
 			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],

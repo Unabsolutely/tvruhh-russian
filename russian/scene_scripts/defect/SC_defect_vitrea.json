@@ -86,7 +86,7 @@
 		{
 			"love_hearts"		: 1,
 			"character"			: ["VOICE_veyeral", "CHAR_blue_veyeral_right", "MOOD_happy"],
-			"dialog"			: "Они просто не могут меня выпустить из рук.",
+			"dialog"			: "Они просто не могут выпустить меня из рук.",
 		},
 		{
 			"character"			: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_surprised"],
