@@ -260,7 +260,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_happy"],
-			"dialog"			: "В нём всегда царил мир и росли очень большие грибы!",
+			"dialog"			: "В нём всегда царил мир, и росли очень большие грибы!",
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_angry"],
