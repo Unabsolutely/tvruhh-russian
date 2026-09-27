@@ -43,6 +43,10 @@
 			"dialog"			: "Наличие |C3|кармы|C0| также увеличивает шансы на выбор до четырёх монстров.",
 		},
 		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "Если кратко, |C3|карма определяет, насколько Вы удачливы.|C0|",
+		},
+		{
 			"show_tutorial"		: "monster_preview_karma",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"			: "Любовь к |C3|монстрам более высокого уровня|C0| часто приносит больше |C3|кармы.",
@@ -68,12 +72,12 @@
 		{
 			"show_tutorial"		: "higher_level_monsters",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Однако любовь к более сильным монстрам также приведёт к появлению |C3|монстров более высокого уровня|C0| на последующих этапах.",
+			"dialog"			: "Однако любовь к монстрам более высокого уровня также |C3|увеличит уровень|C0| последующих битв.",
 		},
 		{
 			"show_tutorial"		: "lower_level_monsters",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "Аналогично, любовь к более слабым монстрам приведёт к появлению |C3|монстров более низкого уровня|C0| на следующих этапах.",
+			"dialog"			: "Любовь к монстрам низкого уровня |C3|удержит минимальный уровень ниже|C0|.",
 		},
 		{
 			"show_tutorial"		: "none",

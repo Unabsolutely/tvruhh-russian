@@ -13,62 +13,55 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Это - особая битва, во время которой монстр будет атаковать |C3|драгоценными пулями.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "В отличие от всех остальных видов пуль, |C3|драгоценные пули|C0| не надо избегать.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Ваше сердце может безопасно собирать |C3|драгоценные пули|C0| и извлекать из них |C3|частицы.|C0|",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"		: "|C3|Сияющие битвы|C0| всегда ведутся против монстра, которая уже любит Вас.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Из-за этого Ваши атаки не уменьшат |C3|страх|C0| этого монстра.",
+			"dialog"		: "Поэтому одно Ваше присутствие со временем будет истощать |C3|страх|C0| монстра.",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Вместо этого, одно Ваше присутствие со временем будет истощать |C3|страх|C0| монстра.",
+			"dialog"		: "Вы должны собрать как можно больше |C3|драгоценных пуль,|C0| пока шкала страха не истощилась.",
 		},
 		{
 			"show_tutorial"	: "love_bar_partial",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Ваши атаки будут заполнять |C3|шкалу любви|C0| монстра во время сияющей битвы.",
+			"dialog"		: "Ваши атаки никак не повлияют на страх монстра.",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "Вместо этого они будут заполнять |C3|шкалу любви|C0| монстра.",
 		},
 		{
 			"show_tutorial"	: "love_bar_full",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Когда |C3|шкала любви|C0| заполнится, монстр нападёт на Вас.",
+			"dialog"		: "Когда |C3|шкала любви|C0| заполнится, монстр выпустит большой залп |C3|драгоценных пуль.|C0|",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Этот Модуль почувствовала, что Вы задаётесь вопросом, почему Вы должны хотеть, чтобы монстры нападали на Вас?",
-		},
-		{
-			"show_tutorial"	: "none",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Всё потому, что во время сияющей битвы монстры будут атаковать Вас |C3|драгоценными пулями.|C0|",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Драгоценные пули|C0| не причиняют Вам вреда, а также содержат |C3|частицы|C0| внутри себя.",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Предложение:|C0| Извлекайте эти частицы, сталкивая Ваше сердце с как можно большим количеством |C3|драгоценных пуль.|C0|",
-		},
-		{
-			"show_tutorial"	: "love_bar_full",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|Страх|C0| монстра также перестанет истощаться на время атаки.",
-		},
-		{
-			"show_tutorial"	: "love_bar_full",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Это продлит время битвы и даст Вам больше времени на сбор частиц.",
+			"dialog"		: "Истощение шкалы страха также приостановится на время атаки, давая Вам больше времени на сбор частиц.",
 		},
 		{
 			"show_tutorial"	: "love_bar_empty",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "Как только атака монстра закончится, |C3|шкала любви|C0| опустеет, а её |C3|страх|C0| продолжит истощаться.",
+			"dialog"		: "После окончания драгоценного залпа, |C3|шкала любви|C0| опустеет, а её |C3|страх|C0| продолжит истощаться.",
 		},
 		{
 			"show_tutorial"	: "love_bar_partial",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "После каждой атаки |C3|Шкала любви|C0| будет требовать больше любви, чтобы заполнить её.",
+			"dialog"		: "После каждого драгоценного залпа |C3|шкала любви|C0| будет требовать больше любви, чтобы заполнить её.",
 		},
 		{
 			"show_tutorial"	: "combo_bar6",
@@ -77,10 +70,9 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "То есть, Ваше комбо пропадёт только в том случае, если |C3|приспешник с частицами внутри|C0| сбежит с арены.",
+			"dialog"		: "То есть, Ваше комбо пропадёт только в том случае, если |C3|приспешник|C0| сбежит с арены.",
 		},
 		{
-			"show_tutorial"	: "none",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"		: "Это вся информация о |C3|сияющих битвах,|C0| которой располагает для Вас Этот Модуль.",
 		},
