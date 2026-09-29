@@ -341,7 +341,7 @@
 		},
 		{
 			"character"			: ["VOICE_dendrohai", "CHAR_dendrohai_right", "MOOD_very_happy"],
-			"dialog"			: "Она любит обманом получать обзубьятия от своих жертв.",
+			"dialog"			: "Она любит обманом получать обзубъятия от своих жертв.",
 		},
 	],
 	"start_battle_fury" 		: [

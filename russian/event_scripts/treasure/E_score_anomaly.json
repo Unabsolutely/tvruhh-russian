@@ -34,7 +34,7 @@
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],
-			"dialog"			: "Ты смотришь на эту вселенную издалека, и под необычным углом.",
+			"dialog"			: "Ты смотришь на эту вселенную издалека и под необычным углом.",
 		},
 		{
 			"character"			: ["VOICE_static", "CHAR_center", "MOOD_normal"],

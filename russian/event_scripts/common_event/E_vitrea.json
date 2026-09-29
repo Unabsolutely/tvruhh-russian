@@ -192,7 +192,7 @@
 	},
 	"comment_donate_taken": {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_content"],
-		"dialog"	: "Ты это только что взяла.|L|И я хочу, чтобы ты это себе оставила.",
+		"dialog"	: "Ты взяла это только что. |L|Пожалуйста, оставь себе.",
 	},
 	"comment_donate_starter": {
 		"character"	: ["VOICE_vitrea", "CHAR_vitrea_right", "MOOD_upset"],
