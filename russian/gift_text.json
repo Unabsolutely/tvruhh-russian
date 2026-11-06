@@ -908,6 +908,8 @@
 		"[BLUE_TETRIDS]" 			: "+[VAL_tetrid_tetrid] Синих тетрида",
 		"[ORANGE_TETRIDS]" 			: "+[VAL_tetrid_tetrid] Оранжевых тетрида",
 		"[PURPLE_TETRIDS]" 			: "+[VAL_tetrid_tetrid] Фиолетовых тетрида",
+		"[MULTI_TETRIDS]" 			: "Получи 3 тетрида разных цветов",
+		"[TETRID_SCORE]"			: "+[VAL_tetrid_score_up] к счёту",
 		
 		"[MAX_HP]" 					: "Макс. ОЗ +[VAL_main_max_hp]",
 		"[MAX_HP_long]" 			: "Максимум ОЗ +[VAL_main_max_hp]",
