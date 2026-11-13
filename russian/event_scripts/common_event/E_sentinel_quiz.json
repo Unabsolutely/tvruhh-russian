@@ -549,13 +549,13 @@
 		"senti_x"	: "[blue_mote_x]",
 	},
 	"seriesF_06"		: {
-		"question"	: "|C3|[VAL1]|C0| это название |C3|[VAL2]?|C0|",
-		"incorrect"	: "|C3|[VAL1]|C0| это название |C3|[VAL3].",
+		"question"	: "Верно ли, что |C3|[VAL1]|C0| - |C3|[VAL2]?|C0|",
+		"incorrect"	: "|C3|[VAL1]|C0| это - |C3|[VAL3].",
 		"DEV_NOTE"	: "[VAL2] and [VAL3] will be set as one of the 'ans_gift_{type}' texts found below",
 	},
 	"seriesF_07"		: {
 		"question"	: "|C3|[VAL1]|C0| название дара какого типа?",
-		"incorrect"	: "|C3|[VAL1]|C0| название |C3|[VAL3].",
+		"incorrect"	: "|C3|[VAL1]|C0| это - |C3|[VAL3].",
 		"DEV_NOTE"	: "[VAL3] will be set as one of the 'ans_gift_{type}' texts found below",
 	},
 	"seriesF_08"		: {
